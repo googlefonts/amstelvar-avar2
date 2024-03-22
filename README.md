@@ -11,8 +11,8 @@ Folder structure
 AmstelvarA2
 ├── Fonts/
 ├── Proofs/
-├── Tools/
-├── Sources/
+├── Source/tools/
+├── Source/
 ├── README.md
 └── OFL.txt
 ```
@@ -22,9 +22,9 @@ AmstelvarA2
   <dd>contains font binaries for testing</dd>
   <dt>Proofs</dt>
   <dd>contains proofs of the variable fonts</dd>
-  <dt>Tools</dt>
+  <dt>Source/tools</dt>
   <dd>contains Python scripts used during production</dd>
-  <dt>Sources</dt>
+  <dt>Source</dt>
   <dd>contains various source files used to design and build the variable fonts</dd>
 </dl>
 
@@ -92,13 +92,13 @@ Proofs
 </dl>
 
 
-Sources
+Source
 -------
 
-This folder contains two subfolders with separate files for Roman and Italic, and project-level files which are used by both styles.
+This folder contains two subfolders with separate files for Roman and Italic, and project-level files which are used by both styles, and a subfolder for tools.
 
 ```
-Sources
+Source
 ├── Italic/
 ├── Roman/
 ├── AmstelvarA2.roboFontSets
@@ -175,7 +175,7 @@ Roman
 </dl>
 
 
-Tools
+Source/tools
 -----
 
 ### Build script
