@@ -800,7 +800,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
 if __name__ == '__main__':
 
-    subFamilyName = ['Roman', 'Italic'][0]
+    subFamilyName = ['Roman', 'Italic'][1]
 
     start = time.time()
 
