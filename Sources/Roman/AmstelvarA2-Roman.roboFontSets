@@ -3152,6 +3152,17 @@
 				<key>glyphNames</key>
 				<array>
 					<string>asterisk</string>
+					<string>section</string>
+					<string>dagger</string>
+					<string>daggerdbl</string>
+				</array>
+				<key>smartSetName</key>
+				<string>reference</string>
+			</dict>
+			<dict>
+				<key>glyphNames</key>
+				<array>
+					<string>asterisk</string>
 					<string>ordfeminine</string>
 					<string>degree</string>
 					<string>ordmasculine</string>
@@ -3232,17 +3243,6 @@
 			<dict>
 				<key>glyphNames</key>
 				<array>
-					<string>asterisk</string>
-					<string>section</string>
-					<string>dagger</string>
-					<string>daggerdbl</string>
-				</array>
-				<key>smartSetName</key>
-				<string>reference</string>
-			</dict>
-			<dict>
-				<key>glyphNames</key>
-				<array>
 					<string>parenleft</string>
 					<string>parenright</string>
 					<string>bracketleft</string>
@@ -3276,6 +3276,94 @@
 				</array>
 				<key>smartSetName</key>
 				<string>empty</string>
+			</dict>
+			<dict>
+				<key>glyphNames</key>
+				<array>
+					<string>at</string>
+					<string>numbersign</string>
+					<string>ampersand</string>
+					<string>asterisk</string>
+					<string>asciicircum</string>
+					<string>section</string>
+					<string>copyright</string>
+					<string>ordfeminine</string>
+					<string>registered</string>
+					<string>degree</string>
+					<string>paragraph</string>
+					<string>ordmasculine</string>
+					<string>.notdef</string>
+					<string>numero</string>
+					<string>commercialMinusSign</string>
+					<string>dagger</string>
+					<string>daggerdbl</string>
+					<string>bullet</string>
+					<string>trademark</string>
+					<string>micro</string>
+					<string>ohm</string>
+				</array>
+				<key>smartSetName</key>
+				<string>XTSY XOSY XSYS</string>
+			</dict>
+			<dict>
+				<key>glyphNames</key>
+				<array>
+					<string>period</string>
+					<string>exclam</string>
+					<string>quotesingle</string>
+					<string>quotedbl</string>
+					<string>parenleft</string>
+					<string>parenright</string>
+					<string>comma</string>
+					<string>hyphen</string>
+					<string>slash</string>
+					<string>colon</string>
+					<string>semicolon</string>
+					<string>question</string>
+					<string>bracketleft</string>
+					<string>backslash</string>
+					<string>bracketright</string>
+					<string>underscore</string>
+					<string>braceleft</string>
+					<string>bar</string>
+					<string>braceright</string>
+					<string>exclamdown</string>
+					<string>brokenbar</string>
+					<string>periodcentered</string>
+					<string>questiondown</string>
+					<string>quoteleft</string>
+					<string>quoteright</string>
+					<string>guillemotleft</string>
+					<string>guillemotright</string>
+					<string>ellipsis</string>
+					<string>quotesinglbase</string>
+					<string>quotedblleft</string>
+					<string>quotedblright</string>
+					<string>quotedblbase</string>
+					<string>guilsinglleft</string>
+					<string>guilsinglright</string>
+					<string>hyphentwo</string>
+					<string>endash</string>
+					<string>emdash</string>
+					<string>softhyphen</string>
+					<string>fraction</string>
+					<string>divisionslash</string>
+					<string>primemod</string>
+					<string>doubleprimemod</string>
+					<string>apostrophemod</string>
+					<string>minute</string>
+					<string>second</string>
+					<string>leftanglebracket</string>
+					<string>rightanglebracket</string>
+					<string>numeralsign</string>
+					<string>lownumeralsign</string>
+					<string>gr:question</string>
+					<string>anoteleia</string>
+					<string>threequartersemdash</string>
+					<string>figuredash</string>
+				</array>
+				<key>smartSetName</key>
+				<string>XTPC XOPC XPCS</string>
 			</dict>
 		</array>
 		<key>smartSetName</key>
