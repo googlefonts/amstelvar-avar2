@@ -23,7 +23,7 @@ def importGroupsFromSmartSets(smartsetsPath):
 
 baseFolder      = os.path.dirname(os.path.dirname(os.getcwd()))
 familyName      = 'AmstelvarA2'
-subFamilyName   = ['Roman', 'Italic'][1]
+subFamilyName   = ['Roman', 'Italic'][0]
 sourcesFolder   = os.path.join(baseFolder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_avar2.designspace')
 smartsetsPath   = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.roboFontSets')
@@ -37,9 +37,9 @@ axesList = [
 ]
 
 groupNames = [
-    # 'uppercase latin',
-    # 'uppercase greek',
-    # 'uppercase cyrillic',
+    'uppercase latin',
+    'uppercase greek',
+    'uppercase cyrillic',
     'lowercase latin',
     # 'lowercase greek',
     # 'lowercase cyrillic',
