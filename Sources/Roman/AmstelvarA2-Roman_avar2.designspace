@@ -74,6 +74,7 @@
     <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="5"/>
     <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="57"/>
     <axis tag="BARS" name="BARS" minimum="0" maximum="683" default="0"/>
+    <axis tag="TRIV" name="TRIV" minimum="0" maximum="100" default="0"/>
     <mappings>
       <mapping description="opsz144">
         <input>
@@ -1683,6 +1684,7 @@
           <dimension name="XTUA" xvalue="264"/>
           <dimension name="XTLA" xvalue="249"/>
           <dimension name="YTJD" xvalue="-120"/>
+          <dimension name="TRIV" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wght100_wdth125">
@@ -1953,6 +1955,7 @@
           <dimension name="XTTW" xvalue="5"/>
           <dimension name="YTTL" xvalue="57"/>
           <dimension name="BARS" xvalue="0"/>
+          <dimension name="TRIV" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="XTSP100">
@@ -2023,6 +2026,7 @@
           <dimension name="XTTW" xvalue="5"/>
           <dimension name="YTTL" xvalue="57"/>
           <dimension name="BARS" xvalue="0"/>
+          <dimension name="TRIV" xvalue="0"/>
         </output>
       </mapping>
     </mappings>
@@ -2093,6 +2097,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_WDSP0.ufo" familyname="AmstelvarA2 Roman" stylename="WDSP0">
@@ -2160,6 +2165,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_WDSP1000.ufo" familyname="AmstelvarA2 Roman" stylename="WDSP1000">
@@ -2227,6 +2233,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_GRAD-300.ufo" familyname="AmstelvarA2 Roman" stylename="GRAD-300">
@@ -2294,6 +2301,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_GRAD500.ufo" familyname="AmstelvarA2 Roman" stylename="GRAD500">
@@ -2361,6 +2369,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOUC4.ufo" familyname="AmstelvarA2 Roman" stylename="XOUC4">
@@ -2428,6 +2437,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOUC310.ufo" familyname="AmstelvarA2 Roman" stylename="XOUC310">
@@ -2495,6 +2505,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOUC208.ufo" familyname="AmstelvarA2 Roman" stylename="YOUC208">
@@ -2562,6 +2573,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOUC4.ufo" familyname="AmstelvarA2 Roman" stylename="YOUC4">
@@ -2629,6 +2641,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOUA174.ufo" familyname="AmstelvarA2 Roman" stylename="XOUA174">
@@ -2696,6 +2709,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOUA22.ufo" familyname="AmstelvarA2 Roman" stylename="XOUA22">
@@ -2763,6 +2777,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOUA5.ufo" familyname="AmstelvarA2 Roman" stylename="YOUA5">
@@ -2830,6 +2845,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOUA101.ufo" familyname="AmstelvarA2 Roman" stylename="YOUA101">
@@ -2897,6 +2913,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUC72.ufo" familyname="AmstelvarA2 Roman" stylename="XTUC72">
@@ -2964,6 +2981,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUC668.ufo" familyname="AmstelvarA2 Roman" stylename="XTUC668">
@@ -3031,6 +3049,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUR907.ufo" familyname="AmstelvarA2 Roman" stylename="XTUR907">
@@ -3098,6 +3117,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUR58.ufo" familyname="AmstelvarA2 Roman" stylename="XTUR58">
@@ -3165,6 +3185,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUD50.ufo" familyname="AmstelvarA2 Roman" stylename="XTUD50">
@@ -3232,6 +3253,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUD705.ufo" familyname="AmstelvarA2 Roman" stylename="XTUD705">
@@ -3299,6 +3321,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUA401.ufo" familyname="AmstelvarA2 Roman" stylename="XTUA401">
@@ -3366,6 +3389,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTUA228.ufo" familyname="AmstelvarA2 Roman" stylename="XTUA228">
@@ -3433,6 +3457,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTUC875.ufo" familyname="AmstelvarA2 Roman" stylename="YTUC875">
@@ -3500,6 +3525,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTUC541.ufo" familyname="AmstelvarA2 Roman" stylename="YTUC541">
@@ -3567,6 +3593,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTJD-16.ufo" familyname="AmstelvarA2 Roman" stylename="YTJD-16">
@@ -3634,6 +3661,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTJD-204.ufo" familyname="AmstelvarA2 Roman" stylename="YTJD-204">
@@ -3701,6 +3729,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHU0.ufo" familyname="AmstelvarA2 Roman" stylename="XSHU0">
@@ -3768,6 +3797,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHU154.ufo" familyname="AmstelvarA2 Roman" stylename="XSHU154">
@@ -3835,6 +3865,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHU0.ufo" familyname="AmstelvarA2 Roman" stylename="YSHU0">
@@ -3902,6 +3933,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHU150.ufo" familyname="AmstelvarA2 Roman" stylename="YSHU150">
@@ -3969,6 +4001,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVU0.ufo" familyname="AmstelvarA2 Roman" stylename="XSVU0">
@@ -4036,6 +4069,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVU130.ufo" familyname="AmstelvarA2 Roman" stylename="XSVU130">
@@ -4103,6 +4137,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVU215.ufo" familyname="AmstelvarA2 Roman" stylename="YSVU215">
@@ -4170,6 +4205,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVU0.ufo" familyname="AmstelvarA2 Roman" stylename="YSVU0">
@@ -4237,6 +4273,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAU0.ufo" familyname="AmstelvarA2 Roman" stylename="XVAU0">
@@ -4304,6 +4341,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAU62.ufo" familyname="AmstelvarA2 Roman" stylename="XVAU62">
@@ -4371,6 +4409,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAU0.ufo" familyname="AmstelvarA2 Roman" stylename="YHAU0">
@@ -4438,6 +4477,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAU68.ufo" familyname="AmstelvarA2 Roman" stylename="YHAU68">
@@ -4505,6 +4545,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQUC220.ufo" familyname="AmstelvarA2 Roman" stylename="XQUC220">
@@ -4572,6 +4613,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQUC22.ufo" familyname="AmstelvarA2 Roman" stylename="XQUC22">
@@ -4639,6 +4681,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQUC92.ufo" familyname="AmstelvarA2 Roman" stylename="YQUC92">
@@ -4706,6 +4749,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQUC307.ufo" familyname="AmstelvarA2 Roman" stylename="YQUC307">
@@ -4773,6 +4817,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCS205.ufo" familyname="AmstelvarA2 Roman" stylename="XUCS205">
@@ -4840,6 +4885,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCS32.ufo" familyname="AmstelvarA2 Roman" stylename="XUCS32">
@@ -4907,6 +4953,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCR0.ufo" familyname="AmstelvarA2 Roman" stylename="XUCR0">
@@ -4974,6 +5021,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCR100.ufo" familyname="AmstelvarA2 Roman" stylename="XUCR100">
@@ -5041,6 +5089,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCD57.ufo" familyname="AmstelvarA2 Roman" stylename="XUCD57">
@@ -5108,6 +5157,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XUCD-62.ufo" familyname="AmstelvarA2 Roman" stylename="XUCD-62">
@@ -5175,6 +5225,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOLC4.ufo" familyname="AmstelvarA2 Roman" stylename="XOLC4">
@@ -5242,6 +5293,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOLC293.ufo" familyname="AmstelvarA2 Roman" stylename="XOLC293">
@@ -5309,6 +5361,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOLC149.ufo" familyname="AmstelvarA2 Roman" stylename="YOLC149">
@@ -5376,6 +5429,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOLC4.ufo" familyname="AmstelvarA2 Roman" stylename="YOLC4">
@@ -5443,6 +5497,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOLA20.ufo" familyname="AmstelvarA2 Roman" stylename="XOLA20">
@@ -5510,6 +5565,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOLA153.ufo" familyname="AmstelvarA2 Roman" stylename="XOLA153">
@@ -5577,6 +5633,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOLA4.ufo" familyname="AmstelvarA2 Roman" stylename="YOLA4">
@@ -5644,6 +5701,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOLA100.ufo" familyname="AmstelvarA2 Roman" stylename="YOLA100">
@@ -5711,6 +5769,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLC42.ufo" familyname="AmstelvarA2 Roman" stylename="XTLC42">
@@ -5778,6 +5837,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLC500.ufo" familyname="AmstelvarA2 Roman" stylename="XTLC500">
@@ -5845,6 +5905,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLR46.ufo" familyname="AmstelvarA2 Roman" stylename="XTLR46">
@@ -5912,6 +5973,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLR625.ufo" familyname="AmstelvarA2 Roman" stylename="XTLR625">
@@ -5979,6 +6041,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLD501.ufo" familyname="AmstelvarA2 Roman" stylename="XTLD501">
@@ -6046,6 +6109,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLD74.ufo" familyname="AmstelvarA2 Roman" stylename="XTLD74">
@@ -6113,6 +6177,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLA170.ufo" familyname="AmstelvarA2 Roman" stylename="XTLA170">
@@ -6180,6 +6245,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTLA470.ufo" familyname="AmstelvarA2 Roman" stylename="XTLA470">
@@ -6247,6 +6313,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTLC594.ufo" familyname="AmstelvarA2 Roman" stylename="YTLC594">
@@ -6314,6 +6381,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTLC436.ufo" familyname="AmstelvarA2 Roman" stylename="YTLC436">
@@ -6381,6 +6449,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTAS665.ufo" familyname="AmstelvarA2 Roman" stylename="YTAS665">
@@ -6448,6 +6517,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTAS875.ufo" familyname="AmstelvarA2 Roman" stylename="YTAS875">
@@ -6515,6 +6585,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTDE-310.ufo" familyname="AmstelvarA2 Roman" stylename="YTDE-310">
@@ -6582,6 +6653,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTDE-100.ufo" familyname="AmstelvarA2 Roman" stylename="YTDE-100">
@@ -6649,6 +6721,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHL124.ufo" familyname="AmstelvarA2 Roman" stylename="XSHL124">
@@ -6716,6 +6789,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHL0.ufo" familyname="AmstelvarA2 Roman" stylename="XSHL0">
@@ -6783,6 +6857,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHL0.ufo" familyname="AmstelvarA2 Roman" stylename="YSHL0">
@@ -6850,6 +6925,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHL140.ufo" familyname="AmstelvarA2 Roman" stylename="YSHL140">
@@ -6917,6 +6993,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVL146.ufo" familyname="AmstelvarA2 Roman" stylename="XSVL146">
@@ -6984,6 +7061,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVL0.ufo" familyname="AmstelvarA2 Roman" stylename="XSVL0">
@@ -7051,6 +7129,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVL155.ufo" familyname="AmstelvarA2 Roman" stylename="YSVL155">
@@ -7118,6 +7197,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVL40.ufo" familyname="AmstelvarA2 Roman" stylename="YSVL40">
@@ -7185,6 +7265,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAL0.ufo" familyname="AmstelvarA2 Roman" stylename="XVAL0">
@@ -7252,6 +7333,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAL99.ufo" familyname="AmstelvarA2 Roman" stylename="XVAL99">
@@ -7319,6 +7401,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAL0.ufo" familyname="AmstelvarA2 Roman" stylename="YHAL0">
@@ -7386,6 +7469,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAL42.ufo" familyname="AmstelvarA2 Roman" stylename="YHAL42">
@@ -7453,6 +7537,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQLC148.ufo" familyname="AmstelvarA2 Roman" stylename="XQLC148">
@@ -7520,6 +7605,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQLC14.ufo" familyname="AmstelvarA2 Roman" stylename="XQLC14">
@@ -7587,6 +7673,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQLC170.ufo" familyname="AmstelvarA2 Roman" stylename="YQLC170">
@@ -7654,6 +7741,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQLC40.ufo" familyname="AmstelvarA2 Roman" stylename="YQLC40">
@@ -7721,6 +7809,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCS14.ufo" familyname="AmstelvarA2 Roman" stylename="XLCS14">
@@ -7788,6 +7877,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCS182.ufo" familyname="AmstelvarA2 Roman" stylename="XLCS182">
@@ -7855,6 +7945,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCR98.ufo" familyname="AmstelvarA2 Roman" stylename="XLCR98">
@@ -7922,6 +8013,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCR-13.ufo" familyname="AmstelvarA2 Roman" stylename="XLCR-13">
@@ -7989,6 +8081,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCD62.ufo" familyname="AmstelvarA2 Roman" stylename="XLCD62">
@@ -8056,6 +8149,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XLCD-68.ufo" familyname="AmstelvarA2 Roman" stylename="XLCD-68">
@@ -8123,6 +8217,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOFI302.ufo" familyname="AmstelvarA2 Roman" stylename="XOFI302">
@@ -8190,6 +8285,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XOFI4.ufo" familyname="AmstelvarA2 Roman" stylename="XOFI4">
@@ -8257,6 +8353,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOFI4.ufo" familyname="AmstelvarA2 Roman" stylename="YOFI4">
@@ -8324,6 +8421,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YOFI196.ufo" familyname="AmstelvarA2 Roman" stylename="YOFI196">
@@ -8391,6 +8489,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTFI40.ufo" familyname="AmstelvarA2 Roman" stylename="XTFI40">
@@ -8458,6 +8557,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTFI868.ufo" familyname="AmstelvarA2 Roman" stylename="XTFI868">
@@ -8525,6 +8625,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTFI281.ufo" familyname="AmstelvarA2 Roman" stylename="YTFI281">
@@ -8592,6 +8693,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTFI896.ufo" familyname="AmstelvarA2 Roman" stylename="YTFI896">
@@ -8659,6 +8761,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHF0.ufo" familyname="AmstelvarA2 Roman" stylename="XSHF0">
@@ -8726,6 +8829,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSHF239.ufo" familyname="AmstelvarA2 Roman" stylename="XSHF239">
@@ -8793,6 +8897,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHF0.ufo" familyname="AmstelvarA2 Roman" stylename="YSHF0">
@@ -8860,6 +8965,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSHF147.ufo" familyname="AmstelvarA2 Roman" stylename="YSHF147">
@@ -8927,6 +9033,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVF0.ufo" familyname="AmstelvarA2 Roman" stylename="XSVF0">
@@ -8994,6 +9101,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XSVF131.ufo" familyname="AmstelvarA2 Roman" stylename="XSVF131">
@@ -9061,6 +9169,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVF222.ufo" familyname="AmstelvarA2 Roman" stylename="YSVF222">
@@ -9128,6 +9237,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YSVF0.ufo" familyname="AmstelvarA2 Roman" stylename="YSVF0">
@@ -9195,6 +9305,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAF47.ufo" familyname="AmstelvarA2 Roman" stylename="XVAF47">
@@ -9262,6 +9373,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XVAF8.ufo" familyname="AmstelvarA2 Roman" stylename="XVAF8">
@@ -9329,6 +9441,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAF68.ufo" familyname="AmstelvarA2 Roman" stylename="YHAF68">
@@ -9396,6 +9509,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YHAF0.ufo" familyname="AmstelvarA2 Roman" stylename="YHAF0">
@@ -9463,6 +9577,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQFI11.ufo" familyname="AmstelvarA2 Roman" stylename="XQFI11">
@@ -9530,6 +9645,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XQFI192.ufo" familyname="AmstelvarA2 Roman" stylename="XQFI192">
@@ -9597,6 +9713,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQFI76.ufo" familyname="AmstelvarA2 Roman" stylename="YQFI76">
@@ -9664,6 +9781,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YQFI334.ufo" familyname="AmstelvarA2 Roman" stylename="YQFI334">
@@ -9731,6 +9849,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XFIR97.ufo" familyname="AmstelvarA2 Roman" stylename="XFIR97">
@@ -9798,6 +9917,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XFIR0.ufo" familyname="AmstelvarA2 Roman" stylename="XFIR0">
@@ -9865,6 +9985,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XDOT23.ufo" familyname="AmstelvarA2 Roman" stylename="XDOT23">
@@ -9932,6 +10053,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XDOT274.ufo" familyname="AmstelvarA2 Roman" stylename="XDOT274">
@@ -9999,6 +10121,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTOS30.ufo" familyname="AmstelvarA2 Roman" stylename="YTOS30">
@@ -10066,6 +10189,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTOS0.ufo" familyname="AmstelvarA2 Roman" stylename="YTOS0">
@@ -10133,6 +10257,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTTW30.ufo" familyname="AmstelvarA2 Roman" stylename="XTTW30">
@@ -10200,6 +10325,7 @@
         <dimension name="XTTW" xvalue="30"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_XTTW0.ufo" familyname="AmstelvarA2 Roman" stylename="XTTW0">
@@ -10267,6 +10393,7 @@
         <dimension name="XTTW" xvalue="0"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTTL0.ufo" familyname="AmstelvarA2 Roman" stylename="YTTL0">
@@ -10334,6 +10461,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="0"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_YTTL104.ufo" familyname="AmstelvarA2 Roman" stylename="YTTL104">
@@ -10401,6 +10529,7 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="104"/>
         <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Roman_BARS683.ufo" familyname="AmstelvarA2 Roman" stylename="BARS683">
@@ -10468,6 +10597,75 @@
         <dimension name="XTTW" xvalue="5"/>
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="683"/>
+        <dimension name="TRIV" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="corners/wght1000_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TRIV100">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="90"/>
+        <dimension name="YOUC" xvalue="66"/>
+        <dimension name="XOUA" xvalue="91"/>
+        <dimension name="YOUA" xvalue="53"/>
+        <dimension name="XTUC" xvalue="400"/>
+        <dimension name="XTUR" xvalue="561"/>
+        <dimension name="XTUD" xvalue="410"/>
+        <dimension name="XTUA" xvalue="258"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-104"/>
+        <dimension name="XSHU" xvalue="104"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="55"/>
+        <dimension name="YSVU" xvalue="165"/>
+        <dimension name="XVAU" xvalue="18"/>
+        <dimension name="YHAU" xvalue="18"/>
+        <dimension name="XQUC" xvalue="136"/>
+        <dimension name="YQUC" xvalue="141"/>
+        <dimension name="XUCS" xvalue="145"/>
+        <dimension name="XUCR" xvalue="40"/>
+        <dimension name="XUCD" xvalue="-15"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="58"/>
+        <dimension name="XOLA" xvalue="91"/>
+        <dimension name="YOLA" xvalue="53"/>
+        <dimension name="XTLC" xvalue="243"/>
+        <dimension name="XTLR" xvalue="337"/>
+        <dimension name="XTLD" xvalue="248"/>
+        <dimension name="XTLA" xvalue="235"/>
+        <dimension name="YTLC" xvalue="511"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="-240"/>
+        <dimension name="XSHL" xvalue="74"/>
+        <dimension name="YSHL" xvalue="40"/>
+        <dimension name="XSVL" xvalue="54"/>
+        <dimension name="YSVL" xvalue="70"/>
+        <dimension name="XVAL" xvalue="17"/>
+        <dimension name="YHAL" xvalue="18"/>
+        <dimension name="XQLC" xvalue="82"/>
+        <dimension name="YQLC" xvalue="90"/>
+        <dimension name="XLCS" xvalue="112"/>
+        <dimension name="XLCR" xvalue="32"/>
+        <dimension name="XLCD" xvalue="-5"/>
+        <dimension name="XOFI" xvalue="88"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="329"/>
+        <dimension name="YTFI" xvalue="771"/>
+        <dimension name="XSHF" xvalue="129"/>
+        <dimension name="YSHF" xvalue="47"/>
+        <dimension name="XSVF" xvalue="61"/>
+        <dimension name="YSVF" xvalue="117"/>
+        <dimension name="XVAF" xvalue="18"/>
+        <dimension name="YHAF" xvalue="18"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="37"/>
+        <dimension name="XDOT" xvalue="144"/>
+        <dimension name="YTOS" xvalue="11"/>
+        <dimension name="XTTW" xvalue="5"/>
+        <dimension name="YTTL" xvalue="57"/>
+        <dimension name="BARS" xvalue="0"/>
+        <dimension name="TRIV" xvalue="100"/>
       </location>
     </source>
   </sources>

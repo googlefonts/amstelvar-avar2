@@ -221,6 +221,10 @@ class AmstelvarA2DesignSpaceBuilder:
         return os.path.join(self.baseFolder, 'Sources', self.subFamilyName)
 
     @property
+    def cornerSourcesFolder(self):
+        return os.path.join(self.sourcesFolder, 'corners')
+
+    @property
     def instancesFolder(self):
         return os.path.join(self.sourcesFolder, 'instances')
 
@@ -258,6 +262,7 @@ class AmstelvarA2DesignSpaceBuilder:
     def defaultLocation(self):
         L = { name: permille(self.measurementsDefault.values[name], self.unitsPerEm) for name in self.parametricAxes }
         L['GRAD'] = 0
+        L['TRIV'] = 0
         return L
 
     @property
@@ -284,6 +289,10 @@ class AmstelvarA2DesignSpaceBuilder:
         with open(self.blendsPath, 'r', encoding='utf-8') as f:
             blendsData = json.load(f)
         return blendsData['sources']
+
+    @property
+    def cornerSources(self):
+        return { os.path.splitext(os.path.split(ufo)[-1])[0] : ufo for ufo in glob.glob(f'{self.cornerSourcesFolder}/*.ufo') }
 
     @property
     def parametricAxes(self):
@@ -340,6 +349,21 @@ class AmstelvarA2DesignSpaceBuilder:
             a.default = defaultValue
             self.designspace.addAxis(a)
 
+    def addCornerTuningAxes(self):
+
+        if self.verbose:
+            print('\tadding corner tuning axes...')
+
+        # create TRIVARS axis
+        a = AxisDescriptor()
+        a.name    = 'TRIV'
+        a.tag     = 'TRIV'
+        a.minimum = 0
+        a.maximum = 100
+        a.default = 0
+        self.designspace.addAxis(a)
+
+
     def addDefaultSource(self):
         if self.verbose:
             print('\tadding default source...')
@@ -367,6 +391,30 @@ class AmstelvarA2DesignSpaceBuilder:
                     L[name] = value
                     src.location = L
                     self.designspace.addSource(src)
+
+    def addCornerTuningSources(self):
+
+        if self.verbose:
+            print('\tadding corner tuning sources...')
+
+        for styleName, ufo in self.cornerSources.items():
+            styleNameParts = styleName.split('_')
+
+            # TRIVARS
+            if len(styleNameParts) == 2:
+                src = SourceDescriptor()
+                src.path       = ufo
+                src.familyName = f'{self.familyName} {self.subFamilyName}'
+                L = self.defaultLocation.copy()
+                value = 100
+                src.styleName  = f'TRIV{value}'
+                L['TRIV'] = value
+                src.location = L
+                self.designspace.addSource(src)
+
+            # QUADVARS
+            # elif len(styleNameParts) == 3:
+            #     quadvars[styleName] = srcPath
 
     def addInstances(self):
         if self.verbose:
@@ -543,9 +591,17 @@ class AmstelvarA2DesignSpaceBuilder:
             for axisName in blendedSources[styleName]:
                 outputLocation[axisName] = int(blendedSources[styleName][axisName])
 
+            if styleName in self.cornerSources:
+                styleNameParts = styleName.split('_')
+                if len(styleNameParts) == 2:
+                    outputLocation['TRIV'] = 100
+                # elif len(styleNameParts) == 3:
+                #     outputLocation['QUAD'] = 100
+
             m.inputLocation  = inputLocation
             m.outputLocation = outputLocation
             m.description    = styleName
+
 
             self.designspace.addAxisMapping(m)
 
@@ -574,9 +630,11 @@ class AmstelvarA2DesignSpaceBuilder:
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes()
+        self.addCornerTuningAxes()
         self.addMappings()
         self.addDefaultSource()
         self.addParametricSources()
+        self.addCornerTuningSources()
         # self.addInstances()
         self.save()
 
@@ -805,8 +863,9 @@ if __name__ == '__main__':
     start = time.time()
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    # D.build(patchBlends=True)
-    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    D.build(patchBlends=True)
+
+    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
