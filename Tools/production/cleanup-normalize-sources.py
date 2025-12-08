@@ -11,6 +11,10 @@ familyName    = 'AmstelvarA2'
 subFamilyName = ['Roman', 'Italic'][0]
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
+cornersFolder = os.path.join(sourcesFolder, 'corners')
+
+sources = False
+corners = True
 
 ignoreFontLibs = [
     'com.typemytype.robofont.italicSlantOffset',
@@ -22,11 +26,10 @@ ignoreLayers = [
     'background',
 ]
 
-cleanupSources(
-    sourcesFolder,
-    preflight=False,
-    ignoreFontLibs=ignoreFontLibs,
-    ignoreLayers=ignoreLayers
-)
+if sources:
+    cleanupSources(sourcesFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
+    normalizeSources(sourcesFolder)
 
-normalizeSources(sourcesFolder)
+if corners:
+    cleanupSources(cornersFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
+    normalizeSources(cornersFolder)

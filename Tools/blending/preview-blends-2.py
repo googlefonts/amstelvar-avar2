@@ -45,7 +45,7 @@ groupNames = [
     # 'lowercase cyrillic',
 ]
 
-savePDF = True
+savePDF = False
 
 #-------------
 # build proof
@@ -67,15 +67,19 @@ for groupName in groupNames:
         if not len(g.components):
             glyphNames.append(glyphName)
 
+glyphNames = ['U']
+
 B = BlendsPreview(designspacePath)
 B.compareFontPath = compareFontPath
 B.axesList   = axesList
 B.compare    = True
 B.margins    = True
-B.labels     = False
+B.labels     = True
 B.levels     = False
-B.levelsShow = 2
-B.wireframe  = False
+B.levelsShow = [ 1, 3 ]
+B.header     = True
+B.footer     = True
+B.points     = False
 
 for glyphName in glyphNames:
     if not glyphName:
