@@ -88,6 +88,10 @@
     <axis tag="TN11" name="TN11" minimum="0" maximum="100" default="0"/>
     <axis tag="TN12" name="TN12" minimum="0" maximum="100" default="0"/>
     <axis tag="TN13" name="TN13" minimum="0" maximum="100" default="0"/>
+    <axis tag="TN14" name="TN14" minimum="0" maximum="100" default="0"/>
+    <axis tag="TN15" name="TN15" minimum="0" maximum="100" default="0"/>
+    <axis tag="TN16" name="TN16" minimum="0" maximum="100" default="0"/>
+    <axis tag="TN17" name="TN17" minimum="0" maximum="100" default="0"/>
     <mappings>
       <mapping description="opsz144">
         <input>
@@ -220,7 +224,7 @@
           <dimension name="XTUA" xvalue="311"/>
           <dimension name="XTLA" xvalue="295"/>
           <dimension name="YTJD" xvalue="-7"/>
-          <dimension name="TN05" xvalue="100"/>
+          <dimension name="TN07" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz144_wdth50">
@@ -288,7 +292,7 @@
           <dimension name="XTUA" xvalue="233"/>
           <dimension name="XTLA" xvalue="166"/>
           <dimension name="YTJD" xvalue="-7"/>
-          <dimension name="TN10" xvalue="100"/>
+          <dimension name="TN13" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght100">
@@ -356,7 +360,7 @@
           <dimension name="XTUA" xvalue="240"/>
           <dimension name="XTLA" xvalue="240"/>
           <dimension name="YTJD" xvalue="-5"/>
-          <dimension name="TN06" xvalue="100"/>
+          <dimension name="TN09" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght1000">
@@ -493,7 +497,7 @@
           <dimension name="XTUA" xvalue="302"/>
           <dimension name="XTLA" xvalue="322"/>
           <dimension name="YTJD" xvalue="-5"/>
-          <dimension name="TN11" xvalue="100"/>
+          <dimension name="TN14" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght1000_wdth50">
@@ -631,7 +635,7 @@
           <dimension name="XTUA" xvalue="290"/>
           <dimension name="XTLA" xvalue="291"/>
           <dimension name="YTJD" xvalue="-12"/>
-          <dimension name="TN09" xvalue="100"/>
+          <dimension name="TN12" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght100_wdth50">
@@ -700,7 +704,7 @@
           <dimension name="XTUA" xvalue="191"/>
           <dimension name="XTLA" xvalue="191"/>
           <dimension name="YTJD" xvalue="-6"/>
-          <dimension name="TN08" xvalue="100"/>
+          <dimension name="TN11" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -901,7 +905,7 @@
           <dimension name="XTUA" xvalue="224"/>
           <dimension name="XTLA" xvalue="202"/>
           <dimension name="YTJD" xvalue="-159"/>
-          <dimension name="TN12" xvalue="100"/>
+          <dimension name="TN15" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100">
@@ -969,7 +973,7 @@
           <dimension name="XTUA" xvalue="235"/>
           <dimension name="XTLA" xvalue="235"/>
           <dimension name="YTJD" xvalue="-150"/>
-          <dimension name="TN04" xvalue="100"/>
+          <dimension name="TN06" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght1000">
@@ -1105,6 +1109,7 @@
           <dimension name="XTUA" xvalue="381"/>
           <dimension name="XTLA" xvalue="371"/>
           <dimension name="YTJD" xvalue="-200"/>
+          <dimension name="TN05" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght1000_wdth50">
@@ -1173,6 +1178,7 @@
           <dimension name="XTUA" xvalue="269"/>
           <dimension name="XTLA" xvalue="269"/>
           <dimension name="YTJD" xvalue="-175"/>
+          <dimension name="TN17" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100_wdth125">
@@ -1241,6 +1247,7 @@
           <dimension name="XTUA" xvalue="387"/>
           <dimension name="XTLA" xvalue="323"/>
           <dimension name="YTJD" xvalue="-176"/>
+          <dimension name="TN08" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100_wdth50">
@@ -1309,6 +1316,7 @@
           <dimension name="XTUA" xvalue="206"/>
           <dimension name="XTLA" xvalue="192"/>
           <dimension name="YTJD" xvalue="-149"/>
+          <dimension name="TN03" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wdth125">
@@ -1640,7 +1648,7 @@
           <dimension name="XTUA" xvalue="352"/>
           <dimension name="XTLA" xvalue="371"/>
           <dimension name="YTJD" xvalue="-144"/>
-          <dimension name="TN03" xvalue="100"/>
+          <dimension name="TN04" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wght1000_wdth50">
@@ -1708,7 +1716,7 @@
           <dimension name="XTUA" xvalue="264"/>
           <dimension name="XTLA" xvalue="249"/>
           <dimension name="YTJD" xvalue="-120"/>
-          <dimension name="TN07" xvalue="100"/>
+          <dimension name="TN10" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wght100_wdth125">
@@ -1776,7 +1784,7 @@
           <dimension name="XTUA" xvalue="301"/>
           <dimension name="XTLA" xvalue="324"/>
           <dimension name="YTJD" xvalue="-120"/>
-          <dimension name="TN13" xvalue="100"/>
+          <dimension name="TN16" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wght100_wdth50">
@@ -10702,7 +10710,7 @@
         <dimension name="TN02" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/wght1000_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN03">
+    <source filename="corners/opsz8_wght100_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN03">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -10770,7 +10778,7 @@
         <dimension name="TN03" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght100.ufo" familyname="AmstelvarA2 Roman" stylename="TN04">
+    <source filename="corners/wght1000_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN04">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -10838,7 +10846,7 @@
         <dimension name="TN04" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN05">
+    <source filename="corners/opsz8_wght1000_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN05">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -10906,7 +10914,7 @@
         <dimension name="TN05" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100.ufo" familyname="AmstelvarA2 Roman" stylename="TN06">
+    <source filename="corners/opsz8_wght100.ufo" familyname="AmstelvarA2 Roman" stylename="TN06">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -10974,7 +10982,7 @@
         <dimension name="TN06" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/wght1000_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN07">
+    <source filename="corners/opsz144_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN07">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11042,7 +11050,7 @@
         <dimension name="TN07" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN08">
+    <source filename="corners/opsz8_wght100_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN08">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11110,7 +11118,7 @@
         <dimension name="TN08" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN09">
+    <source filename="corners/opsz144_wght100.ufo" familyname="AmstelvarA2 Roman" stylename="TN09">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11178,7 +11186,7 @@
         <dimension name="TN09" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN10">
+    <source filename="corners/wght1000_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN10">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11246,7 +11254,7 @@
         <dimension name="TN10" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght1000_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN11">
+    <source filename="corners/opsz144_wght100_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN11">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11314,7 +11322,7 @@
         <dimension name="TN11" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN12">
+    <source filename="corners/opsz144_wght100_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN12">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11382,7 +11390,7 @@
         <dimension name="TN12" xvalue="100"/>
       </location>
     </source>
-    <source filename="corners/wght100_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN13">
+    <source filename="corners/opsz144_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN13">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -11448,6 +11456,278 @@
         <dimension name="YTTL" xvalue="57"/>
         <dimension name="BARS" xvalue="0"/>
         <dimension name="TN13" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="corners/opsz144_wght1000_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN14">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="90"/>
+        <dimension name="YOUC" xvalue="66"/>
+        <dimension name="XOUA" xvalue="91"/>
+        <dimension name="YOUA" xvalue="53"/>
+        <dimension name="XTUC" xvalue="400"/>
+        <dimension name="XTUR" xvalue="561"/>
+        <dimension name="XTUD" xvalue="410"/>
+        <dimension name="XTUA" xvalue="258"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-104"/>
+        <dimension name="XSHU" xvalue="104"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="55"/>
+        <dimension name="YSVU" xvalue="165"/>
+        <dimension name="XVAU" xvalue="18"/>
+        <dimension name="YHAU" xvalue="18"/>
+        <dimension name="XQUC" xvalue="136"/>
+        <dimension name="YQUC" xvalue="141"/>
+        <dimension name="XUCS" xvalue="145"/>
+        <dimension name="XUCR" xvalue="40"/>
+        <dimension name="XUCD" xvalue="-15"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="58"/>
+        <dimension name="XOLA" xvalue="91"/>
+        <dimension name="YOLA" xvalue="53"/>
+        <dimension name="XTLC" xvalue="243"/>
+        <dimension name="XTLR" xvalue="337"/>
+        <dimension name="XTLD" xvalue="248"/>
+        <dimension name="XTLA" xvalue="235"/>
+        <dimension name="YTLC" xvalue="511"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="-240"/>
+        <dimension name="XSHL" xvalue="74"/>
+        <dimension name="YSHL" xvalue="40"/>
+        <dimension name="XSVL" xvalue="54"/>
+        <dimension name="YSVL" xvalue="70"/>
+        <dimension name="XVAL" xvalue="17"/>
+        <dimension name="YHAL" xvalue="18"/>
+        <dimension name="XQLC" xvalue="82"/>
+        <dimension name="YQLC" xvalue="90"/>
+        <dimension name="XLCS" xvalue="112"/>
+        <dimension name="XLCR" xvalue="32"/>
+        <dimension name="XLCD" xvalue="-5"/>
+        <dimension name="XOFI" xvalue="88"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="329"/>
+        <dimension name="YTFI" xvalue="771"/>
+        <dimension name="XSHF" xvalue="129"/>
+        <dimension name="YSHF" xvalue="47"/>
+        <dimension name="XSVF" xvalue="61"/>
+        <dimension name="YSVF" xvalue="117"/>
+        <dimension name="XVAF" xvalue="18"/>
+        <dimension name="YHAF" xvalue="18"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="37"/>
+        <dimension name="XDOT" xvalue="144"/>
+        <dimension name="YTOS" xvalue="11"/>
+        <dimension name="XTTW" xvalue="5"/>
+        <dimension name="YTTL" xvalue="57"/>
+        <dimension name="BARS" xvalue="0"/>
+        <dimension name="TN14" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="corners/opsz8_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN15">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="90"/>
+        <dimension name="YOUC" xvalue="66"/>
+        <dimension name="XOUA" xvalue="91"/>
+        <dimension name="YOUA" xvalue="53"/>
+        <dimension name="XTUC" xvalue="400"/>
+        <dimension name="XTUR" xvalue="561"/>
+        <dimension name="XTUD" xvalue="410"/>
+        <dimension name="XTUA" xvalue="258"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-104"/>
+        <dimension name="XSHU" xvalue="104"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="55"/>
+        <dimension name="YSVU" xvalue="165"/>
+        <dimension name="XVAU" xvalue="18"/>
+        <dimension name="YHAU" xvalue="18"/>
+        <dimension name="XQUC" xvalue="136"/>
+        <dimension name="YQUC" xvalue="141"/>
+        <dimension name="XUCS" xvalue="145"/>
+        <dimension name="XUCR" xvalue="40"/>
+        <dimension name="XUCD" xvalue="-15"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="58"/>
+        <dimension name="XOLA" xvalue="91"/>
+        <dimension name="YOLA" xvalue="53"/>
+        <dimension name="XTLC" xvalue="243"/>
+        <dimension name="XTLR" xvalue="337"/>
+        <dimension name="XTLD" xvalue="248"/>
+        <dimension name="XTLA" xvalue="235"/>
+        <dimension name="YTLC" xvalue="511"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="-240"/>
+        <dimension name="XSHL" xvalue="74"/>
+        <dimension name="YSHL" xvalue="40"/>
+        <dimension name="XSVL" xvalue="54"/>
+        <dimension name="YSVL" xvalue="70"/>
+        <dimension name="XVAL" xvalue="17"/>
+        <dimension name="YHAL" xvalue="18"/>
+        <dimension name="XQLC" xvalue="82"/>
+        <dimension name="YQLC" xvalue="90"/>
+        <dimension name="XLCS" xvalue="112"/>
+        <dimension name="XLCR" xvalue="32"/>
+        <dimension name="XLCD" xvalue="-5"/>
+        <dimension name="XOFI" xvalue="88"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="329"/>
+        <dimension name="YTFI" xvalue="771"/>
+        <dimension name="XSHF" xvalue="129"/>
+        <dimension name="YSHF" xvalue="47"/>
+        <dimension name="XSVF" xvalue="61"/>
+        <dimension name="YSVF" xvalue="117"/>
+        <dimension name="XVAF" xvalue="18"/>
+        <dimension name="YHAF" xvalue="18"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="37"/>
+        <dimension name="XDOT" xvalue="144"/>
+        <dimension name="YTOS" xvalue="11"/>
+        <dimension name="XTTW" xvalue="5"/>
+        <dimension name="YTTL" xvalue="57"/>
+        <dimension name="BARS" xvalue="0"/>
+        <dimension name="TN15" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="corners/wght100_wdth125.ufo" familyname="AmstelvarA2 Roman" stylename="TN16">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="90"/>
+        <dimension name="YOUC" xvalue="66"/>
+        <dimension name="XOUA" xvalue="91"/>
+        <dimension name="YOUA" xvalue="53"/>
+        <dimension name="XTUC" xvalue="400"/>
+        <dimension name="XTUR" xvalue="561"/>
+        <dimension name="XTUD" xvalue="410"/>
+        <dimension name="XTUA" xvalue="258"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-104"/>
+        <dimension name="XSHU" xvalue="104"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="55"/>
+        <dimension name="YSVU" xvalue="165"/>
+        <dimension name="XVAU" xvalue="18"/>
+        <dimension name="YHAU" xvalue="18"/>
+        <dimension name="XQUC" xvalue="136"/>
+        <dimension name="YQUC" xvalue="141"/>
+        <dimension name="XUCS" xvalue="145"/>
+        <dimension name="XUCR" xvalue="40"/>
+        <dimension name="XUCD" xvalue="-15"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="58"/>
+        <dimension name="XOLA" xvalue="91"/>
+        <dimension name="YOLA" xvalue="53"/>
+        <dimension name="XTLC" xvalue="243"/>
+        <dimension name="XTLR" xvalue="337"/>
+        <dimension name="XTLD" xvalue="248"/>
+        <dimension name="XTLA" xvalue="235"/>
+        <dimension name="YTLC" xvalue="511"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="-240"/>
+        <dimension name="XSHL" xvalue="74"/>
+        <dimension name="YSHL" xvalue="40"/>
+        <dimension name="XSVL" xvalue="54"/>
+        <dimension name="YSVL" xvalue="70"/>
+        <dimension name="XVAL" xvalue="17"/>
+        <dimension name="YHAL" xvalue="18"/>
+        <dimension name="XQLC" xvalue="82"/>
+        <dimension name="YQLC" xvalue="90"/>
+        <dimension name="XLCS" xvalue="112"/>
+        <dimension name="XLCR" xvalue="32"/>
+        <dimension name="XLCD" xvalue="-5"/>
+        <dimension name="XOFI" xvalue="88"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="329"/>
+        <dimension name="YTFI" xvalue="771"/>
+        <dimension name="XSHF" xvalue="129"/>
+        <dimension name="YSHF" xvalue="47"/>
+        <dimension name="XSVF" xvalue="61"/>
+        <dimension name="YSVF" xvalue="117"/>
+        <dimension name="XVAF" xvalue="18"/>
+        <dimension name="YHAF" xvalue="18"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="37"/>
+        <dimension name="XDOT" xvalue="144"/>
+        <dimension name="YTOS" xvalue="11"/>
+        <dimension name="XTTW" xvalue="5"/>
+        <dimension name="YTTL" xvalue="57"/>
+        <dimension name="BARS" xvalue="0"/>
+        <dimension name="TN16" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="corners/opsz8_wght1000_wdth50.ufo" familyname="AmstelvarA2 Roman" stylename="TN17">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="90"/>
+        <dimension name="YOUC" xvalue="66"/>
+        <dimension name="XOUA" xvalue="91"/>
+        <dimension name="YOUA" xvalue="53"/>
+        <dimension name="XTUC" xvalue="400"/>
+        <dimension name="XTUR" xvalue="561"/>
+        <dimension name="XTUD" xvalue="410"/>
+        <dimension name="XTUA" xvalue="258"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-104"/>
+        <dimension name="XSHU" xvalue="104"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="55"/>
+        <dimension name="YSVU" xvalue="165"/>
+        <dimension name="XVAU" xvalue="18"/>
+        <dimension name="YHAU" xvalue="18"/>
+        <dimension name="XQUC" xvalue="136"/>
+        <dimension name="YQUC" xvalue="141"/>
+        <dimension name="XUCS" xvalue="145"/>
+        <dimension name="XUCR" xvalue="40"/>
+        <dimension name="XUCD" xvalue="-15"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="58"/>
+        <dimension name="XOLA" xvalue="91"/>
+        <dimension name="YOLA" xvalue="53"/>
+        <dimension name="XTLC" xvalue="243"/>
+        <dimension name="XTLR" xvalue="337"/>
+        <dimension name="XTLD" xvalue="248"/>
+        <dimension name="XTLA" xvalue="235"/>
+        <dimension name="YTLC" xvalue="511"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="-240"/>
+        <dimension name="XSHL" xvalue="74"/>
+        <dimension name="YSHL" xvalue="40"/>
+        <dimension name="XSVL" xvalue="54"/>
+        <dimension name="YSVL" xvalue="70"/>
+        <dimension name="XVAL" xvalue="17"/>
+        <dimension name="YHAL" xvalue="18"/>
+        <dimension name="XQLC" xvalue="82"/>
+        <dimension name="YQLC" xvalue="90"/>
+        <dimension name="XLCS" xvalue="112"/>
+        <dimension name="XLCR" xvalue="32"/>
+        <dimension name="XLCD" xvalue="-5"/>
+        <dimension name="XOFI" xvalue="88"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="329"/>
+        <dimension name="YTFI" xvalue="771"/>
+        <dimension name="XSHF" xvalue="129"/>
+        <dimension name="YSHF" xvalue="47"/>
+        <dimension name="XSVF" xvalue="61"/>
+        <dimension name="YSVF" xvalue="117"/>
+        <dimension name="XVAF" xvalue="18"/>
+        <dimension name="YHAF" xvalue="18"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="37"/>
+        <dimension name="XDOT" xvalue="144"/>
+        <dimension name="YTOS" xvalue="11"/>
+        <dimension name="XTTW" xvalue="5"/>
+        <dimension name="YTTL" xvalue="57"/>
+        <dimension name="BARS" xvalue="0"/>
+        <dimension name="TN17" xvalue="100"/>
       </location>
     </source>
   </sources>

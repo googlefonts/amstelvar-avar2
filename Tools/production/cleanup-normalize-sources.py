@@ -13,8 +13,11 @@ baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 cornersFolder = os.path.join(sourcesFolder, 'corners')
 
-sources = False
-corners = True
+cleanup   = False
+normalize = True
+
+sources = True
+corners = False
 
 ignoreFontLibs = [
     'com.typemytype.robofont.italicSlantOffset',
@@ -27,9 +30,13 @@ ignoreLayers = [
 ]
 
 if sources:
-    cleanupSources(sourcesFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
-    normalizeSources(sourcesFolder)
+    if cleanup:
+        cleanupSources(sourcesFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
+    if normalize:
+        normalizeSources(sourcesFolder)
 
 if corners:
-    cleanupSources(cornersFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
-    normalizeSources(cornersFolder)
+    if cleanup:
+        cleanupSources(cornersFolder, preflight=False, ignoreFontLibs=ignoreFontLibs, ignoreLayers=ignoreLayers)
+    if normalize:
+        normalizeSources(cornersFolder)
