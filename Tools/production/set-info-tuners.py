@@ -14,8 +14,12 @@ ufoPaths = glob.glob(f'{tunersFolder}/*.ufo')
 
 for ufoPath in ufoPaths:
     styleName = os.path.splitext(os.path.split(ufoPath)[-1])[0]
+
     f = OpenFont(ufoPath, showInterface=False)
+
     f.info.styleName = styleName
+    f.features.text = ''
+
     f.save()
     f.close()
 
