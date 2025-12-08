@@ -74,24 +74,24 @@
     <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="5"/>
     <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="57"/>
     <axis tag="BARS" name="BARS" minimum="0" maximum="683" default="0"/>
-    <axis tag="TN00" name="TN00" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN01" name="TN01" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN02" name="TN02" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN03" name="TN03" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN04" name="TN04" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN05" name="TN05" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN06" name="TN06" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN07" name="TN07" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN08" name="TN08" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN09" name="TN09" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN10" name="TN10" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN11" name="TN11" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN12" name="TN12" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN13" name="TN13" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN14" name="TN14" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN15" name="TN15" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN16" name="TN16" minimum="0" maximum="100" default="0"/>
-    <axis tag="TN17" name="TN17" minimum="0" maximum="100" default="0"/>
+    <axis tag="TN00" name="TN00" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN01" name="TN01" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN02" name="TN02" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN03" name="TN03" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN04" name="TN04" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN05" name="TN05" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN06" name="TN06" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN07" name="TN07" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN08" name="TN08" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN09" name="TN09" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN10" name="TN10" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN11" name="TN11" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN12" name="TN12" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN13" name="TN13" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN14" name="TN14" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN15" name="TN15" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN16" name="TN16" minimum="0" maximum="100" default="0" hidden="1"/>
+    <axis tag="TN17" name="TN17" minimum="0" maximum="100" default="0" hidden="1"/>
     <mappings>
       <mapping description="opsz144">
         <input>
