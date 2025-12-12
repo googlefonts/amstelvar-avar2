@@ -15,7 +15,7 @@ sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 cornersFolder = os.path.join(sourcesFolder, 'corners')
 
 # which sources to clean/normalize
-sources = True
+sources = False
 corners = True
 
 # which actions to perform

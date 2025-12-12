@@ -21,6 +21,6 @@ for ufoPath in ufoPaths:
     f.features.text = ''
 
     f.save()
-    f.close()
+    # f.close()
 
     

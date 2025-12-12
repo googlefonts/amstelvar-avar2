@@ -349,7 +349,7 @@ class AmstelvarA2DesignSpaceBuilder:
             a.default = defaultValue
             self.designspace.addAxis(a)
 
-    def addCornerTuningAxes(self):
+    def addCornerTuningAxes(self, duovars=True, trivars=True, quadvars=True):
 
         if self.verbose:
             print('\tadding corner tuning axes...')
@@ -359,6 +359,16 @@ class AmstelvarA2DesignSpaceBuilder:
         for i, styleName in enumerate(self.cornerSources):
             ufo = self.cornerSources[styleName]
             styleNameParts = styleName.split('_')
+
+            if duovars is False and len(styleNameParts) == 1:
+                continue
+
+            if trivars is False and len(styleNameParts) == 2:
+                continue
+
+            if quadvars is False and len(styleNameParts) == 3:
+                continue
+
             axisTag = f'TN{i:02}'
             a = AxisDescriptor()
             a.name    = axisTag # styleName
@@ -405,7 +415,10 @@ class AmstelvarA2DesignSpaceBuilder:
 
         for i, styleName in enumerate(self.cornerSources):
             ufo = self.cornerSources[styleName]
-            styleNameParts = styleName.split('_')
+
+            if styleName not in self.cornerTuningAxes:
+                continue
+
             axisTag = f'TN{i:02}'
 
             src = SourceDescriptor()
@@ -565,7 +578,7 @@ class AmstelvarA2DesignSpaceBuilder:
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
-    def addMappings(self, tuneCorners=True):
+    def addMappings(self):
 
         blendedAxes    = self.blendedAxes
         blendedSources = self.blendedSources
@@ -590,10 +603,9 @@ class AmstelvarA2DesignSpaceBuilder:
                 outputLocation[axisName] = int(blendedSources[styleName][axisName])
 
             # set value for corner tuning axes
-            if tuneCorners:
-                if styleName in self.cornerTuningAxes:
-                    axisTag = self.cornerTuningAxes[styleName]
-                    outputLocation[axisTag] = 100
+            if styleName in self.cornerTuningAxes:
+                axisTag = self.cornerTuningAxes[styleName]
+                outputLocation[axisTag] = 100
 
             m.inputLocation  = inputLocation
             m.outputLocation = outputLocation
@@ -616,24 +628,24 @@ class AmstelvarA2DesignSpaceBuilder:
             print(os.path.exists(self.designspacePath))
             print()
 
-    def build(self, patchBlends=True, tuneCorners=True):
+    def build(self, patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True):
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
         self.buildBlendsFile()
         if patchBlends:
             self.patchBlendsFile()
+
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes()
-        if tuneCorners:
-            self.addCornerTuningAxes()
-        self.addMappings(tuneCorners=tuneCorners)
+        self.addCornerTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+        self.addMappings()
         self.addDefaultSource()
         self.addParametricSources()
-        if tuneCorners:
-            self.addCornerTuningSources()
+        self.addCornerTuningSources()
         # self.addInstances()
+
         self.save()
 
     def buildInstances(self, clear=True):
@@ -861,8 +873,8 @@ if __name__ == '__main__':
     start = time.time()
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneCorners=True)
-    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    D.build(patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True)
+    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
