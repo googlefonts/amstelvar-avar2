@@ -873,7 +873,7 @@ if __name__ == '__main__':
     start = time.time()
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=False, tuneTrivars=False, tuneQuadvars=False)
+    D.build(patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True)
     # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
