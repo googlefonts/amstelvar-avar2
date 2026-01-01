@@ -13,7 +13,7 @@ from xTools4.modules.validation import assignValidationGroup
 
 familyName     = 'AmstelvarA2'
 subFamilyName  = ['Roman', 'Italic'][0]
-glyphNames     = ['Ef']
+glyphNames     = ['V']
 newDefaultName = 'wght400'
 oldDefaultName = 'WDSP0'
 preflight      = False
