@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L" format="2">
 	<unicode hex="004C"/>
-	<advance width="1779"/>
+	<advance width="1705"/>
 	<outline>
 		<contour>
-			<point x="132" y="0" type="line"/>
-			<point x="132" y="100" type="line"/>
+			<point x="82" y="0" type="line"/>
+			<point x="82" y="100" type="line"/>
 			<point x="290" y="132" type="line"/>
 			<point x="292" y="754" type="line"/>
 			<point x="290" y="1352" type="line"/>
@@ -17,10 +17,10 @@
 			<point x="909" y="754" type="line"/>
 			<point x="911" y="135" type="line"/>
 			<point x="951" y="108" type="line"/>
-			<point x="1547" y="108" type="line"/>
-			<point x="1647" y="448" type="line"/>
-			<point x="1779" y="448" type="line"/>
-			<point x="1714" y="0" type="line"/>
+			<point x="1497" y="108" type="line"/>
+			<point x="1583" y="418" type="line"/>
+			<point x="1705" y="418" type="line"/>
+			<point x="1654" y="0" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="687" y="0"/>
@@ -28,5 +28,5 @@
 	<anchor name="top" x="684" y="1500"/>
 	<anchor name="topright" x="1225" y="1001"/>
 	<anchor name="center" x="589" y="750"/>
-	<anchor name="liga" x="1755" y="0"/>
+	<anchor name="liga" x="1705" y="0"/>
 </glyph>
