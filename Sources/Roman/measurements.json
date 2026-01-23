@@ -446,7 +446,7 @@
       "glyph 1": "V",
       "point 1": "-1",
       "glyph 2": "V",
-      "point 2": "0",
+      "point 2": "21",
       "parent": "XUCS",
       "description": "X sidebearing uppercase diagonals"
     },
@@ -473,7 +473,7 @@
       "glyph 1": "v",
       "point 1": "-1",
       "glyph 2": "v",
-      "point 2": "0",
+      "point 2": "21",
       "parent": "XLCS",
       "description": "X sidebearing lowercase diagonals"
     },
@@ -1636,11 +1636,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 0": {
+      "-1 2": {
         "name": "XUCD",
         "direction": "x"
       },
-      "9 99": {
+      "7 99": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -3618,11 +3618,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 0": {
+      "-1 21": {
         "name": "XUCD",
         "direction": "x"
       },
-      "15 99": {
+      "16 99": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -3736,11 +3736,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 3": {
+      "-1 2": {
         "name": "XUCD",
         "direction": "x"
       },
-      "31 99": {
+      "32 99": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -3910,11 +3910,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 0": {
+      "-1 2": {
         "name": "XUCD",
         "direction": "x"
       },
-      "23 99": {
+      "21 99": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -4036,11 +4036,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 6": {
+      "-1 5": {
         "name": "XUCD",
         "direction": "x"
       },
-      "19 99": {
+      "20 99": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -4754,6 +4754,10 @@
         "name": "XOLC",
         "direction": "x"
       },
+      "21 16": {
+        "name": "YOLC",
+        "direction": "y"
+      },
       "11 29": {
         "name": "XTLD",
         "direction": "x"
@@ -4844,10 +4848,6 @@
       },
       "A 7": {
         "name": "YTAO",
-        "direction": "y"
-      },
-      "21 16": {
-        "name": "YOLC",
         "direction": "y"
       }
     },
@@ -5724,11 +5724,11 @@
         "name": "YHAL",
         "direction": "y"
       },
-      "-1 0": {
+      "-1 21": {
         "name": "XLCD",
         "direction": "x"
       },
-      "15 99": {
+      "16 99": {
         "name": "XLCD",
         "direction": "x"
       },
@@ -7391,79 +7391,63 @@
       }
     },
     "Ucyr": {
-      "34 27": {
+      "36 29": {
         "name": "XOUC",
         "direction": "a"
       },
-      "11 4": {
+      "13 6": {
         "name": "XOUC",
         "direction": "y"
       },
-      "22 15": {
+      "24 17": {
         "name": "YOUC",
         "direction": "a"
       },
-      "28 21": {
+      "30 23": {
         "name": "XTUD",
         "direction": "x"
       },
-      "O 31": {
+      "O 32": {
         "name": "YTUC",
         "direction": "y"
       },
-      "28 29": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "32 33": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "20 21": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "16 17": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "32 31": {
-        "name": "YSHU",
-        "direction": "y"
-      },
-      "29 30": {
-        "name": "YSHU",
-        "direction": "y"
-      },
-      "20 19": {
-        "name": "YSHU",
-        "direction": "y"
-      },
-      "17 18": {
-        "name": "YSHU",
-        "direction": "y"
-      },
       "30 31": {
-        "name": "YHAU",
-        "direction": "y"
+        "name": "XSHU",
+        "direction": "x"
       },
-      "35 34": {
-        "name": "YHAU",
-        "direction": "y"
+      "34 35": {
+        "name": "XSHU",
+        "direction": "x"
       },
-      "23 22": {
-        "name": "YHAU",
-        "direction": "y"
+      "22 23": {
+        "name": "XSHU",
+        "direction": "x"
       },
       "18 19": {
-        "name": "YHAU",
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "31 32": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "34 33": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "22 21": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "19 20": {
+        "name": "YSHU",
         "direction": "y"
       },
       "12 O": {
         "name": "YTOS",
         "direction": "y"
       },
-      "25 24": {
+      "27 26": {
         "name": "XTTW",
         "direction": "x"
       },
@@ -7471,9 +7455,17 @@
         "name": "YTTL",
         "direction": "a"
       },
-      "23 24": {
+      "27 28": {
         "name": "YTTL",
         "direction": "a"
+      },
+      "-1 35": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "18 99": {
+        "name": "XUCD",
+        "direction": "x"
       }
     },
     "Ecyr": {
@@ -12293,7 +12285,7 @@
         "name": "YOUC",
         "direction": "a"
       },
-      "12 19": {
+      "19 12": {
         "name": "XTUD",
         "direction": "x"
       },
@@ -12317,7 +12309,7 @@
         "name": "YSHU",
         "direction": "y"
       },
-      "20 21": {
+      "21 20": {
         "name": "YSHU",
         "direction": "y"
       },
@@ -12341,11 +12333,11 @@
         "name": "YHAU",
         "direction": "y"
       },
-      "-1 1": {
+      "-1 2": {
         "name": "XUCD",
         "direction": "x"
       },
-      "8 22": {
+      "7 22": {
         "name": "XUCD",
         "direction": "x"
       },
@@ -18999,6 +18991,8 @@
     "tildecomb-stack": {},
     "caroncomb-stack.case": {},
     "Acircumflextilde": {},
-    "Abrevedotbelow": {}
+    "Abrevedotbelow": {},
+    "Atilde": {},
+    "Amacroncyr": {}
   }
 }
