@@ -16,118 +16,13 @@ from fontTools.varLib import instancer
 from defcon import Font
 from ufo2ft import compileVariableTTF
 from mojo.smartSet import readSmartSets
-import ufoProcessor # upgrade to UFOOperator?
+import ufoProcessor # upgrade to UFOOperator
 from extractor import extractUFO
 from xTools4.modules.measurements import FontMeasurements, permille
 from xTools4.modules.linkPoints2 import readMeasurements
 from xTools4.modules.sys import timer
 from xTools4.modules.ttx import ttf2ttx, ttx2ttf
 from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey
-
-
-### DEPRECATED!
-### copy implementation from RobotoDelta
-def makeParentAxis(parentName, parametricAxes, defaultName):
-    r'''
-    Calculate a parent axis to control several parametric axes, 
-    with mappings to limit the range of each child axis.
-
-    ::
-        parentName  = 'XTRA'
-        parametricAxes = {
-            'XTUC' : dict(minimum=72, maximum=668, default=400),
-            'XTUR' : dict(minimum=60, maximum=902, default=561),
-            'XTUD' : dict(minimum=76, maximum=686, default=410),
-            'XTLC' : dict(minimum=42, maximum=500, default=243),
-            'XTLR' : dict(minimum=46, maximum=625, default=337),
-            'XTLD' : dict(minimum=84, maximum=501, default=248),
-            'XTFI' : dict(minimum=40, maximum=604, default=329),
-        }
-        defaultName = 'XTUC'
-
-        parentAxis, mappings = makeParentAxis(parentName, parametricAxes, defaultName)
-        
-        print('parent parametric axis:')
-        print(parentAxis)
-        print()
-        print('parent mappings to child parameters:')
-        for parentValue, mapping in sorted(mappings.items()):
-            print(f'\t{ parentValue } { mapping }')
-
-    '''
-    # THIS IS THE WRONG PLACE FOR THIS KIND OF DATA!
-    # MOVE TO DESIGNSPACE BUILDER? MEASUREMENTS FORMAT?
-    matchRangeAxes = {
-        'XQUC' : 'XTUR',
-        'XQLC' : 'XTLR',
-        'XQFI' : 'XTFI',
-    }
-
-    defaultValue = parametricAxes[defaultName]['default']
-    minValues = []
-    maxValues = []
-    for axisName, axis in parametricAxes.items():
-        # SKIP MATCHED RANGE AXES
-        if axisName in matchRangeAxes:
-            continue
-        axisShift = defaultValue - axis['default'] 
-        minValue  = axis['minimum'] + axisShift
-        maxValue  = axis['maximum'] + axisShift
-        minValues.append(minValue)
-        maxValues.append(maxValue)
-    
-    parentAxis = {
-        'name'    : parentName,
-        'default' : defaultValue,
-        'minimum' : min(minValues),
-        'maximum' : max(maxValues),
-    }
-
-    mappingValues = set(minValues + maxValues)
-    mappings = {}
-    for mappingValue in sorted(mappingValues):
-        mappings[mappingValue] = {}
-        for axisName, axis in parametricAxes.items():
-            # SKIP MATCHED RANGE AXES
-            if axisName in matchRangeAxes:
-                continue
-            axisShift = defaultValue - axis['default'] 
-            value = mappingValue - axisShift
-            mappings[mappingValue][axisName] = value
-
-    # ADD AXES WITH MATCHED RANGES
-
-    for mappingValue, maps in mappings.items():
-        for axisName, mapAxisName in matchRangeAxes.items():
-            if mapAxisName in maps:
-                
-                axisDefault = parametricAxes[axisName]['default']
-                axisMinimum = parametricAxes[axisName]['minimum']
-                axisMaximum = parametricAxes[axisName]['maximum']
-
-                mapAxisDefault = parametricAxes[mapAxisName]['default']
-                mapAxisMinimum = parametricAxes[mapAxisName]['minimum']
-                mapAxisMaximum = parametricAxes[mapAxisName]['maximum']
-
-                mapAxisValue = maps[mapAxisName]
-
-                if mappingValue < defaultValue:
-                    axisRange = axisDefault    - axisMinimum   
-                    mapRange  = mapAxisDefault - mapAxisMinimum
-                    mapScale  = axisRange / mapRange
-                    mapValue  = (mapAxisValue - mapAxisMinimum) * mapScale
-                    axisValue = axisMinimum + mapValue
-
-                elif mappingValue > defaultValue:
-                    axisRange = axisMaximum    - axisDefault
-                    mapRange  = mapAxisMaximum - mapAxisDefault
-                    mapScale  = axisRange / mapRange
-                    mapValue  = (mapAxisValue - mapAxisDefault) * mapScale
-                    axisValue = axisDefault + mapValue
-
-                maps[axisName] = int(axisValue)
-
-    return parentAxis, mappings
 
 
 
@@ -182,10 +77,10 @@ class AmstelvarA2DesignSpaceBuilder:
     }
 
     parametricAxesRoman  = 'WDSP GRAD '
-                            # XOPQ              # XTRA              # YTRA         # serifs                      # EQ      # XTSP
-    parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU YHAU XQUC YQUC XUCS XUCR XUCD ' # uppercase
-    parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XVAL YHAL XQLC YQLC XLCS XLCR XLCD ' # lowercase
-    parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XVAF YHAF XQFI YQFI XFIR           ' # figures
+                            # XOPQ              # XTRA              # YTRA         # serifs            # EQ      # XTSP
+    parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD ' # uppercase
+    parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD ' # lowercase
+    parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           ' # figures
 
     parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
     parametricAxesRoman  = parametricAxesRoman.split()
@@ -873,8 +768,8 @@ if __name__ == '__main__':
     start = time.time()
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True)
-    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    D.build(patchBlends=True, tuneDuovars=False, tuneTrivars=False, tuneQuadvars=False)
+    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
