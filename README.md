@@ -3,6 +3,15 @@ AmstelvarA2
 
 Alpha version of Amstelvar with avar2 data. (work in progress)
 
+> [!WARNING]  
+> *This repository is very large!* (5.3 GB)  
+>
+> Unless you need the full data set for analysis, we recommend doing a [blobless clone] to download only data files in the HEAD state:  
+>
+> `git clone --filter=blob:none git@github.com:googlefonts/roboto-delta.git`
+
+[blobless clone]: http://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone/
+
 
 Folder structure
 ----------------
