@@ -50,14 +50,7 @@ smartSetsPath     = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.ro
 # glyphNames = getComponentGlyphNamesFromSmartSets(smartSetNames, smartSetsPath, defaultPath) # [ 'ellipsis' ]
 
 glyphNames = [
-    'ohungarumlaut',
-    'Ohungarumlaut',
-    'Ghestroke',
-    'ghestroke',
-    'El.bgr',
-    'igrave.bgr',
-    'increment',
-    'periodcentered-loclCAT.case',
+    'ohm',
 ] 
 
 dstFonts   = []

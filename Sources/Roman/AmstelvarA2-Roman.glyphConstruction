@@ -745,8 +745,8 @@ ellipsis = period + period@ellipsis + period@ellipsis ^ period,period | 0x2026
 hyphentwo = hyphen | 0x2010
 softhyphen = hyphen | 0xooAD
 
-periodcentered.loclCAT = periodcentered | None
-periodcentered-loclCAT.case = periodcentered | None
+# periodcentered.loclCAT = periodcentered | None
+# periodcentered-loclCAT.case = periodcentered | None
 
 increment = Delta | 0x2206
 ohm = Omega | 0x2126

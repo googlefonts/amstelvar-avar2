@@ -4,7 +4,7 @@ import os
 from xTools4.modules.fontutils import getGlyphs2
 
 familyName    = 'AmstelvarA2'
-subFamilyName = ['Roman', 'Italic'][1]
+subFamilyName = ['Roman', 'Italic'][0]
 defaultName   = 'wght400'
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
@@ -43,7 +43,7 @@ for glyphName in glyphNames:
         xPos = defaultGlyph.width / defaultGlyph.anchors[i].x
         xNew = glyph.width / xPos
         print(f'\t{a.name}: {a.x} -> {int(xNew)}')
-        a.x = xNew
+        a.x = int(xNew)
     glyph.performUndo()
     print()
     
