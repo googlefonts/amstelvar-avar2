@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered-loclCAT.case" format="2">
-	<advance width="424"/>
+	<advance width="584"/>
 	<outline>
-		<contour>
-			<point x="33" y="673" type="qcurve" smooth="yes"/>
-			<point x="33" y="743"/>
-			<point x="134" y="848"/>
-			<point x="212" y="848" type="qcurve" smooth="yes"/>
-			<point x="290" y="848"/>
-			<point x="392" y="743"/>
-			<point x="392" y="673" type="qcurve" smooth="yes"/>
-			<point x="392" y="603"/>
-			<point x="290" y="499"/>
-			<point x="212" y="499" type="qcurve" smooth="yes"/>
-			<point x="134" y="499"/>
-			<point x="33" y="603"/>
-		</contour>
+		<component base="periodcentered"/>
 	</outline>
-	<anchor name="_centerright" x="212" y="675"/>
 </glyph>
