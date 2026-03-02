@@ -11,63 +11,63 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
     <axis tag="XTSP" name="XTSP" minimum="-100" maximum="100" default="0"/>
-    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="320"/>
-    <axis tag="GRAD" name="GRAD" minimum="-300" maximum="500" default="0"/>
-    <axis tag="XOUC" name="XOUC" minimum="4" maximum="310" default="84"/>
-    <axis tag="YOUC" name="YOUC" minimum="4" maximum="219" default="58"/>
-    <axis tag="XOUA" name="XOUA" minimum="30" maximum="134" default="98"/>
-    <axis tag="YOUA" name="YOUA" minimum="4" maximum="98" default="58"/>
-    <axis tag="XTUC" name="XTUC" minimum="63" maximum="650" default="360"/>
-    <axis tag="XTUR" name="XTUR" minimum="58" maximum="904" default="498"/>
-    <axis tag="XTUD" name="XTUD" minimum="123" maximum="621" default="344"/>
-    <axis tag="XTUA" name="XTUA" minimum="181" maximum="351" default="251"/>
-    <axis tag="YTUC" name="YTUC" minimum="541" maximum="875" default="750"/>
-    <axis tag="YTJD" name="YTJD" minimum="-190" maximum="-11" default="-130"/>
-    <axis tag="XSHU" name="XSHU" minimum="0" maximum="142" default="92"/>
-    <axis tag="YSHU" name="YSHU" minimum="0" maximum="150" default="50"/>
-    <axis tag="XSVU" name="XSVU" minimum="0" maximum="125" default="50"/>
-    <axis tag="YSVU" name="YSVU" minimum="59" maximum="274" default="142"/>
-    <axis tag="XQUC" name="XQUC" minimum="14" maximum="208" default="115"/>
-    <axis tag="YQUC" name="YQUC" minimum="98" maximum="272" default="154"/>
-    <axis tag="XUCS" name="XUCS" minimum="23" maximum="196" default="130"/>
-    <axis tag="XUCR" name="XUCR" minimum="0" maximum="64" default="39"/>
-    <axis tag="XUCD" name="XUCD" minimum="20" maximum="132" default="46"/>
-    <axis tag="XOLC" name="XOLC" minimum="4" maximum="290" default="85"/>
-    <axis tag="YOLC" name="YOLC" minimum="4" maximum="110" default="47"/>
-    <axis tag="XOLA" name="XOLA" minimum="30" maximum="117" default="98"/>
-    <axis tag="YOLA" name="YOLA" minimum="4" maximum="115" default="50"/>
-    <axis tag="XTLC" name="XTLC" minimum="42" maximum="436" default="232"/>
-    <axis tag="XTLR" name="XTLR" minimum="46" maximum="600" default="286"/>
-    <axis tag="XTLD" name="XTLD" minimum="83" maximum="462" default="241"/>
-    <axis tag="XTLA" name="XTLA" minimum="134" maximum="343" default="235"/>
-    <axis tag="YTLC" name="YTLC" minimum="436" maximum="594" default="510"/>
-    <axis tag="YTAS" name="YTAS" minimum="642" maximum="852" default="778"/>
-    <axis tag="YTDE" name="YTDE" minimum="-276" maximum="-66" default="-196"/>
-    <axis tag="XSHL" name="XSHL" minimum="4" maximum="136" default="70"/>
-    <axis tag="YSHL" name="YSHL" minimum="0" maximum="144" default="44"/>
-    <axis tag="XSVL" name="XSVL" minimum="0" maximum="136" default="47"/>
-    <axis tag="YSVL" name="YSVL" minimum="0" maximum="138" default="63"/>
-    <axis tag="XQLC" name="XQLC" minimum="10" maximum="150" default="72"/>
-    <axis tag="YQLC" name="YQLC" minimum="72" maximum="146" default="89"/>
-    <axis tag="XLCS" name="XLCS" minimum="40" maximum="172" default="86"/>
-    <axis tag="XLCR" name="XLCR" minimum="-19" maximum="66" default="26"/>
-    <axis tag="XLCD" name="XLCD" minimum="17" maximum="112" default="57"/>
-    <axis tag="XOFI" name="XOFI" minimum="3" maximum="308" default="92"/>
-    <axis tag="YOFI" name="YOFI" minimum="4" maximum="214" default="56"/>
-    <axis tag="XTFI" name="XTFI" minimum="45" maximum="586" default="330"/>
-    <axis tag="YTFI" name="YTFI" minimum="281" maximum="895" default="775"/>
-    <axis tag="XSHF" name="XSHF" minimum="-2" maximum="146" default="96"/>
-    <axis tag="YSHF" name="YSHF" minimum="0" maximum="150" default="50"/>
-    <axis tag="XSVF" name="XSVF" minimum="0" maximum="126" default="51"/>
-    <axis tag="YSVF" name="YSVF" minimum="-1" maximum="202" default="102"/>
-    <axis tag="XQFI" name="XQFI" minimum="20" maximum="144" default="80"/>
-    <axis tag="YQFI" name="YQFI" minimum="34" maximum="284" default="144"/>
-    <axis tag="XFIR" name="XFIR" minimum="-13" maximum="90" default="42"/>
-    <axis tag="XDOT" name="XDOT" minimum="23" maximum="274" default="137"/>
-    <axis tag="YTOS" name="YTOS" minimum="-4" maximum="25" default="10"/>
-    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="9"/>
-    <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="64"/>
-    <axis tag="BARS" name="BARS" minimum="0" maximum="707" default="0"/>
+    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="320" hidden="1"/>
+    <axis tag="GRAD" name="GRAD" minimum="-300" maximum="500" default="0" hidden="1"/>
+    <axis tag="XOUC" name="XOUC" minimum="4" maximum="310" default="84" hidden="1"/>
+    <axis tag="YOUC" name="YOUC" minimum="4" maximum="219" default="58" hidden="1"/>
+    <axis tag="XOUA" name="XOUA" minimum="30" maximum="134" default="98" hidden="1"/>
+    <axis tag="YOUA" name="YOUA" minimum="4" maximum="98" default="58" hidden="1"/>
+    <axis tag="XTUC" name="XTUC" minimum="63" maximum="650" default="360" hidden="1"/>
+    <axis tag="XTUR" name="XTUR" minimum="58" maximum="904" default="498" hidden="1"/>
+    <axis tag="XTUD" name="XTUD" minimum="123" maximum="621" default="344" hidden="1"/>
+    <axis tag="XTUA" name="XTUA" minimum="181" maximum="351" default="251" hidden="1"/>
+    <axis tag="YTUC" name="YTUC" minimum="541" maximum="875" default="750" hidden="1"/>
+    <axis tag="YTJD" name="YTJD" minimum="-190" maximum="-11" default="-130" hidden="1"/>
+    <axis tag="XSHU" name="XSHU" minimum="0" maximum="142" default="92" hidden="1"/>
+    <axis tag="YSHU" name="YSHU" minimum="0" maximum="150" default="50" hidden="1"/>
+    <axis tag="XSVU" name="XSVU" minimum="0" maximum="125" default="50" hidden="1"/>
+    <axis tag="YSVU" name="YSVU" minimum="59" maximum="274" default="142" hidden="1"/>
+    <axis tag="XQUC" name="XQUC" minimum="14" maximum="208" default="115" hidden="1"/>
+    <axis tag="YQUC" name="YQUC" minimum="98" maximum="272" default="154" hidden="1"/>
+    <axis tag="XUCS" name="XUCS" minimum="23" maximum="196" default="130" hidden="1"/>
+    <axis tag="XUCR" name="XUCR" minimum="0" maximum="64" default="39" hidden="1"/>
+    <axis tag="XUCD" name="XUCD" minimum="20" maximum="132" default="46" hidden="1"/>
+    <axis tag="XOLC" name="XOLC" minimum="4" maximum="290" default="85" hidden="1"/>
+    <axis tag="YOLC" name="YOLC" minimum="4" maximum="110" default="47" hidden="1"/>
+    <axis tag="XOLA" name="XOLA" minimum="30" maximum="117" default="98" hidden="1"/>
+    <axis tag="YOLA" name="YOLA" minimum="4" maximum="115" default="50" hidden="1"/>
+    <axis tag="XTLC" name="XTLC" minimum="42" maximum="436" default="232" hidden="1"/>
+    <axis tag="XTLR" name="XTLR" minimum="46" maximum="600" default="286" hidden="1"/>
+    <axis tag="XTLD" name="XTLD" minimum="83" maximum="462" default="241" hidden="1"/>
+    <axis tag="XTLA" name="XTLA" minimum="134" maximum="343" default="235" hidden="1"/>
+    <axis tag="YTLC" name="YTLC" minimum="436" maximum="594" default="510" hidden="1"/>
+    <axis tag="YTAS" name="YTAS" minimum="642" maximum="852" default="778" hidden="1"/>
+    <axis tag="YTDE" name="YTDE" minimum="-276" maximum="-66" default="-196" hidden="1"/>
+    <axis tag="XSHL" name="XSHL" minimum="4" maximum="136" default="70" hidden="1"/>
+    <axis tag="YSHL" name="YSHL" minimum="0" maximum="144" default="44" hidden="1"/>
+    <axis tag="XSVL" name="XSVL" minimum="0" maximum="136" default="47" hidden="1"/>
+    <axis tag="YSVL" name="YSVL" minimum="0" maximum="138" default="63" hidden="1"/>
+    <axis tag="XQLC" name="XQLC" minimum="10" maximum="150" default="72" hidden="1"/>
+    <axis tag="YQLC" name="YQLC" minimum="72" maximum="146" default="89" hidden="1"/>
+    <axis tag="XLCS" name="XLCS" minimum="40" maximum="172" default="86" hidden="1"/>
+    <axis tag="XLCR" name="XLCR" minimum="-19" maximum="66" default="26" hidden="1"/>
+    <axis tag="XLCD" name="XLCD" minimum="17" maximum="112" default="57" hidden="1"/>
+    <axis tag="XOFI" name="XOFI" minimum="3" maximum="308" default="92" hidden="1"/>
+    <axis tag="YOFI" name="YOFI" minimum="4" maximum="214" default="56" hidden="1"/>
+    <axis tag="XTFI" name="XTFI" minimum="45" maximum="586" default="330" hidden="1"/>
+    <axis tag="YTFI" name="YTFI" minimum="281" maximum="895" default="775" hidden="1"/>
+    <axis tag="XSHF" name="XSHF" minimum="-2" maximum="146" default="96" hidden="1"/>
+    <axis tag="YSHF" name="YSHF" minimum="0" maximum="150" default="50" hidden="1"/>
+    <axis tag="XSVF" name="XSVF" minimum="0" maximum="126" default="51" hidden="1"/>
+    <axis tag="YSVF" name="YSVF" minimum="-1" maximum="202" default="102" hidden="1"/>
+    <axis tag="XQFI" name="XQFI" minimum="20" maximum="144" default="80" hidden="1"/>
+    <axis tag="YQFI" name="YQFI" minimum="34" maximum="284" default="144" hidden="1"/>
+    <axis tag="XFIR" name="XFIR" minimum="-13" maximum="90" default="42" hidden="1"/>
+    <axis tag="XDOT" name="XDOT" minimum="23" maximum="274" default="137" hidden="1"/>
+    <axis tag="YTOS" name="YTOS" minimum="-4" maximum="25" default="10" hidden="1"/>
+    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="9" hidden="1"/>
+    <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="64" hidden="1"/>
+    <axis tag="BARS" name="BARS" minimum="0" maximum="707" default="0" hidden="1"/>
     <mappings>
       <mapping description="opsz144">
         <input>

@@ -106,7 +106,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
     @property
     def designspaceName(self):
-        return f'{self.familyName}-{self.subFamilyName}_avar2.designspace'
+        return f'{self.familyName}-{self.subFamilyName}.designspace'
 
     @property
     def baseFolder(self):
@@ -136,7 +136,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
     @property
     def varFontPath(self):
-        return os.path.join(self.varFontsFolder, self.designspaceName.replace('.designspace', '.ttf'))
+        return os.path.join(self.varFontsFolder, self.designspaceName.replace('.designspace', '_avar2.ttf'))
 
     @property
     def measurementsPath(self):
@@ -242,6 +242,8 @@ class AmstelvarA2DesignSpaceBuilder:
             a.minimum = minValue
             a.maximum = maxValue
             a.default = defaultValue
+            a.hidden  = True
+
             self.designspace.addAxis(a)
 
     def addCornerTuningAxes(self, duovars=True, trivars=True, quadvars=True):
@@ -271,6 +273,7 @@ class AmstelvarA2DesignSpaceBuilder:
             a.minimum = 0
             a.maximum = 100
             a.default = 0
+            a.hidden  = True
             self.designspace.addAxis(a)
 
             self.cornerTuningAxes[styleName] = axisTag
@@ -696,7 +699,7 @@ class AmstelvarA2DesignSpaceBuilder:
         print(f"building AmstelvarA2 {self.subFamilyName} instances...")
 
         for instance in self.instances:
-            ttfPath = os.path.join(varInstancesFolder, f'AmstelvarA2-{self.subFamilyName}_avar2_{instance.name}.ttf')
+            ttfPath = os.path.join(varInstancesFolder, f'AmstelvarA2-{self.subFamilyName}_{instance.name}.ttf')
             print(f"\tbuilding {instance.name}...", end=' ')
             cmd  = ['/opt/homebrew/bin/fontmake']
             cmd += ['-m', self.designspacePath]
@@ -770,8 +773,8 @@ if __name__ == '__main__':
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
