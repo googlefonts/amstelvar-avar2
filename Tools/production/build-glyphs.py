@@ -37,17 +37,22 @@ smartSetsPath     = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.ro
 
 # settings
 
-smartSetNames = [
-    'uppercase latin',
-    # 'uppercase greek',
-    # 'uppercase cyrillic',
-    # 'uppercase digraphs',
-    'lowercase latin',
-    # 'lowercase greek',
-    # 'lowercase cyrillic',
-    # 'lowercase digraphs',
-]
-glyphNames = getComponentGlyphNamesFromSmartSets(smartSetNames, smartSetsPath, defaultPath) # [ 'ellipsis' ]
+# smartSetNames = [
+#     # 'uppercase latin',
+#     # 'uppercase greek',
+#     # 'uppercase cyrillic',
+#     # 'uppercase digraphs',
+#     # 'lowercase latin',
+#     # 'lowercase greek',
+#     # 'lowercase cyrillic',
+#     # 'lowercase digraphs',
+# ]
+# glyphNames = getComponentGlyphNamesFromSmartSets(smartSetNames, smartSetsPath, defaultPath) # [ 'ellipsis' ]
+
+glyphNames = [
+    'ohm',
+] 
+
 dstFonts   = []
 preflight  = False
 verbose    = True
