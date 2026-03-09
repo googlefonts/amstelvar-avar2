@@ -23,12 +23,12 @@ def importGroupsFromSmartSets(smartsetsPath):
 
 baseFolder      = os.path.dirname(os.path.dirname(os.getcwd()))
 familyName      = 'AmstelvarA2'
-subFamilyName   = ['Roman', 'Italic'][0]
+subFamilyName   = ['Roman', 'Italic'][1]
 sourcesFolder   = os.path.join(baseFolder, 'Sources', subFamilyName)
-designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_avar2.designspace')
+designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 smartsetsPath   = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.roboFontSets')
 defaultPath     = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_wght400.ufo')
-compareFontPath = os.path.join(baseFolder, 'Fonts', 'legacy', 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf')
+compareFontPath = os.path.join(baseFolder, 'Fonts', 'legacy', 'Amstelvar-Italic[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf')
 
 axesList = [
     ('opsz', (8, 14, 144)),
@@ -37,15 +37,15 @@ axesList = [
 ]
 
 groupNames = [
-    'uppercase latin',
-    'uppercase greek',
-    'uppercase cyrillic',
-    'lowercase latin',
+    #'uppercase latin',
+    #'uppercase greek',
+    #'uppercase cyrillic',
+    #'lowercase latin',
     # 'lowercase greek',
     # 'lowercase cyrillic',
 ]
 
-savePDF = False
+savePDF = True
 
 #-------------
 # build proof
@@ -67,7 +67,7 @@ for groupName in groupNames:
         if not len(g.components):
             glyphNames.append(glyphName)
 
-glyphNames = ['U']
+glyphNames = ['H', 'O', 'V', 'T', 'n', 'o', 'v']
 
 B = BlendsPreview(designspacePath)
 B.compareFontPath = compareFontPath
@@ -76,7 +76,7 @@ B.compare    = True
 B.margins    = True
 B.labels     = True
 B.levels     = False
-B.levelsShow = [ 1, 3 ]
+B.levelsShow = [ 1, 2, 3, 4 ]
 B.header     = True
 B.footer     = True
 B.points     = False
