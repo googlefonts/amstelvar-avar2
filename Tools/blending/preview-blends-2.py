@@ -41,14 +41,14 @@ axesList = [
     ('wdth', (50, 100, 125)),
 ]
 
-# groupNames = [
-#     'uppercase latin',
-#     'uppercase greek',
-#     'uppercase cyrillic',
-#     'lowercase latin',
-#     # 'lowercase greek',
-#     # 'lowercase cyrillic',
-# ]
+groupNames = [
+    # 'uppercase latin',
+    # 'uppercase greek',
+    # 'uppercase cyrillic',
+    # 'lowercase latin',
+    # 'lowercase greek',
+    # 'lowercase cyrillic',
+]
 
 savePDF = True
 
@@ -61,17 +61,6 @@ start = time.time()
 glyphGroups = importGroupsFromSmartSets(smartsetsPath)
 # print(glyphGroups.keys())
 
-# # ignore glyphs made out of components
-# defaultFont = OpenFont(defaultPath, showInterface=False)
-# glyphNames = []
-# for groupName in groupNames:
-#     for glyphName in glyphGroups[groupName]:
-#         if glyphName not in defaultFont:
-#             continue
-#         g = defaultFont[glyphName]
-#         if not len(g.components):
-#             glyphNames.append(glyphName)
-
 glyphNames = list('HOVTnov')
 
 B = BlendsPreview(designspacePath)
@@ -81,7 +70,7 @@ B.compare    = True
 B.margins    = True
 B.labels     = True
 B.levels     = False
-# B.levelsShow = [ 1, 3 ]
+B.levelsShow = [1, 2, 3, 4]
 B.header     = True
 B.footer     = True
 B.points     = False
