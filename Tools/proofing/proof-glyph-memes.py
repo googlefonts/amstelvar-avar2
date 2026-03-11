@@ -16,10 +16,10 @@ assert os.path.exists(sourcesFolder)
 
 designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 
-for glyphName in 'HOVTnov':
+for glyphName in 'V':
 
     P = GlyphMemeProofer(glyphName, designspacePath)
-    P.anchorsDraw = True
+    P.anchorsDraw = True 
     P.draw()
 
     pdfFileName = os.path.splitext(os.path.split(designspacePath)[-1])[0]

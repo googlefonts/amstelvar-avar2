@@ -5,6 +5,9 @@ import xTools4.modules.ttx
 reload(xTools4.modules.ttx)
 import xTools4.modules.measurements
 reload(xTools4.modules.measurements)
+import xTools4.modules.xproject
+reload(xTools4.modules.xproject)
+
 
 import os, glob, shutil, json, time, datetime
 import subprocess
@@ -22,8 +25,7 @@ from xTools4.modules.measurements import FontMeasurements, permille
 from xTools4.modules.linkPoints2 import readMeasurements
 from xTools4.modules.sys import timer
 from xTools4.modules.ttx import ttf2ttx, ttx2ttf
-from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey
-
+from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey, referenceFontPathKey
 
 
 class AmstelvarA2DesignSpaceBuilder:
@@ -203,6 +205,14 @@ class AmstelvarA2DesignSpaceBuilder:
     @property
     def glyphConstructionsPath(self):
         return os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamilyName}.glyphConstruction')
+
+    @property
+    def referenceFontPath(self):
+        referenceFonts = {
+            'Roman'  : 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+            'Italic' : 'Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+        }
+        return os.path.join(self.varFontsFolder, 'legacy', referenceFonts[self.subFamilyName])
 
     # methods
 
@@ -517,9 +527,10 @@ class AmstelvarA2DesignSpaceBuilder:
         if self.verbose:
             print(f'\tsaving designspace...', end=' ')
 
-        self.designspace.lib[smartSetsPathKey]          = os.path.split(self.smartSetsPath)[-1]
-        self.designspace.lib[measurementsPathKey]       = os.path.split(self.measurementsPath)[-1]
-        self.designspace.lib[glyphConstructionsPathKey] = os.path.split(self.glyphConstructionsPath)[-1]
+        self.designspace.lib[smartSetsPathKey]          = os.path.relpath(self.smartSetsPath, self.sourcesFolder)
+        self.designspace.lib[measurementsPathKey]       = os.path.relpath(self.measurementsPath, self.sourcesFolder)
+        self.designspace.lib[glyphConstructionsPathKey] = os.path.relpath(self.glyphConstructionsPath, self.sourcesFolder)
+        self.designspace.lib[referenceFontPathKey]      = os.path.relpath(self.referenceFontPath, self.sourcesFolder)
 
         self.designspace.write(self.designspacePath)
         if self.verbose:
@@ -766,15 +777,15 @@ class AmstelvarA2DesignSpaceBuilder:
 
 if __name__ == '__main__':
 
-    subFamilyName = ['Roman', 'Italic'][1]
+    subFamilyName = ['Roman', 'Italic'][0]
 
     start = time.time()
     
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 

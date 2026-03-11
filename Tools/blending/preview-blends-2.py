@@ -28,7 +28,7 @@ compareFonts = {
 
 baseFolder      = os.path.dirname(os.path.dirname(os.getcwd()))
 familyName      = 'AmstelvarA2'
-subFamilyName   = ['Roman', 'Italic'][1]
+subFamilyName   = ['Roman', 'Italic'][0]
 sourcesFolder   = os.path.join(baseFolder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 smartsetsPath   = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.roboFontSets')
