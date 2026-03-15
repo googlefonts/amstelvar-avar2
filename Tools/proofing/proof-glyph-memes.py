@@ -16,7 +16,10 @@ assert os.path.exists(sourcesFolder)
 
 designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 
-for glyphName in 'V':
+glyphNames  = list('HOVTnov')
+glyphNames += ['zero', 'one']
+
+for glyphName in glyphNames:
 
     P = GlyphMemeProofer(glyphName, designspacePath)
     P.anchorsDraw = True 

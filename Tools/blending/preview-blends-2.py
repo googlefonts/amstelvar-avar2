@@ -61,7 +61,8 @@ start = time.time()
 glyphGroups = importGroupsFromSmartSets(smartsetsPath)
 # print(glyphGroups.keys())
 
-glyphNames = list('HOVTnov')
+glyphNames  = list('HOVTnov')
+glyphNames += ['zero', 'one']
 
 B = BlendsPreview(designspacePath)
 B.compareFontPath = compareFontPath

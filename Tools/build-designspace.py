@@ -28,6 +28,109 @@ from xTools4.modules.ttx import ttf2ttx, ttx2ttf
 from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey, referenceFontPathKey
 
 
+def makeParentAxis(parentName, parametricAxes, defaultName):
+    r'''
+    Calculate a parent axis to control several parametric axes, 
+    with mappings to limit the range of each child axis.
+
+    ::
+        parentName  = 'XTRA'
+        parametricAxes = {
+            'XTUC' : dict(minimum=72, maximum=668, default=400),
+            'XTUR' : dict(minimum=60, maximum=902, default=561),
+            'XTUD' : dict(minimum=76, maximum=686, default=410),
+            'XTLC' : dict(minimum=42, maximum=500, default=243),
+            'XTLR' : dict(minimum=46, maximum=625, default=337),
+            'XTLD' : dict(minimum=84, maximum=501, default=248),
+            'XTFI' : dict(minimum=40, maximum=604, default=329),
+        }
+        defaultName = 'XTUC'
+
+        parentAxis, mappings = makeParentAxis(parentName, parametricAxes, defaultName)
+        
+        print('parent parametric axis:')
+        print(parentAxis)
+        print()
+        print('parent mappings to child parameters:')
+        for parentValue, mapping in sorted(mappings.items()):
+            print(f'\t{ parentValue } { mapping }')
+
+    '''
+    # THIS IS THE WRONG PLACE FOR THIS KIND OF DATA!
+    # MOVE TO DESIGNSPACE BUILDER? MEASUREMENTS FORMAT?
+    matchRangeAxes = {
+        'XQUC' : 'XTUR',
+        'XQLC' : 'XTLR',
+        'XQFI' : 'XTFI',
+    }
+
+    defaultValue = parametricAxes[defaultName]['default']
+    minValues = []
+    maxValues = []
+    for axisName, axis in parametricAxes.items():
+        # SKIP MATCHED RANGE AXES
+        if axisName in matchRangeAxes:
+            continue
+        axisShift = defaultValue - axis['default'] 
+        minValue  = axis['minimum'] + axisShift
+        maxValue  = axis['maximum'] + axisShift
+        minValues.append(minValue)
+        maxValues.append(maxValue)
+    
+    parentAxis = {
+        'name'    : parentName,
+        'default' : defaultValue,
+        'minimum' : min(minValues),
+        'maximum' : max(maxValues),
+    }
+
+    mappingValues = set(minValues + maxValues)
+    mappings = {}
+    for mappingValue in sorted(mappingValues):
+        mappings[mappingValue] = {}
+        for axisName, axis in parametricAxes.items():
+            # SKIP MATCHED RANGE AXES
+            if axisName in matchRangeAxes:
+                continue
+            axisShift = defaultValue - axis['default'] 
+            value = mappingValue - axisShift
+            mappings[mappingValue][axisName] = value
+
+    # ADD AXES WITH MATCHED RANGES
+
+    for mappingValue, maps in mappings.items():
+        for axisName, mapAxisName in matchRangeAxes.items():
+            if mapAxisName in maps:
+                
+                axisDefault = parametricAxes[axisName]['default']
+                axisMinimum = parametricAxes[axisName]['minimum']
+                axisMaximum = parametricAxes[axisName]['maximum']
+
+                mapAxisDefault = parametricAxes[mapAxisName]['default']
+                mapAxisMinimum = parametricAxes[mapAxisName]['minimum']
+                mapAxisMaximum = parametricAxes[mapAxisName]['maximum']
+
+                mapAxisValue = maps[mapAxisName]
+
+                if mappingValue < defaultValue:
+                    axisRange = axisDefault    - axisMinimum   
+                    mapRange  = mapAxisDefault - mapAxisMinimum
+                    mapScale  = axisRange / mapRange
+                    mapValue  = (mapAxisValue - mapAxisMinimum) * mapScale
+                    axisValue = axisMinimum + mapValue
+
+                elif mappingValue > defaultValue:
+                    axisRange = axisMaximum    - axisDefault
+                    mapRange  = mapAxisMaximum - mapAxisDefault
+                    mapScale  = axisRange / mapRange
+                    mapValue  = (mapAxisValue - mapAxisDefault) * mapScale
+                    axisValue = axisDefault + mapValue
+
+                maps[axisName] = int(axisValue)
+
+    return parentAxis, mappings
+
+
 class AmstelvarA2DesignSpaceBuilder:
     '''
     Builds the AmstelvarA2 designspace from:
@@ -51,8 +154,8 @@ class AmstelvarA2DesignSpaceBuilder:
     familyName  = 'AmstelvarA2'
     defaultName = 'wght400'
 
-    parentAxesBuild  = False
-    parentAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA XVAA YHAA'.split() # XTEQ YTEQ
+    parentAxesBuild  = True
+    parentAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA'.split() # XTEQ YTEQ XVAA YHAA
     parentAxesItalic = parentAxesRoman
 
     opszMapping = [
@@ -295,7 +398,7 @@ class AmstelvarA2DesignSpaceBuilder:
         src = SourceDescriptor()
         src.path       = self.defaultUFO
         src.familyName = f'{self.familyName} {self.subFamilyName}'
-        src.styleName  = self.defaultName
+        src.styleName  = src.name = self.defaultName
         src.location   = self.defaultLocation
         self.designspace.addSource(src)
 
@@ -307,11 +410,11 @@ class AmstelvarA2DesignSpaceBuilder:
             for ufo in self.parametricSources:
                 if name in ufo:
                     src = SourceDescriptor()
-                    src.path       = ufo
+                    src.path = ufo
                     src.familyName = f'{self.familyName} {self.subFamilyName}'
                     L = self.defaultLocation.copy()
                     value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
-                    src.styleName  = f'{name}{value}'
+                    src.styleName = src.name = f'{name}{value}'
                     L[name] = value
                     src.location = L
                     self.designspace.addSource(src)
@@ -330,9 +433,9 @@ class AmstelvarA2DesignSpaceBuilder:
             axisTag = f'TN{i:02}'
 
             src = SourceDescriptor()
-            src.path       = ufo
+            src.path = ufo
             src.familyName = f'{self.familyName} {self.subFamilyName}'
-            src.styleName  = axisTag
+            src.styleName = src.name = axisTag
             L = self.defaultLocation.copy()
             L[axisTag] = 100
             src.location = L
@@ -352,11 +455,10 @@ class AmstelvarA2DesignSpaceBuilder:
                 L[axis] = value
 
             I = InstanceDescriptor()
-            I.familyName     = f'{self.familyName} {self.subFamilyName}'
-            I.styleName      = styleName.replace('_', ' ')
-            I.name           = styleName
+            I.familyName = f'{self.familyName} {self.subFamilyName}'
+            I.styleName = I.name = styleName.replace('_', ' ')
             I.designLocation = L
-            I.filename       = os.path.join('instances', f'{self.familyName}-{self.subFamilyName}_{styleName}.ufo')
+            I.filename = os.path.join('instances', f'{self.familyName}-{self.subFamilyName}_{styleName}.ufo')
 
             self.designspace.addInstance(I)
 
