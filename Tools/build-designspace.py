@@ -680,7 +680,7 @@ class AmstelvarA2DesignSpaceBuilder:
             f.save()
             f.close()
 
-    def buildVariableFont(self, subset=None, setVersionInfo=True, debug=False, fixGDEF=False, removeMarkFeature=False):
+    def buildVariableFont(self, subset=None, setVersionInfo=True, debug=False, featureWriter=True, noGDEF=False):
 
         print(f'generating variable font for {self.designspaceName}...')
 
@@ -699,13 +699,14 @@ class AmstelvarA2DesignSpaceBuilder:
 
         print(f"\tbuilding avar2 font... ", end='')
 
-        # cmd  = ['/opt/homebrew/bin/fontmake']
         cmd  = ['/Library/Frameworks/Python.framework/Versions/3.11/bin/fontmake']
         cmd += ['-m', self.designspacePath]
         cmd += ['-o', 'variable']
         cmd += ['--output-path', self.varFontPath]
-        cmd += ['--feature-writer', 'None']
-        cmd += ['--no-generate-GDEF']
+        if not featureWriter:
+            cmd += ['--feature-writer', 'None']
+        if noGDEF:
+            cmd += ['--no-generate-GDEF']
         cmd += ['--keep-direction']
         cmd += ['--verbose WARNING']
         cmd  = ' '.join(cmd)
@@ -727,7 +728,7 @@ class AmstelvarA2DesignSpaceBuilder:
             subsetter.subset(font)
             font.save(self.varFontPath)
 
-        if setVersionInfo or fixGDEF:
+        if setVersionInfo: # or fixGDEF:
 
             # convert ttf to ttx
             ttf2ttx(self.varFontPath)
@@ -748,25 +749,6 @@ class AmstelvarA2DesignSpaceBuilder:
                     if child.attrib['nameID'] == '3':
                         child.text = uniqueName
 
-            # fix buggy class in GDEF table
-            if fixGDEF:
-                defaultFont = OpenFont(self.defaultUFO, showInterface=False)
-                # 1. get a list of all combining accents
-                combiningAccents = getCombingingAccents(self.smartSetsPath)
-                # 2. get a list of all glyphs with anchors starting with underscore
-                underscoreGlyphs = findGlyphsWithUnderscoreAnchors(defaultFont)
-                # subtract (1) from (2) to get a list of glyphs to fix
-                glyphsToFix = list(underscoreGlyphs.difference(combiningAccents))
-
-                print('\tfixing bug in GDEF table...')
-                for child in root.find('GDEF'):
-                    if child.tag == 'GlyphClassDef':
-                        for g in child.iter('ClassDef'):
-                            glyphName = g.get('glyph')
-                            if glyphName in glyphsToFix:
-                                # change GDEF class from 3 to 1
-                                g.set('class', '1')
-
             # save XML to ttx
             tree.write(ttxPath)
 
@@ -775,20 +757,6 @@ class AmstelvarA2DesignSpaceBuilder:
 
             # clear ttx file
             os.remove(ttxPath)
-
-        # remove buggy `mark` feature
-        if removeMarkFeature: ### NOT WORKING YET
-            print("\tremoving buggy 'mark' feature...")
-
-            cmd  = ['/opt/homebrew/bin/fonttools']
-            cmd += ['subset', self.varFontPath, "glyphs='*'"]
-            cmd += ["--layout-features-='mark','mkmk'"]
-            cmd  = ' '.join(cmd)
-
-            with subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT) as p:
-                for line in p.stdout.readlines():
-                    print(line,)
-                retval = p.wait()
 
         print('...done.\n')
 
@@ -886,8 +854,8 @@ if __name__ == '__main__':
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
