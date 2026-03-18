@@ -1,10 +1,12 @@
 # menuTitle: horizontally align anchors based on the default
 
-import os
+import os, math
 from xTools4.modules.fontutils import getGlyphs2
 
+# WARNING: the script does not work well with Italic fonts (yet)
+
 familyName    = 'AmstelvarA2'
-subFamilyName = ['Roman', 'Italic'][0]
+subFamilyName = ['Roman', 'Italic'][1] 
 defaultName   = 'wght400'
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
@@ -12,8 +14,8 @@ defaultPath   = os.path.join(sourcesFolder, f'{familyName}-{subFamilyName}_{defa
 
 anchorNames = [
     'top',
-    # 'GRKtop',
-    # 'center',
+    'GRKtop',
+    'center',
     'bottom',
 ]
 tempEditModeKey = 'com.xTools4.tempEdit.mode'
@@ -21,6 +23,8 @@ tempEditModeKey = 'com.xTools4.tempEdit.mode'
 defaultFont = OpenFont(defaultPath, showInterface=False)
 
 f = CurrentFont()
+italicAngle = defaultFont.info.italicAngle
+italicSlantOffsetX = defaultFont.lib['com.typemytype.robofont.italicSlantOffset']
 
 glyphNames = getGlyphs2(f)
 
@@ -34,6 +38,13 @@ for glyphName in glyphNames:
         defaultGlyphName = glyphName
         
     defaultGlyph = defaultFont[defaultGlyphName]
+
+    # if italicAngle:
+    #     g = defaultGlyph.copy()
+    #     g.moveBy((italicSlantOffsetX, 0))
+    #     g.skewBy((-italicAngle, 0))
+    #     g.round()
+    #     defaultGlyph = g
     
     print(f'realigning anchors in {glyphName}...')
     glyph.prepareUndo('realigning anchors')
