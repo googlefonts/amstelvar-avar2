@@ -13,9 +13,9 @@ from xTools4.modules.validation import assignValidationGroup
 
 familyName     = 'AmstelvarA2'
 subFamilyName  = ['Roman', 'Italic'][0]
-glyphNames     = ['V']
+glyphNames     = ['comma']
 newDefaultName = 'wght400'
-oldDefaultName = 'WDSP0'
+oldDefaultName = 'WDSP1000'
 preflight      = False
 
 # ---------

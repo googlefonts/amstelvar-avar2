@@ -21,14 +21,19 @@ def importGroupsFromSmartSets(smartsetsPath):
 # options
 #---------
 
+compareFonts = {
+    'Roman'  : 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+    'Italic' : 'Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+}
+
 baseFolder      = os.path.dirname(os.path.dirname(os.getcwd()))
 familyName      = 'AmstelvarA2'
-subFamilyName   = ['Roman', 'Italic'][0]
+subFamilyName   = ['Roman', 'Italic'][1]
 sourcesFolder   = os.path.join(baseFolder, 'Sources', subFamilyName)
-designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_avar2.designspace')
+designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 smartsetsPath   = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.roboFontSets')
 defaultPath     = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_wght400.ufo')
-compareFontPath = os.path.join(baseFolder, 'Fonts', 'legacy', 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf')
+compareFontPath = os.path.join(baseFolder, 'Fonts', 'legacy', compareFonts[subFamilyName])
 
 axesList = [
     ('opsz', (8, 14, 144)),
@@ -37,15 +42,15 @@ axesList = [
 ]
 
 groupNames = [
-    'uppercase latin',
-    'uppercase greek',
-    'uppercase cyrillic',
-    'lowercase latin',
+    # 'uppercase latin',
+    # 'uppercase greek',
+    # 'uppercase cyrillic',
+    # 'lowercase latin',
     # 'lowercase greek',
     # 'lowercase cyrillic',
 ]
 
-savePDF = False
+savePDF = True
 
 #-------------
 # build proof
@@ -56,18 +61,8 @@ start = time.time()
 glyphGroups = importGroupsFromSmartSets(smartsetsPath)
 # print(glyphGroups.keys())
 
-# ignore glyphs made out of components
-defaultFont = OpenFont(defaultPath, showInterface=False)
-glyphNames = []
-for groupName in groupNames:
-    for glyphName in glyphGroups[groupName]:
-        if glyphName not in defaultFont:
-            continue
-        g = defaultFont[glyphName]
-        if not len(g.components):
-            glyphNames.append(glyphName)
-
-glyphNames = ['U']
+glyphNames  = list('HOVTnov')
+glyphNames += ['zero', 'one']
 
 B = BlendsPreview(designspacePath)
 B.compareFontPath = compareFontPath
@@ -76,7 +71,7 @@ B.compare    = True
 B.margins    = True
 B.labels     = True
 B.levels     = False
-B.levelsShow = [ 1, 3 ]
+B.levelsShow = [1, 2, 3, 4]
 B.header     = True
 B.footer     = True
 B.points     = False
@@ -87,7 +82,7 @@ for glyphName in glyphNames:
     B.draw(glyphName)
 
 if savePDF:
-    pdfPath = os.path.join(baseFolder, 'Proofs', 'PDF', f'blending-preview_{subFamilyName}.pdf')
+    pdfPath = os.path.join(baseFolder, 'Proofs', 'PDF', 'blending', f'blending-preview_{subFamilyName}.pdf')
     print(f'saving {pdfPath}...', end=' ')
     B.save(pdfPath)
     print(f'done!\n')
