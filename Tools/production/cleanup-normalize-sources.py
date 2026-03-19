@@ -19,7 +19,7 @@ sources = True
 corners = False
 
 # which actions to perform
-cleanup   = True
+cleanup   = False
 normalize = True
 
 ignoreFontLibs = [

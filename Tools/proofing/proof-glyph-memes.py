@@ -5,7 +5,7 @@ reload(xTools4.modules.glyphMemeProofer)
 import os
 from xTools4.modules.glyphMemeProofer import GlyphMemeProofer
 
-subFamilyName = ['Roman', 'Italic'][0]
+subFamilyName = ['Roman', 'Italic'][1]
 baseFolder = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 proofsFolder =  os.path.join(baseFolder, 'Proofs', 'PDF', 'glyph-memes')
