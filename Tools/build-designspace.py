@@ -5,6 +5,9 @@ import xTools4.modules.ttx
 reload(xTools4.modules.ttx)
 import xTools4.modules.measurements
 reload(xTools4.modules.measurements)
+import xTools4.modules.xproject
+reload(xTools4.modules.xproject)
+
 
 import os, glob, shutil, json, time, datetime
 import subprocess
@@ -22,8 +25,110 @@ from xTools4.modules.measurements import FontMeasurements, permille
 from xTools4.modules.linkPoints2 import readMeasurements
 from xTools4.modules.sys import timer
 from xTools4.modules.ttx import ttf2ttx, ttx2ttf
-from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey
+from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey, referenceFontPathKey
 
+
+def makeParentAxis(parentName, parametricAxes, defaultName):
+    r'''
+    Calculate a parent axis to control several parametric axes, 
+    with mappings to limit the range of each child axis.
+
+    ::
+        parentName  = 'XTRA'
+        parametricAxes = {
+            'XTUC' : dict(minimum=72, maximum=668, default=400),
+            'XTUR' : dict(minimum=60, maximum=902, default=561),
+            'XTUD' : dict(minimum=76, maximum=686, default=410),
+            'XTLC' : dict(minimum=42, maximum=500, default=243),
+            'XTLR' : dict(minimum=46, maximum=625, default=337),
+            'XTLD' : dict(minimum=84, maximum=501, default=248),
+            'XTFI' : dict(minimum=40, maximum=604, default=329),
+        }
+        defaultName = 'XTUC'
+
+        parentAxis, mappings = makeParentAxis(parentName, parametricAxes, defaultName)
+        
+        print('parent parametric axis:')
+        print(parentAxis)
+        print()
+        print('parent mappings to child parameters:')
+        for parentValue, mapping in sorted(mappings.items()):
+            print(f'\t{ parentValue } { mapping }')
+
+    '''
+    # THIS IS THE WRONG PLACE FOR THIS KIND OF DATA!
+    # MOVE TO DESIGNSPACE BUILDER? MEASUREMENTS FORMAT?
+    matchRangeAxes = {
+        'XQUC' : 'XTUR',
+        'XQLC' : 'XTLR',
+        'XQFI' : 'XTFI',
+    }
+
+    defaultValue = parametricAxes[defaultName]['default']
+    minValues = []
+    maxValues = []
+    for axisName, axis in parametricAxes.items():
+        # SKIP MATCHED RANGE AXES
+        if axisName in matchRangeAxes:
+            continue
+        axisShift = defaultValue - axis['default'] 
+        minValue  = axis['minimum'] + axisShift
+        maxValue  = axis['maximum'] + axisShift
+        minValues.append(minValue)
+        maxValues.append(maxValue)
+    
+    parentAxis = {
+        'name'    : parentName,
+        'default' : defaultValue,
+        'minimum' : min(minValues),
+        'maximum' : max(maxValues),
+    }
+
+    mappingValues = set(minValues + maxValues)
+    mappings = {}
+    for mappingValue in sorted(mappingValues):
+        mappings[mappingValue] = {}
+        for axisName, axis in parametricAxes.items():
+            # SKIP MATCHED RANGE AXES
+            if axisName in matchRangeAxes:
+                continue
+            axisShift = defaultValue - axis['default'] 
+            value = mappingValue - axisShift
+            mappings[mappingValue][axisName] = value
+
+    # ADD AXES WITH MATCHED RANGES
+
+    for mappingValue, maps in mappings.items():
+        for axisName, mapAxisName in matchRangeAxes.items():
+            if mapAxisName in maps:
+                
+                axisDefault = parametricAxes[axisName]['default']
+                axisMinimum = parametricAxes[axisName]['minimum']
+                axisMaximum = parametricAxes[axisName]['maximum']
+
+                mapAxisDefault = parametricAxes[mapAxisName]['default']
+                mapAxisMinimum = parametricAxes[mapAxisName]['minimum']
+                mapAxisMaximum = parametricAxes[mapAxisName]['maximum']
+
+                mapAxisValue = maps[mapAxisName]
+
+                if mappingValue < defaultValue:
+                    axisRange = axisDefault    - axisMinimum   
+                    mapRange  = mapAxisDefault - mapAxisMinimum
+                    mapScale  = axisRange / mapRange
+                    mapValue  = (mapAxisValue - mapAxisMinimum) * mapScale
+                    axisValue = axisMinimum + mapValue
+
+                elif mappingValue > defaultValue:
+                    axisRange = axisMaximum    - axisDefault
+                    mapRange  = mapAxisMaximum - mapAxisDefault
+                    mapScale  = axisRange / mapRange
+                    mapValue  = (mapAxisValue - mapAxisDefault) * mapScale
+                    axisValue = axisDefault + mapValue
+
+                maps[axisName] = int(axisValue)
+
+    return parentAxis, mappings
 
 
 class AmstelvarA2DesignSpaceBuilder:
@@ -49,8 +154,8 @@ class AmstelvarA2DesignSpaceBuilder:
     familyName  = 'AmstelvarA2'
     defaultName = 'wght400'
 
-    parentAxesBuild  = False
-    parentAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA XVAA YHAA'.split() # XTEQ YTEQ
+    parentAxesBuild  = True
+    parentAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA'.split() # XTEQ YTEQ XVAA YHAA
     parentAxesItalic = parentAxesRoman
 
     opszMapping = [
@@ -204,6 +309,14 @@ class AmstelvarA2DesignSpaceBuilder:
     def glyphConstructionsPath(self):
         return os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamilyName}.glyphConstruction')
 
+    @property
+    def referenceFontPath(self):
+        referenceFonts = {
+            'Roman'  : 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+            'Italic' : 'Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
+        }
+        return os.path.join(self.varFontsFolder, 'legacy', referenceFonts[self.subFamilyName])
+
     # methods
 
     def addParametricAxes(self):
@@ -285,7 +398,7 @@ class AmstelvarA2DesignSpaceBuilder:
         src = SourceDescriptor()
         src.path       = self.defaultUFO
         src.familyName = f'{self.familyName} {self.subFamilyName}'
-        src.styleName  = self.defaultName
+        src.styleName  = src.name = self.defaultName
         src.location   = self.defaultLocation
         self.designspace.addSource(src)
 
@@ -297,11 +410,11 @@ class AmstelvarA2DesignSpaceBuilder:
             for ufo in self.parametricSources:
                 if name in ufo:
                     src = SourceDescriptor()
-                    src.path       = ufo
+                    src.path = ufo
                     src.familyName = f'{self.familyName} {self.subFamilyName}'
                     L = self.defaultLocation.copy()
                     value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
-                    src.styleName  = f'{name}{value}'
+                    src.styleName = src.name = f'{name}{value}'
                     L[name] = value
                     src.location = L
                     self.designspace.addSource(src)
@@ -320,9 +433,9 @@ class AmstelvarA2DesignSpaceBuilder:
             axisTag = f'TN{i:02}'
 
             src = SourceDescriptor()
-            src.path       = ufo
+            src.path = ufo
             src.familyName = f'{self.familyName} {self.subFamilyName}'
-            src.styleName  = axisTag
+            src.styleName = src.name = axisTag
             L = self.defaultLocation.copy()
             L[axisTag] = 100
             src.location = L
@@ -342,11 +455,10 @@ class AmstelvarA2DesignSpaceBuilder:
                 L[axis] = value
 
             I = InstanceDescriptor()
-            I.familyName     = f'{self.familyName} {self.subFamilyName}'
-            I.styleName      = styleName.replace('_', ' ')
-            I.name           = styleName
+            I.familyName = f'{self.familyName} {self.subFamilyName}'
+            I.styleName = I.name = styleName.replace('_', ' ')
             I.designLocation = L
-            I.filename       = os.path.join('instances', f'{self.familyName}-{self.subFamilyName}_{styleName}.ufo')
+            I.filename = os.path.join('instances', f'{self.familyName}-{self.subFamilyName}_{styleName}.ufo')
 
             self.designspace.addInstance(I)
 
@@ -517,9 +629,10 @@ class AmstelvarA2DesignSpaceBuilder:
         if self.verbose:
             print(f'\tsaving designspace...', end=' ')
 
-        self.designspace.lib[smartSetsPathKey]          = os.path.split(self.smartSetsPath)[-1]
-        self.designspace.lib[measurementsPathKey]       = os.path.split(self.measurementsPath)[-1]
-        self.designspace.lib[glyphConstructionsPathKey] = os.path.split(self.glyphConstructionsPath)[-1]
+        self.designspace.lib[smartSetsPathKey]          = os.path.relpath(self.smartSetsPath, self.sourcesFolder)
+        self.designspace.lib[measurementsPathKey]       = os.path.relpath(self.measurementsPath, self.sourcesFolder)
+        self.designspace.lib[glyphConstructionsPathKey] = os.path.relpath(self.glyphConstructionsPath, self.sourcesFolder)
+        self.designspace.lib[referenceFontPathKey]      = os.path.relpath(self.referenceFontPath, self.sourcesFolder)
 
         self.designspace.write(self.designspacePath)
         if self.verbose:
@@ -567,7 +680,7 @@ class AmstelvarA2DesignSpaceBuilder:
             f.save()
             f.close()
 
-    def buildVariableFont(self, subset=None, setVersionInfo=True, debug=False, fixGDEF=False, removeMarkFeature=False):
+    def buildVariableFont(self, subset=None, setVersionInfo=True, debug=False, featureWriter=True, noGDEF=False):
 
         print(f'generating variable font for {self.designspaceName}...')
 
@@ -586,13 +699,14 @@ class AmstelvarA2DesignSpaceBuilder:
 
         print(f"\tbuilding avar2 font... ", end='')
 
-        # cmd  = ['/opt/homebrew/bin/fontmake']
         cmd  = ['/Library/Frameworks/Python.framework/Versions/3.11/bin/fontmake']
         cmd += ['-m', self.designspacePath]
         cmd += ['-o', 'variable']
         cmd += ['--output-path', self.varFontPath]
-        cmd += ['--feature-writer', 'None']
-        cmd += ['--no-generate-GDEF']
+        if not featureWriter:
+            cmd += ['--feature-writer', 'None']
+        if noGDEF:
+            cmd += ['--no-generate-GDEF']
         cmd += ['--keep-direction']
         cmd += ['--verbose WARNING']
         cmd  = ' '.join(cmd)
@@ -614,7 +728,7 @@ class AmstelvarA2DesignSpaceBuilder:
             subsetter.subset(font)
             font.save(self.varFontPath)
 
-        if setVersionInfo or fixGDEF:
+        if setVersionInfo: # or fixGDEF:
 
             # convert ttf to ttx
             ttf2ttx(self.varFontPath)
@@ -635,25 +749,6 @@ class AmstelvarA2DesignSpaceBuilder:
                     if child.attrib['nameID'] == '3':
                         child.text = uniqueName
 
-            # fix buggy class in GDEF table
-            if fixGDEF:
-                defaultFont = OpenFont(self.defaultUFO, showInterface=False)
-                # 1. get a list of all combining accents
-                combiningAccents = getCombingingAccents(self.smartSetsPath)
-                # 2. get a list of all glyphs with anchors starting with underscore
-                underscoreGlyphs = findGlyphsWithUnderscoreAnchors(defaultFont)
-                # subtract (1) from (2) to get a list of glyphs to fix
-                glyphsToFix = list(underscoreGlyphs.difference(combiningAccents))
-
-                print('\tfixing bug in GDEF table...')
-                for child in root.find('GDEF'):
-                    if child.tag == 'GlyphClassDef':
-                        for g in child.iter('ClassDef'):
-                            glyphName = g.get('glyph')
-                            if glyphName in glyphsToFix:
-                                # change GDEF class from 3 to 1
-                                g.set('class', '1')
-
             # save XML to ttx
             tree.write(ttxPath)
 
@@ -662,20 +757,6 @@ class AmstelvarA2DesignSpaceBuilder:
 
             # clear ttx file
             os.remove(ttxPath)
-
-        # remove buggy `mark` feature
-        if removeMarkFeature: ### NOT WORKING YET
-            print("\tremoving buggy 'mark' feature...")
-
-            cmd  = ['/opt/homebrew/bin/fonttools']
-            cmd += ['subset', self.varFontPath, "glyphs='*'"]
-            cmd += ["--layout-features-='mark','mkmk'"]
-            cmd  = ' '.join(cmd)
-
-            with subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT) as p:
-                for line in p.stdout.readlines():
-                    print(line,)
-                retval = p.wait()
 
         print('...done.\n')
 
@@ -773,8 +854,8 @@ if __name__ == '__main__':
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
