@@ -6,11 +6,11 @@
 		<contour>
 			<point x="-280" y="0" type="line"/>
 			<point x="-261" y="100" type="line"/>
-			<point x="-66" y="126" type="line"/>
-			<point x="62" y="784" type="line"/>
-			<point x="171" y="1362" type="line"/>
-			<point x="-22" y="1386" type="line"/>
-			<point x="-9" y="1500" type="line"/>
+			<point x="-65" y="126" type="line"/>
+			<point x="63" y="784" type="line"/>
+			<point x="172" y="1362" type="line"/>
+			<point x="-21" y="1386" type="line"/>
+			<point x="-8" y="1500" type="line"/>
 			<point x="540" y="1500" type="line" smooth="yes"/>
 			<point x="732" y="1500"/>
 			<point x="898" y="1308"/>
@@ -27,8 +27,8 @@
 			<point x="312" y="0" type="qcurve" smooth="yes"/>
 		</contour>
 		<contour>
-			<point x="98" y="125" type="line"/>
-			<point x="133" y="105" type="line"/>
+			<point x="99" y="125" type="line"/>
+			<point x="134" y="105" type="line"/>
 			<point x="284" y="105" type="line" smooth="yes"/>
 			<point x="452" y="105"/>
 			<point x="654" y="251"/>
@@ -36,12 +36,12 @@
 			<point x="700" y="565"/>
 			<point x="575" y="743"/>
 			<point x="435" y="743" type="qcurve" smooth="yes"/>
-			<point x="213" y="743" type="line"/>
-			<point x="211" y="729" type="line"/>
+			<point x="214" y="743" type="line"/>
+			<point x="212" y="729" type="line"/>
 		</contour>
 		<contour>
-			<point x="240" y="880" type="line"/>
-			<point x="235" y="857" type="line"/>
+			<point x="241" y="880" type="line"/>
+			<point x="236" y="857" type="line"/>
 			<point x="388" y="857" type="line" smooth="yes"/>
 			<point x="517" y="857"/>
 			<point x="685" y="991"/>
@@ -55,4 +55,10 @@
 	</outline>
 	<anchor name="bottom" x="416" y="0"/>
 	<anchor name="top" x="416" y="1500"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/ibrahim/Documents/Repositories/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_XUCS23.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
