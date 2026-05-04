@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L" format="2">
 	<unicode hex="004C"/>
-	<advance width="1104"/>
+	<advance width="1113"/>
 	<outline>
 		<contour>
 			<point x="-59" y="0" type="line"/>
 			<point x="-59" y="0" type="line"/>
-			<point x="127" y="22" type="line"/>
-			<point x="270" y="754" type="line"/>
-			<point x="406" y="1466" type="line"/>
+			<point x="137" y="22" type="line"/>
+			<point x="267" y="754" type="line"/>
+			<point x="396" y="1466" type="line"/>
 			<point x="195" y="1500" type="line"/>
 			<point x="195" y="1500" type="line"/>
 			<point x="767" y="1500" type="line"/>
 			<point x="767" y="1500" type="line"/>
-			<point x="570" y="1466" type="line"/>
-			<point x="430" y="754" type="line"/>
-			<point x="311" y="135" type="line"/>
-			<point x="342" y="108" type="line"/>
-			<point x="798" y="108" type="line"/>
-			<point x="957" y="341" type="line"/>
-			<point x="1068" y="341" type="line"/>
-			<point x="919" y="0" type="line"/>
+			<point x="560" y="1466" type="line"/>
+			<point x="427" y="754" type="line"/>
+			<point x="320" y="135" type="line"/>
+			<point x="351" y="108" type="line"/>
+			<point x="807" y="108" type="line"/>
+			<point x="966" y="341" type="line"/>
+			<point x="1077" y="341" type="line"/>
+			<point x="928" y="0" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="535" y="0"/>
 	<anchor name="centerright" x="755" y="750"/>
 	<anchor name="top" x="878" y="1500"/>
 	<anchor name="topright" x="804" y="1001"/>
-	<anchor name="center" x="347" y="750"/>
+	<anchor name="center" x="397" y="750"/>
 	<anchor name="liga" x="1104" y="0"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/ibrahim/Documents/Repositories/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_YSHU0.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
