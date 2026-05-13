@@ -18,6 +18,6 @@ setSourceNamesFromMeasurements(
         sourcesFolder,
         familyName,
         measurementsPath,
-        preflight=False,
+        preflight=True,
         ignoreTags=ignoreTags,
 )

@@ -211,7 +211,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
     @property
     def designspaceName(self):
-        return f'{self.familyName}-{self.subFamilyName}.designspace'
+        return f'{self.familyName}-{self.subFamilyName}_old.designspace'
 
     @property
     def baseFolder(self):
@@ -359,7 +359,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
             self.designspace.addAxis(a)
 
-    def addCornerTuningAxes(self, duovars=True, trivars=True, quadvars=True):
+    def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
 
         if self.verbose:
             print('\tadding corner tuning axes...')
@@ -419,7 +419,7 @@ class AmstelvarA2DesignSpaceBuilder:
                     src.location = L
                     self.designspace.addSource(src)
 
-    def addCornerTuningSources(self):
+    def addTuningSources(self):
 
         if self.verbose:
             print('\tadding corner tuning sources...')
@@ -650,11 +650,11 @@ class AmstelvarA2DesignSpaceBuilder:
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes()
-        self.addCornerTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+        self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
         self.addMappings()
         self.addDefaultSource()
         self.addParametricSources()
-        self.addCornerTuningSources()
+        self.addTuningSources()
         # self.addInstances()
 
         self.save()
@@ -855,7 +855,7 @@ if __name__ == '__main__':
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
     D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
+    # D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 
