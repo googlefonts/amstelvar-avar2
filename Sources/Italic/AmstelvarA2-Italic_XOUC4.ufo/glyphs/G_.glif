@@ -1,48 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="G" format="2">
 	<unicode hex="0047"/>
-	<advance width="1190"/>
+	<advance width="978"/>
 	<outline>
 		<contour>
-			<point x="102" y="860" type="qcurve" smooth="yes"/>
-			<point x="200" y="1256"/>
-			<point x="670" y="1562"/>
-			<point x="946" y="1523" type="qcurve" smooth="yes"/>
-			<point x="1003" y="1514"/>
-			<point x="1109" y="1477"/>
-			<point x="1137" y="1461" type="qcurve" smooth="yes"/>
-			<point x="1172" y="1441" type="line"/>
-			<point x="1208" y="1420" type="line"/>
-			<point x="1146" y="1076" type="line"/>
-			<point x="1038" y="1076" type="line"/>
-			<point x="1049" y="1290" type="line"/>
-			<point x="1017" y="1322"/>
-			<point x="904" y="1381"/>
-			<point x="838" y="1389" type="qcurve" smooth="yes"/>
-			<point x="626" y="1416"/>
-			<point x="184" y="1169"/>
-			<point x="110" y="860" type="qcurve" smooth="yes"/>
-			<point x="31" y="533"/>
-			<point x="288" y="154"/>
-			<point x="466" y="122" type="qcurve" smooth="yes"/>
-			<point x="599" y="98"/>
-			<point x="846" y="151"/>
-			<point x="942" y="216" type="qcurve"/>
-			<point x="1015" y="586" type="line"/>
-			<point x="846" y="611" type="line"/>
-			<point x="858" y="712" type="line"/>
-			<point x="1158" y="712" type="line"/>
-			<point x="1144" y="610" type="line"/>
-			<point x="1019" y="585" type="line"/>
-			<point x="921" y="78" type="line"/>
-			<point x="921" y="78" type="line"/>
-			<point x="831" y="24"/>
-			<point x="606" y="-30"/>
-			<point x="452" y="-17" type="qcurve" smooth="yes"/>
-			<point x="241" y="1"/>
-			<point x="15" y="507"/>
+			<point x="97.1567398119" y="839" type="qcurve" smooth="yes"/>
+			<point x="184.1567398119" y="1173"/>
+			<point x="528.1567398119" y="1562"/>
+			<point x="804.1567398119" y="1523" type="qcurve" smooth="yes"/>
+			<point x="861.1567398119" y="1514"/>
+			<point x="925.1567398119" y="1477"/>
+			<point x="954.1567398119" y="1461" type="qcurve" smooth="yes"/>
+			<point x="990.1567398119" y="1441" type="line"/>
+			<point x="1027.1567398119" y="1420" type="line"/>
+			<point x="965.1567398119" y="1076" type="line"/>
+			<point x="857.1567398119" y="1076" type="line"/>
+			<point x="868.1567398119" y="1290" type="line"/>
+			<point x="856.1567398119" y="1322"/>
+			<point x="794.1567398119" y="1381"/>
+			<point x="728.1567398119" y="1389" type="qcurve" smooth="yes"/>
+			<point x="516.1567398119" y="1416"/>
+			<point x="180.1567398119" y="1151"/>
+			<point x="106.1567398119" y="842" type="qcurve" smooth="yes"/>
+			<point x="36.1567398119" y="552"/>
+			<point x="215.1567398119" y="155"/>
+			<point x="411.1567398119" y="121" type="qcurve" smooth="yes"/>
+			<point x="545.1567398119" y="98"/>
+			<point x="729.1567398119" y="154"/>
+			<point x="785.1567398119" y="223" type="qcurve"/>
+			<point x="858.1567398119" y="586" type="line"/>
+			<point x="689.1567398119" y="611" type="line"/>
+			<point x="701.1567398119" y="712" type="line"/>
+			<point x="996.1567398119" y="712" type="line"/>
+			<point x="982.1567398119" y="610" type="line"/>
+			<point x="862.1567398119" y="585" type="line"/>
+			<point x="764.1567398119" y="78" type="line"/>
+			<point x="752.1567398119" y="67" type="line"/>
+			<point x="705.1567398119" y="28"/>
+			<point x="487.1567398119" y="-37"/>
+			<point x="362.1567398119" y="-16" type="qcurve" smooth="yes"/>
+			<point x="170.1567398119" y="16"/>
+			<point x="15.1567398119" y="523"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="491" y="0"/>
-	<anchor name="top" x="731" y="1492"/>
+	<anchor name="bottom" x="441.1567398119" y="0"/>
+	<anchor name="top" x="661.1567398119" y="1492"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.measurements.font</key>
+			<dict>
+				<key>BARS</key>
+				<integer>0</integer>
+				<key>GRAD</key>
+				<integer>18</integer>
+				<key>WDSP</key>
+				<integer>639</integer>
+				<key>XDOT</key>
+				<integer>274</integer>
+				<key>XFIR</key>
+				<integer>84</integer>
+				<key>XFIS</key>
+				<integer>230</integer>
+				<key>XLCD</key>
+				<integer>114</integer>
+				<key>XLCR</key>
+				<integer>52</integer>
+				<key>XLCS</key>
+				<integer>173</integer>
+				<key>XOAC</key>
+				<integer>400</integer>
+				<key>XOFI</key>
+				<integer>184</integer>
+				<key>XOLA</key>
+				<integer>195</integer>
+				<key>XOLC</key>
+				<integer>170</integer>
+				<key>XOPQ</key>
+				<integer>18</integer>
+				<key>XOUA</key>
+				<integer>196</integer>
+				<key>XOUC</key>
+				<integer>18</integer>
+				<key>XQFI</key>
+				<integer>161</integer>
+				<key>XQLC</key>
+				<integer>144</integer>
+				<key>XQUC</key>
+				<integer>230</integer>
+				<key>XSHA</key>
+				<integer>183</integer>
+				<key>XSHF</key>
+				<integer>193</integer>
+				<key>XSHL</key>
+				<integer>141</integer>
+				<key>XSHU</key>
+				<integer>183</integer>
+				<key>XSVA</key>
+				<integer>100</integer>
+				<key>XSVF</key>
+				<integer>102</integer>
+				<key>XSVL</key>
+				<integer>94</integer>
+				<key>XSVU</key>
+				<integer>100</integer>
+				<key>XTAB</key>
+				<integer>1000</integer>
+				<key>XTEQ</key>
+				<integer>230</integer>
+				<key>XTFI</key>
+				<integer>659</integer>
+				<key>XTLA</key>
+				<integer>470</integer>
+				<key>XTLC</key>
+				<integer>464</integer>
+				<key>XTLD</key>
+				<integer>482</integer>
+				<key>XTLR</key>
+				<integer>573</integer>
+				<key>XTRA</key>
+				<integer>721</integer>
+				<key>XTTW</key>
+				<integer>18</integer>
+				<key>XTUA</key>
+				<integer>502</integer>
+				<key>XTUC</key>
+				<integer>721</integer>
+				<key>XTUD</key>
+				<integer>646</integer>
+				<key>XTUR</key>
+				<integer>996</integer>
+				<key>XUCD</key>
+				<integer>93</integer>
+				<key>XUCR</key>
+				<integer>78</integer>
+				<key>XUCS</key>
+				<integer>261</integer>
+				<key>XVAA</key>
+				<integer>27</integer>
+				<key>XVAF</key>
+				<integer>101</integer>
+				<key>XVAL</key>
+				<integer>24</integer>
+				<key>XVAU</key>
+				<integer>27</integer>
+				<key>YDOT</key>
+				<integer>273</integer>
+				<key>YHAA</key>
+				<integer>20</integer>
+				<key>YHAF</key>
+				<integer>25</integer>
+				<key>YHAL</key>
+				<integer>85</integer>
+				<key>YHAU</key>
+				<integer>20</integer>
+				<key>YLAT</key>
+				<integer>387</integer>
+				<key>YOAC</key>
+				<integer>315</integer>
+				<key>YOFI</key>
+				<integer>111</integer>
+				<key>YOLA</key>
+				<integer>100</integer>
+				<key>YOLC</key>
+				<integer>94</integer>
+				<key>YOPQ</key>
+				<integer>109</integer>
+				<key>YOUA</key>
+				<integer>116</integer>
+				<key>YOUC</key>
+				<integer>117</integer>
+				<key>YQFI</key>
+				<integer>288</integer>
+				<key>YQLC</key>
+				<integer>178</integer>
+				<key>YQUC</key>
+				<integer>309</integer>
+				<key>YSHA</key>
+				<integer>100</integer>
+				<key>YSHF</key>
+				<integer>100</integer>
+				<key>YSHL</key>
+				<integer>88</integer>
+				<key>YSHU</key>
+				<integer>100</integer>
+				<key>YSVA</key>
+				<integer>283</integer>
+				<key>YSVF</key>
+				<integer>205</integer>
+				<key>YSVL</key>
+				<integer>126</integer>
+				<key>YSVU</key>
+				<integer>283</integer>
+				<key>YTAO</key>
+				<integer>14</integer>
+				<key>YTAS</key>
+				<integer>1555</integer>
+				<key>YTDE</key>
+				<integer>-392</integer>
+				<key>YTDO</key>
+				<integer>-36</integer>
+				<key>YTEQ</key>
+				<integer>309</integer>
+				<key>YTFI</key>
+				<integer>1550</integer>
+				<key>YTFO</key>
+				<integer>20</integer>
+				<key>YTJD</key>
+				<integer>-260</integer>
+				<key>YTLA</key>
+				<integer>148</integer>
+				<key>YTLC</key>
+				<integer>1021</integer>
+				<key>YTLO</key>
+				<integer>16</integer>
+				<key>YTOS</key>
+				<integer>19</integer>
+				<key>YTTL</key>
+				<integer>127</integer>
+				<key>YTUA</key>
+				<integer>132</integer>
+				<key>YTUC</key>
+				<integer>1500</integer>
+				<key>YTUO</key>
+				<integer>19</integer>
+				<key>YUAT</key>
+				<integer>410</integer>
+			</dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/ibrahim/Documents/Repositories/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_XOUC4.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
