@@ -10,14 +10,16 @@ from xTools4.modules.sys import timer
 
 
 parametricAxesRoman  = 'WDSP GRAD '
-                        # XOPQ              # XTRA              # YTRA         # serifs            # EQ      # XTSP
-parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD ' # uppercase
-parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD ' # lowercase
-parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           ' # figures
-                        # ETC.
+parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD '
+parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD '
+parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           '
 parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 parametricAxesRoman  = parametricAxesRoman.split()
 parametricAxesItalic = parametricAxesRoman
+
+customParametricAxes = {
+    'GRAD' : 0,
+}
 
 
 class AmstelvarA2Controller(xProject):
@@ -25,6 +27,16 @@ class AmstelvarA2Controller(xProject):
     _parametricAxes = {
         'Roman'  : parametricAxesRoman,
         'Italic' : parametricAxesItalic,
+    }
+
+    _blendedAxesMappings = {
+        'opsz' : {
+            (   8.0,   8.0 ),
+            (  14.0,  14.0 ),
+            (  36.0,  64.0 ),
+            (  84.0, 123.0 ),
+            ( 144.0, 144.0 ),
+        }
     }
 
     def __init__(self, folder, familyName, subFamily):
@@ -64,6 +76,12 @@ class AmstelvarA2Controller(xProject):
     def parametricAxes(self):
         return self._parametricAxes[self.subFamily]
 
+    @property
+    def defaultLocation(self):
+        L = super().defaultLocation
+        L['GRAD'] = 0
+        return L
+
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
         setSourceNamesFromMeasurements(
                 self.sourcesFolder,
@@ -73,6 +91,18 @@ class AmstelvarA2Controller(xProject):
                 ignoreTags=ignoreTags,
                 infoFamilyName=f'{self.familyName} {self.subFamily}',
         )
+
+    def addParametricSources(self):
+        super().addParametricSources(familyName=f'{self.familyName} {self.subFamily}')
+
+    def addDefaultSource(self):
+        super().addDefaultSource(familyName=f'{self.familyName} {self.subFamily}')
+
+    def addBlendedAxes(self):
+        super().addBlendedAxes()
+        for axis in self.designspace.axes:
+            if axis.tag in self._blendedAxesMappings:
+                axis.map = self._blendedAxesMappings[axis.tag]
 
     def buildBlendsFile(self):
         pass
@@ -90,7 +120,7 @@ class AmstelvarA2Controller(xProject):
 
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
-        self.addParametricAxes()
+        self.addParametricAxes(customParametricAxes)
         # self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
         self.addBlendedSources()
         self.addDefaultSource()
@@ -118,7 +148,7 @@ if __name__ == '__main__':
 
     # p.setSourceNamesFromMeasurements(preflight=True)
 
-    p.parametricAxesHidden = False
+    p.parametricAxesHidden = True
     p.buildDesignspace(patchBlends=False)
 
     # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
