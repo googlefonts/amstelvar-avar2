@@ -21,8 +21,7 @@ from ufo2ft import compileVariableTTF
 from mojo.smartSet import readSmartSets
 import ufoProcessor # upgrade to UFOOperator
 from extractor import extractUFO
-from xTools4.modules.measurements import FontMeasurements, permille
-from xTools4.modules.linkPoints2 import readMeasurements
+from xTools4.modules.measurements import FontMeasurements, permille, readMeasurements
 from xTools4.modules.sys import timer
 from xTools4.modules.ttx import ttf2ttx, ttx2ttf
 from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey, referenceFontPathKey
@@ -854,7 +853,7 @@ if __name__ == '__main__':
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    D.build(patchBlends=False, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
     # D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()

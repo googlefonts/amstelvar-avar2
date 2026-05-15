@@ -7,7 +7,6 @@ familyName         = 'AmstelvarA2'
 sourcesFolder      = os.path.join(baseFolder, 'Sources', subFamilyName)
 designspacePathNew = os.path.join(sourcesFolder, f'{familyName}-{subFamilyName}.designspace')
 designspacePathOld = designspacePathNew.replace('.designspace', '_old.designspace')
-diffPath           = os.path.join(sourcesFolder, "diff-designspaces.html")
 
 assert os.path.exists(designspacePathNew)
 assert os.path.exists(designspacePathOld)
