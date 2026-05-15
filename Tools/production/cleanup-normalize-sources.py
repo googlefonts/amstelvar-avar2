@@ -9,7 +9,7 @@ from xTools4.modules.sys import timer
 from xTools4.modules.normalization import cleanupSources, normalizeSources
 
 familyName    = 'AmstelvarA2'
-subFamilyName = ['Roman', 'Italic'][1]
+subFamilyName = ['Roman', 'Italic'][0]
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 cornersFolder = os.path.join(sourcesFolder, 'corners')
