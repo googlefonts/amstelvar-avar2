@@ -271,24 +271,25 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic'][0]
 
+    tune = False
+
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
     # p.printSettings()
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
 
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=True)
 
-    p.parametricAxesHidden = True
-    p.buildDesignspace(patchBlends=True)
+    # p.parametricAxesHidden = True
+    # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
 
-    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
-    # # D.buildInstancesVariableFont(clear=True, ufo=True)
-    # # D.printAxes()
+    # p.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    # p.buildInstancesVariableFont(clear=True, ufo=True)
+    # p.printAxes()
 
     end = time.time()
     timer(start, end)
