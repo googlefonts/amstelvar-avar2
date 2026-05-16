@@ -9,24 +9,25 @@ from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMea
 from xTools4.modules.sys import timer
 
 
-parametricAxesRoman  = 'WDSP GRAD '
-parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD '
-parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD '
-parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           '
-parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
-parametricAxesRoman  = parametricAxesRoman.split()
-parametricAxesItalic = parametricAxesRoman
-
-customParametricAxes = {
-    'GRAD' : 0,
-}
+_parametricAxesRoman  = 'WDSP GRAD '
+_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD '
+_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD '
+_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           '
+_parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
+_parametricAxesRoman  = _parametricAxesRoman.split()
+_parametricAxesItalic = _parametricAxesRoman
 
 
 class AmstelvarA2Controller(xProject):
 
     _parametricAxes = {
-        'Roman'  : parametricAxesRoman,
-        'Italic' : parametricAxesItalic,
+        'Roman'  : _parametricAxesRoman,
+        'Italic' : _parametricAxesItalic,
+    }
+
+    # parametric axes with arbitrary scales
+    _customParametricAxes = {
+        'GRAD' : 0,
     }
 
     _blendedAxesMappings = {
@@ -45,7 +46,7 @@ class AmstelvarA2Controller(xProject):
         'XFIR',
     ]
 
-    _parentParametricAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA'.split() # XTEQ YTEQ XVAA YHAA
+    _parentParametricAxesRoman  = 'XOPQ YOPQ XTRA XSHA YSHA XSVA YSVA'.split()
     _parentParametricAxesItalic = _parentParametricAxesRoman
 
     _parentParametricAxesDefaults = {
@@ -61,7 +62,6 @@ class AmstelvarA2Controller(xProject):
         'XTEQ' : 'XQUC',
         'YTEQ' : 'YQUC',
     }
-
 
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
@@ -254,7 +254,7 @@ class AmstelvarA2Controller(xProject):
 
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
-        self.addParametricAxes(customParametricAxes)
+        self.addParametricAxes(self._customParametricAxes)
         # self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
         self.addBlendedSources()
         self.addDefaultSource()
@@ -271,24 +271,25 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic'][0]
 
+    tune = False
+
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
     # p.printSettings()
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
 
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=True)
 
-    p.parametricAxesHidden = True
-    p.buildDesignspace(patchBlends=True)
+    # p.parametricAxesHidden = True
+    # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
 
-    # D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    # D.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
-    # # D.buildInstancesVariableFont(clear=True, ufo=True)
-    # # D.printAxes()
+    # p.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    # p.buildInstancesVariableFont(clear=True, ufo=True)
+    # p.printAxes()
 
     end = time.time()
     timer(start, end)

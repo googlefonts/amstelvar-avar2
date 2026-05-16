@@ -13,7 +13,7 @@ from xTools4.modules.validation import assignValidationGroup
 
 familyName     = 'AmstelvarA2'
 subFamilyName  = ['Roman', 'Italic'][0]
-glyphNames     = ['comma']
+glyphNames     = ['zero']
 newDefaultName = 'wght400'
 oldDefaultName = 'WDSP1000'
 preflight      = False
@@ -45,7 +45,7 @@ def updateGlyphsFromDefault(currentFont, oldDefaultFont, newDefaultFont, glyphNa
         if validationGroupOldCurrent == 'contoursEqual':
             # current glyph is equal to old default!
             print(f'\tupdating /{glyphName} from default...')
-            font.insertGlyph(newDefaultGlyph, name=glyphName)
+            currentFont.insertGlyph(newDefaultGlyph, name=glyphName)
             if not fontChanged:
                 fontChanged = True
 

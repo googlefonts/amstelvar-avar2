@@ -3,7 +3,7 @@
 import os, glob
 
 familyName    = 'AmstelvarA2'
-subFamilyName = ['Roman', 'Italic'][1]
+subFamilyName = ['Roman', 'Italic'][0]
 defaultName    = 'wght400'
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
@@ -12,7 +12,7 @@ assert os.path.exists(defaultPath)
 
 # options
 
-glyphNames = 'threequartersemdash figuredash'.split()
+glyphNames = ['zero'] # 'threequartersemdash figuredash'.split()
 dstFonts   = []
 preflight  = False
 
