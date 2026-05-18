@@ -63,6 +63,12 @@ class AmstelvarA2Controller(xProject):
         'YTEQ' : 'YQUC',
     }
 
+    _matchRangeAxes = {
+        'XQUC' : 'XTUR',
+        'XQLC' : 'XTLR',
+        'XQFI' : 'XTFI',
+    }
+
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
         self.familyName = familyName
@@ -202,7 +208,7 @@ class AmstelvarA2Controller(xProject):
                     }
 
                 parentDefault = self._parentParametricAxesDefaults[parentAxisName]
-                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault)
+                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
 
                 # add parent axis
                 blendsDict['axes'][parentAxisName] = parentAxis
@@ -269,7 +275,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     tune = False
 
@@ -287,7 +293,9 @@ if __name__ == '__main__':
     # p.parametricAxesHidden = True
     # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
 
-    # p.buildVariableFont(subset=None, setVersionInfo=True, fixGDEF=False, removeMarkFeature=False, debug=False)
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+
+    # p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
     # p.printAxes()
 
