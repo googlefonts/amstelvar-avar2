@@ -1,6 +1,4 @@
-from importlib import reload
-import xTools4.modules.glyphSetProofer
-reload(xTools4.modules.glyphSetProofer)
+### DEPRECATED >>> use xProject.proofSourcesGlyphSet
 
 import os, glob, time
 from xTools4.modules.glyphSetProofer import GlyphSetProofer

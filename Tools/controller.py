@@ -69,6 +69,8 @@ class AmstelvarA2Controller(xProject):
         'XQFI' : 'XTFI',
     }
 
+    _tuningAxes = {}
+
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
         self.familyName = familyName
@@ -142,6 +144,16 @@ class AmstelvarA2Controller(xProject):
         for axis in self.designspace.axes:
             if axis.tag in self._blendedAxesMappings:
                 axis.map = self._blendedAxesMappings[axis.tag]
+
+    def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
+        if self.verbose:
+            print('\tadding tuning axes... (not implemented yet)')
+        pass
+
+    def addTuningSources(self):
+        if self.verbose:
+            print('\tadding tuning sources... (not implemented yet)')
+        pass
 
     def buildBlendsFile(self, parentParametric=True):
         if not os.path.exists(self.referenceBlendsPath):
@@ -251,6 +263,7 @@ class AmstelvarA2Controller(xProject):
             json.dump(blendsDict, f, indent=2)
 
     def buildDesignspace(self, patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True, instances=False):
+
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
@@ -261,43 +274,63 @@ class AmstelvarA2Controller(xProject):
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes(self._customParametricAxes)
-        # self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+        self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
         self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
-        # self.addTuningSources()
-        # self.addInstances()
+        self.addTuningSources()
+
+        if instances:
+            self.addInstances()
+
         self.addCustomKeysToLib()
         self.save()
+
+    def proofSourcesGlyphSet(self, showCompatible=True, validateComposites=True):
+        familyName = f'{self.familyName} {self.subFamily}'
+        super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites)
+
+    def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
+        super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
 
 
 if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     tune = False
+
+    controlGlyphs = list('HOVTnov')
+    controlGlyphs += ['zero', 'one']
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
     # p.printSettings()
+
+    #--- sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
-
     # p.setSourceNamesFromMeasurements(preflight=True)
 
-    # p.parametricAxesHidden = True
-    # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    #--- normalization ---
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
+    #--- build designspace ---
+    # p.parametricAxesHidden = True
+    # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
     # p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
     # p.printAxes()
+
+    #--- proofing ---
+    # p.proofGlyphMemes(controlGlyphs, anchors=False)
+    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
+    p.proofBlends(controlGlyphs, levelsShow=[2])
 
     end = time.time()
     timer(start, end)
