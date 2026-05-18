@@ -293,6 +293,10 @@ class AmstelvarA2Controller(xProject):
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
         super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
 
+    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True):
+        oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
+        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight)
+
 
 if __name__ == '__main__':
 
@@ -313,6 +317,7 @@ if __name__ == '__main__':
     #--- sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.updateGlyphsFromDefault([], 'WDSP1000', preflight=True)
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=False)
@@ -330,7 +335,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(controlGlyphs, anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    p.proofBlends(controlGlyphs, levelsShow=[2])
+    # p.proofBlends(controlGlyphs, levelsShow=[2])
 
     end = time.time()
     timer(start, end)
