@@ -39,8 +39,8 @@
     "XTRA": {
       "name": "XTRA",
       "default": 360,
-      "minimum": -80,
-      "maximum": 766
+      "minimum": -78,
+      "maximum": 764
     },
     "XSHA": {
       "name": "XSHA",
@@ -63,8 +63,8 @@
     "YSVA": {
       "name": "YSVA",
       "default": 142,
-      "minimum": 39,
-      "maximum": 274
+      "minimum": 0,
+      "maximum": 242
     }
   },
   "sources": {
@@ -1676,20 +1676,20 @@
       "XOLC": -4,
       "XOFI": 3
     },
-    "XOPQ3": {
-      "XOUC": 3,
-      "XOLC": 4,
-      "XOFI": 11
+    "XOPQ6": {
+      "XOUC": 6,
+      "XOLC": 7,
+      "XOFI": 14
     },
-    "XOPQ4": {
-      "XOUC": 4,
-      "XOLC": 5,
-      "XOFI": 12
+    "XOPQ9": {
+      "XOUC": 9,
+      "XOLC": 10,
+      "XOFI": 17
     },
-    "XOPQ289": {
-      "XOUC": 289,
-      "XOLC": 290,
-      "XOFI": 297
+    "XOPQ287": {
+      "XOUC": 287,
+      "XOLC": 288,
+      "XOFI": 295
     },
     "XOPQ300": {
       "XOUC": 300,
@@ -1731,29 +1731,29 @@
       "YOLC": 208,
       "YOFI": 217
     },
-    "XTRA-80": {
-      "XTUC": -80,
-      "XTUR": 58,
-      "XTUD": -96,
-      "XTLC": -208,
-      "XTLR": -154,
-      "XTLD": -199,
-      "XTFI": -110,
+    "XTRA-78": {
+      "XTUC": -78,
+      "XTUR": 60,
+      "XTUD": -94,
+      "XTLC": -206,
+      "XTLR": -152,
+      "XTLD": -197,
+      "XTFI": -108,
       "XQUC": 14,
-      "XQLC": -41,
+      "XQLC": -45,
       "XQFI": -12
     },
-    "XTRA63": {
-      "XTUC": 63,
-      "XTUR": 201,
-      "XTUD": 47,
-      "XTLC": -65,
-      "XTLR": -11,
-      "XTLD": -56,
-      "XTFI": 33,
-      "XQUC": 46,
-      "XQLC": -4,
-      "XQFI": 17
+    "XTRA58": {
+      "XTUC": 58,
+      "XTUR": 196,
+      "XTUD": 42,
+      "XTLC": -70,
+      "XTLR": -16,
+      "XTLD": -61,
+      "XTFI": 28,
+      "XQUC": 45,
+      "XQLC": -8,
+      "XQFI": 16
     },
     "XTRA75": {
       "XTUC": 75,
@@ -1764,104 +1764,92 @@
       "XTLD": -44,
       "XTFI": 45,
       "XQUC": 49,
-      "XQLC": -1,
+      "XQLC": -4,
       "XQFI": 20
     },
-    "XTRA120": {
-      "XTUC": 120,
-      "XTUR": 258,
-      "XTUD": 104,
-      "XTLC": -8,
-      "XTLR": 46,
-      "XTLD": 1,
-      "XTFI": 90,
-      "XQUC": 59,
+    "XTRA128": {
+      "XTUC": 128,
+      "XTUR": 266,
+      "XTUD": 112,
+      "XTLC": 0,
+      "XTLR": 54,
+      "XTLD": 9,
+      "XTFI": 98,
+      "XQUC": 61,
       "XQLC": 10,
-      "XQFI": 29
+      "XQFI": 31
     },
-    "XTRA139": {
-      "XTUC": 139,
-      "XTUR": 277,
-      "XTUD": 123,
-      "XTLC": 11,
-      "XTLR": 65,
-      "XTLD": 20,
-      "XTFI": 109,
-      "XQUC": 64,
-      "XQLC": 14,
-      "XQFI": 33
+    "XTRA134": {
+      "XTUC": 134,
+      "XTUR": 272,
+      "XTUD": 118,
+      "XTLC": 6,
+      "XTLR": 60,
+      "XTLD": 15,
+      "XTFI": 104,
+      "XQUC": 62,
+      "XQLC": 11,
+      "XQFI": 32
     },
-    "XTRA170": {
-      "XTUC": 170,
-      "XTUR": 308,
-      "XTUD": 154,
-      "XTLC": 42,
-      "XTLR": 96,
-      "XTLD": 51,
-      "XTFI": 140,
-      "XQUC": 71,
-      "XQLC": 22,
-      "XQFI": 40
+    "XTRA169": {
+      "XTUC": 169,
+      "XTUR": 307,
+      "XTUD": 153,
+      "XTLC": 41,
+      "XTLR": 95,
+      "XTLD": 50,
+      "XTFI": 139,
+      "XQUC": 70,
+      "XQLC": 20,
+      "XQFI": 39
     },
-    "XTRA202": {
-      "XTUC": 202,
-      "XTUR": 340,
-      "XTUD": 186,
-      "XTLC": 74,
-      "XTLR": 128,
-      "XTLD": 83,
-      "XTFI": 172,
-      "XQUC": 78,
-      "XQLC": 31,
+    "XTRA199": {
+      "XTUC": 199,
+      "XTUR": 337,
+      "XTUD": 183,
+      "XTLC": 71,
+      "XTLR": 125,
+      "XTLD": 80,
+      "XTFI": 169,
+      "XQUC": 77,
+      "XQLC": 28,
       "XQFI": 46
     },
-    "XTRA564": {
-      "XTUC": 564,
-      "XTUR": 702,
-      "XTUD": 548,
-      "XTLC": 436,
-      "XTLR": 490,
-      "XTLD": 445,
-      "XTFI": 534,
+    "XTRA562": {
+      "XTUC": 562,
+      "XTUR": 700,
+      "XTUD": 546,
+      "XTLC": 434,
+      "XTLR": 488,
+      "XTLD": 443,
+      "XTFI": 532,
       "XQUC": 161,
       "XQLC": 122,
       "XQFI": 131
     },
-    "XTRA581": {
-      "XTUC": 581,
-      "XTUR": 719,
-      "XTUD": 565,
-      "XTLC": 453,
-      "XTLR": 507,
-      "XTLD": 462,
-      "XTFI": 551,
+    "XTRA580": {
+      "XTUC": 580,
+      "XTUR": 718,
+      "XTUD": 564,
+      "XTLC": 452,
+      "XTLR": 506,
+      "XTLD": 461,
+      "XTFI": 550,
       "XQUC": 165,
       "XQLC": 126,
       "XQFI": 135
     },
-    "XTRA616": {
-      "XTUC": 616,
-      "XTUR": 754,
-      "XTUD": 600,
-      "XTLC": 488,
-      "XTLR": 542,
-      "XTLD": 497,
-      "XTFI": 586,
+    "XTRA612": {
+      "XTUC": 612,
+      "XTUR": 750,
+      "XTUD": 596,
+      "XTLC": 484,
+      "XTLR": 538,
+      "XTLD": 493,
+      "XTFI": 582,
       "XQUC": 173,
-      "XQLC": 135,
+      "XQLC": 134,
       "XQFI": 144
-    },
-    "XTRA637": {
-      "XTUC": 637,
-      "XTUR": 775,
-      "XTUD": 621,
-      "XTLC": 509,
-      "XTLR": 563,
-      "XTLD": 518,
-      "XTFI": 607,
-      "XQUC": 178,
-      "XQLC": 140,
-      "XQFI": 149
     },
     "XTRA650": {
       "XTUC": 650,
@@ -1872,32 +1860,44 @@
       "XTLD": 531,
       "XTFI": 620,
       "XQUC": 181,
+      "XQLC": 143,
+      "XQFI": 153
+    },
+    "XTRA653": {
+      "XTUC": 653,
+      "XTUR": 791,
+      "XTUD": 637,
+      "XTLC": 525,
+      "XTLR": 579,
+      "XTLD": 534,
+      "XTFI": 623,
+      "XQUC": 182,
       "XQLC": 144,
-      "XQFI": 152
+      "XQFI": 154
     },
-    "XTRA674": {
-      "XTUC": 674,
-      "XTUR": 812,
-      "XTUD": 658,
-      "XTLC": 546,
-      "XTLR": 600,
-      "XTLD": 555,
-      "XTFI": 644,
-      "XQUC": 186,
+    "XTRA675": {
+      "XTUC": 675,
+      "XTUR": 813,
+      "XTUD": 659,
+      "XTLC": 547,
+      "XTLR": 601,
+      "XTLD": 556,
+      "XTFI": 645,
+      "XQUC": 187,
       "XQLC": 150,
-      "XQFI": 158
+      "XQFI": 160
     },
-    "XTRA766": {
-      "XTUC": 766,
-      "XTUR": 904,
-      "XTUD": 750,
-      "XTLC": 638,
-      "XTLR": 692,
-      "XTLD": 647,
-      "XTFI": 736,
+    "XTRA764": {
+      "XTUC": 764,
+      "XTUR": 902,
+      "XTUD": 748,
+      "XTLC": 636,
+      "XTLR": 690,
+      "XTLD": 645,
+      "XTFI": 734,
       "XQUC": 208,
       "XQLC": 172,
-      "XQFI": 181
+      "XQFI": 182
     },
     "XSHA-6": {
       "XSHU": -6,
@@ -1964,20 +1964,25 @@
       "XSVL": 136,
       "XSVF": 140
     },
+    "YSVA0": {
+      "YSVU": 0,
+      "YSVL": -79,
+      "YSVF": -40
+    },
     "YSVA39": {
       "YSVU": 39,
       "YSVL": -40,
       "YSVF": -1
     },
-    "YSVA59": {
-      "YSVU": 59,
-      "YSVL": -20,
-      "YSVF": 19
-    },
     "YSVA79": {
       "YSVU": 79,
       "YSVL": 0,
       "YSVF": 39
+    },
+    "YSVA216": {
+      "YSVU": 216,
+      "YSVL": 137,
+      "YSVF": 176
     },
     "YSVA217": {
       "YSVU": 217,
@@ -1988,11 +1993,6 @@
       "YSVU": 242,
       "YSVL": 163,
       "YSVF": 202
-    },
-    "YSVA274": {
-      "YSVU": 274,
-      "YSVL": 195,
-      "YSVF": 234
     }
   }
 }
