@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb-stack.case" format="2">
+	<outline>
+		<contour>
+			<point x="-471" y="1848" type="qcurve" smooth="yes"/>
+			<point x="-471" y="1931"/>
+			<point x="-379" y="2022"/>
+			<point x="-294" y="2022" type="qcurve" smooth="yes"/>
+			<point x="-212" y="2022"/>
+			<point x="-114" y="1927"/>
+			<point x="-114" y="1848" type="qcurve" smooth="yes"/>
+			<point x="-114" y="1764"/>
+			<point x="-206" y="1674"/>
+			<point x="-294" y="1674" type="qcurve" smooth="yes"/>
+			<point x="-374" y="1674"/>
+			<point x="-471" y="1769"/>
+		</contour>
+		<contour>
+			<point x="113" y="1848" type="qcurve" smooth="yes"/>
+			<point x="113" y="1931"/>
+			<point x="206" y="2022"/>
+			<point x="292" y="2022" type="qcurve" smooth="yes"/>
+			<point x="372" y="2022"/>
+			<point x="471" y="1927"/>
+			<point x="471" y="1848" type="qcurve" smooth="yes"/>
+			<point x="471" y="1764"/>
+			<point x="379" y="1674"/>
+			<point x="292" y="1674" type="qcurve" smooth="yes"/>
+			<point x="210" y="1674"/>
+			<point x="113" y="1769"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2042"/>
+	<lib>
+		<dict>
+			<key>com.fontBureau.measurements</key>
+			<dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0,0.65,1,0.35</string>
+		</dict>
+	</lib>
+</glyph>

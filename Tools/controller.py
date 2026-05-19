@@ -267,7 +267,7 @@ class AmstelvarA2Controller(xProject):
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
-        self.buildBlendsFile()
+        self.buildBlendsFile(parentParametric=False)
         if patchBlends:
             self.patchBlendsFile()
 
@@ -312,30 +312,33 @@ if __name__ == '__main__':
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
-    # p.printSettings()
 
     #--- sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     # p.updateGlyphsFromDefault([], 'WDSP1000', preflight=True)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = True
     # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
-    # p.buildVariableFont(debug=False, featureWriter=False)
-    # p.buildInstancesVariableFont(clear=True, ufo=True)
+    #--- project info
+    # p.printSettings()
     # p.printAxes()
 
     #--- proofing ---
     # p.proofGlyphMemes(controlGlyphs, anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(controlGlyphs, levelsShow=[2])
+
+    #--- build fonts
+    # p.buildVariableFont(debug=False, featureWriter=False)
+    # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
     timer(start, end)
