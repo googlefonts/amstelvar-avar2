@@ -1,6 +1,4 @@
-from importlib import reload
-import xTools4.modules.blendsPreview
-reload(xTools4.modules.blendsPreview)
+### DEPRECATED >>> use xProject.proofBlends
 
 import os, time
 from mojo.smartSet import readSmartSets

@@ -1,6 +1,4 @@
-from importlib import reload
-import xTools4.modules.glyphMemeProofer
-reload(xTools4.modules.glyphMemeProofer)
+### DEPRECATED >>> use xProject.proofGlyphMemes
 
 import os
 from xTools4.modules.glyphMemeProofer import GlyphMemeProofer

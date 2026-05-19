@@ -13,7 +13,7 @@ from xTools4.modules.validation import assignValidationGroup
 
 familyName     = 'AmstelvarA2'
 subFamilyName  = ['Roman', 'Italic'][0]
-glyphNames     = ['comma']
+glyphNames     = ['zero']
 newDefaultName = 'wght400'
 oldDefaultName = 'WDSP1000'
 preflight      = False
@@ -22,7 +22,7 @@ preflight      = False
 # functions
 # ---------
 
-def updateGlyphsFromDefault(currentFont, oldDefaultFont, newDefaultFont, glyphNames):
+def updateGlyphsFromDefault(currentFont, oldDefaultFont, newDefaultFont, glyphNames, preflight=False):
     name = os.path.splitext(os.path.split(currentFont.path)[-1])[0].split('_')[-1]
     fontChanged = False
     for glyphName in glyphNames:
@@ -45,7 +45,7 @@ def updateGlyphsFromDefault(currentFont, oldDefaultFont, newDefaultFont, glyphNa
         if validationGroupOldCurrent == 'contoursEqual':
             # current glyph is equal to old default!
             print(f'\tupdating /{glyphName} from default...')
-            font.insertGlyph(newDefaultGlyph, name=glyphName)
+            currentFont.insertGlyph(newDefaultGlyph, name=glyphName)
             if not fontChanged:
                 fontChanged = True
 
@@ -56,26 +56,31 @@ def updateGlyphsFromDefault(currentFont, oldDefaultFont, newDefaultFont, glyphNa
 
     print()
 
+def batchUpdateGlyphsFromDefault(glyphNames, ufoPaths, newDefaultPath, oldDefaultPath, preflight=False):
+
+    newDefault = OpenFont(newDefaultPath, showInterface=False)
+    oldDefault = OpenFont(oldDefaultPath, showInterface=False)
+
+    ufoPaths.remove(newDefaultPath)
+    ufoPaths.remove(oldDefaultPath)
+
+    for ufoPath in sorted(ufoPaths):
+        font = OpenFont(ufoPath, showInterface=False)
+        updateGlyphsFromDefault(font, oldDefault, newDefault, glyphNames)
+
+    updateGlyphsFromDefault(oldDefault, oldDefault, newDefault, glyphNames, preflight=preflight)
+
 # ---------------------------
 # batch update default glyphs
 # ---------------------------
 
-baseFolder     = os.path.dirname(os.path.dirname(os.getcwd()))
-sourcesFolder  = os.path.join(baseFolder, 'Sources', subFamilyName)
+baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
+sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 
 ufoPaths = glob.glob(f'{sourcesFolder}/*.ufo')
 
 newDefaultPath = os.path.join(sourcesFolder, f'{familyName}-{subFamilyName}_{newDefaultName}.ufo')
 oldDefaultPath = os.path.join(sourcesFolder, f'{familyName}-{subFamilyName}_{oldDefaultName}.ufo')
 
-newDefault = OpenFont(newDefaultPath, showInterface=False)
-oldDefault = OpenFont(oldDefaultPath, showInterface=False)
+batchUpdateGlyphsFromDefault(ufoPaths, newDefaultPath, oldDefaultPath, preflight)
 
-ufoPaths.remove(newDefaultPath)
-ufoPaths.remove(oldDefaultPath)
-
-for ufoPath in sorted(ufoPaths):
-    font = OpenFont(ufoPath, showInterface=False)
-    updateGlyphsFromDefault(font, oldDefault, newDefault, glyphNames)
-
-updateGlyphsFromDefault(oldDefault, oldDefault, newDefault, glyphNames)
