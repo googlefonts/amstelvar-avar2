@@ -2,7 +2,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, time, json
+import os, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements
@@ -316,11 +316,18 @@ if __name__ == '__main__':
     #--- sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
-    # p.updateGlyphsFromDefault([], 'WDSP1000', preflight=True)
+
+    #--- copy from default ---
+    # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
+    # p.copyGlyphsFromDefault(glyphNames)
+    # p.copyGroupsFromDefault(glyphNames)
+    # p.copyUnicodesFromDefault(preflight=True)
+    # p.copyGlyphOrderFromDefault()
+    # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = True
@@ -332,9 +339,9 @@ if __name__ == '__main__':
     # p.printAxes()
 
     #--- proofing ---
-    # p.proofGlyphMemes(controlGlyphs, anchors=False)
+    p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(controlGlyphs, levelsShow=[2])
+    # p.proofBlends(list(string.ascii_uppercase), levelsShow=[2])
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
@@ -342,3 +349,7 @@ if __name__ == '__main__':
 
     end = time.time()
     timer(start, end)
+
+
+
+

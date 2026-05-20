@@ -1,5 +1,7 @@
 # menuTitle: set source names from measurements
 
+### DEPRECATED >>> use xProject.setSourceNamesFromMeasurements
+
 from importlib import reload
 import xTools4.modules.measurements
 reload(xTools4.modules.measurements)
