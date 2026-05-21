@@ -1,3 +1,5 @@
+# menuTitle: AmstelvarA2 Controller
+
 from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
@@ -341,7 +343,7 @@ if __name__ == '__main__':
     #--- proofing ---
     p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase), levelsShow=[2])
+    # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
@@ -349,7 +351,6 @@ if __name__ == '__main__':
 
     end = time.time()
     timer(start, end)
-
 
 
 
