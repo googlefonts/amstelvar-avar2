@@ -6,7 +6,7 @@ import os
 from xTools4.modules.validation import validateDesignspace
 
 folder          = os.path.dirname(os.path.dirname(os.getcwd()))
-subFamilyName   = ['Roman', 'Italic'][0]
+subFamilyName   = ['Roman', 'Italic'][1]
 sourcesFolder   = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 
