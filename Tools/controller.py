@@ -119,6 +119,7 @@ class AmstelvarA2Controller(xProject):
         location = super().defaultLocation.copy()
         location['GRAD'] = 0
 
+        # sort parameters based on list of parametric axes
         locationSorted = {}
         for parameterName in self.parametricAxes:
             locationSorted[parameterName] = location[parameterName]
@@ -149,11 +150,6 @@ class AmstelvarA2Controller(xProject):
         for axis in self.designspace.axes:
             if axis.tag in self._blendedAxesMappings:
                 axis.map = self._blendedAxesMappings[axis.tag]
-
-    # def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
-    #     if self.verbose:
-    #         print('\tadding tuning axes... (not implemented yet)')
-    #     pass
 
     def addTuningSources(self):
         super().addTuningSources(familyName=f'{self.familyName} {self.subFamily}')
@@ -338,9 +334,9 @@ if __name__ == '__main__':
     # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuning = False
-    p.buildDesignspace(patchBlends=True, instances=False)
+    # p.parametricAxesHidden = True
+    # p.tuning = False
+    # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
     #--- project info
