@@ -12,9 +12,9 @@ from xTools4.modules.sys import timer
 
 
 _parametricAxesRoman  = 'WDSP GRAD '
-_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD '
-_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD '
-_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           '
+_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD '
+_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD '
+_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           '
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
 _parametricAxesItalic = _parametricAxesRoman
@@ -308,7 +308,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     controlGlyphs = list('HOVTnov')
     controlGlyphs += ['zero', 'one']
@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    #--- sources ---
+    #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
 
@@ -356,6 +356,4 @@ if __name__ == '__main__':
 
     end = time.time()
     timer(start, end)
-
-
 
