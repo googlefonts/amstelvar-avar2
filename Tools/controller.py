@@ -308,7 +308,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     controlGlyphs = list('HOVTnov')
     controlGlyphs += ['zero', 'one']
@@ -347,7 +347,7 @@ if __name__ == '__main__':
 
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
-    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
+    p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 
     #--- build fonts
