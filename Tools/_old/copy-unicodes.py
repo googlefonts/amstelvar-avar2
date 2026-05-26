@@ -1,5 +1,7 @@
 # menuTitle: copy unicodes from default font to other sources
 
+### DEPRECATED >>> use xProject.copyUnicodesFromDefault
+
 import os, glob
 
 familyName    = 'AmstelvarA2'

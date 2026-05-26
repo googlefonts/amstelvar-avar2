@@ -117,12 +117,15 @@ class AmstelvarA2Controller(xProject):
     @property
     def defaultLocation(self):
         location = super().defaultLocation.copy()
+        location['GRAD'] = 0
+
         locationSorted = {}
         for parameterName in self.parametricAxes:
-            if parameterName == 'GRAD':
-                locationSorted[parameterName] = 0
-            else:
-                locationSorted[parameterName] = location[parameterName]
+            locationSorted[parameterName] = location[parameterName]
+        for key, value in location.items():
+            if key not in locationSorted:
+                locationSorted[key] = value
+
         return locationSorted
 
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
@@ -147,15 +150,13 @@ class AmstelvarA2Controller(xProject):
             if axis.tag in self._blendedAxesMappings:
                 axis.map = self._blendedAxesMappings[axis.tag]
 
-    def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
-        if self.verbose:
-            print('\tadding tuning axes... (not implemented yet)')
-        pass
+    # def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
+    #     if self.verbose:
+    #         print('\tadding tuning axes... (not implemented yet)')
+    #     pass
 
     def addTuningSources(self):
-        if self.verbose:
-            print('\tadding tuning sources... (not implemented yet)')
-        pass
+        super().addTuningSources(familyName=f'{self.familyName} {self.subFamily}')
 
     def buildBlendsFile(self, parentParametric=True):
         if not os.path.exists(self.referenceBlendsPath):
@@ -177,6 +178,13 @@ class AmstelvarA2Controller(xProject):
         }
         blendsDict['sources']['XTSP-100'] = self.defaultLocation.copy()
         blendsDict['sources']['XTSP100']  = self.defaultLocation.copy()
+
+        if self.tuning:
+            # add tuning axes to blended locations
+            _tuningAxes = { styleName: f'TN{i:02}' for i, styleName in enumerate(self.tuningSources) }
+            for styleName in blendsDict['sources']:
+                for tuningStyle, tuningAxis in _tuningAxes.items():
+                    blendsDict['sources'][styleName][tuningAxis] = 100 if styleName == tuningStyle else 0
 
         for axisName in self._spacingAxes:
             values = []
@@ -306,8 +314,6 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic'][0]
 
-    tune = False
-
     controlGlyphs = list('HOVTnov')
     controlGlyphs += ['zero', 'one']
 
@@ -328,20 +334,23 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.buildDesignspace(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune, instances=False)
+    p.parametricAxesHidden = True
+    p.tuning = False
+    p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
     #--- project info
     # p.printSettings()
     # p.printAxes()
+    # print(p._tuningAxes)
+    # print(p.defaultLocation)
 
     #--- proofing ---
-    p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
+    # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 

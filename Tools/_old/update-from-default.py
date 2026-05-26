@@ -1,5 +1,7 @@
 # menuTitle: update default glyphs in all sources
 
+### DEPRECATED >>> use xProject.updateGlyphsFromDefault
+
 from importlib import reload
 import xTools4.modules.validation
 reload(xTools4.modules.validation)
