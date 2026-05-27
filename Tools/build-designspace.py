@@ -1,3 +1,5 @@
+### DEPRECATED >>> use xProject controller
+
 from importlib import reload
 import xTools4.modules.sys
 reload(xTools4.modules.sys)
@@ -21,8 +23,7 @@ from ufo2ft import compileVariableTTF
 from mojo.smartSet import readSmartSets
 import ufoProcessor # upgrade to UFOOperator
 from extractor import extractUFO
-from xTools4.modules.measurements import FontMeasurements, permille
-from xTools4.modules.linkPoints2 import readMeasurements
+from xTools4.modules.measurements import FontMeasurements, permille, readMeasurements
 from xTools4.modules.sys import timer
 from xTools4.modules.ttx import ttf2ttx, ttx2ttf
 from xTools4.modules.xproject import smartSetsPathKey, measurementsPathKey, glyphConstructionsPathKey, referenceFontPathKey
@@ -211,7 +212,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
     @property
     def designspaceName(self):
-        return f'{self.familyName}-{self.subFamilyName}.designspace'
+        return f'{self.familyName}-{self.subFamilyName}_old.designspace'
 
     @property
     def baseFolder(self):
@@ -359,7 +360,7 @@ class AmstelvarA2DesignSpaceBuilder:
 
             self.designspace.addAxis(a)
 
-    def addCornerTuningAxes(self, duovars=True, trivars=True, quadvars=True):
+    def addTuningAxes(self, duovars=True, trivars=True, quadvars=True):
 
         if self.verbose:
             print('\tadding corner tuning axes...')
@@ -419,7 +420,7 @@ class AmstelvarA2DesignSpaceBuilder:
                     src.location = L
                     self.designspace.addSource(src)
 
-    def addCornerTuningSources(self):
+    def addTuningSources(self):
 
         if self.verbose:
             print('\tadding corner tuning sources...')
@@ -650,11 +651,11 @@ class AmstelvarA2DesignSpaceBuilder:
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes()
-        self.addCornerTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+        self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
         self.addMappings()
         self.addDefaultSource()
         self.addParametricSources()
-        self.addCornerTuningSources()
+        self.addTuningSources()
         # self.addInstances()
 
         self.save()
@@ -854,8 +855,8 @@ if __name__ == '__main__':
     tune = False
 
     D = AmstelvarA2DesignSpaceBuilder(subFamilyName)
-    D.build(patchBlends=True, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
-    D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
+    D.build(patchBlends=False, tuneDuovars=tune, tuneTrivars=tune, tuneQuadvars=tune)
+    # D.buildVariableFont(subset=None, setVersionInfo=True, featureWriter=False, noGDEF=False, debug=False)
     # D.buildInstancesVariableFont(clear=True, ufo=True)
     # D.printAxes()
 

@@ -23,48 +23,6 @@
       "default": 0,
       "minimum": -100,
       "maximum": 100
-    },
-    "XOPQ": {
-      "name": "XOPQ",
-      "default": 90,
-      "minimum": 4,
-      "maximum": 310
-    },
-    "YOPQ": {
-      "name": "YOPQ",
-      "default": 66,
-      "minimum": 4,
-      "maximum": 208
-    },
-    "XTRA": {
-      "name": "XTRA",
-      "default": 400,
-      "minimum": -103,
-      "maximum": 939
-    },
-    "XSHA": {
-      "name": "XSHA",
-      "default": 104,
-      "minimum": -25,
-      "maximum": 214
-    },
-    "YSHA": {
-      "name": "YSHA",
-      "default": 50,
-      "minimum": 0,
-      "maximum": 150
-    },
-    "XSVA": {
-      "name": "XSVA",
-      "default": 55,
-      "minimum": -6,
-      "maximum": 142
-    },
-    "YSVA": {
-      "name": "YSVA",
-      "default": 165,
-      "minimum": 0,
-      "maximum": 270
     }
   },
   "sources": {
@@ -119,6 +77,7 @@
       "YQUC": 194,
       "YQLC": 116,
       "YQFI": 214,
+      "XVAU": 54,
       "XTUA": 251,
       "XTLA": 206,
       "YTJD": -7
@@ -174,6 +133,7 @@
       "YQUC": 186,
       "YQLC": 116,
       "YQFI": 218,
+      "XVAU": 54,
       "XTUA": 311,
       "XTLA": 295,
       "YTJD": -7
@@ -229,6 +189,7 @@
       "YQUC": 193,
       "YQLC": 121,
       "YQFI": 214,
+      "XVAU": 49,
       "XTUA": 233,
       "XTLA": 166,
       "YTJD": -7
@@ -284,6 +245,7 @@
       "YQUC": 186,
       "YQLC": 110,
       "YQFI": 168,
+      "XVAU": 52,
       "XTUA": 240,
       "XTLA": 240,
       "YTJD": -5
@@ -339,6 +301,7 @@
       "YQUC": 238,
       "YQLC": 138,
       "YQFI": 268,
+      "XVAU": 56,
       "XTUA": 271,
       "XTLA": 264,
       "YTJD": -3
@@ -394,6 +357,7 @@
       "YQUC": 180,
       "YQLC": 128,
       "YQFI": 240,
+      "XVAU": 48,
       "XTUA": 302,
       "XTLA": 322,
       "YTJD": -5
@@ -449,6 +413,7 @@
       "YQUC": 307,
       "YQLC": 190,
       "YQFI": 334,
+      "XVAU": 56,
       "XTUA": 247,
       "XTLA": 220,
       "YTJD": -12
@@ -504,6 +469,7 @@
       "YQUC": 181,
       "YQLC": 110,
       "YQFI": 174,
+      "XVAU": 42,
       "XTUA": 290,
       "XTLA": 291,
       "YTJD": -12
@@ -559,6 +525,7 @@
       "YQUC": 186,
       "YQLC": 115,
       "YQFI": 168,
+      "XVAU": 32,
       "XTUA": 191,
       "XTLA": 191,
       "YTJD": -6
@@ -614,6 +581,7 @@
       "YQUC": 130,
       "YQLC": 82,
       "YQFI": 132,
+      "XVAU": 18,
       "XTUA": 246,
       "XTLA": 235,
       "YTJD": -159
@@ -669,6 +637,7 @@
       "YQUC": 124,
       "YQLC": 82,
       "YQFI": 137,
+      "XVAU": 18,
       "XTUA": 312,
       "XTLA": 324,
       "YTJD": -184
@@ -724,6 +693,7 @@
       "YQUC": 160,
       "YQLC": 102,
       "YQFI": 214,
+      "XVAU": 18,
       "XTUA": 224,
       "XTLA": 202,
       "YTJD": -159
@@ -779,6 +749,7 @@
       "YQUC": 140,
       "YQLC": 95,
       "YQFI": 160,
+      "XVAU": 26,
       "XTUA": 235,
       "XTLA": 235,
       "YTJD": -150
@@ -834,6 +805,7 @@
       "YQUC": 144,
       "YQLC": 110,
       "YQFI": 186,
+      "XVAU": 20,
       "XTUA": 274,
       "XTLA": 282,
       "YTJD": -175
@@ -889,6 +861,7 @@
       "YQUC": 138,
       "YQLC": 105,
       "YQFI": 184,
+      "XVAU": 20,
       "XTUA": 381,
       "XTLA": 371,
       "YTJD": -200
@@ -944,6 +917,7 @@
       "YQUC": 224,
       "YQLC": 110,
       "YQFI": 218,
+      "XVAU": 20,
       "XTUA": 269,
       "XTLA": 269,
       "YTJD": -175
@@ -999,6 +973,7 @@
       "YQUC": 142,
       "YQLC": 101,
       "YQFI": 161,
+      "XVAU": 26,
       "XTUA": 387,
       "XTLA": 323,
       "YTJD": -176
@@ -1054,6 +1029,7 @@
       "YQUC": 140,
       "YQLC": 100,
       "YQFI": 161,
+      "XVAU": 22,
       "XTUA": 206,
       "XTLA": 192,
       "YTJD": -149
@@ -1109,6 +1085,7 @@
       "YQUC": 136,
       "YQLC": 90,
       "YQFI": 149,
+      "XVAU": 18,
       "XTUA": 324,
       "XTLA": 324,
       "YTJD": -128
@@ -1164,6 +1141,7 @@
       "YQUC": 140,
       "YQLC": 95,
       "YQFI": 144,
+      "XVAU": 18,
       "XTUA": 240,
       "XTLA": 202,
       "YTJD": -104
@@ -1219,6 +1197,7 @@
       "YQUC": 152,
       "YQLC": 102,
       "YQFI": 173,
+      "XVAU": 26,
       "XTUA": 235,
       "XTLA": 235,
       "YTJD": -95
@@ -1274,6 +1253,7 @@
       "YQUC": 155,
       "YQLC": 112,
       "YQFI": 198,
+      "XVAU": 20,
       "XTUA": 282,
       "XTLA": 282,
       "YTJD": -120
@@ -1329,6 +1309,7 @@
       "YQUC": 150,
       "YQLC": 112,
       "YQFI": 204,
+      "XVAU": 20,
       "XTUA": 352,
       "XTLA": 371,
       "YTJD": -144
@@ -1384,6 +1365,7 @@
       "YQUC": 234,
       "YQLC": 148,
       "YQFI": 198,
+      "XVAU": 20,
       "XTUA": 264,
       "XTLA": 249,
       "YTJD": -120
@@ -1439,6 +1421,7 @@
       "YQUC": 146,
       "YQLC": 98,
       "YQFI": 173,
+      "XVAU": 22,
       "XTUA": 301,
       "XTLA": 324,
       "YTJD": -120
@@ -1494,6 +1477,7 @@
       "YQUC": 151,
       "YQLC": 108,
       "YQFI": 173,
+      "XVAU": 22,
       "XTUA": 217,
       "XTLA": 202,
       "YTJD": -95
@@ -1549,6 +1533,7 @@
       "YQUC": 141,
       "YQLC": 90,
       "YQFI": 144,
+      "XVAU": 18,
       "XTUA": 258,
       "XTLA": 235,
       "YTJD": -104
@@ -1570,6 +1555,7 @@
       "YSHU": 50,
       "XSVU": 55,
       "YSVU": 165,
+      "XVAU": 18,
       "XQUC": 136,
       "YQUC": 141,
       "XUCS": 32,
@@ -1629,6 +1615,7 @@
       "YSHU": 50,
       "XSVU": 55,
       "YSVU": 165,
+      "XVAU": 18,
       "XQUC": 136,
       "YQUC": 141,
       "XUCS": 205,
@@ -1670,339 +1657,6 @@
       "XTTW": 5,
       "YTTL": 57,
       "BARS": 0
-    },
-    "XOPQ4": {
-      "XOUC": 4,
-      "XOLC": -1,
-      "XOFI": 2
-    },
-    "XOPQ6": {
-      "XOUC": 6,
-      "XOLC": 1,
-      "XOFI": 4
-    },
-    "XOPQ9": {
-      "XOUC": 9,
-      "XOLC": 4,
-      "XOFI": 7
-    },
-    "XOPQ298": {
-      "XOUC": 298,
-      "XOLC": 293,
-      "XOFI": 296
-    },
-    "XOPQ304": {
-      "XOUC": 304,
-      "XOLC": 299,
-      "XOFI": 302
-    },
-    "XOPQ310": {
-      "XOUC": 310,
-      "XOLC": 305,
-      "XOFI": 308
-    },
-    "YOPQ4": {
-      "YOUC": 4,
-      "YOLC": -4,
-      "YOFI": -6
-    },
-    "YOPQ12": {
-      "YOUC": 12,
-      "YOLC": 4,
-      "YOFI": 2
-    },
-    "YOPQ14": {
-      "YOUC": 14,
-      "YOLC": 6,
-      "YOFI": 4
-    },
-    "YOPQ157": {
-      "YOUC": 157,
-      "YOLC": 149,
-      "YOFI": 147
-    },
-    "YOPQ206": {
-      "YOUC": 206,
-      "YOLC": 198,
-      "YOFI": 196
-    },
-    "YOPQ208": {
-      "YOUC": 208,
-      "YOLC": 200,
-      "YOFI": 198
-    },
-    "XTRA-103": {
-      "XTUC": -103,
-      "XTUR": 58,
-      "XTUD": -93,
-      "XTLC": -260,
-      "XTLR": -166,
-      "XTLD": -255,
-      "XTFI": -174,
-      "XQUC": 22,
-      "XQLC": -35,
-      "XQFI": -40
-    },
-    "XTRA40": {
-      "XTUC": 40,
-      "XTUR": 201,
-      "XTUD": 50,
-      "XTLC": -117,
-      "XTLR": -23,
-      "XTLD": -112,
-      "XTFI": -31,
-      "XQUC": 54,
-      "XQLC": -2,
-      "XQFI": -5
-    },
-    "XTRA72": {
-      "XTUC": 72,
-      "XTUR": 233,
-      "XTUD": 82,
-      "XTLC": -85,
-      "XTLR": 9,
-      "XTLD": -80,
-      "XTFI": 1,
-      "XQUC": 61,
-      "XQLC": 5,
-      "XQFI": 1
-    },
-    "XTRA109": {
-      "XTUC": 109,
-      "XTUR": 270,
-      "XTUD": 119,
-      "XTLC": -48,
-      "XTLR": 46,
-      "XTLD": -43,
-      "XTFI": 38,
-      "XQUC": 70,
-      "XQLC": 14,
-      "XQFI": 10
-    },
-    "XTRA111": {
-      "XTUC": 111,
-      "XTUR": 272,
-      "XTUD": 121,
-      "XTLC": -46,
-      "XTLR": 48,
-      "XTLD": -41,
-      "XTFI": 40,
-      "XQUC": 70,
-      "XQLC": 14,
-      "XQFI": 11
-    },
-    "XTRA199": {
-      "XTUC": 199,
-      "XTUR": 360,
-      "XTUD": 209,
-      "XTLC": 42,
-      "XTLR": 136,
-      "XTLD": 47,
-      "XTFI": 128,
-      "XQUC": 90,
-      "XQLC": 35,
-      "XQFI": 32
-    },
-    "XTRA225": {
-      "XTUC": 225,
-      "XTUR": 386,
-      "XTUD": 235,
-      "XTLC": 68,
-      "XTLR": 162,
-      "XTLD": 73,
-      "XTFI": 154,
-      "XQUC": 96,
-      "XQLC": 41,
-      "XQFI": 38
-    },
-    "XTRA647": {
-      "XTUC": 647,
-      "XTUR": 808,
-      "XTUD": 657,
-      "XTLC": 490,
-      "XTLR": 584,
-      "XTLD": 495,
-      "XTFI": 576,
-      "XQUC": 195,
-      "XQLC": 138,
-      "XQFI": 131
-    },
-    "XTRA657": {
-      "XTUC": 657,
-      "XTUR": 818,
-      "XTUD": 667,
-      "XTLC": 500,
-      "XTLR": 594,
-      "XTLD": 505,
-      "XTFI": 586,
-      "XQUC": 198,
-      "XQLC": 140,
-      "XQFI": 133
-    },
-    "XTRA668": {
-      "XTUC": 668,
-      "XTUR": 829,
-      "XTUD": 678,
-      "XTLC": 511,
-      "XTLR": 605,
-      "XTLD": 516,
-      "XTFI": 597,
-      "XQUC": 201,
-      "XQLC": 143,
-      "XQFI": 135
-    },
-    "XTRA688": {
-      "XTUC": 688,
-      "XTUR": 849,
-      "XTUD": 698,
-      "XTLC": 531,
-      "XTLR": 625,
-      "XTLD": 536,
-      "XTFI": 617,
-      "XQUC": 205,
-      "XQLC": 148,
-      "XQFI": 139
-    },
-    "XTRA695": {
-      "XTUC": 695,
-      "XTUR": 856,
-      "XTUD": 705,
-      "XTLC": 538,
-      "XTLR": 632,
-      "XTLD": 543,
-      "XTFI": 624,
-      "XQUC": 207,
-      "XQLC": 149,
-      "XQFI": 141
-    },
-    "XTRA746": {
-      "XTUC": 746,
-      "XTUR": 907,
-      "XTUD": 756,
-      "XTLC": 589,
-      "XTLR": 683,
-      "XTLD": 594,
-      "XTFI": 675,
-      "XQUC": 220,
-      "XQLC": 161,
-      "XQFI": 151
-    },
-    "XTRA939": {
-      "XTUC": 939,
-      "XTUR": 1100,
-      "XTUD": 949,
-      "XTLC": 782,
-      "XTLR": 876,
-      "XTLD": 787,
-      "XTFI": 868,
-      "XQUC": 266,
-      "XQLC": 205,
-      "XQFI": 192
-    },
-    "XSHA-25": {
-      "XSHU": -25,
-      "XSHL": -55,
-      "XSHF": 0
-    },
-    "XSHA0": {
-      "XSHU": 0,
-      "XSHL": -30,
-      "XSHF": 25
-    },
-    "XSHA30": {
-      "XSHU": 30,
-      "XSHL": 0,
-      "XSHF": 55
-    },
-    "XSHA154": {
-      "XSHU": 154,
-      "XSHL": 124,
-      "XSHF": 179
-    },
-    "XSHA214": {
-      "XSHU": 214,
-      "XSHL": 184,
-      "XSHF": 239
-    },
-    "YSHA0": {
-      "YSHU": 0,
-      "YSHL": -10,
-      "YSHF": -3
-    },
-    "YSHA3": {
-      "YSHU": 3,
-      "YSHL": -7,
-      "YSHF": 0
-    },
-    "YSHA10": {
-      "YSHU": 10,
-      "YSHL": 0,
-      "YSHF": 7
-    },
-    "YSHA150": {
-      "YSHU": 150,
-      "YSHL": 140,
-      "YSHF": 147
-    },
-    "XSVA-6": {
-      "XSVU": -6,
-      "XSVL": -7,
-      "XSVF": 0
-    },
-    "XSVA0": {
-      "XSVU": 0,
-      "XSVL": -1,
-      "XSVF": 6
-    },
-    "XSVA1": {
-      "XSVU": 1,
-      "XSVL": 0,
-      "XSVF": 7
-    },
-    "XSVA125": {
-      "XSVU": 125,
-      "XSVL": 124,
-      "XSVF": 131
-    },
-    "XSVA130": {
-      "XSVU": 130,
-      "XSVL": 129,
-      "XSVF": 136
-    },
-    "XSVA142": {
-      "XSVU": 142,
-      "XSVL": 141,
-      "XSVF": 148
-    },
-    "YSVA0": {
-      "YSVU": 0,
-      "YSVL": -95,
-      "YSVF": -48
-    },
-    "YSVA48": {
-      "YSVU": 48,
-      "YSVL": -47,
-      "YSVF": 0
-    },
-    "YSVA135": {
-      "YSVU": 135,
-      "YSVL": 40,
-      "YSVF": 87
-    },
-    "YSVA225": {
-      "YSVU": 225,
-      "YSVL": 130,
-      "YSVF": 177
-    },
-    "YSVA250": {
-      "YSVU": 250,
-      "YSVL": 155,
-      "YSVF": 202
-    },
-    "YSVA270": {
-      "YSVU": 270,
-      "YSVL": 175,
-      "YSVF": 222
     }
   }
 }

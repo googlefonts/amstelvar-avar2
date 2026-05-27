@@ -783,15 +783,6 @@
       "parent": "",
       "description": ""
     },
-    "GRAD": {
-      "direction": "x",
-      "glyph 1": "H",
-      "point 1": 2,
-      "glyph 2": "H",
-      "point 2": 11,
-      "parent": "",
-      "description": ""
-    },
     "YTJD": {
       "direction": "y",
       "glyph 1": "J",
@@ -2429,6 +2420,10 @@
       "14 99": {
         "name": "XUCS",
         "direction": "x"
+      },
+      "B 19": {
+        "name": "YTJD",
+        "direction": "y"
       }
     },
     "K": {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="U" format="2">
 	<unicode hex="0055"/>
-	<advance width="1437"/>
+	<advance width="1302"/>
 	<outline>
 		<contour>
 			<point x="64" y="1386" type="line"/>
@@ -12,32 +12,32 @@
 			<point x="271" y="794" type="line"/>
 			<point x="268" y="474" type="line" smooth="yes"/>
 			<point x="266" y="282"/>
-			<point x="502" y="114"/>
-			<point x="681" y="114" type="qcurve" smooth="yes"/>
-			<point x="842" y="114"/>
-			<point x="1074" y="297"/>
-			<point x="1075" y="494" type="qcurve" smooth="yes"/>
-			<point x="1077" y="794" type="line"/>
-			<point x="1075" y="1352" type="line"/>
-			<point x="857" y="1386" type="line"/>
-			<point x="857" y="1500" type="line"/>
-			<point x="1423" y="1500" type="line"/>
-			<point x="1423" y="1386" type="line"/>
-			<point x="1215" y="1352" type="line"/>
-			<point x="1214" y="794" type="line"/>
-			<point x="1216" y="493" type="line" smooth="yes"/>
-			<point x="1218" y="254"/>
-			<point x="969" y="-31"/>
-			<point x="724" y="-31" type="qcurve" smooth="yes"/>
-			<point x="531" y="-31"/>
-			<point x="260" y="242"/>
+			<point x="436" y="114"/>
+			<point x="615" y="114" type="qcurve" smooth="yes"/>
+			<point x="776" y="114"/>
+			<point x="938" y="297"/>
+			<point x="940" y="494" type="qcurve" smooth="yes"/>
+			<point x="942" y="794" type="line"/>
+			<point x="940" y="1352" type="line"/>
+			<point x="722" y="1386" type="line"/>
+			<point x="722" y="1500" type="line"/>
+			<point x="1288" y="1500" type="line"/>
+			<point x="1288" y="1386" type="line"/>
+			<point x="1080" y="1352" type="line"/>
+			<point x="1079" y="794" type="line"/>
+			<point x="1081" y="493" type="line" smooth="yes"/>
+			<point x="1083" y="233"/>
+			<point x="903" y="-31"/>
+			<point x="658" y="-31" type="qcurve" smooth="yes"/>
+			<point x="465" y="-31"/>
+			<point x="261" y="242"/>
 			<point x="262" y="481" type="qcurve" smooth="yes"/>
 			<point x="264" y="794" type="line"/>
 			<point x="262" y="1352" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="724" y="0"/>
-	<anchor name="ogonek" x="924" y="0"/>
-	<anchor name="top" x="669" y="1500"/>
-	<anchor name="topright" x="1423" y="1500"/>
+	<anchor name="bottom" x="644" y="0"/>
+	<anchor name="ogonek" x="844" y="0"/>
+	<anchor name="top" x="602" y="1500"/>
+	<anchor name="topright" x="1288" y="1500"/>
 </glyph>
