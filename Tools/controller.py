@@ -117,6 +117,7 @@ class AmstelvarA2Controller(xProject):
     @property
     def defaultLocation(self):
         location = super().defaultLocation.copy()
+        # add custom parametric axes (not based on measurement)
         location['GRAD'] = 0
 
         # sort parameters based on list of parametric axes
@@ -308,7 +309,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     controlGlyphs = list('HOVTnov')
     controlGlyphs += ['zero', 'one']
@@ -320,17 +321,18 @@ if __name__ == '__main__':
     #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.splitSources('XOLC', 'XOET', [])
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
     # p.copyGroupsFromDefault(glyphNames)
-    # p.copyUnicodesFromDefault(preflight=True)
+    # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True)
+    p.cleanupSources(parametric=True, tuning=True)
     p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
@@ -338,6 +340,7 @@ if __name__ == '__main__':
     # p.tuning = False
     # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources()
 
     #--- project info
     # p.printSettings()
