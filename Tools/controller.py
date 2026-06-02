@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, time, json, string
+import os, glob, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements
@@ -96,7 +96,11 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceSourcesFolder(self):
-        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar')
+        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
+
+    @property
+    def referenceSources(self):
+        return { os.path.splitext(os.path.split(f)[-1])[0]: f for f in glob.glob(f'{self.referenceSourcesFolder}/*.ufo')}
 
     @property
     def referenceBlendsPath(self):
