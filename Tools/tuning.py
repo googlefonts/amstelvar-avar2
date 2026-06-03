@@ -1,49 +1,16 @@
+# drawBot
+
 from importlib import reload
 import controller
 reload(controller)
+import xTools4.modules.measurements
+reload(xTools4.modules.measurements)
 
 import os, glob
 from ufoProcessor.ufoOperator import UFOOperator
 from controller import AmstelvarA2Controller
 from xTools4.modules.measurements import *
-from xTools4.modules.blendsPreview import getEffectiveLocation, instantiateGlyph, getTTFGlyphForChar
-
-#----------
-# settings
-#----------
-
-subFamily = ['Roman', 'Italic'][0]
-glyphName = 'V'
-x0, y0 = 100, 220
-w, h = 4000, 1000
-s = 0.42             # glyph scale
-r = 4                # point radius
-margin = 100
-
-guidesColor = 0.7,
-measurementsColor = 1, 0, 0
-measurementsDash = 3, 12
-pointsColor = 0,
-
-folder = os.path.dirname(os.getcwd())
-
-p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
-
-glyphDefault = p.defaultFont[glyphName]
-
-yMetrics = set([
-    p.defaultFont.info.descender,
-    0,
-    p.defaultFont.info.xHeight,
-    p.defaultFont.info.capHeight,
-    p.defaultFont.info.ascender
-])
-
-referenceFontPath = os.path.join(p.referenceSourcesFolder, 'Amstelvar-Roman_wght400.ufo')
-referenceFont = OpenFont(referenceFontPath, showInterface=False)
-referenceFontTTF = os.path.join(p.fontsFolder, 'legacy', 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf')
-
-glyphReference = referenceFont[glyphName]
+from xTools4.modules.blendsPreview import getEffectiveLocation, instantiateGlyph
 
 #-----------
 # functions
@@ -83,7 +50,7 @@ def _drawGlyph(glyph, pos, scale_, label, points=True, index=True):
             n = 0
             for c in glyph.contours:
                 for p in c.points:
-                    oval(p.x-r, p.y-r, r*2, r*2)        
+                    oval(p.x-r, p.y-r, r*2, r*2)
                     if index:
                         text(str(n), (p.x, p.y-36), align='center')
                     n += 1
@@ -113,55 +80,65 @@ def _drawMeasurements(glyph, glyphMeasurements, pos, scale_):
             pt2 = getPointAtIndex(glyph, int(pt2_index))
         except:
             pt2 = getAnchorPoint(glyph.font, pt2_index)
-        
+
         if pt1 is None or pt2 is None:
             print(pt1, pt2)
             continue
-        
-        line((pt1.x, pt1.y), (pt2.x, pt2.y))
 
+        line((pt1.x, pt1.y), (pt2.x, pt2.y))
     restore()
 
-def _transferMeasurements(glyphMeasurements, srcGlyph, dstGlyph):
-    dstMeasurements = {}
-    for ID, m in glyphMeasurements.items():
-        pt1_index, pt2_index = ID.split()
+def _drawDeltas(glyph1, glyph2, matchingPoints, pos, scale_):
+    save()
+    translate(*pos)
+    scale(scale_)
+    stroke(0)
+    for mp1, mp2 in matchingPoints:
+        ci1, pi1 = mp1
+        ci2, pi2 = mp2
+        p1 = glyph1.contours[ci1].points[pi1]
+        p2 = glyph2.contours[ci2].points[pi2]
+        line((p1.x, p1.y), (p2.x, p2.y))
+    restore()
 
-        if pt1_index not in ['-1', '99']:            
-            try:
-                pt1_index = int(pt1_index)
-                pt1 = getPointAtIndex(srcGlyph, pt1_index)
-                dstIndex = None
-                n = 0
-                for c in dstGlyph.contours:
-                    for p in c.points:
-                        if p.x == pt1.x and p.y == pt1.y:
-                            dstIndex = n
-                        n += 1       
-                pt1_index = dstIndex
-            except:
-                pass
+#----------
+# settings
+#----------
 
-        if pt2_index not in ['-1', '99']:            
-            try:
-                pt2_index = int(pt2_index)
-                pt2 = getPointAtIndex(srcGlyph, pt2_index)
-                dstIndex = None
-                n = 0
-                for c in dstGlyph.contours:
-                    for p in c.points:
-                        if p.x == pt2.x and p.y == pt2.y:
-                            dstIndex = n
-                        n += 1       
-                pt2_index = dstIndex
-            except:
-                pass
+subFamily = ['Roman', 'Italic'][0]
+glyphName = 'V'
 
-        dstMeasurements[f'{pt1_index} {pt2_index}'] = m
+x0, y0 = 100, 220     # origin position
+w, h = 4000, 1000     # page size
+s = 0.42              # glyph scale
+r = 4                 # point radius
+margin = 100          # margin glyphs
 
-    return dstMeasurements
+guidesColor = 0.7,
+measurementsColor = 1, 0, 0
+measurementsDash = 3, 12
+pointsColor = 0,
 
-glyphMeasurementsReference = _transferMeasurements(p.measurements['glyphs'][glyphName], glyphDefault, glyphReference)
+folder = os.path.dirname(os.getcwd())
+
+p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
+
+glyphDefault = p.defaultFont[glyphName]
+
+yMetrics = set([
+    p.defaultFont.info.descender,
+    0,
+    p.defaultFont.info.xHeight,
+    p.defaultFont.info.capHeight,
+    p.defaultFont.info.ascender
+])
+
+referenceFontPath = os.path.join(p.referenceSourcesFolder, 'Amstelvar-Roman_wght400.ufo')
+referenceFont = OpenFont(referenceFontPath, showInterface=False)
+glyphReference = referenceFont[glyphName]
+
+# transfer glyph measurements to reference font
+glyphMeasurementsReference = transferGlyphMeasurements(p.measurements['glyphs'][glyphName], glyphDefault, glyphReference)
 
 #-------
 # draw!
@@ -181,7 +158,7 @@ x += glyphDefault.width*s + margin
 _drawGlyph(glyphReference, (x, y), s, 'reference')
 _drawMeasurements(glyphReference, glyphMeasurementsReference, (x, y), s)
 
-tuningLevel = 2 # 1: duovars / 2: trivars / 3: quadvars
+tuningLevel = 1 # 1: duovars / 2: trivars / 3: quadvars
 
 operator = UFOOperator()
 operator.read(p.designspacePath)
@@ -202,6 +179,11 @@ for styleName, ufoPath in p.tuningSources.items():
     # get reference glyph
     blendedReference = referenceSources[styleName][glyphName]
 
+    # make tuning glyph
+    matchingPoints = getMatchingPoints(glyphDefault, glyphReference)
+    tuningGlyph = makeTuningGlyph(blendedGlyph, blendedReference, glyphDefault, matchingPoints)
+
+    # draw page
     x, y = x0, y0
     newPage(w, h)
     blendMode('multiply')
@@ -216,42 +198,10 @@ for styleName, ufoPath in p.tuningSources.items():
     
     _drawGlyph(blendedGlyph, (x, y), s, 'diff', points=True, index=False)
     _drawGlyph(blendedReference, (x, y), s, '', points=True, index=False)
-
-    save()
-    translate(x, y)
-    scale(s)
-    stroke(0)
-    matchingPoints = []
-
-    glyphTuning = glyphDefault.copy()
-
-    for ci, c in enumerate(glyphDefault.contours):
-        for pi, pt in enumerate(c.points):
-            # find matching reference point
-            for cci, cc in enumerate(glyphReference.contours):
-                for ppi, pp in enumerate(cc.points):
-                    if pp.x == pt.x and pp.y == pt.y:
-                        matchingPoints.append(((ci, pi), (cci, ppi)))
-
-    for mp1, mp2 in matchingPoints:
-        ci1, pi1 = mp1
-        ci2, pi2 = mp2
-        p1 = blendedGlyph.contours[ci1].points[pi1]
-        p2 = blendedReference.contours[ci2].points[pi2]
-        line((p1.x, p1.y), (p2.x, p2.y))
-
-        deltaX = p2.x - p1.x
-        deltaY = p2.y - p1.y
-        pt = glyphTuning.contours[ci1].points[pi1]
-        pt.x += deltaX
-        pt.y += deltaY
-       
-    restore()
+    _drawDeltas(blendedGlyph, blendedReference, matchingPoints, (x, y), s)
 
     x += max(blendedGlyph.width, blendedReference.width)*s + margin 
 
+    _drawGlyph(tuningGlyph, (x, y), s, 'tuning', points=True, index=False)
     _drawGlyph(glyphDefault, (x, y), s, '', points=False, index=False)
-    _drawGlyph(glyphTuning, (x, y), s, 'tuning', points=False, index=False)
-
-    
 
