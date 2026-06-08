@@ -1,44 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="b" format="2">
 	<unicode hex="0062"/>
-	<advance width="1893"/>
+	<advance width="1826"/>
 	<outline>
 		<contour>
-			<point x="48.007518797" y="241" type="qcurve" smooth="yes"/>
-			<point x="122.007518797" y="633" type="line"/>
-			<point x="269.007518797" y="1410" type="line"/>
-			<point x="135.007518797" y="1502" type="line"/>
-			<point x="163.007518797" y="1574" type="line"/>
-			<point x="793.007518797" y="1608" type="line"/>
-			<point x="880.007518797" y="1538" type="line"/>
-			<point x="698.007518797" y="601" type="line"/>
-			<point x="626.007518797" y="227" type="line" smooth="yes"/>
-			<point x="614.007518797" y="165"/>
-			<point x="648.007518797" y="116"/>
-			<point x="695.007518797" y="116" type="qcurve" smooth="yes"/>
-			<point x="915.007518797" y="116"/>
-			<point x="1195.007518797" y="459"/>
-			<point x="1195.007518797" y="684" type="qcurve" smooth="yes"/>
-			<point x="1195.007518797" y="788"/>
-			<point x="1129.007518797" y="855"/>
-			<point x="1056.007518797" y="855" type="qcurve" smooth="yes"/>
-			<point x="954.007518797" y="855"/>
-			<point x="717.007518797" y="693"/>
-			<point x="610.007518797" y="571" type="qcurve"/>
-			<point x="636.007518797" y="712" type="line"/>
-			<point x="816.007518797" y="870"/>
-			<point x="1186.007518797" y="1003"/>
-			<point x="1401.007518797" y="1003" type="qcurve" smooth="yes"/>
-			<point x="1583.007518797" y="1003"/>
-			<point x="1799.007518797" y="874"/>
-			<point x="1799.007518797" y="709" type="qcurve" smooth="yes"/>
-			<point x="1799.007518797" y="406"/>
-			<point x="1148.007518797" y="-13"/>
-			<point x="537.007518797" y="-13" type="qcurve" smooth="yes"/>
-			<point x="254.007518797" y="-13"/>
-			<point x="28.007518797" y="137"/>
+			<point x="48" y="241" type="qcurve" smooth="yes"/>
+			<point x="122" y="633" type="line"/>
+			<point x="269" y="1410" type="line"/>
+			<point x="135" y="1502" type="line"/>
+			<point x="163" y="1574" type="line"/>
+			<point x="793" y="1608" type="line"/>
+			<point x="880" y="1538" type="line"/>
+			<point x="698" y="601" type="line"/>
+			<point x="626" y="227" type="line" smooth="yes"/>
+			<point x="614" y="165"/>
+			<point x="648" y="116"/>
+			<point x="695" y="116" type="qcurve" smooth="yes"/>
+			<point x="915" y="116"/>
+			<point x="1128" y="459"/>
+			<point x="1128" y="684" type="qcurve" smooth="yes"/>
+			<point x="1128" y="788"/>
+			<point x="1062" y="855"/>
+			<point x="989" y="855" type="qcurve" smooth="yes"/>
+			<point x="887" y="855"/>
+			<point x="723" y="727"/>
+			<point x="616" y="605" type="qcurve"/>
+			<point x="642" y="746" type="line"/>
+			<point x="822" y="904"/>
+			<point x="1119" y="1003"/>
+			<point x="1334" y="1003" type="qcurve" smooth="yes"/>
+			<point x="1516" y="1003"/>
+			<point x="1732" y="874"/>
+			<point x="1732" y="709" type="qcurve" smooth="yes"/>
+			<point x="1732" y="406"/>
+			<point x="1148" y="-13"/>
+			<point x="537" y="-13" type="qcurve" smooth="yes"/>
+			<point x="254" y="-13"/>
+			<point x="28" y="137"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="575.007518797" y="0"/>
 	<anchor name="top" x="575.007518797" y="1533"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.measurements.font</key>
+			<dict>
+				<key>BARS</key>
+				<integer>0</integer>
+				<key>WDSP</key>
+				<integer>639</integer>
+				<key>XDOT</key>
+				<integer>274</integer>
+				<key>XFIR</key>
+				<integer>84</integer>
+				<key>XFIS</key>
+				<integer>230</integer>
+				<key>XLCD</key>
+				<integer>114</integer>
+				<key>XLCR</key>
+				<integer>51</integer>
+				<key>XLCS</key>
+				<integer>173</integer>
+				<key>XOAC</key>
+				<integer>400</integer>
+				<key>XOFI</key>
+				<integer>184</integer>
+				<key>XOLA</key>
+				<integer>195</integer>
+				<key>XOLC</key>
+				<integer>575</integer>
+				<key>XOPQ</key>
+				<integer>169</integer>
+				<key>XOUA</key>
+				<integer>196</integer>
+				<key>XOUC</key>
+				<integer>169</integer>
+				<key>XQFI</key>
+				<integer>161</integer>
+				<key>XQLC</key>
+				<integer>144</integer>
+				<key>XQUC</key>
+				<integer>230</integer>
+				<key>XSHA</key>
+				<integer>183</integer>
+				<key>XSHF</key>
+				<integer>193</integer>
+				<key>XSHL</key>
+				<integer>141</integer>
+				<key>XSHU</key>
+				<integer>183</integer>
+				<key>XSVA</key>
+				<integer>100</integer>
+				<key>XSVF</key>
+				<integer>102</integer>
+				<key>XSVL</key>
+				<integer>94</integer>
+				<key>XSVU</key>
+				<integer>100</integer>
+				<key>XTAB</key>
+				<integer>1000</integer>
+				<key>XTEQ</key>
+				<integer>230</integer>
+				<key>XTFI</key>
+				<integer>659</integer>
+				<key>XTLA</key>
+				<integer>470</integer>
+				<key>XTLC</key>
+				<integer>469</integer>
+				<key>XTLD</key>
+				<integer>473</integer>
+				<key>XTLR</key>
+				<integer>561</integer>
+				<key>XTRA</key>
+				<integer>721</integer>
+				<key>XTTW</key>
+				<integer>18</integer>
+				<key>XTUA</key>
+				<integer>502</integer>
+				<key>XTUC</key>
+				<integer>721</integer>
+				<key>XTUD</key>
+				<integer>688</integer>
+				<key>XTUR</key>
+				<integer>996</integer>
+				<key>XUCD</key>
+				<integer>93</integer>
+				<key>XUCR</key>
+				<integer>78</integer>
+				<key>XUCS</key>
+				<integer>261</integer>
+				<key>XVAA</key>
+				<integer>27</integer>
+				<key>XVAF</key>
+				<integer>101</integer>
+				<key>XVAL</key>
+				<integer>24</integer>
+				<key>XVAU</key>
+				<integer>27</integer>
+				<key>YDOT</key>
+				<integer>273</integer>
+				<key>YHAA</key>
+				<integer>20</integer>
+				<key>YHAF</key>
+				<integer>25</integer>
+				<key>YHAL</key>
+				<integer>111</integer>
+				<key>YHAU</key>
+				<integer>20</integer>
+				<key>YLAT</key>
+				<integer>387</integer>
+				<key>YOAC</key>
+				<integer>315</integer>
+				<key>YOFI</key>
+				<integer>111</integer>
+				<key>YOLA</key>
+				<integer>100</integer>
+				<key>YOLC</key>
+				<integer>94</integer>
+				<key>YOPQ</key>
+				<integer>109</integer>
+				<key>YOUA</key>
+				<integer>116</integer>
+				<key>YOUC</key>
+				<integer>117</integer>
+				<key>YQFI</key>
+				<integer>288</integer>
+				<key>YQLC</key>
+				<integer>178</integer>
+				<key>YQUC</key>
+				<integer>309</integer>
+				<key>YSHA</key>
+				<integer>100</integer>
+				<key>YSHF</key>
+				<integer>100</integer>
+				<key>YSHL</key>
+				<integer>88</integer>
+				<key>YSHU</key>
+				<integer>100</integer>
+				<key>YSVA</key>
+				<integer>283</integer>
+				<key>YSVF</key>
+				<integer>205</integer>
+				<key>YSVL</key>
+				<integer>126</integer>
+				<key>YSVU</key>
+				<integer>283</integer>
+				<key>YTAO</key>
+				<integer>14</integer>
+				<key>YTAS</key>
+				<integer>1555</integer>
+				<key>YTDE</key>
+				<integer>-392</integer>
+				<key>YTDO</key>
+				<integer>-36</integer>
+				<key>YTEQ</key>
+				<integer>309</integer>
+				<key>YTFI</key>
+				<integer>1550</integer>
+				<key>YTFO</key>
+				<integer>20</integer>
+				<key>YTJD</key>
+				<integer>-260</integer>
+				<key>YTLA</key>
+				<integer>148</integer>
+				<key>YTLC</key>
+				<integer>1021</integer>
+				<key>YTLO</key>
+				<integer>26</integer>
+				<key>YTOS</key>
+				<integer>19</integer>
+				<key>YTTL</key>
+				<integer>129</integer>
+				<key>YTUA</key>
+				<integer>132</integer>
+				<key>YTUC</key>
+				<integer>1500</integer>
+				<key>YTUO</key>
+				<integer>19</integer>
+				<key>YUAT</key>
+				<integer>410</integer>
+			</dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/ibrahim/Documents/Repositories/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_XOLC288.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
