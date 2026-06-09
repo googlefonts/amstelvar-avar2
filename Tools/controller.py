@@ -325,7 +325,7 @@ if __name__ == '__main__':
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
     # p.splitSources('XOLC', 'XOET', [])
-    # p.updateTuningSources(list(string.ascii_lowercase), referenceSource, level=1)
+    # p.updateTuningSources(list(string.ascii_lowercase), referenceSource, level=3)
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
@@ -337,7 +337,7 @@ if __name__ == '__main__':
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
@@ -359,7 +359,7 @@ if __name__ == '__main__':
     # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=1)
 
     #--- build fonts
-    # p.buildVariableFont(debug=False, featureWriter=False)
+    p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
