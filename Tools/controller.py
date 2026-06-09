@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, time, json, string
+import os, glob, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements
@@ -96,11 +96,15 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceSourcesFolder(self):
-        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar')
+        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
+
+    @property
+    def referenceSources(self):
+        return { os.path.splitext(os.path.split(f)[-1])[0]: f for f in glob.glob(f'{self.referenceSourcesFolder}/*.ufo')}
 
     @property
     def referenceBlendsPath(self):
-        return os.path.join(self.referenceSourcesFolder, self.subFamily, 'blends.json')
+        return os.path.join(self.referenceSourcesFolder, 'blends.json')
 
     @property
     def referenceFontPath(self):
@@ -117,6 +121,7 @@ class AmstelvarA2Controller(xProject):
     @property
     def defaultLocation(self):
         location = super().defaultLocation.copy()
+        # add custom parametric axes (not based on measurement)
         location['GRAD'] = 0
 
         # sort parameters based on list of parametric axes
@@ -308,7 +313,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     controlGlyphs = list('HOVTnov')
     controlGlyphs += ['zero', 'one']
@@ -320,24 +325,26 @@ if __name__ == '__main__':
     #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.splitSources('XOLC', 'XOET', [])
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
     # p.copyGroupsFromDefault(glyphNames)
-    # p.copyUnicodesFromDefault(preflight=True)
+    # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
     # p.parametricAxesHidden = True
-    # p.tuning = False
+    # p.tuning = True
     # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources()
 
     #--- project info
     # p.printSettings()
@@ -348,7 +355,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
+    p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
