@@ -104,7 +104,7 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceBlendsPath(self):
-        return os.path.join(self.referenceSourcesFolder, self.subFamily, 'blends.json')
+        return os.path.join(self.referenceSourcesFolder, 'blends.json')
 
     @property
     def referenceFontPath(self):
@@ -337,7 +337,7 @@ if __name__ == '__main__':
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
     # p.parametricAxesHidden = True
@@ -355,7 +355,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
+    p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
