@@ -340,9 +340,9 @@ if __name__ == '__main__':
     # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=True, instances=False)
+    p.parametricAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -355,7 +355,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
+    # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
