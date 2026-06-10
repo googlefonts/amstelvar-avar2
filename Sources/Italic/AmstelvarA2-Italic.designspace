@@ -11,64 +11,64 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
     <axis tag="XTSP" name="XTSP" minimum="-100" maximum="100" default="0"/>
-    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="320" hidden="1"/>
-    <axis tag="GRAD" name="GRAD" minimum="-300" maximum="500" default="0" hidden="1"/>
-    <axis tag="XOUC" name="XOUC" minimum="9" maximum="310" default="84" hidden="1"/>
-    <axis tag="YOUC" name="YOUC" minimum="4" maximum="219" default="58" hidden="1"/>
-    <axis tag="XOUA" name="XOUA" minimum="30" maximum="134" default="98" hidden="1"/>
-    <axis tag="YOUA" name="YOUA" minimum="4" maximum="98" default="58" hidden="1"/>
-    <axis tag="XTUC" name="XTUC" minimum="58" maximum="650" default="360" hidden="1"/>
-    <axis tag="XTUR" name="XTUR" minimum="60" maximum="902" default="498" hidden="1"/>
-    <axis tag="XTUD" name="XTUD" minimum="118" maximum="637" default="344" hidden="1"/>
-    <axis tag="XTUA" name="XTUA" minimum="181" maximum="351" default="251" hidden="1"/>
-    <axis tag="YTUC" name="YTUC" minimum="541" maximum="875" default="750" hidden="1"/>
-    <axis tag="YTJD" name="YTJD" minimum="-190" maximum="-11" default="-130" hidden="1"/>
-    <axis tag="XSHU" name="XSHU" minimum="0" maximum="142" default="92" hidden="1"/>
-    <axis tag="YSHU" name="YSHU" minimum="0" maximum="150" default="50" hidden="1"/>
-    <axis tag="XSVU" name="XSVU" minimum="0" maximum="125" default="50" hidden="1"/>
-    <axis tag="YSVU" name="YSVU" minimum="0" maximum="216" default="142" hidden="1"/>
-    <axis tag="XVAU" name="XVAU" minimum="0" maximum="64" default="14" hidden="1"/>
-    <axis tag="XQUC" name="XQUC" minimum="14" maximum="208" default="115" hidden="1"/>
-    <axis tag="YQUC" name="YQUC" minimum="98" maximum="272" default="154" hidden="1"/>
-    <axis tag="XUCS" name="XUCS" minimum="23" maximum="196" default="130" hidden="1"/>
-    <axis tag="XUCR" name="XUCR" minimum="0" maximum="64" default="39" hidden="1"/>
-    <axis tag="XUCD" name="XUCD" minimum="20" maximum="132" default="46" hidden="1"/>
-    <axis tag="XOLC" name="XOLC" minimum="7" maximum="288" default="85" hidden="1"/>
-    <axis tag="YOLC" name="YOLC" minimum="4" maximum="110" default="47" hidden="1"/>
-    <axis tag="XOLA" name="XOLA" minimum="30" maximum="117" default="98" hidden="1"/>
-    <axis tag="YOLA" name="YOLA" minimum="4" maximum="115" default="50" hidden="1"/>
-    <axis tag="XTLC" name="XTLC" minimum="41" maximum="434" default="232" hidden="1"/>
-    <axis tag="XTLR" name="XTLR" minimum="54" maximum="601" default="286" hidden="1"/>
-    <axis tag="XTLD" name="XTLD" minimum="80" maximum="461" default="241" hidden="1"/>
-    <axis tag="XTLA" name="XTLA" minimum="134" maximum="343" default="235" hidden="1"/>
-    <axis tag="YTLC" name="YTLC" minimum="436" maximum="594" default="510" hidden="1"/>
-    <axis tag="YTAS" name="YTAS" minimum="642" maximum="852" default="778" hidden="1"/>
-    <axis tag="YTDE" name="YTDE" minimum="-276" maximum="-66" default="-196" hidden="1"/>
-    <axis tag="XSHL" name="XSHL" minimum="4" maximum="136" default="70" hidden="1"/>
-    <axis tag="YSHL" name="YSHL" minimum="0" maximum="144" default="44" hidden="1"/>
-    <axis tag="XSVL" name="XSVL" minimum="0" maximum="136" default="47" hidden="1"/>
-    <axis tag="YSVL" name="YSVL" minimum="0" maximum="138" default="63" hidden="1"/>
-    <axis tag="XQLC" name="XQLC" minimum="10" maximum="150" default="72" hidden="1"/>
-    <axis tag="YQLC" name="YQLC" minimum="72" maximum="162" default="89" hidden="1"/>
-    <axis tag="XLCS" name="XLCS" minimum="40" maximum="172" default="86" hidden="1"/>
-    <axis tag="XLCR" name="XLCR" minimum="-19" maximum="66" default="26" hidden="1"/>
-    <axis tag="XLCD" name="XLCD" minimum="17" maximum="112" default="57" hidden="1"/>
-    <axis tag="XOFI" name="XOFI" minimum="3" maximum="308" default="92" hidden="1"/>
-    <axis tag="YOFI" name="YOFI" minimum="4" maximum="214" default="56" hidden="1"/>
-    <axis tag="XTFI" name="XTFI" minimum="45" maximum="582" default="330" hidden="1"/>
-    <axis tag="YTFI" name="YTFI" minimum="281" maximum="895" default="775" hidden="1"/>
-    <axis tag="XSHF" name="XSHF" minimum="-2" maximum="146" default="96" hidden="1"/>
-    <axis tag="YSHF" name="YSHF" minimum="0" maximum="150" default="50" hidden="1"/>
-    <axis tag="XSVF" name="XSVF" minimum="0" maximum="126" default="51" hidden="1"/>
-    <axis tag="YSVF" name="YSVF" minimum="-1" maximum="202" default="102" hidden="1"/>
-    <axis tag="XQFI" name="XQFI" minimum="20" maximum="144" default="80" hidden="1"/>
-    <axis tag="YQFI" name="YQFI" minimum="34" maximum="284" default="144" hidden="1"/>
-    <axis tag="XFIR" name="XFIR" minimum="-13" maximum="90" default="42" hidden="1"/>
-    <axis tag="XDOT" name="XDOT" minimum="23" maximum="274" default="137" hidden="1"/>
-    <axis tag="YTOS" name="YTOS" minimum="-4" maximum="25" default="10" hidden="1"/>
-    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="9" hidden="1"/>
-    <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="64" hidden="1"/>
-    <axis tag="BARS" name="BARS" minimum="0" maximum="707" default="0" hidden="1"/>
+    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="320"/>
+    <axis tag="GRAD" name="GRAD" minimum="-300" maximum="500" default="0"/>
+    <axis tag="XOUC" name="XOUC" minimum="9" maximum="310" default="84"/>
+    <axis tag="YOUC" name="YOUC" minimum="4" maximum="219" default="58"/>
+    <axis tag="XOUA" name="XOUA" minimum="3" maximum="132" default="81"/>
+    <axis tag="YOUA" name="YOUA" minimum="5" maximum="102" default="61"/>
+    <axis tag="XTUC" name="XTUC" minimum="58" maximum="650" default="360"/>
+    <axis tag="XTUR" name="XTUR" minimum="60" maximum="902" default="498"/>
+    <axis tag="XTUD" name="XTUD" minimum="118" maximum="637" default="344"/>
+    <axis tag="XTUA" name="XTUA" minimum="181" maximum="351" default="251"/>
+    <axis tag="YTUC" name="YTUC" minimum="541" maximum="875" default="750"/>
+    <axis tag="YTJD" name="YTJD" minimum="-190" maximum="0" default="-130"/>
+    <axis tag="XSHU" name="XSHU" minimum="0" maximum="142" default="92"/>
+    <axis tag="YSHU" name="YSHU" minimum="0" maximum="150" default="50"/>
+    <axis tag="XSVU" name="XSVU" minimum="0" maximum="125" default="50"/>
+    <axis tag="YSVU" name="YSVU" minimum="0" maximum="216" default="142"/>
+    <axis tag="XVAU" name="XVAU" minimum="0" maximum="64" default="14"/>
+    <axis tag="XQUC" name="XQUC" minimum="14" maximum="208" default="115"/>
+    <axis tag="YQUC" name="YQUC" minimum="98" maximum="272" default="154"/>
+    <axis tag="XUCS" name="XUCS" minimum="23" maximum="196" default="130"/>
+    <axis tag="XUCR" name="XUCR" minimum="0" maximum="64" default="39"/>
+    <axis tag="XUCD" name="XUCD" minimum="20" maximum="132" default="46"/>
+    <axis tag="XOLC" name="XOLC" minimum="7" maximum="288" default="85"/>
+    <axis tag="YOLC" name="YOLC" minimum="4" maximum="110" default="47"/>
+    <axis tag="XOLA" name="XOLA" minimum="3" maximum="132" default="76"/>
+    <axis tag="YOLA" name="YOLA" minimum="2" maximum="90" default="56"/>
+    <axis tag="XTLC" name="XTLC" minimum="41" maximum="434" default="232"/>
+    <axis tag="XTLR" name="XTLR" minimum="44" maximum="601" default="286"/>
+    <axis tag="XTLD" name="XTLD" minimum="80" maximum="461" default="241"/>
+    <axis tag="XTLA" name="XTLA" minimum="134" maximum="367" default="235"/>
+    <axis tag="YTLC" name="YTLC" minimum="436" maximum="594" default="510"/>
+    <axis tag="YTAS" name="YTAS" minimum="642" maximum="852" default="778"/>
+    <axis tag="YTDE" name="YTDE" minimum="-276" maximum="-66" default="-196"/>
+    <axis tag="XSHL" name="XSHL" minimum="4" maximum="136" default="70"/>
+    <axis tag="YSHL" name="YSHL" minimum="0" maximum="144" default="44"/>
+    <axis tag="XSVL" name="XSVL" minimum="0" maximum="136" default="47"/>
+    <axis tag="YSVL" name="YSVL" minimum="0" maximum="138" default="63"/>
+    <axis tag="XQLC" name="XQLC" minimum="10" maximum="150" default="72"/>
+    <axis tag="YQLC" name="YQLC" minimum="72" maximum="162" default="89"/>
+    <axis tag="XLCS" name="XLCS" minimum="40" maximum="172" default="86"/>
+    <axis tag="XLCR" name="XLCR" minimum="-19" maximum="66" default="26"/>
+    <axis tag="XLCD" name="XLCD" minimum="17" maximum="112" default="57"/>
+    <axis tag="XOFI" name="XOFI" minimum="3" maximum="308" default="92"/>
+    <axis tag="YOFI" name="YOFI" minimum="4" maximum="214" default="56"/>
+    <axis tag="XTFI" name="XTFI" minimum="45" maximum="583" default="330"/>
+    <axis tag="YTFI" name="YTFI" minimum="281" maximum="895" default="775"/>
+    <axis tag="XSHF" name="XSHF" minimum="-2" maximum="146" default="96"/>
+    <axis tag="YSHF" name="YSHF" minimum="0" maximum="150" default="50"/>
+    <axis tag="XSVF" name="XSVF" minimum="0" maximum="126" default="51"/>
+    <axis tag="YSVF" name="YSVF" minimum="-1" maximum="202" default="102"/>
+    <axis tag="XQFI" name="XQFI" minimum="20" maximum="144" default="80"/>
+    <axis tag="YQFI" name="YQFI" minimum="34" maximum="284" default="144"/>
+    <axis tag="XFIR" name="XFIR" minimum="-13" maximum="90" default="42"/>
+    <axis tag="XDOT" name="XDOT" minimum="23" maximum="274" default="137"/>
+    <axis tag="YTOS" name="YTOS" minimum="-4" maximum="25" default="10"/>
+    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="9"/>
+    <axis tag="YTTL" name="YTTL" minimum="0" maximum="104" default="64"/>
+    <axis tag="BARS" name="BARS" minimum="0" maximum="707" default="0"/>
     <mappings>
       <mapping description="opsz144">
         <input>
@@ -104,10 +104,10 @@
           <dimension name="YSVL" xvalue="50"/>
           <dimension name="YSVF" xvalue="74"/>
           <dimension name="YTOS" xvalue="8"/>
-          <dimension name="XOUA" xvalue="68"/>
-          <dimension name="XOLA" xvalue="66"/>
-          <dimension name="YOUA" xvalue="12"/>
-          <dimension name="YOLA" xvalue="14"/>
+          <dimension name="XOUA" xvalue="58"/>
+          <dimension name="XOLA" xvalue="56"/>
+          <dimension name="YOUA" xvalue="16"/>
+          <dimension name="YOLA" xvalue="16"/>
           <dimension name="XUCS" xvalue="98"/>
           <dimension name="XUCR" xvalue="33"/>
           <dimension name="XUCD" xvalue="49"/>
@@ -166,9 +166,9 @@
           <dimension name="YSVL" xvalue="50"/>
           <dimension name="YSVF" xvalue="78"/>
           <dimension name="YTOS" xvalue="8"/>
-          <dimension name="XOUA" xvalue="78"/>
-          <dimension name="XOLA" xvalue="78"/>
-          <dimension name="YOUA" xvalue="15"/>
+          <dimension name="XOUA" xvalue="52"/>
+          <dimension name="XOLA" xvalue="56"/>
+          <dimension name="YOUA" xvalue="17"/>
           <dimension name="YOLA" xvalue="19"/>
           <dimension name="XUCS" xvalue="144"/>
           <dimension name="XUCR" xvalue="32"/>
@@ -228,10 +228,10 @@
           <dimension name="YSVL" xvalue="56"/>
           <dimension name="YSVF" xvalue="59"/>
           <dimension name="YTOS" xvalue="3"/>
-          <dimension name="XOUA" xvalue="70"/>
-          <dimension name="XOLA" xvalue="62"/>
-          <dimension name="YOUA" xvalue="10"/>
-          <dimension name="YOLA" xvalue="16"/>
+          <dimension name="XOUA" xvalue="56"/>
+          <dimension name="XOLA" xvalue="46"/>
+          <dimension name="YOUA" xvalue="12"/>
+          <dimension name="YOLA" xvalue="14"/>
           <dimension name="XUCS" xvalue="69"/>
           <dimension name="XUCR" xvalue="21"/>
           <dimension name="XUCD" xvalue="59"/>
@@ -290,10 +290,10 @@
           <dimension name="YSVL" xvalue="80"/>
           <dimension name="YSVF" xvalue="76"/>
           <dimension name="YTOS" xvalue="8"/>
-          <dimension name="XOUA" xvalue="39"/>
+          <dimension name="XOUA" xvalue="29"/>
           <dimension name="XOLA" xvalue="30"/>
-          <dimension name="YOUA" xvalue="8"/>
-          <dimension name="YOLA" xvalue="5"/>
+          <dimension name="YOUA" xvalue="6"/>
+          <dimension name="YOLA" xvalue="6"/>
           <dimension name="XUCS" xvalue="120"/>
           <dimension name="XUCR" xvalue="18"/>
           <dimension name="XUCD" xvalue="87"/>
@@ -352,10 +352,10 @@
           <dimension name="YSVL" xvalue="36"/>
           <dimension name="YSVF" xvalue="54"/>
           <dimension name="YTOS" xvalue="14"/>
-          <dimension name="XOUA" xvalue="124"/>
-          <dimension name="XOLA" xvalue="130"/>
+          <dimension name="XOUA" xvalue="82"/>
+          <dimension name="XOLA" xvalue="82"/>
           <dimension name="YOUA" xvalue="32"/>
-          <dimension name="YOLA" xvalue="37"/>
+          <dimension name="YOLA" xvalue="26"/>
           <dimension name="XUCS" xvalue="59"/>
           <dimension name="XUCR" xvalue="21"/>
           <dimension name="XUCD" xvalue="20"/>
@@ -415,10 +415,10 @@
           <dimension name="YSVL" xvalue="32"/>
           <dimension name="YSVF" xvalue="50"/>
           <dimension name="YTOS" xvalue="11"/>
-          <dimension name="XOUA" xvalue="130"/>
-          <dimension name="XOLA" xvalue="130"/>
-          <dimension name="YOUA" xvalue="32"/>
-          <dimension name="YOLA" xvalue="28"/>
+          <dimension name="XOUA" xvalue="94"/>
+          <dimension name="XOLA" xvalue="88"/>
+          <dimension name="YOUA" xvalue="46"/>
+          <dimension name="YOLA" xvalue="24"/>
           <dimension name="XUCS" xvalue="102"/>
           <dimension name="XUCR" xvalue="14"/>
           <dimension name="XUCD" xvalue="21"/>
@@ -478,10 +478,10 @@
           <dimension name="YSVL" xvalue="32"/>
           <dimension name="YSVF" xvalue="52"/>
           <dimension name="YTOS" xvalue="12"/>
-          <dimension name="XOUA" xvalue="116"/>
-          <dimension name="XOLA" xvalue="118"/>
+          <dimension name="XOUA" xvalue="80"/>
+          <dimension name="XOLA" xvalue="80"/>
           <dimension name="YOUA" xvalue="24"/>
-          <dimension name="YOLA" xvalue="30"/>
+          <dimension name="YOLA" xvalue="28"/>
           <dimension name="XUCS" xvalue="26"/>
           <dimension name="XUCR" xvalue="8"/>
           <dimension name="XUCD" xvalue="26"/>
@@ -541,10 +541,10 @@
           <dimension name="YSVL" xvalue="88"/>
           <dimension name="YSVF" xvalue="75"/>
           <dimension name="YTOS" xvalue="6"/>
-          <dimension name="XOUA" xvalue="42"/>
-          <dimension name="XOLA" xvalue="40"/>
-          <dimension name="YOUA" xvalue="7"/>
-          <dimension name="YOLA" xvalue="7"/>
+          <dimension name="XOUA" xvalue="32"/>
+          <dimension name="XOLA" xvalue="36"/>
+          <dimension name="YOUA" xvalue="13"/>
+          <dimension name="YOLA" xvalue="12"/>
           <dimension name="XUCS" xvalue="158"/>
           <dimension name="XUCR" xvalue="43"/>
           <dimension name="XUCD" xvalue="98"/>
@@ -604,10 +604,10 @@
           <dimension name="YSVL" xvalue="84"/>
           <dimension name="YSVF" xvalue="80"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="32"/>
-          <dimension name="XOLA" xvalue="36"/>
-          <dimension name="YOUA" xvalue="8"/>
-          <dimension name="YOLA" xvalue="8"/>
+          <dimension name="XOUA" xvalue="27"/>
+          <dimension name="XOLA" xvalue="27"/>
+          <dimension name="YOUA" xvalue="5"/>
+          <dimension name="YOLA" xvalue="5"/>
           <dimension name="XUCS" xvalue="80"/>
           <dimension name="XUCR" xvalue="41"/>
           <dimension name="XUCD" xvalue="42"/>
@@ -665,10 +665,10 @@
           <dimension name="YSVL" xvalue="70"/>
           <dimension name="YSVF" xvalue="98"/>
           <dimension name="YTOS" xvalue="16"/>
-          <dimension name="XOUA" xvalue="102"/>
-          <dimension name="XOLA" xvalue="102"/>
-          <dimension name="YOUA" xvalue="60"/>
-          <dimension name="YOLA" xvalue="60"/>
+          <dimension name="XOUA" xvalue="81"/>
+          <dimension name="XOLA" xvalue="82"/>
+          <dimension name="YOUA" xvalue="64"/>
+          <dimension name="YOLA" xvalue="61"/>
           <dimension name="XUCS" xvalue="140"/>
           <dimension name="XUCR" xvalue="42"/>
           <dimension name="XUCD" xvalue="67"/>
@@ -727,10 +727,10 @@
           <dimension name="YSVL" xvalue="70"/>
           <dimension name="YSVF" xvalue="101"/>
           <dimension name="YTOS" xvalue="16"/>
-          <dimension name="XOUA" xvalue="125"/>
-          <dimension name="XOLA" xvalue="118"/>
-          <dimension name="YOUA" xvalue="70"/>
-          <dimension name="YOLA" xvalue="68"/>
+          <dimension name="XOUA" xvalue="91"/>
+          <dimension name="XOLA" xvalue="86"/>
+          <dimension name="YOUA" xvalue="74"/>
+          <dimension name="YOLA" xvalue="74"/>
           <dimension name="XUCS" xvalue="186"/>
           <dimension name="XUCR" xvalue="42"/>
           <dimension name="XUCD" xvalue="132"/>
@@ -789,10 +789,10 @@
           <dimension name="YSVL" xvalue="70"/>
           <dimension name="YSVF" xvalue="82"/>
           <dimension name="YTOS" xvalue="2"/>
-          <dimension name="XOUA" xvalue="104"/>
-          <dimension name="XOLA" xvalue="97"/>
-          <dimension name="YOUA" xvalue="56"/>
-          <dimension name="YOLA" xvalue="60"/>
+          <dimension name="XOUA" xvalue="84"/>
+          <dimension name="XOLA" xvalue="78"/>
+          <dimension name="YOUA" xvalue="66"/>
+          <dimension name="YOLA" xvalue="59"/>
           <dimension name="XUCS" xvalue="91"/>
           <dimension name="XUCR" xvalue="30"/>
           <dimension name="XUCD" xvalue="74"/>
@@ -851,10 +851,10 @@
           <dimension name="YSVL" xvalue="94"/>
           <dimension name="YSVF" xvalue="72"/>
           <dimension name="YTOS" xvalue="16"/>
-          <dimension name="XOUA" xvalue="76"/>
-          <dimension name="XOLA" xvalue="76"/>
-          <dimension name="YOUA" xvalue="37"/>
-          <dimension name="YOLA" xvalue="44"/>
+          <dimension name="XOUA" xvalue="58"/>
+          <dimension name="XOLA" xvalue="53"/>
+          <dimension name="YOUA" xvalue="46"/>
+          <dimension name="YOLA" xvalue="34"/>
           <dimension name="XUCS" xvalue="150"/>
           <dimension name="XUCR" xvalue="46"/>
           <dimension name="XUCD" xvalue="67"/>
@@ -913,10 +913,10 @@
           <dimension name="YSVL" xvalue="83"/>
           <dimension name="YSVF" xvalue="92"/>
           <dimension name="YTOS" xvalue="18"/>
-          <dimension name="XOUA" xvalue="152"/>
-          <dimension name="XOLA" xvalue="152"/>
-          <dimension name="YOUA" xvalue="82"/>
-          <dimension name="YOLA" xvalue="82"/>
+          <dimension name="XOUA" xvalue="116"/>
+          <dimension name="XOLA" xvalue="108"/>
+          <dimension name="YOUA" xvalue="86"/>
+          <dimension name="YOLA" xvalue="76"/>
           <dimension name="XUCS" xvalue="107"/>
           <dimension name="XUCR" xvalue="35"/>
           <dimension name="XUCD" xvalue="48"/>
@@ -976,10 +976,10 @@
           <dimension name="YSVL" xvalue="69"/>
           <dimension name="YSVF" xvalue="80"/>
           <dimension name="YTOS" xvalue="19"/>
-          <dimension name="XOUA" xvalue="196"/>
-          <dimension name="XOLA" xvalue="163"/>
-          <dimension name="YOUA" xvalue="71"/>
-          <dimension name="YOLA" xvalue="87"/>
+          <dimension name="XOUA" xvalue="127"/>
+          <dimension name="XOLA" xvalue="117"/>
+          <dimension name="YOUA" xvalue="97"/>
+          <dimension name="YOLA" xvalue="70"/>
           <dimension name="XUCS" xvalue="128"/>
           <dimension name="XUCR" xvalue="40"/>
           <dimension name="XUCD" xvalue="112"/>
@@ -1039,10 +1039,10 @@
           <dimension name="YSVL" xvalue="93"/>
           <dimension name="YSVF" xvalue="58"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="146"/>
-          <dimension name="XOLA" xvalue="142"/>
-          <dimension name="YOUA" xvalue="68"/>
-          <dimension name="YOLA" xvalue="79"/>
+          <dimension name="XOUA" xvalue="104"/>
+          <dimension name="XOLA" xvalue="96"/>
+          <dimension name="YOUA" xvalue="76"/>
+          <dimension name="YOLA" xvalue="84"/>
           <dimension name="XUCS" xvalue="60"/>
           <dimension name="XUCR" xvalue="26"/>
           <dimension name="XUCD" xvalue="32"/>
@@ -1102,10 +1102,10 @@
           <dimension name="YSVL" xvalue="94"/>
           <dimension name="YSVF" xvalue="109"/>
           <dimension name="YTOS" xvalue="6"/>
-          <dimension name="XOUA" xvalue="76"/>
-          <dimension name="XOLA" xvalue="74"/>
-          <dimension name="YOUA" xvalue="38"/>
-          <dimension name="YOLA" xvalue="38"/>
+          <dimension name="XOUA" xvalue="62"/>
+          <dimension name="XOLA" xvalue="57"/>
+          <dimension name="YOUA" xvalue="44"/>
+          <dimension name="YOLA" xvalue="40"/>
           <dimension name="XUCS" xvalue="192"/>
           <dimension name="XUCR" xvalue="39"/>
           <dimension name="XUCD" xvalue="110"/>
@@ -1165,10 +1165,10 @@
           <dimension name="YSVL" xvalue="82"/>
           <dimension name="YSVF" xvalue="82"/>
           <dimension name="YTOS" xvalue="4"/>
-          <dimension name="XOUA" xvalue="76"/>
-          <dimension name="XOLA" xvalue="72"/>
-          <dimension name="YOUA" xvalue="37"/>
-          <dimension name="YOLA" xvalue="42"/>
+          <dimension name="XOUA" xvalue="58"/>
+          <dimension name="XOLA" xvalue="52"/>
+          <dimension name="YOUA" xvalue="44"/>
+          <dimension name="YOLA" xvalue="34"/>
           <dimension name="XUCS" xvalue="113"/>
           <dimension name="XUCR" xvalue="27"/>
           <dimension name="XUCD" xvalue="40"/>
@@ -1226,10 +1226,10 @@
           <dimension name="YSVL" xvalue="63"/>
           <dimension name="YSVF" xvalue="106"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="108"/>
-          <dimension name="XOLA" xvalue="108"/>
-          <dimension name="YOUA" xvalue="59"/>
-          <dimension name="YOLA" xvalue="59"/>
+          <dimension name="XOUA" xvalue="80"/>
+          <dimension name="XOLA" xvalue="80"/>
+          <dimension name="YOUA" xvalue="62"/>
+          <dimension name="YOLA" xvalue="62"/>
           <dimension name="XUCS" xvalue="176"/>
           <dimension name="XUCR" xvalue="38"/>
           <dimension name="XUCD" xvalue="112"/>
@@ -1287,10 +1287,10 @@
           <dimension name="YSVL" xvalue="63"/>
           <dimension name="YSVF" xvalue="88"/>
           <dimension name="YTOS" xvalue="6"/>
-          <dimension name="XOUA" xvalue="99"/>
-          <dimension name="XOLA" xvalue="92"/>
-          <dimension name="YOUA" xvalue="55"/>
-          <dimension name="YOLA" xvalue="50"/>
+          <dimension name="XOUA" xvalue="84"/>
+          <dimension name="XOLA" xvalue="72"/>
+          <dimension name="YOUA" xvalue="62"/>
+          <dimension name="YOLA" xvalue="54"/>
           <dimension name="XUCS" xvalue="98"/>
           <dimension name="XUCR" xvalue="25"/>
           <dimension name="XUCD" xvalue="54"/>
@@ -1348,10 +1348,10 @@
           <dimension name="YSVL" xvalue="103"/>
           <dimension name="YSVF" xvalue="102"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="62"/>
-          <dimension name="XOLA" xvalue="56"/>
-          <dimension name="YOUA" xvalue="22"/>
-          <dimension name="YOLA" xvalue="20"/>
+          <dimension name="XOUA" xvalue="46"/>
+          <dimension name="XOLA" xvalue="46"/>
+          <dimension name="YOUA" xvalue="30"/>
+          <dimension name="YOLA" xvalue="30"/>
           <dimension name="XUCS" xvalue="136"/>
           <dimension name="XUCR" xvalue="38"/>
           <dimension name="XUCD" xvalue="86"/>
@@ -1409,10 +1409,10 @@
           <dimension name="YSVL" xvalue="76"/>
           <dimension name="YSVF" xvalue="88"/>
           <dimension name="YTOS" xvalue="12"/>
-          <dimension name="XOUA" xvalue="141"/>
-          <dimension name="XOLA" xvalue="141"/>
-          <dimension name="YOUA" xvalue="68"/>
-          <dimension name="YOLA" xvalue="68"/>
+          <dimension name="XOUA" xvalue="107"/>
+          <dimension name="XOLA" xvalue="102"/>
+          <dimension name="YOUA" xvalue="64"/>
+          <dimension name="YOLA" xvalue="59"/>
           <dimension name="XUCS" xvalue="102"/>
           <dimension name="XUCR" xvalue="28"/>
           <dimension name="XUCD" xvalue="62"/>
@@ -1471,10 +1471,10 @@
           <dimension name="YSVL" xvalue="76"/>
           <dimension name="YSVF" xvalue="72"/>
           <dimension name="YTOS" xvalue="13"/>
-          <dimension name="XOUA" xvalue="151"/>
-          <dimension name="XOLA" xvalue="152"/>
-          <dimension name="YOUA" xvalue="70"/>
-          <dimension name="YOLA" xvalue="78"/>
+          <dimension name="XOUA" xvalue="106"/>
+          <dimension name="XOLA" xvalue="106"/>
+          <dimension name="YOUA" xvalue="65"/>
+          <dimension name="YOLA" xvalue="65"/>
           <dimension name="XUCS" xvalue="148"/>
           <dimension name="XUCR" xvalue="32"/>
           <dimension name="XUCD" xvalue="88"/>
@@ -1533,10 +1533,10 @@
           <dimension name="YSVL" xvalue="68"/>
           <dimension name="YSVF" xvalue="81"/>
           <dimension name="YTOS" xvalue="8"/>
-          <dimension name="XOUA" xvalue="142"/>
-          <dimension name="XOLA" xvalue="138"/>
-          <dimension name="YOUA" xvalue="66"/>
-          <dimension name="YOLA" xvalue="70"/>
+          <dimension name="XOUA" xvalue="110"/>
+          <dimension name="XOLA" xvalue="98"/>
+          <dimension name="YOUA" xvalue="67"/>
+          <dimension name="YOLA" xvalue="58"/>
           <dimension name="XUCS" xvalue="51"/>
           <dimension name="XUCR" xvalue="21"/>
           <dimension name="XUCD" xvalue="24"/>
@@ -1595,10 +1595,10 @@
           <dimension name="YSVL" xvalue="103"/>
           <dimension name="YSVF" xvalue="100"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="68"/>
-          <dimension name="XOLA" xvalue="67"/>
-          <dimension name="YOUA" xvalue="24"/>
-          <dimension name="YOLA" xvalue="29"/>
+          <dimension name="XOUA" xvalue="46"/>
+          <dimension name="XOLA" xvalue="51"/>
+          <dimension name="YOUA" xvalue="31"/>
+          <dimension name="YOLA" xvalue="36"/>
           <dimension name="XUCS" xvalue="182"/>
           <dimension name="XUCR" xvalue="38"/>
           <dimension name="XUCD" xvalue="110"/>
@@ -1657,10 +1657,10 @@
           <dimension name="YSVL" xvalue="108"/>
           <dimension name="YSVF" xvalue="100"/>
           <dimension name="YTOS" xvalue="6"/>
-          <dimension name="XOUA" xvalue="58"/>
-          <dimension name="XOLA" xvalue="52"/>
-          <dimension name="YOUA" xvalue="18"/>
-          <dimension name="YOLA" xvalue="20"/>
+          <dimension name="XOUA" xvalue="44"/>
+          <dimension name="XOLA" xvalue="44"/>
+          <dimension name="YOUA" xvalue="31"/>
+          <dimension name="YOLA" xvalue="28"/>
           <dimension name="XUCS" xvalue="105"/>
           <dimension name="XUCR" xvalue="32"/>
           <dimension name="XUCD" xvalue="74"/>
@@ -1718,10 +1718,10 @@
           <dimension name="YSVL" xvalue="63"/>
           <dimension name="YSVF" xvalue="102"/>
           <dimension name="YTOS" xvalue="10"/>
-          <dimension name="XOUA" xvalue="98"/>
-          <dimension name="XOLA" xvalue="98"/>
-          <dimension name="YOUA" xvalue="58"/>
-          <dimension name="YOLA" xvalue="50"/>
+          <dimension name="XOUA" xvalue="81"/>
+          <dimension name="XOLA" xvalue="76"/>
+          <dimension name="YOUA" xvalue="61"/>
+          <dimension name="YOLA" xvalue="56"/>
           <dimension name="XUCS" xvalue="130"/>
           <dimension name="XUCR" xvalue="39"/>
           <dimension name="XUCD" xvalue="46"/>
@@ -1754,8 +1754,8 @@
           <dimension name="GRAD" xvalue="0"/>
           <dimension name="XOUC" xvalue="84"/>
           <dimension name="YOUC" xvalue="58"/>
-          <dimension name="XOUA" xvalue="98"/>
-          <dimension name="YOUA" xvalue="58"/>
+          <dimension name="XOUA" xvalue="81"/>
+          <dimension name="YOUA" xvalue="61"/>
           <dimension name="XTUC" xvalue="360"/>
           <dimension name="XTUR" xvalue="498"/>
           <dimension name="XTUD" xvalue="344"/>
@@ -1774,8 +1774,8 @@
           <dimension name="XUCD" xvalue="20"/>
           <dimension name="XOLC" xvalue="85"/>
           <dimension name="YOLC" xvalue="47"/>
-          <dimension name="XOLA" xvalue="98"/>
-          <dimension name="YOLA" xvalue="50"/>
+          <dimension name="XOLA" xvalue="76"/>
+          <dimension name="YOLA" xvalue="56"/>
           <dimension name="XTLC" xvalue="232"/>
           <dimension name="XTLR" xvalue="286"/>
           <dimension name="XTLD" xvalue="241"/>
@@ -1819,8 +1819,8 @@
           <dimension name="GRAD" xvalue="0"/>
           <dimension name="XOUC" xvalue="84"/>
           <dimension name="YOUC" xvalue="58"/>
-          <dimension name="XOUA" xvalue="98"/>
-          <dimension name="YOUA" xvalue="58"/>
+          <dimension name="XOUA" xvalue="81"/>
+          <dimension name="YOUA" xvalue="61"/>
           <dimension name="XTUC" xvalue="360"/>
           <dimension name="XTUR" xvalue="498"/>
           <dimension name="XTUD" xvalue="344"/>
@@ -1839,8 +1839,8 @@
           <dimension name="XUCD" xvalue="132"/>
           <dimension name="XOLC" xvalue="85"/>
           <dimension name="YOLC" xvalue="47"/>
-          <dimension name="XOLA" xvalue="98"/>
-          <dimension name="YOLA" xvalue="50"/>
+          <dimension name="XOLA" xvalue="76"/>
+          <dimension name="YOLA" xvalue="56"/>
           <dimension name="XTLC" xvalue="232"/>
           <dimension name="XTLR" xvalue="286"/>
           <dimension name="XTLD" xvalue="241"/>
@@ -1884,8 +1884,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -1904,8 +1904,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -1946,8 +1946,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -1966,8 +1966,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2008,8 +2008,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2028,8 +2028,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2070,8 +2070,8 @@
         <dimension name="GRAD" xvalue="-300"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2090,8 +2090,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2132,8 +2132,8 @@
         <dimension name="GRAD" xvalue="500"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2152,8 +2152,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2194,8 +2194,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="9"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2214,8 +2214,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2256,8 +2256,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="310"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2276,8 +2276,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2318,8 +2318,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="4"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2338,8 +2338,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2380,8 +2380,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="219"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2400,8 +2400,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2436,14 +2436,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XOUA134.ufo" name="XOUA134" familyname="AmstelvarA2 Italic" stylename="XOUA134">
+    <source filename="AmstelvarA2-Italic_XOUA132.ufo" name="XOUA132" familyname="AmstelvarA2 Italic" stylename="XOUA132">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="134"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="132"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2462,8 +2462,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2498,14 +2498,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XOUA30.ufo" name="XOUA30" familyname="AmstelvarA2 Italic" stylename="XOUA30">
+    <source filename="AmstelvarA2-Italic_XOUA3.ufo" name="XOUA3" familyname="AmstelvarA2 Italic" stylename="XOUA3">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="30"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="3"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2524,8 +2524,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2560,14 +2560,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOUA98.ufo" name="YOUA98" familyname="AmstelvarA2 Italic" stylename="YOUA98">
+    <source filename="AmstelvarA2-Italic_YOUA5.ufo" name="YOUA5" familyname="AmstelvarA2 Italic" stylename="YOUA5">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="98"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="5"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2586,8 +2586,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2622,14 +2622,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOUA4.ufo" name="YOUA4" familyname="AmstelvarA2 Italic" stylename="YOUA4">
+    <source filename="AmstelvarA2-Italic_YOUA102.ufo" name="YOUA102" familyname="AmstelvarA2 Italic" stylename="YOUA102">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="4"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="102"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2648,8 +2648,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2690,8 +2690,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="650"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2710,8 +2710,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2752,8 +2752,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="58"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2772,8 +2772,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2814,8 +2814,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="60"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2834,8 +2834,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2876,8 +2876,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="902"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -2896,8 +2896,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -2938,8 +2938,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="637"/>
@@ -2958,8 +2958,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3000,8 +3000,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="118"/>
@@ -3020,8 +3020,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3062,8 +3062,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3082,8 +3082,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3124,8 +3124,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3144,8 +3144,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3186,8 +3186,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3206,8 +3206,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3248,8 +3248,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3268,8 +3268,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3304,20 +3304,20 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YTJD-11.ufo" name="YTJD-11" familyname="AmstelvarA2 Italic" stylename="YTJD-11">
+    <source filename="AmstelvarA2-Italic_YTJD0.ufo" name="YTJD0" familyname="AmstelvarA2 Italic" stylename="YTJD0">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
         <dimension name="XTUA" xvalue="251"/>
         <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTJD" xvalue="-11"/>
+        <dimension name="YTJD" xvalue="0"/>
         <dimension name="XSHU" xvalue="92"/>
         <dimension name="YSHU" xvalue="50"/>
         <dimension name="XSVU" xvalue="50"/>
@@ -3330,8 +3330,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3372,8 +3372,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3392,8 +3392,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3434,8 +3434,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3454,8 +3454,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3496,8 +3496,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3516,8 +3516,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3558,8 +3558,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3578,8 +3578,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3620,8 +3620,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3640,8 +3640,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3682,8 +3682,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3702,8 +3702,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3744,8 +3744,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3764,8 +3764,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3806,8 +3806,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3826,8 +3826,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3868,8 +3868,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3888,8 +3888,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3930,8 +3930,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -3950,8 +3950,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -3992,8 +3992,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4012,8 +4012,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4054,8 +4054,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4074,8 +4074,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4116,8 +4116,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4136,8 +4136,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4178,8 +4178,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4198,8 +4198,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4240,8 +4240,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4260,8 +4260,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4302,8 +4302,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4322,8 +4322,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4364,8 +4364,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4384,8 +4384,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4426,8 +4426,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4446,8 +4446,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4488,8 +4488,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4508,8 +4508,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4550,8 +4550,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4570,8 +4570,8 @@
         <dimension name="XUCD" xvalue="132"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4612,8 +4612,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4632,8 +4632,8 @@
         <dimension name="XUCD" xvalue="20"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4674,8 +4674,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4694,8 +4694,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="288"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4736,8 +4736,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4756,8 +4756,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="7"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4798,8 +4798,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4818,8 +4818,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="110"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4860,8 +4860,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4880,8 +4880,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="4"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4916,14 +4916,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XOLA30.ufo" name="XOLA30" familyname="AmstelvarA2 Italic" stylename="XOLA30">
+    <source filename="AmstelvarA2-Italic_XOLA132.ufo" name="XOLA132" familyname="AmstelvarA2 Italic" stylename="XOLA132">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -4942,8 +4942,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="30"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="132"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -4978,14 +4978,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XOLA117.ufo" name="XOLA117" familyname="AmstelvarA2 Italic" stylename="XOLA117">
+    <source filename="AmstelvarA2-Italic_XOLA3.ufo" name="XOLA3" familyname="AmstelvarA2 Italic" stylename="XOLA3">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5004,8 +5004,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="117"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="3"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5040,14 +5040,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOLA115.ufo" name="YOLA115" familyname="AmstelvarA2 Italic" stylename="YOLA115">
+    <source filename="AmstelvarA2-Italic_YOLA90.ufo" name="YOLA90" familyname="AmstelvarA2 Italic" stylename="YOLA90">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5066,8 +5066,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="115"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="90"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5102,14 +5102,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOLA4.ufo" name="YOLA4" familyname="AmstelvarA2 Italic" stylename="YOLA4">
+    <source filename="AmstelvarA2-Italic_YOLA2.ufo" name="YOLA2" familyname="AmstelvarA2 Italic" stylename="YOLA2">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5128,8 +5128,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="4"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="2"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5170,8 +5170,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5190,8 +5190,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="434"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5232,8 +5232,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5252,8 +5252,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="41"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5288,14 +5288,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XTLR54.ufo" name="XTLR54" familyname="AmstelvarA2 Italic" stylename="XTLR54">
+    <source filename="AmstelvarA2-Italic_XTLR44.ufo" name="XTLR44" familyname="AmstelvarA2 Italic" stylename="XTLR44">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5314,10 +5314,10 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
-        <dimension name="XTLR" xvalue="54"/>
+        <dimension name="XTLR" xvalue="44"/>
         <dimension name="XTLD" xvalue="241"/>
         <dimension name="XTLA" xvalue="235"/>
         <dimension name="YTLC" xvalue="510"/>
@@ -5356,8 +5356,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5376,8 +5376,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="601"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5418,8 +5418,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5438,8 +5438,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="461"/>
@@ -5480,8 +5480,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5500,74 +5500,12 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="80"/>
         <dimension name="XTLA" xvalue="235"/>
-        <dimension name="YTLC" xvalue="510"/>
-        <dimension name="YTAS" xvalue="778"/>
-        <dimension name="YTDE" xvalue="-196"/>
-        <dimension name="XSHL" xvalue="70"/>
-        <dimension name="YSHL" xvalue="44"/>
-        <dimension name="XSVL" xvalue="47"/>
-        <dimension name="YSVL" xvalue="63"/>
-        <dimension name="XQLC" xvalue="72"/>
-        <dimension name="YQLC" xvalue="89"/>
-        <dimension name="XLCS" xvalue="86"/>
-        <dimension name="XLCR" xvalue="26"/>
-        <dimension name="XLCD" xvalue="57"/>
-        <dimension name="XOFI" xvalue="92"/>
-        <dimension name="YOFI" xvalue="56"/>
-        <dimension name="XTFI" xvalue="330"/>
-        <dimension name="YTFI" xvalue="775"/>
-        <dimension name="XSHF" xvalue="96"/>
-        <dimension name="YSHF" xvalue="50"/>
-        <dimension name="XSVF" xvalue="51"/>
-        <dimension name="YSVF" xvalue="102"/>
-        <dimension name="XQFI" xvalue="80"/>
-        <dimension name="YQFI" xvalue="144"/>
-        <dimension name="XFIR" xvalue="42"/>
-        <dimension name="XDOT" xvalue="137"/>
-        <dimension name="YTOS" xvalue="10"/>
-        <dimension name="XTTW" xvalue="9"/>
-        <dimension name="YTTL" xvalue="64"/>
-        <dimension name="BARS" xvalue="0"/>
-      </location>
-    </source>
-    <source filename="AmstelvarA2-Italic_XTLA343.ufo" name="XTLA343" familyname="AmstelvarA2 Italic" stylename="XTLA343">
-      <location>
-        <dimension name="WDSP" xvalue="320"/>
-        <dimension name="GRAD" xvalue="0"/>
-        <dimension name="XOUC" xvalue="84"/>
-        <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
-        <dimension name="XTUC" xvalue="360"/>
-        <dimension name="XTUR" xvalue="498"/>
-        <dimension name="XTUD" xvalue="344"/>
-        <dimension name="XTUA" xvalue="251"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTJD" xvalue="-130"/>
-        <dimension name="XSHU" xvalue="92"/>
-        <dimension name="YSHU" xvalue="50"/>
-        <dimension name="XSVU" xvalue="50"/>
-        <dimension name="YSVU" xvalue="142"/>
-        <dimension name="XVAU" xvalue="14"/>
-        <dimension name="XQUC" xvalue="115"/>
-        <dimension name="YQUC" xvalue="154"/>
-        <dimension name="XUCS" xvalue="130"/>
-        <dimension name="XUCR" xvalue="39"/>
-        <dimension name="XUCD" xvalue="46"/>
-        <dimension name="XOLC" xvalue="85"/>
-        <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
-        <dimension name="XTLC" xvalue="232"/>
-        <dimension name="XTLR" xvalue="286"/>
-        <dimension name="XTLD" xvalue="241"/>
-        <dimension name="XTLA" xvalue="343"/>
         <dimension name="YTLC" xvalue="510"/>
         <dimension name="YTAS" xvalue="778"/>
         <dimension name="YTDE" xvalue="-196"/>
@@ -5604,8 +5542,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5624,12 +5562,74 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
         <dimension name="XTLA" xvalue="134"/>
+        <dimension name="YTLC" xvalue="510"/>
+        <dimension name="YTAS" xvalue="778"/>
+        <dimension name="YTDE" xvalue="-196"/>
+        <dimension name="XSHL" xvalue="70"/>
+        <dimension name="YSHL" xvalue="44"/>
+        <dimension name="XSVL" xvalue="47"/>
+        <dimension name="YSVL" xvalue="63"/>
+        <dimension name="XQLC" xvalue="72"/>
+        <dimension name="YQLC" xvalue="89"/>
+        <dimension name="XLCS" xvalue="86"/>
+        <dimension name="XLCR" xvalue="26"/>
+        <dimension name="XLCD" xvalue="57"/>
+        <dimension name="XOFI" xvalue="92"/>
+        <dimension name="YOFI" xvalue="56"/>
+        <dimension name="XTFI" xvalue="330"/>
+        <dimension name="YTFI" xvalue="775"/>
+        <dimension name="XSHF" xvalue="96"/>
+        <dimension name="YSHF" xvalue="50"/>
+        <dimension name="XSVF" xvalue="51"/>
+        <dimension name="YSVF" xvalue="102"/>
+        <dimension name="XQFI" xvalue="80"/>
+        <dimension name="YQFI" xvalue="144"/>
+        <dimension name="XFIR" xvalue="42"/>
+        <dimension name="XDOT" xvalue="137"/>
+        <dimension name="YTOS" xvalue="10"/>
+        <dimension name="XTTW" xvalue="9"/>
+        <dimension name="YTTL" xvalue="64"/>
+        <dimension name="BARS" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="AmstelvarA2-Italic_XTLA367.ufo" name="XTLA367" familyname="AmstelvarA2 Italic" stylename="XTLA367">
+      <location>
+        <dimension name="WDSP" xvalue="320"/>
+        <dimension name="GRAD" xvalue="0"/>
+        <dimension name="XOUC" xvalue="84"/>
+        <dimension name="YOUC" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
+        <dimension name="XTUC" xvalue="360"/>
+        <dimension name="XTUR" xvalue="498"/>
+        <dimension name="XTUD" xvalue="344"/>
+        <dimension name="XTUA" xvalue="251"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTJD" xvalue="-130"/>
+        <dimension name="XSHU" xvalue="92"/>
+        <dimension name="YSHU" xvalue="50"/>
+        <dimension name="XSVU" xvalue="50"/>
+        <dimension name="YSVU" xvalue="142"/>
+        <dimension name="XVAU" xvalue="14"/>
+        <dimension name="XQUC" xvalue="115"/>
+        <dimension name="YQUC" xvalue="154"/>
+        <dimension name="XUCS" xvalue="130"/>
+        <dimension name="XUCR" xvalue="39"/>
+        <dimension name="XUCD" xvalue="46"/>
+        <dimension name="XOLC" xvalue="85"/>
+        <dimension name="YOLC" xvalue="47"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
+        <dimension name="XTLC" xvalue="232"/>
+        <dimension name="XTLR" xvalue="286"/>
+        <dimension name="XTLD" xvalue="241"/>
+        <dimension name="XTLA" xvalue="367"/>
         <dimension name="YTLC" xvalue="510"/>
         <dimension name="YTAS" xvalue="778"/>
         <dimension name="YTDE" xvalue="-196"/>
@@ -5666,8 +5666,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5686,8 +5686,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5728,8 +5728,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5748,8 +5748,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5790,8 +5790,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5810,8 +5810,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5852,8 +5852,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5872,8 +5872,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5914,8 +5914,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5934,8 +5934,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -5976,8 +5976,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -5996,8 +5996,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6038,8 +6038,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6058,8 +6058,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6100,8 +6100,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6120,8 +6120,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6162,8 +6162,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6182,8 +6182,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6224,8 +6224,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6244,8 +6244,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6286,8 +6286,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6306,8 +6306,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6348,8 +6348,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6368,8 +6368,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6410,8 +6410,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6430,8 +6430,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6472,8 +6472,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6492,8 +6492,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6534,8 +6534,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6554,8 +6554,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6596,8 +6596,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6616,8 +6616,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6658,8 +6658,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6678,8 +6678,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6720,8 +6720,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6740,8 +6740,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6782,8 +6782,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6802,8 +6802,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6844,8 +6844,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6864,8 +6864,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6906,8 +6906,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6926,8 +6926,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -6968,8 +6968,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -6988,8 +6988,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7030,8 +7030,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7050,8 +7050,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7092,8 +7092,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7112,8 +7112,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7154,8 +7154,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7174,8 +7174,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7216,8 +7216,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7236,8 +7236,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7278,8 +7278,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7298,8 +7298,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7340,8 +7340,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7360,8 +7360,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7396,14 +7396,14 @@
         <dimension name="BARS" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XTFI582.ufo" name="XTFI582" familyname="AmstelvarA2 Italic" stylename="XTFI582">
+    <source filename="AmstelvarA2-Italic_XTFI583.ufo" name="XTFI583" familyname="AmstelvarA2 Italic" stylename="XTFI583">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7422,8 +7422,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7442,7 +7442,7 @@
         <dimension name="XLCD" xvalue="57"/>
         <dimension name="XOFI" xvalue="92"/>
         <dimension name="YOFI" xvalue="56"/>
-        <dimension name="XTFI" xvalue="582"/>
+        <dimension name="XTFI" xvalue="583"/>
         <dimension name="YTFI" xvalue="775"/>
         <dimension name="XSHF" xvalue="96"/>
         <dimension name="YSHF" xvalue="50"/>
@@ -7464,8 +7464,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7484,8 +7484,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7526,8 +7526,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7546,8 +7546,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7588,8 +7588,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7608,8 +7608,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7650,8 +7650,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7670,8 +7670,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7712,8 +7712,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7732,8 +7732,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7774,8 +7774,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7794,8 +7794,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7836,8 +7836,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7856,8 +7856,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7898,8 +7898,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7918,8 +7918,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -7960,8 +7960,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -7980,8 +7980,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8022,8 +8022,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8042,8 +8042,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8084,8 +8084,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8104,8 +8104,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8146,8 +8146,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8166,8 +8166,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8208,8 +8208,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8228,8 +8228,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8270,8 +8270,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8290,8 +8290,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8332,8 +8332,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8352,8 +8352,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8394,8 +8394,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8414,8 +8414,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8456,8 +8456,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8476,8 +8476,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8518,8 +8518,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8538,8 +8538,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8580,8 +8580,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8600,8 +8600,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8642,8 +8642,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8662,8 +8662,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8704,8 +8704,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8724,8 +8724,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8766,8 +8766,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8786,8 +8786,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8828,8 +8828,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8848,8 +8848,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8890,8 +8890,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8910,8 +8910,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -8952,8 +8952,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -8972,8 +8972,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>
@@ -9014,8 +9014,8 @@
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XOUC" xvalue="84"/>
         <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="98"/>
-        <dimension name="YOUA" xvalue="58"/>
+        <dimension name="XOUA" xvalue="81"/>
+        <dimension name="YOUA" xvalue="61"/>
         <dimension name="XTUC" xvalue="360"/>
         <dimension name="XTUR" xvalue="498"/>
         <dimension name="XTUD" xvalue="344"/>
@@ -9034,8 +9034,8 @@
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
         <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="98"/>
-        <dimension name="YOLA" xvalue="50"/>
+        <dimension name="XOLA" xvalue="76"/>
+        <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
         <dimension name="XTLR" xvalue="286"/>
         <dimension name="XTLD" xvalue="241"/>

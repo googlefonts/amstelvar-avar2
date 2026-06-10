@@ -320,7 +320,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -330,7 +330,7 @@ if __name__ == '__main__':
 
     #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     # p.splitSources('XOLC', 'XOET', [])
     # p.updateTuningSources(['R'], referenceSource, level=3) # list(string.ascii_lowercase)
 
@@ -343,13 +343,13 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    p.cleanupSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
     # p.tuningAxesHidden = True
-    # p.tuning = True
+    # p.tuning = False
     # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
@@ -367,7 +367,7 @@ if __name__ == '__main__':
     # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=1)
 
     #--- build fonts
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
