@@ -315,17 +315,17 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic'][0]
 
-    controlGlyphs = list('HOVTnov')
-    controlGlyphs += ['zero', 'one']
-
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
+
+    referenceSource = os.path.join(p.referenceSourcesFolder, 'Amstelvar-Roman_wght400.ufo')
 
     #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
     # p.splitSources('XOLC', 'XOET', [])
+    # p.updateTuningSources(list(string.ascii_lowercase), referenceSource, level=3)
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
@@ -340,7 +340,7 @@ if __name__ == '__main__':
     # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = True
+    # p.parametricAxesHidden = False
     # p.tuning = True
     # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
@@ -353,14 +353,16 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     #--- proofing ---
-    # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
+    # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
+    # p.proofBlends(list(string.ascii_lowercase) + list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=1)
 
     #--- build fonts
-    # p.buildVariableFont(debug=False, featureWriter=False)
+    p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
     timer(start, end)
+
 
