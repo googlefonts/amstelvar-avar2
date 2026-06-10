@@ -578,37 +578,37 @@
     },
     "XOUA": {
       "direction": "a",
-      "glyph 1": "acutecomb.case",
-      "point 1": "8",
-      "glyph 2": "acutecomb.case",
-      "point 2": "1",
+      "glyph 1": "tildecomb.case",
+      "point 1": "19",
+      "glyph 2": "tildecomb.case",
+      "point 2": "6",
       "parent": "XOAC",
       "description": "Uppercase accents main weight"
     },
     "XOLA": {
       "direction": "a",
-      "glyph 1": "acutecomb",
-      "point 1": "8",
-      "glyph 2": "acutecomb",
-      "point 2": "1",
+      "glyph 1": "tildecomb",
+      "point 1": "19",
+      "glyph 2": "tildecomb",
+      "point 2": "6",
       "parent": "XOAC",
       "description": "Lowercase accents main weight"
     },
     "YOUA": {
       "direction": "a",
-      "glyph 1": "acutecomb.case",
-      "point 1": "5",
-      "glyph 2": "acutecomb.case",
-      "point 2": "4",
+      "glyph 1": "tildecomb.case",
+      "point 1": "0",
+      "glyph 2": "tildecomb.case",
+      "point 2": "25",
       "parent": "YOAC",
       "description": "Uppercase accents secondary weight"
     },
     "YOLA": {
       "direction": "a",
-      "glyph 1": "acutecomb",
-      "point 1": "5",
-      "glyph 2": "acutecomb",
-      "point 2": "4",
+      "glyph 1": "tildecomb",
+      "point 1": "0",
+      "glyph 2": "tildecomb",
+      "point 2": "25",
       "parent": "YOAC",
       "description": "Lowercase accents secondary weight"
     },
@@ -18225,7 +18225,16 @@
     "hookabovecomb.case": {},
     "breveinvertedcomb.case": {},
     "macroncomb.case": {},
-    "tildecomb.case": {},
+    "tildecomb.case": {
+      "6 19": {
+        "name": "XOUA",
+        "direction": "a"
+      },
+      "0 25": {
+        "name": "YOUA",
+        "direction": "a"
+      }
+    },
     "hungarumlautcomb.case": {},
     "cedillacomb.case": {},
     "caroncomb.case": {},

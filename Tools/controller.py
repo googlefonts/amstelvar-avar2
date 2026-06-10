@@ -273,7 +273,7 @@ class AmstelvarA2Controller(xProject):
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
-    def buildDesignspace(self, patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True, instances=False):
+    def buildDesignspace(self, patchBlends=True, instances=False):
 
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
@@ -283,18 +283,25 @@ class AmstelvarA2Controller(xProject):
             self.patchBlendsFile()
 
         self.designspace = DesignSpaceDocument()
+
         self.addBlendedAxes()
         self.addParametricAxes(self._customParametricAxes)
-        self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+
+        if self.tuning:
+            self.addTuningAxes()
+
         self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
-        self.addTuningSources()
+
+        if self.tuning:
+            self.addTuningSources()
 
         if instances:
             self.addInstances()
 
         self.addCustomKeysToLib()
+
         self.save()
 
     def proofSourcesGlyphSet(self, showCompatible=True, validateComposites=True):
@@ -325,7 +332,7 @@ if __name__ == '__main__':
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
     # p.splitSources('XOLC', 'XOET', [])
-    # p.updateTuningSources(list(string.ascii_lowercase), referenceSource, level=3)
+    # p.updateTuningSources(['R'], referenceSource, level=3) # list(string.ascii_lowercase)
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
@@ -341,6 +348,7 @@ if __name__ == '__main__':
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
+    # p.tuningAxesHidden = True
     # p.tuning = True
     # p.buildDesignspace(patchBlends=True, instances=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
@@ -355,11 +363,11 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_lowercase) + list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofBlends(list(string.ascii_lowercase) + list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[1,2,3,4], header=True, footer=True, points=False)
     # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=1)
 
     #--- build fonts
-    p.buildVariableFont(debug=False, featureWriter=False)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
