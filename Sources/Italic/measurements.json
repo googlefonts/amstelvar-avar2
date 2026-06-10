@@ -3479,7 +3479,7 @@
         "direction": "x"
       },
       "25 99": {
-        "name": "XLCR",
+        "name": "XLCS",
         "direction": "x"
       },
       "0 -1": {
@@ -4591,11 +4591,11 @@
         "direction": "y"
       },
       "14 24": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 46": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 13": {
@@ -4727,16 +4727,20 @@
     },
     "z": {
       "8 12": {
-        "name": "XOLC",
+        "name": "YOLC",
         "direction": "y"
       },
       "25 21": {
-        "name": "XOLC",
+        "name": "YOLC",
         "direction": "y"
       },
       "4 17": {
-        "name": "YOLC",
+        "name": "XOLC",
         "direction": "a"
+      },
+      "9 7": {
+        "name": "XTLD",
+        "direction": "x"
       },
       "10 9": {
         "name": "XSVL",
