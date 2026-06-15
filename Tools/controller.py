@@ -320,7 +320,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -344,7 +344,7 @@ if __name__ == '__main__':
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
@@ -363,7 +363,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[1,2,3,4], header=True, footer=True, points=False)
+    # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=1)
 
     #--- build fonts
