@@ -273,12 +273,12 @@ class AmstelvarA2Controller(xProject):
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
-    def buildDesignspace(self, patchBlends=True, instances=False):
+    def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
 
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
-        self.buildBlendsFile(parentParametric=False)
+        self.buildBlendsFile(parentParametric=parentParametric)
         if patchBlends:
             self.patchBlendsFile()
 
@@ -332,7 +332,7 @@ if __name__ == '__main__':
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
     # p.splitSources('XOLC', 'XOET', [])
-    # p.updateTuningSources(['R'], referenceSource, level=3) # list(string.ascii_lowercase)
+    # p.updateTuningSources(list(string.ascii_uppercase) + list(string.ascii_lowercase), referenceSource, level=3)
 
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
@@ -349,8 +349,8 @@ if __name__ == '__main__':
     #--- build designspace ---
     # p.parametricAxesHidden = False
     # p.tuningAxesHidden = True
-    # p.tuning = False
-    # p.buildDesignspace(patchBlends=True, instances=False)
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=True, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
