@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, time, json, string
+import os, glob, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements
@@ -96,11 +96,15 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceSourcesFolder(self):
-        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar')
+        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
+
+    @property
+    def referenceSources(self):
+        return { os.path.splitext(os.path.split(f)[-1])[0]: f for f in glob.glob(f'{self.referenceSourcesFolder}/*.ufo')}
 
     @property
     def referenceBlendsPath(self):
-        return os.path.join(self.referenceSourcesFolder, self.subFamily, 'blends.json')
+        return os.path.join(self.referenceSourcesFolder, 'blends.json')
 
     @property
     def referenceFontPath(self):
@@ -117,6 +121,7 @@ class AmstelvarA2Controller(xProject):
     @property
     def defaultLocation(self):
         location = super().defaultLocation.copy()
+        # add custom parametric axes (not based on measurement)
         location['GRAD'] = 0
 
         # sort parameters based on list of parametric axes
@@ -268,28 +273,35 @@ class AmstelvarA2Controller(xProject):
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
-    def buildDesignspace(self, patchBlends=True, tuneDuovars=True, tuneTrivars=True, tuneQuadvars=True, instances=False):
+    def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
 
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
-        self.buildBlendsFile(parentParametric=False)
+        self.buildBlendsFile(parentParametric=parentParametric)
         if patchBlends:
             self.patchBlendsFile()
 
         self.designspace = DesignSpaceDocument()
+
         self.addBlendedAxes()
         self.addParametricAxes(self._customParametricAxes)
-        self.addTuningAxes(duovars=tuneDuovars, trivars=tuneTrivars, quadvars=tuneQuadvars)
+
+        if self.tuning:
+            self.addTuningAxes()
+
         self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
-        self.addTuningSources()
+
+        if self.tuning:
+            self.addTuningSources()
 
         if instances:
             self.addInstances()
 
         self.addCustomKeysToLib()
+
         self.save()
 
     def proofSourcesGlyphSet(self, showCompatible=True, validateComposites=True):
@@ -310,34 +322,41 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic'][1]
 
-    controlGlyphs = list('HOVTnov')
-    controlGlyphs += ['zero', 'one']
-
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
+    referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
+
     #--- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.splitSources('XOLC', 'XOET', [])
+
+    #--- tuning ---
+    # p.createTuningSources()
+    # p.resetTuningSources()
+    # p.updateTuningSources(list(string.ascii_uppercase), referenceSource, level=3)
 
     #--- copy from default ---
-    # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
+    # p.updateGlyphsFromDefault(list('hy'), 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
     # p.copyGroupsFromDefault(glyphNames)
-    # p.copyUnicodesFromDefault(preflight=True)
+    # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuning = False
-    # p.buildDesignspace(patchBlends=True, instances=False)
+    p.parametricAxesHidden = False
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=True, instances=False, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources()
 
     #--- project info
     # p.printSettings()
@@ -346,12 +365,13 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     #--- proofing ---
-    # p.proofGlyphMemes(list(string.ascii_uppercase), anchors=False) # controlGlyphs
+    # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=True)
+    # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=1)
 
     #--- build fonts
-    # p.buildVariableFont(debug=False, featureWriter=False)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

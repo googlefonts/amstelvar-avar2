@@ -551,55 +551,55 @@
     },
     "XOAC": {
       "direction": "a",
-      "glyph 1": "acutecomb",
-      "point 1": "0",
-      "glyph 2": "acutecomb",
-      "point 2": "9",
+      "glyph 1": "tildecomb.case",
+      "point 1": "19",
+      "glyph 2": "tildecomb.case",
+      "point 2": "6",
       "parent": "",
       "description": "Accents main weight"
     },
     "YOAC": {
       "direction": "a",
-      "glyph 1": "acutecomb",
-      "point 1": "11",
-      "glyph 2": "acutecomb",
-      "point 2": "10",
+      "glyph 1": "tildecomb.case",
+      "point 1": "0",
+      "glyph 2": "tildecomb.case",
+      "point 2": "25",
       "parent": "",
       "description": "Accents secondary weight"
     },
     "XOUA": {
       "direction": "a",
-      "glyph 1": "acutecomb.case",
-      "point 1": "1",
-      "glyph 2": "acutecomb.case",
-      "point 2": "10",
+      "glyph 1": "tildecomb.case",
+      "point 1": "19",
+      "glyph 2": "tildecomb.case",
+      "point 2": "6",
       "parent": "XOAC",
       "description": "Uppercase accents main weight"
     },
     "XOLA": {
       "direction": "a",
-      "glyph 1": "acutecomb",
-      "point 1": "1",
-      "glyph 2": "acutecomb",
-      "point 2": "10",
+      "glyph 1": "tildecomb",
+      "point 1": "19",
+      "glyph 2": "tildecomb",
+      "point 2": "6",
       "parent": "XOAC",
       "description": "Lowercase accents main weight"
     },
     "YOUA": {
       "direction": "a",
-      "glyph 1": "acutecomb.case",
+      "glyph 1": "tildecomb.case",
       "point 1": "0",
-      "glyph 2": "acutecomb.case",
-      "point 2": "11",
+      "glyph 2": "tildecomb.case",
+      "point 2": "25",
       "parent": "YOAC",
       "description": "Uppercase accents secondary weight"
     },
     "YOLA": {
       "direction": "a",
-      "glyph 1": "acutecomb",
+      "glyph 1": "tildecomb",
       "point 1": "0",
-      "glyph 2": "acutecomb",
-      "point 2": "11",
+      "glyph 2": "tildecomb",
+      "point 2": "25",
       "parent": "YOAC",
       "description": "Lowercase accents secondary weight"
     },
@@ -2032,13 +2032,13 @@
         "name": "XUCS",
         "direction": "x"
       },
-      "B 19": {
-        "name": "YTJD",
-        "direction": "y"
-      },
       "-1 9": {
         "name": "XUCS",
         "direction": "x"
+      },
+      "B 19": {
+        "name": "YTJD",
+        "direction": "y"
       }
     },
     "K": {
@@ -3054,6 +3054,14 @@
         "name": "YSHU",
         "direction": "y"
       },
+      "-1 40": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "29 99": {
+        "name": "XUCD",
+        "direction": "x"
+      },
       "B 38": {
         "name": "YTOS",
         "direction": "y"
@@ -3093,14 +3101,6 @@
       "36 35": {
         "name": "YTTL",
         "direction": "a"
-      },
-      "-1 40": {
-        "name": "XUCD",
-        "direction": "x"
-      },
-      "29 99": {
-        "name": "XUCD",
-        "direction": "x"
       }
     },
     "X": {
@@ -4493,7 +4493,7 @@
         "direction": "a"
       },
       "6 25": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 31": {
@@ -4563,6 +4563,10 @@
       "8 9": {
         "name": "YTTL",
         "direction": "a"
+      },
+      "22 36": {
+        "name": "YOLC",
+        "direction": "a"
       }
     },
     "x": {
@@ -4591,11 +4595,11 @@
         "direction": "y"
       },
       "14 24": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 46": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 13": {
@@ -4727,16 +4731,20 @@
     },
     "z": {
       "8 12": {
-        "name": "XOLC",
+        "name": "YOLC",
         "direction": "y"
       },
       "25 21": {
-        "name": "XOLC",
+        "name": "YOLC",
         "direction": "y"
       },
       "4 17": {
-        "name": "YOLC",
+        "name": "XOLC",
         "direction": "a"
+      },
+      "9 7": {
+        "name": "XTLD",
+        "direction": "x"
       },
       "10 9": {
         "name": "XSVL",
@@ -7790,6 +7798,10 @@
         "name": "XTLR",
         "direction": "x"
       },
+      "48 54": {
+        "name": "XTLR",
+        "direction": "x"
+      },
       "59 25": {
         "name": "YTLC",
         "direction": "y"
@@ -7800,10 +7812,6 @@
       },
       "-1 13": {
         "name": "XLCR",
-        "direction": "x"
-      },
-      "48 54": {
-        "name": "XTLR",
         "direction": "x"
       }
     },
@@ -9727,7 +9735,16 @@
         "direction": "a"
       }
     },
-    "tildecomb": {},
+    "tildecomb": {
+      "6 19": {
+        "name": "XOLA",
+        "direction": "a"
+      },
+      "0 25": {
+        "name": "YOLA",
+        "direction": "a"
+      }
+    },
     "circumflexcomb": {
       "6 0": {
         "name": "XOLA",
@@ -12404,7 +12421,16 @@
     "ringcomb.case": {},
     "cedillacomb.case": {},
     "circumflexcomb.case": {},
-    "tildecomb.case": {},
+    "tildecomb.case": {
+      "6 19": {
+        "name": "XOUA",
+        "direction": "a"
+      },
+      "0 25": {
+        "name": "YOUA",
+        "direction": "a"
+      }
+    },
     "caroncomb.case": {},
     "brevecomb.case": {},
     "macroncomb": {},
@@ -12994,6 +13020,7 @@
     "dblgravecomb-stack.case": {},
     "gbreve": {},
     "hyphentwo": {},
-    "odblgrave": {}
+    "odblgrave": {},
+    "utilde": {}
   }
 }
