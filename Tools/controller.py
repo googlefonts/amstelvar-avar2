@@ -332,10 +332,13 @@ if __name__ == '__main__':
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
     # p.splitSources('XOLC', 'XOET', [])
-    # p.updateTuningSources(list(string.ascii_uppercase) + list(string.ascii_lowercase), referenceSource, level=3)
+
+    #--- tuning ---
+    # p.resetTuningSources()
+    # p.updateTuningSources(list('hy'), referenceSource, level=3) # list(string.ascii_uppercase) + list(string.ascii_lowercase)
 
     #--- copy from default ---
-    # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
+    # p.updateGlyphsFromDefault(list('hy'), 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
     # p.copyGroupsFromDefault(glyphNames)
     # p.copyUnicodesFromDefault(preflight=False)
