@@ -3054,6 +3054,14 @@
         "name": "YSHU",
         "direction": "y"
       },
+      "-1 40": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "29 99": {
+        "name": "XUCD",
+        "direction": "x"
+      },
       "B 38": {
         "name": "YTOS",
         "direction": "y"
@@ -3093,14 +3101,6 @@
       "36 35": {
         "name": "YTTL",
         "direction": "a"
-      },
-      "-1 40": {
-        "name": "XUCD",
-        "direction": "x"
-      },
-      "29 99": {
-        "name": "XUCD",
-        "direction": "x"
       }
     },
     "X": {
@@ -4493,7 +4493,7 @@
         "direction": "a"
       },
       "6 25": {
-        "name": "XTLC",
+        "name": "XTLD",
         "direction": "x"
       },
       "0 31": {
@@ -4562,6 +4562,10 @@
       },
       "8 9": {
         "name": "YTTL",
+        "direction": "a"
+      },
+      "22 36": {
+        "name": "YOLC",
         "direction": "a"
       }
     },
