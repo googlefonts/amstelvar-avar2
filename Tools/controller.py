@@ -71,8 +71,6 @@ class AmstelvarA2Controller(xProject):
         'XQFI' : 'XTFI',
     }
 
-    _tuningAxes = {}
-
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
         self.familyName = familyName
@@ -123,6 +121,8 @@ class AmstelvarA2Controller(xProject):
         location = super().defaultLocation.copy()
         # add custom parametric axes (not based on measurement)
         location['GRAD'] = 0
+
+        # TO-DO: move the sorting code below to a separate, reusable method
 
         # sort parameters based on list of parametric axes
         locationSorted = {}
@@ -182,10 +182,11 @@ class AmstelvarA2Controller(xProject):
 
         if self.tuning:
             # add tuning axes to blended locations
-            _tuningAxes = { styleName: f'TN{i:02}' for i, styleName in enumerate(self.tuningSources) }
             for styleName in blendsDict['sources']:
-                for tuningStyle, tuningAxis in _tuningAxes.items():
-                    blendsDict['sources'][styleName][tuningAxis] = 100 if styleName == tuningStyle else 0
+                for tuningStyle, tuningAxis in self.tuningAxes.items():
+                    tuningValue = tuningAxis.maximum if styleName == tuningStyle else tuningAxis.default
+                    # print(f'\t\tadding tuning blend: {styleName} {tuningAxis.tag} {tuningValue}...')
+                    blendsDict['sources'][styleName][tuningAxis.tag] = tuningValue
 
         for axisName in self._spacingAxes:
             values = []
@@ -320,7 +321,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -328,52 +329,52 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
-    #--- managing sources ---
+    # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
     # p.splitSources('XOLC', 'XOET', [])
 
-    #--- tuning ---
-    # p.createTuningSources()
-    # p.resetTuningSources()
-    # p.updateTuningSources(list(string.ascii_uppercase), referenceSource, level=3)
-
-    #--- copy from default ---
-    # p.updateGlyphsFromDefault(list('hy'), 'WDSP1000', preflight=True)
+    # --- copy from default ---
+    # p.updateGlyphsFromDefault(list('ABJ'), 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
-    # p.copyGroupsFromDefault(glyphNames)
+    # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
+    # p.copyKerningFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
-    #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    # --- tuning ---
+    # p.tuningLevel = 1
+    # p.createTuningSources()
+    # p.resetTuningSources()
+    # p.calculateTuningSources('idotless jdotless'.split(), referenceSource, level=3)
 
-    #--- build designspace ---
-    p.parametricAxesHidden = False
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=True, instances=False, parentParametric=True)
+    # --- build designspace ---
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
-    #--- project info
+    # --- normalization ---
+    p.cleanupSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=True, tuning=True)
+
+    # --- project info ---
     # p.printSettings()
     # p.printAxes()
-    # print(p._tuningAxes)
     # print(p.defaultLocation)
 
-    #--- proofing ---
+    # --- proofing ---
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=1)
 
-    #--- build fonts
+    # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
     timer(start, end)
-

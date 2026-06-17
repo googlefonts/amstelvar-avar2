@@ -3,10 +3,12 @@
 import os
 from random import randint 
 
-subFamily = ['Roman', 'Italic'][1]
+subFamily = ['Roman', 'Italic'][0]
 
 folder  = os.path.dirname(os.path.dirname(os.getcwd()))
 ttfPath = os.path.join(folder, 'Fonts', f'AmstelvarA2-{subFamily}_avar2.ttf')
+
+print(ttfPath, os.path.exists(ttfPath))
 
 newPage('A4')
 font(ttfPath)
