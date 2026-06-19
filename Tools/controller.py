@@ -344,22 +344,22 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     # --- tuning ---
-    # p.tuningLevel = 1
+    p.tuningLevels = [1, 2, 3]
     # p.createTuningSources()
     # p.resetTuningSources()
     # p.calculateTuningSources('idotless jdotless'.split(), referenceSource, level=3)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.cleanupSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
