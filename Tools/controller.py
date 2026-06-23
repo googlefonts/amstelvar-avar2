@@ -94,7 +94,8 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceSourcesFolder(self):
-        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
+        # return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
+        return os.path.join(self.sourcesFolder, 'reference')
 
     @property
     def referenceSources(self):
@@ -321,7 +322,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -350,10 +351,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -362,7 +363,7 @@ if __name__ == '__main__':
     # p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
-    # p.printSettings()
+    p.printSettings()
     # p.printAxes()
     # print(p.defaultLocation)
 
