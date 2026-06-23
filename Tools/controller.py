@@ -321,7 +321,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -350,10 +350,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -370,10 +370,10 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(list('Y'), referenceSource, level=1)
+    # p.proofTuning(list(string.ascii_uppercase)+list(string.ascii_lowercase), referenceSource, level=3)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
