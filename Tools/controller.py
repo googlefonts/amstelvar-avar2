@@ -312,9 +312,9 @@ class AmstelvarA2Controller(xProject):
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
         super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
 
-    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True):
+    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametricSources=True, tuningSources=True):
         oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
-        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight)
+        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametricSources=parametricSources, tuningSources=tuningSources)
 
 
 if __name__ == '__main__':
@@ -335,7 +335,7 @@ if __name__ == '__main__':
     # p.splitSources('XOLC', 'XOET', [])
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(list('ABJ'), 'WDSP1000', preflight=True)
+    # p.updateGlyphsFromDefault(list('Y'), 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
     # p.copyGlyphsFromDefault(glyphNames)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False)
@@ -344,22 +344,22 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     # --- tuning ---
-    # p.tuningLevel = 1
+    # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources()
     # p.resetTuningSources()
-    # p.calculateTuningSources('idotless jdotless'.split(), referenceSource, level=3)
+    # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.cleanupSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
@@ -370,7 +370,7 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=1)
+    # p.proofTuning(list(string.ascii_uppercase)+list(string.ascii_lowercase), referenceSource, level=3)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)

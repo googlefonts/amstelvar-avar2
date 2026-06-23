@@ -171,7 +171,7 @@ Using this separate measurements file, the original Amstelvar sources are then m
 Variation axes in AmstelvarA2
 -----------------------------
 
-### Typographic axes
+### Blended axes
 
 1. `opsz` Optical size
 2. `wght` Weight
@@ -181,7 +181,7 @@ Variation axes in AmstelvarA2
 ### Parametric axes
 
 1. `WDSP` Word space width
-2. `GRAD` Grades
+2. `GRAD` None
 3. `XOUC` X stem uppercase
 4. `YOUC` Y stem uppercase
 5. `XOUA` Uppercase accents main weight
@@ -197,49 +197,73 @@ Variation axes in AmstelvarA2
 15. `XSVU` X vertical serif uppercase
 16. `YSVU` Y vertical serif uppercase
 17. `XVAU` Uppercase vertical serif angle
-18. `YHAU` Uppercase horizontal serif angle
-19. `XQUC` X internal curvature uppercase
-20. `YQUC` Y internal curvature uppercase
-21. `XUCS` X sidebearing uppercase straights
-22. `XUCR` X sidebearing uppercase rounds
-23. `XUCD` X sidebearing uppercase diagonals
-24. `XOLC` X stem lowercase
-25. `YOLC` Y stem lowercase
-26. `XOLA` Lowercase accents main weight
-27. `YOLA` Lowercase accents secondary weight
-28. `XTLC` X transparent lowercase
-29. `XTLR` X transparent lowercase rounds
-30. `XTLD` X transparent lowercase diagonals
-31. `XTLA` Lowercase accent width
-32. `YTLC` Y transparent lowercase
-33. `YTAS` Y transparent ascender
-34. `YTDE` Y transparent descender
-35. `XSHL` X horizontal serif lowercase
-36. `YSHL` Y horizontal serif lowercase
-37. `XSVL` X vertical serif lowercase
-38. `YSVL` Y vertical serif lowercase
-39. `XVAL` Lowercase vertical serif angle
-40. `YHAL` Lowercase horizontal serif angle
-41. `XLCS` X sidebearing lowercase straights
-42. `XLCR` X sidebearing lowercase rounds
-43. `XLCD` X sidebearing lowercase diagonals
-44. `XQLC` X internal curvature lowercase
-45. `YQLC` Y internal curvature lowercase
-46. `XOFI` X stem figures
-47. `YOFI` Y stem figures
-48. `XTFI` X transparent figures
-49. `YTFI` Y transparent figures
-50. `XSHF` X horizontal serif figures
-51. `YSHF` Y horizontal serif figures
-52. `XSVF` X vertical serif figures
-53. `YSVF` Y vertical serif figures
-54. `XVAF` Figures vertical serif angle
-55. `YHAF` Figures horizontal serif angle
-56. `XFIR` X sidebearing figure 0
-57. `XQFI` X internal curvature figures
-58. `YQFI` Y internal curvature figures
-59. `XDOT` Dot width
-60. `YTOS` Lowercase overshoot
-61. `XTTW` Trap width
-62. `YTTL` Trap length
-63. `BARS`
+18. `XQUC` X internal curvature uppercase
+19. `YQUC` Y internal curvature uppercase
+20. `XUCS` X sidebearing uppercase straights
+21. `XUCR` X sidebearing uppercase rounds
+22. `XUCD` X sidebearing uppercase diagonals
+23. `XOLC` X stem lowercase
+24. `YOLC` Y stem lowercase
+25. `XOLA` Lowercase accents main weight
+26. `YOLA` Lowercase accents secondary weight
+27. `XTLC` X transparent lowercase
+28. `XTLR` X transparent lowercase rounds
+29. `XTLD` X transparent lowercase diagonals
+30. `XTLA` Lowercase accent width
+31. `YTLC` Y transparent lowercase
+32. `YTAS` Y transparent ascender
+33. `YTDE` Y transparent descender
+34. `XSHL` X horizontal serif lowercase
+35. `YSHL` Y horizontal serif lowercase
+36. `XSVL` X vertical serif lowercase
+37. `YSVL` Y vertical serif lowercase
+38. `XQLC` X internal curvature lowercase
+39. `YQLC` Y internal curvature lowercase
+40. `XLCS` X sidebearing lowercase straights
+41. `XLCR` X sidebearing lowercase rounds
+42. `XLCD` X sidebearing lowercase diagonals
+43. `XOFI` X stem figures
+44. `YOFI` Y stem figures
+45. `XTFI` X transparent figures
+46. `YTFI` Y transparent figures
+47. `XSHF` X horizontal serif figures
+48. `YSHF` Y horizontal serif figures
+49. `XSVF` X vertical serif figures
+50. `YSVF` Y vertical serif figures
+51. `XQFI` X internal curvature figures
+52. `YQFI` Y internal curvature figures
+53. `XFIR` X sidebearing figure 0
+54. `XDOT` Dot width
+55. `YTOS` Lowercase overshoot
+56. `XTTW` Trap width
+57. `YTTL` Trap length
+58. `BARS` 
+
+### Tuning axes
+
+- `TN00` opsz144
+- `TN01` opsz144 wdth125
+- `TN02` opsz144 wdth50
+- `TN03` opsz144 wght100
+- `TN04` opsz144 wght1000
+- `TN05` opsz144 wght1000 wdth125
+- `TN06` opsz144 wght1000 wdth50
+- `TN07` opsz144 wght100 wdth125
+- `TN08` opsz144 wght100 wdth50
+- `TN09` opsz8
+- `TN10` opsz8 wdth125
+- `TN11` opsz8 wdth50
+- `TN12` opsz8 wght100
+- `TN13` opsz8 wght1000
+- `TN14` opsz8 wght1000 wdth125
+- `TN15` opsz8 wght1000 wdth50
+- `TN16` opsz8 wght100 wdth125
+- `TN17` opsz8 wght100 wdth50
+- `TN18` wdth125
+- `TN19` wdth50
+- `TN20` wght100
+- `TN21` wght1000
+- `TN22` wght1000 wdth125
+- `TN23` wght1000 wdth50
+- `TN24` wght100 wdth125
+- `TN25` wght100 wdth50
