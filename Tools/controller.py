@@ -321,7 +321,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -345,7 +345,7 @@ if __name__ == '__main__':
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
-    # p.createTuningSources()
+    # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
     # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
 
