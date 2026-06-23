@@ -93,27 +93,6 @@ class AmstelvarA2Controller(xProject):
         return self.designspaceFile.replace('.designspace', '_avar2.ttf')
 
     @property
-    def referenceSourcesFolder(self):
-        # return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
-        return os.path.join(self.sourcesFolder, 'reference')
-
-    @property
-    def referenceSources(self):
-        return { os.path.splitext(os.path.split(f)[-1])[0]: f for f in glob.glob(f'{self.referenceSourcesFolder}/*.ufo')}
-
-    @property
-    def referenceBlendsPath(self):
-        return os.path.join(self.referenceSourcesFolder, 'blends.json')
-
-    @property
-    def referenceFontPath(self):
-        referenceFonts = {
-            'Roman'  : 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
-            'Italic' : 'Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf' ,
-        }
-        return os.path.join(self.fontsFolder, 'legacy', referenceFonts[self.subFamily])
-
-    @property
     def parametricAxes(self):
         return self._parametricAxes[self.subFamily]
 
