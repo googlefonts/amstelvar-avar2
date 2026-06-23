@@ -11,13 +11,6 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
     <axis tag="XTSP" name="XTSP" minimum="-100" maximum="100" default="0"/>
-    <axis tag="XOPQ" name="XOPQ" minimum="-5" maximum="310" default="84"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="4" maximum="219" default="58"/>
-    <axis tag="XTRA" name="XTRA" minimum="-78" maximum="764" default="360"/>
-    <axis tag="XSHA" name="XSHA" minimum="-6" maximum="158" default="92"/>
-    <axis tag="YSHA" name="YSHA" minimum="0" maximum="150" default="50"/>
-    <axis tag="XSVA" name="XSVA" minimum="-1" maximum="139" default="50"/>
-    <axis tag="YSVA" name="YSVA" minimum="0" maximum="242" default="142"/>
     <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="320" hidden="1"/>
     <axis tag="GRAD" name="GRAD" minimum="-300" maximum="500" default="0" hidden="1"/>
     <axis tag="XOUC" name="XOUC" minimum="9" maximum="310" default="84" hidden="1"/>
@@ -100,7 +93,6 @@
     <axis tag="TN21" name="TN21" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN22" name="TN22" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN23" name="TN23" minimum="0" maximum="100" default="0" hidden="1"/>
-    <axis tag="TN24" name="TN24" minimum="0" maximum="100" default="0" hidden="1"/>
     <mappings>
       <mapping description="opsz144">
         <input>
@@ -161,7 +153,7 @@
           <dimension name="XTLA" xvalue="206"/>
           <dimension name="XTUA" xvalue="220"/>
           <dimension name="YTJD" xvalue="-7"/>
-          <dimension name="TN00" xvalue="0"/>
+          <dimension name="TN00" xvalue="100"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
@@ -180,12 +172,11 @@
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="100"/>
+          <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wdth125">
@@ -249,7 +240,7 @@
           <dimension name="XTUA" xvalue="284"/>
           <dimension name="YTJD" xvalue="-7"/>
           <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
+          <dimension name="TN01" xvalue="100"/>
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
@@ -259,7 +250,7 @@
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="100"/>
+          <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
@@ -272,7 +263,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wdth50">
@@ -337,7 +327,7 @@
           <dimension name="YTJD" xvalue="-7"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
+          <dimension name="TN02" xvalue="100"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
@@ -355,11 +345,10 @@
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="100"/>
+          <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght100">
@@ -425,7 +414,7 @@
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
+          <dimension name="TN03" xvalue="100"/>
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
@@ -435,7 +424,7 @@
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="100"/>
+          <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
@@ -446,7 +435,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght1000">
@@ -511,9 +499,9 @@
           <dimension name="YTJD" xvalue="-14"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="100"/>
+          <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
+          <dimension name="TN04" xvalue="100"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
@@ -533,7 +521,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght1000_wdth125">
@@ -602,7 +589,7 @@
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
+          <dimension name="TN05" xvalue="100"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
@@ -618,10 +605,9 @@
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="100"/>
+          <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght1000_wdth50">
@@ -685,13 +671,13 @@
           <dimension name="XTLA" xvalue="242"/>
           <dimension name="XTUA" xvalue="232"/>
           <dimension name="YTJD" xvalue="-9"/>
-          <dimension name="TN00" xvalue="100"/>
+          <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
+          <dimension name="TN06" xvalue="100"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
@@ -709,7 +695,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght100_wdth125">
@@ -780,7 +765,7 @@
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
+          <dimension name="TN07" xvalue="100"/>
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
@@ -791,13 +776,12 @@
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="100"/>
+          <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz144_wght100_wdth50">
@@ -869,14 +853,14 @@
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
+          <dimension name="TN08" xvalue="100"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="100"/>
+          <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
@@ -885,7 +869,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -956,8 +939,8 @@
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="100"/>
+          <dimension name="TN09" xvalue="100"/>
+          <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
@@ -971,7 +954,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wdth125">
@@ -1035,7 +1017,7 @@
           <dimension name="XTUA" xvalue="300"/>
           <dimension name="YTJD" xvalue="-130"/>
           <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="100"/>
+          <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
@@ -1044,7 +1026,7 @@
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
+          <dimension name="TN10" xvalue="100"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
@@ -1058,7 +1040,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wdth50">
@@ -1132,7 +1113,7 @@
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
+          <dimension name="TN11" xvalue="100"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
@@ -1143,9 +1124,8 @@
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="100"/>
+          <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100">
@@ -1217,10 +1197,10 @@
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="100"/>
+          <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
+          <dimension name="TN12" xvalue="100"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
@@ -1232,7 +1212,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght1000">
@@ -1299,7 +1278,7 @@
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="100"/>
+          <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
@@ -1308,7 +1287,7 @@
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
+          <dimension name="TN13" xvalue="100"/>
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
@@ -1319,7 +1298,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght1000_wdth125">
@@ -1391,13 +1369,13 @@
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="100"/>
+          <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
+          <dimension name="TN14" xvalue="100"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
@@ -1407,7 +1385,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght1000_wdth50">
@@ -1486,7 +1463,7 @@
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
+          <dimension name="TN15" xvalue="100"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
@@ -1495,7 +1472,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100_wdth125">
@@ -1571,11 +1547,11 @@
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
           <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="100"/>
+          <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
+          <dimension name="TN16" xvalue="100"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
@@ -1583,7 +1559,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght100_wdth50">
@@ -1652,7 +1627,7 @@
           <dimension name="TN02" xvalue="0"/>
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="100"/>
+          <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
@@ -1664,14 +1639,13 @@
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
+          <dimension name="TN17" xvalue="100"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wdth125">
@@ -1757,7 +1731,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wdth50">
@@ -1843,7 +1816,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght100">
@@ -1911,7 +1883,7 @@
           <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="100"/>
+          <dimension name="TN06" xvalue="0"/>
           <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
@@ -1923,13 +1895,12 @@
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
+          <dimension name="TN18" xvalue="100"/>
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght1000">
@@ -2008,14 +1979,13 @@
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="100"/>
+          <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
+          <dimension name="TN19" xvalue="100"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght1000_wdth125">
@@ -2085,7 +2055,7 @@
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="100"/>
+          <dimension name="TN07" xvalue="0"/>
           <dimension name="TN08" xvalue="0"/>
           <dimension name="TN09" xvalue="0"/>
           <dimension name="TN10" xvalue="0"/>
@@ -2098,11 +2068,10 @@
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
+          <dimension name="TN20" xvalue="100"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght1000_wdth50">
@@ -2179,17 +2148,16 @@
           <dimension name="TN11" xvalue="0"/>
           <dimension name="TN12" xvalue="0"/>
           <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="100"/>
+          <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
           <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
+          <dimension name="TN21" xvalue="100"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght100_wdth125">
@@ -2274,9 +2242,8 @@
           <dimension name="TN19" xvalue="0"/>
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="100"/>
-          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN22" xvalue="100"/>
+          <dimension name="TN23" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="wght100_wdth50">
@@ -2342,7 +2309,7 @@
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="100"/>
+          <dimension name="TN03" xvalue="0"/>
           <dimension name="TN04" xvalue="0"/>
           <dimension name="TN05" xvalue="0"/>
           <dimension name="TN06" xvalue="0"/>
@@ -2362,8 +2329,7 @@
           <dimension name="TN20" xvalue="0"/>
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN23" xvalue="100"/>
         </output>
       </mapping>
       <mapping description="wght400">
@@ -2441,7 +2407,7 @@
           <dimension name="TN13" xvalue="0"/>
           <dimension name="TN14" xvalue="0"/>
           <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="100"/>
+          <dimension name="TN16" xvalue="0"/>
           <dimension name="TN17" xvalue="0"/>
           <dimension name="TN18" xvalue="0"/>
           <dimension name="TN19" xvalue="0"/>
@@ -2449,7 +2415,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="XTSP-100">
@@ -2539,7 +2504,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
       <mapping description="XTSP100">
@@ -2629,1680 +2593,6 @@
           <dimension name="TN21" xvalue="0"/>
           <dimension name="TN22" xvalue="0"/>
           <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ-5">
-        <input>
-          <dimension name="XOPQ" xvalue="-5"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="-5"/>
-          <dimension name="XOLC" xvalue="-4"/>
-          <dimension name="XOFI" xvalue="3"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ6">
-        <input>
-          <dimension name="XOPQ" xvalue="6"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="6"/>
-          <dimension name="XOLC" xvalue="7"/>
-          <dimension name="XOFI" xvalue="14"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ9">
-        <input>
-          <dimension name="XOPQ" xvalue="9"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="9"/>
-          <dimension name="XOLC" xvalue="10"/>
-          <dimension name="XOFI" xvalue="17"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ287">
-        <input>
-          <dimension name="XOPQ" xvalue="287"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="287"/>
-          <dimension name="XOLC" xvalue="288"/>
-          <dimension name="XOFI" xvalue="295"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ300">
-        <input>
-          <dimension name="XOPQ" xvalue="300"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="300"/>
-          <dimension name="XOLC" xvalue="301"/>
-          <dimension name="XOFI" xvalue="308"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XOPQ310">
-        <input>
-          <dimension name="XOPQ" xvalue="310"/>
-        </input>
-        <output>
-          <dimension name="XOUC" xvalue="310"/>
-          <dimension name="XOLC" xvalue="311"/>
-          <dimension name="XOFI" xvalue="318"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ4">
-        <input>
-          <dimension name="YOPQ" xvalue="4"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="4"/>
-          <dimension name="YOLC" xvalue="-7"/>
-          <dimension name="YOFI" xvalue="2"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ6">
-        <input>
-          <dimension name="YOPQ" xvalue="6"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="6"/>
-          <dimension name="YOLC" xvalue="-5"/>
-          <dimension name="YOFI" xvalue="4"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ15">
-        <input>
-          <dimension name="YOPQ" xvalue="15"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="15"/>
-          <dimension name="YOLC" xvalue="4"/>
-          <dimension name="YOFI" xvalue="13"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ121">
-        <input>
-          <dimension name="YOPQ" xvalue="121"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="121"/>
-          <dimension name="YOLC" xvalue="110"/>
-          <dimension name="YOFI" xvalue="119"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ216">
-        <input>
-          <dimension name="YOPQ" xvalue="216"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="216"/>
-          <dimension name="YOLC" xvalue="205"/>
-          <dimension name="YOFI" xvalue="214"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YOPQ219">
-        <input>
-          <dimension name="YOPQ" xvalue="219"/>
-        </input>
-        <output>
-          <dimension name="YOUC" xvalue="219"/>
-          <dimension name="YOLC" xvalue="208"/>
-          <dimension name="YOFI" xvalue="217"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA-78">
-        <input>
-          <dimension name="XTRA" xvalue="-78"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="-78"/>
-          <dimension name="XTUR" xvalue="60"/>
-          <dimension name="XTUD" xvalue="-94"/>
-          <dimension name="XTLC" xvalue="-206"/>
-          <dimension name="XTLR" xvalue="-152"/>
-          <dimension name="XTLD" xvalue="-197"/>
-          <dimension name="XTFI" xvalue="-108"/>
-          <dimension name="XQUC" xvalue="14"/>
-          <dimension name="XQLC" xvalue="-40"/>
-          <dimension name="XQFI" xvalue="-12"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA58">
-        <input>
-          <dimension name="XTRA" xvalue="58"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="58"/>
-          <dimension name="XTUR" xvalue="196"/>
-          <dimension name="XTUD" xvalue="42"/>
-          <dimension name="XTLC" xvalue="-70"/>
-          <dimension name="XTLR" xvalue="-16"/>
-          <dimension name="XTLD" xvalue="-61"/>
-          <dimension name="XTFI" xvalue="28"/>
-          <dimension name="XQUC" xvalue="45"/>
-          <dimension name="XQLC" xvalue="-5"/>
-          <dimension name="XQFI" xvalue="16"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA75">
-        <input>
-          <dimension name="XTRA" xvalue="75"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="75"/>
-          <dimension name="XTUR" xvalue="213"/>
-          <dimension name="XTUD" xvalue="59"/>
-          <dimension name="XTLC" xvalue="-53"/>
-          <dimension name="XTLR" xvalue="1"/>
-          <dimension name="XTLD" xvalue="-44"/>
-          <dimension name="XTFI" xvalue="45"/>
-          <dimension name="XQUC" xvalue="49"/>
-          <dimension name="XQLC" xvalue="-1"/>
-          <dimension name="XQFI" xvalue="20"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA118">
-        <input>
-          <dimension name="XTRA" xvalue="118"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="118"/>
-          <dimension name="XTUR" xvalue="256"/>
-          <dimension name="XTUD" xvalue="102"/>
-          <dimension name="XTLC" xvalue="-10"/>
-          <dimension name="XTLR" xvalue="44"/>
-          <dimension name="XTLD" xvalue="-1"/>
-          <dimension name="XTFI" xvalue="88"/>
-          <dimension name="XQUC" xvalue="59"/>
-          <dimension name="XQLC" xvalue="10"/>
-          <dimension name="XQFI" xvalue="29"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA134">
-        <input>
-          <dimension name="XTRA" xvalue="134"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="134"/>
-          <dimension name="XTUR" xvalue="272"/>
-          <dimension name="XTUD" xvalue="118"/>
-          <dimension name="XTLC" xvalue="6"/>
-          <dimension name="XTLR" xvalue="60"/>
-          <dimension name="XTLD" xvalue="15"/>
-          <dimension name="XTFI" xvalue="104"/>
-          <dimension name="XQUC" xvalue="62"/>
-          <dimension name="XQLC" xvalue="14"/>
-          <dimension name="XQFI" xvalue="32"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA169">
-        <input>
-          <dimension name="XTRA" xvalue="169"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="169"/>
-          <dimension name="XTUR" xvalue="307"/>
-          <dimension name="XTUD" xvalue="153"/>
-          <dimension name="XTLC" xvalue="41"/>
-          <dimension name="XTLR" xvalue="95"/>
-          <dimension name="XTLD" xvalue="50"/>
-          <dimension name="XTFI" xvalue="139"/>
-          <dimension name="XQUC" xvalue="70"/>
-          <dimension name="XQLC" xvalue="23"/>
-          <dimension name="XQFI" xvalue="39"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA199">
-        <input>
-          <dimension name="XTRA" xvalue="199"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="199"/>
-          <dimension name="XTUR" xvalue="337"/>
-          <dimension name="XTUD" xvalue="183"/>
-          <dimension name="XTLC" xvalue="71"/>
-          <dimension name="XTLR" xvalue="125"/>
-          <dimension name="XTLD" xvalue="80"/>
-          <dimension name="XTFI" xvalue="169"/>
-          <dimension name="XQUC" xvalue="77"/>
-          <dimension name="XQLC" xvalue="30"/>
-          <dimension name="XQFI" xvalue="46"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA562">
-        <input>
-          <dimension name="XTRA" xvalue="562"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="562"/>
-          <dimension name="XTUR" xvalue="700"/>
-          <dimension name="XTUD" xvalue="546"/>
-          <dimension name="XTLC" xvalue="434"/>
-          <dimension name="XTLR" xvalue="488"/>
-          <dimension name="XTLD" xvalue="443"/>
-          <dimension name="XTFI" xvalue="532"/>
-          <dimension name="XQUC" xvalue="161"/>
-          <dimension name="XQLC" xvalue="122"/>
-          <dimension name="XQFI" xvalue="131"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA580">
-        <input>
-          <dimension name="XTRA" xvalue="580"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="580"/>
-          <dimension name="XTUR" xvalue="718"/>
-          <dimension name="XTUD" xvalue="564"/>
-          <dimension name="XTLC" xvalue="452"/>
-          <dimension name="XTLR" xvalue="506"/>
-          <dimension name="XTLD" xvalue="461"/>
-          <dimension name="XTFI" xvalue="550"/>
-          <dimension name="XQUC" xvalue="165"/>
-          <dimension name="XQLC" xvalue="126"/>
-          <dimension name="XQFI" xvalue="135"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA613">
-        <input>
-          <dimension name="XTRA" xvalue="613"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="613"/>
-          <dimension name="XTUR" xvalue="751"/>
-          <dimension name="XTUD" xvalue="597"/>
-          <dimension name="XTLC" xvalue="485"/>
-          <dimension name="XTLR" xvalue="539"/>
-          <dimension name="XTLD" xvalue="494"/>
-          <dimension name="XTFI" xvalue="583"/>
-          <dimension name="XQUC" xvalue="173"/>
-          <dimension name="XQLC" xvalue="134"/>
-          <dimension name="XQFI" xvalue="144"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA650">
-        <input>
-          <dimension name="XTRA" xvalue="650"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="650"/>
-          <dimension name="XTUR" xvalue="788"/>
-          <dimension name="XTUD" xvalue="634"/>
-          <dimension name="XTLC" xvalue="522"/>
-          <dimension name="XTLR" xvalue="576"/>
-          <dimension name="XTLD" xvalue="531"/>
-          <dimension name="XTFI" xvalue="620"/>
-          <dimension name="XQUC" xvalue="181"/>
-          <dimension name="XQLC" xvalue="143"/>
-          <dimension name="XQFI" xvalue="153"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA653">
-        <input>
-          <dimension name="XTRA" xvalue="653"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="653"/>
-          <dimension name="XTUR" xvalue="791"/>
-          <dimension name="XTUD" xvalue="637"/>
-          <dimension name="XTLC" xvalue="525"/>
-          <dimension name="XTLR" xvalue="579"/>
-          <dimension name="XTLD" xvalue="534"/>
-          <dimension name="XTFI" xvalue="623"/>
-          <dimension name="XQUC" xvalue="182"/>
-          <dimension name="XQLC" xvalue="144"/>
-          <dimension name="XQFI" xvalue="154"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA675">
-        <input>
-          <dimension name="XTRA" xvalue="675"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="675"/>
-          <dimension name="XTUR" xvalue="813"/>
-          <dimension name="XTUD" xvalue="659"/>
-          <dimension name="XTLC" xvalue="547"/>
-          <dimension name="XTLR" xvalue="601"/>
-          <dimension name="XTLD" xvalue="556"/>
-          <dimension name="XTFI" xvalue="645"/>
-          <dimension name="XQUC" xvalue="187"/>
-          <dimension name="XQLC" xvalue="150"/>
-          <dimension name="XQFI" xvalue="159"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XTRA764">
-        <input>
-          <dimension name="XTRA" xvalue="764"/>
-        </input>
-        <output>
-          <dimension name="XTUC" xvalue="764"/>
-          <dimension name="XTUR" xvalue="902"/>
-          <dimension name="XTUD" xvalue="748"/>
-          <dimension name="XTLC" xvalue="636"/>
-          <dimension name="XTLR" xvalue="690"/>
-          <dimension name="XTLD" xvalue="645"/>
-          <dimension name="XTFI" xvalue="734"/>
-          <dimension name="XQUC" xvalue="208"/>
-          <dimension name="XQLC" xvalue="172"/>
-          <dimension name="XQFI" xvalue="182"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSHA-6">
-        <input>
-          <dimension name="XSHA" xvalue="-6"/>
-        </input>
-        <output>
-          <dimension name="XSHU" xvalue="-6"/>
-          <dimension name="XSHL" xvalue="-28"/>
-          <dimension name="XSHF" xvalue="-2"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSHA0">
-        <input>
-          <dimension name="XSHA" xvalue="0"/>
-        </input>
-        <output>
-          <dimension name="XSHU" xvalue="0"/>
-          <dimension name="XSHL" xvalue="-22"/>
-          <dimension name="XSHF" xvalue="4"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSHA26">
-        <input>
-          <dimension name="XSHA" xvalue="26"/>
-        </input>
-        <output>
-          <dimension name="XSHU" xvalue="26"/>
-          <dimension name="XSHL" xvalue="4"/>
-          <dimension name="XSHF" xvalue="30"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSHA142">
-        <input>
-          <dimension name="XSHA" xvalue="142"/>
-        </input>
-        <output>
-          <dimension name="XSHU" xvalue="142"/>
-          <dimension name="XSHL" xvalue="120"/>
-          <dimension name="XSHF" xvalue="146"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSHA158">
-        <input>
-          <dimension name="XSHA" xvalue="158"/>
-        </input>
-        <output>
-          <dimension name="XSHU" xvalue="158"/>
-          <dimension name="XSHL" xvalue="136"/>
-          <dimension name="XSHF" xvalue="162"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSHA0">
-        <input>
-          <dimension name="YSHA" xvalue="0"/>
-        </input>
-        <output>
-          <dimension name="YSHU" xvalue="0"/>
-          <dimension name="YSHL" xvalue="-6"/>
-          <dimension name="YSHF" xvalue="0"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSHA6">
-        <input>
-          <dimension name="YSHA" xvalue="6"/>
-        </input>
-        <output>
-          <dimension name="YSHU" xvalue="6"/>
-          <dimension name="YSHL" xvalue="0"/>
-          <dimension name="YSHF" xvalue="6"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSHA150">
-        <input>
-          <dimension name="YSHA" xvalue="150"/>
-        </input>
-        <output>
-          <dimension name="YSHU" xvalue="150"/>
-          <dimension name="YSHL" xvalue="144"/>
-          <dimension name="YSHF" xvalue="150"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSVA-1">
-        <input>
-          <dimension name="XSVA" xvalue="-1"/>
-        </input>
-        <output>
-          <dimension name="XSVU" xvalue="-1"/>
-          <dimension name="XSVL" xvalue="-4"/>
-          <dimension name="XSVF" xvalue="0"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSVA0">
-        <input>
-          <dimension name="XSVA" xvalue="0"/>
-        </input>
-        <output>
-          <dimension name="XSVU" xvalue="0"/>
-          <dimension name="XSVL" xvalue="-3"/>
-          <dimension name="XSVF" xvalue="1"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSVA3">
-        <input>
-          <dimension name="XSVA" xvalue="3"/>
-        </input>
-        <output>
-          <dimension name="XSVU" xvalue="3"/>
-          <dimension name="XSVL" xvalue="0"/>
-          <dimension name="XSVF" xvalue="4"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSVA125">
-        <input>
-          <dimension name="XSVA" xvalue="125"/>
-        </input>
-        <output>
-          <dimension name="XSVU" xvalue="125"/>
-          <dimension name="XSVL" xvalue="122"/>
-          <dimension name="XSVF" xvalue="126"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="XSVA139">
-        <input>
-          <dimension name="XSVA" xvalue="139"/>
-        </input>
-        <output>
-          <dimension name="XSVU" xvalue="139"/>
-          <dimension name="XSVL" xvalue="136"/>
-          <dimension name="XSVF" xvalue="140"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA0">
-        <input>
-          <dimension name="YSVA" xvalue="0"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="0"/>
-          <dimension name="YSVL" xvalue="-79"/>
-          <dimension name="YSVF" xvalue="-40"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA39">
-        <input>
-          <dimension name="YSVA" xvalue="39"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="39"/>
-          <dimension name="YSVL" xvalue="-40"/>
-          <dimension name="YSVF" xvalue="-1"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA79">
-        <input>
-          <dimension name="YSVA" xvalue="79"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="79"/>
-          <dimension name="YSVL" xvalue="0"/>
-          <dimension name="YSVF" xvalue="39"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA216">
-        <input>
-          <dimension name="YSVA" xvalue="216"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="216"/>
-          <dimension name="YSVL" xvalue="137"/>
-          <dimension name="YSVF" xvalue="176"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA217">
-        <input>
-          <dimension name="YSVA" xvalue="217"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="217"/>
-          <dimension name="YSVL" xvalue="138"/>
-          <dimension name="YSVF" xvalue="177"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping description="YSVA242">
-        <input>
-          <dimension name="YSVA" xvalue="242"/>
-        </input>
-        <output>
-          <dimension name="YSVU" xvalue="242"/>
-          <dimension name="YSVL" xvalue="163"/>
-          <dimension name="YSVF" xvalue="202"/>
-          <dimension name="TN00" xvalue="0"/>
-          <dimension name="TN01" xvalue="0"/>
-          <dimension name="TN02" xvalue="0"/>
-          <dimension name="TN03" xvalue="0"/>
-          <dimension name="TN04" xvalue="0"/>
-          <dimension name="TN05" xvalue="0"/>
-          <dimension name="TN06" xvalue="0"/>
-          <dimension name="TN07" xvalue="0"/>
-          <dimension name="TN08" xvalue="0"/>
-          <dimension name="TN09" xvalue="0"/>
-          <dimension name="TN10" xvalue="0"/>
-          <dimension name="TN11" xvalue="0"/>
-          <dimension name="TN12" xvalue="0"/>
-          <dimension name="TN13" xvalue="0"/>
-          <dimension name="TN14" xvalue="0"/>
-          <dimension name="TN15" xvalue="0"/>
-          <dimension name="TN16" xvalue="0"/>
-          <dimension name="TN17" xvalue="0"/>
-          <dimension name="TN18" xvalue="0"/>
-          <dimension name="TN19" xvalue="0"/>
-          <dimension name="TN20" xvalue="0"/>
-          <dimension name="TN21" xvalue="0"/>
-          <dimension name="TN22" xvalue="0"/>
-          <dimension name="TN23" xvalue="0"/>
-          <dimension name="TN24" xvalue="0"/>
         </output>
       </mapping>
     </mappings>
@@ -4392,7 +2682,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_WDSP1000.ufo" name="WDSP1000" familyname="AmstelvarA2 Italic" stylename="WDSP1000">
@@ -4479,7 +2768,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_WDSP0.ufo" name="WDSP0" familyname="AmstelvarA2 Italic" stylename="WDSP0">
@@ -4566,7 +2854,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_GRAD-300.ufo" name="GRAD-300" familyname="AmstelvarA2 Italic" stylename="GRAD-300">
@@ -4653,7 +2940,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_GRAD500.ufo" name="GRAD500" familyname="AmstelvarA2 Italic" stylename="GRAD500">
@@ -4740,7 +3026,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOUC9.ufo" name="XOUC9" familyname="AmstelvarA2 Italic" stylename="XOUC9">
@@ -4827,7 +3112,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOUC310.ufo" name="XOUC310" familyname="AmstelvarA2 Italic" stylename="XOUC310">
@@ -4914,7 +3198,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOUC4.ufo" name="YOUC4" familyname="AmstelvarA2 Italic" stylename="YOUC4">
@@ -5001,7 +3284,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOUC219.ufo" name="YOUC219" familyname="AmstelvarA2 Italic" stylename="YOUC219">
@@ -5088,7 +3370,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOUA132.ufo" name="XOUA132" familyname="AmstelvarA2 Italic" stylename="XOUA132">
@@ -5175,7 +3456,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOUA3.ufo" name="XOUA3" familyname="AmstelvarA2 Italic" stylename="XOUA3">
@@ -5262,7 +3542,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOUA5.ufo" name="YOUA5" familyname="AmstelvarA2 Italic" stylename="YOUA5">
@@ -5349,7 +3628,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOUA102.ufo" name="YOUA102" familyname="AmstelvarA2 Italic" stylename="YOUA102">
@@ -5436,7 +3714,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUC650.ufo" name="XTUC650" familyname="AmstelvarA2 Italic" stylename="XTUC650">
@@ -5523,7 +3800,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUC58.ufo" name="XTUC58" familyname="AmstelvarA2 Italic" stylename="XTUC58">
@@ -5610,7 +3886,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUR60.ufo" name="XTUR60" familyname="AmstelvarA2 Italic" stylename="XTUR60">
@@ -5697,7 +3972,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUR902.ufo" name="XTUR902" familyname="AmstelvarA2 Italic" stylename="XTUR902">
@@ -5784,7 +4058,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUD637.ufo" name="XTUD637" familyname="AmstelvarA2 Italic" stylename="XTUD637">
@@ -5871,7 +4144,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUD118.ufo" name="XTUD118" familyname="AmstelvarA2 Italic" stylename="XTUD118">
@@ -5958,7 +4230,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUA351.ufo" name="XTUA351" familyname="AmstelvarA2 Italic" stylename="XTUA351">
@@ -6045,7 +4316,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTUA181.ufo" name="XTUA181" familyname="AmstelvarA2 Italic" stylename="XTUA181">
@@ -6132,7 +4402,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTUC541.ufo" name="YTUC541" familyname="AmstelvarA2 Italic" stylename="YTUC541">
@@ -6219,7 +4488,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTUC875.ufo" name="YTUC875" familyname="AmstelvarA2 Italic" stylename="YTUC875">
@@ -6306,7 +4574,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTJD0.ufo" name="YTJD0" familyname="AmstelvarA2 Italic" stylename="YTJD0">
@@ -6393,7 +4660,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTJD-190.ufo" name="YTJD-190" familyname="AmstelvarA2 Italic" stylename="YTJD-190">
@@ -6480,7 +4746,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHU142.ufo" name="XSHU142" familyname="AmstelvarA2 Italic" stylename="XSHU142">
@@ -6567,7 +4832,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHU0.ufo" name="XSHU0" familyname="AmstelvarA2 Italic" stylename="XSHU0">
@@ -6654,7 +4918,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHU150.ufo" name="YSHU150" familyname="AmstelvarA2 Italic" stylename="YSHU150">
@@ -6741,7 +5004,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHU0.ufo" name="YSHU0" familyname="AmstelvarA2 Italic" stylename="YSHU0">
@@ -6828,7 +5090,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVU0.ufo" name="XSVU0" familyname="AmstelvarA2 Italic" stylename="XSVU0">
@@ -6915,7 +5176,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVU125.ufo" name="XSVU125" familyname="AmstelvarA2 Italic" stylename="XSVU125">
@@ -7002,7 +5262,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVU216.ufo" name="YSVU216" familyname="AmstelvarA2 Italic" stylename="YSVU216">
@@ -7089,7 +5348,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVU0.ufo" name="YSVU0" familyname="AmstelvarA2 Italic" stylename="YSVU0">
@@ -7176,7 +5434,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XVAU64.ufo" name="XVAU64" familyname="AmstelvarA2 Italic" stylename="XVAU64">
@@ -7263,7 +5520,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XVAU0.ufo" name="XVAU0" familyname="AmstelvarA2 Italic" stylename="XVAU0">
@@ -7350,7 +5606,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQUC208.ufo" name="XQUC208" familyname="AmstelvarA2 Italic" stylename="XQUC208">
@@ -7437,7 +5692,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQUC14.ufo" name="XQUC14" familyname="AmstelvarA2 Italic" stylename="XQUC14">
@@ -7524,7 +5778,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQUC98.ufo" name="YQUC98" familyname="AmstelvarA2 Italic" stylename="YQUC98">
@@ -7611,7 +5864,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQUC272.ufo" name="YQUC272" familyname="AmstelvarA2 Italic" stylename="YQUC272">
@@ -7698,7 +5950,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCS23.ufo" name="XUCS23" familyname="AmstelvarA2 Italic" stylename="XUCS23">
@@ -7785,7 +6036,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCS196.ufo" name="XUCS196" familyname="AmstelvarA2 Italic" stylename="XUCS196">
@@ -7872,7 +6122,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCR0.ufo" name="XUCR0" familyname="AmstelvarA2 Italic" stylename="XUCR0">
@@ -7959,7 +6208,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCR64.ufo" name="XUCR64" familyname="AmstelvarA2 Italic" stylename="XUCR64">
@@ -8046,7 +6294,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCD132.ufo" name="XUCD132" familyname="AmstelvarA2 Italic" stylename="XUCD132">
@@ -8133,7 +6380,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XUCD20.ufo" name="XUCD20" familyname="AmstelvarA2 Italic" stylename="XUCD20">
@@ -8220,7 +6466,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOLC288.ufo" name="XOLC288" familyname="AmstelvarA2 Italic" stylename="XOLC288">
@@ -8307,7 +6552,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOLC7.ufo" name="XOLC7" familyname="AmstelvarA2 Italic" stylename="XOLC7">
@@ -8394,7 +6638,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOLC110.ufo" name="YOLC110" familyname="AmstelvarA2 Italic" stylename="YOLC110">
@@ -8481,7 +6724,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOLC4.ufo" name="YOLC4" familyname="AmstelvarA2 Italic" stylename="YOLC4">
@@ -8568,7 +6810,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOLA132.ufo" name="XOLA132" familyname="AmstelvarA2 Italic" stylename="XOLA132">
@@ -8655,7 +6896,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOLA3.ufo" name="XOLA3" familyname="AmstelvarA2 Italic" stylename="XOLA3">
@@ -8742,7 +6982,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOLA90.ufo" name="YOLA90" familyname="AmstelvarA2 Italic" stylename="YOLA90">
@@ -8829,7 +7068,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOLA2.ufo" name="YOLA2" familyname="AmstelvarA2 Italic" stylename="YOLA2">
@@ -8916,7 +7154,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLC434.ufo" name="XTLC434" familyname="AmstelvarA2 Italic" stylename="XTLC434">
@@ -9003,7 +7240,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLC41.ufo" name="XTLC41" familyname="AmstelvarA2 Italic" stylename="XTLC41">
@@ -9090,7 +7326,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLR44.ufo" name="XTLR44" familyname="AmstelvarA2 Italic" stylename="XTLR44">
@@ -9177,7 +7412,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLR601.ufo" name="XTLR601" familyname="AmstelvarA2 Italic" stylename="XTLR601">
@@ -9264,7 +7498,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLD461.ufo" name="XTLD461" familyname="AmstelvarA2 Italic" stylename="XTLD461">
@@ -9351,7 +7584,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLD80.ufo" name="XTLD80" familyname="AmstelvarA2 Italic" stylename="XTLD80">
@@ -9438,7 +7670,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLA134.ufo" name="XTLA134" familyname="AmstelvarA2 Italic" stylename="XTLA134">
@@ -9525,7 +7756,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTLA367.ufo" name="XTLA367" familyname="AmstelvarA2 Italic" stylename="XTLA367">
@@ -9612,7 +7842,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTLC594.ufo" name="YTLC594" familyname="AmstelvarA2 Italic" stylename="YTLC594">
@@ -9699,7 +7928,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTLC436.ufo" name="YTLC436" familyname="AmstelvarA2 Italic" stylename="YTLC436">
@@ -9786,7 +8014,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTAS852.ufo" name="YTAS852" familyname="AmstelvarA2 Italic" stylename="YTAS852">
@@ -9873,7 +8100,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTAS642.ufo" name="YTAS642" familyname="AmstelvarA2 Italic" stylename="YTAS642">
@@ -9960,7 +8186,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTDE-66.ufo" name="YTDE-66" familyname="AmstelvarA2 Italic" stylename="YTDE-66">
@@ -10047,7 +8272,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTDE-276.ufo" name="YTDE-276" familyname="AmstelvarA2 Italic" stylename="YTDE-276">
@@ -10134,7 +8358,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHL136.ufo" name="XSHL136" familyname="AmstelvarA2 Italic" stylename="XSHL136">
@@ -10221,7 +8444,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHL4.ufo" name="XSHL4" familyname="AmstelvarA2 Italic" stylename="XSHL4">
@@ -10308,7 +8530,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHL144.ufo" name="YSHL144" familyname="AmstelvarA2 Italic" stylename="YSHL144">
@@ -10395,7 +8616,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHL0.ufo" name="YSHL0" familyname="AmstelvarA2 Italic" stylename="YSHL0">
@@ -10482,7 +8702,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVL136.ufo" name="XSVL136" familyname="AmstelvarA2 Italic" stylename="XSVL136">
@@ -10569,7 +8788,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVL0.ufo" name="XSVL0" familyname="AmstelvarA2 Italic" stylename="XSVL0">
@@ -10656,7 +8874,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVL0.ufo" name="YSVL0" familyname="AmstelvarA2 Italic" stylename="YSVL0">
@@ -10743,7 +8960,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVL138.ufo" name="YSVL138" familyname="AmstelvarA2 Italic" stylename="YSVL138">
@@ -10830,7 +9046,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQLC10.ufo" name="XQLC10" familyname="AmstelvarA2 Italic" stylename="XQLC10">
@@ -10917,7 +9132,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQLC150.ufo" name="XQLC150" familyname="AmstelvarA2 Italic" stylename="XQLC150">
@@ -11004,7 +9218,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQLC162.ufo" name="YQLC162" familyname="AmstelvarA2 Italic" stylename="YQLC162">
@@ -11091,7 +9304,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQLC72.ufo" name="YQLC72" familyname="AmstelvarA2 Italic" stylename="YQLC72">
@@ -11178,7 +9390,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCS40.ufo" name="XLCS40" familyname="AmstelvarA2 Italic" stylename="XLCS40">
@@ -11265,7 +9476,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCS172.ufo" name="XLCS172" familyname="AmstelvarA2 Italic" stylename="XLCS172">
@@ -11352,7 +9562,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCR-19.ufo" name="XLCR-19" familyname="AmstelvarA2 Italic" stylename="XLCR-19">
@@ -11439,7 +9648,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCR66.ufo" name="XLCR66" familyname="AmstelvarA2 Italic" stylename="XLCR66">
@@ -11526,7 +9734,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCD17.ufo" name="XLCD17" familyname="AmstelvarA2 Italic" stylename="XLCD17">
@@ -11613,7 +9820,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XLCD112.ufo" name="XLCD112" familyname="AmstelvarA2 Italic" stylename="XLCD112">
@@ -11700,7 +9906,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOFI308.ufo" name="XOFI308" familyname="AmstelvarA2 Italic" stylename="XOFI308">
@@ -11787,7 +9992,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XOFI3.ufo" name="XOFI3" familyname="AmstelvarA2 Italic" stylename="XOFI3">
@@ -11874,7 +10078,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOFI214.ufo" name="YOFI214" familyname="AmstelvarA2 Italic" stylename="YOFI214">
@@ -11961,7 +10164,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YOFI4.ufo" name="YOFI4" familyname="AmstelvarA2 Italic" stylename="YOFI4">
@@ -12048,7 +10250,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTFI583.ufo" name="XTFI583" familyname="AmstelvarA2 Italic" stylename="XTFI583">
@@ -12135,7 +10336,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTFI45.ufo" name="XTFI45" familyname="AmstelvarA2 Italic" stylename="XTFI45">
@@ -12222,7 +10422,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTFI281.ufo" name="YTFI281" familyname="AmstelvarA2 Italic" stylename="YTFI281">
@@ -12309,7 +10508,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTFI895.ufo" name="YTFI895" familyname="AmstelvarA2 Italic" stylename="YTFI895">
@@ -12396,7 +10594,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHF146.ufo" name="XSHF146" familyname="AmstelvarA2 Italic" stylename="XSHF146">
@@ -12483,7 +10680,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSHF-2.ufo" name="XSHF-2" familyname="AmstelvarA2 Italic" stylename="XSHF-2">
@@ -12570,7 +10766,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHF150.ufo" name="YSHF150" familyname="AmstelvarA2 Italic" stylename="YSHF150">
@@ -12657,7 +10852,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSHF0.ufo" name="YSHF0" familyname="AmstelvarA2 Italic" stylename="YSHF0">
@@ -12744,7 +10938,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVF126.ufo" name="XSVF126" familyname="AmstelvarA2 Italic" stylename="XSVF126">
@@ -12831,7 +11024,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XSVF0.ufo" name="XSVF0" familyname="AmstelvarA2 Italic" stylename="XSVF0">
@@ -12918,7 +11110,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVF-1.ufo" name="YSVF-1" familyname="AmstelvarA2 Italic" stylename="YSVF-1">
@@ -13005,7 +11196,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YSVF202.ufo" name="YSVF202" familyname="AmstelvarA2 Italic" stylename="YSVF202">
@@ -13092,7 +11282,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQFI144.ufo" name="XQFI144" familyname="AmstelvarA2 Italic" stylename="XQFI144">
@@ -13179,7 +11368,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XQFI20.ufo" name="XQFI20" familyname="AmstelvarA2 Italic" stylename="XQFI20">
@@ -13266,7 +11454,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQFI284.ufo" name="YQFI284" familyname="AmstelvarA2 Italic" stylename="YQFI284">
@@ -13353,7 +11540,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YQFI34.ufo" name="YQFI34" familyname="AmstelvarA2 Italic" stylename="YQFI34">
@@ -13440,7 +11626,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XFIR90.ufo" name="XFIR90" familyname="AmstelvarA2 Italic" stylename="XFIR90">
@@ -13527,7 +11712,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XFIR-13.ufo" name="XFIR-13" familyname="AmstelvarA2 Italic" stylename="XFIR-13">
@@ -13614,7 +11798,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XDOT23.ufo" name="XDOT23" familyname="AmstelvarA2 Italic" stylename="XDOT23">
@@ -13701,7 +11884,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XDOT274.ufo" name="XDOT274" familyname="AmstelvarA2 Italic" stylename="XDOT274">
@@ -13788,7 +11970,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTOS25.ufo" name="YTOS25" familyname="AmstelvarA2 Italic" stylename="YTOS25">
@@ -13875,7 +12056,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTOS-4.ufo" name="YTOS-4" familyname="AmstelvarA2 Italic" stylename="YTOS-4">
@@ -13962,7 +12142,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTTW30.ufo" name="XTTW30" familyname="AmstelvarA2 Italic" stylename="XTTW30">
@@ -14049,7 +12228,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_XTTW0.ufo" name="XTTW0" familyname="AmstelvarA2 Italic" stylename="XTTW0">
@@ -14136,7 +12314,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTTL0.ufo" name="YTTL0" familyname="AmstelvarA2 Italic" stylename="YTTL0">
@@ -14223,7 +12400,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_YTTL104.ufo" name="YTTL104" familyname="AmstelvarA2 Italic" stylename="YTTL104">
@@ -14310,7 +12486,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
     <source filename="AmstelvarA2-Italic_BARS707.ufo" name="BARS707" familyname="AmstelvarA2 Italic" stylename="BARS707">
@@ -14397,10 +12572,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght1000_wdth50.ufo" name="TN00" familyname="AmstelvarA2 Italic" stylename="TN00">
+    <source filename="corners/opsz144.ufo" name="opsz144" familyname="AmstelvarA2 Italic" stylename="opsz144">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14484,10 +12658,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wdth125.ufo" name="TN01" familyname="AmstelvarA2 Italic" stylename="TN01">
+    <source filename="corners/opsz144_wdth125.ufo" name="opsz144_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz144_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14571,10 +12744,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght1000.ufo" name="TN02" familyname="AmstelvarA2 Italic" stylename="TN02">
+    <source filename="corners/opsz144_wdth50.ufo" name="opsz144_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz144_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14658,10 +12830,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght100_wdth50.ufo" name="TN03" familyname="AmstelvarA2 Italic" stylename="TN03">
+    <source filename="corners/opsz144_wght100.ufo" name="opsz144_wght100" familyname="AmstelvarA2 Italic" stylename="opsz144_wght100">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14745,10 +12916,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght1000.ufo" name="TN04" familyname="AmstelvarA2 Italic" stylename="TN04">
+    <source filename="corners/opsz144_wght1000.ufo" name="opsz144_wght1000" familyname="AmstelvarA2 Italic" stylename="opsz144_wght1000">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14832,10 +13002,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght100_wdth50.ufo" name="TN05" familyname="AmstelvarA2 Italic" stylename="TN05">
+    <source filename="corners/opsz144_wght1000_wdth125.ufo" name="opsz144_wght1000_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz144_wght1000_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -14919,10 +13088,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght100.ufo" name="TN06" familyname="AmstelvarA2 Italic" stylename="TN06">
+    <source filename="corners/opsz144_wght1000_wdth50.ufo" name="opsz144_wght1000_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz144_wght1000_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15006,10 +13174,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght1000_wdth125.ufo" name="TN07" familyname="AmstelvarA2 Italic" stylename="TN07">
+    <source filename="corners/opsz144_wght100_wdth125.ufo" name="opsz144_wght100_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz144_wght100_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15093,10 +13260,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght1000_wdth125.ufo" name="TN08" familyname="AmstelvarA2 Italic" stylename="TN08">
+    <source filename="corners/opsz144_wght100_wdth50.ufo" name="opsz144_wght100_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz144_wght100_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15180,10 +13346,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght100.ufo" name="TN09" familyname="AmstelvarA2 Italic" stylename="TN09">
+    <source filename="corners/opsz8.ufo" name="opsz8" familyname="AmstelvarA2 Italic" stylename="opsz8">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15267,10 +13432,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8.ufo" name="TN10" familyname="AmstelvarA2 Italic" stylename="TN10">
+    <source filename="corners/opsz8_wdth125.ufo" name="opsz8_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz8_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15354,10 +13518,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wdth125.ufo" name="TN11" familyname="AmstelvarA2 Italic" stylename="TN11">
+    <source filename="corners/opsz8_wdth50.ufo" name="opsz8_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz8_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15441,10 +13604,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wght100_wdth125.ufo" name="TN12" familyname="AmstelvarA2 Italic" stylename="TN12">
+    <source filename="corners/opsz8_wght100.ufo" name="opsz8_wght100" familyname="AmstelvarA2 Italic" stylename="opsz8_wght100">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15528,10 +13690,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100.ufo" name="TN13" familyname="AmstelvarA2 Italic" stylename="TN13">
+    <source filename="corners/opsz8_wght1000.ufo" name="opsz8_wght1000" familyname="AmstelvarA2 Italic" stylename="opsz8_wght1000">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15615,10 +13776,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght1000_wdth50.ufo" name="TN14" familyname="AmstelvarA2 Italic" stylename="TN14">
+    <source filename="corners/opsz8_wght1000_wdth125.ufo" name="opsz8_wght1000_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz8_wght1000_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15702,10 +13862,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100_wdth50.ufo" name="TN15" familyname="AmstelvarA2 Italic" stylename="TN15">
+    <source filename="corners/opsz8_wght1000_wdth50.ufo" name="opsz8_wght1000_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz8_wght1000_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15789,10 +13948,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght400.ufo" name="TN16" familyname="AmstelvarA2 Italic" stylename="TN16">
+    <source filename="corners/opsz8_wght100_wdth125.ufo" name="opsz8_wght100_wdth125" familyname="AmstelvarA2 Italic" stylename="opsz8_wght100_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15876,10 +14034,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght1000.ufo" name="TN17" familyname="AmstelvarA2 Italic" stylename="TN17">
+    <source filename="corners/opsz8_wght100_wdth50.ufo" name="opsz8_wght100_wdth50" familyname="AmstelvarA2 Italic" stylename="opsz8_wght100_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -15963,10 +14120,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght100_wdth125.ufo" name="TN18" familyname="AmstelvarA2 Italic" stylename="TN18">
+    <source filename="corners/wght100.ufo" name="wght100" familyname="AmstelvarA2 Italic" stylename="wght100">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16050,10 +14206,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144.ufo" name="TN19" familyname="AmstelvarA2 Italic" stylename="TN19">
+    <source filename="corners/wght1000.ufo" name="wght1000" familyname="AmstelvarA2 Italic" stylename="wght1000">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16137,10 +14292,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wdth50.ufo" name="TN20" familyname="AmstelvarA2 Italic" stylename="TN20">
+    <source filename="corners/wght1000_wdth125.ufo" name="wght1000_wdth125" familyname="AmstelvarA2 Italic" stylename="wght1000_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16224,10 +14378,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz144_wght1000_wdth125.ufo" name="TN21" familyname="AmstelvarA2 Italic" stylename="TN21">
+    <source filename="corners/wght1000_wdth50.ufo" name="wght1000_wdth50" familyname="AmstelvarA2 Italic" stylename="wght1000_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16311,10 +14464,9 @@
         <dimension name="TN21" xvalue="100"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/opsz8_wdth50.ufo" name="TN22" familyname="AmstelvarA2 Italic" stylename="TN22">
+    <source filename="corners/wght100_wdth125.ufo" name="wght100_wdth125" familyname="AmstelvarA2 Italic" stylename="wght100_wdth125">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16398,10 +14550,9 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="100"/>
         <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="0"/>
       </location>
     </source>
-    <source filename="corners/wght100_wdth125.ufo" name="TN23" familyname="AmstelvarA2 Italic" stylename="TN23">
+    <source filename="corners/wght100_wdth50.ufo" name="wght100_wdth50" familyname="AmstelvarA2 Italic" stylename="wght100_wdth50">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="GRAD" xvalue="0"/>
@@ -16485,94 +14636,6 @@
         <dimension name="TN21" xvalue="0"/>
         <dimension name="TN22" xvalue="0"/>
         <dimension name="TN23" xvalue="100"/>
-        <dimension name="TN24" xvalue="0"/>
-      </location>
-    </source>
-    <source filename="corners/opsz8_wght1000_wdth50.ufo" name="TN24" familyname="AmstelvarA2 Italic" stylename="TN24">
-      <location>
-        <dimension name="WDSP" xvalue="320"/>
-        <dimension name="GRAD" xvalue="0"/>
-        <dimension name="XOUC" xvalue="84"/>
-        <dimension name="YOUC" xvalue="58"/>
-        <dimension name="XOUA" xvalue="81"/>
-        <dimension name="YOUA" xvalue="61"/>
-        <dimension name="XTUC" xvalue="360"/>
-        <dimension name="XTUR" xvalue="498"/>
-        <dimension name="XTUD" xvalue="344"/>
-        <dimension name="XTUA" xvalue="251"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTJD" xvalue="-130"/>
-        <dimension name="XSHU" xvalue="92"/>
-        <dimension name="YSHU" xvalue="50"/>
-        <dimension name="XSVU" xvalue="50"/>
-        <dimension name="YSVU" xvalue="142"/>
-        <dimension name="XVAU" xvalue="14"/>
-        <dimension name="XQUC" xvalue="115"/>
-        <dimension name="YQUC" xvalue="154"/>
-        <dimension name="XUCS" xvalue="130"/>
-        <dimension name="XUCR" xvalue="39"/>
-        <dimension name="XUCD" xvalue="46"/>
-        <dimension name="XOLC" xvalue="85"/>
-        <dimension name="YOLC" xvalue="47"/>
-        <dimension name="XOLA" xvalue="76"/>
-        <dimension name="YOLA" xvalue="56"/>
-        <dimension name="XTLC" xvalue="232"/>
-        <dimension name="XTLR" xvalue="286"/>
-        <dimension name="XTLD" xvalue="241"/>
-        <dimension name="XTLA" xvalue="235"/>
-        <dimension name="YTLC" xvalue="510"/>
-        <dimension name="YTAS" xvalue="778"/>
-        <dimension name="YTDE" xvalue="-196"/>
-        <dimension name="XSHL" xvalue="70"/>
-        <dimension name="YSHL" xvalue="44"/>
-        <dimension name="XSVL" xvalue="47"/>
-        <dimension name="YSVL" xvalue="63"/>
-        <dimension name="XQLC" xvalue="72"/>
-        <dimension name="YQLC" xvalue="89"/>
-        <dimension name="XLCS" xvalue="86"/>
-        <dimension name="XLCR" xvalue="26"/>
-        <dimension name="XLCD" xvalue="57"/>
-        <dimension name="XOFI" xvalue="92"/>
-        <dimension name="YOFI" xvalue="56"/>
-        <dimension name="XTFI" xvalue="330"/>
-        <dimension name="YTFI" xvalue="775"/>
-        <dimension name="XSHF" xvalue="96"/>
-        <dimension name="YSHF" xvalue="50"/>
-        <dimension name="XSVF" xvalue="51"/>
-        <dimension name="YSVF" xvalue="102"/>
-        <dimension name="XQFI" xvalue="80"/>
-        <dimension name="YQFI" xvalue="144"/>
-        <dimension name="XFIR" xvalue="42"/>
-        <dimension name="XDOT" xvalue="137"/>
-        <dimension name="YTOS" xvalue="10"/>
-        <dimension name="XTTW" xvalue="9"/>
-        <dimension name="YTTL" xvalue="64"/>
-        <dimension name="BARS" xvalue="0"/>
-        <dimension name="TN00" xvalue="0"/>
-        <dimension name="TN01" xvalue="0"/>
-        <dimension name="TN02" xvalue="0"/>
-        <dimension name="TN03" xvalue="0"/>
-        <dimension name="TN04" xvalue="0"/>
-        <dimension name="TN05" xvalue="0"/>
-        <dimension name="TN06" xvalue="0"/>
-        <dimension name="TN07" xvalue="0"/>
-        <dimension name="TN08" xvalue="0"/>
-        <dimension name="TN09" xvalue="0"/>
-        <dimension name="TN10" xvalue="0"/>
-        <dimension name="TN11" xvalue="0"/>
-        <dimension name="TN12" xvalue="0"/>
-        <dimension name="TN13" xvalue="0"/>
-        <dimension name="TN14" xvalue="0"/>
-        <dimension name="TN15" xvalue="0"/>
-        <dimension name="TN16" xvalue="0"/>
-        <dimension name="TN17" xvalue="0"/>
-        <dimension name="TN18" xvalue="0"/>
-        <dimension name="TN19" xvalue="0"/>
-        <dimension name="TN20" xvalue="0"/>
-        <dimension name="TN21" xvalue="0"/>
-        <dimension name="TN22" xvalue="0"/>
-        <dimension name="TN23" xvalue="0"/>
-        <dimension name="TN24" xvalue="100"/>
       </location>
     </source>
   </sources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n" format="2">
+	<unicode hex="006E"/>
+	<advance width="1110"/>
+	<outline>
+		<contour>
+			<point x="42.5855712891" y="-11" type="line"/>
+			<point x="37.5855712891" y="45.8322753906" type="line"/>
+			<point x="131.0017089844" y="490" type="line"/>
+			<point x="195.8765258789" y="860.2819824219" type="line"/>
+			<point x="70.2521362305" y="862.2819824219" type="line"/>
+			<point x="71.9794311523" y="961.0557861328" type="line"/>
+			<point x="260.9403076172" y="998.4719238281" type="line"/>
+			<point x="315.7105712891" y="984.4719238281" type="line"/>
+			<point x="332.2894897461" y="726.0557861328" type="line"/>
+			<point x="323.2894897461" y="674.0557861328" type="line"/>
+			<point x="214.5892333984" y="75.4564819336" type="line"/>
+			<point x="212.2537841797" y="7.2080688477" type="line"/>
+		</contour>
+		<contour>
+			<point x="707.0576782227" y="-4.2577514648" type="line"/>
+			<point x="679.3931274414" y="82" type="line"/>
+			<point x="824.4322509766" y="709.3348999023" type="line" smooth="yes"/>
+			<point x="841.4982910156" y="784.8565673828"/>
+			<point x="777.3198852539" y="882.7679443359"/>
+			<point x="684.2358398438" y="882.7679443359" type="qcurve" smooth="yes"/>
+			<point x="563.0134277344" y="882.7679443359"/>
+			<point x="354.9060668945" y="724.3380126953"/>
+			<point x="242.5906982422" y="585.5179443359" type="qcurve"/>
+			<point x="256.3758544922" y="718.7008666992" type="line"/>
+			<point x="274.3297119141" y="798.4552001953"/>
+			<point x="601.6466674805" y="1024.0563354492"/>
+			<point x="745.7651977539" y="1024.0563354492" type="qcurve" smooth="yes"/>
+			<point x="888.1438598633" y="1024.0563354492"/>
+			<point x="1017.2769775391" y="862.0653686523"/>
+			<point x="999.2388916016" y="793.5875244141" type="qcurve" smooth="yes"/>
+			<point x="844.2639770508" y="136.0009765625" type="line"/>
+			<point x="996.8883666992" y="165.0009765625" type="line"/>
+			<point x="996.8883666992" y="76" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="522" y="0"/>
+	<anchor name="top" x="602" y="1000"/>
+	<anchor name="liga" x="1173" y="0"/>
+</glyph>
