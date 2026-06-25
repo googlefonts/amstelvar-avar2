@@ -301,7 +301,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -321,7 +321,9 @@ if __name__ == '__main__':
     # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
     # p.copyKerningFromDefault()
-    # p.buildCompositeGlyphs(glyphNames)
+
+    # --- building glyphs ---
+    # p.buildCompositeGlyphs('aacute acircumflex'.split(), preflight=True)
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
@@ -330,16 +332,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # --- project info ---
     # p.printSettings()
@@ -353,7 +355,7 @@ if __name__ == '__main__':
     # p.proofTuning(list(string.ascii_uppercase)+list(string.ascii_lowercase), referenceSource, level=3)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
