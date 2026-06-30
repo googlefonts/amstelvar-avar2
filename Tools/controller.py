@@ -12,11 +12,16 @@ from xTools4.modules.sys import timer
 
 
 _parametricAxesRoman  = 'WDSP GRAD '
-_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD '
-_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD '
-_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           '
+
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # EQ      # XTSP
+_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD ' # uppercase
+_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD ' # lowercase
+_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           ' # figures
+# _parametricAxesRoman += 'XOET YOET           XTET                               XSET YSET XSET YSET                XETS           ' # etcetera
+
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
+
 _parametricAxesItalic = _parametricAxesRoman
 
 
@@ -152,13 +157,17 @@ class AmstelvarA2Controller(xProject):
         # add parent spacing axis
 
         blendsDict['axes']['XTSP'] = {
-            "name"    : "XTSP",
+            "name"    : "Spacing",
             "default" : 0,
             "minimum" : -100,
             "maximum" : 100,
         }
         blendsDict['sources']['XTSP-100'] = self.defaultLocation.copy()
         blendsDict['sources']['XTSP100']  = self.defaultLocation.copy()
+
+        ### THIS IS A HACK !
+        del blendsDict['sources']['XTSP-100']['GRAD']
+        del blendsDict['sources']['XTSP100']['GRAD']
 
         if self.tuning:
             # add tuning axes to blended locations
@@ -301,7 +310,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -341,7 +350,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()

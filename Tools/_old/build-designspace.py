@@ -57,8 +57,8 @@ def makeParentAxis(parentName, parametricAxes, defaultName):
             print(f'\t{ parentValue } { mapping }')
 
     '''
-    # THIS IS THE WRONG PLACE FOR THIS KIND OF DATA!
-    # MOVE TO DESIGNSPACE BUILDER? MEASUREMENTS FORMAT?
+    # THIS IS THE WRONG PLACE FOR THIS KIND OF DATA
+    # MOVE TO XPROJECT / CONTROLLER
     matchRangeAxes = {
         'XQUC' : 'XTUR',
         'XQLC' : 'XTLR',
@@ -183,10 +183,12 @@ class AmstelvarA2DesignSpaceBuilder:
     }
 
     parametricAxesRoman  = 'WDSP GRAD '
+
                             # XOPQ              # XTRA              # YTRA         # serifs            # EQ      # XTSP
     parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XQUC YQUC XUCS XUCR XUCD ' # uppercase
     parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL XQLC YQLC XLCS XLCR XLCD ' # lowercase
     parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF XQFI YQFI XFIR           ' # figures
+    parametricAxesRoman += 'XOET YOET           XTET                               XSET YSET XSET YSET           XETS           ' # etcetera
 
     parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
     parametricAxesRoman  = parametricAxesRoman.split()
