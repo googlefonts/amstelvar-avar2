@@ -20,6 +20,9 @@ Deliverables
 ------------
 
 - [x] avar2 variable font Roman & Italic (ASCII subset)
+  - [ ] no tuning
+  - [ ] full tuning (duovars + trivars + quadvars)
+  - [ ] other?
 - [ ] README with updated project info
 - [ ] static instances?
 
