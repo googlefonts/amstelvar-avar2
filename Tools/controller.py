@@ -12,11 +12,16 @@ from xTools4.modules.sys import timer
 
 
 _parametricAxesRoman  = 'WDSP GRAD '
-_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD '
-_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD '
-_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           '
+
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # EQ      # XTSP
+_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD ' # uppercase
+_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD ' # lowercase
+_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           ' # figures
+# _parametricAxesRoman += 'XOET YOET           XTET                               XSET YSET XSET YSET                XETS           ' # etcetera
+
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
+
 _parametricAxesItalic = _parametricAxesRoman
 
 
@@ -93,26 +98,6 @@ class AmstelvarA2Controller(xProject):
         return self.designspaceFile.replace('.designspace', '_avar2.ttf')
 
     @property
-    def referenceSourcesFolder(self):
-        return os.path.join(os.path.dirname(self.baseFolder), 'amstelvar', self.subFamily)
-
-    @property
-    def referenceSources(self):
-        return { os.path.splitext(os.path.split(f)[-1])[0]: f for f in glob.glob(f'{self.referenceSourcesFolder}/*.ufo')}
-
-    @property
-    def referenceBlendsPath(self):
-        return os.path.join(self.referenceSourcesFolder, 'blends.json')
-
-    @property
-    def referenceFontPath(self):
-        referenceFonts = {
-            'Roman'  : 'Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf',
-            'Italic' : 'Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf' ,
-        }
-        return os.path.join(self.fontsFolder, 'legacy', referenceFonts[self.subFamily])
-
-    @property
     def parametricAxes(self):
         return self._parametricAxes[self.subFamily]
 
@@ -172,13 +157,17 @@ class AmstelvarA2Controller(xProject):
         # add parent spacing axis
 
         blendsDict['axes']['XTSP'] = {
-            "name"    : "XTSP",
+            "name"    : "Spacing",
             "default" : 0,
             "minimum" : -100,
             "maximum" : 100,
         }
         blendsDict['sources']['XTSP-100'] = self.defaultLocation.copy()
         blendsDict['sources']['XTSP100']  = self.defaultLocation.copy()
+
+        ### THIS IS A HACK !
+        del blendsDict['sources']['XTSP-100']['GRAD']
+        del blendsDict['sources']['XTSP100']['GRAD']
 
         if self.tuning:
             # add tuning axes to blended locations
@@ -321,7 +310,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -341,25 +330,27 @@ if __name__ == '__main__':
     # p.copyUnicodesFromDefault(preflight=False)
     # p.copyGlyphOrderFromDefault()
     # p.copyKerningFromDefault()
-    # p.buildCompositeGlyphs(glyphNames)
+
+    # --- building glyphs ---
+    # p.buildCompositeGlyphs('aacute acircumflex'.split(), preflight=True)
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
-    # p.createTuningSources()
+    # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(['idotless'], referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(list(string.ascii_lowercase), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=False, tuning=True)
 
     # --- project info ---
     # p.printSettings()
@@ -370,10 +361,10 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(list(string.ascii_uppercase)+list(string.ascii_lowercase), referenceSource, level=3)
+    # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=3)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

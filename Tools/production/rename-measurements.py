@@ -14,17 +14,16 @@ measurementsPath = os.path.join(sourcesFolder, subFamilyName,  'measurements.jso
 
 assert os.path.exists(measurementsPath)
 
-glyphNames = [
-    'dollar',
-    'cent',
-    'sterling',
-]
+glyphNames = 'exclam quotesingle quotedbl numbersign ampersand parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright asciicircum underscore braceleft bar braceright exclamdown brokenbar section copyright ordfeminine registered degree paragraph periodcentered ordmasculine questiondown quoteleft quoteright guillemotleft guillemotright .null CR nbspace .notdef numero commercialMinusSign ellipsis quotesinglbase quotedblleft quotedblright quotedblbase guilsinglleft guilsinglright hyphentwo endash emdash softhyphen dagger daggerdbl bullet trademark fraction divisionslash primemod doubleprimemod apostrophemod minute second leftanglebracket rightanglebracket micro ohm numeralsign lownumeralsign gr:question anoteleia threequartersemdash figuredash'.split()
 
 renameDict = {
-    'XOPQ' : 'XOFI',
-    'YOPQ' : 'YOFI',
-    'XTRA' : 'XTFI',
-    'YTOS' : 'YTFO',
+    # 'XOPQ' : 'XOET',
+    # 'YOPQ' : 'YOET',
+    # 'XTUC' : 'XTET',
+    'XSHL' : 'XSHE',
+    'YSHL' : 'YSHE',
+    # 'XSVU' : 'XSVE',
+    # 'YSVU' : 'YSVE',
 }
 
 renameGlyphMeasurements(measurementsPath, glyphNames, renameDict)
