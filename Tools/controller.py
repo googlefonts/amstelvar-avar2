@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, glob, time, json, string
+import os, glob, time, json, string, itertools
 from fontTools.designspaceLib import DesignSpaceDocument
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements
@@ -17,7 +17,7 @@ _parametricAxesRoman  = 'WDSP GRAD '
 _parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD ' # uppercase
 _parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD ' # lowercase
 _parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           ' # figures
-# _parametricAxesRoman += 'XOET YOET           XTET                               XSET YSET XSET YSET                XETS           ' # etcetera
+_parametricAxesRoman += 'XOET YOET           XTET                                                                  XETS           ' # etcetera
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -310,7 +310,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -318,10 +318,13 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
+    glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
+    # print(glyphNamesEtcetera)
+
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
-    # p.splitSources('XOLC', 'XOET', [])
+    # p.splitSources('XLCS', 'XTES', glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(list('Y'), 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
@@ -350,7 +353,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=False, tuning=True)
+    p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
