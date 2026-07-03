@@ -144,6 +144,9 @@ class AmstelvarA2Controller(xProject):
     def addTuningSources(self):
         super().addTuningSources(familyName=f'{self.familyName} {self.subFamily}')
 
+    def addInstances(self):
+        super().addInstances(familyName=f'{self.familyName} {self.subFamily}')
+
     def buildBlendsFile(self, parentParametric=True):
         if not os.path.exists(self.referenceBlendsPath):
             return
@@ -318,7 +321,7 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
+    # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -344,10 +347,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(list(string.ascii_uppercase), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=False)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -367,7 +370,7 @@ if __name__ == '__main__':
     # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=3)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
