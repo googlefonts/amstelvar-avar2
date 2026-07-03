@@ -8,12 +8,12 @@ import os, glob, json
 from xTools4.modules.measurements import extractMeasurements
 
 subFamilyName    = ['Roman', 'Italic'][1]
-baseFolder       = os.path.dirname(os.getcwd())
-sourcesFolder    = os.path.join(baseFolder, subFamilyName)
+baseFolder       = os.path.dirname(os.path.dirname(os.getcwd()))
+sourcesFolder    = os.path.join(baseFolder, 'Sources', subFamilyName, 'reference')
 measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
 blendsPath       = os.path.join(sourcesFolder, 'blends.json')
 
-parametricAxesRoman  = 'XOUC XOLC XOFI YOUC YOLC YOFI XOUA XOLA YOUA YOLA XTUC XTUR XTUD XTUA XTLC XTLR XTLD XTLA XTFI YTUC YTJD YTLC YTAS YTDE YTFI XSHU YSHU XSVU YSVU XSHL YSHL XSVL YSVL XSHF YSHF XSVF YSVF XTTW YTTL YTOS XUCS XUCR XUCD XLCS XLCR XLCD XFIR WDSP XDOT XQUC XQLC XQFI YQUC YQLC YQFI XVAU'.split() # U#XO U#YO U#XT U#XQ YHAU XVAL YHAL XVAF YHAF
+parametricAxesRoman  = 'XOUC XOLC XOFI XOET YOUC YOLC YOFI YOET XOUA XOLA YOUA YOLA XTUC XTUR XTUD XTUA XTLC XTLR XTLD XTLA XTFI XTET YTUC YTJD YTLC YTAS YTDE YTFI XSHU YSHU XSVU YSVU XSHL YSHL XSVL YSVL XSHF YSHF XSVF YSVF XTTW YTTL YTOS XUCS XUCR XUCD XLCS XLCR XLCD XFIR XETS WDSP XDOT XQUC XQLC XQFI YQUC YQLC YQFI XVAU'.split() # U#XO U#YO U#XT U#XQ YHAU XVAL YHAL XVAF YHAF
 parametricAxesItalic = parametricAxesRoman
 
 parametricAxes = parametricAxesRoman if subFamilyName == 'Roman' else parametricAxesItalic

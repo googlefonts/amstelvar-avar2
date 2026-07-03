@@ -4055,6 +4055,26 @@
 			<dict>
 				<key>glyphNames</key>
 				<array>
+					<string>numbersign</string>
+					<string>ampersand</string>
+					<string>at</string>
+					<string>asciicircum</string>
+					<string>copyright</string>
+					<string>registered</string>
+					<string>paragraph</string>
+					<string>.notdef</string>
+					<string>numero</string>
+					<string>commercialMinusSign</string>
+					<string>bullet</string>
+					<string>micro</string>
+					<string>ohm</string>
+				</array>
+				<key>smartSetName</key>
+				<string>symbols</string>
+			</dict>
+			<dict>
+				<key>glyphNames</key>
+				<array>
 					<string>asterisk</string>
 					<string>ordfeminine</string>
 					<string>degree</string>
