@@ -324,7 +324,8 @@ if __name__ == '__main__':
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=True)
-    # p.splitSources('XLCS', 'XTES', glyphNamesEtcetera, preflight=False)
+    # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
+    #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=True)
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(list('Y'), 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
@@ -353,7 +354,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
