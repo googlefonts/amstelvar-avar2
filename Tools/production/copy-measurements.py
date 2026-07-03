@@ -7,8 +7,8 @@ from xTools4.modules.measurements import copyFontMeasurements, copyGlyphMeasurem
 
 baseFolder          = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder       = os.path.join(baseFolder, 'Sources')
-measurementsPathSrc = os.path.join(sourcesFolder, 'Roman',  'measurements.json')
-measurementsPathDst = os.path.join(sourcesFolder, 'Italic', 'measurements.json') 
+measurementsPathSrc = os.path.join(sourcesFolder, 'Italic',  'measurements.json')
+measurementsPathDst = os.path.join(sourcesFolder, 'Italic', 'reference', 'measurements.json') 
 
 assert os.path.exists(measurementsPathSrc)
 assert os.path.exists(measurementsPathDst)
