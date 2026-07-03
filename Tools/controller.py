@@ -341,7 +341,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(list(string.ascii_lowercase), referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(list(string.ascii_uppercase), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -353,7 +353,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    p.normalizeSources(parametric=True, tuning=True)
+    # p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
@@ -364,7 +364,7 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(list(string.ascii_lowercase), referenceSource, level=3)
+    # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=3)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')

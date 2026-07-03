@@ -1582,7 +1582,7 @@
         "name": "XSVU",
         "direction": "x"
       },
-      "9 8": {
+      "9 11": {
         "name": "YSVU",
         "direction": "y"
       },
@@ -1857,6 +1857,10 @@
       "10 9": {
         "name": "XSVU",
         "direction": "x"
+      },
+      "9 11": {
+        "name": "YSVU",
+        "direction": "y"
       },
       "29 99": {
         "name": "XUCS",
@@ -2568,12 +2572,12 @@
         "name": "YSHU",
         "direction": "y"
       },
-      "10 99": {
-        "name": "XUCR",
-        "direction": "x"
-      },
       "-1 2": {
         "name": "XUCS",
+        "direction": "x"
+      },
+      "10 99": {
+        "name": "XUCR",
         "direction": "x"
       }
     },
@@ -2782,20 +2786,12 @@
         "name": "XSVU",
         "direction": "x"
       },
-      "24 23": {
+      "24 26": {
         "name": "YSVU",
         "direction": "y"
       },
-      "0 1": {
+      "3 1": {
         "name": "YSVU",
-        "direction": "y"
-      },
-      "B 41": {
-        "name": "YTOS",
-        "direction": "y"
-      },
-      "C 18": {
-        "name": "YTOS",
         "direction": "y"
       },
       "-1 15": {
@@ -2805,6 +2801,14 @@
       "38 99": {
         "name": "XUCS",
         "direction": "x"
+      },
+      "B 41": {
+        "name": "YTOS",
+        "direction": "y"
+      },
+      "C 18": {
+        "name": "YTOS",
+        "direction": "y"
       }
     },
     "T": {
@@ -2860,20 +2864,20 @@
         "name": "YSVU",
         "direction": "y"
       },
-      "-1 0": {
-        "name": "XUCS",
-        "direction": "x"
-      },
-      "3 99": {
-        "name": "XUCS",
-        "direction": "x"
-      },
       "5 4": {
         "name": "XVAU",
         "direction": "x"
       },
       "19 18": {
         "name": "XVAU",
+        "direction": "x"
+      },
+      "-1 0": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "3 99": {
+        "name": "XUCS",
         "direction": "x"
       }
     },
@@ -3849,11 +3853,11 @@
         "direction": "a"
       },
       "9 3": {
-        "name": "XTLD",
+        "name": "XTLC",
         "direction": "x"
       },
       "11 37": {
-        "name": "XTLD",
+        "name": "XTLC",
         "direction": "x"
       },
       "13 24": {
@@ -13061,6 +13065,820 @@
     "gbreve": {},
     "hyphentwo": {},
     "odblgrave": {},
-    "utilde": {}
+    "utilde": {},
+    "K.YSHU0": {
+      "2 11": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "29 24": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "16 21": {
+        "name": "YOUC",
+        "direction": "x"
+      },
+      "9 16": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "11 29": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "13 18": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "11 12": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "17 16": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "21 20": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "28 29": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "24 25": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "9 8": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "13 12": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 18": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "20 19": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "27 28": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "26 25": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "8 7": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "24 99": {
+        "name": "XUCD",
+        "direction": "x"
+      }
+    },
+    "K.YSHU150": {
+      "2 11": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "29 24": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "16 21": {
+        "name": "YOUC",
+        "direction": "x"
+      },
+      "9 16": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "11 29": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "13 18": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "11 12": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "17 16": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "21 20": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "28 29": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "24 25": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "9 8": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "13 12": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 18": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "20 19": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "27 28": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "26 25": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "8 7": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "24 99": {
+        "name": "XUCD",
+        "direction": "x"
+      }
+    },
+    "L.YOUC219": {
+      "2 11": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "0 12": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "11 14": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "0 7": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "9 8": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "8 7": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "14 15": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "13 15": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "15 99": {
+        "name": "XUCS",
+        "direction": "x"
+      }
+    },
+    "V.YSHU150": {
+      "5 20": {
+        "name": "XOUC",
+        "direction": "a"
+      },
+      "10 17": {
+        "name": "YOUC",
+        "direction": "a"
+      },
+      "4 11": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "19 1": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 21": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "4 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "13 11": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "16 14": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "15 14": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "12 13": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "-1 21": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "16 99": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "B 19": {
+        "name": "YTOS",
+        "direction": "y"
+      },
+      "7 8": {
+        "name": "XTTW",
+        "direction": "x"
+      },
+      "7 6": {
+        "name": "YTTL",
+        "direction": "a"
+      },
+      "8 9": {
+        "name": "YTTL",
+        "direction": "a"
+      }
+    },
+    "E.YSHU150": {
+      "2 14": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "0 15": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "27 22": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "11 6": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "14 17": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "19 7": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 18": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "23 24": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "26 25": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "9 8": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "16 18": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "22 24": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "8 10": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "25 27": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "18 99": {
+        "name": "XUCS",
+        "direction": "x"
+      }
+    },
+    "B.YSHU150": {
+      "2 21": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "26 17": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "37 10": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "20 23": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "29 34": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "40 7": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "21 26": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "32 37": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "0 6": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 99": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "14 13": {
+        "name": "XTTW",
+        "direction": "y"
+      }
+    },
+    "U.YSHU0": {
+      "33 4": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "26 11": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "16 21": {
+        "name": "YOUC",
+        "direction": "x"
+      },
+      "4 16": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "26 1": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "0 33": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "4 3": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "17 16": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "21 20": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 18": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "20 19": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "21 99": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "-1 33": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "B 26": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
+    "Y.YSHU0": {
+      "2 23": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "4 11": {
+        "name": "XOUC",
+        "direction": "a"
+      },
+      "14 21": {
+        "name": "YOUC",
+        "direction": "a"
+      },
+      "10 15": {
+        "name": "XTUD",
+        "direction": "x"
+      },
+      "0 7": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "20 19": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "16 15": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "10 9": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "6 5": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "23 24": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "25 24": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "19 18": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "16 17": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "9 8": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "6 7": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "-1 5": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "20 99": {
+        "name": "XUCD",
+        "direction": "x"
+      },
+      "12 13": {
+        "name": "XTTW",
+        "direction": "x"
+      }
+    },
+    "F.YSHU0": {
+      "2 14": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "24 19": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "11 6": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "13 9": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "16 7": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "14 15": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "16 15": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "20 21": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "23 22": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "9 8": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "19 21": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "22 24": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "8 10": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "8 99": {
+        "name": "XUCS",
+        "direction": "x"
+      }
+    },
+    "S.XTUC650": {
+      "15 32": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "9 38": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "12 35": {
+        "name": "XOUC",
+        "direction": "a"
+      },
+      "29 18": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "41 6": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "32 25": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "3 9": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "41 18": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "25 24": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "1 2": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "24 26": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "3 1": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "-1 15": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "38 99": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "B 41": {
+        "name": "YTOS",
+        "direction": "y"
+      },
+      "C 18": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
+    "C.YOUC4": {
+      "0 17": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "14 3": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "28 20": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "23 25": {
+        "name": "YOUC",
+        "direction": "a"
+      },
+      "17 23": {
+        "name": "XTUR",
+        "direction": "x"
+      },
+      "10 9": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "9 11": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "25 99": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "-1 0": {
+        "name": "XUCR",
+        "direction": "x"
+      },
+      "C 3": {
+        "name": "YTOS",
+        "direction": "y"
+      },
+      "B 28": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    }
   }
 }
