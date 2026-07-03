@@ -313,7 +313,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -344,19 +344,19 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(list(string.ascii_uppercase), referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(p.smartSets['figures']['proportional'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=False)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True)
-    # p.normalizeSources(parametric=True, tuning=True)
+    p.normalizeSources(parametric=True, tuning=True)
 
     # --- project info ---
     # p.printSettings()
@@ -370,7 +370,7 @@ if __name__ == '__main__':
     # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=3)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
