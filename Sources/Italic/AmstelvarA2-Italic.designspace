@@ -34,7 +34,7 @@
     <axis tag="XUCR" name="XUCR" minimum="0" maximum="64" default="39" hidden="1"/>
     <axis tag="XUCD" name="XUCD" minimum="20" maximum="132" default="46" hidden="1"/>
     <axis tag="XOLC" name="XOLC" minimum="7" maximum="288" default="85" hidden="1"/>
-    <axis tag="YOLC" name="YOLC" minimum="4" maximum="110" default="47" hidden="1"/>
+    <axis tag="YOLC" name="YOLC" minimum="2" maximum="100" default="47" hidden="1"/>
     <axis tag="XOLA" name="XOLA" minimum="3" maximum="132" default="76" hidden="1"/>
     <axis tag="YOLA" name="YOLA" minimum="2" maximum="90" default="56" hidden="1"/>
     <axis tag="XTLC" name="XTLC" minimum="41" maximum="434" default="232" hidden="1"/>
@@ -64,9 +64,9 @@
     <axis tag="XQFI" name="XQFI" minimum="20" maximum="144" default="80" hidden="1"/>
     <axis tag="YQFI" name="YQFI" minimum="34" maximum="284" default="144" hidden="1"/>
     <axis tag="XFIR" name="XFIR" minimum="-13" maximum="90" default="42" hidden="1"/>
-    <axis tag="XOET" name="XOET" minimum="6" maximum="308" default="102" hidden="1"/>
+    <axis tag="XOET" name="XOET" minimum="6" maximum="328" default="102" hidden="1"/>
     <axis tag="YOET" name="YOET" minimum="4" maximum="194" default="60" hidden="1"/>
-    <axis tag="XTET" name="XTET" minimum="424" maximum="876" default="638" hidden="1"/>
+    <axis tag="XTET" name="XTET" minimum="424" maximum="900" default="638" hidden="1"/>
     <axis tag="XETS" name="XETS" minimum="-30" maximum="130" default="42" hidden="1"/>
     <axis tag="XDOT" name="XDOT" minimum="23" maximum="274" default="137" hidden="1"/>
     <axis tag="YTOS" name="YTOS" minimum="-4" maximum="25" default="10" hidden="1"/>
@@ -6901,7 +6901,7 @@
         <dimension name="TN23" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOLC110.ufo" name="YOLC110" familyname="AmstelvarA2 Italic" stylename="YOLC110">
+    <source filename="AmstelvarA2-Italic_YOLC100.ufo" name="YOLC100" familyname="AmstelvarA2 Italic" stylename="YOLC100">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="XOUC" xvalue="84"/>
@@ -6925,7 +6925,7 @@
         <dimension name="XUCR" xvalue="39"/>
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
-        <dimension name="YOLC" xvalue="110"/>
+        <dimension name="YOLC" xvalue="100"/>
         <dimension name="XOLA" xvalue="76"/>
         <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
@@ -6990,7 +6990,7 @@
         <dimension name="TN23" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_YOLC4.ufo" name="YOLC4" familyname="AmstelvarA2 Italic" stylename="YOLC4">
+    <source filename="AmstelvarA2-Italic_YOLC2.ufo" name="YOLC2" familyname="AmstelvarA2 Italic" stylename="YOLC2">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="XOUC" xvalue="84"/>
@@ -7014,7 +7014,7 @@
         <dimension name="XUCR" xvalue="39"/>
         <dimension name="XUCD" xvalue="46"/>
         <dimension name="XOLC" xvalue="85"/>
-        <dimension name="YOLC" xvalue="4"/>
+        <dimension name="YOLC" xvalue="2"/>
         <dimension name="XOLA" xvalue="76"/>
         <dimension name="YOLA" xvalue="56"/>
         <dimension name="XTLC" xvalue="232"/>
@@ -12330,7 +12330,7 @@
         <dimension name="TN23" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XOET308.ufo" name="XOET308" familyname="AmstelvarA2 Italic" stylename="XOET308">
+    <source filename="AmstelvarA2-Italic_XOET328.ufo" name="XOET328" familyname="AmstelvarA2 Italic" stylename="XOET328">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="XOUC" xvalue="84"/>
@@ -12384,7 +12384,7 @@
         <dimension name="XQFI" xvalue="80"/>
         <dimension name="YQFI" xvalue="144"/>
         <dimension name="XFIR" xvalue="42"/>
-        <dimension name="XOET" xvalue="308"/>
+        <dimension name="XOET" xvalue="328"/>
         <dimension name="YOET" xvalue="60"/>
         <dimension name="XTET" xvalue="638"/>
         <dimension name="XETS" xvalue="42"/>
@@ -12686,7 +12686,7 @@
         <dimension name="TN23" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Italic_XTET876.ufo" name="XTET876" familyname="AmstelvarA2 Italic" stylename="XTET876">
+    <source filename="AmstelvarA2-Italic_XTET900.ufo" name="XTET900" familyname="AmstelvarA2 Italic" stylename="XTET900">
       <location>
         <dimension name="WDSP" xvalue="320"/>
         <dimension name="XOUC" xvalue="84"/>
@@ -12742,7 +12742,7 @@
         <dimension name="XFIR" xvalue="42"/>
         <dimension name="XOET" xvalue="102"/>
         <dimension name="YOET" xvalue="60"/>
-        <dimension name="XTET" xvalue="876"/>
+        <dimension name="XTET" xvalue="900"/>
         <dimension name="XETS" xvalue="42"/>
         <dimension name="XDOT" xvalue="137"/>
         <dimension name="YTOS" xvalue="10"/>
