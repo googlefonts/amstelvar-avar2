@@ -344,7 +344,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(p.smartSets['figures']['proportional'], referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(['four'], referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
