@@ -191,7 +191,7 @@ Variation axes in AmstelvarA2
 9. `XTUD` X transparent uppercase diagonals
 10. `XTUA` Uppercase accent width
 11. `YTUC` Y transparent uppercase
-12. `YTJD` None
+12. `YTJD` Y transparent J descender
 13. `XSHU` X horizontal serif uppercase
 14. `YSHU` Y horizontal serif uppercase
 15. `XSVU` X vertical serif uppercase
@@ -232,12 +232,16 @@ Variation axes in AmstelvarA2
 50. `YSVF` Y vertical serif figures
 51. `XQFI` X internal curvature figures
 52. `YQFI` Y internal curvature figures
-53. `XFIR` X sidebearing figure 0
-54. `XDOT` Dot width
-55. `YTOS` Lowercase overshoot
-56. `XTTW` Trap width
-57. `YTTL` Trap length
-58. `BARS` 
+53. `XFIR` X sidebearing figures round
+54. `XOET` X stem etcetera
+55. `YOET` Y stem etcetera
+56. `XTET` X transparent etcetera
+57. `XETS` X sidebearing etcetera
+58. `XDOT` Dot width
+59. `YTOS` Lowercase overshoot
+60. `XTTW` Trap width
+61. `YTTL` Trap length
+62. `BARS` Bars
 
 ### Tuning axes
 

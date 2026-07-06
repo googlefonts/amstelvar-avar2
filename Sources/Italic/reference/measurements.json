@@ -638,6 +638,42 @@
       "point 2": 19,
       "parent": null,
       "description": null
+    },
+    "XETS": {
+      "direction": "x",
+      "glyph 1": "at",
+      "point 1": "-1",
+      "glyph 2": "at",
+      "point 2": "36",
+      "parent": "XTSA",
+      "description": "X sidebearing etcetera"
+    },
+    "XOET": {
+      "direction": "x",
+      "glyph 1": "ampersand",
+      "point 1": "7",
+      "glyph 2": "ampersand",
+      "point 2": 48,
+      "parent": "XOPQ",
+      "description": "X stem etcetera"
+    },
+    "XTET": {
+      "direction": "x",
+      "glyph 1": "at",
+      "point 1": "23",
+      "glyph 2": "at",
+      "point 2": "17",
+      "parent": "XTRA",
+      "description": "X transparent etcetera"
+    },
+    "YOET": {
+      "direction": "y",
+      "glyph 1": "ampersand",
+      "point 1": "29",
+      "glyph 2": "ampersand",
+      "point 2": "16",
+      "parent": "YOPQ",
+      "description": "Y stem etcetera"
     }
   },
   "glyphs": {

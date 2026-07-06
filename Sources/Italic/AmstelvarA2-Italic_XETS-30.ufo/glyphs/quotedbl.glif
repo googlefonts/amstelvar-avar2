@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbl" format="2">
+	<unicode hex="0022"/>
+	<advance width="759"/>
+	<outline>
+		<contour>
+			<point x="182" y="964" type="line"/>
+			<point x="196" y="1423" type="line" smooth="yes"/>
+			<point x="197" y="1472"/>
+			<point x="263" y="1558"/>
+			<point x="326" y="1558" type="qcurve" smooth="yes"/>
+			<point x="385" y="1558"/>
+			<point x="432" y="1469"/>
+			<point x="414" y="1423" type="qcurve" smooth="yes"/>
+			<point x="236" y="964" type="line"/>
+		</contour>
+		<contour>
+			<point x="552" y="964" type="line"/>
+			<point x="566" y="1423" type="line" smooth="yes"/>
+			<point x="567" y="1472"/>
+			<point x="633" y="1558"/>
+			<point x="696" y="1558" type="qcurve" smooth="yes"/>
+			<point x="756" y="1558"/>
+			<point x="802" y="1469"/>
+			<point x="784" y="1423" type="qcurve" smooth="yes"/>
+			<point x="606" y="964" type="line"/>
+		</contour>
+	</outline>
+</glyph>
