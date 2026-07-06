@@ -5,71 +5,71 @@
 	<outline>
 		<contour>
 			<point x="14" y="-264" type="qcurve" smooth="yes"/>
-			<point x="14" y="-193"/>
-			<point x="145" y="-72"/>
-			<point x="267" y="-10" type="qcurve"/>
-			<point x="273" y="-18" type="line"/>
-			<point x="238" y="-53"/>
-			<point x="185" y="-153"/>
+			<point x="14" y="-203"/>
+			<point x="130" y="-101"/>
+			<point x="237" y="-47" type="qcurve"/>
+			<point x="243" y="-48" type="line"/>
+			<point x="216" y="-75"/>
+			<point x="185" y="-165"/>
 			<point x="185" y="-244" type="qcurve" smooth="yes"/>
 			<point x="185" y="-335"/>
-			<point x="323" y="-499"/>
-			<point x="492" y="-499" type="qcurve" smooth="yes"/>
-			<point x="649" y="-499"/>
-			<point x="754" y="-326"/>
-			<point x="754" y="-240" type="qcurve" smooth="yes"/>
-			<point x="754" y="-167"/>
-			<point x="626" y="-121"/>
+			<point x="338" y="-499"/>
+			<point x="525" y="-499" type="qcurve" smooth="yes"/>
+			<point x="722" y="-499"/>
+			<point x="885" y="-336"/>
+			<point x="885" y="-240" type="qcurve" smooth="yes"/>
+			<point x="885" y="-167"/>
+			<point x="730" y="-127"/>
 			<point x="527" y="-116" type="qcurve" smooth="yes"/>
-			<point x="321" y="-105"/>
+			<point x="322" y="-105"/>
 			<point x="84" y="-23"/>
 			<point x="84" y="106" type="qcurve" smooth="yes"/>
-			<point x="84" y="194"/>
-			<point x="226" y="320"/>
-			<point x="293" y="350" type="qcurve"/>
-			<point x="298" y="343" type="line"/>
-			<point x="255" y="322"/>
-			<point x="214" y="255"/>
-			<point x="214" y="209" type="qcurve" smooth="yes"/>
-			<point x="214" y="139"/>
-			<point x="364" y="50"/>
+			<point x="84" y="184"/>
+			<point x="235" y="291"/>
+			<point x="303" y="322" type="qcurve"/>
+			<point x="308" y="315" type="line"/>
+			<point x="255" y="280"/>
+			<point x="214" y="203"/>
+			<point x="214" y="144" type="qcurve" smooth="yes"/>
+			<point x="214" y="90"/>
+			<point x="358" y="50"/>
 			<point x="558" y="41" type="qcurve" smooth="yes"/>
-			<point x="722" y="33"/>
-			<point x="906" y="-69"/>
-			<point x="906" y="-189" type="qcurve" smooth="yes"/>
-			<point x="906" y="-330"/>
-			<point x="681" y="-518"/>
+			<point x="826" y="29"/>
+			<point x="1037" y="-69"/>
+			<point x="1037" y="-189" type="qcurve" smooth="yes"/>
+			<point x="1037" y="-330"/>
+			<point x="784" y="-518"/>
 			<point x="506" y="-518" type="qcurve" smooth="yes"/>
 			<point x="247" y="-518"/>
 			<point x="14" y="-378"/>
 		</contour>
 		<contour>
-			<point x="86" y="629" type="qcurve" smooth="yes"/>
-			<point x="86" y="800"/>
+			<point x="86" y="653" type="qcurve" smooth="yes"/>
+			<point x="86" y="813"/>
 			<point x="312" y="1022"/>
 			<point x="495" y="1022" type="qcurve" smooth="yes"/>
 			<point x="679" y="1022"/>
-			<point x="907" y="816"/>
-			<point x="907" y="634" type="qcurve" smooth="yes"/>
-			<point x="907" y="463"/>
-			<point x="682" y="297"/>
-			<point x="500" y="297" type="qcurve" smooth="yes"/>
-			<point x="316" y="297"/>
-			<point x="86" y="444"/>
+			<point x="907" y="829"/>
+			<point x="907" y="658" type="qcurve" smooth="yes"/>
+			<point x="907" y="497"/>
+			<point x="682" y="266"/>
+			<point x="500" y="266" type="qcurve" smooth="yes"/>
+			<point x="316" y="266"/>
+			<point x="86" y="479"/>
 		</contour>
 		<contour>
-			<point x="261" y="639" type="qcurve" smooth="yes"/>
-			<point x="261" y="484"/>
-			<point x="390" y="304"/>
-			<point x="503" y="304" type="qcurve" smooth="yes"/>
-			<point x="608" y="304"/>
-			<point x="730" y="471"/>
-			<point x="730" y="628" type="qcurve" smooth="yes"/>
-			<point x="730" y="757"/>
+			<point x="261" y="673" type="qcurve" smooth="yes"/>
+			<point x="261" y="479"/>
+			<point x="390" y="273"/>
+			<point x="503" y="273" type="qcurve" smooth="yes"/>
+			<point x="608" y="273"/>
+			<point x="730" y="464"/>
+			<point x="730" y="662" type="qcurve" smooth="yes"/>
+			<point x="730" y="830"/>
 			<point x="602" y="1015"/>
 			<point x="489" y="1015" type="qcurve" smooth="yes"/>
 			<point x="385" y="1015"/>
-			<point x="261" y="773"/>
+			<point x="261" y="845"/>
 		</contour>
 		<contour>
 			<point x="620" y="995" type="line"/>
@@ -80,4 +80,203 @@
 	</outline>
 	<anchor name="bottom" x="524" y="-416"/>
 	<anchor name="top" x="484" y="1000"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.measurements.font</key>
+			<dict>
+				<key>BARS</key>
+				<integer>0</integer>
+				<key>WDSP</key>
+				<integer>639</integer>
+				<key>XDOT</key>
+				<integer>288</integer>
+				<key>XETS</key>
+				<integer>80</integer>
+				<key>XFIR</key>
+				<integer>74</integer>
+				<key>XLCD</key>
+				<integer>108</integer>
+				<key>XLCR</key>
+				<integer>64</integer>
+				<key>XLCS</key>
+				<integer>224</integer>
+				<key>XOAC</key>
+				<integer>182</integer>
+				<key>XOET</key>
+				<integer>201</integer>
+				<key>XOFI</key>
+				<integer>176</integer>
+				<key>XOLA</key>
+				<integer>155</integer>
+				<key>XOLC</key>
+				<integer>170</integer>
+				<key>XOPQ</key>
+				<integer>180</integer>
+				<key>XOUA</key>
+				<integer>167</integer>
+				<key>XOUC</key>
+				<integer>180</integer>
+				<key>XQFI</key>
+				<integer>161</integer>
+				<key>XQLC</key>
+				<integer>164</integer>
+				<key>XQUC</key>
+				<integer>273</integer>
+				<key>XSHA</key>
+				<integer>208</integer>
+				<key>XSHE</key>
+				<integer>130</integer>
+				<key>XSHF</key>
+				<integer>258</integer>
+				<key>XSHL</key>
+				<integer>148</integer>
+				<key>XSHU</key>
+				<integer>208</integer>
+				<key>XSVA</key>
+				<integer>110</integer>
+				<key>XSVE</key>
+				<integer>106</integer>
+				<key>XSVF</key>
+				<integer>122</integer>
+				<key>XSVL</key>
+				<integer>108</integer>
+				<key>XSVU</key>
+				<integer>110</integer>
+				<key>XTAB</key>
+				<integer>1000</integer>
+				<key>XTEQ</key>
+				<integer>273</integer>
+				<key>XTET</key>
+				<integer>1285</integer>
+				<key>XTFI</key>
+				<integer>658</integer>
+				<key>XTLA</key>
+				<integer>470</integer>
+				<key>XTLC</key>
+				<integer>486</integer>
+				<key>XTLD</key>
+				<integer>490</integer>
+				<key>XTLR</key>
+				<integer>674</integer>
+				<key>XTRA</key>
+				<integer>800</integer>
+				<key>XTSA</key>
+				<integer>290</integer>
+				<key>XTTW</key>
+				<integer>10</integer>
+				<key>XTUA</key>
+				<integer>516</integer>
+				<key>XTUC</key>
+				<integer>800</integer>
+				<key>XTUD</key>
+				<integer>821</integer>
+				<key>XTUR</key>
+				<integer>1122</integer>
+				<key>XUCD</key>
+				<integer>138</integer>
+				<key>XUCR</key>
+				<integer>80</integer>
+				<key>XUCS</key>
+				<integer>290</integer>
+				<key>XVAA</key>
+				<integer>35</integer>
+				<key>XVAF</key>
+				<integer>36</integer>
+				<key>XVAL</key>
+				<integer>34</integer>
+				<key>XVAU</key>
+				<integer>35</integer>
+				<key>YDOT</key>
+				<integer>287</integer>
+				<key>YHAA</key>
+				<integer>35</integer>
+				<key>YHAF</key>
+				<integer>35</integer>
+				<key>YHAL</key>
+				<integer>35</integer>
+				<key>YHAU</key>
+				<integer>35</integer>
+				<key>YLAT</key>
+				<integer>374</integer>
+				<key>YOAC</key>
+				<integer>106</integer>
+				<key>YOET</key>
+				<integer>108</integer>
+				<key>YOFI</key>
+				<integer>113</integer>
+				<key>YOLA</key>
+				<integer>106</integer>
+				<key>YOLC</key>
+				<integer>7</integer>
+				<key>YOPQ</key>
+				<integer>132</integer>
+				<key>YOUA</key>
+				<integer>113</integer>
+				<key>YOUC</key>
+				<integer>132</integer>
+				<key>YQFI</key>
+				<integer>288</integer>
+				<key>YQLC</key>
+				<integer>180</integer>
+				<key>YQUC</key>
+				<integer>282</integer>
+				<key>YSHA</key>
+				<integer>100</integer>
+				<key>YSHE</key>
+				<integer>96</integer>
+				<key>YSHF</key>
+				<integer>94</integer>
+				<key>YSHL</key>
+				<integer>80</integer>
+				<key>YSHU</key>
+				<integer>100</integer>
+				<key>YSVA</key>
+				<integer>448</integer>
+				<key>YSVE</key>
+				<integer>190</integer>
+				<key>YSVF</key>
+				<integer>234</integer>
+				<key>YSVL</key>
+				<integer>141</integer>
+				<key>YSVU</key>
+				<integer>330</integer>
+				<key>YTAO</key>
+				<integer>37</integer>
+				<key>YTAS</key>
+				<integer>1534</integer>
+				<key>YTDE</key>
+				<integer>-480</integer>
+				<key>YTDO</key>
+				<integer>-38</integer>
+				<key>YTEQ</key>
+				<integer>282</integer>
+				<key>YTFI</key>
+				<integer>1542</integer>
+				<key>YTFO</key>
+				<integer>20</integer>
+				<key>YTJD</key>
+				<integer>-207</integer>
+				<key>YTLA</key>
+				<integer>150</integer>
+				<key>YTLC</key>
+				<integer>1022</integer>
+				<key>YTOS</key>
+				<integer>22</integer>
+				<key>YTRA</key>
+				<integer>2014</integer>
+				<key>YTTL</key>
+				<integer>114</integer>
+				<key>YTUA</key>
+				<integer>184</integer>
+				<key>YTUC</key>
+				<integer>1500</integer>
+				<key>YTUO</key>
+				<integer>20</integer>
+				<key>YUAT</key>
+				<integer>402</integer>
+			</dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Roman/AmstelvarA2-Roman_YOLC4.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
