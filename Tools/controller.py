@@ -119,6 +119,14 @@ class AmstelvarA2Controller(xProject):
 
         return locationSorted
 
+    @property
+    def referenceFontName(self):
+        return 'Amstelvar-Roman.ttf'
+
+    @property
+    def referenceFontPath(self):
+        return os.path.join(self.fontsFolder, 'reference', self.referenceFontName)
+
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
         setSourceNamesFromMeasurements(
                 self.sourcesFolder,
@@ -313,7 +321,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -344,7 +352,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(['four'], referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(list(string.ascii_uppercase + string.ascii_lowercase), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -364,10 +372,10 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
-    # p.proofGlyphMemes(list(string.ascii_uppercase)+list(string.ascii_lowercase), anchors=False)
+    # p.proofGlyphMemes(list(string.ascii_uppercase + string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase) + list(string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(list(string.ascii_uppercase), referenceSource, level=3)
+    # p.proofBlends(list(string.ascii_uppercase + string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofTuning(list(string.ascii_uppercase + string.ascii_lowercase), referenceSource, level=3)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='ASCII')
