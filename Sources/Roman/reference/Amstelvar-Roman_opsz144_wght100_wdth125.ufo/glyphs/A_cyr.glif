@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acyr" format="2">
-  <advance width="1784"/>
-  <unicode hex="0410"/>
-  <anchor x="892.0" y="0" name="bottom"/>
-  <anchor x="892.0" y="1500" name="top"/>
-  <outline>
-    <component base="A"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.868,0.7015,1</string>
-    </dict>
-  </lib>
+	<unicode hex="0410"/>
+	<advance width="1784"/>
+	<outline>
+		<component base="A"/>
+	</outline>
+	<anchor name="bottom" x="892" y="0"/>
+	<anchor name="top" x="892" y="1500"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
 </glyph>

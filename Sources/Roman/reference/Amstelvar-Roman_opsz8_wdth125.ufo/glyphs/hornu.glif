@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hornu" format="2">
-  <advance width="1880"/>
-  <anchor x="1551" y="1050" name="topright"/>
-  <anchor x="940.0" y="1050" name="top"/>
-  <outline>
-    <component base="u"/>
-  </outline>
+	<advance width="1880"/>
+	<outline>
+		<component base="u"/>
+	</outline>
+	<anchor name="topright" x="1551" y="1050"/>
+	<anchor name="top" x="940" y="1050"/>
 </glyph>
