@@ -69,6 +69,7 @@ class AmstelvarA2Controller(xProject):
         'XTEQ' : 'XQUC',
         'YTEQ' : 'YQUC',
     }
+    _parentParametricHidden = False
 
     _matchRangeAxes = {
         'XQUC' : 'XTUR',
@@ -100,6 +101,10 @@ class AmstelvarA2Controller(xProject):
     @property
     def parametricAxes(self):
         return self._parametricAxes[self.subFamily]
+
+    @property
+    def parentParametricAxes(self):
+        return self._parentParametricAxesRoman if self.subFamily == 'Roman' else self._parentParametricAxesItalic
 
     @property
     def defaultLocation(self):
@@ -148,6 +153,9 @@ class AmstelvarA2Controller(xProject):
         for axis in self.designspace.axes:
             if axis.tag in self._blendedAxesMappings:
                 axis.map = self._blendedAxesMappings[axis.tag]
+            # hide parent parametric axes
+            if self._parentParametricHidden and axis.tag in self.parentParametricAxes:
+                axis.hidden = True
 
     def addTuningSources(self):
         super().addTuningSources(familyName=f'{self.familyName} {self.subFamily}')
@@ -205,9 +213,8 @@ class AmstelvarA2Controller(xProject):
 
             measurements = readMeasurements(self.measurementsPath)
             fontMeasurements = measurements['font']
-            parentAxes = self._parentParametricAxesRoman if self.subFamily == 'Roman' else self._parentParametricAxesItalic
 
-            for parentAxisName in parentAxes:
+            for parentAxisName in self.parentParametricAxes:
                 parentMeasurement = fontMeasurements[parentAxisName]
 
                 # get parametric axes for parent
@@ -221,7 +228,7 @@ class AmstelvarA2Controller(xProject):
                             value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
                             values.append(value)
                     if not len(values) == 2:
-                        print(parentAxisName, childName, values)
+                        print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}')
                         continue
                     values.sort()
 
@@ -352,13 +359,13 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(list(string.ascii_uppercase + string.ascii_lowercase), referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(list('f'), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=False)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
