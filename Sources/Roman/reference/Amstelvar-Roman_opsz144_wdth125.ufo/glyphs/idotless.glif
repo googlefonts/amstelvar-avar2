@@ -2,7 +2,9 @@
 <glyph name="idotless" format="2">
   <advance width="675"/>
   <unicode hex="0131"/>
-  <anchor x="337.5" y="920" name="top"/>
+  <anchor x="360" y="0" name="bottom"/>
+  <anchor x="360" y="920" name="top"/>
+  <anchor x="169" y="0" name="ogonek"/>
   <outline>
     <contour>
       <point x="113" y="0" type="line"/>
@@ -12,7 +14,7 @@
       <point x="280" y="830" type="line"/>
       <point x="107" y="865" type="line"/>
       <point x="107" y="889" type="line"/>
-      <point x="395" y="927" type="line"/>
+      <point x="375" y="927" type="line"/>
       <point x="409" y="927" type="line"/>
       <point x="444" y="888" type="line"/>
       <point x="437" y="477" type="line"/>
