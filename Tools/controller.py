@@ -328,7 +328,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -359,7 +359,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(list('f'), referenceSource, levels=[1,2,3])
+    # p.calculateTuningSources(list(string.ascii_uppercase + string.ascii_lowercase), referenceSource, levels=[1,2,3])
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -371,7 +371,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
