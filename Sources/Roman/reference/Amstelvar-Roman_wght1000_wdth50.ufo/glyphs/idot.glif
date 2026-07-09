@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idot" format="2">
-  <advance width="660"/>
-  <anchor x="330.0" y="1050" name="_top"/>
-  <outline>
-    <contour>
-      <point x="102" y="1307" type="qcurve" smooth="yes"/>
-      <point x="102" y="1403"/>
-      <point x="229" y="1520"/>
-      <point x="346" y="1520" type="qcurve" smooth="yes"/>
-      <point x="458" y="1520"/>
-      <point x="595" y="1405"/>
-      <point x="594" y="1307" type="qcurve" smooth="yes"/>
-      <point x="594" y="1218"/>
-      <point x="467" y="1107"/>
-      <point x="348" y="1107" type="qcurve" smooth="yes"/>
-      <point x="237" y="1107"/>
-      <point x="102" y="1222"/>
-    </contour>
-  </outline>
+	<advance width="660"/>
+	<outline>
+		<contour>
+			<point x="102" y="1307" type="qcurve" smooth="yes"/>
+			<point x="102" y="1403"/>
+			<point x="229" y="1520"/>
+			<point x="346" y="1520" type="qcurve" smooth="yes"/>
+			<point x="458" y="1520"/>
+			<point x="595" y="1405"/>
+			<point x="594" y="1307" type="qcurve" smooth="yes"/>
+			<point x="594" y="1218"/>
+			<point x="467" y="1107"/>
+			<point x="348" y="1107" type="qcurve" smooth="yes"/>
+			<point x="237" y="1107"/>
+			<point x="102" y="1222"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="330" y="1050"/>
 </glyph>
