@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ie" format="2">
-  <advance width="974"/>
-  <unicode hex="0415"/>
-  <anchor x="531.0" y="0" name="bottom"/>
-  <anchor x="505.0" y="1500" name="top"/>
-  <outline>
-    <component base="E"/>
-  </outline>
+	<unicode hex="0415"/>
+	<advance width="974"/>
+	<outline>
+		<component base="E"/>
+	</outline>
+	<anchor name="bottom" x="531" y="0"/>
+	<anchor name="top" x="505" y="1500"/>
 </glyph>

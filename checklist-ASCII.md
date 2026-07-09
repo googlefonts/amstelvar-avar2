@@ -1,7 +1,6 @@
 Checklist for AmstelvarA2 ASCII release
 =======================================
 
-
 TO-DO
 -----
 
@@ -16,11 +15,10 @@ TO-DO
 
 ### Done!
 
-- [x] fix bug with blended axes in Chrome [(issue #215)[https://github.com/googlefonts/amstelvar-avar2/issues/215]]
+- [x] fix bug with blended axes in Chrome [(issue #215)](https://github.com/googlefonts/amstelvar-avar2/issues/215)
 - [x] split etcetera from lowercase
 - [x] add instances (pre-defined styles)
 - [x] move Amstelvar reference files to AmstelvarA2 repository
-
 
 Deliverables
 ------------

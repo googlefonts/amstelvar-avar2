@@ -5,17 +5,17 @@
 	<outline>
 		<contour>
 			<point x="10.9454545455" y="532" type="qcurve" smooth="yes"/>
-			<point x="56" y="743"/>
-			<point x="265" y="1030"/>
-			<point x="410" y="1016" type="qcurve" smooth="yes"/>
-			<point x="515" y="1006"/>
+			<point x="57" y="746"/>
+			<point x="275" y="1030"/>
+			<point x="404" y="1016" type="qcurve" smooth="yes"/>
+			<point x="534" y="1002"/>
 			<point x="637" y="703"/>
 			<point x="588.9454545455" y="475" type="qcurve" smooth="yes"/>
 			<point x="544" y="261"/>
-			<point x="338" y="-30"/>
+			<point x="324" y="-30"/>
 			<point x="195" y="-16" type="qcurve" smooth="yes"/>
-			<point x="87" y="-5"/>
-			<point x="-38" y="305"/>
+			<point x="66" y="-2"/>
+			<point x="-39" y="301"/>
 		</contour>
 		<contour>
 			<point x="19.9454545455" y="537" type="qcurve" smooth="yes"/>
@@ -39,4 +39,10 @@
 	<anchor name="topright" x="503.9454545455" y="1000"/>
 	<anchor name="GRKtop" x="424.9454545455" y="1000"/>
 	<anchor name="yu_dash" x="8" y="498"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.83217,0.98548,0.47333,1</string>
+		</dict>
+	</lib>
 </glyph>
