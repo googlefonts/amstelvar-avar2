@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ucyr" format="2">
-  <advance width="601"/>
-  <unicode hex="0443"/>
-  <anchor x="438" y="0" name="bottom"/>
-  <anchor x="325" y="920" name="top"/>
-  <outline>
-    <component base="y"/>
-  </outline>
+	<unicode hex="0443"/>
+	<advance width="601"/>
+	<outline>
+		<component base="y"/>
+	</outline>
+	<anchor name="bottom" x="438" y="0"/>
+	<anchor name="top" x="325" y="920"/>
 </glyph>
