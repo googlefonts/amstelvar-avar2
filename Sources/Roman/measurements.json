@@ -38,10 +38,10 @@
     },
     "XOET": {
       "direction": "x",
-      "glyph 1": "ampersand",
-      "point 1": 3,
-      "glyph 2": "ampersand",
-      "point 2": 48,
+      "glyph 1": "question",
+      "point 1": "33",
+      "glyph 2": "question",
+      "point 2": "18",
       "parent": "XOPQ",
       "description": "X stem etcetera"
     },
@@ -83,10 +83,10 @@
     },
     "YOET": {
       "direction": "y",
-      "glyph 1": "ampersand",
-      "point 1": 12,
-      "glyph 2": "ampersand",
-      "point 2": 39,
+      "glyph 1": "question",
+      "point 1": "36",
+      "glyph 2": "question",
+      "point 2": "15",
       "parent": "YOPQ",
       "description": "Y stem etcetera"
     },
@@ -15644,55 +15644,55 @@
     },
     "ampersand": {
       "3 48": {
-        "name": "XOET",
+        "name": "XOUC",
         "direction": "x"
       },
       "32 19": {
-        "name": "XOET",
+        "name": "XOUC",
         "direction": "a"
       },
       "36 15": {
-        "name": "XOET",
+        "name": "XOUC",
         "direction": "x"
       },
       "0 51": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "y"
       },
       "12 39": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "y"
       },
       "45 6": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "a"
       },
       "54 55": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "a"
       },
       "25 26": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "a"
       },
       "29 22": {
-        "name": "YOET",
+        "name": "YOUC",
         "direction": "y"
       },
       "48 58": {
-        "name": "XTET",
+        "name": "XTUC",
         "direction": "x"
       },
       "15 9": {
-        "name": "XTET",
+        "name": "XTUC",
         "direction": "x"
       },
       "-1 3": {
-        "name": "XETS",
+        "name": "XUCS",
         "direction": "x"
       },
       "26 99": {
-        "name": "XETS",
+        "name": "XUCS",
         "direction": "x"
       }
     },
