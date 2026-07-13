@@ -2596,20 +2596,20 @@
       "TN25": 0
     },
     "XOPQ0": {
-      "XOUC": 0,
-      "XOLC": -5,
-      "XOFI": -2,
+      "XOUC": 4,
+      "XOLC": 4,
+      "XOFI": 4,
       "XOET": 4
     },
     "XOPQ4": {
       "XOUC": 4,
-      "XOLC": -1,
-      "XOFI": 2,
+      "XOLC": 4,
+      "XOFI": 4,
       "XOET": 8
     },
     "XOPQ6": {
       "XOUC": 6,
-      "XOLC": 1,
+      "XOLC": 4,
       "XOFI": 4,
       "XOET": 10
     },
@@ -2629,31 +2629,31 @@
       "XOUC": 298,
       "XOLC": 293,
       "XOFI": 296,
-      "XOET": 302
+      "XOET": 246
     },
     "XOPQ304": {
       "XOUC": 304,
-      "XOLC": 299,
+      "XOLC": 293,
       "XOFI": 302,
-      "XOET": 308
+      "XOET": 246
     },
     "XOPQ310": {
       "XOUC": 310,
-      "XOLC": 305,
-      "XOFI": 308,
-      "XOET": 314
+      "XOLC": 293,
+      "XOFI": 302,
+      "XOET": 246
     },
     "YOPQ4": {
       "YOUC": 4,
-      "YOLC": -4,
-      "YOFI": -6,
-      "YOET": -6
+      "YOLC": 4,
+      "YOFI": 4,
+      "YOET": 4
     },
     "YOPQ12": {
       "YOUC": 12,
       "YOLC": 4,
-      "YOFI": 2,
-      "YOET": 2
+      "YOFI": 4,
+      "YOET": 4
     },
     "YOPQ14": {
       "YOUC": 14,
@@ -2671,92 +2671,92 @@
       "YOUC": 157,
       "YOLC": 149,
       "YOFI": 147,
-      "YOET": 147
+      "YOET": 112
     },
     "YOPQ206": {
       "YOUC": 206,
-      "YOLC": 198,
+      "YOLC": 149,
       "YOFI": 196,
-      "YOET": 196
+      "YOET": 112
     },
     "YOPQ208": {
       "YOUC": 208,
-      "YOLC": 200,
-      "YOFI": 198,
-      "YOET": 198
+      "YOLC": 149,
+      "YOFI": 196,
+      "YOET": 112
     },
     "XTRA-103": {
-      "XTUC": -103,
+      "XTUC": 72,
       "XTUR": 58,
-      "XTUD": -93,
-      "XTLC": -260,
-      "XTLR": -166,
-      "XTLD": -255,
-      "XTFI": -174,
-      "XTET": 139,
+      "XTUD": 43,
+      "XTLC": 42,
+      "XTLR": 45,
+      "XTLD": 80,
+      "XTFI": 40,
+      "XTET": 305,
       "XQUC": 22,
-      "XQLC": -35,
-      "XQFI": -40
+      "XQLC": 14,
+      "XQFI": 11
     },
     "XTRA33": {
-      "XTUC": 33,
+      "XTUC": 72,
       "XTUR": 194,
       "XTUD": 43,
-      "XTLC": -124,
-      "XTLR": -30,
-      "XTLD": -119,
-      "XTFI": -38,
-      "XTET": 275,
+      "XTLC": 42,
+      "XTLR": 45,
+      "XTLD": 80,
+      "XTFI": 40,
+      "XTET": 305,
       "XQUC": 52,
-      "XQLC": -3,
-      "XQFI": -7
+      "XQLC": 14,
+      "XQFI": 11
     },
     "XTRA63": {
-      "XTUC": 63,
+      "XTUC": 72,
       "XTUR": 224,
       "XTUD": 73,
-      "XTLC": -94,
-      "XTLR": 0,
-      "XTLD": -89,
-      "XTFI": -8,
+      "XTLC": 42,
+      "XTLR": 45,
+      "XTLD": 80,
+      "XTFI": 40,
       "XTET": 305,
       "XQUC": 59,
-      "XQLC": 3,
-      "XQFI": 0
+      "XQLC": 14,
+      "XQFI": 11
     },
     "XTRA72": {
       "XTUC": 72,
       "XTUR": 233,
       "XTUD": 82,
-      "XTLC": -85,
-      "XTLR": 9,
-      "XTLD": -80,
-      "XTFI": 1,
+      "XTLC": 42,
+      "XTLR": 45,
+      "XTLD": 80,
+      "XTFI": 40,
       "XTET": 314,
       "XQUC": 61,
-      "XQLC": 5,
-      "XQFI": 1
+      "XQLC": 14,
+      "XQFI": 11
     },
     "XTRA108": {
       "XTUC": 108,
       "XTUR": 269,
       "XTUD": 118,
-      "XTLC": -49,
+      "XTLC": 42,
       "XTLR": 45,
-      "XTLD": -44,
-      "XTFI": 37,
+      "XTLD": 80,
+      "XTFI": 40,
       "XTET": 350,
       "XQUC": 69,
       "XQLC": 14,
-      "XQFI": 10
+      "XQFI": 11
     },
     "XTRA111": {
       "XTUC": 111,
       "XTUR": 272,
       "XTUD": 121,
-      "XTLC": -46,
+      "XTLC": 42,
       "XTLR": 48,
-      "XTLD": -41,
+      "XTLD": 80,
       "XTFI": 40,
       "XTET": 353,
       "XQUC": 70,
@@ -2769,7 +2769,7 @@
       "XTUD": 209,
       "XTLC": 42,
       "XTLR": 136,
-      "XTLD": 47,
+      "XTLD": 80,
       "XTFI": 128,
       "XTET": 441,
       "XQUC": 90,
@@ -2806,7 +2806,7 @@
       "XTUC": 668,
       "XTUR": 829,
       "XTUD": 678,
-      "XTLC": 511,
+      "XTLC": 500,
       "XTLR": 605,
       "XTLD": 516,
       "XTFI": 597,
@@ -2816,10 +2816,10 @@
       "XQFI": 135
     },
     "XTRA670": {
-      "XTUC": 670,
+      "XTUC": 668,
       "XTUR": 831,
       "XTUD": 680,
-      "XTLC": 513,
+      "XTLC": 500,
       "XTLR": 607,
       "XTLD": 518,
       "XTFI": 599,
@@ -2829,12 +2829,12 @@
       "XQFI": 136
     },
     "XTRA692": {
-      "XTUC": 692,
+      "XTUC": 668,
       "XTUR": 853,
       "XTUD": 702,
-      "XTLC": 535,
+      "XTLC": 500,
       "XTLR": 629,
-      "XTLD": 540,
+      "XTLD": 518,
       "XTFI": 621,
       "XTET": 934,
       "XQUC": 206,
@@ -2842,65 +2842,65 @@
       "XQFI": 140
     },
     "XTRA705": {
-      "XTUC": 705,
+      "XTUC": 668,
       "XTUR": 866,
       "XTUD": 715,
-      "XTLC": 548,
-      "XTLR": 642,
-      "XTLD": 553,
+      "XTLC": 500,
+      "XTLR": 629,
+      "XTLD": 518,
       "XTFI": 634,
       "XTET": 947,
       "XQUC": 210,
-      "XQLC": 150,
+      "XQLC": 148,
       "XQFI": 143
     },
     "XTRA746": {
-      "XTUC": 746,
+      "XTUC": 668,
       "XTUR": 907,
-      "XTUD": 756,
-      "XTLC": 589,
-      "XTLR": 683,
-      "XTLD": 594,
+      "XTUD": 715,
+      "XTLC": 500,
+      "XTLR": 629,
+      "XTLD": 518,
       "XTFI": 675,
       "XTET": 988,
       "XQUC": 220,
-      "XQLC": 160,
+      "XQLC": 148,
       "XQFI": 151
     },
     "XTRA939": {
-      "XTUC": 939,
-      "XTUR": 1100,
-      "XTUD": 949,
-      "XTLC": 782,
-      "XTLR": 876,
-      "XTLD": 787,
+      "XTUC": 668,
+      "XTUR": 907,
+      "XTUD": 715,
+      "XTLC": 500,
+      "XTLR": 629,
+      "XTLD": 518,
       "XTFI": 868,
       "XTET": 1181,
-      "XQUC": 266,
-      "XQLC": 203,
+      "XQUC": 220,
+      "XQLC": 148,
       "XQFI": 192
     },
     "XTRA1094": {
-      "XTUC": 1094,
-      "XTUR": 1255,
-      "XTUD": 1104,
-      "XTLC": 937,
-      "XTLR": 1031,
-      "XTLD": 942,
-      "XTFI": 1023,
+      "XTUC": 668,
+      "XTUR": 907,
+      "XTUD": 715,
+      "XTLC": 500,
+      "XTLR": 629,
+      "XTLD": 518,
+      "XTFI": 868,
       "XTET": 1336,
-      "XQUC": 304,
-      "XQLC": 238,
-      "XQFI": 224
+      "XQUC": 220,
+      "XQLC": 148,
+      "XQFI": 192
     },
     "XSHA-25": {
-      "XSHU": -25,
-      "XSHL": -55,
+      "XSHU": 0,
+      "XSHL": 0,
       "XSHF": 0
     },
     "XSHA0": {
       "XSHU": 0,
-      "XSHL": -30,
+      "XSHL": 0,
       "XSHF": 25
     },
     "XSHA30": {
@@ -2914,18 +2914,18 @@
       "XSHF": 179
     },
     "XSHA214": {
-      "XSHU": 214,
-      "XSHL": 184,
+      "XSHU": 154,
+      "XSHL": 124,
       "XSHF": 239
     },
     "YSHA0": {
       "YSHU": 0,
-      "YSHL": -10,
-      "YSHF": -3
+      "YSHL": 0,
+      "YSHF": 0
     },
     "YSHA3": {
       "YSHU": 3,
-      "YSHL": -7,
+      "YSHL": 0,
       "YSHF": 0
     },
     "YSHA10": {
@@ -2939,13 +2939,13 @@
       "YSHF": 147
     },
     "XSVA-6": {
-      "XSVU": -6,
-      "XSVL": -7,
+      "XSVU": 0,
+      "XSVL": 0,
       "XSVF": 0
     },
     "XSVA0": {
       "XSVU": 0,
-      "XSVL": -1,
+      "XSVL": 0,
       "XSVF": 6
     },
     "XSVA1": {
@@ -2961,21 +2961,21 @@
     "XSVA130": {
       "XSVU": 130,
       "XSVL": 129,
-      "XSVF": 136
+      "XSVF": 131
     },
     "XSVA151": {
-      "XSVU": 151,
+      "XSVU": 130,
       "XSVL": 150,
-      "XSVF": 157
+      "XSVF": 131
     },
     "YSVA0": {
       "YSVU": 0,
-      "YSVL": -95,
-      "YSVF": -48
+      "YSVL": 40,
+      "YSVF": 0
     },
     "YSVA48": {
       "YSVU": 48,
-      "YSVL": -47,
+      "YSVL": 40,
       "YSVF": 0
     },
     "YSVA135": {
@@ -2989,13 +2989,13 @@
       "YSVF": 177
     },
     "YSVA250": {
-      "YSVU": 250,
+      "YSVU": 225,
       "YSVL": 155,
       "YSVF": 202
     },
     "YSVA270": {
-      "YSVU": 270,
-      "YSVL": 175,
+      "YSVU": 225,
+      "YSVL": 155,
       "YSVF": 222
     }
   }

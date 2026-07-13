@@ -261,6 +261,8 @@ class AmstelvarA2Controller(xProject):
             measurements = readMeasurements(self.measurementsPath)
             fontMeasurements = measurements['font']
 
+            parametricAxesDict = self.getParametricAxesFromSourceNames()
+
             for parentAxisName in self.parentParametricAxes:
                 parentMeasurement = fontMeasurements[parentAxisName]
 
@@ -288,13 +290,26 @@ class AmstelvarA2Controller(xProject):
                 parentDefault = self._parentParametricAxesDefaults[parentAxisName]
                 parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
 
+                # clip mapping values to the available parametric ranges
+                mappingsClipped = {}
+                for parentValue in mappings.keys():
+                    mappingsClipped[parentValue] = {}
+                    for tag, value in mappings[parentValue].items():
+                        if value < parametricAxesDict[tag]['minimum']:
+                            clippedValue = parametricAxesDict[tag]['minimum']
+                        elif value > parametricAxesDict[tag]['maximum']:
+                            clippedValue = parametricAxesDict[tag]['maximum']
+                        else:
+                            clippedValue = value
+                        mappingsClipped[parentValue][tag] = clippedValue
+
                 # add parent axis
                 blendsDict['axes'][parentAxisName] = parentAxis
 
                 # add parametric mappings
-                for mappingValue in mappings:
+                for mappingValue in mappingsClipped:
                     blendsDict['sources'][f'{parentAxisName}{mappingValue}'] = {}
-                    for parametricAxisName, parametricValue in mappings[mappingValue].items():
+                    for parametricAxisName, parametricValue in mappingsClipped[mappingValue].items():
                         blendsDict['sources'][f'{parentAxisName}{mappingValue}'][parametricAxisName] = parametricValue
 
         # done!
@@ -383,8 +398,8 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
-    glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
+    # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
+    # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -413,10 +428,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['dollar'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -436,7 +451,7 @@ if __name__ == '__main__':
     # p.proofTuning(['idot'], referenceSource, level=3)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
