@@ -11,7 +11,7 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
     <axis tag="XTSP" name="Spacing" minimum="-100" maximum="100" default="0"/>
-    <axis tag="XOPQ" name="XOPQ" minimum="0" maximum="310" default="90"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="-31" maximum="310" default="90"/>
     <axis tag="YOPQ" name="YOPQ" minimum="4" maximum="208" default="66"/>
     <axis tag="XTRA" name="XTRA" minimum="-103" maximum="1094" default="400"/>
     <axis tag="XSHA" name="XSHA" minimum="-25" maximum="214" default="104"/>
@@ -2807,6 +2807,44 @@
           <dimension name="TN25" xvalue="0"/>
         </output>
       </mapping>
+      <mapping description="XOPQ-31">
+        <input>
+          <dimension name="XOPQ" xvalue="-31"/>
+        </input>
+        <output>
+          <dimension name="XOUC" xvalue="4"/>
+          <dimension name="XOLC" xvalue="4"/>
+          <dimension name="XOFI" xvalue="4"/>
+          <dimension name="XOET" xvalue="4"/>
+          <dimension name="XDOT" xvalue="23"/>
+          <dimension name="TN00" xvalue="0"/>
+          <dimension name="TN01" xvalue="0"/>
+          <dimension name="TN02" xvalue="0"/>
+          <dimension name="TN03" xvalue="0"/>
+          <dimension name="TN04" xvalue="0"/>
+          <dimension name="TN05" xvalue="0"/>
+          <dimension name="TN06" xvalue="0"/>
+          <dimension name="TN07" xvalue="0"/>
+          <dimension name="TN08" xvalue="0"/>
+          <dimension name="TN09" xvalue="0"/>
+          <dimension name="TN10" xvalue="0"/>
+          <dimension name="TN11" xvalue="0"/>
+          <dimension name="TN12" xvalue="0"/>
+          <dimension name="TN13" xvalue="0"/>
+          <dimension name="TN14" xvalue="0"/>
+          <dimension name="TN15" xvalue="0"/>
+          <dimension name="TN16" xvalue="0"/>
+          <dimension name="TN17" xvalue="0"/>
+          <dimension name="TN18" xvalue="0"/>
+          <dimension name="TN19" xvalue="0"/>
+          <dimension name="TN20" xvalue="0"/>
+          <dimension name="TN21" xvalue="0"/>
+          <dimension name="TN22" xvalue="0"/>
+          <dimension name="TN23" xvalue="0"/>
+          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN25" xvalue="0"/>
+        </output>
+      </mapping>
       <mapping description="XOPQ0">
         <input>
           <dimension name="XOPQ" xvalue="0"/>
@@ -2816,6 +2854,7 @@
           <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="4"/>
+          <dimension name="XDOT" xvalue="54"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2853,6 +2892,7 @@
           <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="8"/>
+          <dimension name="XDOT" xvalue="58"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2890,6 +2930,7 @@
           <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="10"/>
+          <dimension name="XDOT" xvalue="60"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2927,6 +2968,45 @@
           <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="7"/>
           <dimension name="XOET" xvalue="13"/>
+          <dimension name="XDOT" xvalue="63"/>
+          <dimension name="TN00" xvalue="0"/>
+          <dimension name="TN01" xvalue="0"/>
+          <dimension name="TN02" xvalue="0"/>
+          <dimension name="TN03" xvalue="0"/>
+          <dimension name="TN04" xvalue="0"/>
+          <dimension name="TN05" xvalue="0"/>
+          <dimension name="TN06" xvalue="0"/>
+          <dimension name="TN07" xvalue="0"/>
+          <dimension name="TN08" xvalue="0"/>
+          <dimension name="TN09" xvalue="0"/>
+          <dimension name="TN10" xvalue="0"/>
+          <dimension name="TN11" xvalue="0"/>
+          <dimension name="TN12" xvalue="0"/>
+          <dimension name="TN13" xvalue="0"/>
+          <dimension name="TN14" xvalue="0"/>
+          <dimension name="TN15" xvalue="0"/>
+          <dimension name="TN16" xvalue="0"/>
+          <dimension name="TN17" xvalue="0"/>
+          <dimension name="TN18" xvalue="0"/>
+          <dimension name="TN19" xvalue="0"/>
+          <dimension name="TN20" xvalue="0"/>
+          <dimension name="TN21" xvalue="0"/>
+          <dimension name="TN22" xvalue="0"/>
+          <dimension name="TN23" xvalue="0"/>
+          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN25" xvalue="0"/>
+        </output>
+      </mapping>
+      <mapping description="XOPQ220">
+        <input>
+          <dimension name="XOPQ" xvalue="220"/>
+        </input>
+        <output>
+          <dimension name="XOUC" xvalue="220"/>
+          <dimension name="XOLC" xvalue="215"/>
+          <dimension name="XOFI" xvalue="218"/>
+          <dimension name="XOET" xvalue="224"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2964,6 +3044,7 @@
           <dimension name="XOLC" xvalue="237"/>
           <dimension name="XOFI" xvalue="240"/>
           <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3001,6 +3082,7 @@
           <dimension name="XOLC" xvalue="293"/>
           <dimension name="XOFI" xvalue="296"/>
           <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3038,6 +3120,7 @@
           <dimension name="XOLC" xvalue="293"/>
           <dimension name="XOFI" xvalue="302"/>
           <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3075,6 +3158,7 @@
           <dimension name="XOLC" xvalue="293"/>
           <dimension name="XOFI" xvalue="302"/>
           <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>

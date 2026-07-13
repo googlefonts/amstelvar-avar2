@@ -27,7 +27,7 @@
     "XOPQ": {
       "name": "XOPQ",
       "default": 90,
-      "minimum": 0,
+      "minimum": -31,
       "maximum": 310
     },
     "YOPQ": {
@@ -2595,53 +2595,75 @@
       "TN24": 0,
       "TN25": 0
     },
+    "XOPQ-31": {
+      "XOUC": 4,
+      "XOLC": 4,
+      "XOFI": 4,
+      "XOET": 4,
+      "XDOT": 23
+    },
     "XOPQ0": {
       "XOUC": 4,
       "XOLC": 4,
       "XOFI": 4,
-      "XOET": 4
+      "XOET": 4,
+      "XDOT": 54
     },
     "XOPQ4": {
       "XOUC": 4,
       "XOLC": 4,
       "XOFI": 4,
-      "XOET": 8
+      "XOET": 8,
+      "XDOT": 58
     },
     "XOPQ6": {
       "XOUC": 6,
       "XOLC": 4,
       "XOFI": 4,
-      "XOET": 10
+      "XOET": 10,
+      "XDOT": 60
     },
     "XOPQ9": {
       "XOUC": 9,
       "XOLC": 4,
       "XOFI": 7,
-      "XOET": 13
+      "XOET": 13,
+      "XDOT": 63
+    },
+    "XOPQ220": {
+      "XOUC": 220,
+      "XOLC": 215,
+      "XOFI": 218,
+      "XOET": 224,
+      "XDOT": 274
     },
     "XOPQ242": {
       "XOUC": 242,
       "XOLC": 237,
       "XOFI": 240,
-      "XOET": 246
+      "XOET": 246,
+      "XDOT": 274
     },
     "XOPQ298": {
       "XOUC": 298,
       "XOLC": 293,
       "XOFI": 296,
-      "XOET": 246
+      "XOET": 246,
+      "XDOT": 274
     },
     "XOPQ304": {
       "XOUC": 304,
       "XOLC": 293,
       "XOFI": 302,
-      "XOET": 246
+      "XOET": 246,
+      "XDOT": 274
     },
     "XOPQ310": {
       "XOUC": 310,
       "XOLC": 293,
       "XOFI": 302,
-      "XOET": 246
+      "XOET": 246,
+      "XDOT": 274
     },
     "YOPQ4": {
       "YOUC": 4,
