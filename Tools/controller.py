@@ -390,7 +390,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -425,7 +425,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(['dollar'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(['ampersand'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -436,8 +436,8 @@ if __name__ == '__main__':
     # p.validateSources()
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=True, reference=False)
-    # p.normalizeSources(parametric=False, tuning=False, reference=True)
+    # p.cleanupSources(parametric=True, tuning=False, reference=False)
+    p.normalizeSources(parametric=False, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -451,7 +451,7 @@ if __name__ == '__main__':
     # p.proofTuning(['idot'], referenceSource, level=3)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
