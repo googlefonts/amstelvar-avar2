@@ -277,7 +277,8 @@ class AmstelvarA2Controller(xProject):
                             value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
                             values.append(value)
                     if not len(values) == 2:
-                        print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}')
+                        if self.verbose:
+                            print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}...')
                         continue
                     values.sort()
 
@@ -425,7 +426,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(['ampersand'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources('at dollar'.split(), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -437,7 +438,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    p.normalizeSources(parametric=False, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
