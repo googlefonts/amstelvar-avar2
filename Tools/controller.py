@@ -391,7 +391,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -437,8 +437,8 @@ if __name__ == '__main__':
     # p.validateSources()
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
