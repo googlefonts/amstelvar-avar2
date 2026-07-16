@@ -131,6 +131,15 @@ class AmstelvarA2Controller(xProject):
     @property
     def referenceFontPath(self):
         return os.path.join(self.fontsFolder, 'reference', self.referenceFontName)
+        
+    @property
+    def cyrillicProofGlyphsPath(self):
+        return os.path.join(self.baseFolder, 'Tools', 'proofing', 'cyrillicProofGlyphs.json')
+
+    @property
+    def cyrillicProofGlyphNames(self):
+        with open(self.cyrillicProofGlyphsPath, 'r', encoding='utf-8') as f:
+            return json.load(f)
 
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
         setSourceNamesFromMeasurements(
@@ -375,7 +384,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -413,10 +422,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['dollar'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
@@ -430,6 +439,17 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
+
+    glyphNames = p.cyrillicProofGlyphNames
+
+    for glyphName in glyphNames:
+        try:
+            print(f'Proofing {glyphName}...')
+            p.proofGlyphMemes([glyphName], anchors=True)
+        except Exception as e:
+            print(f'⚠️ Skipping {glyphName}: {e}')
+
+    # p.proofGlyphMemes(p.cyrillicProofGlyphNames,anchors=True)
     # p.proofGlyphMemes(list(string.ascii_uppercase + string.ascii_lowercase), anchors=False)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase + string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)

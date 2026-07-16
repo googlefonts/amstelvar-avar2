@@ -1,49 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ka" format="2">
-  <advance width="1441"/>
-  <unicode hex="041A"/>
-  <anchor x="802" y="0" name="bottom"/>
-  <anchor x="760" y="1500" name="top"/>
-  <anchor x="1496" y="40" name="cy_descender"/>
-  <outline>
-    <contour>
-      <point x="82" y="0" type="line"/>
-      <point x="82" y="40" type="line"/>
-      <point x="340" y="75" type="line"/>
-      <point x="342" y="754" type="line"/>
-      <point x="340" y="1412" type="line"/>
-      <point x="82" y="1446" type="line"/>
-      <point x="82" y="1500" type="line"/>
-      <point x="648" y="1500" type="line"/>
-      <point x="648" y="1446" type="line"/>
-      <point x="420" y="1412" type="line"/>
-      <point x="418" y="773" type="line"/>
-      <point x="420" y="75" type="line"/>
-      <point x="658" y="40" type="line"/>
-      <point x="658" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="370" y="766" type="line"/>
-      <point x="370" y="837" type="line"/>
-      <point x="673" y="833" type="line"/>
-      <point x="1129" y="1398" type="line"/>
-      <point x="924" y="1446" type="line"/>
-      <point x="924" y="1500" type="line"/>
-      <point x="1410" y="1500" type="line"/>
-      <point x="1410" y="1446" type="line"/>
-      <point x="1232" y="1398" type="line"/>
-      <point x="722" y="790" type="line"/>
-      <point x="691" y="764" type="line"/>
-    </contour>
-    <contour>
-      <point x="667" y="773" type="line"/>
-      <point x="717" y="828" type="line"/>
-      <point x="1299" y="75" type="line"/>
-      <point x="1496" y="40" type="line"/>
-      <point x="1496" y="0" type="line"/>
-      <point x="993" y="0" type="line"/>
-      <point x="993" y="40" type="line"/>
-      <point x="1201" y="75" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="041A"/>
+	<advance width="1441"/>
+	<outline>
+		<contour>
+			<point x="82" y="0" type="line"/>
+			<point x="82" y="40" type="line"/>
+			<point x="340" y="75" type="line"/>
+			<point x="342" y="754" type="line"/>
+			<point x="340" y="1412" type="line"/>
+			<point x="82" y="1446" type="line"/>
+			<point x="82" y="1500" type="line"/>
+			<point x="648" y="1500" type="line"/>
+			<point x="648" y="1446" type="line"/>
+			<point x="420" y="1412" type="line"/>
+			<point x="418" y="773" type="line"/>
+			<point x="420" y="75" type="line"/>
+			<point x="658" y="40" type="line"/>
+			<point x="658" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="370" y="766" type="line"/>
+			<point x="370" y="837" type="line"/>
+			<point x="673" y="833" type="line"/>
+			<point x="1129" y="1398" type="line"/>
+			<point x="924" y="1446" type="line"/>
+			<point x="924" y="1500" type="line"/>
+			<point x="1410" y="1500" type="line"/>
+			<point x="1410" y="1446" type="line"/>
+			<point x="1232" y="1398" type="line"/>
+			<point x="722" y="790" type="line"/>
+			<point x="691" y="764" type="line"/>
+		</contour>
+		<contour>
+			<point x="667" y="773" type="line"/>
+			<point x="717" y="828" type="line"/>
+			<point x="1299" y="75" type="line"/>
+			<point x="1496" y="40" type="line"/>
+			<point x="1496" y="0" type="line"/>
+			<point x="993" y="0" type="line"/>
+			<point x="993" y="40" type="line"/>
+			<point x="1201" y="75" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="802" y="0"/>
+	<anchor name="top" x="760" y="1500"/>
+	<anchor name="cy_descender" x="1496" y="40"/>
 </glyph>
