@@ -409,10 +409,10 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
-    # p.copyGlyphsFromDefault(list('ij'), parametricSources=False, tuningSources=True)
+    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametric=True, tuning=True)
+    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
-    # p.copyUnicodesFromDefault(preflight=False)
+    # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault()
     # p.copyKerningFromDefault()
 
@@ -437,7 +437,7 @@ if __name__ == '__main__':
     # p.validateSources()
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
     p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
