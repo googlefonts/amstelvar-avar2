@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idot" format="2">
-	<advance width="438"/>
 	<outline>
 		<contour>
-			<point x="240" y="1327" type="qcurve" smooth="yes"/>
-			<point x="244" y="1372"/>
-			<point x="295" y="1419"/>
-			<point x="334" y="1419" type="qcurve" smooth="yes"/>
-			<point x="369" y="1419"/>
-			<point x="412" y="1368"/>
-			<point x="408" y="1326" type="qcurve" smooth="yes"/>
-			<point x="404" y="1282"/>
-			<point x="353" y="1234"/>
-			<point x="314" y="1234" type="qcurve" smooth="yes"/>
-			<point x="279" y="1234"/>
-			<point x="236" y="1286"/>
+			<point x="164" y="1327" type="qcurve" smooth="yes"/>
+			<point x="168" y="1372"/>
+			<point x="219" y="1419"/>
+			<point x="258" y="1419" type="qcurve" smooth="yes"/>
+			<point x="293" y="1419"/>
+			<point x="336" y="1368"/>
+			<point x="332" y="1326" type="qcurve" smooth="yes"/>
+			<point x="328" y="1282"/>
+			<point x="277" y="1234"/>
+			<point x="238" y="1234" type="qcurve" smooth="yes"/>
+			<point x="203" y="1234"/>
+			<point x="160" y="1286"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="270" y="1000"/>
+	<anchor name="_top" x="194" y="1000"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.guideline.magnetic.UoBWQ8KbZg</key>
 			<integer>5</integer>
+			<key>com.xTools4.dialogs.variable.old.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Italic/reference/Amstelvar-Italic_wght100_wdth50.ufo/glyphs</string>
 		</dict>
 	</lib>
 </glyph>

@@ -391,7 +391,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -417,7 +417,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('aacute acircumflex'.split(), preflight=True)
+    # p.buildCompositeGlyphs('i j'.split(), preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -426,7 +426,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources('at dollar'.split(), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -438,7 +438,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=False, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
