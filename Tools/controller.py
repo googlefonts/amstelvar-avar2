@@ -402,7 +402,7 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
+    # p.updateGlyphsFromDefault(['Ze'], 'wght400_old', preflight=False, parametricSources=True, tuningSources=True)
     # p.copyGlyphsFromDefault(list('ij'), parametricSources=False, tuningSources=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False)
