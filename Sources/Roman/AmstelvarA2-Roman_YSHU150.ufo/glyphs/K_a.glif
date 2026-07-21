@@ -22,19 +22,19 @@
 		<contour>
 			<point x="380" y="716" type="line"/>
 			<point x="380" y="848" type="line"/>
-			<point x="656" y="844" type="line"/>
+			<point x="796" y="844" type="line"/>
 			<point x="1041" y="1138" type="line"/>
 			<point x="894" y="1186" type="line"/>
 			<point x="894" y="1500" type="line"/>
 			<point x="1390" y="1500" type="line"/>
 			<point x="1390" y="1186" type="line"/>
 			<point x="1212" y="1138" type="line"/>
-			<point x="732" y="745" type="line"/>
-			<point x="690" y="716" type="line"/>
+			<point x="872" y="745" type="line"/>
+			<point x="850" y="716" type="line"/>
 		</contour>
 		<contour>
-			<point x="635" y="744" type="line"/>
-			<point x="749" y="864" type="line"/>
+			<point x="784" y="744" type="line"/>
+			<point x="898" y="864" type="line"/>
 			<point x="1319" y="335" type="line"/>
 			<point x="1476" y="300" type="line"/>
 			<point x="1476" y="0" type="line"/>
@@ -51,7 +51,7 @@
 			<key>com.xTools4.measurements.font</key>
 			<dict>
 				<key>BARS</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 				<key>WDSP</key>
 				<integer>639</integer>
 				<key>XDOT</key>
@@ -69,7 +69,7 @@
 				<key>XOAC</key>
 				<integer>182</integer>
 				<key>XOET</key>
-				<integer>201</integer>
+				<integer>188</integer>
 				<key>XOFI</key>
 				<integer>176</integer>
 				<key>XOLA</key>
@@ -167,7 +167,7 @@
 				<key>YOAC</key>
 				<integer>106</integer>
 				<key>YOET</key>
-				<integer>108</integer>
+				<integer>111</integer>
 				<key>YOFI</key>
 				<integer>113</integer>
 				<key>YOLA</key>

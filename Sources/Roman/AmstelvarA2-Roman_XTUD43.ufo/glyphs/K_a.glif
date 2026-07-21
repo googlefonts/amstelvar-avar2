@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ka" format="2">
 	<unicode hex="041A"/>
-	<advance width="986"/>
+	<advance width="952"/>
 	<outline>
 		<contour>
 			<point x="82" y="0" type="line"/>
@@ -22,36 +22,36 @@
 		<contour>
 			<point x="380" y="716" type="line"/>
 			<point x="380" y="848" type="line"/>
-			<point x="535" y="844" type="line"/>
-			<point x="672" y="1338" type="line"/>
-			<point x="525" y="1386" type="line"/>
-			<point x="525" y="1500" type="line"/>
+			<point x="521" y="844" type="line"/>
+			<point x="702" y="1338" type="line"/>
+			<point x="555" y="1386" type="line"/>
+			<point x="555" y="1500" type="line"/>
 			<point x="1021" y="1500" type="line"/>
 			<point x="1021" y="1386" type="line"/>
 			<point x="843" y="1338" type="line"/>
-			<point x="647" y="745" type="line"/>
-			<point x="604" y="716" type="line"/>
+			<point x="617" y="745" type="line"/>
+			<point x="574" y="716" type="line"/>
 		</contour>
 		<contour>
-			<point x="549" y="724" type="line"/>
-			<point x="645" y="1051" type="line"/>
-			<point x="860" y="135" type="line"/>
-			<point x="1017" y="100" type="line"/>
-			<point x="1017" y="0" type="line"/>
-			<point x="484" y="0" type="line"/>
-			<point x="484" y="100" type="line"/>
-			<point x="652" y="135" type="line"/>
+			<point x="529" y="754" type="line"/>
+			<point x="615" y="981" type="line"/>
+			<point x="830" y="135" type="line"/>
+			<point x="987" y="100" type="line"/>
+			<point x="987" y="0" type="line"/>
+			<point x="481" y="0" type="line"/>
+			<point x="481" y="100" type="line"/>
+			<point x="649" y="135" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="575" y="0"/>
-	<anchor name="top" x="507" y="1500"/>
+	<anchor name="top" x="591" y="1500"/>
 	<anchor name="cy_descender" x="1017" y="100"/>
 	<lib>
 		<dict>
 			<key>com.xTools4.measurements.font</key>
 			<dict>
 				<key>BARS</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 				<key>WDSP</key>
 				<integer>639</integer>
 				<key>XDOT</key>
@@ -69,7 +69,7 @@
 				<key>XOAC</key>
 				<integer>182</integer>
 				<key>XOET</key>
-				<integer>201</integer>
+				<integer>188</integer>
 				<key>XOFI</key>
 				<integer>176</integer>
 				<key>XOLA</key>
@@ -167,7 +167,7 @@
 				<key>YOAC</key>
 				<integer>106</integer>
 				<key>YOET</key>
-				<integer>108</integer>
+				<integer>111</integer>
 				<key>YOFI</key>
 				<integer>113</integer>
 				<key>YOLA</key>
