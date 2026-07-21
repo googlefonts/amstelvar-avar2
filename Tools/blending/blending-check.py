@@ -1,4 +1,6 @@
-# menuTitle: compare measurements of AmstelvarA2 instances against Amstelvar
+# drawBot
+
+'''compare measurements of AmstelvarA2 instances against Amstelvar'''
 
 import os, glob, datetime
 from xTools4.modules.measurements import FontMeasurements
