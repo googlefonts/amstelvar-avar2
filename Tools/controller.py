@@ -402,7 +402,7 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
+    p.updateGlyphsFromDefault(['icyr'], 'wght400_old', preflight=True, parametricSources=True, tuningSources=True)
     # p.copyGlyphsFromDefault(list('ij'), parametricSources=False, tuningSources=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False)
@@ -422,10 +422,10 @@ if __name__ == '__main__':
     # p.calculateTuningSources(['dollar'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = False
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = False
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
