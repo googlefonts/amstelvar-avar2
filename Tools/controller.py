@@ -361,7 +361,7 @@ class AmstelvarA2Controller(xProject):
         # if self.tuning:
         #     self.addTuningAxes()
 
-        # self.addBlendedSources()
+        self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
 
@@ -432,8 +432,8 @@ if __name__ == '__main__':
     p.parametricAxesHidden = True
     p.tuningAxesHidden = True
     p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
-    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=True)
+    p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
     # --- normalization ---
