@@ -429,16 +429,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=False, parentParametric=True)
-    p.validateDesignspace(locations=True, mappings=True, instances=False)
-    # p.validateSources()
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=True)
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=False, tuning=True, reference=False)
+    p.cleanupSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
