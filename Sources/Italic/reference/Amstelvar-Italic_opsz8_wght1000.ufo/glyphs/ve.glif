@@ -11,18 +11,18 @@
 			<point x="70" y="842"/>
 			<point x="530" y="1140"/>
 			<point x="887" y="1140" type="qcurve" smooth="yes"/>
-			<point x="1233.1538461538" y="1140"/>
-			<point x="1502.9958712035" y="980.9674857276"/>
+			<point x="1233" y="1140"/>
+			<point x="1503" y="981"/>
 			<point x="1487" y="855" type="qcurve" smooth="yes"/>
-			<point x="1472.0061007991" y="737.0479929529"/>
-			<point x="1284.3146483917" y="617.3379434337"/>
+			<point x="1472" y="737"/>
+			<point x="1284" y="617"/>
 			<point x="1111" y="597" type="qcurve"/>
 			<point x="1111" y="592" type="line"/>
-			<point x="1321.0780050174" y="586.6133844867"/>
-			<point x="1485.921933711" y="441.5803936965"/>
+			<point x="1321" y="587"/>
+			<point x="1486" y="442"/>
 			<point x="1462" y="313" type="qcurve" smooth="yes"/>
-			<point x="1434.0455568832" y="158.2521898894"/>
-			<point x="1048.0911492734" y="-33"/>
+			<point x="1434" y="158"/>
+			<point x="1048" y="-33"/>
 		</contour>
 		<contour>
 			<point x="747" y="152" type="qcurve" smooth="yes"/>
@@ -48,12 +48,4 @@
 			<point x="622" y="152"/>
 		</contour>
 	</outline>
-	<guideline x="302" y="625" angle="90" identifier="FqbstdQzDn"/>
-	<guideline x="953" y="554" angle="90" identifier="zbbKiP68t3"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

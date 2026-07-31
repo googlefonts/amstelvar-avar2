@@ -391,7 +391,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -404,7 +404,7 @@ if __name__ == '__main__':
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
@@ -437,8 +437,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=False, tuning=True, reference=False)
+    # p.cleanupSources(parametric=False, tuning=False, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
