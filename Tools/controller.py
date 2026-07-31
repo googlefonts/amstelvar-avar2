@@ -391,7 +391,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -429,16 +429,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()

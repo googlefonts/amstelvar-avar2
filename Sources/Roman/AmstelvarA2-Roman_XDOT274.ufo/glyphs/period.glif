@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="2">
-  <advance width="844"/>
-  <unicode hex="002E"/>
-  <anchor x="0" y="0" name="_ellipsis"/>
-  <anchor x="844" y="0" name="ellipsis"/>
-  <outline>
-    <contour>
-      <point x="148" y="250" type="qcurve" smooth="yes"/>
-      <point x="148" y="361"/>
-      <point x="302" y="524"/>
-      <point x="422" y="524" type="qcurve" smooth="yes"/>
-      <point x="542" y="524"/>
-      <point x="696" y="361"/>
-      <point x="696" y="250" type="qcurve" smooth="yes"/>
-      <point x="696" y="142"/>
-      <point x="542" y="-22"/>
-      <point x="422" y="-22" type="qcurve"/>
-      <point x="302" y="-22"/>
-      <point x="148" y="142"/>
-    </contour>
-  </outline>
+	<unicode hex="002E"/>
+	<advance width="844"/>
+	<outline>
+		<contour>
+			<point x="148" y="250" type="qcurve" smooth="yes"/>
+			<point x="148" y="361"/>
+			<point x="302" y="524"/>
+			<point x="422" y="524" type="qcurve" smooth="yes"/>
+			<point x="542" y="524"/>
+			<point x="696" y="361"/>
+			<point x="696" y="250" type="qcurve" smooth="yes"/>
+			<point x="696" y="142"/>
+			<point x="542" y="-22"/>
+			<point x="422" y="-22" type="qcurve"/>
+			<point x="302" y="-22"/>
+			<point x="148" y="142"/>
+		</contour>
+	</outline>
+	<anchor name="_ellipsis" x="0" y="0"/>
+	<anchor name="ellipsis" x="844" y="0"/>
 </glyph>
