@@ -235,13 +235,13 @@ class AmstelvarA2Controller(xProject):
         del blendsDict['sources']['XTSP-100']['GRAD']
         del blendsDict['sources']['XTSP100']['GRAD']
 
-        # if self.tuning:
-        #     # add tuning axes to blended locations
-        #     for styleName in blendsDict['sources']:
-        #         for tuningStyle, tuningAxis in self.tuningAxes.items():
-        #             tuningValue = tuningAxis.maximum if styleName == tuningStyle else tuningAxis.default
-        #             # print(f'\t\tadding tuning blend: {styleName} {tuningAxis.tag} {tuningValue}...')
-        #             blendsDict['sources'][styleName][tuningAxis.tag] = tuningValue
+        if self.tuning:
+            # add tuning axes to blended locations
+            for styleName in blendsDict['sources']:
+                for tuningStyle, tuningAxis in self.tuningAxes.items():
+                    tuningValue = tuningAxis.maximum if styleName == tuningStyle else tuningAxis.default
+                    # print(f'\t\tadding tuning blend: {styleName} {tuningAxis.tag} {tuningValue}...')
+                    blendsDict['sources'][styleName][tuningAxis.tag] = tuningValue
 
         for axisName in self._spacingAxes:
             values = []
@@ -358,8 +358,8 @@ class AmstelvarA2Controller(xProject):
         self.addBlendedAxes()
         self.addParametricAxes(self._customParametricAxes)
 
-        # if self.tuning:
-        #     self.addTuningAxes()
+        if self.tuning:
+            self.addTuningAxes()
 
         self.addBlendedSources()
         self.addDefaultSource()
@@ -429,16 +429,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=False, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=False, tuning=False, reference=True)
-    p.normalizeSources(parametric=False, tuning=False, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=False, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
