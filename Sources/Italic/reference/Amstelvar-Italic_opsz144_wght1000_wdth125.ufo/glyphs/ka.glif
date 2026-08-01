@@ -32,7 +32,7 @@
 		<contour>
 			<point x="1400" y="663" type="line"/>
 			<point x="1400" y="783"/>
-			<point x="1373.746835443" y="848"/>
+			<point x="1374" y="848"/>
 			<point x="1339" y="848" type="qcurve" smooth="yes"/>
 			<point x="1282" y="848"/>
 			<point x="1159" y="801"/>
@@ -52,10 +52,4 @@
 			<point x="1478" y="618" type="qcurve"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

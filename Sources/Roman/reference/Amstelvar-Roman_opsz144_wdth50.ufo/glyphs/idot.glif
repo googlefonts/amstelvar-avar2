@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idot" format="2">
-	<advance width="353"/>
 	<outline>
 		<contour>
-			<point x="89" y="1198" type="qcurve" smooth="yes"/>
-			<point x="89" y="1233"/>
-			<point x="139" y="1286"/>
-			<point x="178" y="1286" type="qcurve" smooth="yes"/>
-			<point x="217" y="1286"/>
-			<point x="268" y="1233"/>
-			<point x="268" y="1198" type="qcurve" smooth="yes"/>
-			<point x="268" y="1162"/>
-			<point x="217" y="1108"/>
-			<point x="178" y="1108" type="qcurve" smooth="yes"/>
-			<point x="139" y="1108"/>
-			<point x="89" y="1161"/>
+			<point x="-89" y="1198" type="qcurve" smooth="yes"/>
+			<point x="-89" y="1233"/>
+			<point x="-39" y="1286"/>
+			<point x="0" y="1286" type="qcurve" smooth="yes"/>
+			<point x="39" y="1286"/>
+			<point x="90" y="1233"/>
+			<point x="90" y="1198" type="qcurve" smooth="yes"/>
+			<point x="90" y="1162"/>
+			<point x="39" y="1108"/>
+			<point x="0" y="1108" type="qcurve" smooth="yes"/>
+			<point x="-39" y="1108"/>
+			<point x="-89" y="1161"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="176.5" y="920"/>
+	<anchor name="_top" x="0" y="920"/>
 </glyph>

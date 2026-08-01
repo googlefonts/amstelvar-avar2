@@ -5,8 +5,8 @@
 	<outline>
 		<contour>
 			<point x="1426" y="484" type="qcurve" smooth="yes"/>
-			<point x="1465.9796769155" y="705.8872068813"/>
-			<point x="1770.2996742671" y="997"/>
+			<point x="1466" y="706"/>
+			<point x="1770" y="997"/>
 			<point x="2030" y="997" type="qcurve" smooth="yes"/>
 			<point x="2197" y="997"/>
 			<point x="2338" y="864"/>
@@ -33,13 +33,13 @@
 			<point x="2161" y="139"/>
 			<point x="1931" y="-23"/>
 			<point x="1755" y="-23" type="qcurve" smooth="yes"/>
-			<point x="1554.1061946903" y="-23"/>
-			<point x="1388.0350321606" y="274.1935987824"/>
+			<point x="1554" y="-23"/>
+			<point x="1388" y="274"/>
 		</contour>
 		<contour>
 			<point x="782" y="490" type="qcurve" smooth="yes"/>
-			<point x="742.0206568373" y="268.1146454471"/>
-			<point x="442.9548192771" y="-23"/>
+			<point x="742" y="268"/>
+			<point x="443" y="-23"/>
 			<point x="188" y="-23" type="qcurve" smooth="yes"/>
 			<point x="21" y="-23"/>
 			<point x="-120" y="110"/>
@@ -52,11 +52,11 @@
 			<point x="104" y="71"/>
 			<point x="124" y="28"/>
 			<point x="149" y="28" type="qcurve" smooth="yes"/>
-			<point x="200.3399014778" y="28"/>
-			<point x="290.1726971064" y="268.6343297564"/>
+			<point x="200" y="28"/>
+			<point x="290" y="269"/>
 			<point x="342" y="459" type="qcurve" smooth="yes"/>
-			<point x="395.4235689128" y="652.9077686465"/>
-			<point x="359.5573770492" y="854"/>
+			<point x="395" y="653"/>
+			<point x="360" y="854"/>
 			<point x="291" y="854" type="qcurve" smooth="yes"/>
 			<point x="210" y="854"/>
 			<point x="71" y="750"/>
@@ -66,8 +66,8 @@
 			<point x="57" y="835"/>
 			<point x="287" y="997"/>
 			<point x="463" y="997" type="qcurve" smooth="yes"/>
-			<point x="657.35218509" y="997"/>
-			<point x="819.9639189586" y="699.8006047713"/>
+			<point x="657" y="997"/>
+			<point x="820" y="700"/>
 		</contour>
 		<contour>
 			<point x="886" y="502" type="line"/>
@@ -90,11 +90,4 @@
 			<point x="483" y="445" type="line"/>
 		</contour>
 	</outline>
-	<guideline x="241" y="553" angle="90" identifier="8KgqZm3A67"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>
