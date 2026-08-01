@@ -681,7 +681,7 @@
       "point 1": "0",
       "glyph 2": "period",
       "point 2": "6",
-      "parent": "",
+      "parent": "XOPQ",
       "description": "Dot width"
     },
     "YDOT": {
@@ -690,7 +690,7 @@
       "point 1": "9",
       "glyph 2": "period",
       "point 2": "3",
-      "parent": "",
+      "parent": "YOPQ",
       "description": "Dot height"
     },
     "BARS": {
@@ -794,10 +794,10 @@
     },
     "XOET": {
       "direction": "x",
-      "glyph 1": "ampersand",
-      "point 1": "7",
-      "glyph 2": "ampersand",
-      "point 2": 48,
+      "glyph 1": "question",
+      "point 1": "21",
+      "glyph 2": "question",
+      "point 2": "6",
       "parent": "XOPQ",
       "description": "X stem etcetera"
     },
@@ -812,10 +812,10 @@
     },
     "YOET": {
       "direction": "y",
-      "glyph 1": "ampersand",
-      "point 1": "29",
-      "glyph 2": "ampersand",
-      "point 2": "16",
+      "glyph 1": "question",
+      "point 1": "24",
+      "glyph 2": "question",
+      "point 2": "3",
       "parent": "YOPQ",
       "description": "Y stem etcetera"
     }

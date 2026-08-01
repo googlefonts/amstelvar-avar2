@@ -261,6 +261,8 @@ class AmstelvarA2Controller(xProject):
             measurements = readMeasurements(self.measurementsPath)
             fontMeasurements = measurements['font']
 
+            parametricAxesDict = self.getParametricAxesFromSourceNames()
+
             for parentAxisName in self.parentParametricAxes:
                 parentMeasurement = fontMeasurements[parentAxisName]
 
@@ -275,7 +277,8 @@ class AmstelvarA2Controller(xProject):
                             value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
                             values.append(value)
                     if not len(values) == 2:
-                        print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}')
+                        if self.verbose:
+                            print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}...')
                         continue
                     values.sort()
 
@@ -288,13 +291,26 @@ class AmstelvarA2Controller(xProject):
                 parentDefault = self._parentParametricAxesDefaults[parentAxisName]
                 parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
 
+                # clip mapping values to the available parametric ranges
+                mappingsClipped = {}
+                for parentValue in mappings.keys():
+                    mappingsClipped[parentValue] = {}
+                    for tag, value in mappings[parentValue].items():
+                        if value < parametricAxesDict[tag]['minimum']:
+                            clippedValue = parametricAxesDict[tag]['minimum']
+                        elif value > parametricAxesDict[tag]['maximum']:
+                            clippedValue = parametricAxesDict[tag]['maximum']
+                        else:
+                            clippedValue = value
+                        mappingsClipped[parentValue][tag] = clippedValue
+
                 # add parent axis
                 blendsDict['axes'][parentAxisName] = parentAxis
 
                 # add parametric mappings
-                for mappingValue in mappings:
+                for mappingValue in mappingsClipped:
                     blendsDict['sources'][f'{parentAxisName}{mappingValue}'] = {}
-                    for parametricAxisName, parametricValue in mappings[mappingValue].items():
+                    for parametricAxisName, parametricValue in mappingsClipped[mappingValue].items():
                         blendsDict['sources'][f'{parentAxisName}{mappingValue}'][parametricAxisName] = parametricValue
 
         # done!
@@ -375,7 +391,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -383,25 +399,25 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
-    glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
+    # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
+    # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametricSources=True, tuningSources=True)
-    # p.copyGlyphsFromDefault(list('ij'), parametricSources=False, tuningSources=True)
+    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametric=True, tuning=True)
+    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
-    # p.copyUnicodesFromDefault(preflight=False)
+    # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault()
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('aacute acircumflex'.split(), preflight=True)
+    # p.buildCompositeGlyphs('i j'.split(), preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -410,19 +426,19 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(['dollar'], referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
-    # p.validateSources()
+    # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=True, reference=False)
-    # p.normalizeSources(parametric=False, tuning=False, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()

@@ -1,3 +1,5 @@
+# drawBot
+
 import os, json
 import operator
 from fontTools.designspaceLib import DesignSpaceDocument
@@ -6,11 +8,11 @@ baseFolder      = os.path.dirname(os.path.dirname(os.getcwd()))
 familyName      = 'AmstelvarA2'
 subFamilyName   = ['Roman', 'Italic'][0]
 sourcesFolder   = os.path.join(baseFolder, 'Sources', subFamilyName)
-designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_avar2.designspace')
+designspacePath = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}.designspace')
 defaultPath     = os.path.join(sourcesFolder, f'AmstelvarA2-{subFamilyName}_wght400.ufo')
 blendsPath      = os.path.join(sourcesFolder, 'blends.json')
 
-savePDF = True
+savePDF = False
 
 opszs = [8, 14, 144]
 wghts = [100, 400, 1000]
@@ -54,6 +56,8 @@ for srcName in srcNames:
     axisSides = {}
 
     for axisName, axisValue in blendsData['sources'][srcName].items():
+        if axisName.startswith('TN'):
+            continue
 
         if axes[axisName]['default'] < axisValue < axes[axisName]['maximum']:
             subAxisSide = 'max'
