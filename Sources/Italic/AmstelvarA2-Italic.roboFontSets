@@ -367,6 +367,14 @@
 			<dict>
 				<key>glyphNames</key>
 				<array>
+					<string>ampersand</string>
+				</array>
+				<key>smartSetName</key>
+				<string>symbols</string>
+			</dict>
+			<dict>
+				<key>glyphNames</key>
+				<array>
 					<string>diagonalbarL</string>
 					<string>diagonalbarO</string>
 					<string>Obarcyr-stroke</string>
@@ -4056,7 +4064,6 @@
 				<key>glyphNames</key>
 				<array>
 					<string>numbersign</string>
-					<string>ampersand</string>
 					<string>at</string>
 					<string>asciicircum</string>
 					<string>copyright</string>

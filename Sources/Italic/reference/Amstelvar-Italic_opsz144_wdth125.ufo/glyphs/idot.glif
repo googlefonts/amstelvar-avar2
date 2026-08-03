@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idot" format="2">
-	<advance width="558"/>
 	<outline>
 		<contour>
-			<point x="234" y="1294" type="qcurve" smooth="yes"/>
-			<point x="239" y="1351"/>
+			<point x="137" y="1294" type="qcurve" smooth="yes"/>
+			<point x="142" y="1351"/>
+			<point x="201" y="1413"/>
+			<point x="252" y="1413" type="qcurve" smooth="yes"/>
 			<point x="298" y="1413"/>
-			<point x="349" y="1413" type="qcurve" smooth="yes"/>
-			<point x="395" y="1413"/>
-			<point x="447" y="1346"/>
-			<point x="440" y="1294" type="qcurve" smooth="yes"/>
-			<point x="435" y="1236"/>
-			<point x="376" y="1175"/>
-			<point x="325" y="1175" type="qcurve" smooth="yes"/>
+			<point x="350" y="1346"/>
+			<point x="343" y="1294" type="qcurve" smooth="yes"/>
+			<point x="338" y="1236"/>
 			<point x="279" y="1175"/>
-			<point x="227" y="1241"/>
+			<point x="228" y="1175" type="qcurve" smooth="yes"/>
+			<point x="182" y="1175"/>
+			<point x="130" y="1241"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="276" y="920"/>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.guideline.magnetic.UoBWQ8KbZg</key>
-			<integer>5</integer>
-		</dict>
-	</lib>
+	<anchor name="_top" x="179" y="920"/>
 </glyph>

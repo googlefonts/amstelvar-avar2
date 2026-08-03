@@ -4,6 +4,12 @@
 	<advance width="1266"/>
 	<outline>
 		<contour>
+			<point x="324" y="0" type="line"/>
+			<point x="324" y="40" type="line"/>
+			<point x="595" y="75" type="line"/>
+			<point x="597" y="647" type="line"/>
+			<point x="394" y="1009" type="line"/>
+			<point x="162" y="1420" type="line"/>
 			<point x="-30" y="1446" type="line"/>
 			<point x="-30" y="1500" type="line"/>
 			<point x="447" y="1500" type="line"/>
@@ -24,14 +30,10 @@
 			<point x="675" y="75" type="line"/>
 			<point x="943" y="40" type="line"/>
 			<point x="943" y="0" type="line"/>
-			<point x="324" y="0" type="line"/>
-			<point x="324" y="40" type="line"/>
-			<point x="595" y="75" type="line"/>
-			<point x="597" y="647" type="line"/>
-			<point x="394" y="1009" type="line"/>
-			<point x="162" y="1420" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="636" y="0"/>
 	<anchor name="top" x="640" y="1500"/>
+	<anchor name="tonos" x="-100" y="1500"/>
+	<anchor name="center" x="636" y="582"/>
 </glyph>

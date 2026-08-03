@@ -11,7 +11,7 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
     <axis tag="XTSP" name="Spacing" minimum="-100" maximum="100" default="0"/>
-    <axis tag="XOPQ" name="XOPQ" minimum="0" maximum="310" default="90"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="-31" maximum="310" default="90"/>
     <axis tag="YOPQ" name="YOPQ" minimum="4" maximum="208" default="66"/>
     <axis tag="XTRA" name="XTRA" minimum="-103" maximum="1094" default="400"/>
     <axis tag="XSHA" name="XSHA" minimum="-25" maximum="214" default="104"/>
@@ -2807,15 +2807,54 @@
           <dimension name="TN25" xvalue="0"/>
         </output>
       </mapping>
+      <mapping description="XOPQ-31">
+        <input>
+          <dimension name="XOPQ" xvalue="-31"/>
+        </input>
+        <output>
+          <dimension name="XOUC" xvalue="4"/>
+          <dimension name="XOLC" xvalue="4"/>
+          <dimension name="XOFI" xvalue="4"/>
+          <dimension name="XOET" xvalue="4"/>
+          <dimension name="XDOT" xvalue="23"/>
+          <dimension name="TN00" xvalue="0"/>
+          <dimension name="TN01" xvalue="0"/>
+          <dimension name="TN02" xvalue="0"/>
+          <dimension name="TN03" xvalue="0"/>
+          <dimension name="TN04" xvalue="0"/>
+          <dimension name="TN05" xvalue="0"/>
+          <dimension name="TN06" xvalue="0"/>
+          <dimension name="TN07" xvalue="0"/>
+          <dimension name="TN08" xvalue="0"/>
+          <dimension name="TN09" xvalue="0"/>
+          <dimension name="TN10" xvalue="0"/>
+          <dimension name="TN11" xvalue="0"/>
+          <dimension name="TN12" xvalue="0"/>
+          <dimension name="TN13" xvalue="0"/>
+          <dimension name="TN14" xvalue="0"/>
+          <dimension name="TN15" xvalue="0"/>
+          <dimension name="TN16" xvalue="0"/>
+          <dimension name="TN17" xvalue="0"/>
+          <dimension name="TN18" xvalue="0"/>
+          <dimension name="TN19" xvalue="0"/>
+          <dimension name="TN20" xvalue="0"/>
+          <dimension name="TN21" xvalue="0"/>
+          <dimension name="TN22" xvalue="0"/>
+          <dimension name="TN23" xvalue="0"/>
+          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN25" xvalue="0"/>
+        </output>
+      </mapping>
       <mapping description="XOPQ0">
         <input>
           <dimension name="XOPQ" xvalue="0"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="0"/>
-          <dimension name="XOLC" xvalue="-5"/>
-          <dimension name="XOFI" xvalue="-2"/>
+          <dimension name="XOUC" xvalue="4"/>
+          <dimension name="XOLC" xvalue="4"/>
+          <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="4"/>
+          <dimension name="XDOT" xvalue="54"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2850,9 +2889,10 @@
         </input>
         <output>
           <dimension name="XOUC" xvalue="4"/>
-          <dimension name="XOLC" xvalue="-1"/>
-          <dimension name="XOFI" xvalue="2"/>
+          <dimension name="XOLC" xvalue="4"/>
+          <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="8"/>
+          <dimension name="XDOT" xvalue="58"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2887,9 +2927,10 @@
         </input>
         <output>
           <dimension name="XOUC" xvalue="6"/>
-          <dimension name="XOLC" xvalue="1"/>
+          <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="4"/>
           <dimension name="XOET" xvalue="10"/>
+          <dimension name="XDOT" xvalue="60"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2927,6 +2968,45 @@
           <dimension name="XOLC" xvalue="4"/>
           <dimension name="XOFI" xvalue="7"/>
           <dimension name="XOET" xvalue="13"/>
+          <dimension name="XDOT" xvalue="63"/>
+          <dimension name="TN00" xvalue="0"/>
+          <dimension name="TN01" xvalue="0"/>
+          <dimension name="TN02" xvalue="0"/>
+          <dimension name="TN03" xvalue="0"/>
+          <dimension name="TN04" xvalue="0"/>
+          <dimension name="TN05" xvalue="0"/>
+          <dimension name="TN06" xvalue="0"/>
+          <dimension name="TN07" xvalue="0"/>
+          <dimension name="TN08" xvalue="0"/>
+          <dimension name="TN09" xvalue="0"/>
+          <dimension name="TN10" xvalue="0"/>
+          <dimension name="TN11" xvalue="0"/>
+          <dimension name="TN12" xvalue="0"/>
+          <dimension name="TN13" xvalue="0"/>
+          <dimension name="TN14" xvalue="0"/>
+          <dimension name="TN15" xvalue="0"/>
+          <dimension name="TN16" xvalue="0"/>
+          <dimension name="TN17" xvalue="0"/>
+          <dimension name="TN18" xvalue="0"/>
+          <dimension name="TN19" xvalue="0"/>
+          <dimension name="TN20" xvalue="0"/>
+          <dimension name="TN21" xvalue="0"/>
+          <dimension name="TN22" xvalue="0"/>
+          <dimension name="TN23" xvalue="0"/>
+          <dimension name="TN24" xvalue="0"/>
+          <dimension name="TN25" xvalue="0"/>
+        </output>
+      </mapping>
+      <mapping description="XOPQ220">
+        <input>
+          <dimension name="XOPQ" xvalue="220"/>
+        </input>
+        <output>
+          <dimension name="XOUC" xvalue="220"/>
+          <dimension name="XOLC" xvalue="215"/>
+          <dimension name="XOFI" xvalue="218"/>
+          <dimension name="XOET" xvalue="224"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -2964,6 +3044,7 @@
           <dimension name="XOLC" xvalue="237"/>
           <dimension name="XOFI" xvalue="240"/>
           <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3000,7 +3081,8 @@
           <dimension name="XOUC" xvalue="298"/>
           <dimension name="XOLC" xvalue="293"/>
           <dimension name="XOFI" xvalue="296"/>
-          <dimension name="XOET" xvalue="302"/>
+          <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3035,9 +3117,10 @@
         </input>
         <output>
           <dimension name="XOUC" xvalue="304"/>
-          <dimension name="XOLC" xvalue="299"/>
+          <dimension name="XOLC" xvalue="293"/>
           <dimension name="XOFI" xvalue="302"/>
-          <dimension name="XOET" xvalue="308"/>
+          <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3072,9 +3155,10 @@
         </input>
         <output>
           <dimension name="XOUC" xvalue="310"/>
-          <dimension name="XOLC" xvalue="305"/>
-          <dimension name="XOFI" xvalue="308"/>
-          <dimension name="XOET" xvalue="314"/>
+          <dimension name="XOLC" xvalue="293"/>
+          <dimension name="XOFI" xvalue="302"/>
+          <dimension name="XOET" xvalue="246"/>
+          <dimension name="XDOT" xvalue="274"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3109,9 +3193,9 @@
         </input>
         <output>
           <dimension name="YOUC" xvalue="4"/>
-          <dimension name="YOLC" xvalue="-4"/>
-          <dimension name="YOFI" xvalue="-6"/>
-          <dimension name="YOET" xvalue="-6"/>
+          <dimension name="YOLC" xvalue="4"/>
+          <dimension name="YOFI" xvalue="4"/>
+          <dimension name="YOET" xvalue="4"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3147,8 +3231,8 @@
         <output>
           <dimension name="YOUC" xvalue="12"/>
           <dimension name="YOLC" xvalue="4"/>
-          <dimension name="YOFI" xvalue="2"/>
-          <dimension name="YOET" xvalue="2"/>
+          <dimension name="YOFI" xvalue="4"/>
+          <dimension name="YOET" xvalue="4"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3259,7 +3343,7 @@
           <dimension name="YOUC" xvalue="157"/>
           <dimension name="YOLC" xvalue="149"/>
           <dimension name="YOFI" xvalue="147"/>
-          <dimension name="YOET" xvalue="147"/>
+          <dimension name="YOET" xvalue="112"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3294,9 +3378,9 @@
         </input>
         <output>
           <dimension name="YOUC" xvalue="206"/>
-          <dimension name="YOLC" xvalue="198"/>
+          <dimension name="YOLC" xvalue="149"/>
           <dimension name="YOFI" xvalue="196"/>
-          <dimension name="YOET" xvalue="196"/>
+          <dimension name="YOET" xvalue="112"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3331,9 +3415,9 @@
         </input>
         <output>
           <dimension name="YOUC" xvalue="208"/>
-          <dimension name="YOLC" xvalue="200"/>
-          <dimension name="YOFI" xvalue="198"/>
-          <dimension name="YOET" xvalue="198"/>
+          <dimension name="YOLC" xvalue="149"/>
+          <dimension name="YOFI" xvalue="196"/>
+          <dimension name="YOET" xvalue="112"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3367,17 +3451,17 @@
           <dimension name="XTRA" xvalue="-103"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="-103"/>
+          <dimension name="XTUC" xvalue="72"/>
           <dimension name="XTUR" xvalue="58"/>
-          <dimension name="XTUD" xvalue="-93"/>
-          <dimension name="XTLC" xvalue="-260"/>
-          <dimension name="XTLR" xvalue="-166"/>
-          <dimension name="XTLD" xvalue="-255"/>
-          <dimension name="XTFI" xvalue="-174"/>
-          <dimension name="XTET" xvalue="139"/>
+          <dimension name="XTUD" xvalue="43"/>
+          <dimension name="XTLC" xvalue="42"/>
+          <dimension name="XTLR" xvalue="45"/>
+          <dimension name="XTLD" xvalue="80"/>
+          <dimension name="XTFI" xvalue="40"/>
+          <dimension name="XTET" xvalue="305"/>
           <dimension name="XQUC" xvalue="22"/>
-          <dimension name="XQLC" xvalue="-35"/>
-          <dimension name="XQFI" xvalue="-40"/>
+          <dimension name="XQLC" xvalue="14"/>
+          <dimension name="XQFI" xvalue="11"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3411,17 +3495,17 @@
           <dimension name="XTRA" xvalue="33"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="33"/>
+          <dimension name="XTUC" xvalue="72"/>
           <dimension name="XTUR" xvalue="194"/>
           <dimension name="XTUD" xvalue="43"/>
-          <dimension name="XTLC" xvalue="-124"/>
-          <dimension name="XTLR" xvalue="-30"/>
-          <dimension name="XTLD" xvalue="-119"/>
-          <dimension name="XTFI" xvalue="-38"/>
-          <dimension name="XTET" xvalue="275"/>
+          <dimension name="XTLC" xvalue="42"/>
+          <dimension name="XTLR" xvalue="45"/>
+          <dimension name="XTLD" xvalue="80"/>
+          <dimension name="XTFI" xvalue="40"/>
+          <dimension name="XTET" xvalue="305"/>
           <dimension name="XQUC" xvalue="52"/>
-          <dimension name="XQLC" xvalue="-3"/>
-          <dimension name="XQFI" xvalue="-7"/>
+          <dimension name="XQLC" xvalue="14"/>
+          <dimension name="XQFI" xvalue="11"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3455,17 +3539,17 @@
           <dimension name="XTRA" xvalue="63"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="63"/>
+          <dimension name="XTUC" xvalue="72"/>
           <dimension name="XTUR" xvalue="224"/>
           <dimension name="XTUD" xvalue="73"/>
-          <dimension name="XTLC" xvalue="-94"/>
-          <dimension name="XTLR" xvalue="0"/>
-          <dimension name="XTLD" xvalue="-89"/>
-          <dimension name="XTFI" xvalue="-8"/>
+          <dimension name="XTLC" xvalue="42"/>
+          <dimension name="XTLR" xvalue="45"/>
+          <dimension name="XTLD" xvalue="80"/>
+          <dimension name="XTFI" xvalue="40"/>
           <dimension name="XTET" xvalue="305"/>
           <dimension name="XQUC" xvalue="59"/>
-          <dimension name="XQLC" xvalue="3"/>
-          <dimension name="XQFI" xvalue="0"/>
+          <dimension name="XQLC" xvalue="14"/>
+          <dimension name="XQFI" xvalue="11"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3502,14 +3586,14 @@
           <dimension name="XTUC" xvalue="72"/>
           <dimension name="XTUR" xvalue="233"/>
           <dimension name="XTUD" xvalue="82"/>
-          <dimension name="XTLC" xvalue="-85"/>
-          <dimension name="XTLR" xvalue="9"/>
-          <dimension name="XTLD" xvalue="-80"/>
-          <dimension name="XTFI" xvalue="1"/>
+          <dimension name="XTLC" xvalue="42"/>
+          <dimension name="XTLR" xvalue="45"/>
+          <dimension name="XTLD" xvalue="80"/>
+          <dimension name="XTFI" xvalue="40"/>
           <dimension name="XTET" xvalue="314"/>
           <dimension name="XQUC" xvalue="61"/>
-          <dimension name="XQLC" xvalue="5"/>
-          <dimension name="XQFI" xvalue="1"/>
+          <dimension name="XQLC" xvalue="14"/>
+          <dimension name="XQFI" xvalue="11"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3546,14 +3630,14 @@
           <dimension name="XTUC" xvalue="108"/>
           <dimension name="XTUR" xvalue="269"/>
           <dimension name="XTUD" xvalue="118"/>
-          <dimension name="XTLC" xvalue="-49"/>
+          <dimension name="XTLC" xvalue="42"/>
           <dimension name="XTLR" xvalue="45"/>
-          <dimension name="XTLD" xvalue="-44"/>
-          <dimension name="XTFI" xvalue="37"/>
+          <dimension name="XTLD" xvalue="80"/>
+          <dimension name="XTFI" xvalue="40"/>
           <dimension name="XTET" xvalue="350"/>
           <dimension name="XQUC" xvalue="69"/>
           <dimension name="XQLC" xvalue="14"/>
-          <dimension name="XQFI" xvalue="10"/>
+          <dimension name="XQFI" xvalue="11"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -3590,9 +3674,9 @@
           <dimension name="XTUC" xvalue="111"/>
           <dimension name="XTUR" xvalue="272"/>
           <dimension name="XTUD" xvalue="121"/>
-          <dimension name="XTLC" xvalue="-46"/>
+          <dimension name="XTLC" xvalue="42"/>
           <dimension name="XTLR" xvalue="48"/>
-          <dimension name="XTLD" xvalue="-41"/>
+          <dimension name="XTLD" xvalue="80"/>
           <dimension name="XTFI" xvalue="40"/>
           <dimension name="XTET" xvalue="353"/>
           <dimension name="XQUC" xvalue="70"/>
@@ -3636,7 +3720,7 @@
           <dimension name="XTUD" xvalue="209"/>
           <dimension name="XTLC" xvalue="42"/>
           <dimension name="XTLR" xvalue="136"/>
-          <dimension name="XTLD" xvalue="47"/>
+          <dimension name="XTLD" xvalue="80"/>
           <dimension name="XTFI" xvalue="128"/>
           <dimension name="XTET" xvalue="441"/>
           <dimension name="XQUC" xvalue="90"/>
@@ -3766,7 +3850,7 @@
           <dimension name="XTUC" xvalue="668"/>
           <dimension name="XTUR" xvalue="829"/>
           <dimension name="XTUD" xvalue="678"/>
-          <dimension name="XTLC" xvalue="511"/>
+          <dimension name="XTLC" xvalue="500"/>
           <dimension name="XTLR" xvalue="605"/>
           <dimension name="XTLD" xvalue="516"/>
           <dimension name="XTFI" xvalue="597"/>
@@ -3807,10 +3891,10 @@
           <dimension name="XTRA" xvalue="670"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="670"/>
+          <dimension name="XTUC" xvalue="668"/>
           <dimension name="XTUR" xvalue="831"/>
           <dimension name="XTUD" xvalue="680"/>
-          <dimension name="XTLC" xvalue="513"/>
+          <dimension name="XTLC" xvalue="500"/>
           <dimension name="XTLR" xvalue="607"/>
           <dimension name="XTLD" xvalue="518"/>
           <dimension name="XTFI" xvalue="599"/>
@@ -3851,12 +3935,12 @@
           <dimension name="XTRA" xvalue="692"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="692"/>
+          <dimension name="XTUC" xvalue="668"/>
           <dimension name="XTUR" xvalue="853"/>
           <dimension name="XTUD" xvalue="702"/>
-          <dimension name="XTLC" xvalue="535"/>
+          <dimension name="XTLC" xvalue="500"/>
           <dimension name="XTLR" xvalue="629"/>
-          <dimension name="XTLD" xvalue="540"/>
+          <dimension name="XTLD" xvalue="518"/>
           <dimension name="XTFI" xvalue="621"/>
           <dimension name="XTET" xvalue="934"/>
           <dimension name="XQUC" xvalue="206"/>
@@ -3895,16 +3979,16 @@
           <dimension name="XTRA" xvalue="705"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="705"/>
+          <dimension name="XTUC" xvalue="668"/>
           <dimension name="XTUR" xvalue="866"/>
           <dimension name="XTUD" xvalue="715"/>
-          <dimension name="XTLC" xvalue="548"/>
-          <dimension name="XTLR" xvalue="642"/>
-          <dimension name="XTLD" xvalue="553"/>
+          <dimension name="XTLC" xvalue="500"/>
+          <dimension name="XTLR" xvalue="629"/>
+          <dimension name="XTLD" xvalue="518"/>
           <dimension name="XTFI" xvalue="634"/>
           <dimension name="XTET" xvalue="947"/>
           <dimension name="XQUC" xvalue="210"/>
-          <dimension name="XQLC" xvalue="150"/>
+          <dimension name="XQLC" xvalue="148"/>
           <dimension name="XQFI" xvalue="143"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -3939,16 +4023,16 @@
           <dimension name="XTRA" xvalue="746"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="746"/>
+          <dimension name="XTUC" xvalue="668"/>
           <dimension name="XTUR" xvalue="907"/>
-          <dimension name="XTUD" xvalue="756"/>
-          <dimension name="XTLC" xvalue="589"/>
-          <dimension name="XTLR" xvalue="683"/>
-          <dimension name="XTLD" xvalue="594"/>
+          <dimension name="XTUD" xvalue="715"/>
+          <dimension name="XTLC" xvalue="500"/>
+          <dimension name="XTLR" xvalue="629"/>
+          <dimension name="XTLD" xvalue="518"/>
           <dimension name="XTFI" xvalue="675"/>
           <dimension name="XTET" xvalue="988"/>
           <dimension name="XQUC" xvalue="220"/>
-          <dimension name="XQLC" xvalue="160"/>
+          <dimension name="XQLC" xvalue="148"/>
           <dimension name="XQFI" xvalue="151"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -3983,16 +4067,16 @@
           <dimension name="XTRA" xvalue="939"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="939"/>
-          <dimension name="XTUR" xvalue="1100"/>
-          <dimension name="XTUD" xvalue="949"/>
-          <dimension name="XTLC" xvalue="782"/>
-          <dimension name="XTLR" xvalue="876"/>
-          <dimension name="XTLD" xvalue="787"/>
+          <dimension name="XTUC" xvalue="668"/>
+          <dimension name="XTUR" xvalue="907"/>
+          <dimension name="XTUD" xvalue="715"/>
+          <dimension name="XTLC" xvalue="500"/>
+          <dimension name="XTLR" xvalue="629"/>
+          <dimension name="XTLD" xvalue="518"/>
           <dimension name="XTFI" xvalue="868"/>
           <dimension name="XTET" xvalue="1181"/>
-          <dimension name="XQUC" xvalue="266"/>
-          <dimension name="XQLC" xvalue="203"/>
+          <dimension name="XQUC" xvalue="220"/>
+          <dimension name="XQLC" xvalue="148"/>
           <dimension name="XQFI" xvalue="192"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4027,17 +4111,17 @@
           <dimension name="XTRA" xvalue="1094"/>
         </input>
         <output>
-          <dimension name="XTUC" xvalue="1094"/>
-          <dimension name="XTUR" xvalue="1255"/>
-          <dimension name="XTUD" xvalue="1104"/>
-          <dimension name="XTLC" xvalue="937"/>
-          <dimension name="XTLR" xvalue="1031"/>
-          <dimension name="XTLD" xvalue="942"/>
-          <dimension name="XTFI" xvalue="1023"/>
+          <dimension name="XTUC" xvalue="668"/>
+          <dimension name="XTUR" xvalue="907"/>
+          <dimension name="XTUD" xvalue="715"/>
+          <dimension name="XTLC" xvalue="500"/>
+          <dimension name="XTLR" xvalue="629"/>
+          <dimension name="XTLD" xvalue="518"/>
+          <dimension name="XTFI" xvalue="868"/>
           <dimension name="XTET" xvalue="1336"/>
-          <dimension name="XQUC" xvalue="304"/>
-          <dimension name="XQLC" xvalue="238"/>
-          <dimension name="XQFI" xvalue="224"/>
+          <dimension name="XQUC" xvalue="220"/>
+          <dimension name="XQLC" xvalue="148"/>
+          <dimension name="XQFI" xvalue="192"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -4071,8 +4155,8 @@
           <dimension name="XSHA" xvalue="-25"/>
         </input>
         <output>
-          <dimension name="XSHU" xvalue="-25"/>
-          <dimension name="XSHL" xvalue="-55"/>
+          <dimension name="XSHU" xvalue="0"/>
+          <dimension name="XSHL" xvalue="0"/>
           <dimension name="XSHF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4108,7 +4192,7 @@
         </input>
         <output>
           <dimension name="XSHU" xvalue="0"/>
-          <dimension name="XSHL" xvalue="-30"/>
+          <dimension name="XSHL" xvalue="0"/>
           <dimension name="XSHF" xvalue="25"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4215,8 +4299,8 @@
           <dimension name="XSHA" xvalue="214"/>
         </input>
         <output>
-          <dimension name="XSHU" xvalue="214"/>
-          <dimension name="XSHL" xvalue="184"/>
+          <dimension name="XSHU" xvalue="154"/>
+          <dimension name="XSHL" xvalue="124"/>
           <dimension name="XSHF" xvalue="239"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4252,8 +4336,8 @@
         </input>
         <output>
           <dimension name="YSHU" xvalue="0"/>
-          <dimension name="YSHL" xvalue="-10"/>
-          <dimension name="YSHF" xvalue="-3"/>
+          <dimension name="YSHL" xvalue="0"/>
+          <dimension name="YSHF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -4288,7 +4372,7 @@
         </input>
         <output>
           <dimension name="YSHU" xvalue="3"/>
-          <dimension name="YSHL" xvalue="-7"/>
+          <dimension name="YSHL" xvalue="0"/>
           <dimension name="YSHF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4395,8 +4479,8 @@
           <dimension name="XSVA" xvalue="-6"/>
         </input>
         <output>
-          <dimension name="XSVU" xvalue="-6"/>
-          <dimension name="XSVL" xvalue="-7"/>
+          <dimension name="XSVU" xvalue="0"/>
+          <dimension name="XSVL" xvalue="0"/>
           <dimension name="XSVF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4432,7 +4516,7 @@
         </input>
         <output>
           <dimension name="XSVU" xvalue="0"/>
-          <dimension name="XSVL" xvalue="-1"/>
+          <dimension name="XSVL" xvalue="0"/>
           <dimension name="XSVF" xvalue="6"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4541,7 +4625,7 @@
         <output>
           <dimension name="XSVU" xvalue="130"/>
           <dimension name="XSVL" xvalue="129"/>
-          <dimension name="XSVF" xvalue="136"/>
+          <dimension name="XSVF" xvalue="131"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -4575,9 +4659,9 @@
           <dimension name="XSVA" xvalue="151"/>
         </input>
         <output>
-          <dimension name="XSVU" xvalue="151"/>
+          <dimension name="XSVU" xvalue="130"/>
           <dimension name="XSVL" xvalue="150"/>
-          <dimension name="XSVF" xvalue="157"/>
+          <dimension name="XSVF" xvalue="131"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -4612,8 +4696,8 @@
         </input>
         <output>
           <dimension name="YSVU" xvalue="0"/>
-          <dimension name="YSVL" xvalue="-95"/>
-          <dimension name="YSVF" xvalue="-48"/>
+          <dimension name="YSVL" xvalue="40"/>
+          <dimension name="YSVF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
           <dimension name="TN02" xvalue="0"/>
@@ -4648,7 +4732,7 @@
         </input>
         <output>
           <dimension name="YSVU" xvalue="48"/>
-          <dimension name="YSVL" xvalue="-47"/>
+          <dimension name="YSVL" xvalue="40"/>
           <dimension name="YSVF" xvalue="0"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
@@ -4755,7 +4839,7 @@
           <dimension name="YSVA" xvalue="250"/>
         </input>
         <output>
-          <dimension name="YSVU" xvalue="250"/>
+          <dimension name="YSVU" xvalue="225"/>
           <dimension name="YSVL" xvalue="155"/>
           <dimension name="YSVF" xvalue="202"/>
           <dimension name="TN00" xvalue="0"/>
@@ -4791,8 +4875,8 @@
           <dimension name="YSVA" xvalue="270"/>
         </input>
         <output>
-          <dimension name="YSVU" xvalue="270"/>
-          <dimension name="YSVL" xvalue="175"/>
+          <dimension name="YSVU" xvalue="225"/>
+          <dimension name="YSVL" xvalue="155"/>
           <dimension name="YSVF" xvalue="222"/>
           <dimension name="TN00" xvalue="0"/>
           <dimension name="TN01" xvalue="0"/>
