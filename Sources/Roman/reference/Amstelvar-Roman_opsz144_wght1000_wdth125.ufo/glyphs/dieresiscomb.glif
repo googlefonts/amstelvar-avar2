@@ -1,11 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb" format="2">
-	<unicode hex="0308"/>
-	<advance width="896"/>
-	<outline>
-		<component base="dieresis"/>
-	</outline>
-	<anchor name="_GRK_top" x="448" y="970"/>
-	<anchor name="_top" x="448" y="970"/>
-	<anchor name="top" x="448" y="1355"/>
+  <unicode hex="0308"/>
+  <anchor x="0.0" y="970" name="_GRK_top"/>
+  <anchor x="0.0" y="970" name="_top"/>
+  <anchor x="0.0" y="1355" name="top"/>
+  <outline>
+    <contour>
+      <point x="83.0" y="1205.0" type="qcurve" smooth="yes"/>
+      <point x="83.0" y="1274.0"/>
+      <point x="168.0" y="1355.0"/>
+      <point x="237.0" y="1355.0" type="qcurve" smooth="yes"/>
+      <point x="306.0" y="1355.0"/>
+      <point x="391.0" y="1272.0"/>
+      <point x="391.0" y="1205.0" type="qcurve" smooth="yes"/>
+      <point x="391.0" y="1138.0"/>
+      <point x="307.0" y="1055.0"/>
+      <point x="237.0" y="1055.0" type="qcurve" smooth="yes"/>
+      <point x="168.0" y="1055.0"/>
+      <point x="83.0" y="1139.0"/>
+    </contour>
+    <contour>
+      <point x="-391.0" y="1205.0" type="qcurve" smooth="yes"/>
+      <point x="-391.0" y="1274.0"/>
+      <point x="-307.0" y="1355.0"/>
+      <point x="-237.0" y="1355.0" type="qcurve" smooth="yes"/>
+      <point x="-168.0" y="1355.0"/>
+      <point x="-83.0" y="1272.0"/>
+      <point x="-83.0" y="1205.0" type="qcurve" smooth="yes"/>
+      <point x="-83.0" y="1138.0"/>
+      <point x="-168.0" y="1055.0"/>
+      <point x="-237.0" y="1055.0" type="qcurve" smooth="yes"/>
+      <point x="-306.0" y="1055.0"/>
+      <point x="-391.0" y="1139.0"/>
+    </contour>
+  </outline>
 </glyph>

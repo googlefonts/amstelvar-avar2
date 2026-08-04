@@ -1,10 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlautcomb" format="2">
-	<unicode hex="030B"/>
-	<advance width="896"/>
-	<outline>
-		<component base="hungarumlaut"/>
-	</outline>
-	<anchor name="_top" x="448" y="920"/>
-	<anchor name="top" x="448" y="1355"/>
+  <unicode hex="030B"/>
+  <anchor x="0.0" y="920" name="_top"/>
+  <anchor x="0.0" y="1355" name="top"/>
+  <outline>
+    <contour>
+      <point x="169.0" y="1285.0" type="qcurve" smooth="yes"/>
+      <point x="169.0" y="1265.0"/>
+      <point x="141.0" y="1231.0"/>
+      <point x="117.0" y="1219.0" type="qcurve" smooth="yes"/>
+      <point x="-216.0" y="1053.0" type="line"/>
+      <point x="-228.0" y="1069.0" type="line"/>
+      <point x="9.0" y="1312.0" type="line" smooth="yes"/>
+      <point x="27.0" y="1331.0"/>
+      <point x="74.0" y="1355.0"/>
+      <point x="102.0" y="1355.0" type="qcurve" smooth="yes"/>
+      <point x="131.0" y="1355.0"/>
+      <point x="169.0" y="1308.0"/>
+    </contour>
+    <contour>
+      <point x="469.0" y="1285.0" type="qcurve" smooth="yes"/>
+      <point x="469.0" y="1265.0"/>
+      <point x="441.0" y="1231.0"/>
+      <point x="417.0" y="1219.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="1053.0" type="line"/>
+      <point x="72.0" y="1069.0" type="line"/>
+      <point x="309.0" y="1312.0" type="line" smooth="yes"/>
+      <point x="327.0" y="1331.0"/>
+      <point x="374.0" y="1355.0"/>
+      <point x="402.0" y="1355.0" type="qcurve" smooth="yes"/>
+      <point x="431.0" y="1355.0"/>
+      <point x="469.0" y="1308.0"/>
+    </contour>
+  </outline>
 </glyph>
