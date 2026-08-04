@@ -5,9 +5,9 @@ import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
 import os, glob, time, json, string, itertools
-from fontTools.designspaceLib import DesignSpaceDocument
+from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor
 from xTools4.modules.xproject import xProject, makeParentAxis
-from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements
+from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
 from xTools4.modules.sys import timer
 
 
@@ -387,6 +387,244 @@ class AmstelvarA2Controller(xProject):
         super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametricSources=parametricSources, tuningSources=tuningSources)
 
 
+class AmstelvarA2Controller2(AmstelvarA2Controller):
+
+    '''
+    Alternative implementation of the AmstelvarA2 designspace.
+
+    - insert reference sources directly into parametric space
+    - no tuning axes or tuning sources needed
+    - keep mappings for blended sources
+    
+    '''
+
+    @property
+    def defaultLocation(self):
+        '''Returns the parametric location of the default source.'''
+        if not self.measurementsDefault:
+            return
+
+        # get parametric measurements
+        location = {}
+        for name in self.parametricAxes:
+            if name in self.measurementsDefault.values:
+                location[name] = permille(self.measurementsDefault.values[name], self.defaultFont.info.unitsPerEm)
+
+        location['GRAD'] = 0
+
+        # sort parameters based on list of parametric axes
+        locationSorted = {}
+        for parameterName in self.parametricAxes:
+            locationSorted[parameterName] = location[parameterName]
+        for key, value in location.items():
+            if key not in locationSorted:
+                locationSorted[key] = value
+
+        return locationSorted
+
+    @property
+    def designspaceFile(self):
+        return f"{self.familyName.replace(' ', '')}-{self.subFamily.replace(' ', '')}_v2.designspace"
+
+    def addReferenceSources(self, familyName=None):
+        '''Add reference sources to the designspace.'''
+
+        if self.verbose:
+            print('\tadding reference sources...')
+
+        referenceSources = { '_'.join(os.path.splitext(os.path.split(ufoPath)[-1])[0].split('_')[1:]) : ufoPath for ufoPath in self.referenceSourcesPaths.values() if 'GRAD' not in os.path.split(ufoPath)[-1] }
+
+        for styleName in referenceSources.keys():
+            parameters = self.blendedSources.get(styleName)
+
+            if styleName == self.defaultName:
+                print(f'skipping {styleName}...')
+                continue
+
+            src = SourceDescriptor()
+            src.path = referenceSources[styleName]
+            src.familyName = self.familyName if not familyName else familyName
+            src.styleName = src.name = styleName
+            L = parameters
+
+            src.location = L
+            self.designspace.addSource(src)
+
+    def addBlendedSources(self):
+        '''Add blended sources (mappings) to the designspace.'''
+
+        blendedAxes    = self.blendedAxes
+        blendedSources = self.blendedSources
+
+        if self.verbose:
+            print('\tadding blend mappings...')
+
+        for styleName in blendedSources.keys():
+            m = AxisMappingDescriptor()
+
+            # get input value from style name
+            inputLocation = {}
+            for param in styleName.split('_'):
+                tag = param[:4]
+
+                value = int(param[4:])
+                axisName  = blendedAxes[tag]['name']
+                inputLocation[axisName] = value
+
+            # get output value from blends.json file
+            outputLocation = {}
+            for axisName in blendedSources[styleName]:
+                outputLocation[axisName] = int(blendedSources[styleName][axisName])
+
+            m.inputLocation  = inputLocation
+            m.outputLocation = outputLocation
+            m.description    = styleName
+
+            self.designspace.addAxisMapping(m)
+
+    def buildBlendsFile(self, parentParametric=True):
+
+        if not os.path.exists(self.referenceBlendsPath):
+            return
+
+        with open(self.referenceBlendsPath, 'r', encoding='utf-8') as f:
+            blendsDict = json.load(f)
+
+        if self.verbose:
+            print('\tbuilding blends file...')
+
+        # add parent spacing axis
+
+        blendsDict['axes']['XTSP'] = {
+            "name"    : "Spacing",
+            "default" : 0,
+            "minimum" : -100,
+            "maximum" : 100,
+        }
+        blendsDict['sources']['XTSP-100'] = self.defaultLocation.copy()
+        blendsDict['sources']['XTSP100']  = self.defaultLocation.copy()
+
+        ### THIS IS A HACK !
+        del blendsDict['sources']['XTSP-100']['GRAD']
+        del blendsDict['sources']['XTSP100']['GRAD']
+
+        # if self.tuning:
+        #     # add tuning axes to blended locations
+        #     for styleName in blendsDict['sources']:
+        #         for tuningStyle, tuningAxis in self.tuningAxes.items():
+        #             tuningValue = tuningAxis.maximum if styleName == tuningStyle else tuningAxis.default
+        #             # print(f'\t\tadding tuning blend: {styleName} {tuningAxis.tag} {tuningValue}...')
+        #             blendsDict['sources'][styleName][tuningAxis.tag] = tuningValue
+
+        for axisName in self._spacingAxes:
+            values = []
+            for ufo in self.sourcesPaths:
+                value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
+                if axisName in ufo:
+                    values.append(value)
+            assert len(values)
+            values.sort()
+            blendsDict['sources']['XTSP-100'][axisName] = values[0]
+            blendsDict['sources']['XTSP100'][axisName]  = values[1]
+
+        # add parent parametric axes
+
+        if parentParametric:
+
+            measurements = readMeasurements(self.measurementsPath)
+            fontMeasurements = measurements['font']
+
+            parametricAxesDict = self.getParametricAxesFromSourceNames()
+
+            for parentAxisName in self.parentParametricAxes:
+                parentMeasurement = fontMeasurements[parentAxisName]
+
+                # get parametric axes for parent
+                parametricAxes = {}
+                childNames = [a[0] for a in fontMeasurements.items() if a[1]['parent'] == parentAxisName]
+                for childName in childNames:
+                    # get min/max values from file names
+                    values = []
+                    for ufo in self.sourcesPaths:
+                        if childName in ufo:
+                            value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
+                            values.append(value)
+                    if not len(values) == 2:
+                        if self.verbose:
+                            print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}...')
+                        continue
+                    values.sort()
+
+                    parametricAxes[childName] = {
+                        'minimum' : values[0],
+                        'maximum' : values[1],
+                        'default' : self.defaultLocation[childName],
+                    }
+
+                parentDefault = self._parentParametricAxesDefaults[parentAxisName]
+                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
+
+                # clip mapping values to the available parametric ranges
+                mappingsClipped = {}
+                for parentValue in mappings.keys():
+                    mappingsClipped[parentValue] = {}
+                    for tag, value in mappings[parentValue].items():
+                        if value < parametricAxesDict[tag]['minimum']:
+                            clippedValue = parametricAxesDict[tag]['minimum']
+                        elif value > parametricAxesDict[tag]['maximum']:
+                            clippedValue = parametricAxesDict[tag]['maximum']
+                        else:
+                            clippedValue = value
+                        mappingsClipped[parentValue][tag] = clippedValue
+
+                # add parent axis
+                blendsDict['axes'][parentAxisName] = parentAxis
+
+                # add parametric mappings
+                for mappingValue in mappingsClipped:
+                    blendsDict['sources'][f'{parentAxisName}{mappingValue}'] = {}
+                    for parametricAxisName, parametricValue in mappingsClipped[mappingValue].items():
+                        blendsDict['sources'][f'{parentAxisName}{mappingValue}'][parametricAxisName] = parametricValue
+
+        # done!
+
+        with open(self.blendsPath, 'w', encoding='utf-8') as f:
+            json.dump(blendsDict, f, indent=2)
+
+    def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
+
+        if self.verbose:
+            print(f'building {os.path.split(self.designspacePath)[-1]}...')
+
+        self.buildBlendsFile(parentParametric=parentParametric)
+        if patchBlends:
+            self.patchBlendsFile()
+
+        self.designspace = DesignSpaceDocument()
+
+        self.addBlendedAxes()
+        self.addParametricAxes(self._customParametricAxes)
+
+        # if self.tuning:
+        #     self.addTuningAxes()
+
+        self.addBlendedSources()
+        self.addDefaultSource()
+        self.addParametricSources()
+
+        if self.tuning:
+            self.addReferenceSources()
+
+        if instances:
+            self.addInstances()
+
+        self.addCustomKeysToLib()
+
+        self.save()
+
+
+
+
 if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
@@ -395,7 +633,9 @@ if __name__ == '__main__':
 
     start = time.time()
 
-    p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
+    controller = [AmstelvarA2Controller, AmstelvarA2Controller2][0]
+
+    p = controller(folder, 'AmstelvarA2', subFamily)
 
     referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
 
@@ -429,16 +669,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
