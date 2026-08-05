@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
-  <unicode hex="0301"/>
-  <anchor x="0.0" y="1050" name="_top"/>
-  <anchor x="0.0" y="1649" name="top"/>
-  <outline>
-    <contour>
-      <point x="404.0" y="1520.0" type="qcurve" smooth="yes"/>
-      <point x="404.0" y="1486.0"/>
-      <point x="331.0" y="1391.0"/>
-      <point x="275.0" y="1361.0" type="qcurve" smooth="yes"/>
-      <point x="-108.0" y="1150.0" type="line"/>
-      <point x="-186.0" y="1238.0" type="line"/>
-      <point x="70.0" y="1511.0" type="line" smooth="yes"/>
-      <point x="121.0" y="1565.0"/>
-      <point x="218.0" y="1649.0"/>
-      <point x="268.0" y="1649.0" type="qcurve" smooth="yes"/>
-      <point x="330.0" y="1649.0"/>
-      <point x="404.0" y="1564.0"/>
-    </contour>
-  </outline>
+	<unicode hex="0301"/>
+	<outline>
+		<contour>
+			<point x="404" y="1520" type="qcurve" smooth="yes"/>
+			<point x="404" y="1486"/>
+			<point x="331" y="1391"/>
+			<point x="275" y="1361" type="qcurve" smooth="yes"/>
+			<point x="-108" y="1150" type="line"/>
+			<point x="-186" y="1238" type="line"/>
+			<point x="70" y="1511" type="line" smooth="yes"/>
+			<point x="121" y="1565"/>
+			<point x="218" y="1649"/>
+			<point x="268" y="1649" type="qcurve" smooth="yes"/>
+			<point x="330" y="1649"/>
+			<point x="404" y="1564"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1050"/>
+	<anchor name="top" x="0" y="1649"/>
 </glyph>

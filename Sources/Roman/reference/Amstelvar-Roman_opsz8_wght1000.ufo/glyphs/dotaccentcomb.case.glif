@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccentcomb.case" format="2">
-  <anchor x="0.0" y="1500" name="_top"/>
-  <anchor x="0.0" y="2080" name="top"/>
-  <outline>
-    <contour>
-      <point x="-229.0" y="1887.0" type="qcurve" smooth="yes"/>
-      <point x="-229.0" y="1976.0"/>
-      <point x="-111.0" y="2080.0"/>
-      <point x="2.0" y="2080.0" type="qcurve" smooth="yes"/>
-      <point x="109.0" y="2080.0"/>
-      <point x="233.0" y="1972.0"/>
-      <point x="233.0" y="1887.0" type="qcurve" smooth="yes"/>
-      <point x="233.0" y="1801.0"/>
-      <point x="117.0" y="1700.0"/>
-      <point x="2.0" y="1700.0" type="qcurve" smooth="yes"/>
-      <point x="-106.0" y="1700.0"/>
-      <point x="-229.0" y="1804.0"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-229" y="1887" type="qcurve" smooth="yes"/>
+			<point x="-229" y="1976"/>
+			<point x="-111" y="2080"/>
+			<point x="2" y="2080" type="qcurve" smooth="yes"/>
+			<point x="109" y="2080"/>
+			<point x="233" y="1972"/>
+			<point x="233" y="1887" type="qcurve" smooth="yes"/>
+			<point x="233" y="1801"/>
+			<point x="117" y="1700"/>
+			<point x="2" y="1700" type="qcurve" smooth="yes"/>
+			<point x="-106" y="1700"/>
+			<point x="-229" y="1804"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2080"/>
 </glyph>

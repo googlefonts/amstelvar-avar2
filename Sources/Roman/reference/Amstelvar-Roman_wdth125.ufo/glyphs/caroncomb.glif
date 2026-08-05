@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb" format="2">
-  <unicode hex="030C"/>
-  <anchor x="0.0" y="1000" name="_top"/>
-  <anchor x="0.0" y="1511" name="top"/>
-  <outline>
-    <contour>
-      <point x="0.0" y="1122.0" type="qcurve" smooth="yes"/>
-      <point x="-42.0" y="1122.0"/>
-      <point x="-99.0" y="1153.0"/>
-      <point x="-138.0" y="1195.0" type="qcurve" smooth="yes"/>
-      <point x="-391.0" y="1438.0" type="line"/>
-      <point x="-324.0" y="1511.0" type="line"/>
-      <point x="0.0" y="1291.0" type="line"/>
-      <point x="324.0" y="1511.0" type="line"/>
-      <point x="391.0" y="1438.0" type="line"/>
-      <point x="138.0" y="1195.0" type="line" smooth="yes"/>
-      <point x="86.0" y="1146.0"/>
-      <point x="42.0" y="1122.0"/>
-    </contour>
-  </outline>
+	<unicode hex="030C"/>
+	<outline>
+		<contour>
+			<point x="0" y="1122" type="qcurve" smooth="yes"/>
+			<point x="-42" y="1122"/>
+			<point x="-99" y="1153"/>
+			<point x="-138" y="1195" type="qcurve" smooth="yes"/>
+			<point x="-391" y="1438" type="line"/>
+			<point x="-324" y="1511" type="line"/>
+			<point x="0" y="1291" type="line"/>
+			<point x="324" y="1511" type="line"/>
+			<point x="391" y="1438" type="line"/>
+			<point x="138" y="1195" type="line" smooth="yes"/>
+			<point x="86" y="1146"/>
+			<point x="42" y="1122"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1000"/>
+	<anchor name="top" x="0" y="1511"/>
 </glyph>

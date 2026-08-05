@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccentcomb" format="2">
-  <unicode hex="0307"/>
-  <anchor x="0.0" y="970" name="_top"/>
-  <anchor x="0.0" y="1341.41" name="top"/>
-  <outline>
-    <contour>
-      <point x="-167.91000000000003" y="1199.65" type="qcurve" smooth="yes"/>
-      <point x="-167.91000000000003" y="1275.1"/>
-      <point x="-74.74000000000001" y="1367.41"/>
-      <point x="0.0" y="1367.41" type="qcurve" smooth="yes"/>
-      <point x="70.88" y="1367.41"/>
-      <point x="167.90999999999997" y="1268.24"/>
-      <point x="167.90999999999997" y="1199.65" type="qcurve" smooth="yes"/>
-      <point x="167.90999999999997" y="1126.34"/>
-      <point x="76.16999999999996" y="1033.03"/>
-      <point x="0.0" y="1033.03" type="qcurve" smooth="yes"/>
-      <point x="-71.31" y="1033.03"/>
-      <point x="-167.91000000000003" y="1129.63"/>
-    </contour>
-  </outline>
+	<unicode hex="0307"/>
+	<outline>
+		<contour>
+			<point x="-167.91" y="1199.65" type="qcurve" smooth="yes"/>
+			<point x="-167.91" y="1275.1"/>
+			<point x="-74.74" y="1367.41"/>
+			<point x="0" y="1367.41" type="qcurve" smooth="yes"/>
+			<point x="70.88" y="1367.41"/>
+			<point x="167.91" y="1268.24"/>
+			<point x="167.91" y="1199.65" type="qcurve" smooth="yes"/>
+			<point x="167.91" y="1126.34"/>
+			<point x="76.17" y="1033.03"/>
+			<point x="0" y="1033.03" type="qcurve" smooth="yes"/>
+			<point x="-71.31" y="1033.03"/>
+			<point x="-167.91" y="1129.63"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="970"/>
+	<anchor name="top" x="0" y="1341.41"/>
 </glyph>

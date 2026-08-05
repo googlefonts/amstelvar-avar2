@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="2">
 	<unicode hex="0389"/>
-	<advance width="1608"/>
+	<advance width="1617"/>
 	<outline>
-		<component base="Eta" xOffset="352"/>
-		<component base="tonos.case" xOffset="-381"/>
+		<component base="H" xOffset="361"/>
+		<component base="tonoscomb.case" xOffset="299"/>
 	</outline>
+	<note>
+10,H
+</note>
 </glyph>

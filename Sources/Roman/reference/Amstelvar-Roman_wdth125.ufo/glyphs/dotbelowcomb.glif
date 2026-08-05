@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb" format="2">
-  <unicode hex="0323"/>
-  <anchor x="0.0" y="0" name="_bottom"/>
-  <anchor x="0.0" y="-452" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="-118.0" y="-336.0" type="qcurve" smooth="yes"/>
-      <point x="-118.0" y="-281.0"/>
-      <point x="-58.0" y="-221.0"/>
-      <point x="0.0" y="-221.0" type="qcurve" smooth="yes"/>
-      <point x="54.0" y="-221.0"/>
-      <point x="118.0" y="-285.0"/>
-      <point x="118.0" y="-336.0" type="qcurve" smooth="yes"/>
-      <point x="118.0" y="-392.0"/>
-      <point x="58.0" y="-452.0"/>
-      <point x="0.0" y="-452.0" type="qcurve" smooth="yes"/>
-      <point x="-54.0" y="-452.0"/>
-      <point x="-118.0" y="-388.0"/>
-    </contour>
-  </outline>
+	<unicode hex="0323"/>
+	<outline>
+		<contour>
+			<point x="-118" y="-336" type="qcurve" smooth="yes"/>
+			<point x="-118" y="-281"/>
+			<point x="-58" y="-221"/>
+			<point x="0" y="-221" type="qcurve" smooth="yes"/>
+			<point x="54" y="-221"/>
+			<point x="118" y="-285"/>
+			<point x="118" y="-336" type="qcurve" smooth="yes"/>
+			<point x="118" y="-392"/>
+			<point x="58" y="-452"/>
+			<point x="0" y="-452" type="qcurve" smooth="yes"/>
+			<point x="-54" y="-452"/>
+			<point x="-118" y="-388"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="0" y="-452"/>
 </glyph>

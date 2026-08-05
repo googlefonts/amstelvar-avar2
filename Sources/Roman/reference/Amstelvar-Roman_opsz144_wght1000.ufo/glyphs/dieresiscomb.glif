@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
-  <unicode hex="0308"/>
-  <anchor x="0.0" y="970" name="_GRK_top"/>
-  <anchor x="0.0" y="970" name="_top"/>
-  <anchor x="0.0" y="1338" name="top"/>
-  <outline>
-    <contour>
-      <point x="75.0" y="1197.0" type="qcurve" smooth="yes"/>
-      <point x="75.0" y="1262.0"/>
-      <point x="154.0" y="1338.0"/>
-      <point x="219.0" y="1338.0" type="qcurve" smooth="yes"/>
-      <point x="284.0" y="1338.0"/>
-      <point x="364.0" y="1260.0"/>
-      <point x="364.0" y="1197.0" type="qcurve" smooth="yes"/>
-      <point x="364.0" y="1133.0"/>
-      <point x="285.0" y="1055.0"/>
-      <point x="219.0" y="1055.0" type="qcurve" smooth="yes"/>
-      <point x="154.0" y="1055.0"/>
-      <point x="75.0" y="1134.0"/>
-    </contour>
-    <contour>
-      <point x="-353.0" y="1197.0" type="qcurve" smooth="yes"/>
-      <point x="-353.0" y="1262.0"/>
-      <point x="-274.0" y="1338.0"/>
-      <point x="-208.0" y="1338.0" type="qcurve" smooth="yes"/>
-      <point x="-143.0" y="1338.0"/>
-      <point x="-63.0" y="1260.0"/>
-      <point x="-63.0" y="1197.0" type="qcurve" smooth="yes"/>
-      <point x="-63.0" y="1133.0"/>
-      <point x="-143.0" y="1055.0"/>
-      <point x="-208.0" y="1055.0" type="qcurve" smooth="yes"/>
-      <point x="-273.0" y="1055.0"/>
-      <point x="-353.0" y="1134.0"/>
-    </contour>
-  </outline>
+	<unicode hex="0308"/>
+	<outline>
+		<contour>
+			<point x="75" y="1197" type="qcurve" smooth="yes"/>
+			<point x="75" y="1262"/>
+			<point x="154" y="1338"/>
+			<point x="219" y="1338" type="qcurve" smooth="yes"/>
+			<point x="284" y="1338"/>
+			<point x="364" y="1260"/>
+			<point x="364" y="1197" type="qcurve" smooth="yes"/>
+			<point x="364" y="1133"/>
+			<point x="285" y="1055"/>
+			<point x="219" y="1055" type="qcurve" smooth="yes"/>
+			<point x="154" y="1055"/>
+			<point x="75" y="1134"/>
+		</contour>
+		<contour>
+			<point x="-353" y="1197" type="qcurve" smooth="yes"/>
+			<point x="-353" y="1262"/>
+			<point x="-274" y="1338"/>
+			<point x="-208" y="1338" type="qcurve" smooth="yes"/>
+			<point x="-143" y="1338"/>
+			<point x="-63" y="1260"/>
+			<point x="-63" y="1197" type="qcurve" smooth="yes"/>
+			<point x="-63" y="1133"/>
+			<point x="-143" y="1055"/>
+			<point x="-208" y="1055" type="qcurve" smooth="yes"/>
+			<point x="-273" y="1055"/>
+			<point x="-353" y="1134"/>
+		</contour>
+	</outline>
+	<anchor name="_GRK_top" x="0" y="970"/>
+	<anchor name="_top" x="0" y="970"/>
+	<anchor name="top" x="0" y="1338"/>
 </glyph>

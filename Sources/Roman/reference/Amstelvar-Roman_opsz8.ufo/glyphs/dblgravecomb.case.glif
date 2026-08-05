@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb.case" format="2">
-  <anchor x="0.0" y="1500" name="_top"/>
-  <anchor x="0.0" y="2104" name="top"/>
-  <outline>
-    <contour>
-      <point x="-522.0" y="2012.0" type="qcurve" smooth="yes"/>
-      <point x="-522.0" y="2047.0"/>
-      <point x="-461.0" y="2104.0"/>
-      <point x="-412.0" y="2104.0" type="qcurve" smooth="yes"/>
-      <point x="-375.0" y="2104.0"/>
-      <point x="-297.0" y="2053.0"/>
-      <point x="-265.0" y="2011.0" type="qcurve" smooth="yes"/>
-      <point x="-85.0" y="1779.0" type="line"/>
-      <point x="-192.0" y="1683.0" type="line"/>
-      <point x="-427.0" y="1874.0" type="line" smooth="yes"/>
-      <point x="-466.0" y="1906.0"/>
-      <point x="-522.0" y="1965.0"/>
-    </contour>
-    <contour>
-      <point x="-118.0" y="2012.0" type="qcurve" smooth="yes"/>
-      <point x="-118.0" y="2047.0"/>
-      <point x="-55.0" y="2104.0"/>
-      <point x="-6.0" y="2104.0" type="qcurve" smooth="yes"/>
-      <point x="31.0" y="2104.0"/>
-      <point x="99.0" y="2053.0"/>
-      <point x="133.0" y="2011.0" type="qcurve" smooth="yes"/>
-      <point x="320.0" y="1779.0" type="line"/>
-      <point x="206.0" y="1683.0" type="line"/>
-      <point x="-23.0" y="1874.0" type="line" smooth="yes"/>
-      <point x="-62.0" y="1907.0"/>
-      <point x="-118.0" y="1965.0"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-522" y="2012" type="qcurve" smooth="yes"/>
+			<point x="-522" y="2047"/>
+			<point x="-461" y="2104"/>
+			<point x="-412" y="2104" type="qcurve" smooth="yes"/>
+			<point x="-375" y="2104"/>
+			<point x="-297" y="2053"/>
+			<point x="-265" y="2011" type="qcurve" smooth="yes"/>
+			<point x="-85" y="1779" type="line"/>
+			<point x="-192" y="1683" type="line"/>
+			<point x="-427" y="1874" type="line" smooth="yes"/>
+			<point x="-466" y="1906"/>
+			<point x="-522" y="1965"/>
+		</contour>
+		<contour>
+			<point x="-118" y="2012" type="qcurve" smooth="yes"/>
+			<point x="-118" y="2047"/>
+			<point x="-55" y="2104"/>
+			<point x="-6" y="2104" type="qcurve" smooth="yes"/>
+			<point x="31" y="2104"/>
+			<point x="99" y="2053"/>
+			<point x="133" y="2011" type="qcurve" smooth="yes"/>
+			<point x="320" y="1779" type="line"/>
+			<point x="206" y="1683" type="line"/>
+			<point x="-23" y="1874" type="line" smooth="yes"/>
+			<point x="-62" y="1907"/>
+			<point x="-118" y="1965"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2104"/>
 </glyph>
