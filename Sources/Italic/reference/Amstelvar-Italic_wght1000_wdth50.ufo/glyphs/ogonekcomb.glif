@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcomb" format="2">
 	<unicode hex="0328"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="ogonek"/>
+		<contour>
+			<point x="-304.0540540541" y="-223" type="qcurve" smooth="yes"/>
+			<point x="-310.0540540541" y="-269"/>
+			<point x="-246.0540540541" y="-320"/>
+			<point x="-196.0540540541" y="-320" type="qcurve" smooth="yes"/>
+			<point x="-140.0540540541" y="-320"/>
+			<point x="-51.0540540541" y="-290"/>
+			<point x="2.9459459459" y="-253" type="qcurve"/>
+			<point x="45.9459459459" y="-331" type="line"/>
+			<point x="5.9459459459" y="-370"/>
+			<point x="-172.0540540541" y="-451"/>
+			<point x="-279.0540540541" y="-451" type="qcurve" smooth="yes"/>
+			<point x="-396.0540540541" y="-451"/>
+			<point x="-520.0540540541" y="-362"/>
+			<point x="-508.0540540541" y="-280" type="qcurve" smooth="yes"/>
+			<point x="-495.0540540541" y="-185"/>
+			<point x="-351.0540540541" y="-44"/>
+			<point x="-257.0540540541" y="18" type="qcurve" smooth="yes"/>
+			<point x="-233.0540540541" y="34" type="line"/>
+			<point x="-154.0540540541" y="-15" type="line"/>
+			<point x="-169.0540540541" y="-29" type="line" smooth="yes"/>
+			<point x="-243.0540540541" y="-96"/>
+			<point x="-299.0540540541" y="-180"/>
+		</contour>
 	</outline>
 </glyph>

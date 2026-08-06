@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
 	<unicode hex="0308"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="dieresis"/>
+		<contour>
+			<point x="183" y="1275" type="qcurve" smooth="yes"/>
+			<point x="183" y="1318"/>
+			<point x="230" y="1366"/>
+			<point x="274" y="1366" type="qcurve" smooth="yes"/>
+			<point x="316" y="1366"/>
+			<point x="367" y="1315"/>
+			<point x="367" y="1275" type="qcurve" smooth="yes"/>
+			<point x="367" y="1232"/>
+			<point x="319" y="1185"/>
+			<point x="274" y="1185" type="qcurve" smooth="yes"/>
+			<point x="232" y="1185"/>
+			<point x="183" y="1234"/>
+		</contour>
+		<contour>
+			<point x="-195" y="1275" type="qcurve" smooth="yes"/>
+			<point x="-195" y="1318"/>
+			<point x="-146" y="1366"/>
+			<point x="-102" y="1366" type="qcurve" smooth="yes"/>
+			<point x="-60" y="1366"/>
+			<point x="-10" y="1315"/>
+			<point x="-10" y="1275" type="qcurve" smooth="yes"/>
+			<point x="-10" y="1232"/>
+			<point x="-57" y="1185"/>
+			<point x="-102" y="1185" type="qcurve" smooth="yes"/>
+			<point x="-144" y="1185"/>
+			<point x="-195" y="1234"/>
+		</contour>
 	</outline>
-	<anchor name="_GRKtop" x="606" y="960"/>
+	<anchor name="_GRKtop" x="73" y="960"/>
 </glyph>

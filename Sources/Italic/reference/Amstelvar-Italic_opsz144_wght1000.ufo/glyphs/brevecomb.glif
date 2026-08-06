@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb" format="2">
 	<unicode hex="0306"/>
-	<advance width="896"/>
 	<outline>
-		<component base="breve"/>
+		<contour>
+			<point x="342.3243243243" y="1394" type="qcurve"/>
+			<point x="402.3243243243" y="1386" type="line"/>
+			<point x="361.3243243243" y="1244"/>
+			<point x="155.3243243243" y="1086"/>
+			<point x="6.3243243243" y="1086" type="qcurve" smooth="yes"/>
+			<point x="-139.6756756757" y="1086"/>
+			<point x="-284.6756756757" y="1280"/>
+			<point x="-264.6756756757" y="1402" type="qcurve"/>
+			<point x="-199.6756756757" y="1407" type="line"/>
+			<point x="-185.6756756757" y="1314"/>
+			<point x="-53.6756756757" y="1245"/>
+			<point x="43.3243243243" y="1245" type="qcurve" smooth="yes"/>
+			<point x="166.3243243243" y="1245"/>
+			<point x="301.3243243243" y="1325"/>
+		</contour>
 	</outline>
 </glyph>
