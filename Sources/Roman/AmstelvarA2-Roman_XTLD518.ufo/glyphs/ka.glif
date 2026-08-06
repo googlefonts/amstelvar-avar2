@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka" format="2">
 	<unicode hex="043A"/>
-	<advance width="1752"/>
+	<advance width="1534"/>
 	<outline>
 		<contour>
 			<point x="230" y="500" type="line"/>
-			<point x="227" y="885" type="line"/>
+			<point x="228" y="885" type="line"/>
 			<point x="80" y="920" type="line"/>
 			<point x="80" y="1000" type="line"/>
 			<point x="536" y="1000" type="line"/>
@@ -17,33 +17,33 @@
 			<point x="536" y="0" type="line"/>
 			<point x="80" y="0" type="line"/>
 			<point x="80" y="80" type="line"/>
-			<point x="227" y="115" type="line"/>
+			<point x="228" y="115" type="line"/>
 		</contour>
 		<contour>
 			<point x="313" y="567" type="line"/>
-			<point x="803" y="564" type="line"/>
-			<point x="1388" y="880" type="line"/>
-			<point x="1221" y="920" type="line"/>
-			<point x="1221" y="1000" type="line"/>
-			<point x="1701" y="1000" type="line"/>
-			<point x="1701" y="921" type="line"/>
-			<point x="1543" y="875" type="line"/>
-			<point x="775" y="473" type="line"/>
-			<point x="758" y="464" type="line"/>
+			<point x="634" y="564" type="line"/>
+			<point x="1078" y="880" type="line"/>
+			<point x="911" y="920" type="line"/>
+			<point x="911" y="1000" type="line"/>
+			<point x="1441" y="1000" type="line"/>
+			<point x="1441" y="921" type="line"/>
+			<point x="1283" y="875" type="line"/>
+			<point x="670" y="473" type="line"/>
+			<point x="663" y="464" type="line"/>
 			<point x="313" y="462" type="line"/>
 		</contour>
 		<contour>
-			<point x="682" y="484" type="line"/>
-			<point x="825" y="547" type="line"/>
-			<point x="1620" y="115" type="line"/>
-			<point x="1738" y="80" type="line"/>
-			<point x="1738" y="0" type="line"/>
-			<point x="1344" y="0" type="line"/>
-			<point x="1326" y="79" type="line"/>
-			<point x="1341" y="111" type="line"/>
+			<point x="619" y="484" type="line"/>
+			<point x="746" y="572" type="line"/>
+			<point x="1402" y="115" type="line"/>
+			<point x="1520" y="80" type="line"/>
+			<point x="1520" y="0" type="line"/>
+			<point x="1152" y="0" type="line"/>
+			<point x="1140" y="79" type="line"/>
+			<point x="1149" y="111" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="854" y="0"/>
-	<anchor name="top" x="860" y="1000"/>
-	<anchor name="cy_descender" x="1738" y="80"/>
+	<anchor name="bottom" x="851" y="0"/>
+	<anchor name="top" x="731" y="1000"/>
+	<anchor name="cy_descender" x="1520" y="80"/>
 </glyph>
