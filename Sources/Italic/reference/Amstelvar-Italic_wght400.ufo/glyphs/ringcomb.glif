@@ -3,32 +3,34 @@
 	<unicode hex="030A"/>
 	<outline>
 		<contour>
-			<point x="-152" y="1333" type="qcurve" smooth="yes"/>
-			<point x="-152" y="1423"/>
-			<point x="-21" y="1549"/>
-			<point x="73" y="1549" type="qcurve" smooth="yes"/>
-			<point x="167" y="1549"/>
-			<point x="298" y="1423"/>
-			<point x="298" y="1333" type="qcurve" smooth="yes"/>
-			<point x="298" y="1243"/>
-			<point x="167" y="1117"/>
-			<point x="73" y="1117" type="qcurve" smooth="yes"/>
-			<point x="-21" y="1117"/>
-			<point x="-152" y="1243"/>
+			<point x="-127" y="1359" type="qcurve" smooth="yes"/>
+			<point x="-127" y="1449"/>
+			<point x="4" y="1575"/>
+			<point x="98" y="1575" type="qcurve" smooth="yes"/>
+			<point x="192" y="1575"/>
+			<point x="323" y="1449"/>
+			<point x="323" y="1359" type="qcurve" smooth="yes"/>
+			<point x="323" y="1269"/>
+			<point x="192" y="1143"/>
+			<point x="98" y="1143" type="qcurve" smooth="yes"/>
+			<point x="4" y="1143"/>
+			<point x="-127" y="1269"/>
 		</contour>
 		<contour>
-			<point x="-35" y="1333" type="qcurve" smooth="yes"/>
-			<point x="-35" y="1284"/>
-			<point x="23" y="1225"/>
-			<point x="73" y="1225" type="qcurve" smooth="yes"/>
-			<point x="126" y="1225"/>
-			<point x="181" y="1281"/>
-			<point x="181" y="1333" type="qcurve" smooth="yes"/>
-			<point x="181" y="1382"/>
-			<point x="123" y="1441"/>
-			<point x="73" y="1441" type="qcurve" smooth="yes"/>
-			<point x="21" y="1441"/>
-			<point x="-35" y="1386"/>
+			<point x="-10" y="1359" type="qcurve" smooth="yes"/>
+			<point x="-10" y="1310"/>
+			<point x="48" y="1251"/>
+			<point x="98" y="1251" type="qcurve" smooth="yes"/>
+			<point x="151" y="1251"/>
+			<point x="206" y="1307"/>
+			<point x="206" y="1359" type="qcurve" smooth="yes"/>
+			<point x="206" y="1408"/>
+			<point x="148" y="1467"/>
+			<point x="98" y="1467" type="qcurve" smooth="yes"/>
+			<point x="46" y="1467"/>
+			<point x="-10" y="1412"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="-2" y="1000"/>
+	<anchor name="top" x="108" y="1565"/>
 </glyph>
