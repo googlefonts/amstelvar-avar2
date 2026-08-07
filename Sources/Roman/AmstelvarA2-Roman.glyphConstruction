@@ -533,7 +533,7 @@ omacroncyr = o + macroncomb@top | 0xf519
 palochka = l | 0x4cf
 pe.locl = pe | None
 schwacyr = schwa | 0x4d9
-shcha = sha + cy-descendercomb@cy_descender | 0x449
+shcha = sha + cy-descendercomb@cy_descender ^ sha, cy-descendercomb | 0x449
 shha = h | 0x4bb
 te.locl = te | None
 tedescender-cy = te + cy-descendercomb@cy_descender ^ te, cy-descendercomb  | 0x4ad
@@ -560,9 +560,9 @@ igrave.bgr = u + gravecomb@top | None
 ishort.bgr = u + breve.cyrcomb@top | None
 ka.bgr = k | None
 pe.bgr = n | None
-shcha.bgr = sha.bgr + cy-descendercomb@cy_descender | None
+shcha.bgr = sha.bgr + cy-descendercomb@cy_descender ^ sha.bgr, cy-descendercomb | None
 te.bgr = m | None
-tse.bgr = u + cy-descendercomb@cy_descender | None
+tse.bgr = u + cy-descendercomb@cy_descender ^ u, cy-descendercomb | None
 yu.bgr = l + yu.bgr-stroke@yu_dash + o@yu_dash ^ l,o | None
 
 # -----------------
