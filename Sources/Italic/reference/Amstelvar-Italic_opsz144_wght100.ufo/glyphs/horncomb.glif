@@ -2,28 +2,28 @@
 <glyph name="horncomb" format="2">
 	<outline>
 		<contour>
-			<point x="-122" y="921" type="line"/>
-			<point x="-98" y="919"/>
-			<point x="-40" y="917"/>
-			<point x="-7" y="917" type="qcurve" smooth="yes"/>
-			<point x="62" y="917"/>
-			<point x="130" y="977"/>
-			<point x="130" y="1025" type="qcurve" smooth="yes"/>
-			<point x="130" y="1075"/>
-			<point x="106" y="1143"/>
-			<point x="98" y="1158" type="qcurve"/>
-			<point x="133" y="1158" type="line"/>
-			<point x="142" y="1146"/>
-			<point x="179" y="1060"/>
-			<point x="179" y="1009" type="qcurve" smooth="yes"/>
-			<point x="179" y="956"/>
-			<point x="85" y="889"/>
-			<point x="7" y="889" type="qcurve" smooth="yes"/>
-			<point x="-23" y="889"/>
-			<point x="-108" y="903"/>
-			<point x="-122" y="908" type="qcurve"/>
+			<point x="0" y="920" type="line"/>
+			<point x="24" y="918"/>
+			<point x="82" y="916"/>
+			<point x="115" y="916" type="qcurve" smooth="yes"/>
+			<point x="184" y="916"/>
+			<point x="252" y="976"/>
+			<point x="252" y="1024" type="qcurve" smooth="yes"/>
+			<point x="252" y="1074"/>
+			<point x="228" y="1142"/>
+			<point x="220" y="1157" type="qcurve"/>
+			<point x="255" y="1157" type="line"/>
+			<point x="264" y="1145"/>
+			<point x="301" y="1059"/>
+			<point x="301" y="1008" type="qcurve" smooth="yes"/>
+			<point x="301" y="955"/>
+			<point x="207" y="888"/>
+			<point x="129" y="888" type="qcurve" smooth="yes"/>
+			<point x="99" y="888"/>
+			<point x="14" y="902"/>
+			<point x="0" y="907" type="qcurve"/>
 		</contour>
 	</outline>
-	<anchor name="_topright" x="-180" y="920"/>
-	<anchor name="topright" x="-180" y="1142"/>
+	<anchor name="_topright" x="0" y="920"/>
+	<anchor name="topright" x="43" y="1142"/>
 </glyph>
