@@ -3,18 +3,20 @@
 	<unicode hex="0307"/>
 	<outline>
 		<contour>
-			<point x="-31" y="1160" type="qcurve" smooth="yes"/>
+			<point x="-31" y="1160" type="qcurve"/>
 			<point x="-31" y="1205"/>
 			<point x="17" y="1252"/>
-			<point x="63" y="1252" type="qcurve" smooth="yes"/>
+			<point x="63" y="1252" type="qcurve"/>
 			<point x="106" y="1252"/>
 			<point x="157" y="1201"/>
-			<point x="157" y="1160" type="qcurve" smooth="yes"/>
+			<point x="157" y="1160" type="qcurve"/>
 			<point x="157" y="1115"/>
 			<point x="109" y="1067"/>
-			<point x="63" y="1067" type="qcurve" smooth="yes"/>
+			<point x="63" y="1067" type="qcurve"/>
 			<point x="20" y="1067"/>
 			<point x="-31" y="1118"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="32" y="920"/>
+	<anchor name="top" x="94" y="1236"/>
 </glyph>

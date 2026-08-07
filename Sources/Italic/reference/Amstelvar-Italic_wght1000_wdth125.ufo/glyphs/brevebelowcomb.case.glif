@@ -2,20 +2,22 @@
 <glyph name="brevebelowcomb.case" format="2">
 	<outline>
 		<contour>
-			<point x="93.1152073733" y="-184" type="qcurve"/>
-			<point x="189.1152073733" y="-228" type="line"/>
-			<point x="133.1152073733" y="-375"/>
-			<point x="-138.8847926267" y="-578"/>
-			<point x="-327.8847926267" y="-578" type="qcurve" smooth="yes"/>
-			<point x="-515.8847926267" y="-578"/>
-			<point x="-710.8847926267" y="-373"/>
-			<point x="-699.8847926267" y="-231" type="qcurve"/>
-			<point x="-579.8847926267" y="-183" type="line"/>
-			<point x="-554.8847926267" y="-261"/>
-			<point x="-412.8847926267" y="-371"/>
-			<point x="-284.8847926267" y="-371" type="qcurve" smooth="yes"/>
-			<point x="-151.8847926267" y="-371"/>
-			<point x="41.1152073733" y="-259"/>
+			<point x="349" y="-184" type="qcurve"/>
+			<point x="445" y="-228" type="line"/>
+			<point x="389" y="-375"/>
+			<point x="117" y="-578"/>
+			<point x="-72" y="-578" type="qcurve" smooth="yes"/>
+			<point x="-260" y="-578"/>
+			<point x="-455" y="-373"/>
+			<point x="-444" y="-231" type="qcurve"/>
+			<point x="-324" y="-183" type="line"/>
+			<point x="-299" y="-261"/>
+			<point x="-157" y="-371"/>
+			<point x="-29" y="-371" type="qcurve" smooth="yes"/>
+			<point x="104" y="-371"/>
+			<point x="297" y="-259"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="-89" y="-460"/>
 </glyph>
