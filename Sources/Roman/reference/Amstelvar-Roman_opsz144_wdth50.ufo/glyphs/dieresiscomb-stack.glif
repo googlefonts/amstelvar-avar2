@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb-stack" format="2">
+	<outline>
+		<contour>
+			<point x="42" y="1205" type="qcurve" smooth="yes"/>
+			<point x="42" y="1240"/>
+			<point x="85" y="1284"/>
+			<point x="117" y="1284" type="qcurve" smooth="yes"/>
+			<point x="149" y="1284"/>
+			<point x="192" y="1241"/>
+			<point x="192" y="1205" type="qcurve" smooth="yes"/>
+			<point x="192" y="1171"/>
+			<point x="149" y="1126"/>
+			<point x="117" y="1126" type="qcurve" smooth="yes"/>
+			<point x="85" y="1126"/>
+			<point x="42" y="1171"/>
+		</contour>
+		<contour>
+			<point x="-192" y="1205" type="qcurve" smooth="yes"/>
+			<point x="-192" y="1240"/>
+			<point x="-149" y="1284"/>
+			<point x="-117" y="1284" type="qcurve" smooth="yes"/>
+			<point x="-85" y="1284"/>
+			<point x="-42" y="1241"/>
+			<point x="-42" y="1205" type="qcurve" smooth="yes"/>
+			<point x="-42" y="1171"/>
+			<point x="-85" y="1126"/>
+			<point x="-117" y="1126" type="qcurve" smooth="yes"/>
+			<point x="-149" y="1126"/>
+			<point x="-192" y="1171"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1053"/>
+	<anchor name="top" x="0" y="1337"/>
+</glyph>

@@ -23,6 +23,7 @@
 			<point x="1540" y="917" type="line"/>
 			<point x="1439" y="887" type="line"/>
 			<point x="1044" y="462" type="line"/>
+			<point x="1043" y="462" type="line"/>
 			<point x="778" y="460" type="line"/>
 		</contour>
 		<contour>
@@ -38,6 +39,7 @@
 		<contour>
 			<point x="778" y="518" type="line"/>
 			<point x="778" y="460" type="line"/>
+			<point x="513" y="462" type="line"/>
 			<point x="512" y="462" type="line"/>
 			<point x="117" y="887" type="line"/>
 			<point x="16" y="917" type="line"/>
@@ -66,4 +68,5 @@
 	</outline>
 	<anchor name="bottom" x="788" y="0"/>
 	<anchor name="top" x="788" y="970"/>
+	<anchor name="cy_descender" x="1626" y="61"/>
 </glyph>
