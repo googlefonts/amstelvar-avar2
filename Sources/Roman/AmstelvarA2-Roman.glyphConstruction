@@ -341,7 +341,7 @@ emacron = e + macroncomb@top | 0x113
 etilde = e + tildecomb@top | 0x1ebd
 eogonek = e + ogonekcomb@ogonek | 0x119
 
-eng = engn + engtail@engtail | 0x14b
+eng = engn + engtail@engtail ^ n | 0x14b
 
 gbreve = g + brevecomb@top | 0x11f
 gcaron = g + caroncomb@top | 0x1e7
