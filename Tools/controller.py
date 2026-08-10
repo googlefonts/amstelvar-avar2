@@ -382,9 +382,9 @@ class AmstelvarA2Controller(xProject):
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
         super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
 
-    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametricSources=True, tuningSources=True):
+    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
         oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
-        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametricSources=parametricSources, tuningSources=tuningSources)
+        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
 
 
 class AmstelvarA2Controller2(AmstelvarA2Controller):
