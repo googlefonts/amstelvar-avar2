@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Engtail" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="607" y="117" type="line"/>
+			<point x="667" y="117" type="line"/>
+			<point x="667" y="-206" type="line" smooth="yes"/>
+			<point x="667" y="-322"/>
+			<point x="542" y="-443"/>
+			<point x="442" y="-443" type="qcurve" smooth="yes"/>
+			<point x="368" y="-443"/>
+			<point x="218" y="-359"/>
+			<point x="203" y="-329" type="qcurve"/>
+			<point x="233" y="-293" type="line"/>
+			<point x="280" y="-342"/>
+			<point x="390" y="-384"/>
+			<point x="446" y="-384" type="qcurve" smooth="yes"/>
+			<point x="518" y="-384"/>
+			<point x="599" y="-298"/>
+			<point x="599" y="-221" type="qcurve" smooth="yes"/>
+			<point x="599" y="-142"/>
+			<point x="599" y="83"/>
+			<point x="599" y="83" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="_engtail" x="667" y="0"/>
+</glyph>

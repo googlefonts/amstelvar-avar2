@@ -3,7 +3,9 @@
 	<unicode hex="0133"/>
 	<advance width="1284"/>
 	<outline>
-		<component base="i"/>
-		<component base="j" xOffset="660"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="330"/>
+		<component base="jdotless" xOffset="660"/>
+		<component base="idot" xOffset="972"/>
 	</outline>
 </glyph>
