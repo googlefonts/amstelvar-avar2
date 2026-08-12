@@ -666,7 +666,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(list('ij'), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources('cent copyright registered trademark'.split(), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -677,8 +677,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=False, tuning=False, reference=True)
-    p.normalizeSources(parametric=False, tuning=False, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
