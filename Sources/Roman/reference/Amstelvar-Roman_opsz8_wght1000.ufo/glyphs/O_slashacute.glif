@@ -3,7 +3,8 @@
 	<unicode hex="01FE"/>
 	<advance width="2000"/>
 	<outline>
-		<component base="Oslash"/>
-		<component base="acutecomb.case" xOffset="488"/>
+		<component base="O"/>
+		<component base="diagonalbarO" xOffset="460" yOffset="1"/>
+		<component base="acutecomb.case" xOffset="1000"/>
 	</outline>
 </glyph>
