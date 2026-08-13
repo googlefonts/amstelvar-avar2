@@ -3,6 +3,7 @@
 	<unicode hex="03AB"/>
 	<advance width="2100"/>
 	<outline>
-		<component base="Ydieresis"/>
+		<component base="Y"/>
+		<component base="dieresiscomb.case" xOffset="1050"/>
 	</outline>
 </glyph>

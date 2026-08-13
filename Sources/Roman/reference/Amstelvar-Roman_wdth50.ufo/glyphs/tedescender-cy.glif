@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tedescender-cy" format="2">
 	<unicode hex="04AD"/>
-	<advance width="735"/>
+	<advance width="745"/>
 	<outline>
-		<contour>
-			<point x="446" y="100" type="line"/>
-			<point x="546" y="100" type="line"/>
-			<point x="556" y="-318" type="line"/>
-			<point x="474" y="-318" type="line"/>
-			<point x="388" y="0" type="line"/>
-			<point x="189" y="0" type="line"/>
-			<point x="189" y="80" type="line"/>
-			<point x="289" y="115" type="line"/>
-			<point x="292" y="501" type="line"/>
-			<point x="289" y="900" type="line"/>
-			<point x="167" y="900" type="line"/>
-			<point x="112" y="662" type="line"/>
-			<point x="30" y="662" type="line"/>
-			<point x="30" y="1000" type="line"/>
-			<point x="705" y="1000" type="line"/>
-			<point x="705" y="662" type="line"/>
-			<point x="623" y="662" type="line"/>
-			<point x="568" y="900" type="line"/>
-			<point x="446" y="900" type="line"/>
-			<point x="444" y="500" type="line"/>
-		</contour>
+		<component base="te"/>
+		<component base="cy-descendercomb" xOffset="-156"/>
 	</outline>
 </glyph>

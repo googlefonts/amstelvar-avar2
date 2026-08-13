@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="2">
 	<unicode hex="0388"/>
-	<advance width="971"/>
+	<advance width="1305"/>
 	<outline>
-		<component base="Epsilon"/>
-		<component base="tonos.case" xOffset="-639"/>
+		<component base="E" xOffset="334"/>
+		<component base="tonoscomb.case" xOffset="178" yOffset="-1"/>
 	</outline>
 </glyph>

@@ -1,5 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentturnedcomb" format="2">
-  <outline>
-  </outline>
+	<outline>
+		<contour>
+			<point x="172" y="1780" type="line"/>
+			<point x="128" y="1728"/>
+			<point x="65" y="1634"/>
+			<point x="50" y="1579" type="qcurve"/>
+			<point x="115" y="1565"/>
+			<point x="174" y="1508"/>
+			<point x="174" y="1450" type="qcurve" smooth="yes"/>
+			<point x="174" y="1396"/>
+			<point x="98" y="1313"/>
+			<point x="31" y="1313" type="qcurve" smooth="yes"/>
+			<point x="-33" y="1313"/>
+			<point x="-134" y="1394"/>
+			<point x="-134" y="1485" type="qcurve" smooth="yes"/>
+			<point x="-134" y="1591"/>
+			<point x="9" y="1802"/>
+			<point x="90" y="1867" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1050"/>
+	<anchor name="top" x="0" y="1635"/>
 </glyph>

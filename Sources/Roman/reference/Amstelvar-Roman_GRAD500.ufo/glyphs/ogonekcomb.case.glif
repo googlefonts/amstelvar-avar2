@@ -1,31 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcomb.case" format="2">
-  <anchor x="67" y="0" name="_ogonek"/>
-  <anchor x="4" y="-497" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="-304" y="-307" type="qcurve" smooth="yes"/>
-      <point x="-304" y="-210"/>
-      <point x="-178" y="-26"/>
-      <point x="-109" y="27" type="qcurve" smooth="yes"/>
-      <point x="-52" y="71" type="line"/>
-      <point x="67" y="0" type="line"/>
-      <point x="24" y="-42" type="line" smooth="yes"/>
-      <point x="-40" y="-104"/>
-      <point x="-85" y="-199"/>
-      <point x="-85" y="-244" type="qcurve" smooth="yes"/>
-      <point x="-85" y="-279"/>
-      <point x="-42" y="-317"/>
-      <point x="-2" y="-317" type="qcurve" smooth="yes"/>
-      <point x="55" y="-317"/>
-      <point x="174" y="-268"/>
-      <point x="226" y="-222" type="qcurve"/>
-      <point x="304" y="-353" type="line"/>
-      <point x="252" y="-419"/>
-      <point x="74" y="-497"/>
-      <point x="-37" y="-497" type="qcurve" smooth="yes"/>
-      <point x="-165" y="-497"/>
-      <point x="-304" y="-385"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-304" y="-307" type="qcurve" smooth="yes"/>
+			<point x="-304" y="-210"/>
+			<point x="-178" y="-26"/>
+			<point x="-109" y="27" type="qcurve" smooth="yes"/>
+			<point x="-52" y="71" type="line"/>
+			<point x="67" y="0" type="line"/>
+			<point x="24" y="-42" type="line" smooth="yes"/>
+			<point x="-40" y="-104"/>
+			<point x="-85" y="-199"/>
+			<point x="-85" y="-244" type="qcurve" smooth="yes"/>
+			<point x="-85" y="-279"/>
+			<point x="-42" y="-317"/>
+			<point x="-2" y="-317" type="qcurve" smooth="yes"/>
+			<point x="55" y="-317"/>
+			<point x="174" y="-268"/>
+			<point x="226" y="-222" type="qcurve"/>
+			<point x="304" y="-353" type="line"/>
+			<point x="252" y="-419"/>
+			<point x="74" y="-497"/>
+			<point x="-37" y="-497" type="qcurve" smooth="yes"/>
+			<point x="-165" y="-497"/>
+			<point x="-304" y="-385"/>
+		</contour>
+	</outline>
+	<anchor name="_ogonek" x="67" y="0"/>
+	<anchor name="bottom" x="4" y="-497"/>
 </glyph>

@@ -3,41 +3,7 @@
 	<unicode hex="04E9"/>
 	<advance width="1045"/>
 	<outline>
-		<contour>
-			<point x="48" y="460" type="qcurve" smooth="yes"/>
-			<point x="48" y="673"/>
-			<point x="313" y="942"/>
-			<point x="521" y="942" type="qcurve" smooth="yes"/>
-			<point x="729" y="942"/>
-			<point x="997" y="679"/>
-			<point x="997" y="466" type="qcurve" smooth="yes"/>
-			<point x="997" y="252"/>
-			<point x="735" y="-20"/>
-			<point x="525" y="-20" type="qcurve" smooth="yes"/>
-			<point x="315" y="-20"/>
-			<point x="48" y="236"/>
-		</contour>
-		<contour>
-			<point x="213" y="479" type="qcurve" smooth="yes"/>
-			<point x="213" y="235"/>
-			<point x="386" y="7"/>
-			<point x="519" y="7" type="qcurve" smooth="yes"/>
-			<point x="661" y="7"/>
-			<point x="833" y="206"/>
-			<point x="832" y="461" type="qcurve" smooth="yes"/>
-			<point x="832" y="701"/>
-			<point x="653" y="913"/>
-			<point x="521" y="913" type="qcurve" smooth="yes"/>
-			<point x="379" y="913"/>
-			<point x="213" y="711"/>
-		</contour>
-		<contour>
-			<point x="131" y="485" type="line"/>
-			<point x="512" y="482" type="line"/>
-			<point x="914" y="485" type="line"/>
-			<point x="914" y="446" type="line"/>
-			<point x="512" y="448" type="line"/>
-			<point x="131" y="446" type="line"/>
-		</contour>
+		<component base="o"/>
+		<component base="obarcyr-stroke" xOffset="-0.5" yOffset="-5.5"/>
 	</outline>
 </glyph>

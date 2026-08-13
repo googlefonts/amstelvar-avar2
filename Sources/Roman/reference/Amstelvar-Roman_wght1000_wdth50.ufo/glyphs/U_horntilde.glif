@@ -3,7 +3,8 @@
 	<unicode hex="1EEE"/>
 	<advance width="964"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="tildecomb.case" xOffset="-5.5"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="1202"/>
+		<component base="tildecomb.case" xOffset="506.5"/>
 	</outline>
 </glyph>

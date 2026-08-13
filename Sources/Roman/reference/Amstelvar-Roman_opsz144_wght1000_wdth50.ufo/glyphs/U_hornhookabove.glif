@@ -3,7 +3,8 @@
 	<unicode hex="1EEC"/>
 	<advance width="882"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="hookabovecomb.case" xOffset="40"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="1084"/>
+		<component base="hookabovecomb.case" xOffset="488"/>
 	</outline>
 </glyph>

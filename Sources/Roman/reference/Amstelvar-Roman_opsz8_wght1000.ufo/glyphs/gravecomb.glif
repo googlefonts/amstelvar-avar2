@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
-  <unicode hex="0300"/>
-  <anchor x="0.0" y="1100" name="_top"/>
-  <anchor x="0.0" y="1795" name="top"/>
-  <outline>
-    <contour>
-      <point x="-280.0" y="1660.0" type="qcurve" smooth="yes"/>
-      <point x="-280.0" y="1704.0"/>
-      <point x="-191.0" y="1795.0"/>
-      <point x="-125.0" y="1795.0" type="qcurve" smooth="yes"/>
-      <point x="-75.0" y="1795.0"/>
-      <point x="15.0" y="1724.0"/>
-      <point x="61.0" y="1661.0" type="qcurve" smooth="yes"/>
-      <point x="270.0" y="1388.0" type="line"/>
-      <point x="162.0" y="1270.0" type="line"/>
-      <point x="-180.0" y="1496.0" type="line" smooth="yes"/>
-      <point x="-235.0" y="1532.0"/>
-      <point x="-280.0" y="1616.0"/>
-    </contour>
-  </outline>
+	<unicode hex="0300"/>
+	<outline>
+		<contour>
+			<point x="-280" y="1660" type="qcurve" smooth="yes"/>
+			<point x="-280" y="1704"/>
+			<point x="-191" y="1795"/>
+			<point x="-125" y="1795" type="qcurve" smooth="yes"/>
+			<point x="-75" y="1795"/>
+			<point x="15" y="1724"/>
+			<point x="61" y="1661" type="qcurve" smooth="yes"/>
+			<point x="270" y="1388" type="line"/>
+			<point x="162" y="1270" type="line"/>
+			<point x="-180" y="1496" type="line" smooth="yes"/>
+			<point x="-235" y="1532"/>
+			<point x="-280" y="1616"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1100"/>
+	<anchor name="top" x="0" y="1795"/>
 </glyph>
