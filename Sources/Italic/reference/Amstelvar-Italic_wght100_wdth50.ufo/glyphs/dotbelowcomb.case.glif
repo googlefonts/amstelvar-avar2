@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="249" y="-229" type="qcurve" smooth="yes"/>
-			<point x="249" y="-190"/>
-			<point x="292" y="-147"/>
-			<point x="333" y="-147" type="qcurve" smooth="yes"/>
-			<point x="371" y="-147"/>
-			<point x="417" y="-193"/>
-			<point x="417" y="-229" type="qcurve" smooth="yes"/>
-			<point x="417" y="-267"/>
-			<point x="374" y="-310"/>
-			<point x="333" y="-310" type="qcurve" smooth="yes"/>
-			<point x="296" y="-310"/>
-			<point x="249" y="-265"/>
+			<point x="-119" y="-229" type="qcurve" smooth="yes"/>
+			<point x="-119" y="-190"/>
+			<point x="-76" y="-147"/>
+			<point x="-35" y="-147" type="qcurve" smooth="yes"/>
+			<point x="3" y="-147"/>
+			<point x="49" y="-193"/>
+			<point x="49" y="-229" type="qcurve" smooth="yes"/>
+			<point x="49" y="-267"/>
+			<point x="6" y="-310"/>
+			<point x="-35" y="-310" type="qcurve" smooth="yes"/>
+			<point x="-72" y="-310"/>
+			<point x="-119" y="-265"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="-66" y="-339"/>
 </glyph>

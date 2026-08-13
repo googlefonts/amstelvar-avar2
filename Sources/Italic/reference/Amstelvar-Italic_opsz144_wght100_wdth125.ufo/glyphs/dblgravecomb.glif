@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb" format="2">
-	<advance width="896"/>
 	<outline>
 		<contour>
-			<point x="250" y="1255" type="qcurve" smooth="yes"/>
-			<point x="250" y="1267"/>
-			<point x="270" y="1295"/>
-			<point x="286" y="1295" type="qcurve" smooth="yes"/>
-			<point x="302" y="1295"/>
-			<point x="345" y="1265"/>
-			<point x="365" y="1246" type="qcurve" smooth="yes"/>
-			<point x="608" y="1021" type="line"/>
-			<point x="598" y="1005" type="line"/>
-			<point x="317" y="1193" type="line" smooth="yes"/>
-			<point x="298" y="1205"/>
-			<point x="250" y="1242"/>
+			<point x="-271" y="1255" type="qcurve" smooth="yes"/>
+			<point x="-271" y="1267"/>
+			<point x="-251" y="1295"/>
+			<point x="-235" y="1295" type="qcurve" smooth="yes"/>
+			<point x="-219" y="1295"/>
+			<point x="-176" y="1265"/>
+			<point x="-156" y="1246" type="qcurve" smooth="yes"/>
+			<point x="87" y="1021" type="line"/>
+			<point x="77" y="1005" type="line"/>
+			<point x="-204" y="1193" type="line" smooth="yes"/>
+			<point x="-223" y="1205"/>
+			<point x="-271" y="1242"/>
 		</contour>
 		<contour>
-			<point x="524" y="1255" type="qcurve" smooth="yes"/>
-			<point x="524" y="1267"/>
-			<point x="544" y="1295"/>
-			<point x="560" y="1295" type="qcurve" smooth="yes"/>
-			<point x="576" y="1295"/>
-			<point x="617" y="1262"/>
-			<point x="637" y="1243" type="qcurve" smooth="yes"/>
-			<point x="882" y="1021" type="line"/>
-			<point x="872" y="1005" type="line"/>
-			<point x="591" y="1193" type="line" smooth="yes"/>
-			<point x="572" y="1205"/>
-			<point x="524" y="1242"/>
+			<point x="3" y="1255" type="qcurve" smooth="yes"/>
+			<point x="3" y="1267"/>
+			<point x="23" y="1295"/>
+			<point x="39" y="1295" type="qcurve" smooth="yes"/>
+			<point x="55" y="1295"/>
+			<point x="96" y="1262"/>
+			<point x="116" y="1243" type="qcurve" smooth="yes"/>
+			<point x="361" y="1021" type="line"/>
+			<point x="351" y="1005" type="line"/>
+			<point x="70" y="1193" type="line" smooth="yes"/>
+			<point x="51" y="1205"/>
+			<point x="3" y="1242"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="920"/>
+	<anchor name="top" x="85" y="1356"/>
 </glyph>

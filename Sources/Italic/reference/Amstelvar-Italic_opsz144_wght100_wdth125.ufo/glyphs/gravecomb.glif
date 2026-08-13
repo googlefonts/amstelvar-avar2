@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
 	<unicode hex="0300"/>
-	<advance width="896"/>
 	<outline>
-		<component base="grave"/>
+		<contour>
+			<point x="-121" y="1193" type="line" smooth="yes"/>
+			<point x="-141" y="1203"/>
+			<point x="-186" y="1232"/>
+			<point x="-186" y="1245" type="qcurve" smooth="yes"/>
+			<point x="-186" y="1257"/>
+			<point x="-166" y="1285"/>
+			<point x="-150" y="1285" type="qcurve" smooth="yes"/>
+			<point x="-134" y="1285"/>
+			<point x="-96" y="1260"/>
+			<point x="-73" y="1245" type="qcurve" smooth="yes"/>
+			<point x="270" y="1021" type="line"/>
+			<point x="260" y="1005" type="line"/>
+		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="920"/>
+	<anchor name="top" x="80" y="1330"/>
 </glyph>

@@ -2,21 +2,6 @@
 <glyph name="breve.cyr" format="2">
 	<advance width="1024"/>
 	<outline>
-		<contour>
-			<point x="902" y="1420" type="qcurve"/>
-			<point x="1100" y="1363" type="line"/>
-			<point x="1078" y="1225"/>
-			<point x="899" y="1062"/>
-			<point x="730" y="1062" type="qcurve" smooth="yes"/>
-			<point x="560" y="1062"/>
-			<point x="419" y="1220"/>
-			<point x="434" y="1363" type="qcurve"/>
-			<point x="631" y="1420" type="line"/>
-			<point x="619" y="1262"/>
-			<point x="671" y="1136"/>
-			<point x="735" y="1136" type="qcurve" smooth="yes"/>
-			<point x="813" y="1136"/>
-			<point x="883" y="1270"/>
-		</contour>
+		<component base="breve.cyrcomb"/>
 	</outline>
 </glyph>

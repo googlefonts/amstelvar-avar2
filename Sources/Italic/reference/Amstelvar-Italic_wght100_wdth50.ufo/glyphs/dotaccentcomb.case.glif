@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccentcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="558" y="1704" type="qcurve" smooth="yes"/>
-			<point x="558" y="1743"/>
-			<point x="601" y="1785"/>
-			<point x="642" y="1785" type="qcurve" smooth="yes"/>
-			<point x="680" y="1785"/>
-			<point x="726" y="1740"/>
-			<point x="726" y="1704" type="qcurve" smooth="yes"/>
-			<point x="726" y="1666"/>
-			<point x="683" y="1622"/>
-			<point x="642" y="1622" type="qcurve" smooth="yes"/>
-			<point x="605" y="1622"/>
-			<point x="558" y="1668"/>
+			<point x="-55" y="1704" type="qcurve" smooth="yes"/>
+			<point x="-55" y="1743"/>
+			<point x="-12" y="1785"/>
+			<point x="29" y="1785" type="qcurve" smooth="yes"/>
+			<point x="67" y="1785"/>
+			<point x="113" y="1740"/>
+			<point x="113" y="1704" type="qcurve" smooth="yes"/>
+			<point x="113" y="1666"/>
+			<point x="70" y="1622"/>
+			<point x="29" y="1622" type="qcurve" smooth="yes"/>
+			<point x="-8" y="1622"/>
+			<point x="-55" y="1668"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="54" y="1780"/>
 </glyph>

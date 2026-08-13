@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horncomb" format="2">
-	<advance width="896"/>
 	<outline>
 		<contour>
 			<point x="0" y="970" type="line"/>
@@ -25,4 +24,6 @@
 			<point x="0" y="895" type="qcurve"/>
 		</contour>
 	</outline>
+	<anchor name="_topright" x="0" y="970"/>
+	<anchor name="topright" x="42" y="1188"/>
 </glyph>

@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcomb" format="2">
 	<unicode hex="0328"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="ogonek"/>
+		<contour>
+			<point x="-143" y="-239" type="qcurve" smooth="yes"/>
+			<point x="-153" y="-287"/>
+			<point x="-104" y="-342"/>
+			<point x="-53" y="-342" type="qcurve" smooth="yes"/>
+			<point x="-1" y="-342"/>
+			<point x="126" y="-301"/>
+			<point x="198" y="-254" type="qcurve"/>
+			<point x="233" y="-357" type="line"/>
+			<point x="167" y="-418"/>
+			<point x="-11" y="-497"/>
+			<point x="-111" y="-497" type="qcurve" smooth="yes"/>
+			<point x="-211" y="-497"/>
+			<point x="-328" y="-389"/>
+			<point x="-328" y="-306" type="qcurve" smooth="yes"/>
+			<point x="-328" y="-223"/>
+			<point x="-176" y="-45"/>
+			<point x="-93" y="8" type="qcurve" smooth="yes"/>
+			<point x="-26" y="51" type="line"/>
+			<point x="68" y="0" type="line"/>
+			<point x="16" y="-42" type="line" smooth="yes"/>
+			<point x="-61" y="-104"/>
+			<point x="-134" y="-194"/>
+		</contour>
 	</outline>
+	<anchor name="_ogonek" x="0" y="0"/>
+	<anchor name="bottom" x="-88" y="-455"/>
 </glyph>
