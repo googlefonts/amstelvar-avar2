@@ -9,6 +9,7 @@ from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, Axis
 from xTools4.modules.xproject import xProject, makeParentAxis
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
 from xTools4.modules.sys import timer
+from xTools4.modules.fontutils import parseGString
 
 
 _parametricAxesRoman  = 'WDSP GRAD '
@@ -209,7 +210,6 @@ class AmstelvarA2Controller(xProject):
 
         print(f'({os.path.exists(referenceBlendsPath)})\n')
 
-
     def buildBlendsFile(self, parentParametric=True):
         if not os.path.exists(self.referenceBlendsPath):
             return
@@ -385,6 +385,10 @@ class AmstelvarA2Controller(xProject):
     def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
         oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
         super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
+
+    def proofGlyphMemes(self, glyphNames, anchors=True):
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyph-memes', self.subFamily)
+        super().proofGlyphMemes(glyphNames, anchors=anchors, proofsFolder=proofsFolder)
 
 
 class AmstelvarA2Controller2(AmstelvarA2Controller):
@@ -686,7 +690,8 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
-    # p.proofGlyphMemes(list(string.ascii_uppercase + string.ascii_lowercase), anchors=False)
+    # glyphNames = ['Icyr'] # parseGString(p.defaultFont, 'Џ')
+    # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
     # p.proofBlends(list(string.ascii_uppercase + string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(['idot'], referenceSource, level=3)

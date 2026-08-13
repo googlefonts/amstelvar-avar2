@@ -8070,6 +8070,10 @@
         "name": "XTUC",
         "direction": "x"
       },
+      "4 10": {
+        "name": "YTUC",
+        "direction": "y"
+      },
       "10 8": {
         "name": "XSHU",
         "direction": "x"
@@ -8082,11 +8086,11 @@
         "name": "XSHU",
         "direction": "x"
       },
-      "11 13": {
+      "13 11": {
         "name": "XSHU",
         "direction": "x"
       },
-      "23 25": {
+      "25 23": {
         "name": "XSHU",
         "direction": "x"
       },
@@ -8126,29 +8130,13 @@
         "name": "YSVU",
         "direction": "y"
       },
-      "5 6": {
-        "name": "YHAU",
-        "direction": "y"
+      "-1 6": {
+        "name": "XUCS",
+        "direction": "x"
       },
-      "13 12": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "25 24": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "28 27": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "20 21": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "8 9": {
-        "name": "YHAU",
-        "direction": "y"
+      "27 99": {
+        "name": "XUCS",
+        "direction": "x"
       }
     },
     "Pe": {},
@@ -8235,38 +8223,6 @@
       },
       "13 12": {
         "name": "YSHU",
-        "direction": "y"
-      },
-      "23 22": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "15 16": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "9 8": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "1 2": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "18 19": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "26 25": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "12 11": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "4 5": {
-        "name": "YHAU",
         "direction": "y"
       },
       "11 99": {
@@ -13725,35 +13681,11 @@
         "name": "YSHU",
         "direction": "y"
       },
-      "1 2": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "15 16": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "9 8": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "24 23": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "12 11": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "4 5": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "-1 1": {
+      "-1 2": {
         "name": "XUCS",
         "direction": "x"
       },
-      "12 13": {
+      "11 99": {
         "name": "XUCS",
         "direction": "x"
       }
@@ -14338,6 +14270,14 @@
         "name": "XTUR",
         "direction": "x"
       },
+      "7 6": {
+        "name": "XQUC",
+        "direction": "x"
+      },
+      "6 5": {
+        "name": "XQUC",
+        "direction": "x"
+      },
       "30 19": {
         "name": "YTUC",
         "direction": "y"
@@ -14408,14 +14348,6 @@
       },
       "17 99": {
         "name": "XUCR",
-        "direction": "x"
-      },
-      "7 6": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "6 5": {
-        "name": "XQUC",
         "direction": "x"
       },
       "3 4": {
@@ -17134,6 +17066,10 @@
         "name": "XSHU",
         "direction": "x"
       },
+      "24 22": {
+        "name": "XSHU",
+        "direction": "x"
+      },
       "20 21": {
         "name": "YSHU",
         "direction": "y"
@@ -17166,43 +17102,11 @@
         "name": "YSHU",
         "direction": "y"
       },
-      "24 23": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "36 35": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "10 9": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "16 17": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "19 20": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "31 32": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "5 6": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "13 12": {
-        "name": "YHAU",
-        "direction": "y"
-      },
-      "-1 19": {
+      "-1 17": {
         "name": "XUCS",
         "direction": "x"
       },
-      "10 99": {
+      "12 99": {
         "name": "XUCS",
         "direction": "x"
       }
