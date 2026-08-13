@@ -245,29 +245,29 @@ Variation axes in AmstelvarA2
 
 ### Tuning axes
 
-- `TN00` opsz144
-- `TN01` opsz144 wdth125
-- `TN02` opsz144 wdth50
-- `TN03` opsz144 wght100
-- `TN04` opsz144 wght1000
-- `TN05` opsz144 wght1000 wdth125
-- `TN06` opsz144 wght1000 wdth50
-- `TN07` opsz144 wght100 wdth125
-- `TN08` opsz144 wght100 wdth50
-- `TN09` opsz8
-- `TN10` opsz8 wdth125
-- `TN11` opsz8 wdth50
-- `TN12` opsz8 wght100
-- `TN13` opsz8 wght1000
-- `TN14` opsz8 wght1000 wdth125
-- `TN15` opsz8 wght1000 wdth50
-- `TN16` opsz8 wght100 wdth125
-- `TN17` opsz8 wght100 wdth50
-- `TN18` wdth125
-- `TN19` wdth50
-- `TN20` wght100
-- `TN21` wght1000
-- `TN22` wght1000 wdth125
-- `TN23` wght1000 wdth50
-- `TN24` wght100 wdth125
-- `TN25` wght100 wdth50
+1. `TN00` opsz144
+2. `TN01` opsz144 wdth125
+3. `TN02` opsz144 wdth50
+4. `TN03` opsz144 wght100
+5. `TN04` opsz144 wght1000
+6. `TN05` opsz144 wght1000 wdth125
+7. `TN06` opsz144 wght1000 wdth50
+8. `TN07` opsz144 wght100 wdth125
+9. `TN08` opsz144 wght100 wdth50
+10. `TN09` opsz8
+11. `TN10` opsz8 wdth125
+12. `TN11` opsz8 wdth50
+13. `TN12` opsz8 wght100
+14. `TN13` opsz8 wght1000
+15. `TN14` opsz8 wght1000 wdth125
+16. `TN15` opsz8 wght1000 wdth50
+17. `TN16` opsz8 wght100 wdth125
+18. `TN17` opsz8 wght100 wdth50
+19. `TN18` wdth125
+20. `TN19` wdth50
+21. `TN20` wght100
+22. `TN21` wght1000
+23. `TN22` wght1000 wdth125
+24. `TN23` wght1000 wdth50
+25. `TN24` wght100 wdth125
+26. `TN25` wght100 wdth50
