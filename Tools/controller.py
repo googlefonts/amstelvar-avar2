@@ -344,6 +344,10 @@ class AmstelvarA2Controller(xProject):
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
+    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
+        oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
+        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
+
     def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
 
         if self.verbose:
@@ -380,11 +384,8 @@ class AmstelvarA2Controller(xProject):
         super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites)
 
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
-        super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
-
-    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
-        oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
-        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'blending', self.subFamily)
+        super().proofBlends(glyphNames, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points, proofsFolder=proofsFolder)
 
     def proofGlyphMemes(self, glyphNames, anchors=True):
         proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyph-memes', self.subFamily)
@@ -648,7 +649,7 @@ if __name__ == '__main__':
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
@@ -681,8 +682,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=False, reference=False)
+    p.normalizeSources(parametric=True, tuning=False, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -690,11 +691,11 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
-    # glyphNames = ['Icyr'] # parseGString(p.defaultFont, 'Џ')
+    # glyphNames = ['T'] # parseGString(p.defaultFont, 'HΠЏИШ')
     # p.proofGlyphMemes(glyphNames, anchors=True)
-    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase + string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(['idot'], referenceSource, level=3)
+    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
