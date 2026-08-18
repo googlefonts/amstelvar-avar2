@@ -391,6 +391,10 @@ class AmstelvarA2Controller(xProject):
         proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyph-memes', self.subFamily)
         super().proofGlyphMemes(glyphNames, anchors=anchors, proofsFolder=proofsFolder)
 
+    def proofTuning(self, glyphNames, referenceSource, levels=[2, 3, 4]):
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'tuning', self.subFamily)
+        super().proofTuning(glyphNames, referenceSource, levels=levels, proofsFolder=proofsFolder)
+
 
 class AmstelvarA2Controller2(AmstelvarA2Controller):
 
@@ -647,6 +651,8 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
+    glyphNames = 'H E F L T Pi I J U Gamma'.split() # parseGString(p.defaultFont, 'HΠЏИШ')
+
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
@@ -671,19 +677,19 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources('cent copyright registered trademark'.split(), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, reference=False)
-    p.normalizeSources(parametric=True, tuning=False, reference=False)
+    # p.cleanupSources(parametric=False, tuning=True, reference=False)
+    # p.normalizeSources(parametric=False, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -691,10 +697,9 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
-    # glyphNames = ['T'] # parseGString(p.defaultFont, 'HΠЏИШ')
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(['idot'], referenceSource, level=3)
+    # p.proofTuning(glyphNames, referenceSource, levels=[2,3,4])
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
 
     # --- build fonts ---
