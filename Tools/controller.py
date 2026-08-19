@@ -689,7 +689,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    p.normalizeSources(parametric=False, tuning=True, reference=False)
+    p.normalizeSources(parametric=True, tuning=False, reference=False)
 
     # --- project info ---
     # p.printSettings()
