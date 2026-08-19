@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="R" format="2">
 	<unicode hex="0052"/>
-	<advance width="1432"/>
+	<advance width="1433"/>
 	<outline>
 		<contour>
 			<point x="80.9995117188" y="0" type="line"/>
@@ -24,9 +24,9 @@
 			<point x="398.9052734375" y="814.6455688477" type="line"/>
 			<point x="807.5868372763" y="811.6455688477" type="line" smooth="yes"/>
 			<point x="933.7797044324" y="811.6455688477"/>
-			<point x="1061.2558022776" y="998.7611694336"/>
-			<point x="1061.2558022776" y="1117" type="qcurve" smooth="yes"/>
-			<point x="1061.2558022776" y="1259.996887207"/>
+			<point x="1061.2558022776" y="975.3739013672"/>
+			<point x="1061.2558022776" y="1093.6127319336" type="qcurve" smooth="yes"/>
+			<point x="1061.2558022776" y="1236.6096191406"/>
 			<point x="939.3686661259" y="1368.483215332"/>
 			<point x="825.8761813257" y="1368.483215332" type="qcurve" smooth="yes"/>
 			<point x="496.8585205078" y="1368.483215332" type="line"/>
@@ -37,15 +37,15 @@
 			<point x="682.0113525391" y="0" type="line"/>
 		</contour>
 		<contour>
-			<point x="766.7132962134" y="747.7420654297" type="line"/>
-			<point x="931.1537022745" y="783.8708791425" type="line"/>
-			<point x="1224.2693284558" y="288" type="line" smooth="yes"/>
-			<point x="1330.2930219097" y="104.4246274887"/>
-			<point x="1373.2708484281" y="108.8573608398"/>
-			<point x="1498.2441150296" y="100.0009765625" type="qcurve"/>
-			<point x="1498.2441150296" y="-1" type="line"/>
-			<point x="1212.1945840159" y="-1" type="line"/>
-			<point x="1182.1945840159" y="29" type="line"/>
+			<point x="764.8529446509" y="747.7420654297" type="line"/>
+			<point x="929.293350712" y="783.9173879316" type="line"/>
+			<point x="1222.3159593152" y="288" type="line" smooth="yes"/>
+			<point x="1327.9675824566" y="104.9827329574"/>
+			<point x="1373.5033923734" y="108.8573608398"/>
+			<point x="1499.0812732328" y="100.0009765625" type="qcurve"/>
+			<point x="1499.0812732328" y="-1" type="line"/>
+			<point x="1210.1016885081" y="-1" type="line"/>
+			<point x="1180.1016885081" y="29" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="803" y="0"/>
