@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
 	<unicode hex="030A"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="ring"/>
+		<contour>
+			<point x="-174" y="1436" type="qcurve" smooth="yes"/>
+			<point x="-174" y="1506"/>
+			<point x="-74" y="1603"/>
+			<point x="0" y="1603" type="qcurve" smooth="yes"/>
+			<point x="74" y="1603"/>
+			<point x="174" y="1506"/>
+			<point x="174" y="1436" type="qcurve" smooth="yes"/>
+			<point x="174" y="1367"/>
+			<point x="74" y="1270"/>
+			<point x="0" y="1270" type="qcurve" smooth="yes"/>
+			<point x="-74" y="1270"/>
+			<point x="-174" y="1367"/>
+		</contour>
+		<contour>
+			<point x="-98" y="1436" type="qcurve" smooth="yes"/>
+			<point x="-98" y="1392"/>
+			<point x="-45" y="1339"/>
+			<point x="0" y="1339" type="qcurve" smooth="yes"/>
+			<point x="47" y="1339"/>
+			<point x="98" y="1388"/>
+			<point x="98" y="1436" type="qcurve" smooth="yes"/>
+			<point x="98" y="1480"/>
+			<point x="45" y="1534"/>
+			<point x="0" y="1534" type="qcurve" smooth="yes"/>
+			<point x="-47" y="1534"/>
+			<point x="-98" y="1485"/>
+		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1050"/>
-	<anchor name="top" x="512" y="1603"/>
+	<anchor name="_top" x="0" y="1050"/>
+	<anchor name="top" x="0" y="1603"/>
 </glyph>

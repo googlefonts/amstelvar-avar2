@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="353" y="-644" type="line"/>
-			<point x="391" y="-616"/>
-			<point x="490" y="-507"/>
-			<point x="504" y="-450" type="qcurve"/>
-			<point x="448" y="-449"/>
-			<point x="374" y="-380"/>
-			<point x="374" y="-326" type="qcurve" smooth="yes"/>
-			<point x="374" y="-273"/>
-			<point x="448" y="-195"/>
-			<point x="506" y="-195" type="qcurve" smooth="yes"/>
-			<point x="561" y="-195"/>
-			<point x="638" y="-264"/>
-			<point x="638" y="-335" type="qcurve" smooth="yes"/>
-			<point x="638" y="-446"/>
-			<point x="493" y="-647"/>
-			<point x="403" y="-703" type="qcurve"/>
+			<point x="-159" y="-644" type="line"/>
+			<point x="-121" y="-616"/>
+			<point x="-22" y="-507"/>
+			<point x="-8" y="-450" type="qcurve"/>
+			<point x="-64" y="-449"/>
+			<point x="-138" y="-380"/>
+			<point x="-138" y="-326" type="qcurve" smooth="yes"/>
+			<point x="-138" y="-273"/>
+			<point x="-64" y="-195"/>
+			<point x="-6" y="-195" type="qcurve" smooth="yes"/>
+			<point x="49" y="-195"/>
+			<point x="126" y="-264"/>
+			<point x="126" y="-335" type="qcurve" smooth="yes"/>
+			<point x="126" y="-446"/>
+			<point x="-19" y="-647"/>
+			<point x="-109" y="-703" type="qcurve"/>
 		</contour>
 	</outline>
-	<anchor name="_bottom" x="512" y="0"/>
-	<anchor name="bottom" x="512" y="-703"/>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="0" y="-703"/>
 </glyph>

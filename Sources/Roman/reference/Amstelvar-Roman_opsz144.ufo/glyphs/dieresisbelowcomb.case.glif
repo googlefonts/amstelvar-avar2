@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresisbelowcomb.case" format="2">
-	<advance width="896"/>
 	<outline>
-		<component base="dieresisbelowcomb"/>
+		<contour>
+			<point x="-710" y="-267" type="qcurve" smooth="yes"/>
+			<point x="-710" y="-224"/>
+			<point x="-665" y="-180"/>
+			<point x="-622" y="-180" type="qcurve" smooth="yes"/>
+			<point x="-581" y="-180"/>
+			<point x="-534" y="-228"/>
+			<point x="-534" y="-267" type="qcurve" smooth="yes"/>
+			<point x="-534" y="-308"/>
+			<point x="-578" y="-352"/>
+			<point x="-622" y="-352" type="qcurve" smooth="yes"/>
+			<point x="-663" y="-352"/>
+			<point x="-710" y="-306"/>
+		</contour>
+		<contour>
+			<point x="-362" y="-267" type="qcurve" smooth="yes"/>
+			<point x="-362" y="-224"/>
+			<point x="-317" y="-180"/>
+			<point x="-274" y="-180" type="qcurve" smooth="yes"/>
+			<point x="-233" y="-180"/>
+			<point x="-186" y="-228"/>
+			<point x="-186" y="-267" type="qcurve" smooth="yes"/>
+			<point x="-186" y="-308"/>
+			<point x="-230" y="-352"/>
+			<point x="-274" y="-352" type="qcurve" smooth="yes"/>
+			<point x="-315" y="-352"/>
+			<point x="-362" y="-306"/>
+		</contour>
 	</outline>
-	<anchor name="_bottom" x="448" y="0"/>
-	<anchor name="bottom" x="448" y="-352"/>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="0" y="-352"/>
 </glyph>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="444" y="1602" type="qcurve"/>
-			<point x="370" y="1631" type="line"/>
-			<point x="412" y="1723"/>
-			<point x="581" y="1857"/>
-			<point x="714" y="1857" type="qcurve" smooth="yes"/>
-			<point x="837" y="1857"/>
-			<point x="971" y="1729"/>
-			<point x="980" y="1612" type="qcurve"/>
-			<point x="899" y="1598" type="line"/>
-			<point x="884" y="1676"/>
-			<point x="775" y="1743"/>
-			<point x="686" y="1743" type="qcurve" smooth="yes"/>
-			<point x="607" y="1743"/>
-			<point x="502" y="1685"/>
+			<point x="-193" y="1602" type="qcurve"/>
+			<point x="-267" y="1631" type="line"/>
+			<point x="-225" y="1723"/>
+			<point x="-56" y="1857"/>
+			<point x="77" y="1857" type="qcurve" smooth="yes"/>
+			<point x="200" y="1857"/>
+			<point x="334" y="1729"/>
+			<point x="343" y="1612" type="qcurve"/>
+			<point x="262" y="1598" type="line"/>
+			<point x="247" y="1676"/>
+			<point x="138" y="1743"/>
+			<point x="49" y="1743" type="qcurve" smooth="yes"/>
+			<point x="-30" y="1743"/>
+			<point x="-135" y="1685"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="72" y="1872"/>
 </glyph>

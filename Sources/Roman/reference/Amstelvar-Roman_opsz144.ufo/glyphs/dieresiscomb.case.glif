@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb.case" format="2">
-	<advance width="896"/>
 	<outline>
 		<contour>
-			<point x="193" y="1691" type="qcurve" smooth="yes"/>
-			<point x="193" y="1732"/>
-			<point x="245" y="1783"/>
-			<point x="287" y="1783" type="qcurve" smooth="yes"/>
-			<point x="328" y="1783"/>
-			<point x="380" y="1732"/>
-			<point x="380" y="1691" type="qcurve" smooth="yes"/>
-			<point x="380" y="1652"/>
-			<point x="328" y="1600"/>
-			<point x="287" y="1600" type="qcurve" smooth="yes"/>
-			<point x="245" y="1600"/>
-			<point x="193" y="1652"/>
+			<point x="-255" y="1691" type="qcurve" smooth="yes"/>
+			<point x="-255" y="1732"/>
+			<point x="-203" y="1783"/>
+			<point x="-161" y="1783" type="qcurve" smooth="yes"/>
+			<point x="-120" y="1783"/>
+			<point x="-68" y="1732"/>
+			<point x="-68" y="1691" type="qcurve" smooth="yes"/>
+			<point x="-68" y="1652"/>
+			<point x="-120" y="1600"/>
+			<point x="-161" y="1600" type="qcurve" smooth="yes"/>
+			<point x="-203" y="1600"/>
+			<point x="-255" y="1652"/>
 		</contour>
 		<contour>
-			<point x="516" y="1691" type="qcurve" smooth="yes"/>
-			<point x="516" y="1732"/>
-			<point x="568" y="1783"/>
-			<point x="609" y="1783" type="qcurve" smooth="yes"/>
-			<point x="651" y="1783"/>
-			<point x="703" y="1732"/>
-			<point x="703" y="1691" type="qcurve" smooth="yes"/>
-			<point x="703" y="1652"/>
-			<point x="651" y="1600"/>
-			<point x="609" y="1600" type="qcurve" smooth="yes"/>
-			<point x="568" y="1600"/>
-			<point x="516" y="1652"/>
+			<point x="68" y="1691" type="qcurve" smooth="yes"/>
+			<point x="68" y="1732"/>
+			<point x="120" y="1783"/>
+			<point x="161" y="1783" type="qcurve" smooth="yes"/>
+			<point x="203" y="1783"/>
+			<point x="255" y="1732"/>
+			<point x="255" y="1691" type="qcurve" smooth="yes"/>
+			<point x="255" y="1652"/>
+			<point x="203" y="1600"/>
+			<point x="161" y="1600" type="qcurve" smooth="yes"/>
+			<point x="120" y="1600"/>
+			<point x="68" y="1652"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="448" y="1500"/>
-	<anchor name="top" x="448" y="1783"/>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="1783"/>
 </glyph>

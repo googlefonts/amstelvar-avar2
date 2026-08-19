@@ -36,4 +36,3 @@ Deliverables
   - [ ] only user + primary parametric axes (weight, width, optical size, grade + xopq, yopq, xtra, xtsp, ytlc)
   - [ ] all axes, same as the avar2 build
 -->
-

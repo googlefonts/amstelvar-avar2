@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccentcomb" format="2">
 	<unicode hex="0307"/>
-	<advance width="896"/>
 	<outline>
-		<component base="dotaccent"/>
+		<contour>
+			<point x="-27" y="1124" type="qcurve" smooth="yes"/>
+			<point x="-27" y="1148"/>
+			<point x="5" y="1178"/>
+			<point x="31" y="1178" type="qcurve" smooth="yes"/>
+			<point x="57" y="1178"/>
+			<point x="89" y="1148"/>
+			<point x="89" y="1124" type="qcurve" smooth="yes"/>
+			<point x="89" y="1100"/>
+			<point x="55" y="1067"/>
+			<point x="31" y="1067" type="qcurve" smooth="yes"/>
+			<point x="7" y="1067"/>
+			<point x="-27" y="1100"/>
+		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="920"/>
+	<anchor name="top" x="59" y="1223"/>
 </glyph>

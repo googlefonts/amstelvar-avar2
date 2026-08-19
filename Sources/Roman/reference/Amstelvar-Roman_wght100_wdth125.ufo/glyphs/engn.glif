@@ -22,8 +22,8 @@
 			<point x="1514" y="627"/>
 			<point x="1515" y="565"/>
 			<point x="1515" y="527" type="qcurve"/>
-			<point x="1511" y="-1" type="line"/>
-			<point x="1429" y="-1" type="line"/>
+			<point x="1511" y="0" type="line"/>
+			<point x="1429" y="0" type="line"/>
 			<point x="1430" y="527" type="line"/>
 			<point x="1431" y="653" type="line" smooth="yes"/>
 			<point x="1431" y="809"/>
@@ -38,4 +38,5 @@
 			<point x="658" y="0" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="engtail" x="1511" y="0"/>
 </glyph>

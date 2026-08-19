@@ -4,6 +4,10 @@
 	<advance width="1143"/>
 	<outline>
 		<component base="a"/>
-		<component base="circumflexgravecomb" xOffset="59.5"/>
+		<component base="circumflexcomb-stack" xOffset="571.5" yOffset="-3"/>
+		<component base="gravecomb-stack" xOffset="953.5" yOffset="345"/>
 	</outline>
+	<note>
+@topleft
+</note>
 </glyph>

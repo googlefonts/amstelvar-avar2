@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="376" y="1908" type="qcurve" smooth="yes"/>
-			<point x="376" y="1944"/>
-			<point x="431" y="1995"/>
-			<point x="471" y="1994" type="qcurve" smooth="yes"/>
-			<point x="507" y="1993"/>
-			<point x="569" y="1936"/>
-			<point x="600" y="1895" type="qcurve" smooth="yes"/>
-			<point x="772" y="1670" type="line"/>
-			<point x="695" y="1592" type="line"/>
-			<point x="460" y="1788" type="line" smooth="yes"/>
-			<point x="421" y="1820"/>
-			<point x="376" y="1872"/>
+			<point x="-331" y="1908" type="qcurve" smooth="yes"/>
+			<point x="-331" y="1944"/>
+			<point x="-276" y="1995"/>
+			<point x="-236" y="1994" type="qcurve" smooth="yes"/>
+			<point x="-200" y="1993"/>
+			<point x="-138" y="1936"/>
+			<point x="-107" y="1895" type="qcurve" smooth="yes"/>
+			<point x="65" y="1670" type="line"/>
+			<point x="-12" y="1592" type="line"/>
+			<point x="-247" y="1788" type="line" smooth="yes"/>
+			<point x="-286" y="1820"/>
+			<point x="-331" y="1872"/>
 		</contour>
 		<contour>
-			<point x="766" y="1908" type="qcurve" smooth="yes"/>
-			<point x="766" y="1944"/>
-			<point x="820" y="1994"/>
-			<point x="861" y="1994" type="qcurve" smooth="yes"/>
-			<point x="897" y="1994"/>
-			<point x="959" y="1936"/>
-			<point x="990" y="1895" type="qcurve" smooth="yes"/>
-			<point x="1162" y="1670" type="line"/>
-			<point x="1085" y="1592" type="line"/>
-			<point x="850" y="1788" type="line" smooth="yes"/>
-			<point x="811" y="1820"/>
-			<point x="766" y="1872"/>
+			<point x="59" y="1908" type="qcurve" smooth="yes"/>
+			<point x="59" y="1944"/>
+			<point x="113" y="1994"/>
+			<point x="154" y="1994" type="qcurve" smooth="yes"/>
+			<point x="190" y="1994"/>
+			<point x="252" y="1936"/>
+			<point x="283" y="1895" type="qcurve" smooth="yes"/>
+			<point x="455" y="1670" type="line"/>
+			<point x="378" y="1592" type="line"/>
+			<point x="143" y="1788" type="line" smooth="yes"/>
+			<point x="104" y="1820"/>
+			<point x="59" y="1872"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="117" y="2104"/>
 </glyph>

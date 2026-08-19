@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tonoscomb" format="2">
-	<advance width="893"/>
 	<outline>
-		<component base="tonos"/>
+		<contour>
+			<point x="43" y="1182" type="line"/>
+			<point x="-87" y="1240" type="line"/>
+			<point x="172" y="1876" type="line"/>
+			<point x="437" y="1805" type="line"/>
+			<point x="457" y="1751" type="line"/>
+		</contour>
 	</outline>
-	<anchor name="_GRKtop" x="435" y="1009"/>
+	<anchor name="_GRKtop" x="0" y="974"/>
 </glyph>

@@ -6,7 +6,7 @@ from xTools4.modules.fontutils import getGlyphs2
 # WARNING: the script does not work well with Italic fonts (yet)
 
 familyName    = 'AmstelvarA2'
-subFamilyName = ['Roman', 'Italic'][1] 
+subFamilyName = ['Roman', 'Italic'][0] 
 defaultName   = 'wght400'
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
@@ -14,8 +14,8 @@ defaultPath   = os.path.join(sourcesFolder, f'{familyName}-{subFamilyName}_{defa
 
 anchorNames = [
     'top',
-    'GRKtop',
-    'center',
+    # 'GRKtop',
+    # 'center',
     'bottom',
 ]
 tempEditModeKey = 'com.xTools4.tempEdit.mode'

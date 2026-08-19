@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="295" y="1848" type="qcurve" smooth="yes"/>
-			<point x="295" y="1939"/>
-			<point x="417" y="2056"/>
-			<point x="512" y="2056" type="qcurve" smooth="yes"/>
-			<point x="607" y="2056"/>
-			<point x="729" y="1939"/>
-			<point x="729" y="1848" type="qcurve" smooth="yes"/>
-			<point x="729" y="1757"/>
-			<point x="607" y="1640"/>
-			<point x="512" y="1640" type="qcurve" smooth="yes"/>
-			<point x="417" y="1640"/>
-			<point x="295" y="1757"/>
+			<point x="-217" y="1848" type="qcurve" smooth="yes"/>
+			<point x="-217" y="1939"/>
+			<point x="-95" y="2056"/>
+			<point x="0" y="2056" type="qcurve" smooth="yes"/>
+			<point x="95" y="2056"/>
+			<point x="217" y="1939"/>
+			<point x="217" y="1848" type="qcurve" smooth="yes"/>
+			<point x="217" y="1757"/>
+			<point x="95" y="1640"/>
+			<point x="0" y="1640" type="qcurve" smooth="yes"/>
+			<point x="-95" y="1640"/>
+			<point x="-217" y="1757"/>
 		</contour>
 		<contour>
-			<point x="381" y="1848" type="qcurve" smooth="yes"/>
-			<point x="381" y="1790"/>
-			<point x="453" y="1717"/>
-			<point x="512" y="1717" type="qcurve" smooth="yes"/>
-			<point x="576" y="1717"/>
-			<point x="643" y="1783"/>
-			<point x="643" y="1848" type="qcurve" smooth="yes"/>
-			<point x="643" y="1906"/>
-			<point x="571" y="1979"/>
-			<point x="512" y="1979" type="qcurve" smooth="yes"/>
-			<point x="448" y="1979"/>
-			<point x="381" y="1913"/>
+			<point x="-131" y="1848" type="qcurve" smooth="yes"/>
+			<point x="-131" y="1790"/>
+			<point x="-59" y="1717"/>
+			<point x="0" y="1717" type="qcurve" smooth="yes"/>
+			<point x="64" y="1717"/>
+			<point x="131" y="1783"/>
+			<point x="131" y="1848" type="qcurve" smooth="yes"/>
+			<point x="131" y="1906"/>
+			<point x="59" y="1979"/>
+			<point x="0" y="1979" type="qcurve" smooth="yes"/>
+			<point x="-64" y="1979"/>
+			<point x="-131" y="1913"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1500"/>
-	<anchor name="top" x="512" y="2056"/>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2056"/>
 </glyph>

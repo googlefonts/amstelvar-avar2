@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="229" y="2021" type="qcurve" smooth="yes"/>
-			<point x="233" y="2058"/>
-			<point x="307" y="2134"/>
-			<point x="357" y="2134" type="qcurve" smooth="yes"/>
-			<point x="405" y="2134"/>
-			<point x="495" y="2053"/>
-			<point x="537" y="1993" type="qcurve" smooth="yes"/>
-			<point x="697" y="1768" type="line"/>
-			<point x="622" y="1684" type="line"/>
-			<point x="324" y="1863" type="line" smooth="yes"/>
-			<point x="271" y="1895"/>
-			<point x="223" y="1985"/>
+			<point x="-283" y="2021" type="qcurve" smooth="yes"/>
+			<point x="-279" y="2058"/>
+			<point x="-205" y="2134"/>
+			<point x="-155" y="2134" type="qcurve" smooth="yes"/>
+			<point x="-107" y="2134"/>
+			<point x="-17" y="2053"/>
+			<point x="25" y="1993" type="qcurve" smooth="yes"/>
+			<point x="185" y="1768" type="line"/>
+			<point x="110" y="1684" type="line"/>
+			<point x="-188" y="1863" type="line" smooth="yes"/>
+			<point x="-241" y="1895"/>
+			<point x="-289" y="1985"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1500"/>
-	<anchor name="top" x="512" y="2134"/>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2134"/>
 </glyph>

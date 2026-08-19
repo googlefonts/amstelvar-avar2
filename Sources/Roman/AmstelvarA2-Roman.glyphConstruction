@@ -200,23 +200,23 @@ Alphatonos = A + tonoscomb.case@tonos | 0x0386
 Beta = B | 0x392
 Chi = X | 0x3a7
 Epsilon = E | 0x395
-Epsilontonos = E + tonoscomb.case@tonos ^ 230,E | 0x0388
+Epsilontonos = E + tonoscomb.case@tonos ^ -10,E | 0x0388
 Eta = H | 0x397
-Etatonos = H + tonoscomb.case@tonos ^ 230,H | 0x0389 # 10,H
+Etatonos = H + tonoscomb.case@tonos ^ -10,H | 0x0389
 Iota = I | 0x399
 Iotadieresis = I + dieresiscomb.case@top | 0x03AA
-Iotatonos = I + tonoscomb.case@tonos ^ 230,I | 0x038A # 10,I
+Iotatonos = I + tonoscomb.case@tonos ^ -10,I | 0x038A
 Kappa = K | 0x39a
 Mu = M | 0x39c
 Nu = N | 0x39d
-Omegatonos = Omega + tonoscomb.case@tonos ^ 230,O | 0x038F
+Omegatonos = Omega + tonoscomb.case@tonos ^ -10,O | 0x038F
 Omicron = O | 0x39f
-Omicrontonos = O + tonoscomb.case@tonos ^ 230,O | 0x038C
+Omicrontonos = O + tonoscomb.case@tonos ^ -10,O | 0x038C
 Rho = P | 0x3a1
 Tau = T | 0x3a4
 Upsilon = Y | 0x3a5
 Upsilondieresis = Y + dieresiscomb.case@top | 0x03AB
-Upsilontonos = Y + tonoscomb.case@tonos ^ 230,Y | 0x038E
+Upsilontonos = Y + tonoscomb.case@tonos ^ -10,Y | 0x038E
 Zeta = Z | 0x396
 
 # -------------------------------------
@@ -224,7 +224,7 @@ Zeta = Z | 0x396
 # -------------------------------------
 
 Acyr = A | 0x0410
-Chedescender-cy = Che + Cy-descendercomb.case@cy_descender | 0x4b6
+Chedescender-cy = Che + Cy-descendercomb.case@cy_descender ^ Che, Cy-descendercomb.case | 0x4b6
 Dze = S | 0x405
 Ebrevecyr = Ecyr + breve.cyrcomb.case@top | 0xf524
 Emacroncyr = Ecyr + macroncomb.case@top | 0xf522
@@ -232,7 +232,7 @@ Emacroncyr = Ecyr + macroncomb.case@top | 0xf522
 El.bgr = Lambda | None
 Em = M | 0x41c
 En = H | 0x41d
-Endescender = H + Cy-descendercomb.case@cy_descender | 0x4a2
+Endescender = H + Cy-descendercomb.case@cy_descender ^ H, Cy-descendercomb.case | 0x4a2
 Er = P | 0x420
 Es = C | 0x421
 Esdescendercyr = C + cedillacomb.case@bottom | 0x4aa
@@ -240,7 +240,7 @@ Ghe = Gamma | 0x413
 Ghestroke = Gamma + horizontalbar@center | 0x0492
 Gje = Gamma + acutecomb.case@top | 0x0403
 Ha = X | 0x425
-Hadescender = X + Cy-descendercomb.case@cy_descender | 0x4b2
+Hadescender = X + Cy-descendercomb.case@cy_descender ^ X, Cy-descendercomb.case | 0x4b2
 Hastroke-cy = X + Ha-stroke@center | 0x04FE
 Igravecyr = Icyr + gravecomb.case@top | 0x040D
 Ie = E | 0x0415
@@ -251,7 +251,7 @@ Ishort = Icyr + breve.cyrcomb.case@top | 0x0419
 Iukran = I | 0x406
 Je = J | 0x408
 Ka.bgr = K | None
-Kadescender = Ka + Cy-descendercomb.case@cy_descender | 0x49a
+Kadescender = Ka + Cy-descendercomb.case@cy_descender ^ Ka, Cy-descendercomb.case | 0x49a
 Kje = Ka + acutecomb.case@top | 0x040C
 Obarcyr = O + Obarcyr-stroke@center | 0x04E8
 Obrevecyr = O + breve.cyrcomb.case@top | 0xf51a
@@ -260,7 +260,7 @@ Odieresiscyr = O + dieresiscomb.case@top | 0x4e6
 Omacroncyr = O + macroncomb.case@top | 0xf518
 Palochka = I | 0x04C0
 Pe = Pi | 0x041F
-Shcha = Sha + Cy-descendercomb.case@cy_descender | 0x429
+Shcha = Sha + Cy-descendercomb.case@cy_descender ^ Sha, Cy-descendercomb.case  | 0x429
 Te = T | 0x422
 Tedescender-cy = T + Cy-descendercomb.case@cy_descender | 0x4ac
 Udieresiscyr = Ucyr + dieresiscomb.case@top | 0x4f0
@@ -278,7 +278,7 @@ Yu = I + Yu-dash.case@yu_dash + O@yu_dash ^ I,O | 0x042E
 Yumacron = I + Yu-dash.case@yu_dash + O@yu_dash + macroncomb.case@Yu:center,top ^ I,O | 0xf52c
 Zedescendercyr = Ze + cedillacomb.case@bottom | 0x498
 Zhebrevecyr = Zhe + breve.cyrcomb.case@top | 04C1
-Zhedescender = Zhe + Cy-descendercomb.case@cy_descender | 0x496
+Zhedescender = Zhe + Cy-descendercomb.case@cy_descender ^ Zhe, Cy-descendercomb.case | 0x496
 Zhedieresiscyr = Zhe + dieresiscomb.case@top | 04DC
 
 # -------------------------------
@@ -341,7 +341,7 @@ emacron = e + macroncomb@top | 0x113
 etilde = e + tildecomb@top | 0x1ebd
 eogonek = e + ogonekcomb@ogonek | 0x119
 
-eng = engn + engtail@engtail | 0x14b
+eng = engn + engtail@engtail ^ n | 0x14b
 
 gbreve = g + brevecomb@top | 0x11f
 gcaron = g + caroncomb@top | 0x1e7
@@ -490,7 +490,6 @@ upsilondieresis = upsilon + dieresiscomb@GRKtop | 0x03CB
 upsilondieresistonos = upsilon + dieresistonoscomb@GRKtop | 0x03B0
 upsilontonos = upsilon + tonoscomb@GRKtop | 0x03CD
 
-
 # -------------------------------------
 #  C Y R I L L I C   L O W E R C A S E
 # -------------------------------------
@@ -499,7 +498,7 @@ abrevecyr = a + breve.cyrcomb@top | 0x4d1
 acyr = a | 0x430
 adieresiscyr = a + dieresiscomb@top | 0x4d3
 amacroncyr = a + macroncomb@top | 0xf50f
-chedescender-cy = che + cy-descendercomb@cy_descender | 0x4b7
+chedescender-cy = che + cy-descendercomb@cy_descender ^ che, cy-descendercomb | 0x4b7
 de.locl = de | None
 # dje = h + horizontalbarlc@center + engtail@h:engtail | 0x0452
 dze = s | 0x455
@@ -509,12 +508,12 @@ er = p | 0x0440
 es = c | 0x0441
 esdescendercyr = c + cedillacomb@bottom | 0x4ab
 emacroncyr = ecyr + macroncomb@top | 0xf523
-endescender = en + cy-descendercomb@cy_descender | 0x4a3
+endescender = en + cy-descendercomb@cy_descender ^ en, cy-descendercomb | 0x4a3
 ghe.locl = ghe | None
 ghestroke = ghe + horizontalbarlc@center | 0x493
 gje = ghe + acutecomb@top | 0x453
 ha = x | 0x445
-hadescender = x + cy-descendercomb@cy_descender | 0x4b3
+hadescender = x + cy-descendercomb@cy_descender ^ x, cy-descendercomb | 0x4b3
 hastroke-cy = x + ha-stroke@center | 0x04FF
 igravecyr = icyr + gravecomb@top | 0x45d
 ie = e | 0x435
@@ -524,7 +523,7 @@ io = e + dieresiscomb@top | 0x451
 ishort = icyr + breve.cyrcomb@top | 0x439
 iukran = idotless + idot@top | 0x456
 je = jdotless + idot@top | 0x458
-kadescender = ka + cy-descendercomb@cy_descender | 0x49b
+kadescender = ka + cy-descendercomb@cy_descender ^ ka, cy-descendercomb | 0x49b
 kje = ka + acutecomb@top | 0x45c
 ocyr = o | 0x043E
 obarcyr = o + obarcyr-stroke@center | 0x04E9
@@ -534,10 +533,10 @@ omacroncyr = o + macroncomb@top | 0xf519
 palochka = l | 0x4cf
 pe.locl = pe | None
 schwacyr = schwa | 0x4d9
-shcha = sha + cy-descendercomb@cy_descender | 0x449
+shcha = sha + cy-descendercomb@cy_descender ^ sha, cy-descendercomb | 0x449
 shha = h | 0x4bb
 te.locl = te | None
-tedescender-cy = te + cy-descendercomb@cy_descender | 0x4ad
+tedescender-cy = te + cy-descendercomb@cy_descender ^ te, cy-descendercomb  | 0x4ad
 tshe = h + horizontalbarlc@center | 0x045B
 ucyr = y | 0443
 udieresiscyr = y + dieresiscomb@top | 0x4f1
@@ -553,7 +552,7 @@ yumacron = yu-i + yu.bgr-stroke@yu_dash + o@yu_dash + macroncomb@yu:center,top  
 
 zedescendercyr = ze + cedillacomb@bottom | 0x499
 zhebrevecyr = zhe + breve.cyrcomb@top | 0x4c2
-zhedescender = zhe + cy-descendercomb@cy_descender | 0x497
+zhedescender = zhe + cy-descendercomb@cy_descender  ^ zhe, cy-descendercomb | 0x497
 zhedieresiscyr = zhe + dieresiscomb@top | 0x4dd
 
 i.bgr = u | None
@@ -561,9 +560,9 @@ igrave.bgr = u + gravecomb@top | None
 ishort.bgr = u + breve.cyrcomb@top | None
 ka.bgr = k | None
 pe.bgr = n | None
-shcha.bgr = sha.bgr + cy-descendercomb@cy_descender | None
+shcha.bgr = sha.bgr + cy-descendercomb@cy_descender ^ sha.bgr, cy-descendercomb | None
 te.bgr = m | None
-tse.bgr = u + cy-descendercomb@cy_descender | None
+tse.bgr = u + cy-descendercomb@cy_descender ^ u, cy-descendercomb | None
 yu.bgr = l + yu.bgr-stroke@yu_dash + o@yu_dash ^ l,o | None
 
 # -----------------
@@ -606,110 +605,110 @@ nj = n + jdotless@liga + idot@top ^ n,j| 0x1cc
 #  A C C E N T S
 # ---------------
 
-acute = acutecomb ^ 1048
-acute.case = acutecomb.case ^ 1048
-acute-stack = acutecomb ^ 1048
-acute-stack.case = acutecomb.case ^ 1048
+# acute = acutecomb ^ 1048
+# acute.case = acutecomb.case ^ 1048
+# acute-stack = acutecomb ^ 1048
+# acute-stack.case = acutecomb.case ^ 1048
 
-breve = brevecomb ^ 1048
-breve.case = brevecomb.case ^ 1048
-breve-stack = brevecomb ^ 1048
-breve-stack.case = brevecomb.case ^ 1048
+# breve = brevecomb ^ 1048
+# breve.case = brevecomb.case ^ 1048
+# breve-stack = brevecomb ^ 1048
+# breve-stack.case = brevecomb.case ^ 1048
 
-brevebelow = brevebelowcomb ^ 1048
-brevebelow.case = brevebelowcomb.case ^ 1048
+# brevebelow = brevebelowcomb ^ 1048
+# brevebelow.case = brevebelowcomb.case ^ 1048
 
-breveinverted = breveinvertedcomb ^ 1048
-breveinverted.case = breveinvertedcomb.case ^ 1048
-breveinverted-stack = breveinvertedcomb ^ 1048
-breveinverted-stack.case = breveinvertedcomb.case ^ 1048
+# breveinverted = breveinvertedcomb ^ 1048
+# breveinverted.case = breveinvertedcomb.case ^ 1048
+# breveinverted-stack = breveinvertedcomb ^ 1048
+# breveinverted-stack.case = breveinvertedcomb.case ^ 1048
 
-caron = caroncomb ^ 1048
-caron.case = caroncomb.case ^ 1048
-caron-stack = caroncomb ^ 1048
-caron-stack.case = caroncomb.case ^ 1048
+# caron = caroncomb ^ 1048
+# caron.case = caroncomb.case ^ 1048
+# caron-stack = caroncomb ^ 1048
+# caron-stack.case = caroncomb.case ^ 1048
 
-cedilla = cedillacomb ^ 1048
-cedilla.case = cedillacomb.case ^ 1048
+# cedilla = cedillacomb ^ 1048
+# cedilla.case = cedillacomb.case ^ 1048
 
-circumflex = circumflexcomb ^ 1048
-circumflex.case = circumflexcomb.case ^ 1048
-circumflex-stack = circumflexcomb ^ 1048
-circumflex-stack.case = circumflexcomb.case ^ 1048
+# circumflex = circumflexcomb ^ 1048
+# circumflex.case = circumflexcomb.case ^ 1048
+# circumflex-stack = circumflexcomb ^ 1048
+# circumflex-stack.case = circumflexcomb.case ^ 1048
 
-commaaccent = commaaccentcomb ^ 1048
-commaaccent.case = commaaccentcomb.case ^ 1048
-commaaccentturned = commaaccentturnedcomb ^ 1048
+# commaaccent = commaaccentcomb ^ 1048
+# commaaccent.case = commaaccentcomb.case ^ 1048
+# commaaccentturned = commaaccentturnedcomb ^ 1048
 
-dblgrave = dblgravecomb ^ 1048
-dblgrave.case = dblgravecomb.case ^ 1048
-dblgrave-stack = dblgravecomb ^ 1048
-dblgrave-stack.case = dblgravecomb.case ^ 1048
+# dblgrave = dblgravecomb ^ 1048
+# dblgrave.case = dblgravecomb.case ^ 1048
+# dblgrave-stack = dblgravecomb ^ 1048
+# dblgrave-stack.case = dblgravecomb.case ^ 1048
 
-dieresis = dieresiscomb ^ 1048
-dieresis.case = dieresiscomb.case ^ 1048
-dieresis-stack = dieresiscomb ^ 1048
-dieresis-stack.case = dieresiscomb.case ^ 1048
+# dieresis = dieresiscomb ^ 1048
+# dieresis.case = dieresiscomb.case ^ 1048
+# dieresis-stack = dieresiscomb ^ 1048
+# dieresis-stack.case = dieresiscomb.case ^ 1048
 
-dieresisbelow = dieresisbelowcomb ^ 1048
-dieresisbelow.case = dieresisbelowcomb.case ^ 1048
+# dieresisbelow = dieresisbelowcomb ^ 1048
+# dieresisbelow.case = dieresisbelowcomb.case ^ 1048
 
-dotaccent = dotaccentcomb ^ 1048
-dotaccent.case = dotaccentcomb.case ^ 1048
-dotaccent-stack = dotaccentcomb ^ 1048
-dotaccent-stack.case = dotaccentcomb.case ^ 1048
+# dotaccent = dotaccentcomb ^ 1048
+# dotaccent.case = dotaccentcomb.case ^ 1048
+# dotaccent-stack = dotaccentcomb ^ 1048
+# dotaccent-stack.case = dotaccentcomb.case ^ 1048
 
-dotbelow = dotbelowcomb ^ 1048
-dotbelow.case = dotbelowcomb.case ^ 1048
+# dotbelow = dotbelowcomb ^ 1048
+# dotbelow.case = dotbelowcomb.case ^ 1048
 
-grave = gravecomb ^ 1048
-grave.case = gravecomb.case ^ 1048
-grave-stack = gravecomb ^ 1048
-grave-stack.case = gravecomb.case ^ 1048
+# grave = gravecomb ^ 1048
+# grave.case = gravecomb.case ^ 1048
+# grave-stack = gravecomb ^ 1048
+# grave-stack.case = gravecomb.case ^ 1048
 
-hookabove = hookabovecomb ^ 1048
-hookabove.case = hookabovecomb.case ^ 1048
-hookabove-stack = hookabovecomb ^ 1048
-hookabove-stack.case = hookabovecomb.case ^ 1048
+# hookabove = hookabovecomb ^ 1048
+# hookabove.case = hookabovecomb.case ^ 1048
+# hookabove-stack = hookabovecomb ^ 1048
+# hookabove-stack.case = hookabovecomb.case ^ 1048
 
-horn = horncomb ^ 1048
-horn.case = horncomb.case ^ 1048
+# horn = horncomb ^ 1048
+# horn.case = horncomb.case ^ 1048
 
-hornu = u
+# hornu = u
 
-hungarumlaut = hungarumlautcomb ^ 1048
-hungarumlaut.case = hungarumlautcomb.case ^ 1048
-hungarumlaut-stack = hungarumlautcomb ^ 1048
-hungarumlaut-stack.case = hungarumlautcomb.case ^ 1048
+# hungarumlaut = hungarumlautcomb ^ 1048
+# hungarumlaut.case = hungarumlautcomb.case ^ 1048
+# hungarumlaut-stack = hungarumlautcomb ^ 1048
+# hungarumlaut-stack.case = hungarumlautcomb.case ^ 1048
 
-macron = macroncomb ^ 1048
-macron.case = macroncomb.case ^ 1048
-macron-stack = macroncomb ^ 1048
-macron-stack.case = macroncomb.case ^ 1048
+# macron = macroncomb ^ 1048
+# macron.case = macroncomb.case ^ 1048
+# macron-stack = macroncomb ^ 1048
+# macron-stack.case = macroncomb.case ^ 1048
 
-macronbelow = macronbelowcomb ^ 1048
-macronbelow.case = macronbelowcomb.case ^ 1048
+# macronbelow = macronbelowcomb ^ 1048
+# macronbelow.case = macronbelowcomb.case ^ 1048
 
-ogonek = ogonekcomb ^ 1048
-ogonek.case = ogonekcomb.case ^ 1048
+# ogonek = ogonekcomb ^ 1048
+# ogonek.case = ogonekcomb.case ^ 1048
 
-ring = ringcomb ^ 1048
-ring.case = ringcomb.case ^ 1048
-ring-stack = ringcomb ^ 1048
-ring-stack.case = ringcomb.case ^ 1048
+# ring = ringcomb ^ 1048
+# ring.case = ringcomb.case ^ 1048
+# ring-stack = ringcomb ^ 1048
+# ring-stack.case = ringcomb.case ^ 1048
 
-tilde = tildecomb ^ 1048
-tilde.case = tildecomb.case ^ 1048
-tilde-stack = tildecomb ^ 1048
-tilde-stack.case = tildecomb.case ^ 1048
+# tilde = tildecomb ^ 1048
+# tilde.case = tildecomb.case ^ 1048
+# tilde-stack = tildecomb ^ 1048
+# tilde-stack.case = tildecomb.case ^ 1048
 
-tonos = tonoscomb ^ 1048
-dieresistonos = dieresistonoscomb ^ 1048
+# tonos = tonoscomb ^ 1048
+# dieresistonos = dieresistonoscomb ^ 1048
 
-breve.cyr = breve.cyrcomb ^ 1048
-breve.cyr.case = breve.cyrcomb.case ^ 1048
+# breve.cyr = breve.cyrcomb ^ 1048
+# breve.cyr.case = breve.cyrcomb.case ^ 1048
 
-firsttonechinese = macroncomb ^ 1048
+# firsttonechinese = macroncomb ^ 1048
 
 # ---------------
 #  F I G U R E S

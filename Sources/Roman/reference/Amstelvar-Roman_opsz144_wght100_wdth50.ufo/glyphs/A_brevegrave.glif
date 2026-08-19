@@ -4,6 +4,7 @@
 	<advance width="863"/>
 	<outline>
 		<component base="A"/>
-		<component base="brevegravecomb.case" xOffset="-80.5"/>
+		<component base="brevecomb-stack.case" xOffset="431.5"/>
+		<component base="gravecomb-stack.case" xOffset="431.5" yOffset="236"/>
 	</outline>
 </glyph>

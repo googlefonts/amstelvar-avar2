@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="304" y="1660" type="line"/>
-			<point x="343" y="1844" type="line"/>
-			<point x="1075" y="1844" type="line"/>
-			<point x="1036" y="1660" type="line"/>
+			<point x="-345" y="1660" type="line"/>
+			<point x="-306" y="1844" type="line"/>
+			<point x="426" y="1844" type="line"/>
+			<point x="387" y="1660" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="76" y="1891"/>
 </glyph>

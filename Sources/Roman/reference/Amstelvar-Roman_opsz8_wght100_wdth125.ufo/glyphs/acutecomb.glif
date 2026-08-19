@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
 	<unicode hex="0301"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="acute" xOffset="-50"/>
+		<contour>
+			<point x="284" y="1608" type="qcurve" smooth="yes"/>
+			<point x="284" y="1577"/>
+			<point x="226" y="1531"/>
+			<point x="204" y="1515" type="qcurve" smooth="yes"/>
+			<point x="-153" y="1270" type="line"/>
+			<point x="-193" y="1321" type="line"/>
+			<point x="95" y="1622" type="line" smooth="yes"/>
+			<point x="120" y="1649"/>
+			<point x="169" y="1687"/>
+			<point x="203" y="1687" type="qcurve" smooth="yes"/>
+			<point x="240" y="1687"/>
+			<point x="284" y="1636"/>
+		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1050"/>
-	<anchor name="top" x="512" y="1687"/>
+	<anchor name="_top" x="0" y="1050"/>
+	<anchor name="top" x="0" y="1687"/>
 </glyph>

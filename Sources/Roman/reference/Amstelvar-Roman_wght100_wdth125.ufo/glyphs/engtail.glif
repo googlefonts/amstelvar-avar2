@@ -3,8 +3,8 @@
 	<advance width="629"/>
 	<outline>
 		<contour>
-			<point x="417" y="147" type="line"/>
-			<point x="492" y="147" type="line"/>
+			<point x="427" y="13" type="line"/>
+			<point x="492" y="0" type="line"/>
 			<point x="492" y="-186" type="line" smooth="yes"/>
 			<point x="492" y="-322"/>
 			<point x="326" y="-443"/>
@@ -17,11 +17,12 @@
 			<point x="184" y="-384"/>
 			<point x="240" y="-384" type="qcurve" smooth="yes"/>
 			<point x="317" y="-384"/>
-			<point x="409" y="-297"/>
-			<point x="409" y="-221" type="qcurve" smooth="yes"/>
-			<point x="409" y="-142"/>
-			<point x="409" y="113"/>
-			<point x="409" y="113" type="qcurve"/>
+			<point x="411" y="-297"/>
+			<point x="411" y="-221" type="qcurve" smooth="yes"/>
+			<point x="411" y="-142"/>
+			<point x="410" y="0"/>
+			<point x="410" y="0" type="qcurve"/>
 		</contour>
 	</outline>
+	<anchor name="_engtail" x="492" y="0"/>
 </glyph>

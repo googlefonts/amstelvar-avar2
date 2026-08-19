@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresisbelowcomb" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="458" y="-303" type="qcurve" smooth="yes"/>
-			<point x="458" y="-234"/>
-			<point x="533" y="-161"/>
-			<point x="603" y="-161" type="qcurve" smooth="yes"/>
-			<point x="669" y="-161"/>
-			<point x="748" y="-239"/>
-			<point x="748" y="-303" type="qcurve" smooth="yes"/>
-			<point x="748" y="-371"/>
-			<point x="674" y="-444"/>
-			<point x="603" y="-444" type="qcurve" smooth="yes"/>
-			<point x="537" y="-444"/>
-			<point x="458" y="-367"/>
+			<point x="17" y="-303" type="qcurve" smooth="yes"/>
+			<point x="17" y="-234"/>
+			<point x="92" y="-161"/>
+			<point x="162" y="-161" type="qcurve" smooth="yes"/>
+			<point x="228" y="-161"/>
+			<point x="307" y="-239"/>
+			<point x="307" y="-303" type="qcurve" smooth="yes"/>
+			<point x="307" y="-371"/>
+			<point x="233" y="-444"/>
+			<point x="162" y="-444" type="qcurve" smooth="yes"/>
+			<point x="96" y="-444"/>
+			<point x="17" y="-367"/>
 		</contour>
 		<contour>
-			<point x="38" y="-303" type="qcurve" smooth="yes"/>
-			<point x="38" y="-234"/>
-			<point x="113" y="-161"/>
-			<point x="183" y="-161" type="qcurve" smooth="yes"/>
-			<point x="249" y="-161"/>
-			<point x="328" y="-239"/>
-			<point x="328" y="-303" type="qcurve" smooth="yes"/>
-			<point x="328" y="-371"/>
-			<point x="254" y="-444"/>
-			<point x="183" y="-444" type="qcurve" smooth="yes"/>
-			<point x="117" y="-444"/>
-			<point x="38" y="-367"/>
+			<point x="-403" y="-303" type="qcurve" smooth="yes"/>
+			<point x="-403" y="-234"/>
+			<point x="-328" y="-161"/>
+			<point x="-258" y="-161" type="qcurve" smooth="yes"/>
+			<point x="-192" y="-161"/>
+			<point x="-113" y="-239"/>
+			<point x="-113" y="-303" type="qcurve" smooth="yes"/>
+			<point x="-113" y="-371"/>
+			<point x="-187" y="-444"/>
+			<point x="-258" y="-444" type="qcurve" smooth="yes"/>
+			<point x="-324" y="-444"/>
+			<point x="-403" y="-367"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="-90" y="-462"/>
 </glyph>
