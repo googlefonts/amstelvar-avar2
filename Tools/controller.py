@@ -651,7 +651,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
-    glyphNames = list('CGS') # parseGString(p.defaultFont, 'HΠЏИШ')
+    glyphNames = list('S') # parseGString(p.defaultFont, 'HΠЏИШ')
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -660,7 +660,7 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametric=True, tuning=True)
+    # p.updateGlyphsFromDefault(['G'], 'WDSP1000', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
