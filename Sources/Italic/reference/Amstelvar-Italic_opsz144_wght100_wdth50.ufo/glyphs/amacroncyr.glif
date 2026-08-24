@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amacroncyr" format="2">
-	<advance width="627"/>
+	<unicode hex="F50F"/>
+	<advance width="620"/>
 	<outline>
 		<component base="a"/>
-		<component base="macron" xOffset="-41"/>
+		<component base="macroncomb" xOffset="476"/>
 	</outline>
 </glyph>
