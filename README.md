@@ -29,15 +29,15 @@ AmstelvarA2
 
 <dl>
   <dt><a href='#fonts'>Fonts</a></dt>
-  <dd>font binaries for testing</dd>
+  <dd>font binaries</dd>
   <dt><a href='#proofs'>Proofs</a></dt>
-  <dd>proofs of the variable fonts</dd>
+  <dd>proofs of sources and variable fonts</dd>
   <dt><a href='#sources'>Sources</a></dt>
-  <dd>various source files used to design and build the variable fonts</dd>
+  <dd>source files in editable format</dd>
   <dt><a href='#tools'>Tools</a></dt>
   <dd>scripts used during production</dd>
   <dt>build.sh</dt>
-  <dd>shell script to build Roman & Italic variable fonts from their source files</dd>
+  <dd>shell script to build the fonts using <a href='http://github.com/googlefonts/fontmake'>fontmake</a></dd>
 </dl>
 
 
@@ -46,13 +46,13 @@ Fonts
 
 ```
 Fonts
-├── legacy/
+├── reference/
 ├── AmstelvarA2-Roman_avar2.ttf
 └── AmstelvarA2-Italic_avar2.ttf
 ```
 
 <dl>
-<dt>legacy</dt>
+<dt>reference</dt>
 <dd>Subfolder containing the original avar1 version of Amstelvar for use in proofs.</dd>
 <dt>AmstelvarA2-Roman_avar2.ttf, AmstelvarA2-Italic_avar2.ttf</dt>
 <dd>Roman and Italic variable fonts in avar2 format</dd>
@@ -71,9 +71,9 @@ Proofs
 
 <dl>
   <dt>HTML</dt>
-  <dd>Interactive proofs in HTML/CSS/JS format.</dd>
+  <dd>Interactive proofs of the variable fonts in HTML/CSS/JS format.</dd>
   <dt>PDF</dt>
-  <dd>Static proofs in PDF format.</dd>
+  <dd>Static proofs of sources and variable fonts in PDF format.</dd>
   <dt>fontra-test-strings.txt</dt>
   <dd>Test text strings for previewing glyph sets in Fontra.</dd>
 </dl>
@@ -98,10 +98,13 @@ Roman
 ├── *.ufo
 ├── measurements.json
 ├── blends.json
-├── features/*.fea
-├── AmstelvarA2-Roman.glyphConstruction
+├── AmstelvarA2-Roman_avar2.designspace
 ├── AmstelvarA2-Roman.roboFontSets
-└── AmstelvarA2-Roman_avar2.designspace
+├── AmstelvarA2-Roman.glyphConstruction
+├── features/
+├── reference/
+└── tuning/
+
 ```
 
 <dl>
@@ -114,14 +117,23 @@ Roman
 <dt>blends.json</dt>
 <dd>Standalone JSON file containing definitions of blended axes and blended sources from parametric axes.<br/>
   Used when building the avar2 designspace.</dd>
+<dt>AmstelvarA2-Roman_avar2.designspace</dt>
+<dd>Designspace for building the avar2 variable font.</dd>
 <dt>features</dt>
 <dd>Subfolder with .fea files containing OpenType feature code used by the source fonts.</dd>
-<dt>AmstelvarA2-Roman.glyphConstruction</dt>
-<dd><a href='https://github.com/typemytype/GlyphConstruction'>GlyphConstruction</a> file containing instructions for building glyphs from components.</dd>
 <dt>AmstelvarA2-Roman.roboFontSets</dt>
 <dd><a href='http://robofont.com/documentation/topics/smartsets/'>SmartSets</a> file containing various sets of glyphs.</dd>
-<dt>AmstelvarA2-Roman_avar2.designspace
-<dd>Designspace for building the avar2 variable font.</dd>
+<dt>AmstelvarA2-Roman.glyphConstruction</dt>
+<dd><a href='https://github.com/typemytype/GlyphConstruction'>GlyphConstruction</a> file containing instructions for building glyphs from components.</dd>
+<dt>reference</dt>
+<dd>Subfolder with .ufo reference sources, one for each corner of the opsz/wght/wdth designspace.<br/>
+The original sources were changed for full compatibility with AmstelvarA2 sources.
+</dd>
+<dt>tuning</dt>
+<dd>Subfolder with .ufo tuning sources, one for each corner of the opsz/wght/wdth designspace.<br/>
+These sources are calculated automatically from parametric and reference sources.
+</dd>
+
 </dl>
 
 
@@ -133,39 +145,46 @@ Tools
 ├── blending/
 ├── production/
 ├── proofing/
-└── build-designspace.py
+├── reference/
+└── controller.py
 ```
+
+### Project controller
+
+The file `controller.py` contains the project controller, which is used to perform several tasks on the sources. The controller is a subclass of [xProject](https://gferreira.github.io/xTools4/explanations/xproject-overview/).
+
+Tasks performed by the controller include:
+
+- measuring and automatically naming UFO sources
+- automatically building the designspace from source files
+- blending typographic styles from parametric axes
+- cleaning up and normalizing UFO sources
+- copying data from the default to all other sources
+- navigating and filtering the glyph set
+- building and validating composite glyphs
+- generating different kinds of PDF proofs
+- building variable fonts and instances
+- …and more!
 
 ### Production scripts
 
-A subfolder containing various scripts used during development. The most relevant ones are listed below.
-
-<dl>
-  <dt>set-names-from-measurements.py</dt>
-  <dd>Set file name and style name from measurements in all UFOs in a given folder.<br/>
-    Includes a preflight mode which only prints the new names without changing the files.</dd>
-  <dt>copy-glyphs.py</dt>
-  <dd>Copy glyphs from the default font to selected sources.</dd>
-  <dt>build-glyphs.py</dt>
-  <dd>Build glyphs from glyph constructions in the selected sources.</dd>
-  <dt>validate-locations.py</dt>
-  <dd>Check if source locations are within the allowed min/max bounds for each axis.<br/>
-    Helpful when debugging calculated blend values in relation to the current parametric axes.</dd>
-  <dt>mark-components.py</dt>
-  <dd>Mark glyphs in the current font containing components with different colors depending on their components' nesting level.</dd>
-</dl>
+A subfolder containing various scripts used during development
 
 
 Blending
 --------
 
-The appropriate values for blending `opsz` `wght` `wdth` from parametric axes are produced on a [separate repository](http://github.com/gferreira/amstelvar) which is a fork of the original Amstelvar source. [The naming of UFO files was adjusted for easier parameter parsing (using underscores to separate parameters instead of hyphens), and all unnecessary files were deleted.]
+The maping values for blending `opsz` `wght` `wdth` from parametric axes are produced by measuring the original styles of Amstelvar, which are included in this repository as reference sources. 
 
-A separate measurements file was added for Amstelvar, with the same parameters used for measuring AmstelvarA2. This file is needed because the contour structures of the two versions are different, and in most measurements different point indexes must be used.
+The extracted measurements are stored in a `blends.json` file, which is used by the AmstelvarA2 controller to build the designspace.
 
-### Extracting measurements
 
-Using this separate measurements file, the original Amstelvar sources are then measured to produce the `blends.json` file which is used by the AmstelvarA2 designspace builder.
+Tuning
+------
+
+Tuning sources are calculated automatically as the difference between parametric instances and reference sources.
+
+Each tuning axis controls the deltas needed to tune one of 26 corners of the designspace. In locations in between these corners, the deltas are linearly interpolated.
 
 
 Variation axes in AmstelvarA2

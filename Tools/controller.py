@@ -344,6 +344,10 @@ class AmstelvarA2Controller(xProject):
         with open(self.blendsPath, 'w', encoding='utf-8') as f:
             json.dump(blendsDict, f, indent=2)
 
+    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
+        oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
+        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
+
     def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
 
         if self.verbose:
@@ -380,15 +384,16 @@ class AmstelvarA2Controller(xProject):
         super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites)
 
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
-        super().proofBlends(glyphNames, familyName=self.subFamily, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points)
-
-    def updateGlyphsFromDefault(self, glyphNames, oldDefaultName, preflight=True, parametric=True, tuning=True):
-        oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
-        super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'blending', self.subFamily)
+        super().proofBlends(glyphNames, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points, proofsFolder=proofsFolder)
 
     def proofGlyphMemes(self, glyphNames, anchors=True):
         proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyph-memes', self.subFamily)
         super().proofGlyphMemes(glyphNames, anchors=anchors, proofsFolder=proofsFolder)
+
+    def proofTuning(self, glyphNames, referenceSource, levels=[2, 3, 4]):
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'tuning', self.subFamily)
+        super().proofTuning(glyphNames, referenceSource, levels=levels, proofsFolder=proofsFolder)
 
 
 class AmstelvarA2Controller2(AmstelvarA2Controller):
@@ -646,14 +651,16 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
+    glyphNames = list('Q') # parseGString(p.defaultFont, 'HΠЏИШ')
+
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['dollar'], 'WDSP1000', preflight=False, parametric=True, tuning=True)
+    # p.updateGlyphsFromDefault(['Q'], 'WDSP1000', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
@@ -670,7 +677,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources('cent copyright registered trademark'.split(), referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
     # p.parametricAxesHidden = True
@@ -681,8 +688,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=False)
+    p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -690,14 +697,13 @@ if __name__ == '__main__':
     # print(p.defaultLocation)
 
     # --- proofing ---
-    # glyphNames = ['Icyr'] # parseGString(p.defaultFont, 'Џ')
     # p.proofGlyphMemes(glyphNames, anchors=True)
+    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(list(string.ascii_uppercase + string.ascii_lowercase), margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
-    # p.proofTuning(['idot'], referenceSource, level=3)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
