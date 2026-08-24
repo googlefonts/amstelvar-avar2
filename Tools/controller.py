@@ -651,7 +651,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
-    glyphNames = list('Q') # parseGString(p.defaultFont, 'HΠЏИШ')
+    glyphNames = ['thorn'] # 'schwa'.split() # parseGString(p.defaultFont, 'HΠЏИШ')
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -688,8 +688,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=False)
-    p.normalizeSources(parametric=True, tuning=True, reference=False)
+    p.cleanupSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
