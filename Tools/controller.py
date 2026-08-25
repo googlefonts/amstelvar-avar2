@@ -672,7 +672,7 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs('i j'.split(), preflight=False)
 
     # --- measuring ---
-    p.extractMeasurements()
+    # p.extractMeasurements()
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
@@ -685,12 +685,12 @@ if __name__ == '__main__':
     p.tuningAxesHidden = True
     p.tuning = True
     p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
-    p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=False, reference=False)
+    # p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -704,7 +704,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
