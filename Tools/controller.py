@@ -267,6 +267,10 @@ class AmstelvarA2Controller(xProject):
                 parametricAxes = {}
                 childNames = [a[0] for a in fontMeasurements.items() if a[1]['parent'] == parentAxisName]
                 for childName in childNames:
+                    if childName not in self.defaultLocation:
+                        print(f'no parameter {childName} in default location, skipping...')
+                        continue
+
                     # get min/max values from file names
                     values = []
                     for ufo in self.sourcesPaths:
@@ -635,7 +639,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -648,7 +652,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
-    glyphNames = ['thorn'] # 'schwa'.split() # parseGString(p.defaultFont, 'HΠЏИШ')
+    glyphNames = parseGString(p.defaultFont, 'OQo/zero')
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -668,7 +672,7 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs('i j'.split(), preflight=False)
 
     # --- measuring ---
-    # p.extractMeasurements()
+    p.extractMeasurements()
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
@@ -677,16 +681,16 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
-    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    p.normalizeSources(parametric=True, tuning=False, reference=False)
+    # p.cleanupSources(parametric=True, tuning=False, reference=False)
+    # p.normalizeSources(parametric=True, tuning=False, reference=False)
 
     # --- project info ---
     # p.printSettings()
