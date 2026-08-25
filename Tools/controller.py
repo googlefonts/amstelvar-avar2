@@ -67,16 +67,8 @@ class AmstelvarA2Controller(xProject):
         'YSVA' : 'YSVU',
         'XVAA' : 'XVAU',
         'YHAA' : 'YHAU',
-        # 'XTEQ' : 'XQUC',
-        # 'YTEQ' : 'YQUC',
     }
     _parentParametricHidden = False
-
-    _matchRangeAxes = {
-    #     'XQUC' : 'XTUR',
-    #     'XQLC' : 'XTLR',
-    #     'XQFI' : 'XTFI',
-    }
 
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
@@ -132,6 +124,11 @@ class AmstelvarA2Controller(xProject):
     @property
     def referenceFontPath(self):
         return os.path.join(self.fontsFolder, 'reference', self.referenceFontName)
+
+    @property
+    def referenceMeasurementsPath(self):
+        # reference sources are now compatible with parametric sources
+        return self.measurementsPath
 
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
         setSourceNamesFromMeasurements(
@@ -289,7 +286,7 @@ class AmstelvarA2Controller(xProject):
                     }
 
                 parentDefault = self._parentParametricAxesDefaults[parentAxisName]
-                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
+                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault)
 
                 # clip mapping values to the available parametric ranges
                 mappingsClipped = {}
@@ -689,7 +686,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    # p.normalizeSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=True, tuning=False, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -703,7 +700,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

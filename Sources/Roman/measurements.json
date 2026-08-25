@@ -243,33 +243,6 @@
       "parent": "XTRA",
       "description": "X transparent etcetera"
     },
-    "XQUC": {
-      "direction": "x",
-      "glyph 1": "O",
-      "point 1": "22",
-      "glyph 2": "O",
-      "point 2": 21,
-      "parent": "XTRA",
-      "description": "X internal curvature uppercase"
-    },
-    "XQLC": {
-      "direction": "x",
-      "glyph 1": "o",
-      "point 1": "22",
-      "glyph 2": "o",
-      "point 2": "21",
-      "parent": "XTRA",
-      "description": "X internal curvature lowercase"
-    },
-    "XQFI": {
-      "direction": "x",
-      "glyph 1": "zero",
-      "point 1": "22",
-      "glyph 2": "zero",
-      "point 2": 21,
-      "parent": "XTRA",
-      "description": "X internal curvature figures"
-    },
     "YTRA": {
       "direction": "y",
       "glyph 1": "p",
@@ -782,51 +755,6 @@
       "point 2": "6",
       "parent": "",
       "description": "Trap length"
-    },
-    "XTEQ": {
-      "direction": "x",
-      "glyph 1": "O",
-      "point 1": "22",
-      "glyph 2": "O",
-      "point 2": "21",
-      "parent": "",
-      "description": "X internal curvature"
-    },
-    "YTEQ": {
-      "direction": "y",
-      "glyph 1": "O",
-      "point 1": "12",
-      "glyph 2": "O",
-      "point 2": "23",
-      "parent": "",
-      "description": "Y internal curvature"
-    },
-    "YQUC": {
-      "direction": "y",
-      "glyph 1": "O",
-      "point 1": 12,
-      "glyph 2": "O",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": "Y internal curvature uppercase"
-    },
-    "YQLC": {
-      "direction": "y",
-      "glyph 1": "o",
-      "point 1": 12,
-      "glyph 2": "o",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": "Y internal curvature lowercase"
-    },
-    "YQFI": {
-      "direction": "y",
-      "glyph 1": "zero",
-      "point 1": 12,
-      "glyph 2": "zero",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": "Y internal curvature figures"
     },
     "BARS": {
       "direction": "y",
