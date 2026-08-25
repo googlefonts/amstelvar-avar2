@@ -14,11 +14,11 @@ from xTools4.modules.fontutils import parseGString
 
 _parametricAxesRoman  = 'WDSP GRAD '
 
-                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # EQ      # XTSP
-_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XQUC YQUC XUCS XUCR XUCD ' # uppercase
-_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XQLC YQLC XLCS XLCR XLCD ' # lowercase
-_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XQFI YQFI XFIR           ' # figures
-_parametricAxesRoman += 'XOET YOET           XTET                                                                  XETS           ' # etcetera
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # XTSP
+_parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XUCS XUCR XUCD ' # uppercase
+_parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XLCS XLCR XLCD ' # lowercase
+_parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XFIR           ' # figures
+_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -67,16 +67,8 @@ class AmstelvarA2Controller(xProject):
         'YSVA' : 'YSVU',
         'XVAA' : 'XVAU',
         'YHAA' : 'YHAU',
-        'XTEQ' : 'XQUC',
-        'YTEQ' : 'YQUC',
     }
     _parentParametricHidden = False
-
-    _matchRangeAxes = {
-        'XQUC' : 'XTUR',
-        'XQLC' : 'XTLR',
-        'XQFI' : 'XTFI',
-    }
 
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
@@ -132,6 +124,11 @@ class AmstelvarA2Controller(xProject):
     @property
     def referenceFontPath(self):
         return os.path.join(self.fontsFolder, 'reference', self.referenceFontName)
+
+    @property
+    def referenceMeasurementsPath(self):
+        # reference sources are now compatible with parametric sources
+        return self.measurementsPath
 
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght', 'GRAD']):
         setSourceNamesFromMeasurements(
@@ -270,6 +267,10 @@ class AmstelvarA2Controller(xProject):
                 parametricAxes = {}
                 childNames = [a[0] for a in fontMeasurements.items() if a[1]['parent'] == parentAxisName]
                 for childName in childNames:
+                    if childName not in self.defaultLocation:
+                        print(f'no parameter {childName} in default location, skipping...')
+                        continue
+
                     # get min/max values from file names
                     values = []
                     for ufo in self.sourcesPaths:
@@ -289,7 +290,7 @@ class AmstelvarA2Controller(xProject):
                     }
 
                 parentDefault = self._parentParametricAxesDefaults[parentAxisName]
-                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault, self._matchRangeAxes)
+                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault)
 
                 # clip mapping values to the available parametric ranges
                 mappingsClipped = {}
@@ -651,7 +652,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
 
-    glyphNames = list('Q') # parseGString(p.defaultFont, 'HΠЏИШ')
+    glyphNames = parseGString(p.defaultFont, '/ae/OE')
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -688,7 +689,7 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=False)
+    # p.cleanupSources(parametric=True, tuning=False, reference=False)
     p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
