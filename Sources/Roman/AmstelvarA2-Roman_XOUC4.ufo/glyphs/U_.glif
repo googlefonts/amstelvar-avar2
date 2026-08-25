@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="U" format="2">
 	<unicode hex="0055"/>
-	<advance width="1302"/>
+	<advance width="1242"/>
 	<outline>
 		<contour>
 			<point x="64" y="1386" type="line"/>
@@ -11,33 +11,33 @@
 			<point x="276" y="1352" type="line"/>
 			<point x="271" y="794" type="line"/>
 			<point x="268" y="474" type="line" smooth="yes"/>
-			<point x="266" y="282"/>
-			<point x="436" y="114"/>
-			<point x="615" y="114" type="qcurve" smooth="yes"/>
-			<point x="776" y="114"/>
-			<point x="938" y="297"/>
-			<point x="940" y="494" type="qcurve" smooth="yes"/>
-			<point x="942" y="794" type="line"/>
-			<point x="940" y="1352" type="line"/>
-			<point x="722" y="1386" type="line"/>
-			<point x="722" y="1500" type="line"/>
-			<point x="1288" y="1500" type="line"/>
-			<point x="1288" y="1386" type="line"/>
-			<point x="1080" y="1352" type="line"/>
-			<point x="1079" y="794" type="line"/>
-			<point x="1081" y="493" type="line" smooth="yes"/>
-			<point x="1083" y="233"/>
-			<point x="903" y="-31"/>
-			<point x="658" y="-31" type="qcurve" smooth="yes"/>
-			<point x="465" y="-31"/>
-			<point x="261" y="242"/>
+			<point x="266" y="264"/>
+			<point x="442" y="74"/>
+			<point x="579" y="74" type="qcurve" smooth="yes"/>
+			<point x="715" y="74"/>
+			<point x="871" y="259"/>
+			<point x="880" y="494" type="qcurve" smooth="yes"/>
+			<point x="882" y="794" type="line"/>
+			<point x="880" y="1352" type="line"/>
+			<point x="662" y="1386" type="line"/>
+			<point x="662" y="1500" type="line"/>
+			<point x="1228" y="1500" type="line"/>
+			<point x="1228" y="1386" type="line"/>
+			<point x="1020" y="1352" type="line"/>
+			<point x="1019" y="794" type="line"/>
+			<point x="1021" y="493" type="line" smooth="yes"/>
+			<point x="1023" y="233"/>
+			<point x="828" y="-31"/>
+			<point x="628" y="-31" type="qcurve" smooth="yes"/>
+			<point x="450" y="-31"/>
+			<point x="260" y="242"/>
 			<point x="262" y="481" type="qcurve" smooth="yes"/>
 			<point x="264" y="794" type="line"/>
 			<point x="262" y="1352" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="bottom" x="644" y="0"/>
-	<anchor name="ogonek" x="844" y="0"/>
-	<anchor name="top" x="602" y="1500"/>
-	<anchor name="topright" x="1288" y="1500"/>
+	<anchor name="ogonek" x="794" y="0"/>
+	<anchor name="top" x="644" y="1500"/>
+	<anchor name="topright" x="1228" y="1500"/>
 </glyph>
