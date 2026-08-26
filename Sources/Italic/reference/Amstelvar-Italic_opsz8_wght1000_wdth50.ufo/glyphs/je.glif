@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="je" format="2">
+	<unicode hex="0458"/>
 	<advance width="727"/>
 	<outline>
-		<component base="j"/>
+		<component base="jdotless"/>
+		<component base="idot" xOffset="277.9999999999"/>
 	</outline>
 </glyph>
