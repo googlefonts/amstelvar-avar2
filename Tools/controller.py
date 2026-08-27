@@ -639,7 +639,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -661,7 +661,7 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['Q'], 'WDSP1000', preflight=False, parametric=True, tuning=False)
+    # p.updateGlyphsFromDefault(['cent'], 'XDOT23', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
@@ -689,8 +689,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    p.normalizeSources(parametric=True, tuning=True, reference=False)
+    # p.cleanupSources(parametric=False, tuning=True, reference=True)
+    # p.normalizeSources(parametric=False, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -701,7 +701,7 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
-    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
+    p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
