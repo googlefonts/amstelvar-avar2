@@ -103,19 +103,21 @@ class AmstelvarA2Controller(xProject):
     def defaultLocation(self):
         location = super().defaultLocation.copy()
         # add custom parametric axes (not based on measurement)
-        location['GRAD'] = 0
+        for tag in ['GRAD']:
+            axisName = self.getAxisName(tag)
+            location[axisName] = 0
 
-        # TO-DO: move the sorting code below to a separate, reusable method
+        # # TO-DO: move the sorting code below to a separate, reusable method
+        # # sort parameters based on list of parametric axes
+        # locationSorted = {}
+        # for parameterName in self.parametricAxes:
+        #     locationSorted[parameterName] = location[parameterName]
+        # for key, value in location.items():
+        #     if key not in locationSorted:
+        #         locationSorted[key] = value
+        # return locationSorted
 
-        # sort parameters based on list of parametric axes
-        locationSorted = {}
-        for parameterName in self.parametricAxes:
-            locationSorted[parameterName] = location[parameterName]
-        for key, value in location.items():
-            if key not in locationSorted:
-                locationSorted[key] = value
-
-        return locationSorted
+        return location
 
     @property
     def referenceFontName(self):
@@ -218,7 +220,6 @@ class AmstelvarA2Controller(xProject):
             print('\tbuilding blends file...')
 
         # add parent spacing axis
-
         blendsDict['axes']['XTSP'] = {
             "name"    : "Spacing",
             "default" : 0,
@@ -228,17 +229,21 @@ class AmstelvarA2Controller(xProject):
         blendsDict['sources']['XTSP-100'] = self.defaultLocation.copy()
         blendsDict['sources']['XTSP100']  = self.defaultLocation.copy()
 
-        ### THIS IS A HACK !
-        del blendsDict['sources']['XTSP-100']['GRAD']
-        del blendsDict['sources']['XTSP100']['GRAD']
+        ### REMOVE GRAD FROM BLENDS -- THIS IS A HACK !
+        axisName = self.getAxisName('GRAD')
+        for srcName in ['XTSP-100', 'XTSP100']:
+            del blendsDict['sources'][srcName][axisName]
 
         if self.tuning:
             # add tuning axes to blended locations
             for styleName in blendsDict['sources']:
+                if styleName == 'wght400':
+                    continue
                 for tuningStyle, tuningAxis in self.tuningAxes.items():
                     tuningValue = tuningAxis.maximum if styleName == tuningStyle else tuningAxis.default
                     # print(f'\t\tadding tuning blend: {styleName} {tuningAxis.tag} {tuningValue}...')
-                    blendsDict['sources'][styleName][tuningAxis.tag] = tuningValue
+                    tuningAxisName = tuningStyle if self.useLongAxisNames else tuningAxis.tag 
+                    blendsDict['sources'][styleName][tuningAxisName] = tuningValue
 
         for axisName in self._spacingAxes:
             values = []
@@ -260,26 +265,28 @@ class AmstelvarA2Controller(xProject):
 
             parametricAxesDict = self.getParametricAxesFromSourceNames()
 
-            for parentAxisName in self.parentParametricAxes:
-                parentMeasurement = fontMeasurements[parentAxisName]
+            for parentAxisTag in self.parentParametricAxes:
+                parentMeasurement = fontMeasurements[parentAxisTag]
 
                 # get parametric axes for parent
                 parametricAxes = {}
-                childNames = [a[0] for a in fontMeasurements.items() if a[1]['parent'] == parentAxisName]
-                for childName in childNames:
+                childTags = [a[0] for a in fontMeasurements.items() if a[1]['parent'] == parentAxisTag]
+
+                for childTag in childTags:
+                    childName = self.getAxisName(childTag)
                     if childName not in self.defaultLocation:
-                        print(f'no parameter {childName} in default location, skipping...')
+                        print(f'no parameter {childTag} in default location, skipping...')
                         continue
 
                     # get min/max values from file names
                     values = []
                     for ufo in self.sourcesPaths:
-                        if childName in ufo:
+                        if childTag in ufo:
                             value = int(os.path.splitext(os.path.split(ufo)[-1])[0].split('_')[-1][4:])
                             values.append(value)
                     if not len(values) == 2:
                         if self.verbose:
-                            print(f'\t\tskipping child axis {childName} ({parentAxisName}) {values}...')
+                            print(f'\t\tskipping child axis {childTag} ({parentAxisTag}) {values}...')
                         continue
                     values.sort()
 
@@ -289,30 +296,31 @@ class AmstelvarA2Controller(xProject):
                         'default' : self.defaultLocation[childName],
                     }
 
-                parentDefault = self._parentParametricAxesDefaults[parentAxisName]
-                parentAxis, mappings = makeParentAxis(parentAxisName, parametricAxes, parentDefault)
+                parentDefault = self._parentParametricAxesDefaults[parentAxisTag]
+                parentAxis, mappings = self.makeParentParametricAxis(parentAxisTag, parametricAxes, parentDefault)
 
                 # clip mapping values to the available parametric ranges
-                mappingsClipped = {}
-                for parentValue in mappings.keys():
-                    mappingsClipped[parentValue] = {}
-                    for tag, value in mappings[parentValue].items():
-                        if value < parametricAxesDict[tag]['minimum']:
-                            clippedValue = parametricAxesDict[tag]['minimum']
-                        elif value > parametricAxesDict[tag]['maximum']:
-                            clippedValue = parametricAxesDict[tag]['maximum']
-                        else:
-                            clippedValue = value
-                        mappingsClipped[parentValue][tag] = clippedValue
+                # mappingsClipped = {}
+                # for parentValue in mappings.keys():
+                #     mappingsClipped[parentValue] = {}
+                #     for tag, value in mappings[parentValue].items():
+                #         if value < parametricAxesDict[tag]['minimum']:
+                #             clippedValue = parametricAxesDict[tag]['minimum']
+                #         elif value > parametricAxesDict[tag]['maximum']:
+                #             clippedValue = parametricAxesDict[tag]['maximum']
+                #         else:
+                #             clippedValue = value
+                #         mappingsClipped[parentValue][tag] = clippedValue
+                # mappings = mappingsClipped
 
                 # add parent axis
-                blendsDict['axes'][parentAxisName] = parentAxis
+                blendsDict['axes'][parentAxisTag] = parentAxis
 
                 # add parametric mappings
-                for mappingValue in mappingsClipped:
-                    blendsDict['sources'][f'{parentAxisName}{mappingValue}'] = {}
-                    for parametricAxisName, parametricValue in mappingsClipped[mappingValue].items():
-                        blendsDict['sources'][f'{parentAxisName}{mappingValue}'][parametricAxisName] = parametricValue
+                for mappingValue in mappings:
+                    blendsDict['sources'][f'{parentAxisTag}{mappingValue}'] = {}
+                    for parametricAxisName, parametricValue in mappings[mappingValue].items():
+                        blendsDict['sources'][f'{parentAxisTag}{mappingValue}'][parametricAxisName] = parametricValue
 
         # done!
 
@@ -639,7 +647,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -681,16 +689,17 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.useLongAxisNames = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, reference=False)
-    p.normalizeSources(parametric=True, tuning=True, reference=False)
+    # p.cleanupSources(parametric=True, tuning=False, reference=False)
+    # p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -704,7 +713,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
