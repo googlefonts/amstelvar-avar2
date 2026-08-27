@@ -702,78 +702,6 @@
       "parent": "",
       "description": ""
     },
-    "XTEQ": {
-      "direction": "x",
-      "glyph 1": "O",
-      "point 1": "22",
-      "glyph 2": "O",
-      "point 2": "21",
-      "parent": "",
-      "description": ""
-    },
-    "YTEQ": {
-      "direction": "y",
-      "glyph 1": "O",
-      "point 1": "12",
-      "glyph 2": "O",
-      "point 2": "23",
-      "parent": "",
-      "description": ""
-    },
-    "XQUC": {
-      "direction": "x",
-      "glyph 1": "O",
-      "point 1": "22",
-      "glyph 2": "O",
-      "point 2": 21,
-      "parent": "XTRA",
-      "description": ""
-    },
-    "YQUC": {
-      "direction": "y",
-      "glyph 1": "O",
-      "point 1": 12,
-      "glyph 2": "O",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": ""
-    },
-    "XQLC": {
-      "direction": "x",
-      "glyph 1": "o",
-      "point 1": "22",
-      "glyph 2": "o",
-      "point 2": 21,
-      "parent": "XTRA",
-      "description": ""
-    },
-    "YQLC": {
-      "direction": "y",
-      "glyph 1": "o",
-      "point 1": 12,
-      "glyph 2": "o",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": ""
-    },
-    "XQFI": {
-      "direction": "x",
-      "glyph 1": "zero",
-      "point 1": "22",
-      "glyph 2": "zero",
-      "point 2": 21,
-      "parent": "XTRA",
-      "description": ""
-    },
-    "YQFI": {
-      "direction": "y",
-      "glyph 1": "zero",
-      "point 1": 12,
-      "glyph 2": "zero",
-      "point 2": "23",
-      "parent": "YTEQ",
-      "description": ""
-    },
     "YTJD": {
       "direction": "y",
       "glyph 1": "J",
@@ -918,38 +846,6 @@
       },
       "B 9": {
         "name": "YTFO",
-        "direction": "y"
-      },
-      "22 21": {
-        "name": "XQFI",
-        "direction": "x"
-      },
-      "21 20": {
-        "name": "XQFI",
-        "direction": "x"
-      },
-      "14 15": {
-        "name": "XQFI",
-        "direction": "x"
-      },
-      "15 16": {
-        "name": "XQFI",
-        "direction": "x"
-      },
-      "12 23": {
-        "name": "YQFI",
-        "direction": "y"
-      },
-      "18 19": {
-        "name": "YQFI",
-        "direction": "y"
-      },
-      "13 12": {
-        "name": "YQFI",
-        "direction": "y"
-      },
-      "17 18": {
-        "name": "YQFI",
         "direction": "y"
       }
     },
@@ -2489,38 +2385,6 @@
       "B 9": {
         "name": "YTOS",
         "direction": "y"
-      },
-      "22 21": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "21 20": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "14 15": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "15 16": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "12 23": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "18 19": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "13 12": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "17 18": {
-        "name": "YQUC",
-        "direction": "y"
       }
     },
     "P": {
@@ -2644,38 +2508,6 @@
       },
       "B 9": {
         "name": "YTOS",
-        "direction": "y"
-      },
-      "22 21": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "21 20": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "14 15": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "15 16": {
-        "name": "XQUC",
-        "direction": "x"
-      },
-      "13 12": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "18 19": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "17 18": {
-        "name": "YQUC",
-        "direction": "y"
-      },
-      "12 23": {
-        "name": "YQUC",
         "direction": "y"
       }
     },
@@ -4114,38 +3946,6 @@
       },
       "B 9": {
         "name": "YTOS",
-        "direction": "y"
-      },
-      "22 21": {
-        "name": "XQLC",
-        "direction": "x"
-      },
-      "21 20": {
-        "name": "XQLC",
-        "direction": "x"
-      },
-      "14 15": {
-        "name": "XQLC",
-        "direction": "x"
-      },
-      "15 16": {
-        "name": "XQLC",
-        "direction": "x"
-      },
-      "12 23": {
-        "name": "YQLC",
-        "direction": "y"
-      },
-      "18 19": {
-        "name": "YQLC",
-        "direction": "y"
-      },
-      "13 12": {
-        "name": "YQLC",
-        "direction": "y"
-      },
-      "17 18": {
-        "name": "YQLC",
         "direction": "y"
       }
     },
