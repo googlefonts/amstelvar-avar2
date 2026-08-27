@@ -639,7 +639,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -669,7 +669,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('i j'.split(), preflight=False)
+    # p.buildCompositeGlyphs('Ldot'.split(), preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -689,8 +689,8 @@ if __name__ == '__main__':
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=True, reference=True)
-    # p.normalizeSources(parametric=False, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=False, reference=False)
+    p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -701,7 +701,7 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
-    p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
+    # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
     # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
