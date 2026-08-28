@@ -19,7 +19,7 @@ measurementsDst = readMeasurements(measurementsPathDst)
 for tag in measurementsSrc['font'].keys():
     print(tag, measurementsSrc['font'][tag]['description'])
     if tag not in measurementsDst['font']:
-        print(f'tag {tag} missing in target file, skipping...')
+        print(f'>>> ERROR: tag {tag} missing in target file, skipping...')
         continue    
     measurementsDst['font'][tag]['description'] = measurementsSrc['font'][tag]['description'] 
 
