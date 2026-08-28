@@ -3,19 +3,6 @@
 	<unicode hex="00B4"/>
 	<advance width="1024"/>
 	<outline>
-		<contour>
-			<point x="846" y="1608" type="qcurve" smooth="yes"/>
-			<point x="846" y="1577"/>
-			<point x="788" y="1531"/>
-			<point x="766" y="1515" type="qcurve" smooth="yes"/>
-			<point x="409" y="1270" type="line"/>
-			<point x="369" y="1321" type="line"/>
-			<point x="657" y="1622" type="line" smooth="yes"/>
-			<point x="682" y="1649"/>
-			<point x="731" y="1687"/>
-			<point x="765" y="1687" type="qcurve" smooth="yes"/>
-			<point x="802" y="1687"/>
-			<point x="846" y="1636"/>
-		</contour>
+		<component base="acutecomb" xOffset="467"/>
 	</outline>
 </glyph>

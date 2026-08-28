@@ -4,12 +4,6 @@
 	<advance width="1109"/>
 	<outline>
 		<component base="a"/>
-		<component base="macron" xOffset="87"/>
+		<component base="macroncomb" xOffset="670"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

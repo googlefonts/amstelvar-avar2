@@ -3,12 +3,7 @@
 	<unicode hex="0458"/>
 	<advance width="587"/>
 	<outline>
-		<component base="j"/>
+		<component base="jdotless"/>
+		<component base="idot" xOffset="163"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

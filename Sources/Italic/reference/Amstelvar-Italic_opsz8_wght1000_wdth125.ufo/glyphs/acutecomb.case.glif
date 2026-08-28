@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="208" y="1697" type="line"/>
-			<point x="428" y="1982" type="line" smooth="yes"/>
-			<point x="478" y="2047"/>
-			<point x="601" y="2146"/>
-			<point x="659" y="2146" type="qcurve" smooth="yes"/>
-			<point x="760" y="2146"/>
-			<point x="859" y="2049"/>
-			<point x="859" y="1961" type="qcurve" smooth="yes"/>
-			<point x="859" y="1889"/>
-			<point x="771" y="1780"/>
-			<point x="703" y="1755" type="qcurve" smooth="yes"/>
-			<point x="299" y="1606" type="line"/>
+			<point x="-211" y="1758" type="line"/>
+			<point x="9" y="2043" type="line" smooth="yes"/>
+			<point x="59" y="2108"/>
+			<point x="182" y="2207"/>
+			<point x="253" y="2207" type="qcurve" smooth="yes"/>
+			<point x="341" y="2207"/>
+			<point x="440" y="2110"/>
+			<point x="440" y="2022" type="qcurve" smooth="yes"/>
+			<point x="440" y="1950"/>
+			<point x="352" y="1841"/>
+			<point x="284" y="1816" type="qcurve" smooth="yes"/>
+			<point x="-120" y="1667" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="148" y="2259"/>
 </glyph>

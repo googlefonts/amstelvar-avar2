@@ -4,6 +4,7 @@
 	<advance width="781"/>
 	<outline>
 		<component base="a"/>
-		<component base="brevehookabovecomb" xOffset="-125"/>
+		<component base="brevecomb-stack" xOffset="387"/>
+		<component base="hookabovecomb-stack" xOffset="387" yOffset="316"/>
 	</outline>
 </glyph>

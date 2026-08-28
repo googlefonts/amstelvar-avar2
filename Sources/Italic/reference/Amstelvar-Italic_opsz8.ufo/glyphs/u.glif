@@ -39,11 +39,9 @@
 			<point x="55" y="131"/>
 		</contour>
 	</outline>
-	<guideline x="670" y="1000" angle="79" identifier="gi7GPev9gB"/>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.guideline.magnetic.gi7GPev9gB</key>
-			<integer>5</integer>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="455" y="0"/>
+	<anchor name="ogonek" x="835" y="0"/>
+	<anchor name="top" x="655" y="1050"/>
+	<anchor name="topright" x="1063" y="1068"/>
+	<anchor name="cy_descender" x="1091" y="164"/>
 </glyph>

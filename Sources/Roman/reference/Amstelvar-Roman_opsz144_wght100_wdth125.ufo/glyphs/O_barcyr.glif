@@ -3,41 +3,7 @@
 	<unicode hex="04E8"/>
 	<advance width="1942"/>
 	<outline>
-		<contour>
-			<point x="131" y="749" type="line"/>
-			<point x="131" y="781" type="line"/>
-			<point x="970" y="778" type="line"/>
-			<point x="1824" y="781" type="line"/>
-			<point x="1824" y="749" type="line"/>
-			<point x="970" y="751" type="line"/>
-		</contour>
-		<contour>
-			<point x="86" y="743" type="qcurve" smooth="yes"/>
-			<point x="86" y="1074"/>
-			<point x="591" y="1522"/>
-			<point x="970" y="1522" type="qcurve" smooth="yes"/>
-			<point x="1360" y="1522"/>
-			<point x="1856" y="1093"/>
-			<point x="1856" y="764" type="qcurve" smooth="yes"/>
-			<point x="1856" y="417"/>
-			<point x="1366" y="-30"/>
-			<point x="975" y="-30" type="qcurve" smooth="yes"/>
-			<point x="594" y="-30"/>
-			<point x="86" y="400"/>
-		</contour>
-		<contour>
-			<point x="160" y="771" type="qcurve" smooth="yes"/>
-			<point x="160" y="403"/>
-			<point x="621" y="-15"/>
-			<point x="982" y="-15" type="qcurve" smooth="yes"/>
-			<point x="1347" y="-15"/>
-			<point x="1781" y="375"/>
-			<point x="1781" y="744" type="qcurve" smooth="yes"/>
-			<point x="1781" y="1100"/>
-			<point x="1330" y="1503"/>
-			<point x="965" y="1503" type="qcurve" smooth="yes"/>
-			<point x="618" y="1503"/>
-			<point x="160" y="1134"/>
-		</contour>
+		<component base="O"/>
+		<component base="Obarcyr-stroke" xOffset="-6.5" yOffset="-15"/>
 	</outline>
 </glyph>

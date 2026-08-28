@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="512" y="1665" type="qcurve" smooth="yes"/>
-			<point x="475" y="1665"/>
-			<point x="399" y="1706"/>
-			<point x="351" y="1751" type="qcurve" smooth="yes"/>
-			<point x="165" y="1959" type="line"/>
-			<point x="278" y="2046" type="line"/>
-			<point x="512" y="1846" type="line"/>
-			<point x="746" y="2053" type="line"/>
-			<point x="859" y="1959" type="line"/>
-			<point x="673" y="1751" type="line" smooth="yes"/>
-			<point x="631" y="1704"/>
-			<point x="548" y="1665"/>
+			<point x="0" y="1665" type="qcurve" smooth="yes"/>
+			<point x="-37" y="1665"/>
+			<point x="-113" y="1706"/>
+			<point x="-161" y="1751" type="qcurve" smooth="yes"/>
+			<point x="-347" y="1959" type="line"/>
+			<point x="-234" y="2046" type="line"/>
+			<point x="0" y="1846" type="line"/>
+			<point x="234" y="2053" type="line"/>
+			<point x="347" y="1959" type="line"/>
+			<point x="161" y="1751" type="line" smooth="yes"/>
+			<point x="119" y="1704"/>
+			<point x="36" y="1665"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1500"/>
-	<anchor name="top" x="512" y="2053"/>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2053"/>
 </glyph>

@@ -19,17 +19,17 @@
 		</contour>
 		<contour>
 			<point x="682" y="836" type="qcurve" smooth="yes"/>
-			<point x="617.8592476747" y="505.2742458226"/>
-			<point x="829.4369278164" y="208.6766454666"/>
+			<point x="618" y="505"/>
+			<point x="829" y="209"/>
 			<point x="1041" y="178" type="qcurve" smooth="yes"/>
-			<point x="1271.6457635578" y="144.0209366187"/>
-			<point x="1657.9338352193" y="393.6481714043"/>
+			<point x="1272" y="144"/>
+			<point x="1658" y="394"/>
 			<point x="1721" y="729" type="qcurve" smooth="yes"/>
-			<point x="1784.1135061217" y="1062.5999609292"/>
-			<point x="1527.5419345894" y="1310.9912024316"/>
+			<point x="1784" y="1063"/>
+			<point x="1528" y="1311"/>
 			<point x="1308" y="1332" type="qcurve" smooth="yes"/>
-			<point x="1083.9036807965" y="1353.6867405681"/>
-			<point x="744.0761232068" y="1154.3904383833"/>
+			<point x="1084" y="1354"/>
+			<point x="744" y="1154"/>
 		</contour>
 		<contour>
 			<point x="506" y="672" type="line"/>
@@ -40,10 +40,4 @@
 			<point x="1226" y="670" type="line"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

@@ -3,7 +3,8 @@
 	<unicode hex="1EC7"/>
 	<advance width="499"/>
 	<outline>
-		<component base="ecircumflex"/>
-		<component base="dotbelowcomb" xOffset="-175"/>
+		<component base="e"/>
+		<component base="circumflexcomb" xOffset="275"/>
+		<component base="dotbelowcomb" xOffset="273"/>
 	</outline>
 </glyph>

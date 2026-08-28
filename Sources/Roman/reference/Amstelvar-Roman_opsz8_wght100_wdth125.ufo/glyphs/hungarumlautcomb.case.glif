@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="718" y="1980" type="qcurve"/>
-			<point x="718" y="1945"/>
-			<point x="675" y="1902"/>
-			<point x="657" y="1891" type="qcurve" smooth="yes"/>
-			<point x="339" y="1701" type="line"/>
-			<point x="287" y="1757" type="line"/>
-			<point x="547" y="2000" type="line" smooth="yes"/>
-			<point x="570" y="2021"/>
-			<point x="616" y="2053"/>
-			<point x="644" y="2053" type="qcurve" smooth="yes"/>
-			<point x="674" y="2053"/>
-			<point x="718" y="2010"/>
+			<point x="206" y="1980" type="qcurve"/>
+			<point x="206" y="1945"/>
+			<point x="163" y="1902"/>
+			<point x="145" y="1891" type="qcurve" smooth="yes"/>
+			<point x="-173" y="1701" type="line"/>
+			<point x="-225" y="1757" type="line"/>
+			<point x="35" y="2000" type="line" smooth="yes"/>
+			<point x="58" y="2021"/>
+			<point x="104" y="2053"/>
+			<point x="132" y="2053" type="qcurve" smooth="yes"/>
+			<point x="162" y="2053"/>
+			<point x="206" y="2010"/>
 		</contour>
 		<contour>
-			<point x="1124" y="1973" type="qcurve"/>
-			<point x="1124" y="1938"/>
-			<point x="1064" y="1892"/>
-			<point x="1045" y="1881" type="qcurve" smooth="yes"/>
-			<point x="719" y="1700" type="line"/>
-			<point x="677" y="1757" type="line"/>
-			<point x="945" y="1996" type="line" smooth="yes"/>
-			<point x="969" y="2018"/>
-			<point x="1022" y="2046"/>
-			<point x="1050" y="2046" type="qcurve" smooth="yes"/>
-			<point x="1080" y="2046"/>
-			<point x="1124" y="2003"/>
+			<point x="612" y="1973" type="qcurve"/>
+			<point x="612" y="1938"/>
+			<point x="552" y="1892"/>
+			<point x="533" y="1881" type="qcurve" smooth="yes"/>
+			<point x="207" y="1700" type="line"/>
+			<point x="165" y="1757" type="line"/>
+			<point x="433" y="1996" type="line" smooth="yes"/>
+			<point x="457" y="2018"/>
+			<point x="510" y="2046"/>
+			<point x="538" y="2046" type="qcurve" smooth="yes"/>
+			<point x="568" y="2046"/>
+			<point x="612" y="2003"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1500"/>
-	<anchor name="top" x="512" y="2053"/>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="2053"/>
 </glyph>

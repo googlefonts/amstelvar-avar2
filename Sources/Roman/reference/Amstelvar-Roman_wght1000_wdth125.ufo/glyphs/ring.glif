@@ -3,33 +3,6 @@
 	<unicode hex="02DA"/>
 	<advance width="1024"/>
 	<outline>
-		<contour>
-			<point x="189" y="1414" type="qcurve" smooth="yes"/>
-			<point x="189" y="1524"/>
-			<point x="379" y="1678"/>
-			<point x="512" y="1678" type="qcurve" smooth="yes"/>
-			<point x="645" y="1678"/>
-			<point x="835" y="1524"/>
-			<point x="835" y="1414" type="qcurve" smooth="yes"/>
-			<point x="835" y="1304"/>
-			<point x="645" y="1150"/>
-			<point x="512" y="1150" type="qcurve" smooth="yes"/>
-			<point x="379" y="1150"/>
-			<point x="189" y="1304"/>
-		</contour>
-		<contour>
-			<point x="348" y="1414" type="qcurve" smooth="yes"/>
-			<point x="348" y="1353"/>
-			<point x="439" y="1280"/>
-			<point x="512" y="1280" type="qcurve" smooth="yes"/>
-			<point x="588" y="1280"/>
-			<point x="676" y="1348"/>
-			<point x="676" y="1414" type="qcurve" smooth="yes"/>
-			<point x="676" y="1474"/>
-			<point x="585" y="1548"/>
-			<point x="512" y="1548" type="qcurve" smooth="yes"/>
-			<point x="436" y="1548"/>
-			<point x="348" y="1480"/>
-		</contour>
+		<component base="ringcomb" xOffset="512"/>
 	</outline>
 </glyph>

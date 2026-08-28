@@ -3,12 +3,6 @@
 	<unicode hex="0384"/>
 	<advance width="800"/>
 	<outline>
-		<contour>
-			<point x="342" y="978" type="line"/>
-			<point x="328" y="984" type="line"/>
-			<point x="404" y="1332" type="line"/>
-			<point x="524" y="1326" type="line"/>
-			<point x="544" y="1315" type="line"/>
-		</contour>
+		<component base="tonoscomb" xOffset="400"/>
 	</outline>
 </glyph>

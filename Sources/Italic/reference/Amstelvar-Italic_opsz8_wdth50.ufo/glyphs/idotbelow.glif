@@ -3,7 +3,8 @@
 	<unicode hex="1ECB"/>
 	<advance width="468"/>
 	<outline>
-		<component base="i"/>
-		<component base="dotbelowcomb" xOffset="-315" yOffset="-95"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="92"/>
+		<component base="dotbelowcomb" xOffset="97"/>
 	</outline>
 </glyph>

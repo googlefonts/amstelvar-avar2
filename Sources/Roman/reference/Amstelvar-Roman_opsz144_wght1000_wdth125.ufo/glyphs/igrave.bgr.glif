@@ -2,6 +2,7 @@
 <glyph name="igrave.bgr" format="2">
 	<advance width="2041"/>
 	<outline>
-		<component base="ugrave"/>
+		<component base="u"/>
+		<component base="gravecomb" xOffset="1020.5"/>
 	</outline>
 </glyph>

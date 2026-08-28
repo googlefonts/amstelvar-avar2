@@ -36,12 +36,8 @@
 			<point x="754" y="773" type="line"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.guideline.magnetic.NsAsU2emIl</key>
-			<integer>5</integer>
-			<key>com.typemytype.robofont.guideline.showMeasurements.NsAsU2emIl</key>
-			<false/>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="488" y="0"/>
+	<anchor name="ogonek" x="744" y="0"/>
+	<anchor name="top" x="726" y="1500"/>
+	<anchor name="tonos" x="146" y="1500"/>
 </glyph>

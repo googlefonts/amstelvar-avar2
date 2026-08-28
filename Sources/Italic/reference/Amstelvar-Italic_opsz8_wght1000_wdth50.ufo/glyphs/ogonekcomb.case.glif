@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcomb.case" format="2">
-	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="348" y="-244" type="qcurve" smooth="yes"/>
-			<point x="348" y="-295"/>
-			<point x="426" y="-338"/>
-			<point x="474" y="-338" type="qcurve" smooth="yes"/>
-			<point x="533" y="-338"/>
-			<point x="629" y="-294"/>
-			<point x="677" y="-262" type="qcurve"/>
-			<point x="722" y="-350" type="line"/>
-			<point x="678" y="-395"/>
-			<point x="490" y="-484"/>
-			<point x="351" y="-484" type="qcurve" smooth="yes"/>
-			<point x="256" y="-484"/>
-			<point x="114" y="-387"/>
-			<point x="114" y="-297" type="qcurve" smooth="yes"/>
-			<point x="114" y="-210"/>
-			<point x="276" y="-39"/>
-			<point x="397" y="36" type="qcurve" smooth="yes"/>
-			<point x="429" y="56" type="line"/>
-			<point x="506" y="9" type="line"/>
-			<point x="488" y="-9" type="line" smooth="yes"/>
-			<point x="413" y="-84"/>
-			<point x="348" y="-190"/>
+			<point x="-119" y="-244" type="qcurve" smooth="yes"/>
+			<point x="-119" y="-295"/>
+			<point x="-41" y="-338"/>
+			<point x="7" y="-338" type="qcurve" smooth="yes"/>
+			<point x="66" y="-338"/>
+			<point x="162" y="-294"/>
+			<point x="210" y="-262" type="qcurve"/>
+			<point x="255" y="-350" type="line"/>
+			<point x="211" y="-395"/>
+			<point x="23" y="-484"/>
+			<point x="-116" y="-484" type="qcurve" smooth="yes"/>
+			<point x="-211" y="-484"/>
+			<point x="-353" y="-387"/>
+			<point x="-353" y="-297" type="qcurve" smooth="yes"/>
+			<point x="-353" y="-210"/>
+			<point x="-191" y="-39"/>
+			<point x="-70" y="36" type="qcurve" smooth="yes"/>
+			<point x="-38" y="56" type="line"/>
+			<point x="39" y="9" type="line"/>
+			<point x="21" y="-9" type="line" smooth="yes"/>
+			<point x="-54" y="-84"/>
+			<point x="-119" y="-190"/>
 		</contour>
 	</outline>
+	<anchor name="_ogonek" x="0" y="0"/>
+	<anchor name="bottom" x="-93" y="-476"/>
 </glyph>

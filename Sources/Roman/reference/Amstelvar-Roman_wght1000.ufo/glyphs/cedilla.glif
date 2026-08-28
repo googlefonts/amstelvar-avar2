@@ -3,36 +3,6 @@
 	<unicode hex="00B8"/>
 	<advance width="1024"/>
 	<outline>
-		<contour>
-			<point x="606" y="0" type="line"/>
-			<point x="503" y="-161" type="line"/>
-			<point x="525" y="-154"/>
-			<point x="604" y="-147"/>
-			<point x="643" y="-147" type="qcurve" smooth="yes"/>
-			<point x="745" y="-147"/>
-			<point x="885" y="-239"/>
-			<point x="885" y="-342" type="qcurve" smooth="yes"/>
-			<point x="885" y="-446"/>
-			<point x="702" y="-579"/>
-			<point x="546" y="-579" type="qcurve" smooth="yes"/>
-			<point x="433" y="-579"/>
-			<point x="262" y="-530"/>
-			<point x="195" y="-484" type="qcurve"/>
-			<point x="254" y="-381" type="line"/>
-			<point x="303" y="-411"/>
-			<point x="422" y="-445"/>
-			<point x="504" y="-445" type="qcurve" smooth="yes"/>
-			<point x="570" y="-445"/>
-			<point x="646" y="-395"/>
-			<point x="646" y="-345" type="qcurve" smooth="yes"/>
-			<point x="646" y="-306"/>
-			<point x="583" y="-260"/>
-			<point x="531" y="-260" type="qcurve" smooth="yes"/>
-			<point x="492" y="-260"/>
-			<point x="432" y="-268"/>
-			<point x="412" y="-275" type="qcurve"/>
-			<point x="336" y="-196" type="line"/>
-			<point x="491" y="58" type="line"/>
-		</contour>
+		<component base="cedillacomb" xOffset="484"/>
 	</outline>
 </glyph>

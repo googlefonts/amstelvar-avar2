@@ -3,13 +3,8 @@
 	<unicode hex="01FE"/>
 	<advance width="833"/>
 	<outline>
-		<component base="Oslash"/>
-		<component base="acutecomb.case" xOffset="102" yOffset="44"/>
+		<component base="O"/>
+		<component base="diagonalbarO" xOffset="104" yOffset="-10"/>
+		<component base="acutecomb.case" xOffset="619"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2019-12-27 16:08:44 +0000</string>
-		</dict>
-	</lib>
 </glyph>

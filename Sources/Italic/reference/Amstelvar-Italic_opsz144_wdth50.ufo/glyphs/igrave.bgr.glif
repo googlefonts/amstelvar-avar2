@@ -2,12 +2,7 @@
 <glyph name="igrave.bgr" format="2">
 	<advance width="727"/>
 	<outline>
-		<component base="ugrave"/>
+		<component base="u"/>
+		<component base="gravecomb" xOffset="430"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

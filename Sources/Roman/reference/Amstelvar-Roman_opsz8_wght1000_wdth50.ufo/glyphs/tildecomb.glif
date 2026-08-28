@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="2">
 	<unicode hex="0303"/>
-	<advance width="1024"/>
 	<outline>
-		<component base="tilde"/>
+		<contour>
+			<point x="-388" y="1437" type="line"/>
+			<point x="-349" y="1508"/>
+			<point x="-239" y="1585"/>
+			<point x="-177" y="1585" type="qcurve" smooth="yes"/>
+			<point x="-133" y="1585"/>
+			<point x="-48" y="1562"/>
+			<point x="-13" y="1541" type="qcurve" smooth="yes"/>
+			<point x="33" y="1513"/>
+			<point x="108" y="1483"/>
+			<point x="132" y="1483" type="qcurve" smooth="yes"/>
+			<point x="164" y="1483"/>
+			<point x="228" y="1520"/>
+			<point x="256" y="1555" type="qcurve"/>
+			<point x="361" y="1418" type="line"/>
+			<point x="320" y="1347"/>
+			<point x="210" y="1270"/>
+			<point x="150" y="1270" type="qcurve" smooth="yes"/>
+			<point x="106" y="1270"/>
+			<point x="21" y="1293"/>
+			<point x="-14" y="1314" type="qcurve" smooth="yes"/>
+			<point x="-60" y="1342"/>
+			<point x="-133" y="1372"/>
+			<point x="-156" y="1372" type="qcurve" smooth="yes"/>
+			<point x="-189" y="1372"/>
+			<point x="-255" y="1335"/>
+			<point x="-283" y="1300" type="qcurve"/>
+		</contour>
 	</outline>
-	<anchor name="_top" x="512" y="1100"/>
-	<anchor name="top" x="512" y="1585"/>
+	<anchor name="_top" x="0" y="1100"/>
+	<anchor name="top" x="0" y="1585"/>
 </glyph>

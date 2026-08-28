@@ -27,11 +27,8 @@
 			<point x="524" y="875" type="line"/>
 		</contour>
 	</outline>
-	<guideline x="160" y="0" angle="79" identifier="0teADGsfUO"/>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.guideline.magnetic.0teADGsfUO</key>
-			<integer>5</integer>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="154" y="20"/>
+	<anchor name="center" x="244" y="586"/>
+	<anchor name="top" x="388" y="1180"/>
+	<anchor name="topright" x="501" y="1000"/>
 </glyph>

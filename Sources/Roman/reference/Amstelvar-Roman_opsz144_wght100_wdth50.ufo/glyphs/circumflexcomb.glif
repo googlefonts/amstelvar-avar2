@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb" format="2">
 	<unicode hex="0302"/>
-	<advance width="896"/>
 	<outline>
-		<component base="circumflex"/>
+		<contour>
+			<point x="3" y="1269" type="qcurve" smooth="yes"/>
+			<point x="18" y="1269"/>
+			<point x="76" y="1218"/>
+			<point x="115" y="1178" type="qcurve" smooth="yes"/>
+			<point x="201" y="1089" type="line"/>
+			<point x="190" y="1080" type="line"/>
+			<point x="3" y="1208" type="line"/>
+			<point x="-192" y="1080" type="line"/>
+			<point x="-201" y="1088" type="line"/>
+			<point x="-110" y="1178" type="line" smooth="yes"/>
+			<point x="-62" y="1226"/>
+			<point x="-12" y="1269"/>
+		</contour>
 	</outline>
-	<anchor name="_top" x="448" y="920"/>
-	<anchor name="top" x="448" y="1269"/>
+	<anchor name="_top" x="0" y="920"/>
+	<anchor name="top" x="0" y="1269"/>
 </glyph>

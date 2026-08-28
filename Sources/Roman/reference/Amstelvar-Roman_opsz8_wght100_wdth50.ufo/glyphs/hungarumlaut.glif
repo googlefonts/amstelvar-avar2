@@ -3,33 +3,6 @@
 	<unicode hex="02DD"/>
 	<advance width="1024"/>
 	<outline>
-		<contour>
-			<point x="582" y="1531" type="qcurve" smooth="yes"/>
-			<point x="582" y="1504"/>
-			<point x="555" y="1465"/>
-			<point x="533" y="1449" type="qcurve" smooth="yes"/>
-			<point x="282" y="1269" type="line"/>
-			<point x="246" y="1307" type="line"/>
-			<point x="446" y="1539" type="line" smooth="yes"/>
-			<point x="461" y="1556"/>
-			<point x="493" y="1581"/>
-			<point x="521" y="1581" type="qcurve" smooth="yes"/>
-			<point x="548" y="1581"/>
-			<point x="582" y="1553"/>
-		</contour>
-		<contour>
-			<point x="882" y="1531" type="qcurve" smooth="yes"/>
-			<point x="882" y="1504"/>
-			<point x="855" y="1465"/>
-			<point x="833" y="1449" type="qcurve" smooth="yes"/>
-			<point x="582" y="1269" type="line"/>
-			<point x="546" y="1307" type="line"/>
-			<point x="746" y="1537" type="line" smooth="yes"/>
-			<point x="761" y="1554"/>
-			<point x="793" y="1579"/>
-			<point x="821" y="1579" type="qcurve" smooth="yes"/>
-			<point x="848" y="1579"/>
-			<point x="882" y="1553"/>
-		</contour>
+		<component base="hungarumlautcomb" xOffset="460"/>
 	</outline>
 </glyph>

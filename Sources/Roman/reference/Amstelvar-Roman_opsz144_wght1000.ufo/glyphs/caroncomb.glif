@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb" format="2">
 	<unicode hex="030C"/>
-	<advance width="896"/>
 	<outline>
-		<component base="caron"/>
+		<contour>
+			<point x="1" y="1029.89" type="qcurve" smooth="yes"/>
+			<point x="-44" y="1029.89"/>
+			<point x="-98.17" y="1078.04"/>
+			<point x="-134.48" y="1134.9" type="qcurve" smooth="yes"/>
+			<point x="-296.32" y="1386.5" type="line"/>
+			<point x="-258.3" y="1418.95" type="line"/>
+			<point x="1" y="1226.63" type="line"/>
+			<point x="262.58" y="1418.95" type="line"/>
+			<point x="296.32" y="1387.5" type="line"/>
+			<point x="136.48" y="1134.9" type="line" smooth="yes"/>
+			<point x="97.88" y="1073.61"/>
+			<point x="46" y="1029.89"/>
+		</contour>
 	</outline>
-	<anchor name="_top" x="448" y="970"/>
-	<anchor name="top" x="448" y="1433.95"/>
+	<anchor name="_top" x="0" y="970"/>
+	<anchor name="top" x="0" y="1433.95"/>
 </glyph>

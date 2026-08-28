@@ -5,15 +5,15 @@
 	<outline>
 		<contour>
 			<point x="1608" y="452" type="line" smooth="yes"/>
-			<point x="1645.9540607032" y="649.6228677994"/>
-			<point x="1502.0869565217" y="755"/>
+			<point x="1646" y="650"/>
+			<point x="1502" y="755"/>
 			<point x="1260" y="755" type="qcurve" smooth="yes"/>
 			<point x="1089" y="755"/>
 			<point x="794" y="722"/>
 			<point x="553" y="651" type="qcurve"/>
 			<point x="577" y="777" type="line"/>
-			<point x="808.1841159085" y="861.245059187"/>
-			<point x="1195.3472222222" y="912"/>
+			<point x="808" y="861"/>
+			<point x="1195" y="912"/>
 			<point x="1421" y="912" type="qcurve" smooth="yes"/>
 			<point x="1851" y="912"/>
 			<point x="2157" y="693"/>
@@ -42,11 +42,4 @@
 			<point x="856" y="0" type="line"/>
 		</contour>
 	</outline>
-	<guideline x="1330" y="777" angle="90" identifier="nmlpy6aWxK"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
 </glyph>

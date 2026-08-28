@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresistonoscomb" format="2">
-	<advance width="909"/>
 	<outline>
-		<component base="dieresistonos"/>
+		<contour>
+			<point x="-162" y="1045" type="qcurve" smooth="yes"/>
+			<point x="-182" y="1045"/>
+			<point x="-210" y="1072"/>
+			<point x="-210" y="1093" type="qcurve" smooth="yes"/>
+			<point x="-210" y="1112"/>
+			<point x="-181" y="1139"/>
+			<point x="-162" y="1139" type="qcurve" smooth="yes"/>
+			<point x="-144" y="1139"/>
+			<point x="-116" y="1114"/>
+			<point x="-116" y="1093" type="qcurve" smooth="yes"/>
+			<point x="-116" y="1073"/>
+			<point x="-143" y="1045"/>
+		</contour>
+		<contour>
+			<point x="-10" y="1007" type="line"/>
+			<point x="-20" y="1008" type="line"/>
+			<point x="-1" y="1332" type="line"/>
+			<point x="70" y="1334" type="line"/>
+			<point x="78" y="1327" type="line"/>
+		</contour>
+		<contour>
+			<point x="163" y="1045" type="qcurve" smooth="yes"/>
+			<point x="144" y="1045"/>
+			<point x="117" y="1072"/>
+			<point x="117" y="1093" type="qcurve" smooth="yes"/>
+			<point x="117" y="1112"/>
+			<point x="144" y="1139"/>
+			<point x="163" y="1139" type="qcurve" smooth="yes"/>
+			<point x="182" y="1139"/>
+			<point x="210" y="1114"/>
+			<point x="210" y="1093" type="qcurve" smooth="yes"/>
+			<point x="210" y="1073"/>
+			<point x="181" y="1045"/>
+		</contour>
 	</outline>
-	<anchor name="_GRKtop" x="440" y="920"/>
+	<anchor name="_GRKtop" x="-14" y="920"/>
 </glyph>

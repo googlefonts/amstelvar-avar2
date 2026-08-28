@@ -4,6 +4,7 @@
 	<advance width="1617"/>
 	<outline>
 		<component base="E"/>
-		<component base="circumflextildecomb.case" xOffset="333"/>
+		<component base="circumflexcomb-stack.case" xOffset="845"/>
+		<component base="tildecomb-stack.case" xOffset="845" yOffset="333"/>
 	</outline>
 </glyph>

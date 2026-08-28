@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute_j.loclNLD" format="2">
-	<advance width="977"/>
+	<advance width="1011"/>
 	<outline>
-		<component base="iacute"/>
-		<component base="jacute.loclNLD" xOffset="500"/>
+		<component base="idotless"/>
+		<component base="acutecomb" xOffset="267"/>
+		<component base="jdotless" xOffset="534"/>
+		<component base="acutecomb" xOffset="772.5"/>
 	</outline>
 </glyph>
