@@ -99,6 +99,23 @@
 			<key>public.kern2.g</key>
 			<integer>0</integer>
 		</dict>
+		<key>Euro</key>
+		<dict>
+			<key>five.lf</key>
+			<integer>0</integer>
+			<key>four.lf</key>
+			<integer>0</integer>
+			<key>nine.lf</key>
+			<integer>0</integer>
+			<key>seven.lf</key>
+			<integer>0</integer>
+			<key>six.lf</key>
+			<integer>0</integer>
+			<key>three.lf</key>
+			<integer>0</integer>
+			<key>two.lf</key>
+			<integer>0</integer>
+		</dict>
 		<key>F</key>
 		<dict>
 			<key>V</key>
@@ -1356,23 +1373,6 @@
 			<key>x</key>
 			<integer>0</integer>
 		</dict>
-		<key>euro</key>
-		<dict>
-			<key>five.lf</key>
-			<integer>0</integer>
-			<key>four.lf</key>
-			<integer>0</integer>
-			<key>nine.lf</key>
-			<integer>0</integer>
-			<key>seven.lf</key>
-			<integer>0</integer>
-			<key>six.lf</key>
-			<integer>0</integer>
-			<key>three.lf</key>
-			<integer>0</integer>
-			<key>two.lf</key>
-			<integer>0</integer>
-		</dict>
 		<key>exclam</key>
 		<dict>
 			<key>public.kern2.quoteleft</key>
@@ -1404,6 +1404,8 @@
 		</dict>
 		<key>five.lf</key>
 		<dict>
+			<key>Euro</key>
+			<integer>0</integer>
 			<key>asterisk</key>
 			<integer>0</integer>
 			<key>backslash</key>
@@ -1415,8 +1417,6 @@
 			<key>degree</key>
 			<integer>0</integer>
 			<key>eight.lf</key>
-			<integer>0</integer>
-			<key>euro</key>
 			<integer>0</integer>
 			<key>fraction</key>
 			<integer>0</integer>
@@ -1887,6 +1887,8 @@
 		</dict>
 		<key>one.lf</key>
 		<dict>
+			<key>Euro</key>
+			<integer>0</integer>
 			<key>asterisk</key>
 			<integer>0</integer>
 			<key>backslash</key>
@@ -1900,8 +1902,6 @@
 			<key>degree</key>
 			<integer>0</integer>
 			<key>dong</key>
-			<integer>0</integer>
-			<key>euro</key>
 			<integer>0</integer>
 			<key>five.lf</key>
 			<integer>0</integer>
@@ -5839,6 +5839,8 @@
 		</dict>
 		<key>seven.lf</key>
 		<dict>
+			<key>Euro</key>
+			<integer>0</integer>
 			<key>asterisk</key>
 			<integer>0</integer>
 			<key>backslash</key>
@@ -5856,8 +5858,6 @@
 			<key>degree</key>
 			<integer>0</integer>
 			<key>dong</key>
-			<integer>0</integer>
-			<key>euro</key>
 			<integer>0</integer>
 			<key>four.lf</key>
 			<integer>0</integer>
@@ -6162,6 +6162,8 @@
 		</dict>
 		<key>two.lf</key>
 		<dict>
+			<key>Euro</key>
+			<integer>0</integer>
 			<key>asterisk</key>
 			<integer>0</integer>
 			<key>backslash</key>
@@ -6175,8 +6177,6 @@
 			<key>commercialMinusSign</key>
 			<integer>0</integer>
 			<key>eight.lf</key>
-			<integer>0</integer>
-			<key>euro</key>
 			<integer>0</integer>
 			<key>five.lf</key>
 			<integer>0</integer>
