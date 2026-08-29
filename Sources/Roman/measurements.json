@@ -15825,7 +15825,12 @@
       }
     },
     "Ustraightstroke": {},
-    "yu.bgr-stroke": {},
+    "yu.bgr-stroke": {
+      "2 3": {
+        "name": "XTLC",
+        "direction": "x"
+      }
+    },
     "braceleft": {
       "46 33": {
         "name": "XOET",
@@ -17994,7 +17999,16 @@
         "direction": "y"
       }
     },
-    "ha-stroke": {},
+    "ha-stroke": {
+      "0 4": {
+        "name": "XTLD",
+        "direction": "x"
+      },
+      "0 3": {
+        "name": "XOLD",
+        "direction": "x"
+      }
+    },
     "divide": {},
     "Hbar": {},
     "engn": {
@@ -18026,7 +18040,16 @@
       }
     },
     "tenge": {},
-    "ustraight-stroke": {},
+    "ustraight-stroke": {
+      "0 3": {
+        "name": "XTLD",
+        "direction": "x"
+      },
+      "0 2": {
+        "name": "XOLD",
+        "direction": "x"
+      }
+    },
     "dieresiscomb-stack": {},
     "yu.bgr": {},
     "emdash": {
@@ -18875,7 +18898,12 @@
     "ebrevecyr": {},
     "abrevecyr": {},
     "io": {},
-    "obarcyr-stroke": {},
+    "obarcyr-stroke": {
+      "3 5": {
+        "name": "XOLC",
+        "direction": "x"
+      }
+    },
     "obreve": {},
     "NJ": {},
     "Nacute": {},
@@ -19043,6 +19071,10 @@
       "4 3": {
         "name": "YOUC",
         "direction": "y"
+      },
+      "0 4": {
+        "name": "XTUD",
+        "direction": "x"
       }
     },
     "U-stroke": {
@@ -19053,6 +19085,10 @@
       "3 2": {
         "name": "YOUC",
         "direction": "y"
+      },
+      "0 3": {
+        "name": "XTUD",
+        "direction": "x"
       }
     },
     "acyr": {},
