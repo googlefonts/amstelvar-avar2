@@ -6,7 +6,7 @@ reload(xTools4.modules.xproject)
 
 import os, glob, time, json, string, itertools
 from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor
-from xTools4.modules.xproject import xProject, makeParentAxis
+from xTools4.modules.xproject import xProject
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
 from xTools4.modules.sys import timer
 from xTools4.modules.fontutils import parseGString
@@ -18,7 +18,7 @@ _parametricAxesRoman  = 'WDSP GRAD '
 _parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XUCS XUCR XUCD ' # uppercase
 _parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XLCS XLCR XLCD ' # lowercase
 _parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XFIR           ' # figures
-_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera
+_parametricAxesRoman += 'XOET YOET           XTET                               XSHE YSHE XSVE YSVE      XETS           ' # etcetera
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -642,7 +642,6 @@ class AmstelvarA2Controller2(AmstelvarA2Controller):
 
 
 
-
 if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
@@ -677,7 +676,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('Ldot'.split(), preflight=False)
+    # p.buildCompositeGlyphs('Ldot ldot Dcroat Eth eng'.split(), preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -689,17 +688,17 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.useLongAxisNames = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.useLongAxisNames = False
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=True, reference=False)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
