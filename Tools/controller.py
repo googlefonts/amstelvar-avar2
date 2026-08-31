@@ -14,11 +14,11 @@ from xTools4.modules.fontutils import parseGString
 
 _parametricAxesRoman  = 'WDSP GRAD '
 
-                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # XTSP
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # spacing
 _parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XUCS XUCR XUCD ' # uppercase
 _parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XLCS XLCR XLCD ' # lowercase
 _parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XFIR           ' # figures
-_parametricAxesRoman += 'XOET YOET           XTET                               XSHE YSHE XSVE YSVE      XETS           ' # etcetera
+_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera  # XSHE YSHE XSVE YSVE ??
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -650,6 +650,7 @@ if __name__ == '__main__':
 
     start = time.time()
 
+    # controller2 only works with short axis names
     controller = [AmstelvarA2Controller, AmstelvarA2Controller2][0]
 
     p = controller(folder, 'AmstelvarA2', subFamily)
@@ -679,7 +680,7 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs('Ldot ldot Dcroat Eth eng'.split(), preflight=False)
 
     # --- measuring ---
-    # p.extractMeasurements()
+    p.extractMeasurements()
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
@@ -688,17 +689,18 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.useLongAxisNames = False
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.useLongAxisNames = True
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # validation only works with short axis names:
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    p.normalizeSources(parametric=False, tuning=False, reference=True)
+    # p.normalizeSources(parametric=True, tuning=False, reference=False)
 
     # --- project info ---
     # p.printSettings()
