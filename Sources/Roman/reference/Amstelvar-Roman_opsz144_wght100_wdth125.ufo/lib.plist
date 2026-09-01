@@ -756,8 +756,6 @@
 			<string>quotedblbase</string>
 			<string>guilsinglleft</string>
 			<string>guilsinglright</string>
-			<string>guillemetleft</string>
-			<string>guillemetright</string>
 			<string>dagger</string>
 			<string>daggerdbl</string>
 			<string>ellipsis</string>
@@ -784,7 +782,6 @@
 			<string>peseta</string>
 			<string>won</string>
 			<string>dong</string>
-			<string>euro</string>
 			<string>florin</string>
 			<string>kip</string>
 			<string>peso</string>
@@ -1053,6 +1050,9 @@
 			<string>hookabovecomb-stack.case</string>
 			<string>breveinvertedcomb-stack.case</string>
 			<string>dblgravecomb-stack.case</string>
+			<string>Euro</string>
+			<string>guillemotleft</string>
+			<string>guillemotright</string>
 		</array>
 		<key>public.skipExportGlyphs</key>
 		<array>
