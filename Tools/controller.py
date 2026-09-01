@@ -390,7 +390,8 @@ class AmstelvarA2Controller(xProject):
 
     def proofSourcesGlyphSet(self, showCompatible=True, validateComposites=True):
         familyName = f'{self.familyName} {self.subFamily}'
-        super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites)
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyphset', self.subFamily)
+        super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites, proofsFolder=proofsFolder)
 
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
         proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'blending', self.subFamily)
@@ -646,7 +647,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -689,11 +690,11 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.useLongAxisNames = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.useLongAxisNames = False
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # validation only works with short axis names & no tuning!
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
@@ -711,10 +712,10 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
-    # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
+    p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
