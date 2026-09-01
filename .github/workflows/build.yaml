@@ -1,0 +1,69 @@
+name: Build AmstelvarA2
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build fonts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Setup python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build fonts
+        run: gftools builder Sources/config.yaml
+
+      - name: Download fontspector
+        run: |
+          curl -sL "https://github.com/fonttools/fontspector/releases/download/fontspector-v1.7.4/fontspector-v1.7.4-x86_64-unknown-linux-gnu.tar.gz" | tar -xz
+          sudo install fontspector-dev-x86_64-unknown-linux-gnu/fontspector /usr/local/bin/fontspector
+          fontspector --version
+
+      - name: Check fonts
+        # -e fatal: report FAILs without breaking the build; the two
+        # remaining genuine FAILs (glyphsets/shape_languages: missing
+        # Cyrillic glyphs; varfont/family_axis_ranges: Roman and Italic
+        # parametric ranges differ) are tracked design work.
+        # Skip fvar_axis_defaults: the axis registry hardcodes parametric
+        # defaults from another font; they should be whatever the designer
+        # deems appropriate.
+        # Skip consistent_axes: the Roman has two tuning axes (TN24, TN25)
+        # the Italic does not.
+        # Skip canonical_filename: these fonts use the proposed consolidated
+        # "[...,visible axes]" filename convention, which fontspector does
+        # not know about yet.
+        run: >
+          fontspector -p googlefonts -e fatal "Fonts/variable/"*.ttf
+          -x fvar_axis_defaults
+          -x consistent_axes
+          -x canonical_filename
+
+      - name: Upload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: amstelvar-a2-fonts
+          path: Fonts/
+
+      - name: Commit updated fonts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Fonts/
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild fonts [skip ci]"
+            git push
+          fi

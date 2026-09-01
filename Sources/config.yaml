@@ -1,0 +1,34 @@
+recipeProvider: googlefonts
+sources:
+  - Roman/AmstelvarA2-Roman.designspace
+  - Italic/AmstelvarA2-Italic.designspace
+familyName: "AmstelvarA2"
+# The canonical [all axis tags] filename for these 93-axis fonts exceeds
+# the 255-byte filesystem limit, so we use the proposed consolidated
+# convention: axes in the GF axis registry are listed, all unregistered
+# (parametric/tuning) axes are represented by "...". The targets are
+# declared explicitly until gftools builder can generate such names.
+buildVariable: false
+buildStatic: false
+buildTTF: false
+buildOTF: false
+buildWebfont: false
+autohintTTF: false
+recipe:
+  "../Fonts/variable/AmstelvarA2[...,GRAD,opsz,wdth,wght].ttf":
+    - source: Roman/AmstelvarA2-Roman.designspace
+    - operation: buildVariable
+      # mirrors build.sh: --keep-direction --feature-writer None --no-generate-GDEF
+      args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --keep-direction --feature-writer None --no-generate-GDEF
+    - operation: fix
+      args: ""
+    - postprocess: buildStat
+      args: --src stat.yaml
+  "../Fonts/variable/AmstelvarA2-Italic[...,GRAD,opsz,wdth,wght].ttf":
+    - source: Italic/AmstelvarA2-Italic.designspace
+    - operation: buildVariable
+      args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --keep-direction --feature-writer None --no-generate-GDEF
+    - operation: fix
+      args: ""
+    - postprocess: buildStat
+      args: --src stat.yaml
