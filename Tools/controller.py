@@ -6,7 +6,7 @@ reload(xTools4.modules.xproject)
 
 import os, glob, time, json, string, itertools
 from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor
-from xTools4.modules.xproject import xProject, makeParentAxis
+from xTools4.modules.xproject import xProject
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
 from xTools4.modules.sys import timer
 from xTools4.modules.fontutils import parseGString
@@ -14,11 +14,11 @@ from xTools4.modules.fontutils import parseGString
 
 _parametricAxesRoman  = 'WDSP GRAD '
 
-                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # XTSP
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # spacing
 _parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XUCS XUCR XUCD ' # uppercase
 _parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XLCS XLCR XLCD ' # lowercase
 _parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XFIR           ' # figures
-_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera
+_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera  # XSHE YSHE XSVE YSVE ??
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -642,25 +642,25 @@ class AmstelvarA2Controller2(AmstelvarA2Controller):
 
 
 
-
 if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
+    # controller2 only works with short axis names
     controller = [AmstelvarA2Controller, AmstelvarA2Controller2][0]
 
     p = controller(folder, 'AmstelvarA2', subFamily)
 
-    referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
+    referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
-
-    glyphNames = parseGString(p.defaultFont, '/ae/OE')
+    # glyphNames = parseGString(p.defaultFont, '/ae/OE')
+    glyphNames = 'guilsinglleft guilsinglright'.split() # p.smartSets['Latin 1'] # p.smartSets['lowercase']['latin'] # 
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -677,7 +677,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('Ldot'.split(), preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -689,17 +689,18 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.useLongAxisNames = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True
+    # p.useLongAxisNames = True
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # validation only works with short axis names (no tuning):
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=True, reference=False)
+    p.cleanupSources(parametric=True, tuning=False, reference=False)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
