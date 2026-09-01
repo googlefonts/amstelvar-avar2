@@ -2,7 +2,7 @@ recipeProvider: googlefonts
 sources:
   - Roman/AmstelvarA2-Roman.designspace
   - Italic/AmstelvarA2-Italic.designspace
-familyName: "AmstelvarA2"
+familyName: "Amstelvar"
 # The canonical [all axis tags] filename for these 93-axis fonts exceeds
 # the 255-byte filesystem limit, so we use the proposed consolidated
 # convention: axes in the GF axis registry are listed, all unregistered
@@ -15,7 +15,7 @@ buildOTF: false
 buildWebfont: false
 autohintTTF: false
 recipe:
-  "../Fonts/variable/AmstelvarA2[...,GRAD,opsz,wdth,wght].ttf":
+  "../Fonts/variable/Amstelvar[...,GRAD,opsz,wdth,wght].ttf":
     - source: Roman/AmstelvarA2-Roman.designspace
     - operation: buildVariable
       # mirrors build.sh: --keep-direction --feature-writer None --no-generate-GDEF
@@ -24,7 +24,7 @@ recipe:
       args: ""
     - postprocess: buildStat
       args: --src stat.yaml
-  "../Fonts/variable/AmstelvarA2-Italic[...,GRAD,opsz,wdth,wght].ttf":
+  "../Fonts/variable/Amstelvar-Italic[...,GRAD,opsz,wdth,wght].ttf":
     - source: Italic/AmstelvarA2-Italic.designspace
     - operation: buildVariable
       args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --keep-direction --feature-writer None --no-generate-GDEF
