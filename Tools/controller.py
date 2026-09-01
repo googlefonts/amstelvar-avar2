@@ -646,7 +646,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -660,7 +660,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    glyphNames = p.smartSets['Latin 1']
+    glyphNames = 'guilsinglleft guilsinglright'.split() # p.smartSets['Latin 1'] # p.smartSets['lowercase']['latin'] # 
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -677,7 +677,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('Ldot ldot Dcroat Eth eng'.split(), preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
