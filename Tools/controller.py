@@ -305,7 +305,10 @@ class AmstelvarA2Controller(xProject):
                     mappingsClipped[parentValue] = {}
                     for axisName, value in mappings[parentValue].items():
                         # get tag from axis name
-                        tag = [key for key in fontMeasurements.keys() if axisName == fontMeasurements[key]['description']][0]
+                        if self.useLongAxisNames:
+                            tag = [key for key in fontMeasurements.keys() if axisName == fontMeasurements[key]['description']][0]
+                        else:
+                            tag = axisName
 
                         if value < parametricAxesDict[tag]['minimum']:
                             clippedValue = parametricAxesDict[tag]['minimum']
@@ -650,7 +653,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -663,7 +666,7 @@ if __name__ == '__main__':
     # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
     # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    glyphNames = 'less greater'.split() # p.smartSets['Latin 1'] # p.smartSets['lowercase']['latin'] # 
+    glyphNames = p.smartSets['Latin 1'] # p.smartSets['lowercase']['latin'] # 
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -711,12 +714,12 @@ if __name__ == '__main__':
 
     # --- proofing ---
     # p.proofGlyphMemes(glyphNames, anchors=True)
-    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[1,2,3,4], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
