@@ -300,18 +300,21 @@ class AmstelvarA2Controller(xProject):
                 parentAxis, mappings = self.makeParentParametricAxis(parentAxisTag, parametricAxes, parentDefault)
 
                 # clip mapping values to the available parametric ranges
-                # mappingsClipped = {}
-                # for parentValue in mappings.keys():
-                #     mappingsClipped[parentValue] = {}
-                #     for tag, value in mappings[parentValue].items():
-                #         if value < parametricAxesDict[tag]['minimum']:
-                #             clippedValue = parametricAxesDict[tag]['minimum']
-                #         elif value > parametricAxesDict[tag]['maximum']:
-                #             clippedValue = parametricAxesDict[tag]['maximum']
-                #         else:
-                #             clippedValue = value
-                #         mappingsClipped[parentValue][tag] = clippedValue
-                # mappings = mappingsClipped
+                mappingsClipped = {}
+                for parentValue in mappings.keys():
+                    mappingsClipped[parentValue] = {}
+                    for axisName, value in mappings[parentValue].items():
+                        # get tag from axis name
+                        tag = [key for key in fontMeasurements.keys() if axisName == fontMeasurements[key]['description']][0]
+
+                        if value < parametricAxesDict[tag]['minimum']:
+                            clippedValue = parametricAxesDict[tag]['minimum']
+                        elif value > parametricAxesDict[tag]['maximum']:
+                            clippedValue = parametricAxesDict[tag]['maximum']
+                        else:
+                            clippedValue = value
+                        mappingsClipped[parentValue][tag] = clippedValue
+                mappings = mappingsClipped
 
                 # add parent axis
                 blendsDict['axes'][parentAxisTag] = parentAxis
@@ -651,7 +654,6 @@ if __name__ == '__main__':
 
     start = time.time()
 
-    # controller2 only works with short axis names
     controller = [AmstelvarA2Controller, AmstelvarA2Controller2][0]
 
     p = controller(folder, 'AmstelvarA2', subFamily)
@@ -690,12 +692,11 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True
-    # p.useLongAxisNames = False
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
-    # validation only works with short axis names & no tuning!
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True
+    p.useLongAxisNames = True # keep it disabled during development!
+    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -712,10 +713,10 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
-    p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
+    # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
