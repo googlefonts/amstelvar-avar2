@@ -1,0 +1,1176 @@
+"Amstelvar[...,GRAD,opsz,wdth,wght].ttf":
+  - name: Optical Size
+    tag: opsz
+    values:
+      - name: 8pt
+        value: 8
+      - name: 9pt
+        value: 9
+      - name: 10pt
+        value: 10
+      - name: 11pt
+        value: 11
+      - name: 12pt
+        value: 12
+      - name: 14pt
+        value: 14
+        flags: 2
+      - name: 16pt
+        value: 16
+      - name: 17pt
+        value: 17
+      - name: 18pt
+        value: 18
+      - name: 20pt
+        value: 20
+      - name: 24pt
+        value: 24
+      - name: 28pt
+        value: 28
+      - name: 36pt
+        value: 36
+      - name: 48pt
+        value: 48
+      - name: 60pt
+        value: 60
+      - name: 72pt
+        value: 72
+      - name: 96pt
+        value: 96
+      - name: 120pt
+        value: 120
+      - name: 144pt
+        value: 144
+  - name: Weight
+    tag: wght
+    values:
+      - name: Thin
+        value: 100
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        flags: 2
+        linkedValue: 700
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+  - name: Width
+    tag: wdth
+    values:
+      - name: UltraCondensed
+        value: 50
+      - name: ExtraCondensed
+        value: 62.5
+      - name: Condensed
+        value: 75
+      - name: SemiCondensed
+        value: 87.5
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: SemiExpanded
+        value: 112.5
+      - name: Expanded
+        value: 125
+  - name: Spacing
+    tag: XTSP
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: Thick Stroke
+    tag: XOPQ
+  - name: Thin Stroke
+    tag: YOPQ
+  - name: Counter Width
+    tag: XTRA
+  - name: General x horizontal serifs
+    tag: XSHA
+    values:
+      - name: Normal
+        value: 104
+        flags: 2
+  - name: General y horizontal serif
+    tag: YSHA
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: General x vertical serifs
+    tag: XSVA
+    values:
+      - name: Normal
+        value: 55
+        flags: 2
+  - name: General y vertical serifs
+    tag: YSVA
+    values:
+      - name: Normal
+        value: 165
+        flags: 2
+  - name: Word space width
+    tag: WDSP
+    values:
+      - name: Normal
+        value: 320
+        flags: 2
+  - name: Grade
+    tag: GRAD
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: X stem uppercase
+    tag: XOUC
+    values:
+      - name: Normal
+        value: 90
+        flags: 2
+  - name: Y stem uppercase
+    tag: YOUC
+    values:
+      - name: Normal
+        value: 66
+        flags: 2
+  - name: Uppercase accents main weight
+    tag: XOUA
+    values:
+      - name: Normal
+        value: 84
+        flags: 2
+  - name: Uppercase accents secondary weight
+    tag: YOUA
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent uppercase
+    tag: XTUC
+    values:
+      - name: Normal
+        value: 400
+        flags: 2
+  - name: X transparent uppercase rounds
+    tag: XTUR
+    values:
+      - name: Normal
+        value: 561
+        flags: 2
+  - name: X transparent uppercase diagonals
+    tag: XTUD
+    values:
+      - name: Normal
+        value: 410
+        flags: 2
+  - name: Uppercase accent width
+    tag: XTUA
+    values:
+      - name: Normal
+        value: 258
+        flags: 2
+  - name: Uppercase Height
+    tag: YTUC
+  - name: Y transparent J descender
+    tag: YTJD
+    values:
+      - name: Normal
+        value: -104
+        flags: 2
+  - name: X horizontal serif uppercase
+    tag: XSHU
+    values:
+      - name: Normal
+        value: 104
+        flags: 2
+  - name: Y horizontal serif uppercase
+    tag: YSHU
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: X vertical serif uppercase
+    tag: XSVU
+    values:
+      - name: Normal
+        value: 55
+        flags: 2
+  - name: Y vertical serif uppercase
+    tag: YSVU
+    values:
+      - name: Normal
+        value: 165
+        flags: 2
+  - name: Uppercase vertical serif angle
+    tag: XVAU
+    values:
+      - name: Normal
+        value: 18
+        flags: 2
+  - name: X sidebearing uppercase straights
+    tag: XUCS
+    values:
+      - name: Normal
+        value: 145
+        flags: 2
+  - name: X sidebearing uppercase rounds
+    tag: XUCR
+    values:
+      - name: Normal
+        value: 40
+        flags: 2
+  - name: X sidebearing uppercase diagonals
+    tag: XUCD
+    values:
+      - name: Normal
+        value: 69
+        flags: 2
+  - name: X stem lowercase
+    tag: XOLC
+    values:
+      - name: Normal
+        value: 85
+        flags: 2
+  - name: Y stem lowercase
+    tag: YOLC
+    values:
+      - name: Normal
+        value: 58
+        flags: 2
+  - name: Lowercase accents main weight
+    tag: XOLA
+    values:
+      - name: Normal
+        value: 78
+        flags: 2
+  - name: Lowercase accents secondary weight
+    tag: YOLA
+    values:
+      - name: Normal
+        value: 53
+        flags: 2
+  - name: X transparent lowercase
+    tag: XTLC
+    values:
+      - name: Normal
+        value: 243
+        flags: 2
+  - name: X transparent lowercase rounds
+    tag: XTLR
+    values:
+      - name: Normal
+        value: 337
+        flags: 2
+  - name: X transparent lowercase diagonals
+    tag: XTLD
+    values:
+      - name: Normal
+        value: 248
+        flags: 2
+  - name: Lowercase accent width
+    tag: XTLA
+    values:
+      - name: Normal
+        value: 235
+        flags: 2
+  - name: Lowercase Height
+    tag: YTLC
+  - name: Ascender Height
+    tag: YTAS
+  - name: Descender Depth
+    tag: YTDE
+  - name: X horizontal serif lowercase
+    tag: XSHL
+    values:
+      - name: Normal
+        value: 74
+        flags: 2
+  - name: Y horizontal serif lowercase
+    tag: YSHL
+    values:
+      - name: Normal
+        value: 40
+        flags: 2
+  - name: X vertical serif lowercase
+    tag: XSVL
+    values:
+      - name: Normal
+        value: 54
+        flags: 2
+  - name: Y vertical serif lowercase
+    tag: YSVL
+    values:
+      - name: Normal
+        value: 70
+        flags: 2
+  - name: X sidebearing lowercase straights
+    tag: XLCS
+    values:
+      - name: Normal
+        value: 112
+        flags: 2
+  - name: X sidebearing lowercase rounds
+    tag: XLCR
+    values:
+      - name: Normal
+        value: 32
+        flags: 2
+  - name: X sidebearing lowercase diagonals
+    tag: XLCD
+    values:
+      - name: Normal
+        value: 54
+        flags: 2
+  - name: X stem figures
+    tag: XOFI
+    values:
+      - name: Normal
+        value: 88
+        flags: 2
+  - name: Y stem figures
+    tag: YOFI
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent figures
+    tag: XTFI
+  - name: Figure Height
+    tag: YTFI
+  - name: X horizontal serif figures
+    tag: XSHF
+    values:
+      - name: Normal
+        value: 129
+        flags: 2
+  - name: Y horizontal serif figures
+    tag: YSHF
+    values:
+      - name: Normal
+        value: 47
+        flags: 2
+  - name: X vertical serif figures
+    tag: XSVF
+    values:
+      - name: Normal
+        value: 61
+        flags: 2
+  - name: Y vertical serif figures
+    tag: YSVF
+    values:
+      - name: Normal
+        value: 117
+        flags: 2
+  - name: X sidebearing figures round
+    tag: XFIR
+    values:
+      - name: Normal
+        value: 37
+        flags: 2
+  - name: X stem etcetera
+    tag: XOET
+    values:
+      - name: Normal
+        value: 94
+        flags: 2
+  - name: Y stem etcetera
+    tag: YOET
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent etcetera
+    tag: XTET
+    values:
+      - name: Normal
+        value: 642
+        flags: 2
+  - name: X sidebearing etcetera
+    tag: XETS
+    values:
+      - name: Normal
+        value: 40
+        flags: 2
+  - name: Dot width
+    tag: XDOT
+    values:
+      - name: Normal
+        value: 144
+        flags: 2
+  - name: Lowercase overshoot
+    tag: YTOS
+    values:
+      - name: Normal
+        value: 11
+        flags: 2
+  - name: Trap width
+    tag: XTTW
+    values:
+      - name: Normal
+        value: 5
+        flags: 2
+  - name: Trap length
+    tag: YTTL
+    values:
+      - name: Normal
+        value: 60
+        flags: 2
+  - name: Bars
+    tag: BARS
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144
+    tag: TN00
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wdth125
+    tag: TN01
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wdth50
+    tag: TN02
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100
+    tag: TN03
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000
+    tag: TN04
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000_wdth125
+    tag: TN05
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000_wdth50
+    tag: TN06
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100_wdth125
+    tag: TN07
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100_wdth50
+    tag: TN08
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8
+    tag: TN09
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wdth125
+    tag: TN10
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wdth50
+    tag: TN11
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100
+    tag: TN12
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000
+    tag: TN13
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000_wdth125
+    tag: TN14
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000_wdth50
+    tag: TN15
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100_wdth125
+    tag: TN16
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100_wdth50
+    tag: TN17
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wdth125
+    tag: TN18
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wdth50
+    tag: TN19
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100
+    tag: TN20
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000
+    tag: TN21
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000_wdth125
+    tag: TN22
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000_wdth50
+    tag: TN23
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100_wdth125
+    tag: TN24
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100_wdth50
+    tag: TN25
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: Italic
+    tag: ital
+    values:
+      - name: Roman
+        value: 0
+        flags: 2
+        linkedValue: 1
+"Amstelvar-Italic[...,GRAD,opsz,wdth,wght].ttf":
+  - name: Optical Size
+    tag: opsz
+    values:
+      - name: 8pt
+        value: 8
+      - name: 9pt
+        value: 9
+      - name: 10pt
+        value: 10
+      - name: 11pt
+        value: 11
+      - name: 12pt
+        value: 12
+      - name: 14pt
+        value: 14
+        flags: 2
+      - name: 16pt
+        value: 16
+      - name: 17pt
+        value: 17
+      - name: 18pt
+        value: 18
+      - name: 20pt
+        value: 20
+      - name: 24pt
+        value: 24
+      - name: 28pt
+        value: 28
+      - name: 36pt
+        value: 36
+      - name: 48pt
+        value: 48
+      - name: 60pt
+        value: 60
+      - name: 72pt
+        value: 72
+      - name: 96pt
+        value: 96
+      - name: 120pt
+        value: 120
+      - name: 144pt
+        value: 144
+  - name: Weight
+    tag: wght
+    values:
+      - name: Thin
+        value: 100
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        flags: 2
+        linkedValue: 700
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+  - name: Width
+    tag: wdth
+    values:
+      - name: UltraCondensed
+        value: 50
+      - name: ExtraCondensed
+        value: 62.5
+      - name: Condensed
+        value: 75
+      - name: SemiCondensed
+        value: 87.5
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: SemiExpanded
+        value: 112.5
+      - name: Expanded
+        value: 125
+  - name: Spacing
+    tag: XTSP
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: Thick Stroke
+    tag: XOPQ
+  - name: Thin Stroke
+    tag: YOPQ
+  - name: Counter Width
+    tag: XTRA
+  - name: General x horizontal serifs
+    tag: XSHA
+    values:
+      - name: Normal
+        value: 92
+        flags: 2
+  - name: General y horizontal serif
+    tag: YSHA
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: General x vertical serifs
+    tag: XSVA
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: General y vertical serifs
+    tag: YSVA
+    values:
+      - name: Normal
+        value: 142
+        flags: 2
+  - name: Word space width
+    tag: WDSP
+    values:
+      - name: Normal
+        value: 320
+        flags: 2
+  - name: Grade
+    tag: GRAD
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: X stem uppercase
+    tag: XOUC
+    values:
+      - name: Normal
+        value: 84
+        flags: 2
+  - name: Y stem uppercase
+    tag: YOUC
+    values:
+      - name: Normal
+        value: 58
+        flags: 2
+  - name: Uppercase accents main weight
+    tag: XOUA
+    values:
+      - name: Normal
+        value: 81
+        flags: 2
+  - name: Uppercase accents secondary weight
+    tag: YOUA
+    values:
+      - name: Normal
+        value: 61
+        flags: 2
+  - name: X transparent uppercase
+    tag: XTUC
+    values:
+      - name: Normal
+        value: 360
+        flags: 2
+  - name: X transparent uppercase rounds
+    tag: XTUR
+    values:
+      - name: Normal
+        value: 498
+        flags: 2
+  - name: X transparent uppercase diagonals
+    tag: XTUD
+    values:
+      - name: Normal
+        value: 344
+        flags: 2
+  - name: Uppercase accent width
+    tag: XTUA
+    values:
+      - name: Normal
+        value: 251
+        flags: 2
+  - name: Uppercase Height
+    tag: YTUC
+  - name: Y transparent J descender
+    tag: YTJD
+    values:
+      - name: Normal
+        value: -130
+        flags: 2
+  - name: X horizontal serif uppercase
+    tag: XSHU
+    values:
+      - name: Normal
+        value: 92
+        flags: 2
+  - name: Y horizontal serif uppercase
+    tag: YSHU
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: X vertical serif uppercase
+    tag: XSVU
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: Y vertical serif uppercase
+    tag: YSVU
+    values:
+      - name: Normal
+        value: 142
+        flags: 2
+  - name: Uppercase vertical serif angle
+    tag: XVAU
+    values:
+      - name: Normal
+        value: 14
+        flags: 2
+  - name: X sidebearing uppercase straights
+    tag: XUCS
+    values:
+      - name: Normal
+        value: 130
+        flags: 2
+  - name: X sidebearing uppercase rounds
+    tag: XUCR
+    values:
+      - name: Normal
+        value: 39
+        flags: 2
+  - name: X sidebearing uppercase diagonals
+    tag: XUCD
+    values:
+      - name: Normal
+        value: 46
+        flags: 2
+  - name: X stem lowercase
+    tag: XOLC
+    values:
+      - name: Normal
+        value: 85
+        flags: 2
+  - name: Y stem lowercase
+    tag: YOLC
+    values:
+      - name: Normal
+        value: 47
+        flags: 2
+  - name: Lowercase accents main weight
+    tag: XOLA
+    values:
+      - name: Normal
+        value: 76
+        flags: 2
+  - name: Lowercase accents secondary weight
+    tag: YOLA
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent lowercase
+    tag: XTLC
+    values:
+      - name: Normal
+        value: 232
+        flags: 2
+  - name: X transparent lowercase rounds
+    tag: XTLR
+    values:
+      - name: Normal
+        value: 286
+        flags: 2
+  - name: X transparent lowercase diagonals
+    tag: XTLD
+    values:
+      - name: Normal
+        value: 241
+        flags: 2
+  - name: Lowercase accent width
+    tag: XTLA
+    values:
+      - name: Normal
+        value: 235
+        flags: 2
+  - name: Lowercase Height
+    tag: YTLC
+  - name: Ascender Height
+    tag: YTAS
+  - name: Descender Depth
+    tag: YTDE
+  - name: X horizontal serif lowercase
+    tag: XSHL
+    values:
+      - name: Normal
+        value: 70
+        flags: 2
+  - name: Y horizontal serif lowercase
+    tag: YSHL
+    values:
+      - name: Normal
+        value: 44
+        flags: 2
+  - name: X vertical serif lowercase
+    tag: XSVL
+    values:
+      - name: Normal
+        value: 47
+        flags: 2
+  - name: Y vertical serif lowercase
+    tag: YSVL
+    values:
+      - name: Normal
+        value: 63
+        flags: 2
+  - name: X sidebearing lowercase straights
+    tag: XLCS
+    values:
+      - name: Normal
+        value: 86
+        flags: 2
+  - name: X sidebearing lowercase rounds
+    tag: XLCR
+    values:
+      - name: Normal
+        value: 26
+        flags: 2
+  - name: X sidebearing lowercase diagonals
+    tag: XLCD
+    values:
+      - name: Normal
+        value: 57
+        flags: 2
+  - name: X stem figures
+    tag: XOFI
+    values:
+      - name: Normal
+        value: 92
+        flags: 2
+  - name: Y stem figures
+    tag: YOFI
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent figures
+    tag: XTFI
+  - name: Figure Height
+    tag: YTFI
+  - name: X horizontal serif figures
+    tag: XSHF
+    values:
+      - name: Normal
+        value: 96
+        flags: 2
+  - name: Y horizontal serif figures
+    tag: YSHF
+    values:
+      - name: Normal
+        value: 50
+        flags: 2
+  - name: X vertical serif figures
+    tag: XSVF
+    values:
+      - name: Normal
+        value: 51
+        flags: 2
+  - name: Y vertical serif figures
+    tag: YSVF
+    values:
+      - name: Normal
+        value: 102
+        flags: 2
+  - name: X sidebearing figures round
+    tag: XFIR
+    values:
+      - name: Normal
+        value: 42
+        flags: 2
+  - name: X stem etcetera
+    tag: XOET
+    values:
+      - name: Normal
+        value: 91
+        flags: 2
+  - name: Y stem etcetera
+    tag: YOET
+    values:
+      - name: Normal
+        value: 56
+        flags: 2
+  - name: X transparent etcetera
+    tag: XTET
+    values:
+      - name: Normal
+        value: 638
+        flags: 2
+  - name: X sidebearing etcetera
+    tag: XETS
+    values:
+      - name: Normal
+        value: 42
+        flags: 2
+  - name: Dot width
+    tag: XDOT
+    values:
+      - name: Normal
+        value: 137
+        flags: 2
+  - name: Lowercase overshoot
+    tag: YTOS
+    values:
+      - name: Normal
+        value: 10
+        flags: 2
+  - name: Trap width
+    tag: XTTW
+    values:
+      - name: Normal
+        value: 9
+        flags: 2
+  - name: Trap length
+    tag: YTTL
+    values:
+      - name: Normal
+        value: 64
+        flags: 2
+  - name: Bars
+    tag: BARS
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144
+    tag: TN00
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wdth125
+    tag: TN01
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wdth50
+    tag: TN02
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100
+    tag: TN03
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000
+    tag: TN04
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000_wdth125
+    tag: TN05
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght1000_wdth50
+    tag: TN06
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100_wdth125
+    tag: TN07
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz144_wght100_wdth50
+    tag: TN08
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8
+    tag: TN09
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wdth125
+    tag: TN10
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wdth50
+    tag: TN11
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100
+    tag: TN12
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000
+    tag: TN13
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000_wdth125
+    tag: TN14
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght1000_wdth50
+    tag: TN15
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100_wdth125
+    tag: TN16
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: opsz8_wght100_wdth50
+    tag: TN17
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100
+    tag: TN18
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000
+    tag: TN19
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000_wdth125
+    tag: TN20
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght1000_wdth50
+    tag: TN21
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100_wdth125
+    tag: TN22
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: wght100_wdth50
+    tag: TN23
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: Italic
+    tag: ital
+    values:
+      - name: Italic
+        value: 1
