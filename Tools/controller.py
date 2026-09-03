@@ -653,7 +653,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -663,16 +663,15 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
-    # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
+    glyphNames = ['U']
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    glyphNames = p.smartSets['Latin 1'] # p.smartSets['lowercase']['latin'] # 
+    # glyphNames = p.smartSets['Latin 1']
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
-    #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
+    #     p.splitSources(src, dst, glyphNames, preflight=False)
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(['cent'], 'XDOT23', preflight=False, parametric=True, tuning=False)
