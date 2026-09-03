@@ -653,7 +653,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -663,9 +663,9 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNames = ['U']
+    # glyphNames = ['U']
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['Latin 1']
+    glyphNames = p.smartSets['etcetera']['parentheticals']
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -698,13 +698,13 @@ if __name__ == '__main__':
     p.tuningAxesHidden = True
     p.tuning = True
     p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=True, reference=False)
+    # p.cleanupSources(parametric=False, tuning=False, reference=False)
+    # p.normalizeSources(parametric=False, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -718,7 +718,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
