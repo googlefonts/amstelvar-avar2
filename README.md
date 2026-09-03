@@ -55,7 +55,9 @@ Fonts
 <dt>reference</dt>
 <dd>Subfolder containing the original avar1 version of Amstelvar for use in proofs.</dd>
 <dt>AmstelvarA2-Roman_avar2.ttf, AmstelvarA2-Italic_avar2.ttf</dt>
-<dd>Roman and Italic variable fonts in avar2 format</dd>
+<dd>Roman and Italic variable fonts in avar2 format (with tuning axes).</dd>
+<dt>AmstelvarA2-Roman_avar2_no-tuning.ttf, AmstelvarA2-Italic_avar2_no-tuning.ttf</dt>
+<dd>Roman and Italic variable fonts in avar2 format, without tuning axes (for file size comparison).</dd>
 </dl>
 
 
@@ -66,7 +68,7 @@ Proofs
 Proofs
 ├── HTML/
 ├── PDF/
-└── fontra-test-strings.txt
+└── fontra.txt
 ```
 
 <dl>
@@ -74,7 +76,7 @@ Proofs
   <dd>Interactive proofs of the variable fonts in HTML/CSS/JS format.</dd>
   <dt>PDF</dt>
   <dd>Static proofs of sources and variable fonts in PDF format.</dd>
-  <dt>fontra-test-strings.txt</dt>
+  <dt>fontra.txt</dt>
   <dd>Test text strings for previewing glyph sets in Fontra.</dd>
 </dl>
 
@@ -82,13 +84,12 @@ Proofs
 Sources
 -------
 
-This folder contains two subfolders with separate files for Roman and Italic, and project-level files which are used by both styles.
+This folder contains two subfolders with separate files for Roman and Italic, and any project-level files which are used by both styles.
 
 ```
 Sources
 ├── Italic/
-├── Roman/
-└── AmstelvarA2.roboFontSets
+└── Roman/
 ```
 
 ### Roman (+ same structure for Italic)
@@ -112,8 +113,8 @@ Roman
 <dd>Font sources in UFO format, with files named according to their variation parameters.</dd>
 <dt>measurements.json</dt>
 <dd>Standalone JSON file containing definitions for various font- and glyph-level measurements.<br/>
-  Created using the <a href='http://gferreira.github.io/fb-variable-values/reference/measurements/'>Measurements tool</a> from the VariableValues RoboFont extension.<br/>
-  See <a href='http://gferreira.github.io/fb-variable-values/reference/measurements-format/'>Measurements format</a> for documentation of the data format.</dd>
+  Created using the <a href='http://gferreira.github.io/xTools4/reference/tools/variable/measurements/'>Measurements tool</a>.<br/>
+  See <a href='http://gferreira.github.io/xTools4/reference/measurements-format/'>Measurements format</a> for documentation of the data format.</dd>
 <dt>blends.json</dt>
 <dd>Standalone JSON file containing definitions of blended axes and blended sources from parametric axes.<br/>
   Used when building the avar2 designspace.</dd>
@@ -127,7 +128,7 @@ Roman
 <dd><a href='https://github.com/typemytype/GlyphConstruction'>GlyphConstruction</a> file containing instructions for building glyphs from components.</dd>
 <dt>reference</dt>
 <dd>Subfolder with .ufo reference sources, one for each corner of the opsz/wght/wdth designspace.<br/>
-The original sources were changed for full compatibility with AmstelvarA2 sources.
+The original Amstelvar sources were changed for full compatibility with AmstelvarA2 sources.
 </dd>
 <dt>tuning</dt>
 <dd>Subfolder with .ufo tuning sources, one for each corner of the opsz/wght/wdth designspace.<br/>
@@ -151,7 +152,9 @@ Tools
 
 ### Project controller
 
-The file `controller.py` contains the project controller, which is used to perform several tasks on the sources. The controller is a subclass of [xProject](https://gferreira.github.io/xTools4/explanations/xproject-overview/).
+The file `controller.py` contains the project controller, which is used to perform several tasks on the sources. 
+
+<!-- The controller is a subclass of [xProject](http://gferreira.github.io/xTools4/explanations/xproject-overview/). -->
 
 Tasks performed by the controller include:
 
@@ -164,11 +167,11 @@ Tasks performed by the controller include:
 - building and validating composite glyphs
 - generating different kinds of PDF proofs
 - building variable fonts and instances
-- …and more!
+- …and much more.
 
 ### Production scripts
 
-A subfolder containing various scripts used during development
+A subfolder containing various scripts used during development.
 
 
 Blending
@@ -176,7 +179,7 @@ Blending
 
 The maping values for blending `opsz` `wght` `wdth` from parametric axes are produced by measuring the original styles of Amstelvar, which are included in this repository as reference sources. 
 
-The extracted measurements are stored in a `blends.json` file, which is used by the AmstelvarA2 controller to build the designspace.
+The extracted measurements are stored in a `blends.json` file, which is processed by the AmstelvarA2 controller to build the designspace.
 
 
 Tuning
@@ -200,7 +203,7 @@ Variation axes in AmstelvarA2
 ### Parametric axes
 
 1. `WDSP` Word space width
-2. `GRAD` None
+2. `GRAD` Grade
 3. `XOUC` X stem uppercase
 4. `YOUC` Y stem uppercase
 5. `XOUA` Uppercase accents main weight
@@ -216,51 +219,45 @@ Variation axes in AmstelvarA2
 15. `XSVU` X vertical serif uppercase
 16. `YSVU` Y vertical serif uppercase
 17. `XVAU` Uppercase vertical serif angle
-18. `XQUC` X internal curvature uppercase
-19. `YQUC` Y internal curvature uppercase
-20. `XUCS` X sidebearing uppercase straights
-21. `XUCR` X sidebearing uppercase rounds
-22. `XUCD` X sidebearing uppercase diagonals
-23. `XOLC` X stem lowercase
-24. `YOLC` Y stem lowercase
-25. `XOLA` Lowercase accents main weight
-26. `YOLA` Lowercase accents secondary weight
-27. `XTLC` X transparent lowercase
-28. `XTLR` X transparent lowercase rounds
-29. `XTLD` X transparent lowercase diagonals
-30. `XTLA` Lowercase accent width
-31. `YTLC` Y transparent lowercase
-32. `YTAS` Y transparent ascender
-33. `YTDE` Y transparent descender
-34. `XSHL` X horizontal serif lowercase
-35. `YSHL` Y horizontal serif lowercase
-36. `XSVL` X vertical serif lowercase
-37. `YSVL` Y vertical serif lowercase
-38. `XQLC` X internal curvature lowercase
-39. `YQLC` Y internal curvature lowercase
-40. `XLCS` X sidebearing lowercase straights
-41. `XLCR` X sidebearing lowercase rounds
-42. `XLCD` X sidebearing lowercase diagonals
-43. `XOFI` X stem figures
-44. `YOFI` Y stem figures
-45. `XTFI` X transparent figures
-46. `YTFI` Y transparent figures
-47. `XSHF` X horizontal serif figures
-48. `YSHF` Y horizontal serif figures
-49. `XSVF` X vertical serif figures
-50. `YSVF` Y vertical serif figures
-51. `XQFI` X internal curvature figures
-52. `YQFI` Y internal curvature figures
-53. `XFIR` X sidebearing figures round
-54. `XOET` X stem etcetera
-55. `YOET` Y stem etcetera
-56. `XTET` X transparent etcetera
-57. `XETS` X sidebearing etcetera
-58. `XDOT` Dot width
-59. `YTOS` Lowercase overshoot
-60. `XTTW` Trap width
-61. `YTTL` Trap length
-62. `BARS` Bars
+18. `XUCS` X sidebearing uppercase straights
+19. `XUCR` X sidebearing uppercase rounds
+20. `XUCD` X sidebearing uppercase diagonals
+21. `XOLC` X stem lowercase
+22. `YOLC` Y stem lowercase
+23. `XOLA` Lowercase accents main weight
+24. `YOLA` Lowercase accents secondary weight
+25. `XTLC` X transparent lowercase
+26. `XTLR` X transparent lowercase rounds
+27. `XTLD` X transparent lowercase diagonals
+28. `XTLA` Lowercase accent width
+29. `YTLC` Y transparent lowercase
+30. `YTAS` Y transparent ascender
+31. `YTDE` Y transparent descender
+32. `XSHL` X horizontal serif lowercase
+33. `YSHL` Y horizontal serif lowercase
+34. `XSVL` X vertical serif lowercase
+35. `YSVL` Y vertical serif lowercase
+36. `XLCS` X sidebearing lowercase straights
+37. `XLCR` X sidebearing lowercase rounds
+38. `XLCD` X sidebearing lowercase diagonals
+39. `XOFI` X stem figures
+40. `YOFI` Y stem figures
+41. `XTFI` X transparent figures
+42. `YTFI` Y transparent figures
+43. `XSHF` X horizontal serif figures
+44. `YSHF` Y horizontal serif figures
+45. `XSVF` X vertical serif figures
+46. `YSVF` Y vertical serif figures
+47. `XFIR` X sidebearing figures round
+48. `XOET` X stem etcetera
+49. `YOET` Y stem etcetera
+50. `XTET` X transparent etcetera
+51. `XETS` X sidebearing etcetera
+52. `XDOT` Dot width
+53. `YTOS` Lowercase overshoot
+54. `XTTW` Trap width
+55. `YTTL` Trap length
+56. `BARS` Bars
 
 ### Tuning axes
 
