@@ -99,7 +99,7 @@ Roman
 ├── *.ufo
 ├── measurements.json
 ├── blends.json
-├── AmstelvarA2-Roman_avar2.designspace
+├── AmstelvarA2-Roman.designspace
 ├── AmstelvarA2-Roman.roboFontSets
 ├── AmstelvarA2-Roman.glyphConstruction
 ├── features/
@@ -185,9 +185,9 @@ The extracted measurements are stored in a `blends.json` file, which is processe
 Tuning
 ------
 
-Tuning sources are calculated automatically as the difference between parametric instances and reference sources.
+Tuning sources are calculated automatically as the difference between parametric blends and reference sources.
 
-Each tuning axis controls the deltas needed to tune one of 26 corners of the designspace. In locations in between these corners, the deltas are linearly interpolated.
+Each tuning axis controls the deltas needed to tune one of 26 corners of the designspace. In locations in between these corners, the tuning deltas are linearly interpolated.
 
 
 Variation axes in AmstelvarA2
