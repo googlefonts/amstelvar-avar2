@@ -667,9 +667,9 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    # glyphNames = ['won'] # 'won kip colonsign cedi guarani'.split()
+    glyphNames = ['perthousand'] # 'won kip colonsign cedi guarani'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    glyphNames = p.smartSets['figures']['currency']
+    # glyphNames = p.smartSets['figures']['currency']
     # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
@@ -695,11 +695,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder!
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder!
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -711,7 +711,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -725,7 +725,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
