@@ -6,7 +6,7 @@ reload(xTools4.modules.xproject)
 
 import os, glob, time, json, string, itertools
 from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor
-from xTools4.modules.xproject import xProject, makeParentAxis
+from xTools4.modules.xproject import xProject
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
 from xTools4.modules.sys import timer
 from xTools4.modules.fontutils import parseGString
@@ -14,11 +14,11 @@ from xTools4.modules.fontutils import parseGString
 
 _parametricAxesRoman  = 'WDSP GRAD '
 
-                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # XTSP
+                        # XOPQ/YOPQ          # XTRA              # YTRA         # serifs                 # spacing
 _parametricAxesRoman += 'XOUC YOUC XOUA YOUA XTUC XTUR XTUD XTUA YTUC YTJD      XSHU YSHU XSVU YSVU XVAU XUCS XUCR XUCD ' # uppercase
 _parametricAxesRoman += 'XOLC YOLC XOLA YOLA XTLC XTLR XTLD XTLA YTLC YTAS YTDE XSHL YSHL XSVL YSVL      XLCS XLCR XLCD ' # lowercase
 _parametricAxesRoman += 'XOFI YOFI           XTFI                YTFI           XSHF YSHF XSVF YSVF      XFIR           ' # figures
-_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera
+_parametricAxesRoman += 'XOET YOET           XTET                                                        XETS           ' # etcetera  # XSHE YSHE XSVE YSVE ??
 
 _parametricAxesRoman += 'XDOT YTOS XTTW YTTL BARS'
 _parametricAxesRoman  = _parametricAxesRoman.split()
@@ -300,18 +300,24 @@ class AmstelvarA2Controller(xProject):
                 parentAxis, mappings = self.makeParentParametricAxis(parentAxisTag, parametricAxes, parentDefault)
 
                 # clip mapping values to the available parametric ranges
-                # mappingsClipped = {}
-                # for parentValue in mappings.keys():
-                #     mappingsClipped[parentValue] = {}
-                #     for tag, value in mappings[parentValue].items():
-                #         if value < parametricAxesDict[tag]['minimum']:
-                #             clippedValue = parametricAxesDict[tag]['minimum']
-                #         elif value > parametricAxesDict[tag]['maximum']:
-                #             clippedValue = parametricAxesDict[tag]['maximum']
-                #         else:
-                #             clippedValue = value
-                #         mappingsClipped[parentValue][tag] = clippedValue
-                # mappings = mappingsClipped
+                mappingsClipped = {}
+                for parentValue in mappings.keys():
+                    mappingsClipped[parentValue] = {}
+                    for axisName, value in mappings[parentValue].items():
+                        # get tag from axis name
+                        if self.useLongAxisNames:
+                            tag = [key for key in fontMeasurements.keys() if axisName == fontMeasurements[key]['description']][0]
+                        else:
+                            tag = axisName
+
+                        if value < parametricAxesDict[tag]['minimum']:
+                            clippedValue = parametricAxesDict[tag]['minimum']
+                        elif value > parametricAxesDict[tag]['maximum']:
+                            clippedValue = parametricAxesDict[tag]['maximum']
+                        else:
+                            clippedValue = value
+                        mappingsClipped[parentValue][tag] = clippedValue
+                mappings = mappingsClipped
 
                 # add parent axis
                 blendsDict['axes'][parentAxisTag] = parentAxis
@@ -390,10 +396,13 @@ class AmstelvarA2Controller(xProject):
 
     def proofSourcesGlyphSet(self, showCompatible=True, validateComposites=True):
         familyName = f'{self.familyName} {self.subFamily}'
-        super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites)
+        proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'glyphset', self.subFamily)
+        super().proofSourcesGlyphSet(familyName=familyName, showCompatible=showCompatible, validateComposites=validateComposites, proofsFolder=proofsFolder)
 
     def proofBlends(self, glyphNames, margins=True, labels=True, levels=False, levelsShow=[1, 2, 3, 4], header=True, footer=True, points=False):
         proofsFolder = os.path.join(self.proofsFolder, 'PDF', 'blending', self.subFamily)
+        if self.tuning:
+            proofsFolder = os.path.join(proofsFolder, 'tuned')
         super().proofBlends(glyphNames, margins=margins, labels=labels, levels=levels, levelsShow=levelsShow, header=header, footer=footer, points=points, proofsFolder=proofsFolder)
 
     def proofGlyphMemes(self, glyphNames, anchors=True):
@@ -642,7 +651,6 @@ class AmstelvarA2Controller2(AmstelvarA2Controller):
 
 
 
-
 if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
@@ -655,18 +663,17 @@ if __name__ == '__main__':
 
     p = controller(folder, 'AmstelvarA2', subFamily)
 
-    referenceSource = os.path.join(p.referenceSourcesFolder, f'Amstelvar-{subFamily}_wght400.ufo')
+    referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    # glyphNamesEtcetera = list(set(itertools.chain(*[items for items in p.smartSets['etcetera'].values()])))
-    # glyphNamesPunctuation = 'period exclam comma colon semicolon question'.split()
-
-    glyphNames = parseGString(p.defaultFont, '/ae/OE')
+    glyphNames = ['Oslash', 'oslash']
+    # glyphNames = parseGString(p.defaultFont, '/ae/OE')
+    # glyphNames = p.smartSets['etcetera']['parentheticals']
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
     # p.setSourceNamesFromMeasurements(preflight=False)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
-    #     p.splitSources(src, dst, glyphNamesEtcetera, preflight=False)
+    #     p.splitSources(src, dst, glyphNames, preflight=False)
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(['cent'], 'XDOT23', preflight=False, parametric=True, tuning=False)
@@ -677,10 +684,19 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs('Ldot'.split(), preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
+
+    # --- build designspace ---
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder!
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- tuning ---
     # p.tuningLevels = [1, 2, 3]
@@ -688,18 +704,9 @@ if __name__ == '__main__':
     # p.resetTuningSources()
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
-    # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True
-    p.useLongAxisNames = True
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
-    # p.validateDesignspace(locations=True, mappings=True, instances=False)
-    # p.validateSources(parametric=False, tuning=False, reference=True)
-
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=True, reference=False)
+    # p.cleanupSources(parametric=False, tuning=False, reference=False)
+    p.normalizeSources(parametric=False, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -708,7 +715,7 @@ if __name__ == '__main__':
 
     # --- proofing ---
     # p.proofGlyphMemes(glyphNames, anchors=True)
-    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[2], header=True, footer=True, points=False)
+    # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[1,2,3,4], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
