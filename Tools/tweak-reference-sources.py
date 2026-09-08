@@ -6,7 +6,9 @@ folder = '/Users/gferreira/fontbureau/amstelvar-avar2'
 
 p = AmstelvarA2Controller(folder, 'AmstelvarA2', 'Roman')
 
-glyphNames = p.smartSets['figures']['proportional']
+glyphNames = p.smartSets['figures']['oldstyle']
+
+preflight = True
 
 parametersTweak = {
     "wght100": {
@@ -68,7 +70,10 @@ for styleName in parametersTweak.keys():
         g = instantiateGlyph(operator, glyphName, parameters)
         referenceSource[glyphName] = RGlyph(g)
     # close and save reference source
-    referenceSource.close(save=True)
+    if not preflight:
+        print(f'\t\tsaving...')
+        referenceSource.save()
+    referenceSource.close()
 
 print('...done!\n')
 
