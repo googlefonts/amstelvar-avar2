@@ -667,10 +667,10 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNames = 'NJ LJ Nj Lj DZcaron Dzcaron IJ IJacute Iacute_J.loclNLD ijacute iacute_j.loclNLD lj nj'.split()
-    # glyphNames = ['perthousand'] # 'won kip colonsign cedi guarani'.split()
+    # glyphNames = 'NJ LJ Nj Lj DZcaron Dzcaron IJ IJacute Iacute_J.loclNLD ijacute iacute_j.loclNLD lj nj'.split()
+    # glyphNames = ['aringacute'] # 'won kip colonsign cedi guarani'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['operators']
+    # glyphNames = p.smartSets['figures']['oldstyle']
     # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
@@ -712,7 +712,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    # p.normalizeSources(parametric=True, tuning=False, reference=False)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
