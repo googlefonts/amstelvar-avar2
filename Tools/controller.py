@@ -365,14 +365,12 @@ class AmstelvarA2Controller(xProject):
         oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
         super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
 
-    def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
+    def buildDesignspace(self, instances=False, parentParametric=False):
 
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
         self.buildBlendsFile(parentParametric=parentParametric)
-        if patchBlends:
-            self.patchBlendsFile()
 
         self.designspace = DesignSpaceDocument()
 
@@ -668,7 +666,7 @@ if __name__ == '__main__':
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
     # glyphNames = 'NJ LJ Nj Lj DZcaron Dzcaron IJ IJacute Iacute_J.loclNLD ijacute iacute_j.loclNLD lj nj'.split()
-    # glyphNames = ['aringacute'] # 'won kip colonsign cedi guarani'.split()
+    glyphNames = 'dollar cent guarani colonsign cedi peso won kip naira'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['oldstyle']
     # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
@@ -696,11 +694,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -712,7 +710,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    # p.normalizeSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()

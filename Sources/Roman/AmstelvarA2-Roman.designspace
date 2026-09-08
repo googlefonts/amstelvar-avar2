@@ -73,7 +73,7 @@
     <axis tag="YTOS" name="Lowercase overshoot" minimum="0" maximum="30" default="11" hidden="1"/>
     <axis tag="XTTW" name="Trap width" minimum="0" maximum="30" default="5" hidden="1"/>
     <axis tag="YTTL" name="Trap length" minimum="0" maximum="120" default="60" hidden="1"/>
-    <axis tag="BARS" name="Bars" minimum="0" maximum="683" default="0" hidden="1"/>
+    <axis tag="BARS" name="Bars" minimum="0" maximum="723" default="0" hidden="1"/>
     <axis tag="TN00" name="opsz144" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN01" name="opsz144_wdth125" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN02" name="opsz144_wdth50" minimum="0" maximum="100" default="0" hidden="1"/>
@@ -127,7 +127,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="308"/>
           <dimension name="X transparent lowercase diagonals" xvalue="254"/>
           <dimension name="Lowercase accent width" xvalue="206"/>
-          <dimension name="X transparent figures" xvalue="258"/>
+          <dimension name="X transparent figures" xvalue="320"/>
           <dimension name="X transparent etcetera" xvalue="633"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-7"/>
@@ -216,7 +216,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="502"/>
           <dimension name="X transparent lowercase diagonals" xvalue="418"/>
           <dimension name="Lowercase accent width" xvalue="295"/>
-          <dimension name="X transparent figures" xvalue="448"/>
+          <dimension name="X transparent figures" xvalue="490"/>
           <dimension name="X transparent etcetera" xvalue="846"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-7"/>
@@ -483,7 +483,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="174"/>
           <dimension name="X transparent lowercase diagonals" xvalue="214"/>
           <dimension name="Lowercase accent width" xvalue="264"/>
-          <dimension name="X transparent figures" xvalue="105"/>
+          <dimension name="X transparent figures" xvalue="225"/>
           <dimension name="X transparent etcetera" xvalue="620"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-3"/>
@@ -516,7 +516,7 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="2"/>
           <dimension name="Trap length" xvalue="57"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="711"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -606,7 +606,7 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="67"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="704"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -696,7 +696,7 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="62"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="716"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -931,7 +931,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="340"/>
           <dimension name="X transparent lowercase diagonals" xvalue="236"/>
           <dimension name="Lowercase accent width" xvalue="235"/>
-          <dimension name="X transparent figures" xvalue="202"/>
+          <dimension name="X transparent figures" xvalue="355"/>
           <dimension name="X transparent etcetera" xvalue="658"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-159"/>
@@ -1020,7 +1020,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="534"/>
           <dimension name="X transparent lowercase diagonals" xvalue="401"/>
           <dimension name="Lowercase accent width" xvalue="324"/>
-          <dimension name="X transparent figures" xvalue="391"/>
+          <dimension name="X transparent figures" xvalue="490"/>
           <dimension name="X transparent etcetera" xvalue="871"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-184"/>
@@ -1109,7 +1109,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="171"/>
           <dimension name="X transparent lowercase diagonals" xvalue="140"/>
           <dimension name="Lowercase accent width" xvalue="202"/>
-          <dimension name="X transparent figures" xvalue="166"/>
+          <dimension name="X transparent figures" xvalue="185"/>
           <dimension name="X transparent etcetera" xvalue="450"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-159"/>
@@ -1198,7 +1198,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="434"/>
           <dimension name="X transparent lowercase diagonals" xvalue="301"/>
           <dimension name="Lowercase accent width" xvalue="235"/>
-          <dimension name="X transparent figures" xvalue="318"/>
+          <dimension name="X transparent figures" xvalue="450"/>
           <dimension name="X transparent etcetera" xvalue="698"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-150"/>
@@ -1287,7 +1287,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="206"/>
           <dimension name="X transparent lowercase diagonals" xvalue="197"/>
           <dimension name="Lowercase accent width" xvalue="282"/>
-          <dimension name="X transparent figures" xvalue="208"/>
+          <dimension name="X transparent figures" xvalue="266"/>
           <dimension name="X transparent etcetera" xvalue="675"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-175"/>
@@ -1320,7 +1320,7 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="58"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="620"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1410,7 +1410,7 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="108"/>
-          <dimension name="Bars" xvalue="28"/>
+          <dimension name="Bars" xvalue="633"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1500,7 +1500,7 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="78"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="605"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1911,7 +1911,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="431"/>
           <dimension name="X transparent lowercase diagonals" xvalue="312"/>
           <dimension name="Lowercase accent width" xvalue="235"/>
-          <dimension name="X transparent figures" xvalue="363"/>
+          <dimension name="X transparent figures" xvalue="430"/>
           <dimension name="X transparent etcetera" xvalue="682"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-95"/>
@@ -1999,7 +1999,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="204"/>
           <dimension name="X transparent lowercase diagonals" xvalue="208"/>
           <dimension name="Lowercase accent width" xvalue="282"/>
-          <dimension name="X transparent figures" xvalue="176"/>
+          <dimension name="X transparent figures" xvalue="268"/>
           <dimension name="X transparent etcetera" xvalue="629"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-120"/>
@@ -2032,7 +2032,7 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="63"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="640"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2121,7 +2121,7 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="110"/>
-          <dimension name="Bars" xvalue="28"/>
+          <dimension name="Bars" xvalue="648"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2210,7 +2210,7 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="57"/>
-          <dimension name="Bars" xvalue="0"/>
+          <dimension name="Bars" xvalue="630"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2355,7 +2355,7 @@
           <dimension name="X transparent lowercase rounds" xvalue="260"/>
           <dimension name="X transparent lowercase diagonals" xvalue="218"/>
           <dimension name="Lowercase accent width" xvalue="202"/>
-          <dimension name="X transparent figures" xvalue="247"/>
+          <dimension name="X transparent figures" xvalue="286"/>
           <dimension name="X transparent etcetera" xvalue="474"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-95"/>
@@ -14708,7 +14708,7 @@
         <dimension name="wght100_wdth50" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Roman_BARS683.ufo" name="BARS683" familyname="AmstelvarA2 Roman" stylename="BARS683">
+    <source filename="AmstelvarA2-Roman_BARS723.ufo" name="BARS723" familyname="AmstelvarA2 Roman" stylename="BARS723">
       <location>
         <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
@@ -14765,7 +14765,7 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="683"/>
+        <dimension name="Bars" xvalue="723"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17074,7 +17074,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="34"/>
         <dimension name="X stem figures" xvalue="80"/>
         <dimension name="Y stem figures" xvalue="14"/>
-        <dimension name="X transparent figures" xvalue="258"/>
+        <dimension name="X transparent figures" xvalue="320"/>
         <dimension name="Y transparent figures" xvalue="773"/>
         <dimension name="X horizontal serif figures" xvalue="109"/>
         <dimension name="Y horizontal serif figures" xvalue="12"/>
@@ -17160,7 +17160,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="68"/>
         <dimension name="X stem figures" xvalue="79"/>
         <dimension name="Y stem figures" xvalue="20"/>
-        <dimension name="X transparent figures" xvalue="448"/>
+        <dimension name="X transparent figures" xvalue="490"/>
         <dimension name="Y transparent figures" xvalue="773"/>
         <dimension name="X horizontal serif figures" xvalue="169"/>
         <dimension name="Y horizontal serif figures" xvalue="12"/>
@@ -17418,7 +17418,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="48"/>
         <dimension name="X stem figures" xvalue="237"/>
         <dimension name="Y stem figures" xvalue="26"/>
-        <dimension name="X transparent figures" xvalue="105"/>
+        <dimension name="X transparent figures" xvalue="225"/>
         <dimension name="Y transparent figures" xvalue="778"/>
         <dimension name="X horizontal serif figures" xvalue="104"/>
         <dimension name="Y horizontal serif figures" xvalue="27"/>
@@ -17433,7 +17433,7 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="2"/>
         <dimension name="Trap length" xvalue="57"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="711"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17519,7 +17519,7 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="67"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="704"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17605,7 +17605,7 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="62"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="716"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17848,7 +17848,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="61"/>
         <dimension name="X stem figures" xvalue="110"/>
         <dimension name="Y stem figures" xvalue="88"/>
-        <dimension name="X transparent figures" xvalue="202"/>
+        <dimension name="X transparent figures" xvalue="355"/>
         <dimension name="Y transparent figures" xvalue="775"/>
         <dimension name="X horizontal serif figures" xvalue="139"/>
         <dimension name="Y horizontal serif figures" xvalue="72"/>
@@ -17934,7 +17934,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="94"/>
         <dimension name="X stem figures" xvalue="108"/>
         <dimension name="Y stem figures" xvalue="92"/>
-        <dimension name="X transparent figures" xvalue="391"/>
+        <dimension name="X transparent figures" xvalue="490"/>
         <dimension name="Y transparent figures" xvalue="775"/>
         <dimension name="X horizontal serif figures" xvalue="199"/>
         <dimension name="Y horizontal serif figures" xvalue="72"/>
@@ -18020,7 +18020,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="46"/>
         <dimension name="X stem figures" xvalue="102"/>
         <dimension name="Y stem figures" xvalue="78"/>
-        <dimension name="X transparent figures" xvalue="166"/>
+        <dimension name="X transparent figures" xvalue="185"/>
         <dimension name="Y transparent figures" xvalue="770"/>
         <dimension name="X horizontal serif figures" xvalue="104"/>
         <dimension name="Y horizontal serif figures" xvalue="70"/>
@@ -18106,7 +18106,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="74"/>
         <dimension name="X stem figures" xvalue="60"/>
         <dimension name="Y stem figures" xvalue="54"/>
-        <dimension name="X transparent figures" xvalue="318"/>
+        <dimension name="X transparent figures" xvalue="450"/>
         <dimension name="Y transparent figures" xvalue="780"/>
         <dimension name="X horizontal serif figures" xvalue="142"/>
         <dimension name="Y horizontal serif figures" xvalue="49"/>
@@ -18192,7 +18192,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="74"/>
         <dimension name="X stem figures" xvalue="266"/>
         <dimension name="Y stem figures" xvalue="100"/>
-        <dimension name="X transparent figures" xvalue="208"/>
+        <dimension name="X transparent figures" xvalue="266"/>
         <dimension name="Y transparent figures" xvalue="780"/>
         <dimension name="X horizontal serif figures" xvalue="134"/>
         <dimension name="Y horizontal serif figures" xvalue="87"/>
@@ -18207,7 +18207,7 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="58"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="620"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18293,7 +18293,7 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="108"/>
-        <dimension name="Bars" xvalue="28"/>
+        <dimension name="Bars" xvalue="633"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18379,7 +18379,7 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="78"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="605"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18794,7 +18794,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="67"/>
         <dimension name="X stem figures" xvalue="38"/>
         <dimension name="Y stem figures" xvalue="28"/>
-        <dimension name="X transparent figures" xvalue="363"/>
+        <dimension name="X transparent figures" xvalue="430"/>
         <dimension name="Y transparent figures" xvalue="774"/>
         <dimension name="X horizontal serif figures" xvalue="128"/>
         <dimension name="Y horizontal serif figures" xvalue="24"/>
@@ -18880,7 +18880,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="68"/>
         <dimension name="X stem figures" xvalue="245"/>
         <dimension name="Y stem figures" xvalue="68"/>
-        <dimension name="X transparent figures" xvalue="176"/>
+        <dimension name="X transparent figures" xvalue="268"/>
         <dimension name="Y transparent figures" xvalue="776"/>
         <dimension name="X horizontal serif figures" xvalue="124"/>
         <dimension name="Y horizontal serif figures" xvalue="62"/>
@@ -18895,7 +18895,7 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="63"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="640"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18981,7 +18981,7 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="110"/>
-        <dimension name="Bars" xvalue="28"/>
+        <dimension name="Bars" xvalue="648"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -19067,7 +19067,7 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="57"/>
-        <dimension name="Bars" xvalue="0"/>
+        <dimension name="Bars" xvalue="630"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -19224,7 +19224,7 @@
         <dimension name="X sidebearing lowercase diagonals" xvalue="48"/>
         <dimension name="X stem figures" xvalue="35"/>
         <dimension name="Y stem figures" xvalue="30"/>
-        <dimension name="X transparent figures" xvalue="247"/>
+        <dimension name="X transparent figures" xvalue="286"/>
         <dimension name="Y transparent figures" xvalue="774"/>
         <dimension name="X horizontal serif figures" xvalue="102"/>
         <dimension name="Y horizontal serif figures" xvalue="22"/>
