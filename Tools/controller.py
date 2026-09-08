@@ -712,7 +712,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    p.normalizeSources(parametric=False, tuning=False, reference=True)
+    # p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
