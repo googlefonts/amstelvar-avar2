@@ -70,6 +70,8 @@ class AmstelvarA2Controller(xProject):
     }
     _parentParametricHidden = False
 
+    tuning = True
+
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
         self.familyName = familyName
@@ -363,14 +365,12 @@ class AmstelvarA2Controller(xProject):
         oldDefaultPath = os.path.join(self.sourcesFolder, f'{self.familyName}-{self.subFamily}_{oldDefaultName}.ufo')
         super().updateGlyphsFromDefault(glyphNames, oldDefaultPath, preflight=preflight, parametric=parametric, tuning=tuning)
 
-    def buildDesignspace(self, patchBlends=True, instances=False, parentParametric=False):
+    def buildDesignspace(self, instances=False, parentParametric=False):
 
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
         self.buildBlendsFile(parentParametric=parentParametric)
-        if patchBlends:
-            self.patchBlendsFile()
 
         self.designspace = DesignSpaceDocument()
 
@@ -665,9 +665,13 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNames = ['Oslash', 'oslash']
+    # glyphNames = 'NJ LJ Nj Lj DZcaron Dzcaron IJ IJacute Iacute_J.loclNLD ijacute iacute_j.loclNLD lj nj'.split()
+    # glyphNames = 'dollar cent guarani colonsign cedi peso won kip naira'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['etcetera']['parentheticals']
+    glyphNames = p.smartSets['figures']['oldstyle']
+    # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
+    # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
+    # print(glyphNames)
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
@@ -692,9 +696,9 @@ if __name__ == '__main__':
     # --- build designspace ---
     # p.parametricAxesHidden = True
     # p.tuningAxesHidden = True
-    # p.tuning = True # also used to direct BlendsPreview proof to its folder!
-    # p.useLongAxisNames = True # keep it disabled during development!
-    # p.buildDesignspace(patchBlends=False, instances=True, parentParametric=True)
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = False # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -706,7 +710,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    p.normalizeSources(parametric=False, tuning=True, reference=True)
+    # p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -720,7 +724,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset='Latin 1')
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

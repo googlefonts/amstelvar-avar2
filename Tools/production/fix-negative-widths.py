@@ -10,5 +10,4 @@ for source in sources:
         if g.width < 0:
             print(f.info.styleName, g.name, g.width)
             g.width = 0
-    f.save()
-    f.close()
+    f.close(save=True)

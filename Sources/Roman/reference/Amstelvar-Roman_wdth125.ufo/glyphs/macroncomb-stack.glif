@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb-stack" format="2">
-	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="-376" y="1203" type="line"/>
+			<point x="-376" y="1347" type="line"/>
+			<point x="376" y="1347" type="line"/>
+			<point x="376" y="1203" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1000"/>
+	<anchor name="top" x="0" y="1508"/>
 </glyph>

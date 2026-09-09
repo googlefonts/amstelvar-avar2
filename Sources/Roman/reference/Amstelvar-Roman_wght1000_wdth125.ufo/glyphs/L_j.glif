@@ -4,6 +4,13 @@
 	<advance width="2726"/>
 	<outline>
 		<component base="L"/>
-		<component base="j" xOffset="1814"/>
+		<component base="jdotless" xOffset="1814"/>
+		<component base="idot" xOffset="2270"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.xTools4.dialogs.variable.old.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Roman/reference/Amstelvar-Roman_wght1000_wdth125.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
