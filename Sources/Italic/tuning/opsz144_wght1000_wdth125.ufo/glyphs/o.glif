@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o" format="2">
-	<unicode hex="006F"/>
-	<advance width="1052"/>
-	<outline>
-		<contour>
-			<point x="3.2489977174" y="489.8273925781" type="qcurve" smooth="yes"/>
-			<point x="25.1822862917" y="721.9401855469"/>
-			<point x="312.9379295692" y="1038.6940917969"/>
-			<point x="560.5424547487" y="1031.2801513672" type="qcurve" smooth="yes"/>
-			<point x="819.7817406044" y="1023.4118041992"/>
-			<point x="992.4016746864" y="731.3670654297"/>
-			<point x="968.2842430458" y="525.1716308594" type="qcurve" smooth="yes"/>
-			<point x="944.1095604286" y="308.8009643555"/>
-			<point x="668.8004783974" y="-10.1778564453"/>
-			<point x="405.1186266237" y="-16.2811279297" type="qcurve" smooth="yes"/>
-			<point x="185.6824974403" y="-26.481628418"/>
-			<point x="-15.7195081419" y="284.9650268555"/>
-		</contour>
-		<contour>
-			<point x="184.0959215456" y="512.0299682617" type="qcurve" smooth="yes"/>
-			<point x="154.4736681276" y="315.5408325195"/>
-			<point x="228.6888170534" y="79.0203857422"/>
-			<point x="379.6990709596" y="65.1624145508" type="qcurve" smooth="yes"/>
-			<point x="534.5251817995" y="52.1624145508"/>
-			<point x="746.0563707643" y="329.9990844727"/>
-			<point x="770.6718492799" y="540.259765625" type="qcurve" smooth="yes"/>
-			<point x="789.9925279909" y="702.8665771484"/>
-			<point x="718.8155870729" y="955.6893920898"/>
-			<point x="566.4370470338" y="962.6893920898" type="qcurve" smooth="yes"/>
-			<point x="398.9792223268" y="970.6893920898"/>
-			<point x="210.8860826784" y="701.4083251953"/>
-		</contour>
-	</outline>
-	<anchor name="bottom" x="358" y="0"/>
-	<anchor name="center" x="461" y="500"/>
-	<anchor name="ogonek" x="514" y="0"/>
-	<anchor name="top" x="584" y="1000"/>
-	<anchor name="topright" x="663" y="1000"/>
-	<anchor name="GRKtop" x="584" y="1000"/>
-	<anchor name="yu_dash" x="83" y="498"/>
+  <advance width="1052"/>
+  <unicode hex="006F"/>
+  <anchor x="358" y="0" name="bottom"/>
+  <anchor x="461" y="500" name="center"/>
+  <anchor x="514" y="0" name="ogonek"/>
+  <anchor x="584" y="1000" name="top"/>
+  <anchor x="663" y="1000" name="topright"/>
+  <anchor x="584" y="1000" name="GRKtop"/>
+  <anchor x="83" y="498" name="yu_dash"/>
+  <outline>
+    <contour>
+      <point x="3.2489977174437996" y="489.827392578125" type="qcurve" smooth="yes"/>
+      <point x="25.182286291662592" y="721.940185546875"/>
+      <point x="312.93792956923244" y="1038.694091796875"/>
+      <point x="560.5424547486937" y="1031.2801513671875" type="qcurve" smooth="yes"/>
+      <point x="819.7817406043887" y="1023.4118041992188"/>
+      <point x="992.4016746864199" y="731.3670654296875"/>
+      <point x="968.2842430457949" y="525.171630859375" type="qcurve" smooth="yes"/>
+      <point x="944.1095604286074" y="308.80096435546875"/>
+      <point x="668.8004783973574" y="-10.1778564453125"/>
+      <point x="405.1186266236937" y="-16.2811279296875" type="qcurve" smooth="yes"/>
+      <point x="185.6824974403262" y="-26.48162841796875"/>
+      <point x="-15.719508141931158" y="284.96502685546875"/>
+    </contour>
+    <contour>
+      <point x="184.09592154556867" y="512.0299682617188" type="qcurve" smooth="yes"/>
+      <point x="154.47366812759998" y="315.54083251953125"/>
+      <point x="228.68881705338117" y="79.0203857421875"/>
+      <point x="379.6990709596312" y="65.16241455078125" type="qcurve" smooth="yes"/>
+      <point x="534.5251817994749" y="52.16241455078125"/>
+      <point x="746.0563707643187" y="329.99908447265625"/>
+      <point x="770.6718492799437" y="540.259765625" type="qcurve" smooth="yes"/>
+      <point x="789.9925279908812" y="702.8665771484375"/>
+      <point x="718.8155870729124" y="955.6893920898438"/>
+      <point x="566.4370470338499" y="962.6893920898438" type="qcurve" smooth="yes"/>
+      <point x="398.9792223268187" y="970.6893920898438"/>
+      <point x="210.88608267838117" y="701.4083251953125"/>
+    </contour>
+  </outline>
 </glyph>

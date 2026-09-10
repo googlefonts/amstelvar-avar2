@@ -418,7 +418,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -426,12 +426,12 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNames = ['eng']
+    # glyphNames = ['eng']
     # glyphNames = 'dollar cent guarani colonsign cedi peso won kip naira'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['oldstyle']
-    # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
-    # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
+    glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
+    glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
 
     # --- managing sources ---
@@ -455,11 +455,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(instances=True, parentParametric=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = False # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = False # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -470,8 +470,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=False, reference=False)
-    p.normalizeSources(parametric=True, tuning=True, reference=False)
+    p.cleanupSources(parametric=False, tuning=False, reference=True)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
