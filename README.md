@@ -190,8 +190,8 @@ Tuning sources are calculated automatically as the difference between parametric
 Each tuning axis controls the deltas needed to tune one of 26 corners of the designspace. In locations in between these corners, the tuning deltas are linearly interpolated.
 
 
-Variation axes in AmstelvarA2
------------------------------
+Variation axes
+--------------
 
 ### Blended axes
 

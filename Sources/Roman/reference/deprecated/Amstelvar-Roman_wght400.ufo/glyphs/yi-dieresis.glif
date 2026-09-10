@@ -2,12 +2,6 @@
 <glyph name="yi-dieresis" format="2">
   <advance width="1024"/>
   <outline>
-    <component base="yi-dieresiscomb"/>
+    <component base="yi-dieresiscomb" xOffset="512"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.3,0,0.35</string>
-    </dict>
-  </lib>
 </glyph>

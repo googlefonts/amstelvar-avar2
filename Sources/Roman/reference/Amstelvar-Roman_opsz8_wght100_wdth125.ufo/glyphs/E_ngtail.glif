@@ -18,10 +18,8 @@
 			<point x="252" y="-334" type="qcurve" smooth="yes"/>
 			<point x="326" y="-334"/>
 			<point x="431" y="-232"/>
-			<point x="431" y="-141" type="qcurve" smooth="yes"/>
-			<point x="431" y="-62"/>
-			<point x="431" y="113"/>
-			<point x="431" y="113" type="qcurve"/>
+			<point x="431" y="-141" type="qcurve"/>
+			<point x="431" y="113" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="_engtail" x="555" y="0"/>
