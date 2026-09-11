@@ -18,10 +18,8 @@
 			<point x="310.5576171875" y="-190.6059570312" type="qcurve" smooth="yes"/>
 			<point x="369.5576171875" y="-190.6059570312"/>
 			<point x="462.2788085938" y="-108.6059570312"/>
-			<point x="462.2788085938" y="-6" type="qcurve" smooth="yes"/>
-			<point x="462.2788085938" y="73"/>
-			<point x="568.5576171875" y="150"/>
-			<point x="568.5576171875" y="150" type="qcurve"/>
+			<point x="462.2788085938" y="-6" type="qcurve"/>
+			<point x="462.2788085938" y="73" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="_engtail" x="522" y="0"/>
