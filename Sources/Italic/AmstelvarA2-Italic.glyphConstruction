@@ -295,7 +295,7 @@ abrevetilde = a + brevecomb-stack@top + tildecomb-stack@top | 0x1eb5
 acircumflex = a + circumflexcomb@top | 0xe2
 acircumflexacute = a + circumflexcomb-stack@top + acutecomb-stack@topright | 0x1ea5
 acircumflexdotbelow = a + circumflexcomb@top + dotbelowcomb@a:bottom | 0x1ead
-acircumflexgrave = a + circumflexcomb-stack@top + gravecomb-stack@topright | 0x1ea7
+acircumflexgrave = a + circumflexcomb-stack@top + gravecomb-stack@topleft | 0x1ea7
 acircumflexhookabove = a + circumflexcomb-stack@top + hookabovecomb-stack@topright | 0x1ea9
 acircumflextilde = a + circumflexcomb-stack@top + tildecomb-stack@top | 0x1eab
 adblgrave = a + dblgravecomb@top | 0x201
@@ -380,7 +380,7 @@ ldot = l + periodcentered.loclCAT@centerright ^ l, l | 0x140
 lslash = l + diagonalbarl@center | 0x142
 
 nacute = n + acutecomb@top | 0x144
-napostrophe = n&\quoteright | 0x149
+napostrophe = quoteright & n | 0x149
 ncaron = n + caroncomb@top | 0x148
 ncommaaccent = n + commaaccentcomb@bottom | 0x146
 ntilde = n + tildecomb@top | 0xf1
@@ -746,8 +746,8 @@ ellipsis = period&period&period | 0x2026
 hyphentwo = hyphen | 0x2010
 softhyphen = hyphen | 0x00AD
 
-periodcentered.loclCAT = periodcentered | None
-periodcentered.loclCAT.case = periodcentered | None
+# periodcentered.loclCAT = periodcentered | None
+# periodcentered.loclCAT.case = periodcentered | None
 
 increment = Delta | 0x2206
 ohm = Omega | 0x2126
