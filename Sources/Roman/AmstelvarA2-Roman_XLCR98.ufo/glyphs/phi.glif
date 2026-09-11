@@ -4,6 +4,38 @@
 	<advance width="1603"/>
 	<outline>
 		<contour>
+			<point x="791" y="-22" type="line"/>
+			<point x="511" y="-22"/>
+			<point x="197" y="268"/>
+			<point x="197" y="500" type="qcurve"/>
+			<point x="197" y="731"/>
+			<point x="511" y="1022"/>
+			<point x="792" y="1022" type="qcurve"/>
+			<point x="792" y="906" type="line"/>
+			<point x="580" y="906"/>
+			<point x="377" y="684"/>
+			<point x="377" y="500" type="qcurve"/>
+			<point x="377" y="316"/>
+			<point x="576" y="88"/>
+			<point x="791" y="88" type="qcurve"/>
+		</contour>
+		<contour>
+			<point x="811" y="-22" type="qcurve"/>
+			<point x="811" y="88" type="line"/>
+			<point x="1027" y="88"/>
+			<point x="1220" y="316"/>
+			<point x="1220" y="500" type="qcurve"/>
+			<point x="1220" y="684"/>
+			<point x="1024" y="906"/>
+			<point x="812" y="906" type="qcurve"/>
+			<point x="812" y="1022" type="line"/>
+			<point x="1092" y="1022"/>
+			<point x="1406" y="732"/>
+			<point x="1406" y="500" type="qcurve"/>
+			<point x="1406" y="269"/>
+			<point x="1092" y="-22"/>
+		</contour>
+		<contour>
 			<point x="735" y="-480" type="line"/>
 			<point x="710" y="-444" type="line"/>
 			<point x="718" y="25" type="line"/>
@@ -18,34 +50,6 @@
 			<point x="876" y="25" type="line"/>
 			<point x="883" y="25" type="line"/>
 			<point x="892" y="-459" type="line"/>
-		</contour>
-		<contour>
-			<point x="801" y="-22" type="qcurve"/>
-			<point x="511" y="-22"/>
-			<point x="197" y="268"/>
-			<point x="197" y="500" type="qcurve"/>
-			<point x="197" y="731"/>
-			<point x="511" y="1022"/>
-			<point x="802" y="1022" type="qcurve"/>
-			<point x="1092" y="1022"/>
-			<point x="1406" y="732"/>
-			<point x="1406" y="500" type="qcurve"/>
-			<point x="1406" y="269"/>
-			<point x="1092" y="-22"/>
-		</contour>
-		<contour>
-			<point x="801" y="88" type="qcurve"/>
-			<point x="1027" y="88"/>
-			<point x="1220" y="316"/>
-			<point x="1220" y="500" type="qcurve"/>
-			<point x="1220" y="684"/>
-			<point x="1024" y="906"/>
-			<point x="802" y="906" type="qcurve"/>
-			<point x="580" y="906"/>
-			<point x="377" y="684"/>
-			<point x="377" y="500" type="qcurve"/>
-			<point x="377" y="316"/>
-			<point x="576" y="88"/>
 		</contour>
 	</outline>
 </glyph>

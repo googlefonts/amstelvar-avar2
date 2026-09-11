@@ -14,16 +14,19 @@
 			<point x="610" y="962" type="line"/>
 			<point x="571" y="892"/>
 			<point x="508" y="619"/>
-			<point x="508" y="403" type="qcurve"/>
+			<point x="508" y="403" type="qcurve" smooth="yes"/>
 			<point x="508" y="284"/>
 			<point x="543" y="201"/>
 			<point x="584" y="201" type="qcurve" smooth="yes"/>
-			<point x="632" y="201"/>
-			<point x="660" y="335"/>
-			<point x="674" y="660" type="qcurve"/>
-			<point x="917" y="660" type="line"/>
-			<point x="919" y="345"/>
-			<point x="942" y="201"/>
+			<point x="633.9866983259" y="201"/>
+			<point x="652.9908508789" y="314.3435802079"/>
+			<point x="656.1071166992" y="349.9869384766" type="qcurve"/>
+			<point x="631" y="725" type="line"/>
+			<point x="911" y="751" type="line"/>
+			<point x="946" y="725" type="line"/>
+			<point x="923.2600708008" y="360.1665649414" type="line"/>
+			<point x="925.1074511592" y="322.514407356"/>
+			<point x="940.2256279957" y="201"/>
 			<point x="994" y="201" type="qcurve" smooth="yes"/>
 			<point x="1030" y="201"/>
 			<point x="1070" y="277"/>
@@ -34,19 +37,16 @@
 			<point x="1249" y="1068" type="line"/>
 			<point x="1399" y="966"/>
 			<point x="1526" y="648"/>
-			<point x="1526" y="472" type="qcurve"/>
+			<point x="1526" y="472" type="qcurve" smooth="yes"/>
 			<point x="1526" y="206"/>
 			<point x="1273" y="-22"/>
 			<point x="1082" y="-22" type="qcurve" smooth="yes"/>
-			<point x="876" y="-22"/>
-			<point x="631" y="281"/>
-			<point x="631" y="615" type="qcurve" smooth="yes"/>
-			<point x="631" y="725" type="line"/>
-			<point x="911" y="751" type="line"/>
-			<point x="946" y="725" type="line"/>
-			<point x="946" y="615" type="line" smooth="yes"/>
-			<point x="946" y="281"/>
-			<point x="703" y="-22"/>
+			<point x="999.9308080879" y="-22"/>
+			<point x="849.5136538581" y="32.4701346038"/>
+			<point x="790" y="90" type="qcurve"/>
+			<point x="789" y="90" type="line"/>
+			<point x="730" y="32"/>
+			<point x="580.1474909935" y="-22"/>
 		</contour>
 	</outline>
 	<anchor name="GRKtop" x="782" y="1050"/>
