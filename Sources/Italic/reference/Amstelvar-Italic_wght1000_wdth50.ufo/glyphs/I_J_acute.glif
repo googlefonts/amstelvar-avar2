@@ -2,7 +2,8 @@
 <glyph name="IJacute" format="2">
 	<advance width="1545"/>
 	<outline>
-		<component base="IJ"/>
-		<component base="acutecomb.case" xOffset="747" yOffset="31"/>
+		<component base="I"/>
+		<component base="J" xOffset="770"/>
+		<component base="acutecomb.case" xOffset="1292"/>
 	</outline>
 </glyph>

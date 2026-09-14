@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevegrave" format="2">
 	<unicode hex="1EB1"/>
-	<advance width="802"/>
+	<advance width="808"/>
 	<outline>
 		<component base="a"/>
-		<component base="brevecomb" xOffset="-33" yOffset="32"/>
-		<component base="gravecomb" xOffset="-8" yOffset="398"/>
+		<component base="brevecomb-stack" xOffset="532.9999999999" yOffset="1000"/>
+		<component base="gravecomb-stack" xOffset="472.9999999999" yOffset="-52"/>
 	</outline>
 </glyph>
