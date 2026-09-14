@@ -19264,7 +19264,6 @@
         "direction": "x"
       }
     },
-    "Cy-descendercomb.diagonal.case": {},
     "Cy-descendercombdiagonal.case": {
       "4 1": {
         "name": "YSHU",
@@ -19288,6 +19287,32 @@
       },
       "5 4": {
         "name": "XOUC",
+        "direction": "x"
+      }
+    },
+    "cy-descendercomb.bgr": {
+      "5 0": {
+        "name": "YSHL",
+        "direction": "y"
+      },
+      "4 1": {
+        "name": "YSHL",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "XSVL",
+        "direction": "x"
+      },
+      "2 1": {
+        "name": "YSVL",
+        "direction": "y"
+      },
+      "4 5": {
+        "name": "XOLC",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "XSHL",
         "direction": "x"
       }
     }
