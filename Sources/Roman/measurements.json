@@ -18666,6 +18666,14 @@
       "2 1": {
         "name": "YSVL",
         "direction": "y"
+      },
+      "4 5": {
+        "name": "XOLC",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "XSHL",
+        "direction": "x"
       }
     },
     "Iotadieresis": {},
@@ -18693,7 +18701,7 @@
         "name": "XSVU",
         "direction": "x"
       },
-      "1 3": {
+      "3 1": {
         "name": "YSVU",
         "direction": "y"
       },
@@ -18703,6 +18711,10 @@
       },
       "0 1": {
         "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XOUC",
         "direction": "x"
       }
     },
@@ -19223,6 +19235,59 @@
       },
       "3 99": {
         "name": "XUCS",
+        "direction": "x"
+      }
+    },
+    "cy-descendercomb.diagonal": {
+      "5 0": {
+        "name": "YSHL",
+        "direction": "y"
+      },
+      "4 1": {
+        "name": "YSHL",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "XSVL",
+        "direction": "x"
+      },
+      "2 1": {
+        "name": "YSVL",
+        "direction": "y"
+      },
+      "4 5": {
+        "name": "XOLC",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "XSHL",
+        "direction": "x"
+      }
+    },
+    "Cy-descendercomb.diagonal.case": {},
+    "Cy-descendercombdiagonal.case": {
+      "4 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "3 1": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "4 3": {
+        "name": "XVAU",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 4": {
+        "name": "XOUC",
         "direction": "x"
       }
     }

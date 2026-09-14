@@ -241,7 +241,7 @@ Ghe = Gamma | 0x413
 Ghestroke = Gamma + horizontalbar@center | 0x0492
 Gje = Gamma + acutecomb.case@top | 0x0403
 Ha = X | 0x425
-Hadescender = X + Cy-descendercomb.diagonal.case@cy_descender ^ X, X-10 | 0x04b2
+Hadescender = X + Cy-descendercombdiagonal.case@cy_descender ^ X, X-10 | 0x04b2
 Hastroke-cy = X + Ha-stroke@center | 0x04FE
 Igravecyr = Icyr + gravecomb.case@top | 0x040D
 Ie = E | 0x0415
@@ -252,7 +252,7 @@ Ishort = Icyr + breve.cyrcomb.case@top | 0x0419
 Iukran = I | 0x406
 Je = J | 0x408
 Ka.bgr = K | None
-Kadescender = Ka + Cy-descendercomb.diagonal.case@cy_descender ^ Ka, Ka-10 | 0x049a
+Kadescender = Ka + Cy-descendercombdiagonal.case@cy_descender ^ Ka, Ka-10 | 0x049a
 Kje = Ka + acutecomb.case@top | 0x040C
 Obarcyr = O + Obarcyr-stroke@center | 0x04E8
 Obrevecyr = O + breve.cyrcomb.case@top | 0xf51a
@@ -280,7 +280,7 @@ Yu = I + Yu-dash.case@yu_dash + O@yu_dash ^ I,O | 0x042E
 Yumacron = I + Yu-dash.case@yu_dash + O@yu_dash + macroncomb.case@Yu:center,top ^ I,O | 0xf52c
 Zedescendercyr = Ze + cedillacomb.case@bottom | 0x498
 Zhebrevecyr = Zhe + breve.cyrcomb.case@top | 04C1
-Zhedescender = Zhe + Cy-descendercomb.diagonal.case@cy_descender ^ Zhe, Zhe-10 | 0x0496
+Zhedescender = Zhe + Cy-descendercombdiagonal.case@cy_descender ^ Zhe, Zhe-10 | 0x0496
 Zhedieresiscyr = Zhe + dieresiscomb.case@top | 04DC
 
 # -------------------------------
