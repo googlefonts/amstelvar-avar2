@@ -470,8 +470,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    p.normalizeSources(parametric=True, tuning=False, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
