@@ -430,7 +430,7 @@ if __name__ == '__main__':
     # glyphNames = 'Acircumflexgrave Ocircumflexgrave Ecircumflexgrave acircumflexgrave ocircumflexgrave ecircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['currency']
-    # glyphNames = p.smartSets['uppercase']['digraphs'] + p.smartSets['lowercase']['digraphs']
+    # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
 
@@ -471,7 +471,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=False, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
