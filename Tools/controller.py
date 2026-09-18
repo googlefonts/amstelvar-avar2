@@ -426,11 +426,11 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    glyphNames = ['napostrophe']
-    # glyphNames = 'dollar cent guarani colonsign cedi peso won kip naira'.split()
+    # glyphNames = ['Eng']
+    # glyphNames = 'Acircumflexgrave Ocircumflexgrave Ecircumflexgrave acircumflexgrave ocircumflexgrave ecircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['currency']
-    # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
+    # glyphNames = p.smartSets['uppercase']['digraphs'] + p.smartSets['lowercase']['digraphs']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
 
@@ -449,7 +449,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs(glyphNames, parametric=False, tuning=False, reference=True, preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -470,8 +470,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
