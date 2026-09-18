@@ -5,6 +5,7 @@
 		<contour>
 			<point x="375" y="108" type="line"/>
 			<point x="635" y="100" type="line"/>
+			<point x="614" y="-23" type="line"/>
 			<point x="544" y="-438" type="line"/>
 			<point x="442" y="-438" type="line"/>
 			<point x="455" y="0" type="line"/>
@@ -12,4 +13,5 @@
 		</contour>
 	</outline>
 	<anchor name="_cy_descender" x="635" y="100"/>
+	<anchor name="_cy_descender_corner" x="645" y="100"/>
 </glyph>
