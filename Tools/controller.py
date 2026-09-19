@@ -426,10 +426,10 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    # glyphNames = ['Eng']
-    # glyphNames = 'Acircumflexgrave Ocircumflexgrave Ecircumflexgrave acircumflexgrave ocircumflexgrave ecircumflexgrave'.split()
+    # glyphNames = ['eight.lc']
+    # glyphNames = 'lessequal greaterequal'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['currency']
+    # glyphNames = p.smartSets['figures']['oldstyle']
     # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
@@ -441,11 +441,11 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNames, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['cent'], 'XDOT23', preflight=False, parametric=True, tuning=False)
+    # p.updateGlyphsFromDefault(['eight.lc'], 'WDSP0', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
-    # p.copyGlyphOrderFromDefault()
+    # p.copyGlyphOrderFromDefault(parametric=True, tuning=False, reference=False, preflight=False, trim=True)
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
@@ -470,8 +470,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
