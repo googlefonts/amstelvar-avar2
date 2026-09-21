@@ -12095,7 +12095,28 @@
     },
     "rightanglebracket": {},
     "micro": {},
-    "Cy-descendercomb.case": {},
+    "Cy-descendercomb.case": {
+      "2 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "6 5": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "0 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "4 3": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "4 2": {
+        "name": "YSVU",
+        "direction": "y"
+      }
+    },
     "fivesuperior": {},
     "horizontalbar": {
       "1 2": {
@@ -12588,6 +12609,30 @@
       "2 1": {
         "name": "XVAL",
         "direction": "x"
+      },
+      "4 0": {
+        "name": "XSHL",
+        "direction": "x"
+      },
+      "3 2": {
+        "name": "XSVL",
+        "direction": "x"
+      },
+      "3 1": {
+        "name": "YSVL",
+        "direction": "y"
+      },
+      "1 4": {
+        "name": "YHAL",
+        "direction": "y"
+      },
+      "3 0": {
+        "name": "XOLC",
+        "direction": "x"
+      },
+      "0 1": {
+        "name": "YSHL",
+        "direction": "y"
       }
     },
     "Epsilon": {},
@@ -13848,6 +13893,150 @@
       "B 28": {
         "name": "YTOS",
         "direction": "y"
+      }
+    },
+    "Cy-descendercombdiagonal.case": {
+      "2 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "0 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "6 5": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "4 2": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "4 3": {
+        "name": "XSVU",
+        "direction": "x"
+      }
+    },
+    "Dzhe-descendercomb.case": {
+      "2 1": {
+        "name": "XSVU",
+        "direction": "x"
+      },
+      "2 0": {
+        "name": "YSVU",
+        "direction": "y"
+      },
+      "3 2": {
+        "name": "XVAU",
+        "direction": "x"
+      },
+      "1 0": {
+        "name": "XVAU",
+        "direction": "x"
+      }
+    },
+    "TseDzhe-base.case": {
+      "16 21": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "4 9": {
+        "name": "XOUC",
+        "direction": "x"
+      },
+      "0 12": {
+        "name": "YOUC",
+        "direction": "y"
+      },
+      "9 16": {
+        "name": "XTUC",
+        "direction": "x"
+      },
+      "0 6": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "6 4": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "9 7": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "18 16": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "21 19": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "0 2": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "23 25": {
+        "name": "XSHU",
+        "direction": "x"
+      },
+      "5 6": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "8 7": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "17 18": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "20 19": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "0 1": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "25 24": {
+        "name": "YSHU",
+        "direction": "y"
+      },
+      "-1 2": {
+        "name": "XUCS",
+        "direction": "x"
+      },
+      "23 99": {
+        "name": "XUCS",
+        "direction": "x"
+      }
+    },
+    "zhe-descendercomb": {
+      "2 1": {
+        "name": "XVAL",
+        "direction": "x"
+      },
+      "4 0": {
+        "name": "XSHL",
+        "direction": "x"
+      },
+      "3 2": {
+        "name": "XSVL",
+        "direction": "x"
+      },
+      "3 1": {
+        "name": "YSVL",
+        "direction": "y"
+      },
+      "4 1": {
+        "name": "YHAL",
+        "direction": "y"
+      },
+      "3 0": {
+        "name": "XOLC",
+        "direction": "x"
       }
     }
   }
