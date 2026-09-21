@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorndotbelow" format="2">
 	<unicode hex="1EF0"/>
-	<advance width="1640"/>
+	<advance width="1510"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="dotbelowcomb.case" xOffset="304" yOffset="-63"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="1454"/>
+		<component base="dotbelowcomb.case" xOffset="644"/>
 	</outline>
 </glyph>

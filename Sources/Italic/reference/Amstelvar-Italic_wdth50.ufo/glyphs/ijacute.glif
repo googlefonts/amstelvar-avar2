@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ijacute" format="2">
-	<advance width="934"/>
+	<advance width="995"/>
 	<outline>
-		<component base="acutecomb" xOffset="106"/>
-		<component base="i"/>
-		<component base="jdotless" xOffset="450" yOffset="-2"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="98"/>
+		<component base="jdotless" xOffset="511"/>
+		<component base="acutecomb" xOffset="797"/>
 	</outline>
 </glyph>

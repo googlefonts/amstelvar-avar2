@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhedieresiscyr" format="2">
 	<unicode hex="04DD"/>
-	<advance width="2760"/>
+	<advance width="2762"/>
 	<outline>
-		<component base="zhe" yOffset="7"/>
-		<component base="dieresis" xOffset="779"/>
+		<component base="zhe"/>
+		<component base="dieresiscomb" xOffset="211.680156651" yOffset="39"/>
 	</outline>
 </glyph>

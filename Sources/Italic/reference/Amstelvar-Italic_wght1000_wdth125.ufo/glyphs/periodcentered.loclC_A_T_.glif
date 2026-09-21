@@ -2,6 +2,20 @@
 <glyph name="periodcentered.loclCAT" format="2">
 	<advance width="673"/>
 	<outline>
-		<component base="periodcentered"/>
+		<contour>
+			<point x="126" y="671" type="qcurve" smooth="yes"/>
+			<point x="126" y="752"/>
+			<point x="213" y="837"/>
+			<point x="295" y="837" type="qcurve" smooth="yes"/>
+			<point x="373" y="837"/>
+			<point x="464" y="745"/>
+			<point x="464" y="671" type="qcurve" smooth="yes"/>
+			<point x="464" y="591"/>
+			<point x="379" y="505"/>
+			<point x="295" y="505" type="qcurve" smooth="yes"/>
+			<point x="218" y="505"/>
+			<point x="126" y="596"/>
+		</contour>
 	</outline>
+	<anchor name="centerright" x="296" y="667"/>
 </glyph>

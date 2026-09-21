@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos" format="2">
 	<unicode hex="038A"/>
-	<advance width="1746"/>
+	<advance width="980"/>
 	<outline>
-		<component base="Iota" xOffset="633"/>
-		<component base="tonos.case" xOffset="-131"/>
+		<component base="I" xOffset="-133"/>
+		<component base="tonoscomb.case" xOffset="14" yOffset="1500"/>
 	</outline>
 </glyph>

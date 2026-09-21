@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhornhookabove" format="2">
 	<unicode hex="1EEC"/>
-	<advance width="1314"/>
+	<advance width="1254"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="hookabovecomb.case" xOffset="202" yOffset="-6"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="1216"/>
+		<component base="hookabovecomb.case" xOffset="819.0000000001"/>
 	</outline>
 </glyph>
