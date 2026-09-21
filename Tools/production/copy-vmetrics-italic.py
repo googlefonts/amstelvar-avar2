@@ -6,7 +6,7 @@ familyName    = 'AmstelvarA2'
 srcSubFamily  = 'Roman'
 dstSubFamily  = 'Italic'
 defaultName   = 'wght400'
-preflight     = True
+preflight     = False
 
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 srcFontPath   = os.path.join(baseFolder, 'Sources', srcSubFamily, f'{familyName}-{srcSubFamily}_{defaultName}.ufo')
@@ -22,6 +22,7 @@ for attr in ['capHeight', 'xHeight', 'unitsPerEm', 'descender', 'ascender']:
     dstValue = getattr(dstFont.info, attr)
     if dstValue != srcValue:
         print(f'\tcopying {attr}: {srcValue} -> {dstValue}')
+        setattr(dstFont.info, attr, srcValue)
 
 if not preflight:
     print(f"\n\tsaving Italic font...")
