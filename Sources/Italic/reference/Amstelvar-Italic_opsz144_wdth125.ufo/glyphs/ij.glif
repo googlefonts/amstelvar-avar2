@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="2">
 	<unicode hex="0133"/>
-	<advance width="1191"/>
+	<advance width="1289"/>
 	<outline>
-		<component base="i"/>
-		<component base="j" xOffset="577"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="133"/>
+		<component base="jdotless" xOffset="675"/>
+		<component base="idot" xOffset="838"/>
 	</outline>
 </glyph>

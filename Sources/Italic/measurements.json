@@ -841,11 +841,11 @@
         "direction": "x"
       },
       "C 3": {
-        "name": "YTFO",
+        "name": "YTOS",
         "direction": "y"
       },
       "B 9": {
-        "name": "YTFO",
+        "name": "YTOS",
         "direction": "y"
       }
     },
@@ -10035,7 +10035,44 @@
     },
     "cedi.rvrn": {},
     "five.lc": {},
-    "zero.lc": {},
+    "zero.lc": {
+      "0 12": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "18 6": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "21 3": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "9 15": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "12 18": {
+        "name": "XTFI",
+        "direction": "x"
+      },
+      "9 3": {
+        "name": "YTLC",
+        "direction": "y"
+      },
+      "-1 0": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "6 99": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "9 B": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
     "seven.lc": {},
     "peso.rvrn": {},
     "dong": {
@@ -10296,7 +10333,20 @@
     },
     "coloncurrency": {},
     "kip.rvrn": {},
-    "two.lc": {},
+    "two.lc": {
+      "7 20": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "13 14": {
+        "name": "YOFI",
+        "direction": "a"
+      },
+      "30 33": {
+        "name": "XOFI",
+        "direction": "y"
+      }
+    },
     "dollar.rvrn2": {},
     "three.lc": {},
     "florin": {
@@ -10413,7 +10463,32 @@
         "direction": "y"
       }
     },
-    "one.lc": {},
+    "one.lc": {
+      "4 13": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "6 7": {
+        "name": "YOFI",
+        "direction": "a"
+      },
+      "14 99": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "15 8": {
+        "name": "YTLC",
+        "direction": "y"
+      },
+      "6 3": {
+        "name": "XTFI",
+        "direction": "x"
+      },
+      "B 15": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
     "guarani.rvrn": {},
     "four.tab": {},
     "five.tab": {},
@@ -10425,7 +10500,56 @@
     "seven.lf": {},
     "five.lf": {},
     "three.tab": {},
-    "eight.lc": {},
+    "eight.lc": {
+      "34 15": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "40 9": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "6 43": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "18 31": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "28 34": {
+        "name": "XTFI",
+        "direction": "x"
+      },
+      "9 3": {
+        "name": "XTFI",
+        "direction": "x"
+      },
+      "3 46": {
+        "name": "YOFI",
+        "direction": "x"
+      },
+      "21 28": {
+        "name": "YOFI",
+        "direction": "x"
+      },
+      "15 99": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "-1 21": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "18 43": {
+        "name": "YTAS",
+        "direction": "y"
+      },
+      "B 18": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
     "six.lf": {},
     "two.lf": {},
     "three.lf": {},
@@ -10793,7 +10917,48 @@
     },
     "numero": {},
     "colonsign": {},
-    "six.lc": {},
+    "six.lc": {
+      "0 7": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "13 26": {
+        "name": "XOFI",
+        "direction": "x"
+      },
+      "29 10": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "16 23": {
+        "name": "YOFI",
+        "direction": "y"
+      },
+      "3 4": {
+        "name": "YOFI",
+        "direction": "a"
+      },
+      "7 13": {
+        "name": "XTFI",
+        "direction": "x"
+      },
+      "29 3": {
+        "name": "YTAS",
+        "direction": "y"
+      },
+      "-1 0": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "26 99": {
+        "name": "XFIR",
+        "direction": "x"
+      },
+      "B 29": {
+        "name": "YTOS",
+        "direction": "y"
+      }
+    },
     "backslash": {
       "2 3": {
         "name": "YOPQ",

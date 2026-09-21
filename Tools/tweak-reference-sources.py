@@ -4,46 +4,18 @@ from xTools4.modules.blendsPreview import instantiateGlyph
 
 folder = '/Users/gferreira/fontbureau/amstelvar-avar2'
 
-p = AmstelvarA2Controller(folder, 'AmstelvarA2', 'Roman')
+subFamily = ['Roman', 'Italic'][0]
 
-glyphNames = p.smartSets['figures']['oldstyle']
+p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
+
+glyphNames = p.smartSets['figures']['currency']
 
 preflight = True
 
 parametersTweak = {
-    "wght100": {
-      "XTFI": 430,
-    },
-    "wght100_wdth50": {
-      "XTFI": 286,
-    },
-    "wght1000": {
-      "XTFI": 268,
-    },
-    "opsz8": {
-      "XTFI": 355,
-    },
     "opsz8_wght100": {
-      "XTFI": 450,
+      "XTFI": 601,
     },
-    "opsz8_wght1000": {
-      "XTFI": 266,
-    },
-    "opsz8_wdth50": {
-      "XTFI": 185,
-    },
-    "opsz8_wdth125": {
-      "XTFI": 490,
-    },
-    "opsz144": {
-      "XTFI": 320,
-    },
-    "opsz144_wdth125": {
-      "XTFI": 490,
-    },
-    "opsz144_wght1000": {
-      "XTFI": 225,
-    }
 }
 
 operator = UFOOperator()
@@ -55,7 +27,7 @@ print(f'parametrically tweaking reference sources...')
 for styleName in parametersTweak.keys():
     print(f'\ttweaking {styleName}...')
     # open reference source
-    referenceSourceName = f'Amstelvar-Roman_{styleName}'
+    referenceSourceName = f'Amstelvar-{subFamily}_{styleName}'
     referenceSourcePath = p.referenceSourcesPaths.get(referenceSourceName)
     referenceSource = OpenFont(referenceSourcePath, showInterface=False)
     # get current blend parameters for this style

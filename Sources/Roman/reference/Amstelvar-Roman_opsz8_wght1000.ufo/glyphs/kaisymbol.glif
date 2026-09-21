@@ -3,7 +3,54 @@
 	<unicode hex="03D7"/>
 	<advance width="1628"/>
 	<outline>
-		<component base="kappa" xOffset="-8"/>
-		<component base="kai-tail"/>
+		<contour>
+			<point x="143" y="0" type="line"/>
+			<point x="104" y="27" type="line"/>
+			<point x="104" y="794" type="line"/>
+			<point x="96" y="1078" type="line"/>
+			<point x="603" y="1114" type="line"/>
+			<point x="641" y="1088" type="line"/>
+			<point x="634" y="794" type="line"/>
+			<point x="628" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="534" y="209" type="line"/>
+			<point x="534" y="574" type="line"/>
+			<point x="983" y="928" type="line" smooth="yes"/>
+			<point x="1098" y="1034"/>
+			<point x="1291" y="1114"/>
+			<point x="1462" y="1116" type="qcurve"/>
+			<point x="1501" y="1090" type="line"/>
+			<point x="1496" y="737" type="line"/>
+			<point x="1337" y="737"/>
+			<point x="1188" y="656"/>
+			<point x="1096" y="588" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="829" y="-581" type="qcurve" smooth="yes"/>
+			<point x="505" y="-581"/>
+			<point x="113" y="-369"/>
+			<point x="16" y="-225" type="qcurve"/>
+			<point x="166" y="-81" type="line"/>
+			<point x="256" y="-173"/>
+			<point x="573" y="-307"/>
+			<point x="775" y="-307" type="qcurve" smooth="yes"/>
+			<point x="939.1224935253" y="-307"/>
+			<point x="1239.6590088026" y="-170.7245861748"/>
+			<point x="1311.7194824219" y="-15.0566616058" type="qcurve"/>
+			<point x="1310" y="-15" type="line"/>
+			<point x="1173" y="-19"/>
+			<point x="1026" y="73"/>
+			<point x="955" y="180" type="qcurve" smooth="yes"/>
+			<point x="769" y="459" type="line"/>
+			<point x="1105" y="793" type="line"/>
+			<point x="1401" y="296" type="line" smooth="yes"/>
+			<point x="1426" y="254"/>
+			<point x="1465" y="236"/>
+			<point x="1502" y="237" type="qcurve" smooth="yes"/>
+			<point x="1701" y="241" type="line"/>
+			<point x="1716" y="-182"/>
+			<point x="1236" y="-581"/>
+		</contour>
 	</outline>
 </glyph>

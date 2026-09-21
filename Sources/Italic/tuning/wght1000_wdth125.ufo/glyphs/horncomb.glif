@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb" format="2">
+	<unicode hex="031B"/>
+	<outline>
+		<contour>
+			<point x="0" y="1050" type="line"/>
+			<point x="39" y="1048"/>
+			<point x="103.4782104492" y="1044"/>
+			<point x="170.4782104492" y="1044" type="qcurve" smooth="yes"/>
+			<point x="297.5514526367" y="1044"/>
+			<point x="361.5900878906" y="1129.3572998047"/>
+			<point x="358.6514282227" y="1195.8529663086" type="qcurve" smooth="yes"/>
+			<point x="355.5004272461" y="1244.5357055664"/>
+			<point x="356.94140625" y="1324.7352905273"/>
+			<point x="355.7650146484" y="1356" type="qcurve"/>
+			<point x="471.9860229492" y="1356" type="line"/>
+			<point x="483.6331176758" y="1323"/>
+			<point x="503.3939208984" y="1230"/>
+			<point x="506.2802124023" y="1168" type="qcurve" smooth="yes"/>
+			<point x="510.0906982422" y="1039"/>
+			<point x="350.0825805664" y="903.5883789062"/>
+			<point x="225.4782104492" y="903.5883789062" type="qcurve" smooth="yes"/>
+			<point x="112.4782104492" y="903.5883789062"/>
+			<point x="37.1176757812" y="924.5883789062"/>
+			<point x="-26.8823242188" y="941.5883789062" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="_topright" x="0" y="1000"/>
+	<anchor name="topright" x="50" y="1256"/>
+</glyph>

@@ -8,12 +8,12 @@
 		<array>
 			<string>space</string>
 			<string>exclam</string>
+			<string>quotesingle</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
-			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
@@ -111,7 +111,6 @@
 			<string>dieresis</string>
 			<string>copyright</string>
 			<string>ordfeminine</string>
-			<string>guillemotleft</string>
 			<string>logicalnot</string>
 			<string>registered</string>
 			<string>macron</string>
@@ -126,7 +125,6 @@
 			<string>cedilla</string>
 			<string>onesuperior</string>
 			<string>ordmasculine</string>
-			<string>guillemotright</string>
 			<string>onequarter</string>
 			<string>onehalf</string>
 			<string>threequarters</string>
@@ -156,7 +154,6 @@
 			<string>Odieresis</string>
 			<string>multiply</string>
 			<string>Oslash</string>
-			<string>OE</string>
 			<string>Ugrave</string>
 			<string>Uacute</string>
 			<string>Ucircumflex</string>
@@ -189,7 +186,6 @@
 			<string>odieresis</string>
 			<string>divide</string>
 			<string>oslash</string>
-			<string>oe</string>
 			<string>ugrave</string>
 			<string>uacute</string>
 			<string>ucircumflex</string>
@@ -208,6 +204,10 @@
 			<string>quoteleft</string>
 			<string>quoteright</string>
 			<string>minus</string>
+			<string>guillemotleft</string>
+			<string>guillemotright</string>
+			<string>OE</string>
+			<string>oe</string>
 			<string>.null</string>
 			<string>CR</string>
 			<string>nbspace</string>
@@ -1020,24 +1020,24 @@
 			<string>omega</string>
 			<string>omegatonos</string>
 			<string>kaisymbol</string>
+			<string>Cy-descendercomb.case</string>
+			<string>Ha-stroke</string>
 			<string>Obarcyr-stroke</string>
 			<string>U-stroke</string>
-			<string>Ha-stroke</string>
-			<string>obarcyr-stroke</string>
-			<string>Cy-descendercomb.case</string>
-			<string>cy-descendercomb</string>
-			<string>yu-i</string>
-			<string>Engtail</string>
-			<string>diagonalbarL</string>
-			<string>caroncomb-alt.case</string>
-			<string>periodcentered-loclCAT.case</string>
+			<string>Yi-dieresis.case</string>
 			<string>breveinvertedcomb.stack</string>
-			<string>enspace</string>
-			<string>thinspace</string>
+			<string>cy-descendercomb</string>
 			<string>descender-cy</string>
 			<string>descenderinverted-cy</string>
+			<string>diagonalbarL</string>
+			<string>enspace</string>
+			<string>obarcyr-stroke</string>
+			<string>thinspace</string>
+			<string>yu-i</string>
 			<string>yu-l.bgr</string>
-			<string>Yi-dieresis.case</string>
+			<string>Engtail</string>
+			<string>caroncomb-alt.case</string>
+			<string>periodcentered-loclCAT.case</string>
 			<string>threequartersemdash</string>
 			<string>figuredash</string>
 			<string>Cy-descendercombdiagonal.case</string>

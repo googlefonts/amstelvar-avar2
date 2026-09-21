@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJacute" format="2">
-	<advance width="1916"/>
+	<advance width="1926"/>
 	<outline>
-		<component base="IJ"/>
-		<component base="acutecomb.case" xOffset="997" yOffset="45"/>
+		<component base="I"/>
+		<component base="J" xOffset="997"/>
+		<component base="acutecomb.case" xOffset="1614"/>
 	</outline>
 </glyph>
