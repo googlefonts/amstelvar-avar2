@@ -2,8 +2,9 @@
 <glyph name="ijacute" format="2">
 	<advance width="916"/>
 	<outline>
-		<component base="acutecomb" xOffset="80" yOffset="105"/>
-		<component base="i"/>
-		<component base="jdotless" xOffset="448"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="41"/>
+		<component base="jdotless" xOffset="447"/>
+		<component base="acutecomb" xOffset="725"/>
 	</outline>
 </glyph>

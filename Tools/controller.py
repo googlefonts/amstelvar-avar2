@@ -418,7 +418,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -426,10 +426,10 @@ if __name__ == '__main__':
 
     referenceSource = os.path.join(p.referenceSourcesFolder, 'deprecated', f'Amstelvar-{subFamily}_wght400.ufo')
 
-    # glyphNames = ['eng']
-    # glyphNames = 'dollar cent guarani colonsign cedi peso won kip naira'.split()
+    # glyphNames = ['eight.lc']
+    # glyphNames = 'lessequal greaterequal'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['currency']
+    # glyphNames = p.smartSets['figures']['oldstyle']
     # glyphNames = p.smartSets['uppercase']['latin'] + p.smartSets['lowercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # print(glyphNames)
@@ -441,15 +441,15 @@ if __name__ == '__main__':
     #     p.splitSources(src, dst, glyphNames, preflight=False)
 
     # --- copy from default ---
-    # p.updateGlyphsFromDefault(['cent'], 'XDOT23', preflight=False, parametric=True, tuning=False)
+    # p.updateGlyphsFromDefault(['eight.lc'], 'WDSP0', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
-    # p.copyGlyphOrderFromDefault()
+    # p.copyGlyphOrderFromDefault(parametric=True, tuning=False, reference=False, preflight=False, trim=True)
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs(glyphNames, preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -470,8 +470,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, referenceSource, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    # p.cleanupSources(parametric=False, tuning=False, reference=True)
-    # p.normalizeSources(parametric=False, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -485,7 +485,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb.case" format="2">
-  <anchor x="-194" y="0" name="_bottom"/>
-  <anchor x="-278" y="-430" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="-184.49786376953125" y="-356.00689697265625" type="qcurve" smooth="yes"/>
-      <point x="-184.49786376953125" y="-312.7359619140625"/>
-      <point x="-116.27093505859375" y="-254.509033203125"/>
-      <point x="-66.0" y="-254.509033203125" type="qcurve" smooth="yes"/>
-      <point x="-9.3934326171875" y="-254.509033203125"/>
-      <point x="52.49786376953125" y="-316.4952392578125"/>
-      <point x="52.49786376953125" y="-368.00689697265625" type="qcurve" smooth="yes"/>
-      <point x="52.49786376953125" y="-414.0880126953125"/>
-      <point x="-18.72906494140625" y="-470.31494140625"/>
-      <point x="-66.0" y="-470.31494140625" type="qcurve" smooth="yes"/>
-      <point x="-119.6065673828125" y="-470.31494140625"/>
-      <point x="-184.49786376953125" y="-407.42364501953125"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-184.4978637695" y="-356.0068969727" type="qcurve" smooth="yes"/>
+			<point x="-184.4978637695" y="-312.7359619141"/>
+			<point x="-116.2709350586" y="-254.5090332031"/>
+			<point x="-66" y="-254.5090332031" type="qcurve" smooth="yes"/>
+			<point x="-9.3934326172" y="-254.5090332031"/>
+			<point x="52.4978637695" y="-316.4952392578"/>
+			<point x="52.4978637695" y="-368.0068969727" type="qcurve" smooth="yes"/>
+			<point x="52.4978637695" y="-414.0880126953"/>
+			<point x="-18.7290649414" y="-470.3149414062"/>
+			<point x="-66" y="-470.3149414062" type="qcurve" smooth="yes"/>
+			<point x="-119.6065673828" y="-470.3149414062"/>
+			<point x="-184.4978637695" y="-407.4236450195"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="-194" y="0"/>
+	<anchor name="bottom" x="-278" y="-430"/>
 </glyph>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorngrave" format="2">
 	<unicode hex="1EEA"/>
-	<advance width="1909"/>
+	<advance width="1670"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="gravecomb.case" xOffset="466" yOffset="99"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="1659.9999999997"/>
+		<component base="gravecomb.case" xOffset="1021.0000000001"/>
 	</outline>
 </glyph>

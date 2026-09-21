@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lj" format="2">
 	<unicode hex="01C8"/>
-	<advance width="1204"/>
+	<advance width="1220"/>
 	<outline>
 		<component base="L"/>
-		<component base="j" xOffset="798"/>
+		<component base="jdotless" xOffset="798"/>
+		<component base="idot" xOffset="880"/>
 	</outline>
 </glyph>
