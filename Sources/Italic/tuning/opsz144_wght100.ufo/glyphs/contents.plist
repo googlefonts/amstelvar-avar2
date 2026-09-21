@@ -70,6 +70,12 @@
 		<string>C_circumflex.glif</string>
 		<key>Cdotaccent</key>
 		<string>C_dotaccent.glif</string>
+		<key>Chedescender-cy</key>
+		<string>C_hedescender-cy.glif</string>
+		<key>Cy-descendercomb.case</key>
+		<string>C_y-descendercomb.case.glif</string>
+		<key>Cy-descendercombdiagonal.case</key>
+		<string>C_y-descendercombdiagonal.case.glif</string>
 		<key>D</key>
 		<string>D_.glif</string>
 		<key>DZcaron</key>
@@ -78,6 +84,10 @@
 		<string>D_caron.glif</string>
 		<key>Dcroat</key>
 		<string>D_croat.glif</string>
+		<key>Dzhe</key>
+		<string>D_zhe.glif</string>
+		<key>Dzhe-descendercomb.case</key>
+		<string>D_zhe-descendercomb.case.glif</string>
 		<key>E</key>
 		<string>E_.glif</string>
 		<key>Eacute</key>
@@ -114,6 +124,8 @@
 		<string>E_invertedbreve.glif</string>
 		<key>Emacron</key>
 		<string>E_macron.glif</string>
+		<key>Endescender</key>
+		<string>E_ndescender.glif</string>
 		<key>Eng</key>
 		<string>E_ng.glif</string>
 		<key>Engtail</key>
@@ -144,6 +156,8 @@
 		<string>G_ermandbls.glif</string>
 		<key>H</key>
 		<string>H_.glif</string>
+		<key>Hadescender</key>
+		<string>H_adescender.glif</string>
 		<key>Hbar</key>
 		<string>H_bar.glif</string>
 		<key>Hcircumflex</key>
@@ -190,6 +204,8 @@
 		<string>J_circumflex.glif</string>
 		<key>K</key>
 		<string>K_.glif</string>
+		<key>Kadescender</key>
+		<string>K_adescender.glif</string>
 		<key>Kcommaaccent</key>
 		<string>K_commaaccent.glif</string>
 		<key>L</key>
@@ -312,6 +328,8 @@
 		<string>S_circumflex.glif</string>
 		<key>Scommaaccent</key>
 		<string>S_commaaccent.glif</string>
+		<key>Shcha</key>
+		<string>S_hcha.glif</string>
 		<key>T</key>
 		<string>T_.glif</string>
 		<key>Tbar</key>
@@ -322,8 +340,14 @@
 		<string>T_cedilla.glif</string>
 		<key>Tcommaaccent</key>
 		<string>T_commaaccent.glif</string>
+		<key>Tedescender-cy</key>
+		<string>T_edescender-cy.glif</string>
 		<key>Thorn</key>
 		<string>T_horn.glif</string>
+		<key>Tse</key>
+		<string>T_se.glif</string>
+		<key>TseDzhe-base.case</key>
+		<string>T_seD_zhe-base.case.glif</string>
 		<key>U</key>
 		<string>U_.glif</string>
 		<key>Uacute</key>
@@ -406,6 +430,8 @@
 		<string>Z_caron.glif</string>
 		<key>Zdotaccent</key>
 		<string>Z_dotaccent.glif</string>
+		<key>Zhedescender</key>
+		<string>Z_hedescender.glif</string>
 		<key>a</key>
 		<string>a.glif</string>
 		<key>aacute</key>
@@ -548,6 +574,8 @@
 		<string>cedillacomb.case.glif</string>
 		<key>cent</key>
 		<string>cent.glif</string>
+		<key>chedescender-cy</key>
+		<string>chedescender-cy.glif</string>
 		<key>circumflex</key>
 		<string>circumflex.glif</string>
 		<key>circumflexcomb</key>
@@ -574,6 +602,8 @@
 		<string>copyright.glif</string>
 		<key>currency</key>
 		<string>currency.glif</string>
+		<key>cy-descendercomb</key>
+		<string>cy-descendercomb.glif</string>
 		<key>d</key>
 		<string>d.glif</string>
 		<key>dagger</key>
@@ -630,6 +660,8 @@
 		<string>dotbelowcomb.case.glif</string>
 		<key>dzcaron</key>
 		<string>dzcaron.glif</string>
+		<key>dzhe</key>
+		<string>dzhe.glif</string>
 		<key>e</key>
 		<string>e.glif</string>
 		<key>eacute</key>
@@ -676,6 +708,8 @@
 		<string>emdash.glif</string>
 		<key>endash</key>
 		<string>endash.glif</string>
+		<key>endescender</key>
+		<string>endescender.glif</string>
 		<key>eng</key>
 		<string>eng.glif</string>
 		<key>engn</key>
@@ -762,6 +796,8 @@
 		<string>guilsinglright.glif</string>
 		<key>h</key>
 		<string>h.glif</string>
+		<key>hadescender</key>
+		<string>hadescender.glif</string>
 		<key>hbar</key>
 		<string>hbar.glif</string>
 		<key>hcircumflex</key>
@@ -842,6 +878,8 @@
 		<string>jdotless.glif</string>
 		<key>k</key>
 		<string>k.glif</string>
+		<key>kadescender</key>
+		<string>kadescender.glif</string>
 		<key>kcommaaccent</key>
 		<string>kcommaaccent.glif</string>
 		<key>kgreenlandic</key>
@@ -1098,6 +1136,10 @@
 		<string>seven.glif</string>
 		<key>seven.lc</key>
 		<string>seven.lc.glif</string>
+		<key>shcha</key>
+		<string>shcha.glif</string>
+		<key>shcha.bgr</key>
+		<string>shcha.bgr.glif</string>
 		<key>six</key>
 		<string>six.glif</string>
 		<key>six.lc</key>
@@ -1118,6 +1160,8 @@
 		<string>tcedilla.glif</string>
 		<key>tcommaaccent</key>
 		<string>tcommaaccent.glif</string>
+		<key>tedescender-cy</key>
+		<string>tedescender-cy.glif</string>
 		<key>tenge</key>
 		<string>tenge.glif</string>
 		<key>thorn</key>
@@ -1142,6 +1186,10 @@
 		<string>tildecomb.case.glif</string>
 		<key>trademark</key>
 		<string>trademark.glif</string>
+		<key>tse</key>
+		<string>tse.glif</string>
+		<key>tse.bgr</key>
+		<string>tse.bgr.glif</string>
 		<key>two</key>
 		<string>two.glif</string>
 		<key>two.lc</key>
@@ -1242,5 +1290,9 @@
 		<string>zero.lc.glif</string>
 		<key>zerosuperior</key>
 		<string>zerosuperior.glif</string>
+		<key>zhe-descendercomb</key>
+		<string>zhe-descendercomb.glif</string>
+		<key>zhedescender</key>
+		<string>zhedescender.glif</string>
 	</dict>
 </plist>
