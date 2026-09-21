@@ -1,6 +1,8 @@
 import os, glob
 
-sourcesFolder = '/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Roman/tuning'
+subFamily     = ['Roman', 'Italic'][1]
+baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
+sourcesFolder = os.path.join(baseFolder, 'Sources', subFamily, 'tuning')
 
 sources = glob.glob(f'{sourcesFolder}/*.ufo')
 

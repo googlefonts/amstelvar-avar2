@@ -327,7 +327,7 @@ ecaron = e + caroncomb@top | 0x11b
 ecircumflex = e + circumflexcomb@top | 0xea
 ecircumflexacute = e + circumflexcomb-stack@top + acutecomb-stack@topright | 0x1ebf
 ecircumflexdotbelow = e + circumflexcomb@top + dotbelowcomb@e:bottom | 0x1ec7
-ecircumflexgrave = e + circumflexcomb-stack@top + gravecomb-stack@topright | 0x1ec1
+ecircumflexgrave = e + circumflexcomb-stack@top + gravecomb-stack@topleft | 0x1ec1
 ecircumflexhookabove = e + circumflexcomb-stack@top + hookabovecomb-stack@topright | 0x1ec3
 ecircumflextilde = e + circumflexcomb-stack@top + tildecomb-stack@top | 0x1ec5
 edblgrave = e + dblgravecomb@top | 0x205
@@ -390,7 +390,7 @@ obreve = o + brevecomb@top | 0x14f
 ocircumflex = o + circumflexcomb@top | 0xf4
 ocircumflexacute = o + circumflexcomb-stack@top + acutecomb-stack@topright | 0x1ed1
 ocircumflexdotbelow = o + circumflexcomb@top + dotbelowcomb@o:bottom | 0x1ed9
-ocircumflexgrave = o + circumflexcomb-stack@top + gravecomb-stack@topright | 0x1ed3
+ocircumflexgrave = o + circumflexcomb-stack@top + gravecomb-stack@topleft | 0x1ed3
 ocircumflexhookabove = o + circumflexcomb-stack@top + hookabovecomb-stack@topright | 0x1ed5
 ocircumflextilde = o + circumflexcomb-stack@top + tildecomb-stack@top | 0x1ed7
 odblgrave = o + dblgravecomb@top | 0x20d
@@ -601,7 +601,7 @@ lj = l + jdotless@liga + idot@top ^ l,j | 0x1c9
 
 NJ = N + J@liga ^ N,J | 0x1ca
 Nj = N + jdotless@liga + idot@top ^ N,j | 0x1cb
-nj = n + jdotless@liga + idot@top ^ n,j| 0x1cc
+nj = n + jdotless@liga + idot@top ^ n,j | 0x1cc
 
 # -------------------
 #  L I G A T U R E S

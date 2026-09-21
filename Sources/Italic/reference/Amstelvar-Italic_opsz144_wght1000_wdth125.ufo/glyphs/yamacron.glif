@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yamacron" format="2">
 	<unicode hex="F529"/>
-	<advance width="1809"/>
+	<advance width="1819"/>
 	<outline>
-		<component base="ya" xOffset="-10"/>
-		<component base="macron" xOffset="427"/>
+		<component base="ya"/>
+		<component base="macroncomb" xOffset="193.2140272829" yOffset="24"/>
 	</outline>
 </glyph>
