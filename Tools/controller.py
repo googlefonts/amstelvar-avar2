@@ -418,7 +418,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -436,7 +436,7 @@ if __name__ == '__main__':
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNames, preflight=False)
 
@@ -455,11 +455,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True # also used to direct BlendsPreview proof to its folder
-    # p.useLongAxisNames = True # keep it disabled during development!
-    # p.buildDesignspace(instances=True, parentParametric=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True # also used to direct BlendsPreview proof to its folder
+    p.useLongAxisNames = True # keep it disabled during development!
+    p.buildDesignspace(instances=True, parentParametric=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -482,10 +482,10 @@ if __name__ == '__main__':
     # p.proofGlyphMemes(glyphNames, anchors=True)
     # p.proofBlends(glyphNames, margins=True, labels=True, levels=False, levelsShow=[1,2,3,4], header=True, footer=True, points=False)
     # p.proofTuning(glyphNames, referenceSource, levels=[1,2,3])
-    p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
+    # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=True, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
