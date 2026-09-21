@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tse" format="2">
 	<unicode hex="0446"/>
-	<advance width="2110"/>
+	<advance width="2036"/>
 	<outline>
-		<contour>
-			<point x="230" y="500" type="line"/>
-			<point x="228" y="885" type="line"/>
-			<point x="80" y="920" type="line"/>
-			<point x="80" y="1000" type="line"/>
-			<point x="952" y="1000" type="line"/>
-			<point x="952" y="920" type="line"/>
-			<point x="814" y="885" type="line"/>
-			<point x="812" y="500" type="line"/>
-			<point x="814" y="105" type="line"/>
-			<point x="1284" y="105" type="line"/>
-			<point x="1286" y="500" type="line"/>
-			<point x="1284" y="885" type="line"/>
-			<point x="1146" y="920" type="line"/>
-			<point x="1146" y="1000" type="line"/>
-			<point x="2017" y="1000" type="line"/>
-			<point x="2017" y="920" type="line"/>
-			<point x="1869" y="885" type="line"/>
-			<point x="1867" y="500" type="line"/>
-			<point x="1870" y="105" type="line"/>
-			<point x="2030" y="105" type="line"/>
-			<point x="2040" y="-318" type="line"/>
-			<point x="1948" y="-318" type="line"/>
-			<point x="1859" y="0" type="line"/>
-			<point x="80" y="0" type="line"/>
-			<point x="80" y="80" type="line"/>
-			<point x="228" y="115" type="line"/>
-		</contour>
+		<component base="tsedzhe-base"/>
+		<component base="cy-descendercomb" xOffset="1096"/>
 	</outline>
 </glyph>
