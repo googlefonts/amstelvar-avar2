@@ -4,19 +4,17 @@
 	<advance width="1574"/>
 	<outline>
 		<contour>
-			<point x="696" y="-30" type="qcurve"/>
+			<point x="696" y="-30" type="qcurve" smooth="yes"/>
 			<point x="314" y="-30"/>
 			<point x="-54" y="133"/>
 			<point x="-54" y="256" type="qcurve" smooth="yes"/>
-			<point x="-54" y="412"/>
-			<point x="381" y="551"/>
-			<point x="993" y="627" type="qcurve"/>
-			<point x="1033" y="578" type="line"/>
-			<point x="1001" y="480" type="line"/>
-			<point x="895" y="364" type="line"/>
-			<point x="490" y="436"/>
-			<point x="109" y="598"/>
-			<point x="109" y="732" type="qcurve"/>
+			<point x="-54" y="360"/>
+			<point x="125" y="481"/>
+			<point x="299" y="517" type="qcurve"/>
+			<point x="299" y="518" type="line"/>
+			<point x="224" y="547"/>
+			<point x="109" y="654"/>
+			<point x="109" y="732" type="qcurve" smooth="yes"/>
 			<point x="109" y="906"/>
 			<point x="579" y="1072"/>
 			<point x="923" y="1072" type="qcurve" smooth="yes"/>
@@ -33,14 +31,17 @@
 			<point x="982" y="902" type="qcurve" smooth="yes"/>
 			<point x="775" y="902"/>
 			<point x="546" y="804"/>
-			<point x="546" y="683" type="qcurve"/>
-			<point x="546" y="618"/>
-			<point x="653" y="537"/>
-			<point x="732" y="518" type="qcurve"/>
-			<point x="726" y="484" type="line"/>
-			<point x="610" y="487"/>
-			<point x="466" y="405"/>
-			<point x="466" y="324" type="qcurve"/>
+			<point x="546" y="683" type="qcurve" smooth="yes"/>
+			<point x="546" y="647.9743293876"/>
+			<point x="577.137032947" y="593.4632406203"/>
+			<point x="605.0940551758" y="573.3740844727" type="qcurve"/>
+			<point x="993" y="627" type="line"/>
+			<point x="1033" y="578" type="line"/>
+			<point x="895" y="364" type="line"/>
+			<point x="530.6751708984" y="441.6079711914" type="line"/>
+			<point x="498.7218805821" y="421.1048599018"/>
+			<point x="466" y="361.9878902432"/>
+			<point x="466" y="324" type="qcurve" smooth="yes"/>
 			<point x="466" y="247"/>
 			<point x="657" y="152"/>
 			<point x="834" y="152" type="qcurve" smooth="yes"/>
