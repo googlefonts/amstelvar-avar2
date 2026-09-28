@@ -2,4 +2,8 @@
 <glyph name="hastroke-cy" format="2">
 	<unicode hex="04FF"/>
 	<advance width="1319"/>
+	<outline>
+		<component base="x"/>
+		<component base="ha-stroke" xOffset="15"/>
+	</outline>
 </glyph>

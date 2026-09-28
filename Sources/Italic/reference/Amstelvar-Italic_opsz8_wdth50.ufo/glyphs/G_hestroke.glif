@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ghestroke" format="2">
 	<unicode hex="0492"/>
-	<advance width="1000"/>
+	<advance width="1023"/>
 	<outline>
-		<component base="Ghe" xOffset="4"/>
-		<component base="horizontalbar" xOffset="-72" yOffset="-32"/>
+		<component base="Gamma"/>
+		<component base="horizontalbar" xOffset="-127" yOffset="-63"/>
 	</outline>
 </glyph>

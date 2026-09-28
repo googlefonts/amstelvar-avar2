@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu.bgr" format="2">
-	<advance width="2571"/>
+	<advance width="2649"/>
+	<outline>
+		<component base="yu-l.bgr"/>
+		<component base="yu.bgr-stroke" xOffset="336" yOffset="-29"/>
+		<component base="o" xOffset="838" yOffset="-14"/>
+	</outline>
 </glyph>
