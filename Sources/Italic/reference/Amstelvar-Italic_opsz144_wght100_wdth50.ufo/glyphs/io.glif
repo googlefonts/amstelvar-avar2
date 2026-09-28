@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="io" format="2">
-	<advance width="530"/>
+	<unicode hex="0451"/>
+	<advance width="520"/>
 	<outline>
-		<component base="edieresis"/>
+		<component base="e"/>
+		<component base="dieresiscomb" xOffset="361"/>
 	</outline>
 </glyph>
