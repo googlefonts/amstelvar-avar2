@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu.bgr-stroke" format="2">
-	<advance width="500"/>
+	<advance width="412"/>
+	<outline>
+		<contour>
+			<point x="50" y="536" type="line"/>
+			<point x="362" y="533" type="line"/>
+			<point x="362" y="478" type="line"/>
+			<point x="50" y="476" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_yu_dash" x="50" y="500"/>
+	<anchor name="yu_dash" x="362" y="500"/>
 </glyph>
