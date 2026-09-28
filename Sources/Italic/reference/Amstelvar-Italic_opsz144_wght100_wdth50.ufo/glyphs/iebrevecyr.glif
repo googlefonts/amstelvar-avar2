@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iebrevecyr" format="2">
 	<unicode hex="04D7"/>
-	<advance width="530"/>
+	<advance width="520"/>
 	<outline>
-		<component base="ie"/>
-		<component base="breve.cyr" xOffset="-96"/>
+		<component base="e"/>
+		<component base="breve.cyrcomb" xOffset="361" yOffset="-80"/>
 	</outline>
 </glyph>
