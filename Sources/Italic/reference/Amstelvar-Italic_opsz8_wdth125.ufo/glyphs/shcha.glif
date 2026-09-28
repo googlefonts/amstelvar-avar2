@@ -2,4 +2,8 @@
 <glyph name="shcha" format="2">
 	<unicode hex="0449"/>
 	<advance width="2522"/>
+	<outline>
+		<component base="sha"/>
+		<component base="cy-descendercomb" xOffset="1546"/>
+	</outline>
 </glyph>

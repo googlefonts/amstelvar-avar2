@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhedescender" format="2">
 	<unicode hex="0497"/>
-	<advance width="949"/>
+	<advance width="901"/>
 	<outline>
 		<component base="zhe"/>
-		<component base="cy-descendercomb" xOffset="271" yOffset="-4"/>
+		<component base="cy-descendercomb.diagonal" xOffset="310"/>
 	</outline>
 </glyph>

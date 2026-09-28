@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kadescender" format="2">
 	<unicode hex="049B"/>
-	<advance width="679"/>
+	<advance width="631"/>
 	<outline>
 		<component base="ka"/>
-		<component base="cy-descendercomb" xOffset="1" yOffset="-4"/>
+		<component base="cy-descendercomb.diagonal" xOffset="40"/>
 	</outline>
 </glyph>

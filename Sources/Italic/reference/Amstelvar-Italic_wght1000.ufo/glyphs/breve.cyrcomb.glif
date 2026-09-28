@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve.cyrcomb" format="2">
+	<outline>
+		<contour>
+			<point x="265" y="1498" type="qcurve"/>
+			<point x="429" y="1391" type="line"/>
+			<point x="366" y="1258"/>
+			<point x="167" y="1153"/>
+			<point x="44" y="1153" type="qcurve" smooth="yes"/>
+			<point x="-77" y="1153"/>
+			<point x="-246" y="1266"/>
+			<point x="-282" y="1393" type="qcurve"/>
+			<point x="-116" y="1500" type="line"/>
+			<point x="-99" y="1394"/>
+			<point x="-14" y="1276"/>
+			<point x="62" y="1276" type="qcurve" smooth="yes"/>
+			<point x="134" y="1276"/>
+			<point x="235" y="1399"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1000"/>
+	<anchor name="top" x="91" y="1464"/>
 </glyph>

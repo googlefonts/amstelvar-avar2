@@ -2,4 +2,8 @@
 <glyph name="kadescender" format="2">
 	<unicode hex="049B"/>
 	<advance width="1645"/>
+	<outline>
+		<component base="ka"/>
+		<component base="cy-descendercomb" xOffset="562" yOffset="1"/>
+	</outline>
 </glyph>

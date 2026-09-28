@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dzhe" format="2">
 	<unicode hex="045F"/>
-	<advance width="1648"/>
+	<advance width="1644"/>
 	<outline>
-		<contour>
-			<point x="954" y="0" type="line"/>
-			<point x="900" y="-318" type="line"/>
-			<point x="748" y="-318" type="line"/>
-			<point x="694" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="185" y="525" type="line"/>
-			<point x="183" y="895" type="line"/>
-			<point x="35" y="930" type="line"/>
-			<point x="35" y="1050" type="line"/>
-			<point x="779" y="1050" type="line"/>
-			<point x="779" y="930" type="line"/>
-			<point x="667" y="895" type="line"/>
-			<point x="664" y="525" type="line"/>
-			<point x="667" y="161" type="line"/>
-			<point x="981" y="161" type="line"/>
-			<point x="984" y="525" type="line"/>
-			<point x="981" y="895" type="line"/>
-			<point x="869" y="930" type="line"/>
-			<point x="869" y="1050" type="line"/>
-			<point x="1613" y="1050" type="line"/>
-			<point x="1613" y="930" type="line"/>
-			<point x="1465" y="895" type="line"/>
-			<point x="1463" y="525" type="line"/>
-			<point x="1465" y="155" type="line"/>
-			<point x="1613" y="120" type="line"/>
-			<point x="1613" y="0" type="line"/>
-			<point x="35" y="0" type="line"/>
-			<point x="35" y="120" type="line"/>
-			<point x="183" y="155" type="line"/>
-		</contour>
+		<component base="tsedzhe-base"/>
+		<component base="dzhe-descendercomb" xOffset="672"/>
 	</outline>
 </glyph>

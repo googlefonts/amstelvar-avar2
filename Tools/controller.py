@@ -478,11 +478,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True # also used to direct BlendsPreview proof to its folder
-    # p.useLongAxisNames = False # keep it disabled during development!
-    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True # also used to direct BlendsPreview proof to its folder
+    p.useLongAxisNames = True # keep it disabled during development!
+    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -493,8 +493,8 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
