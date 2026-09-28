@@ -1,4 +1,4 @@
-# menuTitle: copy veritcal metrics from Roman default to Italic default
+# menuTitle: copy vertical metrics from Roman default to Italic default
 
 import os, glob
 

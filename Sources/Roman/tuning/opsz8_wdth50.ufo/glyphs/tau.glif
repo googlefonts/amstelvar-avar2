@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tau" format="2">
 	<unicode hex="03C4"/>
-	<advance width="939"/>
+	<advance width="993"/>
 	<outline>
 		<contour>
-			<point x="26" y="850" type="line"/>
-			<point x="26" y="930" type="line"/>
-			<point x="172" y="1000" type="line"/>
-			<point x="851" y="1010" type="line"/>
-			<point x="876" y="974" type="line"/>
-			<point x="862" y="832" type="line"/>
+			<point x="52.4077148438" y="874.4743041992" type="line"/>
+			<point x="52.4077148438" y="931.4672851562" type="line"/>
+			<point x="149.4077148438" y="981.4672851562" type="line"/>
+			<point x="903.6845703125" y="1009.4672851562" type="line"/>
+			<point x="929.6845703125" y="992.4672851562" type="line"/>
+			<point x="912.6845703125" y="839.9564819336" type="line"/>
 		</contour>
 		<contour>
-			<point x="516" y="-8" type="line"/>
-			<point x="439" y="-7"/>
-			<point x="338" y="98"/>
-			<point x="345" y="230" type="qcurve" smooth="yes"/>
-			<point x="381" y="917" type="line"/>
-			<point x="503" y="917" type="line"/>
-			<point x="514" y="265" type="line" smooth="yes"/>
-			<point x="516" y="176"/>
-			<point x="574" y="109"/>
-			<point x="624" y="109" type="qcurve"/>
-			<point x="763" y="109" type="line"/>
-			<point x="763" y="29" type="line"/>
+			<point x="495.2446289062" y="-10" type="line"/>
+			<point x="441.1011962891" y="-7"/>
+			<point x="350.9932861328" y="64"/>
+			<point x="354.5319824219" y="139" type="qcurve" smooth="yes"/>
+			<point x="388.2254638672" y="909.4672851562" type="line"/>
+			<point x="522.7646484375" y="909.4672851562" type="line"/>
+			<point x="536.4581298828" y="171.994140625" type="line" smooth="yes"/>
+			<point x="537.8002929688" y="122.1195678711"/>
+			<point x="570.0302734375" y="71.79296875"/>
+			<point x="609.0302734375" y="73.79296875" type="qcurve"/>
+			<point x="835.9310302734" y="79.79296875" type="line"/>
+			<point x="835.9310302734" y="39" type="line"/>
 		</contour>
 	</outline>
 </glyph>

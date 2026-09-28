@@ -753,3 +753,13 @@ softhyphen = hyphen | 0x00AD
 
 increment = Delta | 0x2206
 ohm = Omega | 0x2126
+
+# ---------------------------
+#  S U B S T I T U T I O N S
+# ---------------------------
+
+Oslash.rvrn = O + diagonalbarO.rvrn@center | None
+Oslashacute.rvrn = O + diagonalbarO.rvrn@center + acutecomb.case@O:top | None
+
+oslash.rvrn = o + diagonalbaro.rvrn@center | None
+oslashacute.rvrn = o + diagonalbaro.rvrn@center + acutecomb@o:top | None

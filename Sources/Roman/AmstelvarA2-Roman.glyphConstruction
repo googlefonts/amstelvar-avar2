@@ -128,7 +128,6 @@ Ohungarumlaut = O + hungarumlautcomb.case@top | 0x150
 Oinvertedbreve = O + breveinvertedcomb.case@top | 0x20e
 Omacron = O + macroncomb.case@top | 0x14c
 Oogonek = O + ogonekcomb.case@ogonek | 0x1ea
-Oslash.rvrn = O + diagonalbarO.rvrn@center | None
 Oslash = O + diagonalbarO@center | 0xd8
 Oslashacute = O + diagonalbarO@center + acutecomb.case@O:top | 0x1fe
 Otilde = O + tildecomb.case@top | 0xd5
@@ -413,7 +412,6 @@ oinvertedbreve = o + breveinvertedcomb@top | 0x20f
 omacron = o + macroncomb@top | 0x14d
 oogonek = o + ogonekcomb@ogonek | 0x1eb
 oslash = o + diagonalbaro@center | 0xf8
-oslash.rvrn = o + diagonalbaro.rvrn@center | None
 oslashacute = o + diagonalbaro@center + acutecomb@o:top | 0x1ff
 otilde = o + tildecomb@top | 0xf5
 otildemacron = o + tildecomb-stack@top + macroncomb-stack@top | 0x22d
@@ -748,8 +746,16 @@ ellipsis = period + period@ellipsis + period@ellipsis ^ period,period | 0x2026
 hyphentwo = hyphen | 0x2010
 softhyphen = hyphen | 0xooAD
 
-# periodcentered.loclCAT = periodcentered | None
-# periodcentered-loclCAT.case = periodcentered | None
-
 increment = Delta | 0x2206
 ohm = Omega | 0x2126
+
+# ---------------------------
+#  S U B S T I T U T I O N S
+# ---------------------------
+
+Oslash.rvrn = O + diagonalbarO.rvrn@center | None
+Oslashacute.rvrn = O + diagonalbarO.rvrn@center + acutecomb.case@O:top | None
+
+oslash.rvrn = o + diagonalbaro.rvrn@center | None
+oslashacute.rvrn = o + diagonalbaro.rvrn@center + acutecomb@o:top | None
+
