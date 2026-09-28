@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dollar" format="2">
-	<unicode hex="0024"/>
 	<advance width="1399"/>
 	<outline>
 		<contour>
@@ -44,24 +43,18 @@
 			<point x="154.2326660156" y="58.236328125"/>
 		</contour>
 		<contour>
-			<point x="639.6782226562" y="-142" type="line"/>
-			<point x="639.6782226562" y="80.5961303711" type="line"/>
-			<point x="649.447265625" y="83.5545654297" type="line"/>
-			<point x="649.447265625" y="872.7114257812" type="line"/>
-			<point x="765.4461669922" y="830.8948974609" type="line"/>
-			<point x="765.4461669922" y="83.5545654297" type="line"/>
-			<point x="775.2152099609" y="83.5545654297" type="line"/>
-			<point x="775.2152099609" y="-129.3850097656" type="line"/>
-		</contour>
-		<contour>
-			<point x="639.6782226562" y="1634.8941650391" type="line"/>
-			<point x="775.2152099609" y="1651.7399902344" type="line"/>
-			<point x="775.2152099609" y="1395.1490478516" type="line"/>
-			<point x="765.4461669922" y="1395.1490478516" type="line"/>
-			<point x="765.4461669922" y="826.153137207" type="line"/>
-			<point x="649.447265625" y="867.9696655273" type="line"/>
-			<point x="649.447265625" y="1395.1490478516" type="line"/>
-			<point x="639.6782226562" y="1395.1490478516" type="line"/>
+			<point x="765.4461669922" y="53.845703125" type="line"/>
+			<point x="776.2152099609" y="53.845703125" type="line"/>
+			<point x="776.2152099609" y="-129.3850097656" type="line"/>
+			<point x="638.6782226562" y="-142" type="line"/>
+			<point x="638.6782226562" y="50.8872680664" type="line"/>
+			<point x="649.447265625" y="53.845703125" type="line"/>
+			<point x="649.447265625" y="1444.6638183594" type="line"/>
+			<point x="638.6782226562" y="1444.6638183594" type="line"/>
+			<point x="638.6782226562" y="1634.8941650391" type="line"/>
+			<point x="776.2152099609" y="1651.7399902344" type="line"/>
+			<point x="776.2152099609" y="1444.6638183594" type="line"/>
+			<point x="765.4461669922" y="1444.6638183594" type="line"/>
 		</contour>
 	</outline>
 </glyph>

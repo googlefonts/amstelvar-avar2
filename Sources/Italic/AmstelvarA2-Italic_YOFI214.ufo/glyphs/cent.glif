@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cent" format="2">
-	<unicode hex="00A2"/>
 	<advance width="974"/>
 	<outline>
-		<contour>
-			<point x="199" y="-100" type="line"/>
-			<point x="245" y="162" type="line"/>
-			<point x="262" y="162" type="line"/>
-			<point x="345" y="630" type="line"/>
-			<point x="661" y="588" type="line"/>
-			<point x="586" y="162" type="line"/>
-			<point x="605" y="162" type="line"/>
-			<point x="568" y="-50" type="line"/>
-		</contour>
-		<contour>
-			<point x="441" y="1280" type="line"/>
-			<point x="808" y="1319" type="line"/>
-			<point x="762" y="1059" type="line"/>
-			<point x="744" y="1059" type="line"/>
-			<point x="661" y="588" type="line"/>
-			<point x="345" y="630" type="line"/>
-			<point x="420" y="1059" type="line"/>
-			<point x="402" y="1059" type="line"/>
-		</contour>
 		<contour>
 			<point x="70" y="614" type="qcurve" smooth="yes"/>
 			<point x="128" y="851"/>
@@ -55,6 +34,20 @@
 			<point x="362" y="91" type="qcurve" smooth="yes"/>
 			<point x="190" y="98"/>
 			<point x="14" y="385"/>
+		</contour>
+		<contour>
+			<point x="199" y="-100" type="line"/>
+			<point x="245" y="162" type="line"/>
+			<point x="262" y="162" type="line"/>
+			<point x="420" y="1059" type="line"/>
+			<point x="402" y="1059" type="line"/>
+			<point x="441" y="1280" type="line"/>
+			<point x="808" y="1319" type="line"/>
+			<point x="762" y="1059" type="line"/>
+			<point x="745" y="1069" type="line"/>
+			<point x="586" y="162" type="line"/>
+			<point x="605" y="162" type="line"/>
+			<point x="568" y="-50" type="line"/>
 		</contour>
 	</outline>
 </glyph>
