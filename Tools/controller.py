@@ -443,13 +443,13 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['Umacroncyr']
+    # glyphNames = ['napostrophe']
     # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Oslash oslash Oslash.rvrn oslash.rvrn'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
@@ -473,7 +473,7 @@ if __name__ == '__main__':
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs(glyphNames, parametric=False, tuning=False, reference=True, preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
@@ -495,7 +495,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
     p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
