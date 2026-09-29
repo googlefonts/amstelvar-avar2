@@ -484,7 +484,7 @@ if __name__ == '__main__':
     # p.tuning = True # also used to direct BlendsPreview proof to its folder
     # p.useLongAxisNames = True # keep it disabled during development!
     # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
-    # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- tuning ---
