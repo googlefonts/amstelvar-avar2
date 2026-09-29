@@ -144,7 +144,7 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceFontName(self):
-        return 'Amstelvar-Roman.ttf'
+        return f'Amstelvar-{self.subFamily}.ttf'
 
     @property
     def referenceFontPath(self):
@@ -443,13 +443,14 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['eight.lc']
+    # glyphNames = ['Umacroncyr']
+    # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Oslash oslash Oslash.rvrn oslash.rvrn'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
@@ -493,6 +494,7 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
+    # p.roundSources(parametric=True, tuning=True, reference=True)
     p.cleanupSources(parametric=True, tuning=True, reference=True)
     p.normalizeSources(parametric=True, tuning=True, reference=True)
 
