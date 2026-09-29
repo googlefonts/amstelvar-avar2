@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, glob, time, json, string, itertools
+import os, glob, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor, RuleDescriptor
 from xTools4.modules.xproject import xProject
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
@@ -443,19 +443,19 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['napostrophe']
+    # glyphNames = ['Ef']
     # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Oslash oslash Oslash.rvrn oslash.rvrn'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
     # glyphNames = p.smartSets['uppercase']['greek'] + p.smartSets['lowercase']['greek']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
+    # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # print(glyphNames)
 
     # --- managing sources ---
@@ -496,7 +496,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=False, tuning=True, reference=False)
 
     # --- project info ---
     # p.printSettings()
@@ -510,7 +510,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
