@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerosuperior" format="2">
+	<unicode hex="2070"/>
 	<advance width="598"/>
 	<outline>
 		<contour>
@@ -31,4 +32,6 @@
 			<point x="175" y="1253"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="420" y="1500"/>
+	<anchor name="_frac_right" x="277" y="671"/>
 </glyph>
