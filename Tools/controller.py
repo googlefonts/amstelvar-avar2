@@ -443,7 +443,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -451,7 +451,7 @@ if __name__ == '__main__':
 
     # glyphNames = ['Ef']
     # glyphNames = p.defaultFont.glyphOrder
-    # glyphNames = 'Oslash oslash Oslash.rvrn oslash.rvrn'.split()
+    glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['uppercase']['greek'] + p.smartSets['lowercase']['greek']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
@@ -479,11 +479,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True # also used to direct BlendsPreview proof to its folder
-    # p.useLongAxisNames = True # keep it disabled during development!
-    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True # also used to direct BlendsPreview proof to its folder
+    p.useLongAxisNames = True # keep it disabled during development!
+    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -496,7 +496,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=False, tuning=True, reference=False)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
