@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevensuperior" format="2">
-	<advance width="968"/>
+	<unicode hex="2077"/>
+	<advance width="1103"/>
 	<outline>
 		<contour>
-			<point x="92.4232177734" y="1152.8194580078" type="line"/>
-			<point x="249.1535644531" y="1516.6625976562" type="line"/>
-			<point x="993.4385986328" y="1516.6625976562" type="line"/>
-			<point x="1045.0081787109" y="1431.6879882812" type="line"/>
-			<point x="891.9044189453" y="1233.443359375"/>
-			<point x="677.0979003906" y="831.7342529297"/>
-			<point x="659.9769287109" y="667.9605712891" type="qcurve"/>
-			<point x="260.9089355469" y="533.4069824219" type="line"/>
-			<point x="153.2438964844" y="683.0714111328" type="line"/>
-			<point x="279.0500488281" y="826.2902832031"/>
-			<point x="616.7730712891" y="1147.5877685547"/>
-			<point x="755.3841552734" y="1226.0361328125" type="qcurve"/>
-			<point x="748.2575683594" y="1235.0361328125" type="line"/>
-			<point x="321.7321777344" y="1233.0361328125" type="line"/>
-			<point x="255.5560302734" y="1152.8194580078" type="line"/>
+			<point x="90" y="1140" type="line"/>
+			<point x="197" y="1500" type="line"/>
+			<point x="1125" y="1500" type="line"/>
+			<point x="1177" y="1415" type="line"/>
+			<point x="1007" y="1213"/>
+			<point x="735" y="840"/>
+			<point x="707" y="695" type="qcurve"/>
+			<point x="308" y="561" type="line"/>
+			<point x="219" y="687" type="line"/>
+			<point x="347" y="847"/>
+			<point x="736" y="1136"/>
+			<point x="887" y="1220" type="qcurve"/>
+			<point x="883" y="1228" type="line"/>
+			<point x="288" y="1228" type="line"/>
+			<point x="245" y="1140" type="line"/>
 		</contour>
 	</outline>
 </glyph>
