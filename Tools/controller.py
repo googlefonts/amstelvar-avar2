@@ -76,7 +76,6 @@ class AmstelvarA2Controller(xProject):
             [
                 [
                     dict(name="wght", minimum=750, maximum=1000),
-                    # dict(name="wdth", maximum=110)
                 ],
                 [
                     dict(name="wdth", minimum=50, maximum=75)
@@ -443,7 +442,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -451,9 +450,9 @@ if __name__ == '__main__':
 
     # glyphNames = ['Ef']
     # glyphNames = p.defaultFont.glyphOrder
-    glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
+    # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['uppercase']['greek'] + p.smartSets['lowercase']['greek']
+    # glyphNames = p.smartSets['figures']['tabular'] # + p.smartSets['lowercase']['greek']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # print(glyphNames)
@@ -496,7 +495,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
