@@ -6,9 +6,9 @@
 		<contour>
 			<point x="50" y="1202" type="qcurve" smooth="yes"/>
 			<point x="50" y="1334"/>
-			<point x="270" y="1522"/>
-			<point x="451" y="1522" type="qcurve" smooth="yes"/>
-			<point x="650" y="1522"/>
+			<point x="286" y="1522"/>
+			<point x="467" y="1522" type="qcurve" smooth="yes"/>
+			<point x="666" y="1522"/>
 			<point x="909" y="1315"/>
 			<point x="909" y="1152" type="qcurve" smooth="yes"/>
 			<point x="909" y="963"/>
@@ -19,12 +19,12 @@
 			<point x="704" y="954"/>
 			<point x="704" y="1125" type="qcurve" smooth="yes"/>
 			<point x="704" y="1246"/>
-			<point x="579" y="1389"/>
-			<point x="451" y="1389" type="qcurve" smooth="yes"/>
-			<point x="361" y="1389"/>
-			<point x="255" y="1277"/>
-			<point x="255" y="1202" type="qcurve" smooth="yes"/>
-			<point x="255" y="1129"/>
+			<point x="588" y="1389"/>
+			<point x="474" y="1389" type="qcurve" smooth="yes"/>
+			<point x="377" y="1389"/>
+			<point x="255" y="1300"/>
+			<point x="255" y="1215" type="qcurve" smooth="yes"/>
+			<point x="255" y="1142"/>
 			<point x="333" y="1056"/>
 			<point x="428" y="1056" type="qcurve" smooth="yes"/>
 			<point x="479" y="1056"/>
@@ -35,7 +35,9 @@
 			<point x="465" y="930"/>
 			<point x="388" y="930" type="qcurve" smooth="yes"/>
 			<point x="216" y="930"/>
-			<point x="50" y="1094"/>
+			<point x="50" y="1081"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="459" y="623"/>
+	<anchor name="_frac_right" x="459" y="1492"/>
 </glyph>
