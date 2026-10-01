@@ -316,7 +316,7 @@ class AmstelvarA2Controller(xProject):
                 for childTag in childTags:
                     childName = self.getAxisName(childTag)
                     if childName not in self.defaultLocation:
-                        print(f'no parameter {childTag} in default location, skipping...')
+                        # print(f'no parameter {childTag} in default location, skipping...')
                         continue
 
                     # get min/max values from file names
@@ -452,7 +452,7 @@ if __name__ == '__main__':
     # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['tabular']
+    glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
     # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
@@ -516,4 +516,3 @@ if __name__ == '__main__':
 
     end = time.time()
     timer(start, end)
- 
