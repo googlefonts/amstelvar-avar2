@@ -442,7 +442,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -453,7 +453,7 @@ if __name__ == '__main__':
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
     # glyphNames = p.smartSets['figures']['tabular']
-    # glyphNames = p.smartSets['uppercase']['cyrillic'] + p.smartSets['lowercase']['cyrillic']
+    # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # glyphNames.remove('figuredash')
@@ -480,11 +480,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
