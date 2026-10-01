@@ -442,7 +442,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
@@ -497,7 +497,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -511,7 +511,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
