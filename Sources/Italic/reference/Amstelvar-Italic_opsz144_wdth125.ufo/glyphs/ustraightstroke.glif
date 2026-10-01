@@ -2,4 +2,8 @@
 <glyph name="ustraightstroke" format="2">
 	<unicode hex="04B1"/>
 	<advance width="1228"/>
+	<outline>
+		<component base="ustraight"/>
+		<component base="ustraight-stroke" xOffset="-13" yOffset="-35"/>
+	</outline>
 </glyph>
