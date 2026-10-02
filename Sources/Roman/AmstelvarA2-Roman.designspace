@@ -10,6 +10,7 @@
     </axis>
     <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400"/>
     <axis tag="wdth" name="Width" minimum="50" maximum="125" default="100"/>
+    <axis tag="GRAD" name="Grade" minimum="-300" maximum="500" default="0"/>
     <axis tag="XTSP" name="Spacing" minimum="-100" maximum="100" default="0"/>
     <axis tag="XOPQ" name="General x opaque" minimum="-31" maximum="310" default="90"/>
     <axis tag="YOPQ" name="General y opaque" minimum="4" maximum="208" default="66"/>
@@ -19,7 +20,6 @@
     <axis tag="XSVA" name="General x vertical serifs" minimum="-6" maximum="151" default="55"/>
     <axis tag="YSVA" name="General y vertical serifs" minimum="0" maximum="270" default="165"/>
     <axis tag="WDSP" name="Word space width" minimum="0" maximum="1000" default="320" hidden="1"/>
-    <axis tag="GRAD" name="Grade" minimum="-300" maximum="500" default="0" hidden="1"/>
     <axis tag="XOUC" name="X stem uppercase" minimum="4" maximum="310" default="90" hidden="1"/>
     <axis tag="YOUC" name="Y stem uppercase" minimum="4" maximum="208" default="66" hidden="1"/>
     <axis tag="XOUA" name="Uppercase accents main weight" minimum="4" maximum="154" default="84" hidden="1"/>
@@ -73,7 +73,6 @@
     <axis tag="YTOS" name="Lowercase overshoot" minimum="0" maximum="30" default="11" hidden="1"/>
     <axis tag="XTTW" name="Trap width" minimum="0" maximum="30" default="5" hidden="1"/>
     <axis tag="YTTL" name="Trap length" minimum="0" maximum="120" default="60" hidden="1"/>
-    <axis tag="BARS" name="Bars" minimum="0" maximum="723" default="0" hidden="1"/>
     <axis tag="TN00" name="opsz144" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN01" name="opsz144_wdth125" minimum="0" maximum="100" default="0" hidden="1"/>
     <axis tag="TN02" name="opsz144_wdth50" minimum="0" maximum="100" default="0" hidden="1"/>
@@ -160,7 +159,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="67"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="100"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -249,7 +247,6 @@
           <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="57"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="100"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -338,7 +335,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="86"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="100"/>
@@ -427,7 +423,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="44"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -516,7 +511,6 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="2"/>
           <dimension name="Trap length" xvalue="57"/>
-          <dimension name="Bars" xvalue="711"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -606,7 +600,6 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="67"/>
-          <dimension name="Bars" xvalue="704"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -696,7 +689,6 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="62"/>
-          <dimension name="Bars" xvalue="716"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -786,7 +778,6 @@
           <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="65"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -876,7 +867,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="0"/>
           <dimension name="Trap length" xvalue="50"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -964,7 +954,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="60"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1053,7 +1042,6 @@
           <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="116"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1142,7 +1130,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="72"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1231,7 +1218,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="3"/>
           <dimension name="Trap length" xvalue="96"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1320,7 +1306,6 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="58"/>
-          <dimension name="Bars" xvalue="620"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1410,7 +1395,6 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="108"/>
-          <dimension name="Bars" xvalue="633"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1500,7 +1484,6 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="78"/>
-          <dimension name="Bars" xvalue="605"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1590,7 +1573,6 @@
           <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="3"/>
           <dimension name="Trap length" xvalue="68"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1680,7 +1662,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="6"/>
           <dimension name="Trap length" xvalue="68"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1768,7 +1749,6 @@
           <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="89"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1856,7 +1836,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="50"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -1944,7 +1923,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="2"/>
           <dimension name="Trap length" xvalue="68"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2032,7 +2010,6 @@
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="63"/>
-          <dimension name="Bars" xvalue="640"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2121,7 +2098,6 @@
           <dimension name="Lowercase overshoot" xvalue="18"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="110"/>
-          <dimension name="Bars" xvalue="648"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2210,7 +2186,6 @@
           <dimension name="Lowercase overshoot" xvalue="12"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="57"/>
-          <dimension name="Bars" xvalue="630"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2299,7 +2274,6 @@
           <dimension name="Lowercase overshoot" xvalue="14"/>
           <dimension name="Trap width" xvalue="2"/>
           <dimension name="Trap length" xvalue="49"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2388,7 +2362,6 @@
           <dimension name="Lowercase overshoot" xvalue="10"/>
           <dimension name="Trap width" xvalue="1"/>
           <dimension name="Trap length" xvalue="31"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2476,7 +2449,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="60"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2564,7 +2536,6 @@
           <dimension name="Lowercase overshoot" xvalue="11"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="60"/>
-          <dimension name="Bars" xvalue="0"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5161,11 +5132,35 @@
       </mapping>
     </mappings>
   </axes>
+  <rules>
+    <rule name="bars">
+      <conditionset>
+        <condition name="Weight" minimum="750" maximum="1000"/>
+      </conditionset>
+      <conditionset>
+        <condition name="Width" minimum="50" maximum="75"/>
+      </conditionset>
+      <sub name="Q" with="Q.rvrn"/>
+      <sub name="Oslash" with="Oslash.rvrn"/>
+      <sub name="Oslashacute" with="Oslashacute.rvrn"/>
+      <sub name="oslash" with="oslash.rvrn"/>
+      <sub name="oslashacute" with="oslashacute.rvrn"/>
+      <sub name="dollar" with="dollar.rvrn"/>
+      <sub name="cent" with="cent.rvrn"/>
+      <sub name="naira" with="naira.rvrn"/>
+      <sub name="won" with="won.rvrn"/>
+      <sub name="kip" with="kip.rvrn"/>
+      <sub name="peso" with="peso.rvrn"/>
+      <sub name="cedi" with="cedi.rvrn"/>
+      <sub name="colonsign" with="colonsign.rvrn"/>
+      <sub name="guarani" with="guarani.rvrn"/>
+    </rule>
+  </rules>
   <sources>
     <source filename="AmstelvarA2-Roman_wght400.ufo" name="wght400" familyname="AmstelvarA2 Roman" stylename="wght400">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5219,7 +5214,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5250,8 +5244,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_WDSP0.ufo" name="WDSP0" familyname="AmstelvarA2 Roman" stylename="WDSP0">
       <location>
-        <dimension name="Word space width" xvalue="0"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="0"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5305,7 +5299,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5336,8 +5329,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_WDSP1000.ufo" name="WDSP1000" familyname="AmstelvarA2 Roman" stylename="WDSP1000">
       <location>
-        <dimension name="Word space width" xvalue="1000"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="1000"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5391,7 +5384,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5422,8 +5414,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_GRAD-300.ufo" name="GRAD-300" familyname="AmstelvarA2 Roman" stylename="GRAD-300">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="-300"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5477,7 +5469,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5508,8 +5499,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_GRAD500.ufo" name="GRAD500" familyname="AmstelvarA2 Roman" stylename="GRAD500">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="500"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5563,7 +5554,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5594,8 +5584,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOUC4.ufo" name="XOUC4" familyname="AmstelvarA2 Roman" stylename="XOUC4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="4"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5649,7 +5639,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5680,8 +5669,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOUC310.ufo" name="XOUC310" familyname="AmstelvarA2 Roman" stylename="XOUC310">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="310"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5735,7 +5724,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5766,8 +5754,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOUC208.ufo" name="YOUC208" familyname="AmstelvarA2 Roman" stylename="YOUC208">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="208"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5821,7 +5809,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5852,8 +5839,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOUC4.ufo" name="YOUC4" familyname="AmstelvarA2 Roman" stylename="YOUC4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="4"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -5907,7 +5894,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -5938,8 +5924,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOUA154.ufo" name="XOUA154" familyname="AmstelvarA2 Roman" stylename="XOUA154">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="154"/>
@@ -5993,7 +5979,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6024,8 +6009,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOUA4.ufo" name="XOUA4" familyname="AmstelvarA2 Roman" stylename="XOUA4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="4"/>
@@ -6079,7 +6064,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6110,8 +6094,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOUA2.ufo" name="YOUA2" familyname="AmstelvarA2 Roman" stylename="YOUA2">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6165,7 +6149,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6196,8 +6179,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOUA96.ufo" name="YOUA96" familyname="AmstelvarA2 Roman" stylename="YOUA96">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6251,7 +6234,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6282,8 +6264,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUC72.ufo" name="XTUC72" familyname="AmstelvarA2 Roman" stylename="XTUC72">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6337,7 +6319,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6368,8 +6349,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUC668.ufo" name="XTUC668" familyname="AmstelvarA2 Roman" stylename="XTUC668">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6423,7 +6404,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6454,8 +6434,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUR907.ufo" name="XTUR907" familyname="AmstelvarA2 Roman" stylename="XTUR907">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6509,7 +6489,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6540,8 +6519,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUR58.ufo" name="XTUR58" familyname="AmstelvarA2 Roman" stylename="XTUR58">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6595,7 +6574,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6626,8 +6604,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUD43.ufo" name="XTUD43" familyname="AmstelvarA2 Roman" stylename="XTUD43">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6681,7 +6659,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6712,8 +6689,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUD715.ufo" name="XTUD715" familyname="AmstelvarA2 Roman" stylename="XTUD715">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6767,7 +6744,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6798,8 +6774,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUA401.ufo" name="XTUA401" familyname="AmstelvarA2 Roman" stylename="XTUA401">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6853,7 +6829,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6884,8 +6859,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTUA190.ufo" name="XTUA190" familyname="AmstelvarA2 Roman" stylename="XTUA190">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -6939,7 +6914,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -6970,8 +6944,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTUC875.ufo" name="YTUC875" familyname="AmstelvarA2 Roman" stylename="YTUC875">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7025,7 +6999,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7056,8 +7029,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTUC541.ufo" name="YTUC541" familyname="AmstelvarA2 Roman" stylename="YTUC541">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7111,7 +7084,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7142,8 +7114,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTJD0.ufo" name="YTJD0" familyname="AmstelvarA2 Roman" stylename="YTJD0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7197,7 +7169,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7228,8 +7199,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTJD-204.ufo" name="YTJD-204" familyname="AmstelvarA2 Roman" stylename="YTJD-204">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7283,7 +7254,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7314,8 +7284,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHU0.ufo" name="XSHU0" familyname="AmstelvarA2 Roman" stylename="XSHU0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7369,7 +7339,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7400,8 +7369,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHU154.ufo" name="XSHU154" familyname="AmstelvarA2 Roman" stylename="XSHU154">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7455,7 +7424,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7486,8 +7454,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHU0.ufo" name="YSHU0" familyname="AmstelvarA2 Roman" stylename="YSHU0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7541,7 +7509,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7572,8 +7539,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHU150.ufo" name="YSHU150" familyname="AmstelvarA2 Roman" stylename="YSHU150">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7627,7 +7594,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7658,8 +7624,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVU0.ufo" name="XSVU0" familyname="AmstelvarA2 Roman" stylename="XSVU0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7713,7 +7679,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7744,8 +7709,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVU130.ufo" name="XSVU130" familyname="AmstelvarA2 Roman" stylename="XSVU130">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7799,7 +7764,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7830,8 +7794,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVU0.ufo" name="YSVU0" familyname="AmstelvarA2 Roman" stylename="YSVU0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7885,7 +7849,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -7916,8 +7879,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVU225.ufo" name="YSVU225" familyname="AmstelvarA2 Roman" stylename="YSVU225">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -7971,7 +7934,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8002,8 +7964,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XVAU0.ufo" name="XVAU0" familyname="AmstelvarA2 Roman" stylename="XVAU0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8057,7 +8019,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8088,8 +8049,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XVAU68.ufo" name="XVAU68" familyname="AmstelvarA2 Roman" stylename="XVAU68">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8143,7 +8104,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8174,8 +8134,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCS205.ufo" name="XUCS205" familyname="AmstelvarA2 Roman" stylename="XUCS205">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8229,7 +8189,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8260,8 +8219,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCS32.ufo" name="XUCS32" familyname="AmstelvarA2 Roman" stylename="XUCS32">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8315,7 +8274,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8346,8 +8304,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCR0.ufo" name="XUCR0" familyname="AmstelvarA2 Roman" stylename="XUCR0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8401,7 +8359,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8432,8 +8389,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCR100.ufo" name="XUCR100" familyname="AmstelvarA2 Roman" stylename="XUCR100">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8487,7 +8444,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8518,8 +8474,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCD141.ufo" name="XUCD141" familyname="AmstelvarA2 Roman" stylename="XUCD141">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8573,7 +8529,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8604,8 +8559,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XUCD22.ufo" name="XUCD22" familyname="AmstelvarA2 Roman" stylename="XUCD22">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8659,7 +8614,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8690,8 +8644,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOLC4.ufo" name="XOLC4" familyname="AmstelvarA2 Roman" stylename="XOLC4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8745,7 +8699,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8776,8 +8729,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOLC293.ufo" name="XOLC293" familyname="AmstelvarA2 Roman" stylename="XOLC293">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8831,7 +8784,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8862,8 +8814,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOLC149.ufo" name="YOLC149" familyname="AmstelvarA2 Roman" stylename="YOLC149">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -8917,7 +8869,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -8948,8 +8899,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOLC4.ufo" name="YOLC4" familyname="AmstelvarA2 Roman" stylename="YOLC4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9003,7 +8954,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9034,8 +8984,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOLA4.ufo" name="XOLA4" familyname="AmstelvarA2 Roman" stylename="XOLA4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9089,7 +9039,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9120,8 +9069,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOLA142.ufo" name="XOLA142" familyname="AmstelvarA2 Roman" stylename="XOLA142">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9175,7 +9124,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9206,8 +9154,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOLA6.ufo" name="YOLA6" familyname="AmstelvarA2 Roman" stylename="YOLA6">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9261,7 +9209,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9292,8 +9239,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOLA97.ufo" name="YOLA97" familyname="AmstelvarA2 Roman" stylename="YOLA97">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9347,7 +9294,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9378,8 +9324,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLC42.ufo" name="XTLC42" familyname="AmstelvarA2 Roman" stylename="XTLC42">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9433,7 +9379,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9464,8 +9409,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLC500.ufo" name="XTLC500" familyname="AmstelvarA2 Roman" stylename="XTLC500">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9519,7 +9464,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9550,8 +9494,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLR45.ufo" name="XTLR45" familyname="AmstelvarA2 Roman" stylename="XTLR45">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9605,7 +9549,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9636,8 +9579,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLR629.ufo" name="XTLR629" familyname="AmstelvarA2 Roman" stylename="XTLR629">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9691,7 +9634,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9722,8 +9664,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLD80.ufo" name="XTLD80" familyname="AmstelvarA2 Roman" stylename="XTLD80">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9777,7 +9719,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9808,8 +9749,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLD518.ufo" name="XTLD518" familyname="AmstelvarA2 Roman" stylename="XTLD518">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9863,7 +9804,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9894,8 +9834,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLA158.ufo" name="XTLA158" familyname="AmstelvarA2 Roman" stylename="XTLA158">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -9949,7 +9889,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -9980,8 +9919,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTLA470.ufo" name="XTLA470" familyname="AmstelvarA2 Roman" stylename="XTLA470">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10035,7 +9974,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10066,8 +10004,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTLC594.ufo" name="YTLC594" familyname="AmstelvarA2 Roman" stylename="YTLC594">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10121,7 +10059,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10152,8 +10089,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTLC436.ufo" name="YTLC436" familyname="AmstelvarA2 Roman" stylename="YTLC436">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10207,7 +10144,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10238,8 +10174,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTAS665.ufo" name="YTAS665" familyname="AmstelvarA2 Roman" stylename="YTAS665">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10293,7 +10229,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10324,8 +10259,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTAS875.ufo" name="YTAS875" familyname="AmstelvarA2 Roman" stylename="YTAS875">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10379,7 +10314,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10410,8 +10344,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTDE-310.ufo" name="YTDE-310" familyname="AmstelvarA2 Roman" stylename="YTDE-310">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10465,7 +10399,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10496,8 +10429,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTDE-100.ufo" name="YTDE-100" familyname="AmstelvarA2 Roman" stylename="YTDE-100">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10551,7 +10484,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10582,8 +10514,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHL124.ufo" name="XSHL124" familyname="AmstelvarA2 Roman" stylename="XSHL124">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10637,7 +10569,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10668,8 +10599,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHL0.ufo" name="XSHL0" familyname="AmstelvarA2 Roman" stylename="XSHL0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10723,7 +10654,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10754,8 +10684,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHL0.ufo" name="YSHL0" familyname="AmstelvarA2 Roman" stylename="YSHL0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10809,7 +10739,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10840,8 +10769,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHL140.ufo" name="YSHL140" familyname="AmstelvarA2 Roman" stylename="YSHL140">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10895,7 +10824,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -10926,8 +10854,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVL150.ufo" name="XSVL150" familyname="AmstelvarA2 Roman" stylename="XSVL150">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -10981,7 +10909,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11012,8 +10939,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVL0.ufo" name="XSVL0" familyname="AmstelvarA2 Roman" stylename="XSVL0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11067,7 +10994,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11098,8 +11024,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVL155.ufo" name="YSVL155" familyname="AmstelvarA2 Roman" stylename="YSVL155">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11153,7 +11079,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11184,8 +11109,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVL40.ufo" name="YSVL40" familyname="AmstelvarA2 Roman" stylename="YSVL40">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11239,7 +11164,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11270,8 +11194,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCS14.ufo" name="XLCS14" familyname="AmstelvarA2 Roman" stylename="XLCS14">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11325,7 +11249,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11356,8 +11279,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCS182.ufo" name="XLCS182" familyname="AmstelvarA2 Roman" stylename="XLCS182">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11411,7 +11334,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11442,8 +11364,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCR98.ufo" name="XLCR98" familyname="AmstelvarA2 Roman" stylename="XLCR98">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11497,7 +11419,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11528,8 +11449,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCR-13.ufo" name="XLCR-13" familyname="AmstelvarA2 Roman" stylename="XLCR-13">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11583,7 +11504,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11614,8 +11534,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCD122.ufo" name="XLCD122" familyname="AmstelvarA2 Roman" stylename="XLCD122">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11669,7 +11589,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11700,8 +11619,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XLCD-8.ufo" name="XLCD-8" familyname="AmstelvarA2 Roman" stylename="XLCD-8">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11755,7 +11674,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11786,8 +11704,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOFI302.ufo" name="XOFI302" familyname="AmstelvarA2 Roman" stylename="XOFI302">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11841,7 +11759,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11872,8 +11789,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOFI4.ufo" name="XOFI4" familyname="AmstelvarA2 Roman" stylename="XOFI4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -11927,7 +11844,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -11958,8 +11874,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOFI4.ufo" name="YOFI4" familyname="AmstelvarA2 Roman" stylename="YOFI4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12013,7 +11929,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12044,8 +11959,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOFI196.ufo" name="YOFI196" familyname="AmstelvarA2 Roman" stylename="YOFI196">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12099,7 +12014,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12130,8 +12044,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTFI40.ufo" name="XTFI40" familyname="AmstelvarA2 Roman" stylename="XTFI40">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12185,7 +12099,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12216,8 +12129,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTFI868.ufo" name="XTFI868" familyname="AmstelvarA2 Roman" stylename="XTFI868">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12271,7 +12184,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12302,8 +12214,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTFI290.ufo" name="YTFI290" familyname="AmstelvarA2 Roman" stylename="YTFI290">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12357,7 +12269,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12388,8 +12299,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTFI896.ufo" name="YTFI896" familyname="AmstelvarA2 Roman" stylename="YTFI896">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12443,7 +12354,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12474,8 +12384,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHF0.ufo" name="XSHF0" familyname="AmstelvarA2 Roman" stylename="XSHF0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12529,7 +12439,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12560,8 +12469,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSHF239.ufo" name="XSHF239" familyname="AmstelvarA2 Roman" stylename="XSHF239">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12615,7 +12524,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12646,8 +12554,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHF0.ufo" name="YSHF0" familyname="AmstelvarA2 Roman" stylename="YSHF0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12701,7 +12609,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12732,8 +12639,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSHF147.ufo" name="YSHF147" familyname="AmstelvarA2 Roman" stylename="YSHF147">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12787,7 +12694,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12818,8 +12724,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVF0.ufo" name="XSVF0" familyname="AmstelvarA2 Roman" stylename="XSVF0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12873,7 +12779,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12904,8 +12809,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XSVF131.ufo" name="XSVF131" familyname="AmstelvarA2 Roman" stylename="XSVF131">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -12959,7 +12864,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -12990,8 +12894,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVF222.ufo" name="YSVF222" familyname="AmstelvarA2 Roman" stylename="YSVF222">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13045,7 +12949,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13076,8 +12979,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YSVF0.ufo" name="YSVF0" familyname="AmstelvarA2 Roman" stylename="YSVF0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13131,7 +13034,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13162,8 +13064,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XFIR97.ufo" name="XFIR97" familyname="AmstelvarA2 Roman" stylename="XFIR97">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13217,7 +13119,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13248,8 +13149,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XFIR0.ufo" name="XFIR0" familyname="AmstelvarA2 Roman" stylename="XFIR0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13303,7 +13204,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13334,8 +13234,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOET246.ufo" name="XOET246" familyname="AmstelvarA2 Roman" stylename="XOET246">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13389,7 +13289,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13420,8 +13319,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XOET4.ufo" name="XOET4" familyname="AmstelvarA2 Roman" stylename="XOET4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13475,7 +13374,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13506,8 +13404,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOET112.ufo" name="YOET112" familyname="AmstelvarA2 Roman" stylename="YOET112">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13561,7 +13459,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13592,8 +13489,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YOET4.ufo" name="YOET4" familyname="AmstelvarA2 Roman" stylename="YOET4">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13647,7 +13544,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13678,8 +13574,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTET305.ufo" name="XTET305" familyname="AmstelvarA2 Roman" stylename="XTET305">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13733,7 +13629,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13764,8 +13659,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTET1336.ufo" name="XTET1336" familyname="AmstelvarA2 Roman" stylename="XTET1336">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13819,7 +13714,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13850,8 +13744,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XETS5.ufo" name="XETS5" familyname="AmstelvarA2 Roman" stylename="XETS5">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13905,7 +13799,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -13936,8 +13829,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XETS104.ufo" name="XETS104" familyname="AmstelvarA2 Roman" stylename="XETS104">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -13991,7 +13884,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14022,8 +13914,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XDOT23.ufo" name="XDOT23" familyname="AmstelvarA2 Roman" stylename="XDOT23">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14077,7 +13969,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14108,8 +13999,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XDOT274.ufo" name="XDOT274" familyname="AmstelvarA2 Roman" stylename="XDOT274">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14163,7 +14054,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14194,8 +14084,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTOS30.ufo" name="YTOS30" familyname="AmstelvarA2 Roman" stylename="YTOS30">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14249,7 +14139,6 @@
         <dimension name="Lowercase overshoot" xvalue="30"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14280,8 +14169,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTOS0.ufo" name="YTOS0" familyname="AmstelvarA2 Roman" stylename="YTOS0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14335,7 +14224,6 @@
         <dimension name="Lowercase overshoot" xvalue="0"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14366,8 +14254,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTTW30.ufo" name="XTTW30" familyname="AmstelvarA2 Roman" stylename="XTTW30">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14421,7 +14309,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="30"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14452,8 +14339,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_XTTW0.ufo" name="XTTW0" familyname="AmstelvarA2 Roman" stylename="XTTW0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14507,7 +14394,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14538,8 +14424,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTTL120.ufo" name="YTTL120" familyname="AmstelvarA2 Roman" stylename="YTTL120">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14593,7 +14479,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="120"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14624,8 +14509,8 @@
     </source>
     <source filename="AmstelvarA2-Roman_YTTL0.ufo" name="YTTL0" familyname="AmstelvarA2 Roman" stylename="YTTL0">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14679,93 +14564,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="0"/>
-        <dimension name="Bars" xvalue="0"/>
-        <dimension name="opsz144" xvalue="0"/>
-        <dimension name="opsz144_wdth125" xvalue="0"/>
-        <dimension name="opsz144_wdth50" xvalue="0"/>
-        <dimension name="opsz144_wght100" xvalue="0"/>
-        <dimension name="opsz144_wght1000" xvalue="0"/>
-        <dimension name="opsz144_wght1000_wdth125" xvalue="0"/>
-        <dimension name="opsz144_wght1000_wdth50" xvalue="0"/>
-        <dimension name="opsz144_wght100_wdth125" xvalue="0"/>
-        <dimension name="opsz144_wght100_wdth50" xvalue="0"/>
-        <dimension name="opsz8" xvalue="0"/>
-        <dimension name="opsz8_wdth125" xvalue="0"/>
-        <dimension name="opsz8_wdth50" xvalue="0"/>
-        <dimension name="opsz8_wght100" xvalue="0"/>
-        <dimension name="opsz8_wght1000" xvalue="0"/>
-        <dimension name="opsz8_wght1000_wdth125" xvalue="0"/>
-        <dimension name="opsz8_wght1000_wdth50" xvalue="0"/>
-        <dimension name="opsz8_wght100_wdth125" xvalue="0"/>
-        <dimension name="opsz8_wght100_wdth50" xvalue="0"/>
-        <dimension name="wdth125" xvalue="0"/>
-        <dimension name="wdth50" xvalue="0"/>
-        <dimension name="wght100" xvalue="0"/>
-        <dimension name="wght1000" xvalue="0"/>
-        <dimension name="wght1000_wdth125" xvalue="0"/>
-        <dimension name="wght1000_wdth50" xvalue="0"/>
-        <dimension name="wght100_wdth125" xvalue="0"/>
-        <dimension name="wght100_wdth50" xvalue="0"/>
-      </location>
-    </source>
-    <source filename="AmstelvarA2-Roman_BARS723.ufo" name="BARS723" familyname="AmstelvarA2 Roman" stylename="BARS723">
-      <location>
-        <dimension name="Word space width" xvalue="320"/>
-        <dimension name="Grade" xvalue="0"/>
-        <dimension name="X stem uppercase" xvalue="90"/>
-        <dimension name="Y stem uppercase" xvalue="66"/>
-        <dimension name="Uppercase accents main weight" xvalue="84"/>
-        <dimension name="Uppercase accents secondary weight" xvalue="56"/>
-        <dimension name="X transparent uppercase" xvalue="400"/>
-        <dimension name="X transparent uppercase rounds" xvalue="561"/>
-        <dimension name="X transparent uppercase diagonals" xvalue="410"/>
-        <dimension name="Uppercase accent width" xvalue="258"/>
-        <dimension name="Y transparent uppercase" xvalue="750"/>
-        <dimension name="Y transparent J descender" xvalue="-104"/>
-        <dimension name="X horizontal serif uppercase" xvalue="104"/>
-        <dimension name="Y horizontal serif uppercase" xvalue="50"/>
-        <dimension name="X vertical serif uppercase" xvalue="55"/>
-        <dimension name="Y vertical serif uppercase" xvalue="165"/>
-        <dimension name="Uppercase vertical serif angle" xvalue="18"/>
-        <dimension name="X sidebearing uppercase straights" xvalue="145"/>
-        <dimension name="X sidebearing uppercase rounds" xvalue="40"/>
-        <dimension name="X sidebearing uppercase diagonals" xvalue="69"/>
-        <dimension name="X stem lowercase" xvalue="85"/>
-        <dimension name="Y stem lowercase" xvalue="58"/>
-        <dimension name="Lowercase accents main weight" xvalue="78"/>
-        <dimension name="Lowercase accents secondary weight" xvalue="53"/>
-        <dimension name="X transparent lowercase" xvalue="243"/>
-        <dimension name="X transparent lowercase rounds" xvalue="337"/>
-        <dimension name="X transparent lowercase diagonals" xvalue="248"/>
-        <dimension name="Lowercase accent width" xvalue="235"/>
-        <dimension name="Y transparent lowercase" xvalue="511"/>
-        <dimension name="Y transparent ascender" xvalue="767"/>
-        <dimension name="Y transparent descender" xvalue="-240"/>
-        <dimension name="X horizontal serif lowercase" xvalue="74"/>
-        <dimension name="Y horizontal serif lowercase" xvalue="40"/>
-        <dimension name="X vertical serif lowercase" xvalue="54"/>
-        <dimension name="Y vertical serif lowercase" xvalue="70"/>
-        <dimension name="X sidebearing lowercase straights" xvalue="112"/>
-        <dimension name="X sidebearing lowercase rounds" xvalue="32"/>
-        <dimension name="X sidebearing lowercase diagonals" xvalue="54"/>
-        <dimension name="X stem figures" xvalue="88"/>
-        <dimension name="Y stem figures" xvalue="56"/>
-        <dimension name="X transparent figures" xvalue="329"/>
-        <dimension name="Y transparent figures" xvalue="771"/>
-        <dimension name="X horizontal serif figures" xvalue="129"/>
-        <dimension name="Y horizontal serif figures" xvalue="47"/>
-        <dimension name="X vertical serif figures" xvalue="61"/>
-        <dimension name="Y vertical serif figures" xvalue="117"/>
-        <dimension name="X sidebearing figures round" xvalue="37"/>
-        <dimension name="X stem etcetera" xvalue="94"/>
-        <dimension name="Y stem etcetera" xvalue="56"/>
-        <dimension name="X transparent etcetera" xvalue="642"/>
-        <dimension name="X sidebearing etcetera" xvalue="40"/>
-        <dimension name="Dot width" xvalue="144"/>
-        <dimension name="Lowercase overshoot" xvalue="11"/>
-        <dimension name="Trap width" xvalue="5"/>
-        <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="723"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14796,8 +14594,8 @@
     </source>
     <source filename="tuning/opsz144.ufo" name="opsz144" familyname="AmstelvarA2 Roman" stylename="opsz144">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14851,7 +14649,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="100"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14882,8 +14679,8 @@
     </source>
     <source filename="tuning/opsz144_wdth125.ufo" name="opsz144_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -14937,7 +14734,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="100"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -14968,8 +14764,8 @@
     </source>
     <source filename="tuning/opsz144_wdth50.ufo" name="opsz144_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15023,7 +14819,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="100"/>
@@ -15054,8 +14849,8 @@
     </source>
     <source filename="tuning/opsz144_wght100.ufo" name="opsz144_wght100" familyname="AmstelvarA2 Roman" stylename="opsz144_wght100">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15109,7 +14904,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15140,8 +14934,8 @@
     </source>
     <source filename="tuning/opsz144_wght1000.ufo" name="opsz144_wght1000" familyname="AmstelvarA2 Roman" stylename="opsz144_wght1000">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15195,7 +14989,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15226,8 +15019,8 @@
     </source>
     <source filename="tuning/opsz144_wght1000_wdth125.ufo" name="opsz144_wght1000_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144_wght1000_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15281,7 +15074,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15312,8 +15104,8 @@
     </source>
     <source filename="tuning/opsz144_wght1000_wdth50.ufo" name="opsz144_wght1000_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144_wght1000_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15367,7 +15159,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15398,8 +15189,8 @@
     </source>
     <source filename="tuning/opsz144_wght100_wdth125.ufo" name="opsz144_wght100_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144_wght100_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15453,7 +15244,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15484,8 +15274,8 @@
     </source>
     <source filename="tuning/opsz144_wght100_wdth50.ufo" name="opsz144_wght100_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144_wght100_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15539,7 +15329,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15570,8 +15359,8 @@
     </source>
     <source filename="tuning/opsz8.ufo" name="opsz8" familyname="AmstelvarA2 Roman" stylename="opsz8">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15625,7 +15414,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15656,8 +15444,8 @@
     </source>
     <source filename="tuning/opsz8_wdth125.ufo" name="opsz8_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15711,7 +15499,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15742,8 +15529,8 @@
     </source>
     <source filename="tuning/opsz8_wdth50.ufo" name="opsz8_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15797,7 +15584,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15828,8 +15614,8 @@
     </source>
     <source filename="tuning/opsz8_wght100.ufo" name="opsz8_wght100" familyname="AmstelvarA2 Roman" stylename="opsz8_wght100">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15883,7 +15669,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -15914,8 +15699,8 @@
     </source>
     <source filename="tuning/opsz8_wght1000.ufo" name="opsz8_wght1000" familyname="AmstelvarA2 Roman" stylename="opsz8_wght1000">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -15969,7 +15754,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16000,8 +15784,8 @@
     </source>
     <source filename="tuning/opsz8_wght1000_wdth125.ufo" name="opsz8_wght1000_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8_wght1000_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16055,7 +15839,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16086,8 +15869,8 @@
     </source>
     <source filename="tuning/opsz8_wght1000_wdth50.ufo" name="opsz8_wght1000_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8_wght1000_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16141,7 +15924,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16172,8 +15954,8 @@
     </source>
     <source filename="tuning/opsz8_wght100_wdth125.ufo" name="opsz8_wght100_wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8_wght100_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16227,7 +16009,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16258,8 +16039,8 @@
     </source>
     <source filename="tuning/opsz8_wght100_wdth50.ufo" name="opsz8_wght100_wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8_wght100_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16313,7 +16094,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16344,8 +16124,8 @@
     </source>
     <source filename="tuning/wdth125.ufo" name="wdth125" familyname="AmstelvarA2 Roman" stylename="wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16399,7 +16179,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16430,8 +16209,8 @@
     </source>
     <source filename="tuning/wdth50.ufo" name="wdth50" familyname="AmstelvarA2 Roman" stylename="wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16485,7 +16264,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16516,8 +16294,8 @@
     </source>
     <source filename="tuning/wght100.ufo" name="wght100" familyname="AmstelvarA2 Roman" stylename="wght100">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16571,7 +16349,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16602,8 +16379,8 @@
     </source>
     <source filename="tuning/wght1000.ufo" name="wght1000" familyname="AmstelvarA2 Roman" stylename="wght1000">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16657,7 +16434,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16688,8 +16464,8 @@
     </source>
     <source filename="tuning/wght1000_wdth125.ufo" name="wght1000_wdth125" familyname="AmstelvarA2 Roman" stylename="wght1000_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16743,7 +16519,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16774,8 +16549,8 @@
     </source>
     <source filename="tuning/wght1000_wdth50.ufo" name="wght1000_wdth50" familyname="AmstelvarA2 Roman" stylename="wght1000_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16829,7 +16604,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16860,8 +16634,8 @@
     </source>
     <source filename="tuning/wght100_wdth125.ufo" name="wght100_wdth125" familyname="AmstelvarA2 Roman" stylename="wght100_wdth125">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -16915,7 +16689,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -16946,8 +16719,8 @@
     </source>
     <source filename="tuning/wght100_wdth50.ufo" name="wght100_wdth50" familyname="AmstelvarA2 Roman" stylename="wght100_wdth50">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="90"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="84"/>
@@ -17001,7 +16774,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17032,10 +16804,95 @@
     </source>
   </sources>
   <instances>
+    <instance name="wght400" familyname="AmstelvarA2 Roman" stylename="wght400" filename="instances/AmstelvarA2-Roman_wght400.ufo">
+      <location>
+        <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
+        <dimension name="X stem uppercase" xvalue="90"/>
+        <dimension name="Y stem uppercase" xvalue="66"/>
+        <dimension name="Uppercase accents main weight" xvalue="84"/>
+        <dimension name="Uppercase accents secondary weight" xvalue="56"/>
+        <dimension name="X transparent uppercase" xvalue="400"/>
+        <dimension name="X transparent uppercase rounds" xvalue="561"/>
+        <dimension name="X transparent uppercase diagonals" xvalue="410"/>
+        <dimension name="Uppercase accent width" xvalue="258"/>
+        <dimension name="Y transparent uppercase" xvalue="750"/>
+        <dimension name="Y transparent J descender" xvalue="-104"/>
+        <dimension name="X horizontal serif uppercase" xvalue="104"/>
+        <dimension name="Y horizontal serif uppercase" xvalue="50"/>
+        <dimension name="X vertical serif uppercase" xvalue="55"/>
+        <dimension name="Y vertical serif uppercase" xvalue="165"/>
+        <dimension name="Uppercase vertical serif angle" xvalue="18"/>
+        <dimension name="X sidebearing uppercase straights" xvalue="145"/>
+        <dimension name="X sidebearing uppercase rounds" xvalue="40"/>
+        <dimension name="X sidebearing uppercase diagonals" xvalue="69"/>
+        <dimension name="X stem lowercase" xvalue="85"/>
+        <dimension name="Y stem lowercase" xvalue="58"/>
+        <dimension name="Lowercase accents main weight" xvalue="78"/>
+        <dimension name="Lowercase accents secondary weight" xvalue="53"/>
+        <dimension name="X transparent lowercase" xvalue="243"/>
+        <dimension name="X transparent lowercase rounds" xvalue="337"/>
+        <dimension name="X transparent lowercase diagonals" xvalue="248"/>
+        <dimension name="Lowercase accent width" xvalue="235"/>
+        <dimension name="Y transparent lowercase" xvalue="511"/>
+        <dimension name="Y transparent ascender" xvalue="767"/>
+        <dimension name="Y transparent descender" xvalue="-240"/>
+        <dimension name="X horizontal serif lowercase" xvalue="74"/>
+        <dimension name="Y horizontal serif lowercase" xvalue="40"/>
+        <dimension name="X vertical serif lowercase" xvalue="54"/>
+        <dimension name="Y vertical serif lowercase" xvalue="70"/>
+        <dimension name="X sidebearing lowercase straights" xvalue="112"/>
+        <dimension name="X sidebearing lowercase rounds" xvalue="32"/>
+        <dimension name="X sidebearing lowercase diagonals" xvalue="54"/>
+        <dimension name="X stem figures" xvalue="88"/>
+        <dimension name="Y stem figures" xvalue="56"/>
+        <dimension name="X transparent figures" xvalue="329"/>
+        <dimension name="Y transparent figures" xvalue="771"/>
+        <dimension name="X horizontal serif figures" xvalue="129"/>
+        <dimension name="Y horizontal serif figures" xvalue="47"/>
+        <dimension name="X vertical serif figures" xvalue="61"/>
+        <dimension name="Y vertical serif figures" xvalue="117"/>
+        <dimension name="X sidebearing figures round" xvalue="37"/>
+        <dimension name="X stem etcetera" xvalue="94"/>
+        <dimension name="Y stem etcetera" xvalue="56"/>
+        <dimension name="X transparent etcetera" xvalue="642"/>
+        <dimension name="X sidebearing etcetera" xvalue="40"/>
+        <dimension name="Dot width" xvalue="144"/>
+        <dimension name="Lowercase overshoot" xvalue="11"/>
+        <dimension name="Trap width" xvalue="5"/>
+        <dimension name="Trap length" xvalue="60"/>
+        <dimension name="opsz144" xvalue="0"/>
+        <dimension name="opsz144_wdth125" xvalue="0"/>
+        <dimension name="opsz144_wdth50" xvalue="0"/>
+        <dimension name="opsz144_wght100" xvalue="0"/>
+        <dimension name="opsz144_wght1000" xvalue="0"/>
+        <dimension name="opsz144_wght1000_wdth125" xvalue="0"/>
+        <dimension name="opsz144_wght1000_wdth50" xvalue="0"/>
+        <dimension name="opsz144_wght100_wdth125" xvalue="0"/>
+        <dimension name="opsz144_wght100_wdth50" xvalue="0"/>
+        <dimension name="opsz8" xvalue="0"/>
+        <dimension name="opsz8_wdth125" xvalue="0"/>
+        <dimension name="opsz8_wdth50" xvalue="0"/>
+        <dimension name="opsz8_wght100" xvalue="0"/>
+        <dimension name="opsz8_wght1000" xvalue="0"/>
+        <dimension name="opsz8_wght1000_wdth125" xvalue="0"/>
+        <dimension name="opsz8_wght1000_wdth50" xvalue="0"/>
+        <dimension name="opsz8_wght100_wdth125" xvalue="0"/>
+        <dimension name="opsz8_wght100_wdth50" xvalue="0"/>
+        <dimension name="wdth125" xvalue="0"/>
+        <dimension name="wdth50" xvalue="0"/>
+        <dimension name="wght100" xvalue="0"/>
+        <dimension name="wght1000" xvalue="0"/>
+        <dimension name="wght1000_wdth125" xvalue="0"/>
+        <dimension name="wght1000_wdth50" xvalue="0"/>
+        <dimension name="wght100_wdth125" xvalue="0"/>
+        <dimension name="wght100_wdth50" xvalue="0"/>
+      </location>
+    </instance>
     <instance name="opsz144" familyname="AmstelvarA2 Roman" stylename="opsz144" filename="instances/AmstelvarA2-Roman_opsz144.ufo">
       <location>
-        <dimension name="Word space width" xvalue="267"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="267"/>
         <dimension name="X stem uppercase" xvalue="84"/>
         <dimension name="Y stem uppercase" xvalue="16"/>
         <dimension name="Uppercase accents main weight" xvalue="60"/>
@@ -17089,7 +16946,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="67"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="100"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17120,8 +16976,8 @@
     </instance>
     <instance name="opsz144 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144 wdth125" filename="instances/AmstelvarA2-Roman_opsz144_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="267"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="267"/>
         <dimension name="X stem uppercase" xvalue="86"/>
         <dimension name="Y stem uppercase" xvalue="16"/>
         <dimension name="Uppercase accents main weight" xvalue="62"/>
@@ -17175,7 +17031,6 @@
         <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="57"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="100"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17206,8 +17061,8 @@
     </instance>
     <instance name="opsz144 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144 wdth50" filename="instances/AmstelvarA2-Roman_opsz144_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="100"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="100"/>
         <dimension name="X stem uppercase" xvalue="78"/>
         <dimension name="Y stem uppercase" xvalue="19"/>
         <dimension name="Uppercase accents main weight" xvalue="52"/>
@@ -17261,7 +17116,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="86"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="100"/>
@@ -17292,8 +17146,8 @@
     </instance>
     <instance name="opsz144 wght100" familyname="AmstelvarA2 Roman" stylename="opsz144 wght100" filename="instances/AmstelvarA2-Roman_opsz144_wght100.ufo">
       <location>
-        <dimension name="Word space width" xvalue="256"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="256"/>
         <dimension name="X stem uppercase" xvalue="34"/>
         <dimension name="Y stem uppercase" xvalue="13"/>
         <dimension name="Uppercase accents main weight" xvalue="30"/>
@@ -17347,7 +17201,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="44"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17378,8 +17231,8 @@
     </instance>
     <instance name="opsz144 wght1000" familyname="AmstelvarA2 Roman" stylename="opsz144 wght1000" filename="instances/AmstelvarA2-Roman_opsz144_wght1000.ufo">
       <location>
-        <dimension name="Word space width" xvalue="198"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="198"/>
         <dimension name="X stem uppercase" xvalue="244"/>
         <dimension name="Y stem uppercase" xvalue="34"/>
         <dimension name="Uppercase accents main weight" xvalue="88"/>
@@ -17433,7 +17286,6 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="2"/>
         <dimension name="Trap length" xvalue="57"/>
-        <dimension name="Bars" xvalue="711"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17464,8 +17316,8 @@
     </instance>
     <instance name="opsz144 wght1000 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144 wght1000 wdth125" filename="instances/AmstelvarA2-Roman_opsz144_wght1000_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="225"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="225"/>
         <dimension name="X stem uppercase" xvalue="246"/>
         <dimension name="Y stem uppercase" xvalue="35"/>
         <dimension name="Uppercase accents main weight" xvalue="87"/>
@@ -17519,7 +17371,6 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="67"/>
-        <dimension name="Bars" xvalue="704"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17550,8 +17401,8 @@
     </instance>
     <instance name="opsz144 wght1000 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144 wght1000 wdth50" filename="instances/AmstelvarA2-Roman_opsz144_wght1000_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="156"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="156"/>
         <dimension name="X stem uppercase" xvalue="239"/>
         <dimension name="Y stem uppercase" xvalue="30"/>
         <dimension name="Uppercase accents main weight" xvalue="88"/>
@@ -17605,7 +17456,6 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="62"/>
-        <dimension name="Bars" xvalue="716"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17636,8 +17486,8 @@
     </instance>
     <instance name="opsz144 wght100 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz144 wght100 wdth125" filename="instances/AmstelvarA2-Roman_opsz144_wght100_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="278"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="278"/>
         <dimension name="X stem uppercase" xvalue="32"/>
         <dimension name="Y stem uppercase" xvalue="16"/>
         <dimension name="Uppercase accents main weight" xvalue="34"/>
@@ -17691,7 +17541,6 @@
         <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="65"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17722,8 +17571,8 @@
     </instance>
     <instance name="opsz144 wght100 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz144 wght100 wdth50" filename="instances/AmstelvarA2-Roman_opsz144_wght100_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="122"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="122"/>
         <dimension name="X stem uppercase" xvalue="28"/>
         <dimension name="Y stem uppercase" xvalue="14"/>
         <dimension name="Uppercase accents main weight" xvalue="30"/>
@@ -17777,7 +17626,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="0"/>
         <dimension name="Trap length" xvalue="50"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17808,8 +17656,8 @@
     </instance>
     <instance name="opsz8" familyname="AmstelvarA2 Roman" stylename="opsz8" filename="instances/AmstelvarA2-Roman_opsz8.ufo">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="112"/>
         <dimension name="Y stem uppercase" xvalue="91"/>
         <dimension name="Uppercase accents main weight" xvalue="107"/>
@@ -17863,7 +17711,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="60"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17894,8 +17741,8 @@
     </instance>
     <instance name="opsz8 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8 wdth125" filename="instances/AmstelvarA2-Roman_opsz8_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="114"/>
         <dimension name="Y stem uppercase" xvalue="91"/>
         <dimension name="Uppercase accents main weight" xvalue="97"/>
@@ -17949,7 +17796,6 @@
         <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="116"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -17980,8 +17826,8 @@
     </instance>
     <instance name="opsz8 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8 wdth50" filename="instances/AmstelvarA2-Roman_opsz8_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="152"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="152"/>
         <dimension name="X stem uppercase" xvalue="107"/>
         <dimension name="Y stem uppercase" xvalue="89"/>
         <dimension name="Uppercase accents main weight" xvalue="98"/>
@@ -18035,7 +17881,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="72"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18066,8 +17911,8 @@
     </instance>
     <instance name="opsz8 wght100" familyname="AmstelvarA2 Roman" stylename="opsz8 wght100" filename="instances/AmstelvarA2-Roman_opsz8_wght100.ufo">
       <location>
-        <dimension name="Word space width" xvalue="256"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="256"/>
         <dimension name="X stem uppercase" xvalue="62"/>
         <dimension name="Y stem uppercase" xvalue="56"/>
         <dimension name="Uppercase accents main weight" xvalue="60"/>
@@ -18121,7 +17966,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="3"/>
         <dimension name="Trap length" xvalue="96"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18152,8 +17996,8 @@
     </instance>
     <instance name="opsz8 wght1000" familyname="AmstelvarA2 Roman" stylename="opsz8 wght1000" filename="instances/AmstelvarA2-Roman_opsz8_wght1000.ufo">
       <location>
-        <dimension name="Word space width" xvalue="250"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="250"/>
         <dimension name="X stem uppercase" xvalue="272"/>
         <dimension name="Y stem uppercase" xvalue="106"/>
         <dimension name="Uppercase accents main weight" xvalue="125"/>
@@ -18207,7 +18051,6 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="58"/>
-        <dimension name="Bars" xvalue="620"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18238,8 +18081,8 @@
     </instance>
     <instance name="opsz8 wght1000 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8 wght1000 wdth125" filename="instances/AmstelvarA2-Roman_opsz8_wght1000_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="310"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="310"/>
         <dimension name="X stem uppercase" xvalue="274"/>
         <dimension name="Y stem uppercase" xvalue="106"/>
         <dimension name="Uppercase accents main weight" xvalue="140"/>
@@ -18293,7 +18136,6 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="108"/>
-        <dimension name="Bars" xvalue="633"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18324,8 +18166,8 @@
     </instance>
     <instance name="opsz8 wght1000 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8 wght1000 wdth50" filename="instances/AmstelvarA2-Roman_opsz8_wght1000_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="240"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="240"/>
         <dimension name="X stem uppercase" xvalue="268"/>
         <dimension name="Y stem uppercase" xvalue="104"/>
         <dimension name="Uppercase accents main weight" xvalue="114"/>
@@ -18379,7 +18221,6 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="78"/>
-        <dimension name="Bars" xvalue="605"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18410,8 +18251,8 @@
     </instance>
     <instance name="opsz8 wght100 wdth125" familyname="AmstelvarA2 Roman" stylename="opsz8 wght100 wdth125" filename="instances/AmstelvarA2-Roman_opsz8_wght100_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="256"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="256"/>
         <dimension name="X stem uppercase" xvalue="64"/>
         <dimension name="Y stem uppercase" xvalue="54"/>
         <dimension name="Uppercase accents main weight" xvalue="72"/>
@@ -18465,7 +18306,6 @@
         <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="3"/>
         <dimension name="Trap length" xvalue="68"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18496,8 +18336,8 @@
     </instance>
     <instance name="opsz8 wght100 wdth50" familyname="AmstelvarA2 Roman" stylename="opsz8 wght100 wdth50" filename="instances/AmstelvarA2-Roman_opsz8_wght100_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="160"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="160"/>
         <dimension name="X stem uppercase" xvalue="57"/>
         <dimension name="Y stem uppercase" xvalue="54"/>
         <dimension name="Uppercase accents main weight" xvalue="59"/>
@@ -18551,7 +18391,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="6"/>
         <dimension name="Trap length" xvalue="68"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18582,8 +18421,8 @@
     </instance>
     <instance name="wdth125" familyname="AmstelvarA2 Roman" stylename="wdth125" filename="instances/AmstelvarA2-Roman_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="320"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="320"/>
         <dimension name="X stem uppercase" xvalue="92"/>
         <dimension name="Y stem uppercase" xvalue="66"/>
         <dimension name="Uppercase accents main weight" xvalue="74"/>
@@ -18637,7 +18476,6 @@
         <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="89"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18668,8 +18506,8 @@
     </instance>
     <instance name="wdth50" familyname="AmstelvarA2 Roman" stylename="wdth50" filename="instances/AmstelvarA2-Roman_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="152"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="152"/>
         <dimension name="X stem uppercase" xvalue="85"/>
         <dimension name="Y stem uppercase" xvalue="64"/>
         <dimension name="Uppercase accents main weight" xvalue="78"/>
@@ -18723,7 +18561,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="50"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18754,8 +18591,8 @@
     </instance>
     <instance name="wght100" familyname="AmstelvarA2 Roman" stylename="wght100" filename="instances/AmstelvarA2-Roman_wght100.ufo">
       <location>
-        <dimension name="Word space width" xvalue="256"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="256"/>
         <dimension name="X stem uppercase" xvalue="40"/>
         <dimension name="Y stem uppercase" xvalue="31"/>
         <dimension name="Uppercase accents main weight" xvalue="42"/>
@@ -18809,7 +18646,6 @@
         <dimension name="Lowercase overshoot" xvalue="11"/>
         <dimension name="Trap width" xvalue="2"/>
         <dimension name="Trap length" xvalue="68"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18840,8 +18676,8 @@
     </instance>
     <instance name="wght1000" familyname="AmstelvarA2 Roman" stylename="wght1000" filename="instances/AmstelvarA2-Roman_wght1000.ufo">
       <location>
-        <dimension name="Word space width" xvalue="250"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="250"/>
         <dimension name="X stem uppercase" xvalue="250"/>
         <dimension name="Y stem uppercase" xvalue="81"/>
         <dimension name="Uppercase accents main weight" xvalue="102"/>
@@ -18895,7 +18731,6 @@
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="63"/>
-        <dimension name="Bars" xvalue="640"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18926,8 +18761,8 @@
     </instance>
     <instance name="wght1000 wdth125" familyname="AmstelvarA2 Roman" stylename="wght1000 wdth125" filename="instances/AmstelvarA2-Roman_wght1000_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="250"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="250"/>
         <dimension name="X stem uppercase" xvalue="252"/>
         <dimension name="Y stem uppercase" xvalue="81"/>
         <dimension name="Uppercase accents main weight" xvalue="103"/>
@@ -18981,7 +18816,6 @@
         <dimension name="Lowercase overshoot" xvalue="18"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="110"/>
-        <dimension name="Bars" xvalue="648"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -19012,8 +18846,8 @@
     </instance>
     <instance name="wght1000 wdth50" familyname="AmstelvarA2 Roman" stylename="wght1000 wdth50" filename="instances/AmstelvarA2-Roman_wght1000_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="150"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="150"/>
         <dimension name="X stem uppercase" xvalue="246"/>
         <dimension name="Y stem uppercase" xvalue="79"/>
         <dimension name="Uppercase accents main weight" xvalue="96"/>
@@ -19067,7 +18901,6 @@
         <dimension name="Lowercase overshoot" xvalue="12"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="57"/>
-        <dimension name="Bars" xvalue="630"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -19098,8 +18931,8 @@
     </instance>
     <instance name="wght100 wdth125" familyname="AmstelvarA2 Roman" stylename="wght100 wdth125" filename="instances/AmstelvarA2-Roman_wght100_wdth125.ufo">
       <location>
-        <dimension name="Word space width" xvalue="256"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="256"/>
         <dimension name="X stem uppercase" xvalue="42"/>
         <dimension name="Y stem uppercase" xvalue="31"/>
         <dimension name="Uppercase accents main weight" xvalue="49"/>
@@ -19153,7 +18986,6 @@
         <dimension name="Lowercase overshoot" xvalue="14"/>
         <dimension name="Trap width" xvalue="2"/>
         <dimension name="Trap length" xvalue="49"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -19184,8 +19016,8 @@
     </instance>
     <instance name="wght100 wdth50" familyname="AmstelvarA2 Roman" stylename="wght100 wdth50" filename="instances/AmstelvarA2-Roman_wght100_wdth50.ufo">
       <location>
-        <dimension name="Word space width" xvalue="105"/>
         <dimension name="Grade" xvalue="0"/>
+        <dimension name="Word space width" xvalue="105"/>
         <dimension name="X stem uppercase" xvalue="35"/>
         <dimension name="Y stem uppercase" xvalue="29"/>
         <dimension name="Uppercase accents main weight" xvalue="38"/>
@@ -19239,7 +19071,6 @@
         <dimension name="Lowercase overshoot" xvalue="10"/>
         <dimension name="Trap width" xvalue="1"/>
         <dimension name="Trap length" xvalue="31"/>
-        <dimension name="Bars" xvalue="0"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>

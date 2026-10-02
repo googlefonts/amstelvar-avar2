@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cy-descendercomb" format="2">
-	<advance width="500"/>
+	<advance width="1024"/>
+	<outline>
+		<contour>
+			<point x="713" y="162" type="line"/>
+			<point x="713" y="47" type="line"/>
+			<point x="590" y="-323" type="line"/>
+			<point x="510" y="-323" type="line"/>
+			<point x="546" y="162" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_cy_descender" x="448" y="0"/>
+	<anchor name="_cy_descender_corner" x="713" y="162"/>
 </glyph>

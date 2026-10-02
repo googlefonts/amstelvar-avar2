@@ -2,4 +2,8 @@
 <glyph name="zhedescender" format="2">
 	<unicode hex="0497"/>
 	<advance width="2762"/>
+	<outline>
+		<component base="zhe"/>
+		<component base="zhe-descendercomb" xOffset="1878" yOffset="-5"/>
+	</outline>
 </glyph>

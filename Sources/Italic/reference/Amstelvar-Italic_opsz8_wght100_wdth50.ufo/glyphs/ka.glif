@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka" format="2">
-	<unicode hex="A98F"/>
+	<unicode hex="043A"/>
 	<advance width="861"/>
 	<outline>
 		<contour>
@@ -26,7 +26,6 @@
 			<point x="513" y="-12"/>
 			<point x="476" y="53" type="qcurve" smooth="yes"/>
 			<point x="202" y="533" type="line"/>
-			<point x="207" y="560" type="line"/>
 			<point x="278" y="620" type="line"/>
 		</contour>
 		<contour>
@@ -35,10 +34,9 @@
 			<point x="662" y="923"/>
 			<point x="646" y="923" type="qcurve" smooth="yes"/>
 			<point x="626" y="923"/>
-			<point x="573" y="873"/>
+			<point x="572" y="874"/>
 			<point x="503" y="795" type="qcurve" smooth="yes"/>
-			<point x="253" y="514" type="line"/>
-			<point x="202" y="533" type="line"/>
+			<point x="144" y="387" type="line"/>
 			<point x="207" y="560" type="line"/>
 			<point x="451" y="853" type="line" smooth="yes"/>
 			<point x="555" y="978"/>
@@ -52,4 +50,6 @@
 			<point x="706" y="758" type="qcurve"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="439" y="1050"/>
+	<anchor name="cy_descender_corner" x="701" y="131"/>
 </glyph>

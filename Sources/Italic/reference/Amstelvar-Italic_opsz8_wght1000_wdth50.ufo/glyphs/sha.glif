@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sha" format="2">
-	<unicode hex="2C4E"/>
+	<unicode hex="0448"/>
 	<advance width="1960"/>
 	<outline>
 		<contour>
@@ -59,4 +59,6 @@
 			<point x="1896" y="44" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="1058" y="1100"/>
+	<anchor name="cy_descender" x="1513" y="0"/>
 </glyph>

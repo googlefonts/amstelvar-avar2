@@ -229,7 +229,7 @@ Dze = S | 0x405
 Dzhe = TseDzhe-base.case + Dzhe-descendercomb.case@dzhe_descender | 0x40F
 Ebrevecyr = Ecyr + breve.cyrcomb.case@top | 0xf524
 Emacroncyr = Ecyr + macroncomb.case@top | 0xf522
-# Ef = Phi | 0x424
+Ef = Phi | 0x424
 El.bgr = Lambda | None
 Em = M | 0x41c
 En = H | 0x41d
@@ -753,3 +753,13 @@ softhyphen = hyphen | 0x00AD
 
 increment = Delta | 0x2206
 ohm = Omega | 0x2126
+
+# ---------------------------
+#  S U B S T I T U T I O N S
+# ---------------------------
+
+Oslash.rvrn = O + diagonalbarO.rvrn@center | None
+Oslashacute.rvrn = O + diagonalbarO.rvrn@center + acutecomb.case@O:top | None
+
+oslash.rvrn = o + diagonalbaro.rvrn@center | None
+oslashacute.rvrn = o + diagonalbaro.rvrn@center + acutecomb@o:top | None

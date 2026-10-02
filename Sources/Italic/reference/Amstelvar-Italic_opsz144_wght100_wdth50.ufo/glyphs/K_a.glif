@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ka" format="2">
+	<unicode hex="041A"/>
 	<advance width="773"/>
 	<outline>
 		<contour>
@@ -42,4 +43,7 @@
 			<point x="506" y="41" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="cy_descender" x="528" y="0"/>
+	<anchor name="bottom" x="272" y="0"/>
+	<anchor name="top" x="550" y="1500"/>
 </glyph>

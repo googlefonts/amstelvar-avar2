@@ -98,6 +98,8 @@
 		<string>C_hi.glif</string>
 		<key>Cy-descendercomb.case</key>
 		<string>C_y-descendercomb.case.glif</string>
+		<key>Cy-descendercombdiagonal.case</key>
+		<string>C_y-descendercombdiagonal.case.glif</string>
 		<key>D</key>
 		<string>D_.glif</string>
 		<key>DZcaron</key>
@@ -120,6 +122,8 @@
 		<string>D_ze.glif</string>
 		<key>Dzhe</key>
 		<string>D_zhe.glif</string>
+		<key>Dzhe-descendercomb.case</key>
+		<string>D_zhe-descendercomb.case.glif</string>
 		<key>E</key>
 		<string>E_.glif</string>
 		<key>Eacute</key>
@@ -450,6 +454,8 @@
 		<string>O_slash.rvrn.glif</string>
 		<key>Oslashacute</key>
 		<string>O_slashacute.glif</string>
+		<key>Oslashacute.rvrn</key>
+		<string>O_slashacute.rvrn.glif</string>
 		<key>Otilde</key>
 		<string>O_tilde.glif</string>
 		<key>Otildemacron</key>
@@ -468,6 +474,8 @@
 		<string>P_si.glif</string>
 		<key>Q</key>
 		<string>Q_.glif</string>
+		<key>Q.rvrn</key>
+		<string>Q_.rvrn.glif</string>
 		<key>R</key>
 		<string>R_.glif</string>
 		<key>Racute</key>
@@ -530,6 +538,8 @@
 		<string>T_horn.glif</string>
 		<key>Tse</key>
 		<string>T_se.glif</string>
+		<key>TseDzhe-base.case</key>
+		<string>T_seD_zhe-base.case.glif</string>
 		<key>Tshe</key>
 		<string>T_she.glif</string>
 		<key>U</key>
@@ -964,6 +974,10 @@
 		<string>currency.glif</string>
 		<key>cy-descendercomb</key>
 		<string>cy-descendercomb.glif</string>
+		<key>cy-descendercomb.bgr</key>
+		<string>cy-descendercomb.bgr.glif</string>
+		<key>cy-descendercomb.diagonal</key>
+		<string>cy-descendercomb.diagonal.glif</string>
 		<key>d</key>
 		<string>d.glif</string>
 		<key>dagger</key>
@@ -1078,6 +1092,8 @@
 		<string>dze.glif</string>
 		<key>dzhe</key>
 		<string>dzhe.glif</string>
+		<key>dzhe-descendercomb</key>
+		<string>dzhe-descendercomb.glif</string>
 		<key>e</key>
 		<string>e.glif</string>
 		<key>eacute</key>
@@ -1124,6 +1140,8 @@
 		<string>eight.lf.glif</string>
 		<key>eight.tab</key>
 		<string>eight.tab.glif</string>
+		<key>eightsuperior</key>
+		<string>eightsuperior.glif</string>
 		<key>einvertedbreve</key>
 		<string>einvertedbreve.glif</string>
 		<key>el</key>
@@ -1202,6 +1220,8 @@
 		<string>five.lf.glif</string>
 		<key>five.tab</key>
 		<string>five.tab.glif</string>
+		<key>fivesuperior</key>
+		<string>fivesuperior.glif</string>
 		<key>fl</key>
 		<string>fl.glif</string>
 		<key>florin</key>
@@ -1550,6 +1570,8 @@
 		<string>nine.lf.glif</string>
 		<key>nine.tab</key>
 		<string>nine.tab.glif</string>
+		<key>ninesuperior</key>
+		<string>ninesuperior.glif</string>
 		<key>nj</key>
 		<string>nj.glif</string>
 		<key>nje</key>
@@ -1674,6 +1696,8 @@
 		<string>oslash.rvrn.glif</string>
 		<key>oslashacute</key>
 		<string>oslashacute.glif</string>
+		<key>oslashacute.rvrn</key>
+		<string>oslashacute.rvrn.glif</string>
 		<key>otilde</key>
 		<string>otilde.glif</string>
 		<key>otildemacron</key>
@@ -1812,6 +1836,8 @@
 		<string>seven.lf.glif</string>
 		<key>seven.tab</key>
 		<string>seven.tab.glif</string>
+		<key>sevensuperior</key>
+		<string>sevensuperior.glif</string>
 		<key>sha</key>
 		<string>sha.glif</string>
 		<key>sha.bgr</key>
@@ -1832,6 +1858,8 @@
 		<string>six.lf.glif</string>
 		<key>six.tab</key>
 		<string>six.tab.glif</string>
+		<key>sixsuperior</key>
+		<string>sixsuperior.glif</string>
 		<key>slash</key>
 		<string>slash.glif</string>
 		<key>soft</key>
@@ -1910,6 +1938,8 @@
 		<string>tse.glif</string>
 		<key>tse.bgr</key>
 		<string>tse.bgr.glif</string>
+		<key>tsedzhe-base</key>
+		<string>tsedzhe-base.glif</string>
 		<key>tshe</key>
 		<string>tshe.glif</string>
 		<key>two</key>
