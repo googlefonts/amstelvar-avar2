@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n" format="2">
-	<unicode hex="006E"/>
 	<advance width="1202"/>
 	<outline>
 		<contour>
@@ -22,10 +21,10 @@
 			<point x="667.7340087891" y="94.90234375" type="line"/>
 			<point x="786.3571166992" y="686.0805053711" type="line" smooth="yes"/>
 			<point x="801.696105957" y="759.6541748047"/>
-			<point x="760.3820800781" y="866.6390991211"/>
-			<point x="670.7700805664" y="866.6390991211" type="qcurve" smooth="yes"/>
-			<point x="582.1245727539" y="866.6390991211"/>
-			<point x="387.809387207" y="709.5973510742"/>
+			<point x="762.3820800781" y="866.6390991211"/>
+			<point x="675.7700805664" y="866.6390991211" type="qcurve" smooth="yes"/>
+			<point x="596.1245727539" y="866.6390991211"/>
+			<point x="388.809387207" y="710.5973510742"/>
 			<point x="305.0591430664" y="613.7565917969" type="qcurve"/>
 			<point x="272.3430786133" y="655.7709960938" type="line"/>
 			<point x="364.0037231445" y="802.8973999023"/>
@@ -42,4 +41,10 @@
 	<anchor name="bottom" x="522" y="0"/>
 	<anchor name="top" x="602" y="1000"/>
 	<anchor name="liga" x="1173" y="0"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_wght400.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eng" format="2">
-	<unicode hex="014B"/>
-	<advance width="1097"/>
-	<outline>
-		<component base="engn"/>
-		<component base="engtail" xOffset="395"/>
-	</outline>
+  <advance width="1097"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="line"/>
+      <point x="66" y="13" type="line"/>
+      <point x="208" y="40" type="line"/>
+      <point x="211" y="469" type="line"/>
+      <point x="206" y="869" type="line"/>
+      <point x="52" y="894" type="line"/>
+      <point x="52" y="909" type="line"/>
+      <point x="248" y="923" type="line"/>
+      <point x="255" y="922" type="line"/>
+      <point x="266" y="754" type="line"/>
+      <point x="314" y="830"/>
+      <point x="517" y="942"/>
+      <point x="631" y="942" type="qcurve" smooth="yes"/>
+      <point x="784" y="942"/>
+      <point x="923" y="811"/>
+      <point x="920" y="694" type="qcurve" smooth="yes"/>
+      <point x="918" y="622"/>
+      <point x="918" y="509"/>
+      <point x="918" y="491" type="qcurve"/>
+      <point x="918" y="-160.75" type="line" smooth="yes"/>
+      <point x="918" y="-269"/>
+      <point x="814.765" y="-368.575"/>
+      <point x="736.54" y="-368.575" type="qcurve" smooth="yes"/>
+      <point x="666.68" y="-368.575"/>
+      <point x="563.06" y="-305.725"/>
+      <point x="544.625" y="-279.765" type="qcurve"/>
+      <point x="553.13" y="-267.3" type="line"/>
+      <point x="571.595" y="-290.775"/>
+      <point x="665.8" y="-348.11"/>
+      <point x="726.055" y="-348.11" type="qcurve" smooth="yes"/>
+      <point x="784.3" y="-348.11"/>
+      <point x="855" y="-274"/>
+      <point x="855" y="-194" type="qcurve" smooth="yes"/>
+      <point x="855" y="467" type="line"/>
+      <point x="855" y="683" type="line" smooth="yes"/>
+      <point x="855" y="807"/>
+      <point x="738" y="906"/>
+      <point x="615" y="906" type="qcurve" smooth="yes"/>
+      <point x="501" y="906"/>
+      <point x="313" y="805"/>
+      <point x="267" y="737" type="qcurve"/>
+      <point x="267" y="469" type="line"/>
+      <point x="277" y="40" type="line"/>
+      <point x="439" y="13" type="line"/>
+      <point x="439" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.xTools4.tempEdit.glyphSetPath</key>
+      <string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Roman/reference/Amstelvar-Roman_opsz144_wght100.ufo/glyphs</string>
+    </dict>
+  </lib>
 </glyph>

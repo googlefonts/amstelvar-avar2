@@ -442,17 +442,17 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['eight.tab']
+    # glyphNames = ['Eng']
     # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
+    # glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
     # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
@@ -470,7 +470,7 @@ if __name__ == '__main__':
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
-    # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=False)
+    # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
@@ -480,11 +480,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
 
     # --- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.tuningAxesHidden = True
-    # p.tuning = True # also used to direct BlendsPreview proof to its folder
-    # p.useLongAxisNames = True # keep it disabled during development!
-    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    p.parametricAxesHidden = True
+    p.tuningAxesHidden = True
+    p.tuning = True # also used to direct BlendsPreview proof to its folder
+    p.useLongAxisNames = True # keep it disabled during development!
+    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -497,7 +497,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -511,7 +511,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n" format="2">
-	<unicode hex="006E"/>
 	<advance width="1163"/>
 	<outline>
 		<contour>
@@ -42,4 +41,10 @@
 	<anchor name="bottom" x="522" y="0"/>
 	<anchor name="top" x="602" y="1000"/>
 	<anchor name="liga" x="1173" y="0"/>
+	<lib>
+		<dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_wght400.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>

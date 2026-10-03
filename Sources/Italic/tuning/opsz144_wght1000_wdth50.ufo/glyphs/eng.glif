@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eng" format="2">
-	<unicode hex="014B"/>
 	<advance width="1178"/>
 	<outline>
-		<component base="engn"/>
-		<component base="engtail" xOffset="381.6520996094"/>
+		<contour>
+			<point x="96.108215332" y="-21" type="line"/>
+			<point x="22.108215332" y="113" type="line"/>
+			<point x="120.2979125977" y="496.5162353516" type="line"/>
+			<point x="188.1620483398" y="834.1098632812" type="line"/>
+			<point x="55.104675293" y="841.9673461914" type="line"/>
+			<point x="61.7864379883" y="926.0328369141" type="line"/>
+			<point x="170.8961791992" y="1030.4534301758" type="line"/>
+			<point x="339.8961791992" y="996.4534301758" type="line"/>
+			<point x="291.2778930664" y="682.5455322266" type="line"/>
+			<point x="334.8961791992" y="750.5162353516" type="line"/>
+			<point x="192.7064819336" y="135.7487792969" type="line"/>
+			<point x="235.7064819336" y="46.7487792969" type="line"/>
+		</contour>
+		<contour>
+			<point x="326.6520996094" y="-248" type="qcurve"/>
+			<point x="426.650390625" y="-154.6016845703" type="line"/>
+			<point x="460.6500244141" y="-194.2016601562"/>
+			<point x="497.6512451172" y="-199.4027099609"/>
+			<point x="516.4516601562" y="-199.4027099609" type="qcurve" smooth="yes"/>
+			<point x="552.8518066406" y="-199.4027099609"/>
+			<point x="603.0515136719" y="-147.6027832031"/>
+			<point x="608.4519042969" y="-124.8009033203" type="qcurve" smooth="yes"/>
+			<point x="783.3565063477" y="713.51953125" type="line" smooth="yes"/>
+			<point x="788.4193115234" y="736.8335571289"/>
+			<point x="732.5595703125" y="773.51953125"/>
+			<point x="656.5791015625" y="773.51953125" type="qcurve" smooth="yes"/>
+			<point x="550.2666625977" y="773.51953125"/>
+			<point x="386.4001464844" y="676.8079833984"/>
+			<point x="399.2479858398" y="711.3555297852" type="qcurve"/>
+			<point x="284.0662231445" y="719.3883056641" type="line"/>
+			<point x="359.2543945312" y="868.6799926758"/>
+			<point x="669.7581176758" y="1017.5162353516"/>
+			<point x="736.7462158203" y="1017.5162353516" type="qcurve" smooth="yes"/>
+			<point x="832.0917358398" y="1017.5162353516"/>
+			<point x="984.3279418945" y="788.9643554688"/>
+			<point x="956.2417602539" y="666.5162353516" type="qcurve" smooth="yes"/>
+			<point x="785.4916992188" y="-109" type="line" smooth="yes"/>
+			<point x="755.4489746094" y="-254.1779174805"/>
+			<point x="662.5073242188" y="-423"/>
+			<point x="544.6065673828" y="-423" type="qcurve" smooth="yes"/>
+			<point x="429.9913330078" y="-423"/>
+			<point x="333.3366699219" y="-298.9211425781"/>
+		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.xTools4.tempEdit.glyphSetPath</key>
+			<string>/Users/gferreira/fontbureau/amstelvar-avar2/Sources/Italic/AmstelvarA2-Italic_wght400.ufo/glyphs</string>
+		</dict>
+	</lib>
 </glyph>
