@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sevensuperior" format="2">
-	<unicode hex="2077"/>
-	<advance width="698"/>
-	<outline>
-		<contour>
-			<point x="86.8583374023" y="1239.2264404297" type="line"/>
-			<point x="164" y="1500" type="line"/>
-			<point x="778.5632324219" y="1500" type="line"/>
-			<point x="808.0632324219" y="1453.5" type="line"/>
-			<point x="736.5949707031" y="1336.6301269531"/>
-			<point x="433.4379882812" y="907.3251953125"/>
-			<point x="367.4406738281" y="745.1102905273" type="qcurve"/>
-			<point x="298.788269043" y="707.4978027344" type="line"/>
-			<point x="299.4537963867" y="710.3327026367" type="line"/>
-			<point x="374.1821899414" y="873.0326538086"/>
-			<point x="537.7237548828" y="1180.5732421875"/>
-			<point x="631.5493164062" y="1342.7445678711" type="qcurve"/>
-			<point x="626.5432739258" y="1352.7385253906" type="line"/>
-			<point x="218.1100463867" y="1352.7385253906" type="line"/>
-			<point x="167.7810668945" y="1239.2264404297" type="line"/>
-		</contour>
-	</outline>
+  <advance width="698"/>
+  <unicode hex="2077"/>
+  <anchor x="467" y="1500" name="_frac_left"/>
+  <anchor x="307" y="671" name="_frac_right"/>
+  <outline>
+    <contour>
+      <point x="86.85833740234375" y="1239.2264404296875" type="line"/>
+      <point x="164.00000000000625" y="1500.0" type="line"/>
+      <point x="778.563232421875" y="1500.0" type="line"/>
+      <point x="808.063232421875" y="1453.5" type="line"/>
+      <point x="736.594970703125" y="1336.630126953125"/>
+      <point x="433.43798828125" y="907.3251953125"/>
+      <point x="367.440673828125" y="745.1102905273438" type="qcurve"/>
+      <point x="298.78826904296875" y="707.497802734375" type="line"/>
+      <point x="299.45379638671875" y="710.3327026367188" type="line"/>
+      <point x="374.18218994140625" y="873.0326538085938"/>
+      <point x="537.7237548828125" y="1180.5732421875"/>
+      <point x="631.54931640625" y="1342.7445678710938" type="qcurve"/>
+      <point x="626.5432739257812" y="1352.738525390625" type="line"/>
+      <point x="218.11004638671875" y="1352.738525390625" type="line"/>
+      <point x="167.78106689453125" y="1239.2264404296875" type="line"/>
+    </contour>
+  </outline>
 </glyph>

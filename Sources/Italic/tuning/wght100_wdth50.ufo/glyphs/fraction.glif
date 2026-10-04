@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction" format="2">
-	<unicode hex="2044"/>
-	<advance width="358"/>
-	<outline>
-		<contour>
-			<point x="-314.8637084961" y="47.4481201172" type="line"/>
-			<point x="503.5144042969" y="1529.9365844727" type="line"/>
-			<point x="587.4401855469" y="1469.4733276367" type="line"/>
-			<point x="-230.9379272461" y="-13.0151367188" type="line"/>
-		</contour>
-	</outline>
+  <advance width="358"/>
+  <unicode hex="2044"/>
+  <anchor x="-173" y="1500" name="frac_left"/>
+  <anchor x="591" y="0" name="frac_right"/>
+  <outline>
+    <contour>
+      <point x="-314.86370849609375" y="47.4481201171875" type="line"/>
+      <point x="503.514404296875" y="1529.9365844726562" type="line"/>
+      <point x="587.440185546875" y="1469.4733276367188" type="line"/>
+      <point x="-230.93792724609375" y="-13.01513671875" type="line"/>
+    </contour>
+  </outline>
 </glyph>
