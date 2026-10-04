@@ -442,7 +442,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][0]
+    subFamily = ['Roman', 'Italic'][1]
 
     start = time.time()
 
@@ -470,7 +470,7 @@ if __name__ == '__main__':
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP0', preflight=False, parametric=True, tuning=False)
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
-    # p.copyUnicodesFromDefault(preflight=True, parametric=False, tuning=False, reference=True)
+    # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
     # p.copyKerningFromDefault()
 
@@ -479,13 +479,13 @@ if __name__ == '__main__':
 
     # --- measuring ---
     # p.extractMeasurements()
-
+ 
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -498,7 +498,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
