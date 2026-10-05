@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevensuperior" format="2">
-	<advance width="742"/>
+	<unicode hex="2077"/>
+	<advance width="761"/>
 	<outline>
 		<contour>
-			<point x="108.9971923828" y="1200.7938232422" type="line"/>
-			<point x="237.4489746094" y="1500" type="line"/>
-			<point x="803.0308227539" y="1500" type="line"/>
-			<point x="842.4539794922" y="1435.7306518555" type="line"/>
-			<point x="682.1329956055" y="1231.5942382812"/>
-			<point x="550.5512695312" y="860.578125"/>
-			<point x="529.3595581055" y="699.9295654297" type="qcurve"/>
-			<point x="205.0119628906" y="589.5420532227" type="line"/>
-			<point x="117.3464355469" y="711.7071533203" type="line"/>
-			<point x="234.1967773438" y="860.7407836914"/>
-			<point x="505.4688110352" y="1153.8613891602"/>
-			<point x="643.8056640625" y="1248.2473144531" type="qcurve"/>
-			<point x="635.8198242188" y="1257.2614746094" type="line"/>
-			<point x="228.229675293" y="1255.2614746094" type="line"/>
-			<point x="173.6658325195" y="1200.7938232422" type="line"/>
+			<point x="105" y="1183" type="line"/>
+			<point x="199" y="1500" type="line"/>
+			<point x="823" y="1500" type="line"/>
+			<point x="862" y="1436" type="line"/>
+			<point x="697" y="1212"/>
+			<point x="489" y="866"/>
+			<point x="448" y="697" type="qcurve"/>
+			<point x="167" y="590" type="line"/>
+			<point x="117" y="662" type="line"/>
+			<point x="257" y="871"/>
+			<point x="542" y="1147"/>
+			<point x="651" y="1250" type="qcurve"/>
+			<point x="647" y="1258" type="line"/>
+			<point x="195" y="1258" type="line"/>
+			<point x="162" y="1183" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="519" y="1500"/>
+	<anchor name="_frac_right" x="331" y="623"/>
 </glyph>

@@ -724,8 +724,6 @@
 		<string>acutecomb-stack.case.glif</string>
 		<key>acutecomb.case</key>
 		<string>acutecomb.case.glif</string>
-		<key>acutecombstack.case</key>
-		<string>acutecombstack.case.glif</string>
 		<key>acyr</key>
 		<string>acyr.glif</string>
 		<key>adblgrave</key>
@@ -826,8 +824,6 @@
 		<string>brevecomb-stack.case.glif</string>
 		<key>brevecomb.case</key>
 		<string>brevecomb.case.glif</string>
-		<key>brevecombstack.case</key>
-		<string>brevecombstack.case.glif</string>
 		<key>breveinverted</key>
 		<string>breveinverted.glif</string>
 		<key>breveinverted.case</key>
@@ -908,8 +904,6 @@
 		<string>circumflexcomb-stack.case.glif</string>
 		<key>circumflexcomb.case</key>
 		<string>circumflexcomb.case.glif</string>
-		<key>circumflexcombstack.case</key>
-		<string>circumflexcombstack.case.glif</string>
 		<key>colon</key>
 		<string>colon.glif</string>
 		<key>colonsign</key>
@@ -968,6 +962,8 @@
 		<string>degree.glif</string>
 		<key>delta</key>
 		<string>delta.glif</string>
+		<key>descenderinverted-cy</key>
+		<string>descenderinverted-cy.glif</string>
 		<key>diagonalbarL</key>
 		<string>diagonalbarL_.glif</string>
 		<key>diagonalbarO</key>
@@ -1000,8 +996,6 @@
 		<string>dieresiscomb-stack.case.glif</string>
 		<key>dieresiscomb.case</key>
 		<string>dieresiscomb.case.glif</string>
-		<key>dieresiscombstack.case</key>
-		<string>dieresiscombstack.case.glif</string>
 		<key>dieresistonos</key>
 		<string>dieresistonos.glif</string>
 		<key>dieresistonoscomb</key>
@@ -1016,8 +1010,6 @@
 		<string>dollar.glif</string>
 		<key>dollar.rvrn</key>
 		<string>dollar.rvrn.glif</string>
-		<key>dollar.rvrn2</key>
-		<string>dollar.rvrn2.glif</string>
 		<key>dong</key>
 		<string>dong.glif</string>
 		<key>dotaccent</key>
@@ -1032,8 +1024,6 @@
 		<string>dotaccentcomb-stack.case.glif</string>
 		<key>dotaccentcomb.case</key>
 		<string>dotaccentcomb.case.glif</string>
-		<key>dotaccentcombstack.case</key>
-		<string>dotaccentcombstack.case.glif</string>
 		<key>dotbelow</key>
 		<string>dotbelow.glif</string>
 		<key>dotbelow.case</key>
@@ -1124,10 +1114,6 @@
 		<string>endescender.glif</string>
 		<key>eng</key>
 		<string>eng.glif</string>
-		<key>engn</key>
-		<string>engn.glif</string>
-		<key>engtail</key>
-		<string>engtail.glif</string>
 		<key>eogonek</key>
 		<string>eogonek.glif</string>
 		<key>epsilon</key>
@@ -1238,8 +1224,6 @@
 		<string>gravecomb-stack.case.glif</string>
 		<key>gravecomb.case</key>
 		<string>gravecomb.case.glif</string>
-		<key>gravecombstack.case</key>
-		<string>gravecombstack.case.glif</string>
 		<key>greater</key>
 		<string>greater.glif</string>
 		<key>greaterequal</key>
@@ -1286,8 +1270,6 @@
 		<string>hookabovecomb-stack.case.glif</string>
 		<key>hookabovecomb.case</key>
 		<string>hookabovecomb.case.glif</string>
-		<key>hookabovecombstack.case</key>
-		<string>hookabovecombstack.case.glif</string>
 		<key>horizontalbar</key>
 		<string>horizontalbar.glif</string>
 		<key>horizontalbarH</key>
@@ -1484,8 +1466,6 @@
 		<string>macroncomb-stack.case.glif</string>
 		<key>macroncomb.case</key>
 		<string>macroncomb.case.glif</string>
-		<key>macroncombstack.case</key>
-		<string>macroncombstack.case.glif</string>
 		<key>manat</key>
 		<string>manat.glif</string>
 		<key>micro</key>
@@ -1680,8 +1660,6 @@
 		<string>periodcentered-loclC_A_T_.case.glif</string>
 		<key>periodcentered.loclCAT</key>
 		<string>periodcentered.loclC_A_T_.glif</string>
-		<key>periodcentered.loclCAT.case</key>
-		<string>periodcentered.loclC_A_T_.case.glif</string>
 		<key>perthousand</key>
 		<string>perthousand.glif</string>
 		<key>peseta</key>
@@ -1874,8 +1852,6 @@
 		<string>tildecomb-stack.case.glif</string>
 		<key>tildecomb.case</key>
 		<string>tildecomb.case.glif</string>
-		<key>tildecombstack.case</key>
-		<string>tildecombstack.case.glif</string>
 		<key>tonos</key>
 		<string>tonos.glif</string>
 		<key>tonos.case</key>

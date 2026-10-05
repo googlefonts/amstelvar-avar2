@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu" format="2">
 	<unicode hex="044E"/>
-	<advance width="1576"/>
+	<advance width="1853"/>
+	<outline>
+		<component base="yu-i"/>
+		<component base="yu.bgr-stroke" xOffset="296" yOffset="-27"/>
+		<component base="o" xOffset="769" yOffset="-14"/>
+	</outline>
 </glyph>

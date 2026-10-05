@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fivesuperior" format="2">
-	<advance width="705"/>
+	<unicode hex="2075"/>
+	<advance width="703"/>
 	<outline>
 		<contour>
-			<point x="45" y="816" type="qcurve" smooth="yes"/>
-			<point x="45" y="877.0000000001"/>
-			<point x="143" y="953"/>
-			<point x="186" y="964" type="qcurve"/>
-			<point x="236" y="893" type="line"/>
-			<point x="236" y="884" type="line"/>
-			<point x="202" y="871"/>
-			<point x="162" y="840"/>
-			<point x="162" y="811" type="qcurve" smooth="yes"/>
-			<point x="162" y="775"/>
-			<point x="235" y="728"/>
-			<point x="307" y="728" type="qcurve" smooth="yes"/>
-			<point x="427" y="728"/>
-			<point x="522" y="840"/>
-			<point x="522" y="947.0000000001" type="qcurve" smooth="yes"/>
-			<point x="522" y="1043.9999999999"/>
-			<point x="392" y="1118"/>
-			<point x="304" y="1095" type="qcurve" smooth="yes"/>
-			<point x="228" y="1074" type="line"/>
-			<point x="184" y="1136" type="line"/>
-			<point x="293" y="1481.0000000001" type="line"/>
-			<point x="315" y="1500" type="line"/>
-			<point x="740" y="1500" type="line"/>
-			<point x="708" y="1351" type="line"/>
-			<point x="353" y="1351" type="line"/>
-			<point x="345" y="1345" type="line"/>
-			<point x="330" y="1289"/>
-			<point x="297" y="1188"/>
-			<point x="286" y="1165" type="qcurve"/>
-			<point x="404" y="1197" type="line"/>
-			<point x="535.9999999999" y="1197"/>
-			<point x="681" y="1085"/>
-			<point x="681.0000000001" y="965" type="qcurve" smooth="yes"/>
-			<point x="681" y="805"/>
-			<point x="473" y="641"/>
-			<point x="321" y="641" type="qcurve" smooth="yes"/>
-			<point x="190" y="641"/>
-			<point x="45" y="743"/>
+			<point x="39.1052246094" y="804.5311279297" type="qcurve" smooth="yes"/>
+			<point x="37.5999145508" y="854.9360351562"/>
+			<point x="99.3891601562" y="930.0070800781"/>
+			<point x="134.9262084961" y="939.3409423828" type="qcurve"/>
+			<point x="208.4476318359" y="893.1982421875" type="line"/>
+			<point x="207.4248657227" y="864.0930175781" type="line"/>
+			<point x="176.8826293945" y="855.9614868164"/>
+			<point x="170.1350708008" y="843.5860595703"/>
+			<point x="170.1087646484" y="832.2793579102" type="qcurve" smooth="yes"/>
+			<point x="170.0824584961" y="800.7223510742"/>
+			<point x="239.0131225586" y="756.4362792969"/>
+			<point x="312.0858764648" y="756.4362792969" type="qcurve" smooth="yes"/>
+			<point x="423.1830444336" y="756.4362792969"/>
+			<point x="522.1866455078" y="852.5834350586"/>
+			<point x="521.6777954102" y="947.1899414062" type="qcurve" smooth="yes"/>
+			<point x="522.1689453125" y="1044.3608398438"/>
+			<point x="392.0822143555" y="1117.2966308594"/>
+			<point x="303.9982910156" y="1095.0521240234" type="qcurve" smooth="yes"/>
+			<point x="228.3447875977" y="1074.3186645508" type="line"/>
+			<point x="183.8073120117" y="1135.6406860352" type="line"/>
+			<point x="293.0692749023" y="1480.7895507812" type="line"/>
+			<point x="315.1026611328" y="1500" type="line"/>
+			<point x="740.4696655273" y="1500" type="line"/>
+			<point x="707.826965332" y="1350.9697875977" type="line"/>
+			<point x="353.2046508789" y="1350.9697875977" type="line"/>
+			<point x="344.7028808594" y="1344.8908691406" type="line"/>
+			<point x="329.7424316406" y="1288.930480957"/>
+			<point x="297.1646118164" y="1187.5399169922"/>
+			<point x="285.7537231445" y="1165.081237793" type="qcurve"/>
+			<point x="403.6174316406" y="1197.4918212891" type="line"/>
+			<point x="535.9643554688" y="1197.4918212891"/>
+			<point x="681.0894775391" y="1085.0401000977"/>
+			<point x="681.1000976562" y="965.0922241211" type="qcurve" smooth="yes"/>
+			<point x="682.1142578125" y="824.1312255859"/>
+			<point x="454.9177856445" y="667.1369018555"/>
+			<point x="298.8951416016" y="667.1369018555" type="qcurve" smooth="yes"/>
+			<point x="176.0814208984" y="667.1369018555"/>
+			<point x="40.610534668" y="749.7419433594"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="487" y="1500"/>
+	<anchor name="_frac_right" x="327" y="671"/>
 </glyph>

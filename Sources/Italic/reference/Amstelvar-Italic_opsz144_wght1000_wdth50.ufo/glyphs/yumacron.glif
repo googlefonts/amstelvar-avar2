@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yumacron" format="2">
 	<unicode hex="F52D"/>
-	<advance width="1576"/>
+	<advance width="1853"/>
+	<outline>
+		<component base="yu-i"/>
+		<component base="yu.bgr-stroke" xOffset="296" yOffset="-27"/>
+		<component base="o" xOffset="769" yOffset="-14"/>
+		<component base="macroncomb" xOffset="1014.0271526588" yOffset="-14"/>
+	</outline>
 </glyph>

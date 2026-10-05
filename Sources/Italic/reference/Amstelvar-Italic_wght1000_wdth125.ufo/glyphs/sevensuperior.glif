@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevensuperior" format="2">
-	<advance width="983"/>
+	<unicode hex="2077"/>
+	<advance width="1071"/>
 	<outline>
 		<contour>
 			<point x="97" y="1165" type="line"/>
 			<point x="241" y="1500" type="line"/>
-			<point x="993" y="1500" type="line"/>
-			<point x="1041" y="1421" type="line"/>
-			<point x="883" y="1218"/>
-			<point x="663" y="846"/>
-			<point x="639" y="686" type="qcurve"/>
-			<point x="281" y="565" type="line"/>
-			<point x="184" y="700" type="line"/>
-			<point x="311" y="843"/>
-			<point x="641" y="1142"/>
-			<point x="787" y="1231" type="qcurve"/>
-			<point x="780" y="1240" type="line"/>
+			<point x="1081" y="1500" type="line"/>
+			<point x="1129" y="1421" type="line"/>
+			<point x="885" y="1145"/>
+			<point x="690" y="869"/>
+			<point x="621" y="747" type="qcurve"/>
+			<point x="263" y="626" type="line"/>
+			<point x="184" y="746" type="line"/>
+			<point x="231" y="799"/>
+			<point x="585" y="1052"/>
+			<point x="875" y="1231" type="qcurve"/>
+			<point x="868" y="1240" type="line"/>
 			<point x="294" y="1238" type="line"/>
 			<point x="231" y="1165" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="628" y="1500"/>
+	<anchor name="_frac_right" x="521" y="671"/>
 </glyph>

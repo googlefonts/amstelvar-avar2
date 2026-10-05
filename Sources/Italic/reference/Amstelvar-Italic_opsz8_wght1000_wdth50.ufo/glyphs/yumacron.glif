@@ -3,7 +3,9 @@
 	<unicode hex="F52D"/>
 	<advance width="1883"/>
 	<outline>
-		<component base="yu"/>
-		<component base="macron" xOffset="338"/>
+		<component base="yu-i"/>
+		<component base="yu.bgr-stroke" xOffset="398" yOffset="86"/>
+		<component base="o" xOffset="918" yOffset="34"/>
+		<component base="macroncomb" xOffset="1202.102716353" yOffset="34"/>
 	</outline>
 </glyph>

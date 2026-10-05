@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fivesuperior" format="2">
-	<advance width="705"/>
+	<unicode hex="2075"/>
+	<advance width="658"/>
 	<outline>
 		<contour>
-			<point x="45" y="816" type="qcurve" smooth="yes"/>
-			<point x="45" y="876.9999999999"/>
-			<point x="143" y="953"/>
-			<point x="186" y="964" type="qcurve"/>
-			<point x="236" y="893" type="line"/>
-			<point x="236" y="884" type="line"/>
-			<point x="202" y="871"/>
-			<point x="162" y="840"/>
-			<point x="162" y="811" type="qcurve" smooth="yes"/>
-			<point x="162" y="775"/>
-			<point x="235" y="728"/>
-			<point x="307" y="728" type="qcurve" smooth="yes"/>
-			<point x="427" y="728"/>
-			<point x="522" y="840"/>
-			<point x="522" y="947" type="qcurve" smooth="yes"/>
-			<point x="522" y="1044"/>
-			<point x="392" y="1118"/>
-			<point x="304" y="1095" type="qcurve" smooth="yes"/>
-			<point x="228" y="1074" type="line"/>
-			<point x="184" y="1136" type="line"/>
-			<point x="293" y="1481" type="line"/>
-			<point x="315" y="1500" type="line"/>
-			<point x="740" y="1500" type="line"/>
-			<point x="708" y="1351" type="line"/>
-			<point x="353" y="1351" type="line"/>
-			<point x="345" y="1345" type="line"/>
-			<point x="330" y="1289"/>
-			<point x="297" y="1188"/>
-			<point x="286" y="1165" type="qcurve"/>
-			<point x="404" y="1197" type="line"/>
-			<point x="536" y="1197"/>
-			<point x="681.0000000001" y="1085"/>
-			<point x="681.0000000001" y="965" type="qcurve" smooth="yes"/>
-			<point x="681.0000000001" y="805"/>
-			<point x="473.0000000001" y="641"/>
-			<point x="321" y="641" type="qcurve" smooth="yes"/>
-			<point x="190" y="641"/>
-			<point x="45" y="743"/>
+			<point x="47.1052246094" y="827.0184326172" type="qcurve" smooth="yes"/>
+			<point x="46.1999511719" y="880.8178710938"/>
+			<point x="123.2245483398" y="960.7933959961"/>
+			<point x="160.2106933594" y="972.3480224609" type="qcurve"/>
+			<point x="197.6890258789" y="957.5966796875" type="line"/>
+			<point x="198.2662353516" y="897.4914550781" type="line"/>
+			<point x="185.5581665039" y="873.2946166992"/>
+			<point x="173.1830444336" y="859.9205322266"/>
+			<point x="173.1567382812" y="840.6671142578" type="qcurve" smooth="yes"/>
+			<point x="173.1304321289" y="810.8070678711"/>
+			<point x="223.7916870117" y="764.3101806641"/>
+			<point x="287.9564208984" y="764.3101806641" type="qcurve" smooth="yes"/>
+			<point x="388.715637207" y="764.3101806641"/>
+			<point x="465.263671875" y="855.0908813477"/>
+			<point x="465.7548828125" y="947.3330688477" type="qcurve" smooth="yes"/>
+			<point x="465.24609375" y="1042.9508666992"/>
+			<point x="336.7523803711" y="1117.2796630859"/>
+			<point x="251.3258056641" y="1095.4118041992" type="qcurve" smooth="yes"/>
+			<point x="175.0729980469" y="1074.1246948242" type="line"/>
+			<point x="130.5180053711" y="1135.83984375" type="line"/>
+			<point x="234.0675048828" y="1472.4625244141" type="line"/>
+			<point x="265.4163208008" y="1500" type="line"/>
+			<point x="685.9714355469" y="1500" type="line"/>
+			<point x="654.2177124023" y="1350.9420166016" type="line"/>
+			<point x="298.5269775391" y="1350.9420166016" type="line"/>
+			<point x="290.8021240234" y="1344.8630981445" type="line"/>
+			<point x="275.686706543" y="1289.6793212891"/>
+			<point x="244.2177734375" y="1188.2315673828"/>
+			<point x="233.1498413086" y="1164.9948120117" type="qcurve"/>
+			<point x="349.4619140625" y="1191.1452636719" type="line"/>
+			<point x="484.7731933594" y="1191.1452636719"/>
+			<point x="634.5122070312" y="1081.6220703125"/>
+			<point x="634.3227539062" y="964.7539672852" type="qcurve" smooth="yes"/>
+			<point x="634.7368164062" y="815.3395996094"/>
+			<point x="444.6704101562" y="664.624206543"/>
+			<point x="273.9767456055" y="664.624206543" type="qcurve" smooth="yes"/>
+			<point x="162.880859375" y="664.624206543"/>
+			<point x="48.0104980469" y="754.2292480469"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="487" y="1500"/>
+	<anchor name="_frac_right" x="327" y="671"/>
 </glyph>
