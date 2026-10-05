@@ -448,7 +448,7 @@ if __name__ == '__main__':
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['ninesuperior']
+    # glyphNames = ['five.lc'] 
     # glyphNames = p.defaultFont.glyphOrder
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
@@ -486,7 +486,7 @@ if __name__ == '__main__':
     # p.tuning = True # also used to direct BlendsPreview proof to its folder
     # p.useLongAxisNames = True # keep it disabled during development!
     # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
-    # p.validateDesignspace(locx    ations=True, mappings=True, instances=False)
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
     # --- tuning ---
@@ -497,7 +497,7 @@ if __name__ == '__main__':
 
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
-    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    p.cleanupSources(parametric=True, tuning=True, reference=True)
     p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
