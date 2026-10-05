@@ -1,6 +1,6 @@
 import os, glob
 
-subFamily     = ['Roman', 'Italic'][1]
+subFamily     = ['Roman', 'Italic'][0]
 baseFolder    = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamily, 'tuning')
 

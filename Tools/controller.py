@@ -4,7 +4,7 @@ from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
-import os, glob, time, json, string, itertools
+import os, glob, time, json, string
 from fontTools.designspaceLib import DesignSpaceDocument, SourceDescriptor, AxisMappingDescriptor, RuleDescriptor
 from xTools4.modules.xproject import xProject
 from xTools4.modules.measurements import setSourceNamesFromMeasurements, readMeasurements, extractMeasurements, permille
@@ -76,7 +76,6 @@ class AmstelvarA2Controller(xProject):
             [
                 [
                     dict(name="wght", minimum=750, maximum=1000),
-                    # dict(name="wdth", maximum=110)
                 ],
                 [
                     dict(name="wdth", minimum=50, maximum=75)
@@ -144,7 +143,7 @@ class AmstelvarA2Controller(xProject):
 
     @property
     def referenceFontName(self):
-        return 'Amstelvar-Roman.ttf'
+        return f'Amstelvar-{self.subFamily}.ttf'
 
     @property
     def referenceFontPath(self):
@@ -317,7 +316,7 @@ class AmstelvarA2Controller(xProject):
                 for childTag in childTags:
                     childName = self.getAxisName(childTag)
                     if childName not in self.defaultLocation:
-                        print(f'no parameter {childTag} in default location, skipping...')
+                        # print(f'no parameter {childTag} in default location, skipping...')
                         continue
 
                     # get min/max values from file names
@@ -449,12 +448,16 @@ if __name__ == '__main__':
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['eight.lc']
-    # glyphNames = 'Oslash oslash Oslash.rvrn oslash.rvrn'.split()
+    # glyphNames = ['five.lc'] 
+    # glyphNames = p.defaultFont.glyphOrder
+    # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames = p.smartSets['figures']['superior'] + p.smartSets['figures']['fractions']
-    # glyphNames = p.smartSets['uppercase']['greek'] + p.smartSets['lowercase']['greek']
+    # glyphNames  = p.smartSets['figures']['proportional']
+    # glyphNames = p.smartSets['figures']['fractions'] + p.smartSets['figures']['superior']
+    # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
+    # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
+    # glyphNames.remove('figuredash')
     # print(glyphNames)
 
     # --- managing sources ---
@@ -468,15 +471,15 @@ if __name__ == '__main__':
     # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
     # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
-    # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=False)
+    # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
     # p.copyKerningFromDefault()
 
     # --- building glyphs ---
-    # p.buildCompositeGlyphs(glyphNames, parametric=False, tuning=False, reference=True, preflight=False)
+    # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
 
     # --- measuring ---
     # p.extractMeasurements()
-
+ 
     # --- build designspace ---
     # p.parametricAxesHidden = True
     # p.tuningAxesHidden = True
@@ -493,6 +496,7 @@ if __name__ == '__main__':
     # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True)
 
     # --- normalization ---
+    # p.roundSources(parametric=True, tuning=True, reference=True)
     p.cleanupSources(parametric=True, tuning=True, reference=True)
     p.normalizeSources(parametric=True, tuning=True, reference=True)
 
@@ -508,9 +512,8 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
+    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
     timer(start, end)
- 

@@ -730,11 +730,11 @@ nine.lf = nine
 #  F R A C T I O N S
 # -------------------
 
-# percent = fraction + zerosuperior@frac_left + zerosuperior@fraction:frac_right ^ zerosuperior,zerosuperior | 0x025
+percent = fraction + zerosuperior@frac_left + zerosuperior@fraction:frac_right ^ zerosuperior,zerosuperior | 0x025
 # perthousand = fraction + zerosuperior@frac_left + zerosuperior@fraction:frac_right + zerosuperior@zerosuperior:frac_right ^ zerosuperior,zerosuperior | 0x2030
-# onequarter = fraction + onesuperior@frac_left + foursuperior@fraction:frac_right ^ onesuperior,foursuperior | 0x00BC
-# onehalf = fraction + onesuperior@frac_left + twosuperior@fraction:frac_right ^ onesuperior,twosuperior | 0x00BD
-# threequarters = fraction + threesuperior@frac_left + foursuperior@fraction:frac_right ^ threesuperior,foursuperior | 0x00BE
+onequarter = fraction + onesuperior@frac_left + foursuperior@fraction:frac_right ^ onesuperior,foursuperior | 0x00BC
+onehalf = fraction + onesuperior@frac_left + twosuperior@fraction:frac_right ^ onesuperior,twosuperior | 0x00BD
+threequarters = fraction + threesuperior@frac_left + foursuperior@fraction:frac_right ^ threesuperior,foursuperior | 0x00BE
 
 # -----------------
 #  E T C E T E R A

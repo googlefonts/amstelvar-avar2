@@ -1,18 +1,9 @@
 # create rvrn alternates for gyphs with BARS in all sources
 
-import os, sys
-
-libFolder = os.path.dirname(os.getcwd())
-if libFolder not in sys.path:
-    sys.path.append(libFolder)
-
-from importlib import reload
-import controller
-reload(controller)
-
+import os
 from controller import AmstelvarA2Controller
 
-folder = os.path.dirname(libFolder)
+folder = os.path.dirname(os.path.dirname(os.getcwd()))
 
 subFamily = ['Roman', 'Italic'][1]
 
@@ -26,4 +17,4 @@ for ufoPath in ufoPaths:
     f = OpenFont(ufoPath, showInterface=False)
     for glyphName in glyphNames:
         f[f'{glyphName}.rvrn'] = f[glyphName]
-    f.close(save=True)
+    f.close(save=False)
