@@ -442,19 +442,18 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
+    # --- glyph names ---
     # glyphNames = ['five.lc']
     # glyphNames = list(p.defaultFont.glyphOrder)
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames  = p.smartSets['figures']['proportional']
-    # glyphNames = p.smartSets['figures']['fractions'] + p.smartSets['figures']['superior']
-    # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
+    # glyphNames = p.smartSets['lowercase']['cyrillic'] + p.smartSets['uppercase']['cyrillic']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # glyphNames.remove('figuredash')
@@ -468,11 +467,11 @@ if __name__ == '__main__':
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP0', preflight=False, parametric=True, tuning=False)
-    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
-    # p.copyGroupsFromDefault()
+    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True, reference=False)
+    # p.copyGroupsFromDefault(parametric=True, tuning=True, reference=True)
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
-    # p.copyKerningFromDefault()
+    # p.copyKerningFromDefault(parametric=True, tuning=True, reference=False)
 
     # --- building glyphs ---
     # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
@@ -498,7 +497,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()
