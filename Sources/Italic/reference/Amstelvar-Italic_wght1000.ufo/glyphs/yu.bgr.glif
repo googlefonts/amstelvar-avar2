@@ -2,8 +2,8 @@
 <glyph name="yu.bgr" format="2">
 	<advance width="2445"/>
 	<outline>
-		<component base="yu-l.bgr" xScale="1" yScale="1"/>
-		<component base="yu.bgr-stroke" xScale="1" yScale="1" xOffset="400.7412155439"/>
-		<component base="o" xScale="1" yScale="1" xOffset="858.5371687563" yOffset="-2.0007847377"/>
+		<component base="yu-l.bgr"/>
+		<component base="yu.bgr-stroke" xOffset="400.7412155439"/>
+		<component base="o" xOffset="858.5371687563" yOffset="-2.0007847377"/>
 	</outline>
 </glyph>
