@@ -629,6 +629,12 @@
 		<array>
 			<string>zeta</string>
 		</array>
+		<key>public.kern1.H</key>
+		<array>
+			<string>H</string>
+			<string>M</string>
+			<string>Hcircumflex</string>
+		</array>
 		<key>public.kern1.I</key>
 		<array>
 			<string>I</string>
@@ -735,12 +741,6 @@
 			<string>Scircumflex</string>
 			<string>Scommaaccent</string>
 		</array>
-		<key>public.kern1.Straight_right</key>
-		<array>
-			<string>H</string>
-			<string>M</string>
-			<string>Hcircumflex</string>
-		</array>
 		<key>public.kern1.T</key>
 		<array>
 			<string>T</string>
@@ -831,7 +831,7 @@
 			<string>ainvertedbreve</string>
 			<string>aringacute</string>
 		</array>
-		<key>public.kern1.b_p</key>
+		<key>public.kern1.b</key>
 		<array>
 			<string>b</string>
 			<string>p</string>
@@ -936,19 +936,6 @@
 			<string>guilsinglright</string>
 			<string>guillemotright</string>
 		</array>
-		<key>public.kern1.h_n_m</key>
-		<array>
-			<string>h</string>
-			<string>hcircumflex</string>
-			<string>m</string>
-			<string>n</string>
-			<string>nacute</string>
-			<string>ncaron</string>
-			<string>ncommaaccent</string>
-			<string>ntilde</string>
-			<string>hbar</string>
-			<string>napostrophe</string>
-		</array>
 		<key>public.kern1.i</key>
 		<array>
 			<string>i</string>
@@ -1013,6 +1000,19 @@
 		<array>
 			<string>minute</string>
 			<string>second</string>
+		</array>
+		<key>public.kern1.n</key>
+		<array>
+			<string>h</string>
+			<string>hcircumflex</string>
+			<string>m</string>
+			<string>n</string>
+			<string>nacute</string>
+			<string>ncaron</string>
+			<string>ncommaaccent</string>
+			<string>ntilde</string>
+			<string>hbar</string>
+			<string>napostrophe</string>
 		</array>
 		<key>public.kern1.o</key>
 		<array>
@@ -1446,53 +1446,6 @@
 			<string>zhedescender</string>
 			<string>zhedieresiscyr</string>
 		</array>
-		<key>public.kern2.C_G_O</key>
-		<array>
-			<string>C</string>
-			<string>Cacute</string>
-			<string>Ccaron</string>
-			<string>Ccedilla</string>
-			<string>Ccircumflex</string>
-			<string>Cdotaccent</string>
-			<string>G</string>
-			<string>Gbreve</string>
-			<string>Gcircumflex</string>
-			<string>Gcommaaccent</string>
-			<string>Gdotaccent</string>
-			<string>O</string>
-			<string>OE</string>
-			<string>Oacute</string>
-			<string>Obreve</string>
-			<string>Ocircumflex</string>
-			<string>Odieresis</string>
-			<string>Ograve</string>
-			<string>Ohungarumlaut</string>
-			<string>Omacron</string>
-			<string>Oslash</string>
-			<string>Otilde</string>
-			<string>Q</string>
-			<string>Ocircumflexacute</string>
-			<string>Ocircumflexdotbelow</string>
-			<string>Ocircumflexgrave</string>
-			<string>Ocircumflexhookabove</string>
-			<string>Ocircumflextilde</string>
-			<string>Odblgrave</string>
-			<string>Odieresismacron</string>
-			<string>Odotaccentmacron</string>
-			<string>Odotbelow</string>
-			<string>Ohookabove</string>
-			<string>Oinvertedbreve</string>
-			<string>Oogonek</string>
-			<string>Otildemacron</string>
-			<string>Ohorn</string>
-			<string>Ohornacute</string>
-			<string>Ohorndotbelow</string>
-			<string>Ohorngrave</string>
-			<string>Ohornhookabove</string>
-			<string>Ohorntilde</string>
-			<string>Gcaron</string>
-			<string>Oslashacute</string>
-		</array>
 		<key>public.kern2.GRK_Alpha</key>
 		<array>
 			<string>Alpha</string>
@@ -1657,40 +1610,7 @@
 		<array>
 			<string>zeta</string>
 		</array>
-		<key>public.kern2.I</key>
-		<array>
-			<string>I</string>
-			<string>Iacute</string>
-			<string>Ibreve</string>
-			<string>Icircumflex</string>
-			<string>Idieresis</string>
-			<string>Idotaccent</string>
-			<string>Igrave</string>
-			<string>Imacron</string>
-			<string>Iogonek</string>
-			<string>Itilde</string>
-			<string>IJacute</string>
-			<string>Idblgrave</string>
-			<string>Idotbelow</string>
-			<string>Ihookabove</string>
-			<string>Iinvertedbreve</string>
-			<string>IJ</string>
-		</array>
-		<key>public.kern2.J</key>
-		<array>
-			<string>J</string>
-			<string>Jcircumflex</string>
-		</array>
-		<key>public.kern2.S</key>
-		<array>
-			<string>S</string>
-			<string>Sacute</string>
-			<string>Scaron</string>
-			<string>Scedilla</string>
-			<string>Scircumflex</string>
-			<string>Scommaaccent</string>
-		</array>
-		<key>public.kern2.Straight_left</key>
+		<key>public.kern2.H</key>
 		<array>
 			<string>B</string>
 			<string>D</string>
@@ -1746,6 +1666,86 @@
 			<string>Dzcaron</string>
 			<string>Lj</string>
 			<string>Nj</string>
+		</array>
+		<key>public.kern2.I</key>
+		<array>
+			<string>I</string>
+			<string>Iacute</string>
+			<string>Ibreve</string>
+			<string>Icircumflex</string>
+			<string>Idieresis</string>
+			<string>Idotaccent</string>
+			<string>Igrave</string>
+			<string>Imacron</string>
+			<string>Iogonek</string>
+			<string>Itilde</string>
+			<string>IJacute</string>
+			<string>Idblgrave</string>
+			<string>Idotbelow</string>
+			<string>Ihookabove</string>
+			<string>Iinvertedbreve</string>
+			<string>IJ</string>
+		</array>
+		<key>public.kern2.J</key>
+		<array>
+			<string>J</string>
+			<string>Jcircumflex</string>
+		</array>
+		<key>public.kern2.O</key>
+		<array>
+			<string>C</string>
+			<string>Cacute</string>
+			<string>Ccaron</string>
+			<string>Ccedilla</string>
+			<string>Ccircumflex</string>
+			<string>Cdotaccent</string>
+			<string>G</string>
+			<string>Gbreve</string>
+			<string>Gcircumflex</string>
+			<string>Gcommaaccent</string>
+			<string>Gdotaccent</string>
+			<string>O</string>
+			<string>OE</string>
+			<string>Oacute</string>
+			<string>Obreve</string>
+			<string>Ocircumflex</string>
+			<string>Odieresis</string>
+			<string>Ograve</string>
+			<string>Ohungarumlaut</string>
+			<string>Omacron</string>
+			<string>Oslash</string>
+			<string>Otilde</string>
+			<string>Q</string>
+			<string>Ocircumflexacute</string>
+			<string>Ocircumflexdotbelow</string>
+			<string>Ocircumflexgrave</string>
+			<string>Ocircumflexhookabove</string>
+			<string>Ocircumflextilde</string>
+			<string>Odblgrave</string>
+			<string>Odieresismacron</string>
+			<string>Odotaccentmacron</string>
+			<string>Odotbelow</string>
+			<string>Ohookabove</string>
+			<string>Oinvertedbreve</string>
+			<string>Oogonek</string>
+			<string>Otildemacron</string>
+			<string>Ohorn</string>
+			<string>Ohornacute</string>
+			<string>Ohorndotbelow</string>
+			<string>Ohorngrave</string>
+			<string>Ohornhookabove</string>
+			<string>Ohorntilde</string>
+			<string>Gcaron</string>
+			<string>Oslashacute</string>
+		</array>
+		<key>public.kern2.S</key>
+		<array>
+			<string>S</string>
+			<string>Sacute</string>
+			<string>Scaron</string>
+			<string>Scedilla</string>
+			<string>Scircumflex</string>
+			<string>Scommaaccent</string>
 		</array>
 		<key>public.kern2.T</key>
 		<array>
@@ -1851,66 +1851,6 @@
 			<string>bullet</string>
 			<string>periodcentered</string>
 		</array>
-		<key>public.kern2.c_e_o</key>
-		<array>
-			<string>c</string>
-			<string>cacute</string>
-			<string>ccaron</string>
-			<string>ccedilla</string>
-			<string>ccircumflex</string>
-			<string>cdotaccent</string>
-			<string>e</string>
-			<string>eacute</string>
-			<string>ebreve</string>
-			<string>ecaron</string>
-			<string>ecircumflex</string>
-			<string>edieresis</string>
-			<string>edotaccent</string>
-			<string>egrave</string>
-			<string>emacron</string>
-			<string>eogonek</string>
-			<string>o</string>
-			<string>oacute</string>
-			<string>obreve</string>
-			<string>ocircumflex</string>
-			<string>odieresis</string>
-			<string>oe</string>
-			<string>ograve</string>
-			<string>ohungarumlaut</string>
-			<string>omacron</string>
-			<string>oslash</string>
-			<string>otilde</string>
-			<string>ecircumflexacute</string>
-			<string>ecircumflexdotbelow</string>
-			<string>ecircumflexgrave</string>
-			<string>ecircumflexhookabove</string>
-			<string>ecircumflextilde</string>
-			<string>edblgrave</string>
-			<string>edotbelow</string>
-			<string>ehookabove</string>
-			<string>einvertedbreve</string>
-			<string>etilde</string>
-			<string>ocircumflexacute</string>
-			<string>ocircumflexdotbelow</string>
-			<string>ocircumflexgrave</string>
-			<string>ocircumflexhookabove</string>
-			<string>ocircumflextilde</string>
-			<string>odblgrave</string>
-			<string>odieresismacron</string>
-			<string>odotaccentmacron</string>
-			<string>odotbelow</string>
-			<string>ohookabove</string>
-			<string>oinvertedbreve</string>
-			<string>oogonek</string>
-			<string>otildemacron</string>
-			<string>ohorn</string>
-			<string>ohornacute</string>
-			<string>ohorndotbelow</string>
-			<string>ohorngrave</string>
-			<string>ohornhookabove</string>
-			<string>ohorntilde</string>
-			<string>oslashacute</string>
-		</array>
 		<key>public.kern2.circles</key>
 		<array>
 			<string>copyright</string>
@@ -2015,6 +1955,66 @@
 		<array>
 			<string>minute</string>
 			<string>second</string>
+		</array>
+		<key>public.kern2.o</key>
+		<array>
+			<string>c</string>
+			<string>cacute</string>
+			<string>ccaron</string>
+			<string>ccedilla</string>
+			<string>ccircumflex</string>
+			<string>cdotaccent</string>
+			<string>e</string>
+			<string>eacute</string>
+			<string>ebreve</string>
+			<string>ecaron</string>
+			<string>ecircumflex</string>
+			<string>edieresis</string>
+			<string>edotaccent</string>
+			<string>egrave</string>
+			<string>emacron</string>
+			<string>eogonek</string>
+			<string>o</string>
+			<string>oacute</string>
+			<string>obreve</string>
+			<string>ocircumflex</string>
+			<string>odieresis</string>
+			<string>oe</string>
+			<string>ograve</string>
+			<string>ohungarumlaut</string>
+			<string>omacron</string>
+			<string>oslash</string>
+			<string>otilde</string>
+			<string>ecircumflexacute</string>
+			<string>ecircumflexdotbelow</string>
+			<string>ecircumflexgrave</string>
+			<string>ecircumflexhookabove</string>
+			<string>ecircumflextilde</string>
+			<string>edblgrave</string>
+			<string>edotbelow</string>
+			<string>ehookabove</string>
+			<string>einvertedbreve</string>
+			<string>etilde</string>
+			<string>ocircumflexacute</string>
+			<string>ocircumflexdotbelow</string>
+			<string>ocircumflexgrave</string>
+			<string>ocircumflexhookabove</string>
+			<string>ocircumflextilde</string>
+			<string>odblgrave</string>
+			<string>odieresismacron</string>
+			<string>odotaccentmacron</string>
+			<string>odotbelow</string>
+			<string>ohookabove</string>
+			<string>oinvertedbreve</string>
+			<string>oogonek</string>
+			<string>otildemacron</string>
+			<string>ohorn</string>
+			<string>ohornacute</string>
+			<string>ohorndotbelow</string>
+			<string>ohorngrave</string>
+			<string>ohornhookabove</string>
+			<string>ohorntilde</string>
+			<string>oslashacute</string>
 		</array>
 		<key>public.kern2.percent</key>
 		<array>

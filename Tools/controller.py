@@ -448,13 +448,12 @@ if __name__ == '__main__':
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
+    # --- glyph names ---
     # glyphNames = ['five.lc']
     # glyphNames = list(p.defaultFont.glyphOrder)
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames  = p.smartSets['figures']['proportional']
-    # glyphNames = p.smartSets['figures']['fractions'] + p.smartSets['figures']['superior']
-    # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
+    # glyphNames = p.smartSets['lowercase']['latin'] + p.smartSets['uppercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # glyphNames.remove('figuredash')
@@ -468,11 +467,11 @@ if __name__ == '__main__':
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP0', preflight=False, parametric=True, tuning=False)
-    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
-    # p.copyGroupsFromDefault()
+    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True, reference=False)
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
-    # p.copyKerningFromDefault()
+    # p.copyGroupsFromDefault(parametric=True, tuning=True, reference=True)
+    # p.copyKerningFromDefault(parametric=True, tuning=True, reference=False)
 
     # --- building glyphs ---
     # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
@@ -481,11 +480,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
  
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -494,6 +493,10 @@ if __name__ == '__main__':
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
     # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True, locations=['wght1000', 'wght1000_wdth125'])
+
+    # --- tweaking ---
+    # tweaks = { "wght1000" : { "XTSP" : -20 } }
+    # p.tweakReferenceSources(tweaks, glyphNames, preflight=True)
 
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)

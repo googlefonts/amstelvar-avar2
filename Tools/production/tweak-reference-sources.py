@@ -11,8 +11,6 @@ p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
 glyphNames = p.defaultFont.glyphOrder # tweak all glyphs
 
-preflight = True
-
 tweakParametersBlended = {
     "wght1000": {
         "XOPQ" : 132,
@@ -25,6 +23,8 @@ tweakParametersBlended = {
         "XTRA" : 318,
     },
 }
+
+preflight = True
 
 # convert blended locations to parametric
 tweakParameters = {}
