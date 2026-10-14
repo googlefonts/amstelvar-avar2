@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcomb-stack" format="2">
-	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="-195.4516806723" y="1195.3235294118" type="line"/>
+			<point x="8.7605042017" y="1464.4453781513" type="line" smooth="yes"/>
+			<point x="39.7920168067" y="1504.5084033613"/>
+			<point x="104.3130252101" y="1554.3571428571"/>
+			<point x="148.8844537815" y="1554.3571428571" type="qcurve" smooth="yes"/>
+			<point x="192.4558823529" y="1554.3571428571"/>
+			<point x="246.6344537815" y="1502.1785714286"/>
+			<point x="246.6344537815" y="1457.6071428571" type="qcurve" smooth="yes"/>
+			<point x="246.6344537815" y="1413.0357142857"/>
+			<point x="184.1008403361" y="1343.7268907563"/>
+			<point x="144.4369747899" y="1311.9537815126" type="qcurve" smooth="yes"/>
+			<point x="-112.8340336134" y="1109.6470588235" type="line"/>
+		</contour>
+		<contour>
+			<point x="134.5483193277" y="1195.3235294118" type="line"/>
+			<point x="341.7605042017" y="1460.4453781513" type="line" smooth="yes"/>
+			<point x="372.9915966387" y="1499.7079831933"/>
+			<point x="445.3844537815" y="1554.8928571429"/>
+			<point x="489.9558823529" y="1554.8928571429" type="qcurve" smooth="yes"/>
+			<point x="530.4558823529" y="1554.8928571429"/>
+			<point x="587.1701680672" y="1502.7142857143"/>
+			<point x="587.1701680672" y="1458.1428571429" type="qcurve" smooth="yes"/>
+			<point x="587.1701680672" y="1414.1071428571"/>
+			<point x="516.5" y="1337.9264705882"/>
+			<point x="477.4369747899" y="1307.9537815126" type="qcurve" smooth="yes"/>
+			<point x="217.1659663866" y="1109.6470588235" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1053"/>
+	<anchor name="top" x="0" y="1561"/>
+	<anchor name="_topright" x="0" y="1052"/>
 </glyph>

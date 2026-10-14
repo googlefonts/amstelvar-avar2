@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb-stack" format="2">
-	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="128.2647058824" y="1111.0378787879" type="qcurve" smooth="yes"/>
+			<point x="94.2647058824" y="1111.0378787879"/>
+			<point x="49.0628978864" y="1157.2746371276"/>
+			<point x="15.2192513369" y="1182.4307359307" type="qcurve" smooth="yes"/>
+			<point x="-247.9054621849" y="1423.8740132417" type="line"/>
+			<point x="-155.9621212121" y="1509.2058823529" type="line"/>
+			<point x="165.5861344538" y="1336.3571428571" type="line"/>
+			<point x="549.4054621849" y="1510.7941176471" type="line"/>
+			<point x="637.6407563025" y="1424.9328367711" type="line"/>
+			<point x="264.2030175707" y="1177.6093073593" type="line" smooth="yes"/>
+			<point x="213.6194932518" y="1146.7956455309"/>
+			<point x="162.2647058824" y="1111.0378787879"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="33.8823529412" y="1052"/>
+	<anchor name="top" x="33.8823529412" y="1528"/>
 </glyph>

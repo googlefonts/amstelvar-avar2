@@ -448,13 +448,12 @@ if __name__ == '__main__':
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
-    # glyphNames = ['five.lc'] 
-    # glyphNames = p.defaultFont.glyphOrder
+    # --- glyph names ---
+    # glyphNames = ['five.lc']
+    # glyphNames = list(p.defaultFont.glyphOrder)
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
-    # glyphNames  = p.smartSets['figures']['proportional']
-    # glyphNames = p.smartSets['figures']['fractions'] + p.smartSets['figures']['superior']
-    # glyphNames = p.smartSets['lowercase']['cyrillic'] # + p.smartSets['lowercase']['cyrillic']
+    # glyphNames = p.smartSets['lowercase']['latin'] + p.smartSets['uppercase']['latin']
     # glyphNames = [g for g in glyphNames if g not in p.smartSets['Latin 1']]
     # glyphNames = [f'{g}.rvrn' for g in p.smartSets['BARS']]
     # glyphNames.remove('figuredash')
@@ -462,17 +461,17 @@ if __name__ == '__main__':
 
     # --- managing sources ---
     # p.createParametricSources(['XVAU'], minSource=True, maxSource=True)
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     # for src, dst in [('XOLC', 'XOET'), ('YOLC', 'YOET'), ('XTLC', 'XTET'), ('XLCS', 'XETS')]:
     #     p.splitSources(src, dst, glyphNames, preflight=False)
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP0', preflight=False, parametric=True, tuning=False)
-    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True)
-    # p.copyGroupsFromDefault()
+    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True, reference=False)
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
-    # p.copyKerningFromDefault()
+    # p.copyGroupsFromDefault(parametric=True, tuning=True, reference=True)
+    # p.copyKerningFromDefault(parametric=True, tuning=True, reference=False)
 
     # --- building glyphs ---
     # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
@@ -493,12 +492,16 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True)
+    # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True, locations=['wght1000', 'wght1000_wdth125'])
+
+    # --- tweaking ---
+    # tweaks = { "wght1000" : { "XTSP" : -20 } }
+    # p.tweakReferenceSources(tweaks, glyphNames, preflight=True)
 
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
-    p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    # p.cleanupSources(parametric=True, tuning=True, reference=True)
+    # p.normalizeSources(parametric=True, tuning=True, reference=True)
 
     # --- project info ---
     # p.printSettings()

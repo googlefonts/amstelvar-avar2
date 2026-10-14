@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="2">
-	<advance width="923"/>
+	<advance width="999"/>
 	<outline>
 		<contour>
-			<point x="212" y="807" type="qcurve"/>
-			<point x="10" y="787" type="line"/>
-			<point x="15" y="921" type="line"/>
-			<point x="496" y="1050" type="line"/>
-			<point x="726" y="1050" type="line"/>
-			<point x="780" y="935" type="line"/>
-			<point x="741" y="816" type="line"/>
-			<point x="580" y="132" type="line" smooth="yes"/>
-			<point x="512" y="-159"/>
-			<point x="216" y="-464"/>
-			<point x="-143" y="-464" type="qcurve"/>
-			<point x="-403" y="-425" type="line"/>
-			<point x="-377" y="-248" type="line"/>
-			<point x="-189" y="-250" type="line" smooth="yes"/>
-			<point x="-76" y="-251"/>
-			<point x="45" y="-135"/>
-			<point x="91" y="105" type="qcurve" smooth="yes"/>
-			<point x="123" y="270"/>
-			<point x="189" y="647"/>
+			<point x="212.003441523" y="807.00390625" type="qcurve"/>
+			<point x="10.0024150967" y="787.00390625" type="line"/>
+			<point x="15.0015581631" y="920.9995117188" type="line"/>
+			<point x="572.3659195503" y="1049.9995117188" type="line"/>
+			<point x="802.3659195504" y="1049.9995117188" type="line"/>
+			<point x="856.3659195503" y="934.9995117188" type="line"/>
+			<point x="817.3659195503" y="815.9995117188" type="line"/>
+			<point x="656.365544486" y="131.9974083534" type="line"/>
+			<point x="584.9223752171" y="-160.7876287642"/>
+			<point x="285.5401120335" y="-464.0056584285"/>
+			<point x="-77.1053045284" y="-464.0056584285" type="qcurve"/>
+			<point x="-341.0747718426" y="-425.0056584285" type="line"/>
+			<point x="-315.0756727215" y="-248.0096794246" type="line"/>
+			<point x="-151.8005111293" y="-250.0096794246" type="line" smooth="yes"/>
+			<point x="-53.5017663989" y="-251.0096794246"/>
+			<point x="44.1100926715" y="-140.5775676807"/>
+			<point x="91.0023853063" y="104.9974083534" type="qcurve" smooth="yes"/>
+			<point x="123.0025815578" y="269.9973856295"/>
+			<point x="189.003507441" y="647.003840332"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="456" y="-436"/>
-	<anchor name="top" x="461" y="1050"/>
-	<anchor name="_liga" x="-144" y="0"/>
+	<anchor name="bottom" x="554.511627907" y="-436"/>
+	<anchor name="top" x="586.3687707641" y="1040"/>
+	<anchor name="_liga" x="46.511627907" y="0"/>
 </glyph>

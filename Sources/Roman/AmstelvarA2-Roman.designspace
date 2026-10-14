@@ -27,7 +27,7 @@
     <axis tag="XTUC" name="X transparent uppercase" minimum="72" maximum="668" default="400" hidden="1"/>
     <axis tag="XTUR" name="X transparent uppercase rounds" minimum="58" maximum="907" default="561" hidden="1"/>
     <axis tag="XTUD" name="X transparent uppercase diagonals" minimum="43" maximum="715" default="410" hidden="1"/>
-    <axis tag="XTUA" name="Uppercase accent width" minimum="190" maximum="401" default="258" hidden="1"/>
+    <axis tag="XTUA" name="Uppercase accent width" minimum="190" maximum="437" default="258" hidden="1"/>
     <axis tag="YTUC" name="Y transparent uppercase" minimum="541" maximum="875" default="750" hidden="1"/>
     <axis tag="YTJD" name="Y transparent J descender" minimum="-204" maximum="0" default="-104" hidden="1"/>
     <axis tag="XSHU" name="X horizontal serif uppercase" minimum="0" maximum="154" default="104" hidden="1"/>
@@ -38,9 +38,9 @@
     <axis tag="XUCS" name="X sidebearing uppercase straights" minimum="32" maximum="205" default="145" hidden="1"/>
     <axis tag="XUCR" name="X sidebearing uppercase rounds" minimum="0" maximum="100" default="40" hidden="1"/>
     <axis tag="XUCD" name="X sidebearing uppercase diagonals" minimum="22" maximum="141" default="69" hidden="1"/>
-    <axis tag="XOLC" name="X stem lowercase" minimum="4" maximum="293" default="85" hidden="1"/>
+    <axis tag="XOLC" name="X stem lowercase" minimum="4" maximum="304" default="85" hidden="1"/>
     <axis tag="YOLC" name="Y stem lowercase" minimum="4" maximum="149" default="58" hidden="1"/>
-    <axis tag="XOLA" name="Lowercase accents main weight" minimum="4" maximum="142" default="78" hidden="1"/>
+    <axis tag="XOLA" name="Lowercase accents main weight" minimum="4" maximum="146" default="78" hidden="1"/>
     <axis tag="YOLA" name="Lowercase accents secondary weight" minimum="6" maximum="97" default="53" hidden="1"/>
     <axis tag="XTLC" name="X transparent lowercase" minimum="42" maximum="500" default="243" hidden="1"/>
     <axis tag="XTLR" name="X transparent lowercase rounds" minimum="45" maximum="629" default="337" hidden="1"/>
@@ -1956,38 +1956,38 @@
           <dimension name="Weight" xvalue="1000"/>
         </input>
         <output>
-          <dimension name="X stem uppercase" xvalue="250"/>
-          <dimension name="Uppercase accents main weight" xvalue="102"/>
-          <dimension name="X stem lowercase" xvalue="242"/>
-          <dimension name="Lowercase accents main weight" xvalue="102"/>
-          <dimension name="X stem figures" xvalue="245"/>
-          <dimension name="X stem etcetera" xvalue="214"/>
+          <dimension name="X stem uppercase" xvalue="292"/>
+          <dimension name="Uppercase accents main weight" xvalue="144"/>
+          <dimension name="X stem lowercase" xvalue="284"/>
+          <dimension name="Lowercase accents main weight" xvalue="143"/>
+          <dimension name="X stem figures" xvalue="287"/>
+          <dimension name="X stem etcetera" xvalue="242"/>
           <dimension name="Dot width" xvalue="246"/>
           <dimension name="Y stem uppercase" xvalue="81"/>
-          <dimension name="Uppercase accents secondary weight" xvalue="59"/>
+          <dimension name="Uppercase accents secondary weight" xvalue="56"/>
           <dimension name="Y stem lowercase" xvalue="79"/>
           <dimension name="Lowercase accents secondary weight" xvalue="59"/>
           <dimension name="Y stem figures" xvalue="68"/>
           <dimension name="Y stem etcetera" xvalue="82"/>
-          <dimension name="X transparent uppercase" xvalue="250"/>
-          <dimension name="X transparent uppercase rounds" xvalue="342"/>
-          <dimension name="X transparent uppercase diagonals" xvalue="304"/>
-          <dimension name="Uppercase accent width" xvalue="282"/>
-          <dimension name="X transparent lowercase" xvalue="170"/>
-          <dimension name="X transparent lowercase rounds" xvalue="204"/>
-          <dimension name="X transparent lowercase diagonals" xvalue="208"/>
-          <dimension name="Lowercase accent width" xvalue="282"/>
-          <dimension name="X transparent figures" xvalue="268"/>
-          <dimension name="X transparent etcetera" xvalue="629"/>
+          <dimension name="X transparent uppercase" xvalue="170"/>
+          <dimension name="X transparent uppercase rounds" xvalue="262"/>
+          <dimension name="X transparent uppercase diagonals" xvalue="224"/>
+          <dimension name="Uppercase accent width" xvalue="349"/>
+          <dimension name="X transparent lowercase" xvalue="90"/>
+          <dimension name="X transparent lowercase rounds" xvalue="124"/>
+          <dimension name="X transparent lowercase diagonals" xvalue="132"/>
+          <dimension name="Lowercase accent width" xvalue="290"/>
+          <dimension name="X transparent figures" xvalue="188"/>
+          <dimension name="X transparent etcetera" xvalue="600"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-120"/>
           <dimension name="Y transparent lowercase" xvalue="536"/>
           <dimension name="Y transparent ascender" xvalue="767"/>
           <dimension name="Y transparent descender" xvalue="-240"/>
           <dimension name="Y transparent figures" xvalue="776"/>
-          <dimension name="X horizontal serif uppercase" xvalue="89"/>
-          <dimension name="X horizontal serif lowercase" xvalue="74"/>
-          <dimension name="X horizontal serif figures" xvalue="124"/>
+          <dimension name="X horizontal serif uppercase" xvalue="59"/>
+          <dimension name="X horizontal serif lowercase" xvalue="44"/>
+          <dimension name="X horizontal serif figures" xvalue="94"/>
           <dimension name="Y horizontal serif uppercase" xvalue="65"/>
           <dimension name="Y horizontal serif lowercase" xvalue="60"/>
           <dimension name="Y horizontal serif figures" xvalue="62"/>
@@ -2009,7 +2009,7 @@
           <dimension name="Word space width" xvalue="250"/>
           <dimension name="Lowercase overshoot" xvalue="13"/>
           <dimension name="Trap width" xvalue="5"/>
-          <dimension name="Trap length" xvalue="63"/>
+          <dimension name="Trap length" xvalue="62"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2044,29 +2044,29 @@
           <dimension name="Width" xvalue="125"/>
         </input>
         <output>
-          <dimension name="X stem uppercase" xvalue="252"/>
-          <dimension name="Uppercase accents main weight" xvalue="103"/>
-          <dimension name="X stem lowercase" xvalue="244"/>
-          <dimension name="Lowercase accents main weight" xvalue="98"/>
-          <dimension name="X stem figures" xvalue="244"/>
-          <dimension name="X stem etcetera" xvalue="212"/>
+          <dimension name="X stem uppercase" xvalue="310"/>
+          <dimension name="Uppercase accents main weight" xvalue="154"/>
+          <dimension name="X stem lowercase" xvalue="294"/>
+          <dimension name="Lowercase accents main weight" xvalue="144"/>
+          <dimension name="X stem figures" xvalue="302"/>
+          <dimension name="X stem etcetera" xvalue="246"/>
           <dimension name="Dot width" xvalue="246"/>
-          <dimension name="Y stem uppercase" xvalue="81"/>
-          <dimension name="Uppercase accents secondary weight" xvalue="52"/>
-          <dimension name="Y stem lowercase" xvalue="78"/>
+          <dimension name="Y stem uppercase" xvalue="106"/>
+          <dimension name="Uppercase accents secondary weight" xvalue="48"/>
+          <dimension name="Y stem lowercase" xvalue="102"/>
           <dimension name="Lowercase accents secondary weight" xvalue="52"/>
-          <dimension name="Y stem figures" xvalue="74"/>
-          <dimension name="Y stem etcetera" xvalue="82"/>
-          <dimension name="X transparent uppercase" xvalue="441"/>
-          <dimension name="X transparent uppercase rounds" xvalue="574"/>
-          <dimension name="X transparent uppercase diagonals" xvalue="494"/>
-          <dimension name="Uppercase accent width" xvalue="352"/>
-          <dimension name="X transparent lowercase" xvalue="360"/>
-          <dimension name="X transparent lowercase rounds" xvalue="398"/>
-          <dimension name="X transparent lowercase diagonals" xvalue="388"/>
-          <dimension name="Lowercase accent width" xvalue="371"/>
-          <dimension name="X transparent figures" xvalue="364"/>
-          <dimension name="X transparent etcetera" xvalue="842"/>
+          <dimension name="Y stem figures" xvalue="98"/>
+          <dimension name="Y stem etcetera" xvalue="107"/>
+          <dimension name="X transparent uppercase" xvalue="368"/>
+          <dimension name="X transparent uppercase rounds" xvalue="498"/>
+          <dimension name="X transparent uppercase diagonals" xvalue="426"/>
+          <dimension name="Uppercase accent width" xvalue="432"/>
+          <dimension name="X transparent lowercase" xvalue="254"/>
+          <dimension name="X transparent lowercase rounds" xvalue="316"/>
+          <dimension name="X transparent lowercase diagonals" xvalue="262"/>
+          <dimension name="Lowercase accent width" xvalue="379"/>
+          <dimension name="X transparent figures" xvalue="266"/>
+          <dimension name="X transparent etcetera" xvalue="722"/>
           <dimension name="Y transparent uppercase" xvalue="750"/>
           <dimension name="Y transparent J descender" xvalue="-144"/>
           <dimension name="Y transparent lowercase" xvalue="536"/>
@@ -2095,7 +2095,7 @@
           <dimension name="X sidebearing figures round" xvalue="40"/>
           <dimension name="X sidebearing etcetera" xvalue="52"/>
           <dimension name="Word space width" xvalue="250"/>
-          <dimension name="Lowercase overshoot" xvalue="18"/>
+          <dimension name="Lowercase overshoot" xvalue="16"/>
           <dimension name="Trap width" xvalue="5"/>
           <dimension name="Trap length" xvalue="110"/>
           <dimension name="opsz144" xvalue="0"/>
@@ -2846,16 +2846,16 @@
       </mapping>
       <mapping>
         <input>
-          <dimension name="General x opaque" xvalue="154"/>
+          <dimension name="General x opaque" xvalue="158"/>
         </input>
         <output>
-          <dimension name="X stem uppercase" xvalue="154"/>
-          <dimension name="Uppercase accents main weight" xvalue="148"/>
-          <dimension name="X stem lowercase" xvalue="149"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
-          <dimension name="X stem figures" xvalue="152"/>
-          <dimension name="X stem etcetera" xvalue="158"/>
-          <dimension name="Dot width" xvalue="208"/>
+          <dimension name="X stem uppercase" xvalue="158"/>
+          <dimension name="Uppercase accents main weight" xvalue="152"/>
+          <dimension name="X stem lowercase" xvalue="153"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
+          <dimension name="X stem figures" xvalue="156"/>
+          <dimension name="X stem etcetera" xvalue="162"/>
+          <dimension name="Dot width" xvalue="212"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -2892,7 +2892,7 @@
           <dimension name="X stem uppercase" xvalue="160"/>
           <dimension name="Uppercase accents main weight" xvalue="154"/>
           <dimension name="X stem lowercase" xvalue="155"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
           <dimension name="X stem figures" xvalue="158"/>
           <dimension name="X stem etcetera" xvalue="164"/>
           <dimension name="Dot width" xvalue="214"/>
@@ -2932,7 +2932,7 @@
           <dimension name="X stem uppercase" xvalue="220"/>
           <dimension name="Uppercase accents main weight" xvalue="154"/>
           <dimension name="X stem lowercase" xvalue="215"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
           <dimension name="X stem figures" xvalue="218"/>
           <dimension name="X stem etcetera" xvalue="224"/>
           <dimension name="Dot width" xvalue="274"/>
@@ -2972,48 +2972,8 @@
           <dimension name="X stem uppercase" xvalue="242"/>
           <dimension name="Uppercase accents main weight" xvalue="154"/>
           <dimension name="X stem lowercase" xvalue="237"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
           <dimension name="X stem figures" xvalue="240"/>
-          <dimension name="X stem etcetera" xvalue="246"/>
-          <dimension name="Dot width" xvalue="274"/>
-          <dimension name="opsz144" xvalue="0"/>
-          <dimension name="opsz144_wdth125" xvalue="0"/>
-          <dimension name="opsz144_wdth50" xvalue="0"/>
-          <dimension name="opsz144_wght100" xvalue="0"/>
-          <dimension name="opsz144_wght1000" xvalue="0"/>
-          <dimension name="opsz144_wght1000_wdth125" xvalue="0"/>
-          <dimension name="opsz144_wght1000_wdth50" xvalue="0"/>
-          <dimension name="opsz144_wght100_wdth125" xvalue="0"/>
-          <dimension name="opsz144_wght100_wdth50" xvalue="0"/>
-          <dimension name="opsz8" xvalue="0"/>
-          <dimension name="opsz8_wdth125" xvalue="0"/>
-          <dimension name="opsz8_wdth50" xvalue="0"/>
-          <dimension name="opsz8_wght100" xvalue="0"/>
-          <dimension name="opsz8_wght1000" xvalue="0"/>
-          <dimension name="opsz8_wght1000_wdth125" xvalue="0"/>
-          <dimension name="opsz8_wght1000_wdth50" xvalue="0"/>
-          <dimension name="opsz8_wght100_wdth125" xvalue="0"/>
-          <dimension name="opsz8_wght100_wdth50" xvalue="0"/>
-          <dimension name="wdth125" xvalue="0"/>
-          <dimension name="wdth50" xvalue="0"/>
-          <dimension name="wght100" xvalue="0"/>
-          <dimension name="wght1000" xvalue="0"/>
-          <dimension name="wght1000_wdth125" xvalue="0"/>
-          <dimension name="wght1000_wdth50" xvalue="0"/>
-          <dimension name="wght100_wdth125" xvalue="0"/>
-          <dimension name="wght100_wdth50" xvalue="0"/>
-        </output>
-      </mapping>
-      <mapping>
-        <input>
-          <dimension name="General x opaque" xvalue="298"/>
-        </input>
-        <output>
-          <dimension name="X stem uppercase" xvalue="298"/>
-          <dimension name="Uppercase accents main weight" xvalue="154"/>
-          <dimension name="X stem lowercase" xvalue="293"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
-          <dimension name="X stem figures" xvalue="296"/>
           <dimension name="X stem etcetera" xvalue="246"/>
           <dimension name="Dot width" xvalue="274"/>
           <dimension name="opsz144" xvalue="0"/>
@@ -3051,8 +3011,48 @@
         <output>
           <dimension name="X stem uppercase" xvalue="304"/>
           <dimension name="Uppercase accents main weight" xvalue="154"/>
-          <dimension name="X stem lowercase" xvalue="293"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
+          <dimension name="X stem lowercase" xvalue="299"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
+          <dimension name="X stem figures" xvalue="302"/>
+          <dimension name="X stem etcetera" xvalue="246"/>
+          <dimension name="Dot width" xvalue="274"/>
+          <dimension name="opsz144" xvalue="0"/>
+          <dimension name="opsz144_wdth125" xvalue="0"/>
+          <dimension name="opsz144_wdth50" xvalue="0"/>
+          <dimension name="opsz144_wght100" xvalue="0"/>
+          <dimension name="opsz144_wght1000" xvalue="0"/>
+          <dimension name="opsz144_wght1000_wdth125" xvalue="0"/>
+          <dimension name="opsz144_wght1000_wdth50" xvalue="0"/>
+          <dimension name="opsz144_wght100_wdth125" xvalue="0"/>
+          <dimension name="opsz144_wght100_wdth50" xvalue="0"/>
+          <dimension name="opsz8" xvalue="0"/>
+          <dimension name="opsz8_wdth125" xvalue="0"/>
+          <dimension name="opsz8_wdth50" xvalue="0"/>
+          <dimension name="opsz8_wght100" xvalue="0"/>
+          <dimension name="opsz8_wght1000" xvalue="0"/>
+          <dimension name="opsz8_wght1000_wdth125" xvalue="0"/>
+          <dimension name="opsz8_wght1000_wdth50" xvalue="0"/>
+          <dimension name="opsz8_wght100_wdth125" xvalue="0"/>
+          <dimension name="opsz8_wght100_wdth50" xvalue="0"/>
+          <dimension name="wdth125" xvalue="0"/>
+          <dimension name="wdth50" xvalue="0"/>
+          <dimension name="wght100" xvalue="0"/>
+          <dimension name="wght1000" xvalue="0"/>
+          <dimension name="wght1000_wdth125" xvalue="0"/>
+          <dimension name="wght1000_wdth50" xvalue="0"/>
+          <dimension name="wght100_wdth125" xvalue="0"/>
+          <dimension name="wght100_wdth50" xvalue="0"/>
+        </output>
+      </mapping>
+      <mapping>
+        <input>
+          <dimension name="General x opaque" xvalue="309"/>
+        </input>
+        <output>
+          <dimension name="X stem uppercase" xvalue="309"/>
+          <dimension name="Uppercase accents main weight" xvalue="154"/>
+          <dimension name="X stem lowercase" xvalue="304"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
           <dimension name="X stem figures" xvalue="302"/>
           <dimension name="X stem etcetera" xvalue="246"/>
           <dimension name="Dot width" xvalue="274"/>
@@ -3091,8 +3091,8 @@
         <output>
           <dimension name="X stem uppercase" xvalue="310"/>
           <dimension name="Uppercase accents main weight" xvalue="154"/>
-          <dimension name="X stem lowercase" xvalue="293"/>
-          <dimension name="Lowercase accents main weight" xvalue="142"/>
+          <dimension name="X stem lowercase" xvalue="304"/>
+          <dimension name="Lowercase accents main weight" xvalue="146"/>
           <dimension name="X stem figures" xvalue="302"/>
           <dimension name="X stem etcetera" xvalue="246"/>
           <dimension name="Dot width" xvalue="274"/>
@@ -3946,19 +3946,19 @@
       </mapping>
       <mapping>
         <input>
-          <dimension name="General x transparent" xvalue="543"/>
+          <dimension name="General x transparent" xvalue="579"/>
         </input>
         <output>
-          <dimension name="X transparent uppercase" xvalue="543"/>
-          <dimension name="X transparent uppercase rounds" xvalue="704"/>
-          <dimension name="X transparent uppercase diagonals" xvalue="553"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
-          <dimension name="X transparent lowercase" xvalue="386"/>
-          <dimension name="X transparent lowercase rounds" xvalue="480"/>
-          <dimension name="X transparent lowercase diagonals" xvalue="391"/>
-          <dimension name="Lowercase accent width" xvalue="378"/>
-          <dimension name="X transparent figures" xvalue="472"/>
-          <dimension name="X transparent etcetera" xvalue="785"/>
+          <dimension name="X transparent uppercase" xvalue="579"/>
+          <dimension name="X transparent uppercase rounds" xvalue="740"/>
+          <dimension name="X transparent uppercase diagonals" xvalue="589"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
+          <dimension name="X transparent lowercase" xvalue="422"/>
+          <dimension name="X transparent lowercase rounds" xvalue="516"/>
+          <dimension name="X transparent lowercase diagonals" xvalue="427"/>
+          <dimension name="Lowercase accent width" xvalue="414"/>
+          <dimension name="X transparent figures" xvalue="508"/>
+          <dimension name="X transparent etcetera" xvalue="821"/>
           <dimension name="opsz144" xvalue="0"/>
           <dimension name="opsz144_wdth125" xvalue="0"/>
           <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -3995,7 +3995,7 @@
           <dimension name="X transparent uppercase" xvalue="635"/>
           <dimension name="X transparent uppercase rounds" xvalue="796"/>
           <dimension name="X transparent uppercase diagonals" xvalue="645"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="478"/>
           <dimension name="X transparent lowercase rounds" xvalue="572"/>
           <dimension name="X transparent lowercase diagonals" xvalue="483"/>
@@ -4038,7 +4038,7 @@
           <dimension name="X transparent uppercase" xvalue="657"/>
           <dimension name="X transparent uppercase rounds" xvalue="818"/>
           <dimension name="X transparent uppercase diagonals" xvalue="667"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="594"/>
           <dimension name="X transparent lowercase diagonals" xvalue="505"/>
@@ -4081,7 +4081,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="829"/>
           <dimension name="X transparent uppercase diagonals" xvalue="678"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="605"/>
           <dimension name="X transparent lowercase diagonals" xvalue="516"/>
@@ -4124,7 +4124,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="831"/>
           <dimension name="X transparent uppercase diagonals" xvalue="680"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="607"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -4167,7 +4167,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="853"/>
           <dimension name="X transparent uppercase diagonals" xvalue="702"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="629"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -4210,7 +4210,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="866"/>
           <dimension name="X transparent uppercase diagonals" xvalue="715"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="629"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -4253,7 +4253,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="907"/>
           <dimension name="X transparent uppercase diagonals" xvalue="715"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="629"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -4296,7 +4296,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="907"/>
           <dimension name="X transparent uppercase diagonals" xvalue="715"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="629"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -4339,7 +4339,7 @@
           <dimension name="X transparent uppercase" xvalue="668"/>
           <dimension name="X transparent uppercase rounds" xvalue="907"/>
           <dimension name="X transparent uppercase diagonals" xvalue="715"/>
-          <dimension name="Uppercase accent width" xvalue="401"/>
+          <dimension name="Uppercase accent width" xvalue="437"/>
           <dimension name="X transparent lowercase" xvalue="500"/>
           <dimension name="X transparent lowercase rounds" xvalue="629"/>
           <dimension name="X transparent lowercase diagonals" xvalue="518"/>
@@ -6772,7 +6772,7 @@
         <dimension name="wght100_wdth50" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Roman_XTUA401.ufo" name="XTUA401" familyname="AmstelvarA2 Roman" stylename="XTUA401">
+    <source filename="AmstelvarA2-Roman_XTUA437.ufo" name="XTUA437" familyname="AmstelvarA2 Roman" stylename="XTUA437">
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="320"/>
@@ -6783,7 +6783,7 @@
         <dimension name="X transparent uppercase" xvalue="400"/>
         <dimension name="X transparent uppercase rounds" xvalue="561"/>
         <dimension name="X transparent uppercase diagonals" xvalue="410"/>
-        <dimension name="Uppercase accent width" xvalue="401"/>
+        <dimension name="Uppercase accent width" xvalue="437"/>
         <dimension name="Y transparent uppercase" xvalue="750"/>
         <dimension name="Y transparent J descender" xvalue="-104"/>
         <dimension name="X horizontal serif uppercase" xvalue="104"/>
@@ -8642,7 +8642,7 @@
         <dimension name="wght100_wdth50" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Roman_XOLC4.ufo" name="XOLC4" familyname="AmstelvarA2 Roman" stylename="XOLC4">
+    <source filename="AmstelvarA2-Roman_XOLC304.ufo" name="XOLC304" familyname="AmstelvarA2 Roman" stylename="XOLC304">
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="320"/>
@@ -8664,7 +8664,7 @@
         <dimension name="X sidebearing uppercase straights" xvalue="145"/>
         <dimension name="X sidebearing uppercase rounds" xvalue="40"/>
         <dimension name="X sidebearing uppercase diagonals" xvalue="69"/>
-        <dimension name="X stem lowercase" xvalue="4"/>
+        <dimension name="X stem lowercase" xvalue="304"/>
         <dimension name="Y stem lowercase" xvalue="58"/>
         <dimension name="Lowercase accents main weight" xvalue="78"/>
         <dimension name="Lowercase accents secondary weight" xvalue="53"/>
@@ -8727,7 +8727,7 @@
         <dimension name="wght100_wdth50" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Roman_XOLC293.ufo" name="XOLC293" familyname="AmstelvarA2 Roman" stylename="XOLC293">
+    <source filename="AmstelvarA2-Roman_XOLC4.ufo" name="XOLC4" familyname="AmstelvarA2 Roman" stylename="XOLC4">
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="320"/>
@@ -8749,7 +8749,7 @@
         <dimension name="X sidebearing uppercase straights" xvalue="145"/>
         <dimension name="X sidebearing uppercase rounds" xvalue="40"/>
         <dimension name="X sidebearing uppercase diagonals" xvalue="69"/>
-        <dimension name="X stem lowercase" xvalue="293"/>
+        <dimension name="X stem lowercase" xvalue="4"/>
         <dimension name="Y stem lowercase" xvalue="58"/>
         <dimension name="Lowercase accents main weight" xvalue="78"/>
         <dimension name="Lowercase accents secondary weight" xvalue="53"/>
@@ -9067,7 +9067,7 @@
         <dimension name="wght100_wdth50" xvalue="0"/>
       </location>
     </source>
-    <source filename="AmstelvarA2-Roman_XOLA142.ufo" name="XOLA142" familyname="AmstelvarA2 Roman" stylename="XOLA142">
+    <source filename="AmstelvarA2-Roman_XOLA146.ufo" name="XOLA146" familyname="AmstelvarA2 Roman" stylename="XOLA146">
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="320"/>
@@ -9091,7 +9091,7 @@
         <dimension name="X sidebearing uppercase diagonals" xvalue="69"/>
         <dimension name="X stem lowercase" xvalue="85"/>
         <dimension name="Y stem lowercase" xvalue="58"/>
-        <dimension name="Lowercase accents main weight" xvalue="142"/>
+        <dimension name="Lowercase accents main weight" xvalue="146"/>
         <dimension name="Lowercase accents secondary weight" xvalue="53"/>
         <dimension name="X transparent lowercase" xvalue="243"/>
         <dimension name="X transparent lowercase rounds" xvalue="337"/>
@@ -18678,17 +18678,17 @@
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="250"/>
-        <dimension name="X stem uppercase" xvalue="250"/>
+        <dimension name="X stem uppercase" xvalue="292"/>
         <dimension name="Y stem uppercase" xvalue="81"/>
-        <dimension name="Uppercase accents main weight" xvalue="102"/>
-        <dimension name="Uppercase accents secondary weight" xvalue="59"/>
-        <dimension name="X transparent uppercase" xvalue="250"/>
-        <dimension name="X transparent uppercase rounds" xvalue="342"/>
-        <dimension name="X transparent uppercase diagonals" xvalue="304"/>
-        <dimension name="Uppercase accent width" xvalue="282"/>
+        <dimension name="Uppercase accents main weight" xvalue="144"/>
+        <dimension name="Uppercase accents secondary weight" xvalue="56"/>
+        <dimension name="X transparent uppercase" xvalue="170"/>
+        <dimension name="X transparent uppercase rounds" xvalue="262"/>
+        <dimension name="X transparent uppercase diagonals" xvalue="224"/>
+        <dimension name="Uppercase accent width" xvalue="349"/>
         <dimension name="Y transparent uppercase" xvalue="750"/>
         <dimension name="Y transparent J descender" xvalue="-120"/>
-        <dimension name="X horizontal serif uppercase" xvalue="89"/>
+        <dimension name="X horizontal serif uppercase" xvalue="59"/>
         <dimension name="Y horizontal serif uppercase" xvalue="65"/>
         <dimension name="X vertical serif uppercase" xvalue="73"/>
         <dimension name="Y vertical serif uppercase" xvalue="143"/>
@@ -18696,41 +18696,41 @@
         <dimension name="X sidebearing uppercase straights" xvalue="110"/>
         <dimension name="X sidebearing uppercase rounds" xvalue="32"/>
         <dimension name="X sidebearing uppercase diagonals" xvalue="75"/>
-        <dimension name="X stem lowercase" xvalue="242"/>
+        <dimension name="X stem lowercase" xvalue="284"/>
         <dimension name="Y stem lowercase" xvalue="79"/>
-        <dimension name="Lowercase accents main weight" xvalue="102"/>
+        <dimension name="Lowercase accents main weight" xvalue="143"/>
         <dimension name="Lowercase accents secondary weight" xvalue="59"/>
-        <dimension name="X transparent lowercase" xvalue="170"/>
-        <dimension name="X transparent lowercase rounds" xvalue="204"/>
-        <dimension name="X transparent lowercase diagonals" xvalue="208"/>
-        <dimension name="Lowercase accent width" xvalue="282"/>
+        <dimension name="X transparent lowercase" xvalue="90"/>
+        <dimension name="X transparent lowercase rounds" xvalue="124"/>
+        <dimension name="X transparent lowercase diagonals" xvalue="132"/>
+        <dimension name="Lowercase accent width" xvalue="290"/>
         <dimension name="Y transparent lowercase" xvalue="536"/>
         <dimension name="Y transparent ascender" xvalue="767"/>
         <dimension name="Y transparent descender" xvalue="-240"/>
-        <dimension name="X horizontal serif lowercase" xvalue="74"/>
+        <dimension name="X horizontal serif lowercase" xvalue="44"/>
         <dimension name="Y horizontal serif lowercase" xvalue="60"/>
         <dimension name="X vertical serif lowercase" xvalue="78"/>
         <dimension name="Y vertical serif lowercase" xvalue="60"/>
         <dimension name="X sidebearing lowercase straights" xvalue="90"/>
         <dimension name="X sidebearing lowercase rounds" xvalue="27"/>
         <dimension name="X sidebearing lowercase diagonals" xvalue="68"/>
-        <dimension name="X stem figures" xvalue="245"/>
+        <dimension name="X stem figures" xvalue="287"/>
         <dimension name="Y stem figures" xvalue="68"/>
-        <dimension name="X transparent figures" xvalue="268"/>
+        <dimension name="X transparent figures" xvalue="188"/>
         <dimension name="Y transparent figures" xvalue="776"/>
-        <dimension name="X horizontal serif figures" xvalue="124"/>
+        <dimension name="X horizontal serif figures" xvalue="94"/>
         <dimension name="Y horizontal serif figures" xvalue="62"/>
         <dimension name="X vertical serif figures" xvalue="60"/>
         <dimension name="Y vertical serif figures" xvalue="97"/>
         <dimension name="X sidebearing figures round" xvalue="30"/>
-        <dimension name="X stem etcetera" xvalue="214"/>
+        <dimension name="X stem etcetera" xvalue="242"/>
         <dimension name="Y stem etcetera" xvalue="82"/>
-        <dimension name="X transparent etcetera" xvalue="629"/>
+        <dimension name="X transparent etcetera" xvalue="600"/>
         <dimension name="X sidebearing etcetera" xvalue="40"/>
         <dimension name="Dot width" xvalue="246"/>
         <dimension name="Lowercase overshoot" xvalue="13"/>
         <dimension name="Trap width" xvalue="5"/>
-        <dimension name="Trap length" xvalue="63"/>
+        <dimension name="Trap length" xvalue="62"/>
         <dimension name="opsz144" xvalue="0"/>
         <dimension name="opsz144_wdth125" xvalue="0"/>
         <dimension name="opsz144_wdth50" xvalue="0"/>
@@ -18763,14 +18763,14 @@
       <location>
         <dimension name="Grade" xvalue="0"/>
         <dimension name="Word space width" xvalue="250"/>
-        <dimension name="X stem uppercase" xvalue="252"/>
-        <dimension name="Y stem uppercase" xvalue="81"/>
-        <dimension name="Uppercase accents main weight" xvalue="103"/>
-        <dimension name="Uppercase accents secondary weight" xvalue="52"/>
-        <dimension name="X transparent uppercase" xvalue="441"/>
-        <dimension name="X transparent uppercase rounds" xvalue="574"/>
-        <dimension name="X transparent uppercase diagonals" xvalue="494"/>
-        <dimension name="Uppercase accent width" xvalue="352"/>
+        <dimension name="X stem uppercase" xvalue="310"/>
+        <dimension name="Y stem uppercase" xvalue="106"/>
+        <dimension name="Uppercase accents main weight" xvalue="154"/>
+        <dimension name="Uppercase accents secondary weight" xvalue="48"/>
+        <dimension name="X transparent uppercase" xvalue="368"/>
+        <dimension name="X transparent uppercase rounds" xvalue="498"/>
+        <dimension name="X transparent uppercase diagonals" xvalue="426"/>
+        <dimension name="Uppercase accent width" xvalue="432"/>
         <dimension name="Y transparent uppercase" xvalue="750"/>
         <dimension name="Y transparent J descender" xvalue="-144"/>
         <dimension name="X horizontal serif uppercase" xvalue="109"/>
@@ -18781,14 +18781,14 @@
         <dimension name="X sidebearing uppercase straights" xvalue="154"/>
         <dimension name="X sidebearing uppercase rounds" xvalue="40"/>
         <dimension name="X sidebearing uppercase diagonals" xvalue="121"/>
-        <dimension name="X stem lowercase" xvalue="244"/>
-        <dimension name="Y stem lowercase" xvalue="78"/>
-        <dimension name="Lowercase accents main weight" xvalue="98"/>
+        <dimension name="X stem lowercase" xvalue="294"/>
+        <dimension name="Y stem lowercase" xvalue="102"/>
+        <dimension name="Lowercase accents main weight" xvalue="144"/>
         <dimension name="Lowercase accents secondary weight" xvalue="52"/>
-        <dimension name="X transparent lowercase" xvalue="360"/>
-        <dimension name="X transparent lowercase rounds" xvalue="398"/>
-        <dimension name="X transparent lowercase diagonals" xvalue="388"/>
-        <dimension name="Lowercase accent width" xvalue="371"/>
+        <dimension name="X transparent lowercase" xvalue="254"/>
+        <dimension name="X transparent lowercase rounds" xvalue="316"/>
+        <dimension name="X transparent lowercase diagonals" xvalue="262"/>
+        <dimension name="Lowercase accent width" xvalue="379"/>
         <dimension name="Y transparent lowercase" xvalue="536"/>
         <dimension name="Y transparent ascender" xvalue="767"/>
         <dimension name="Y transparent descender" xvalue="-240"/>
@@ -18799,21 +18799,21 @@
         <dimension name="X sidebearing lowercase straights" xvalue="138"/>
         <dimension name="X sidebearing lowercase rounds" xvalue="39"/>
         <dimension name="X sidebearing lowercase diagonals" xvalue="101"/>
-        <dimension name="X stem figures" xvalue="244"/>
-        <dimension name="Y stem figures" xvalue="74"/>
-        <dimension name="X transparent figures" xvalue="364"/>
+        <dimension name="X stem figures" xvalue="302"/>
+        <dimension name="Y stem figures" xvalue="98"/>
+        <dimension name="X transparent figures" xvalue="266"/>
         <dimension name="Y transparent figures" xvalue="776"/>
         <dimension name="X horizontal serif figures" xvalue="184"/>
         <dimension name="Y horizontal serif figures" xvalue="62"/>
         <dimension name="X vertical serif figures" xvalue="60"/>
         <dimension name="Y vertical serif figures" xvalue="92"/>
         <dimension name="X sidebearing figures round" xvalue="40"/>
-        <dimension name="X stem etcetera" xvalue="212"/>
-        <dimension name="Y stem etcetera" xvalue="82"/>
-        <dimension name="X transparent etcetera" xvalue="842"/>
+        <dimension name="X stem etcetera" xvalue="246"/>
+        <dimension name="Y stem etcetera" xvalue="107"/>
+        <dimension name="X transparent etcetera" xvalue="722"/>
         <dimension name="X sidebearing etcetera" xvalue="52"/>
         <dimension name="Dot width" xvalue="246"/>
-        <dimension name="Lowercase overshoot" xvalue="18"/>
+        <dimension name="Lowercase overshoot" xvalue="16"/>
         <dimension name="Trap width" xvalue="5"/>
         <dimension name="Trap length" xvalue="110"/>
         <dimension name="opsz144" xvalue="0"/>

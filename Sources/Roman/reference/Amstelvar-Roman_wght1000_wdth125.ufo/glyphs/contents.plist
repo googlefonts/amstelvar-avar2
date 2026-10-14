@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>.notdef</key>
+		<string>_notdef.glif</string>
+		<key>.null</key>
+		<string>_null.glif</string>
 		<key>A</key>
 		<string>A_.glif</string>
 		<key>AE</key>
@@ -714,6 +718,8 @@
 		<string>acircumflextilde.glif</string>
 		<key>acute</key>
 		<string>acute.glif</string>
+		<key>acute-stack</key>
+		<string>acute-stack.glif</string>
 		<key>acute.case</key>
 		<string>acute.case.glif</string>
 		<key>acutecomb</key>
@@ -798,6 +804,8 @@
 		<string>bracketright.glif</string>
 		<key>breve</key>
 		<string>breve.glif</string>
+		<key>breve-stack</key>
+		<string>breve-stack.glif</string>
 		<key>breve.case</key>
 		<string>breve.case.glif</string>
 		<key>breve.cyr</key>
@@ -826,6 +834,8 @@
 		<string>brevecomb.case.glif</string>
 		<key>breveinverted</key>
 		<string>breveinverted.glif</string>
+		<key>breveinverted-stack</key>
+		<string>breveinverted-stack.glif</string>
 		<key>breveinverted.case</key>
 		<string>breveinverted.case.glif</string>
 		<key>breveinvertedcomb</key>
@@ -848,6 +858,8 @@
 		<string>cacute.glif</string>
 		<key>caron</key>
 		<string>caron.glif</string>
+		<key>caron-stack</key>
+		<string>caron-stack.glif</string>
 		<key>caron.case</key>
 		<string>caron.case.glif</string>
 		<key>caroncomb</key>
@@ -898,6 +910,8 @@
 		<string>chi.glif</string>
 		<key>circumflex</key>
 		<string>circumflex.glif</string>
+		<key>circumflex-stack</key>
+		<string>circumflex-stack.glif</string>
 		<key>circumflex.case</key>
 		<string>circumflex.case.glif</string>
 		<key>circumflexcomb</key>
@@ -948,6 +962,8 @@
 		<string>daggerdbl.glif</string>
 		<key>dblgrave</key>
 		<string>dblgrave.glif</string>
+		<key>dblgrave-stack</key>
+		<string>dblgrave-stack.glif</string>
 		<key>dblgrave.case</key>
 		<string>dblgrave.case.glif</string>
 		<key>dblgravecomb</key>
@@ -986,6 +1002,8 @@
 		<string>diagonalbaro.rvrn.glif</string>
 		<key>dieresis</key>
 		<string>dieresis.glif</string>
+		<key>dieresis-stack</key>
+		<string>dieresis-stack.glif</string>
 		<key>dieresis.case</key>
 		<string>dieresis.case.glif</string>
 		<key>dieresisbelow</key>
@@ -1022,6 +1040,8 @@
 		<string>dong.glif</string>
 		<key>dotaccent</key>
 		<string>dotaccent.glif</string>
+		<key>dotaccent-stack</key>
+		<string>dotaccent-stack.glif</string>
 		<key>dotaccent.case</key>
 		<string>dotaccent.case.glif</string>
 		<key>dotaccentcomb</key>
@@ -1160,6 +1180,8 @@
 		<string>f_f_l.glif</string>
 		<key>fi</key>
 		<string>fi.glif</string>
+		<key>figuredash</key>
+		<string>figuredash.glif</string>
 		<key>finalsigma</key>
 		<string>finalsigma.glif</string>
 		<key>firsttonechinese</key>
@@ -1224,6 +1246,8 @@
 		<string>gr_question.glif</string>
 		<key>grave</key>
 		<string>grave.glif</string>
+		<key>grave-stack</key>
+		<string>grave-stack.glif</string>
 		<key>grave.case</key>
 		<string>grave.case.glif</string>
 		<key>gravecomb</key>
@@ -1270,6 +1294,8 @@
 		<string>hcircumflex.glif</string>
 		<key>hookabove</key>
 		<string>hookabove.glif</string>
+		<key>hookabove-stack</key>
+		<string>hookabove-stack.glif</string>
 		<key>hookabove.case</key>
 		<string>hookabove.case.glif</string>
 		<key>hookabovecomb</key>
@@ -1300,6 +1326,8 @@
 		<string>hryvnia.glif</string>
 		<key>hungarumlaut</key>
 		<string>hungarumlaut.glif</string>
+		<key>hungarumlaut-stack</key>
+		<string>hungarumlaut-stack.glif</string>
 		<key>hungarumlaut.case</key>
 		<string>hungarumlaut.case.glif</string>
 		<key>hungarumlautcomb</key>
@@ -1458,6 +1486,8 @@
 		<string>m.glif</string>
 		<key>macron</key>
 		<string>macron.glif</string>
+		<key>macron-stack</key>
+		<string>macron-stack.glif</string>
 		<key>macron.case</key>
 		<string>macron.case.glif</string>
 		<key>macronbelow</key>
@@ -1730,6 +1760,8 @@
 		<string>rightanglebracket.glif</string>
 		<key>ring</key>
 		<string>ring.glif</string>
+		<key>ring-stack</key>
+		<string>ring-stack.glif</string>
 		<key>ring.case</key>
 		<string>ring.case.glif</string>
 		<key>ringcomb</key>
@@ -1848,10 +1880,14 @@
 		<string>three.tab.glif</string>
 		<key>threequarters</key>
 		<string>threequarters.glif</string>
+		<key>threequartersemdash</key>
+		<string>threequartersemdash.glif</string>
 		<key>threesuperior</key>
 		<string>threesuperior.glif</string>
 		<key>tilde</key>
 		<string>tilde.glif</string>
+		<key>tilde-stack</key>
+		<string>tilde-stack.glif</string>
 		<key>tilde.case</key>
 		<string>tilde.case.glif</string>
 		<key>tildecomb</key>

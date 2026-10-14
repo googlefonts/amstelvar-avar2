@@ -2,22 +2,22 @@
 <glyph name="circumflexcomb-stack" format="2">
 	<outline>
 		<contour>
-			<point x="151" y="1606" type="qcurve" smooth="yes"/>
-			<point x="192" y="1606"/>
-			<point x="260" y="1561"/>
-			<point x="299" y="1508" type="qcurve" smooth="yes"/>
-			<point x="541" y="1234" type="line"/>
-			<point x="423" y="1139" type="line"/>
-			<point x="105" y="1357" type="line"/>
-			<point x="-301" y="1139" type="line"/>
-			<point x="-386" y="1243" type="line"/>
-			<point x="-35" y="1508" type="line" smooth="yes"/>
-			<point x="33" y="1560"/>
-			<point x="110" y="1606"/>
+			<point x="151" y="1606.0000240441" type="qcurve" smooth="yes"/>
+			<point x="192" y="1606.0000240441"/>
+			<point x="260.0000060149" y="1560.9997568075"/>
+			<point x="299.0002011969" y="1508.0000327634" type="qcurve" smooth="yes"/>
+			<point x="541.0030266257" y="1233.9999296083" type="line"/>
+			<point x="423.003277947" y="1139.0000753964" type="line"/>
+			<point x="104.9998517718" y="1356.9991521134" type="line"/>
+			<point x="-301.0032492245" y="1139.0000969382" type="line"/>
+			<point x="-386.0030840705" y="1242.9999055642" type="line"/>
+			<point x="-35.000133494" y="1508.0001040567" type="line" smooth="yes"/>
+			<point x="32.9999975754" y="1559.9997543673"/>
+			<point x="110" y="1606.0000240441"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="61" y="1053"/>
-	<anchor name="top" x="163" y="1561"/>
-	<anchor name="topleft" x="-351" y="1420"/>
-	<anchor name="topright" x="529" y="1420"/>
+	<anchor name="_top" x="108" y="1053"/>
+	<anchor name="top" x="210" y="1561"/>
+	<anchor name="topleft" x="-204" y="1320"/>
+	<anchor name="topright" x="526" y="1320"/>
 </glyph>
