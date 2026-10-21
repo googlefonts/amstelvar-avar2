@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotbelow" format="2">
 	<unicode hex="1ECB"/>
-	<advance width="1011"/>
+	<advance width="1084"/>
 	<outline>
-		<component base="i"/>
-		<component base="dotbelowcomb" xOffset="-99" yOffset="-72"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="427.0055590658" yOffset="-0.0004882812"/>
+		<component base="dotbelowcomb" xOffset="360.1641022438"/>
 	</outline>
 </glyph>

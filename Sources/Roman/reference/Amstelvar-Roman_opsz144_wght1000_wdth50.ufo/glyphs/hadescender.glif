@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hadescender" format="2">
 	<unicode hex="04B3"/>
-	<advance width="956"/>
+	<advance width="944"/>
 	<outline>
 		<component base="x"/>
-		<component base="cy-descendercomb" xOffset="191"/>
+		<component base="cy-descendercomb.diagonal" xOffset="128" yOffset="-1"/>
 	</outline>
 </glyph>

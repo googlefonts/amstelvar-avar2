@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iogonek" format="2">
 	<unicode hex="012F"/>
-	<advance width="1011"/>
+	<advance width="1084"/>
 	<outline>
-		<component base="i"/>
-		<component base="ogonekcomb" xOffset="-207" yOffset="42"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="427.0055590658" yOffset="-0.0004882812"/>
+		<component base="ogonekcomb" xOffset="397.4510895485" yOffset="42"/>
 	</outline>
 </glyph>

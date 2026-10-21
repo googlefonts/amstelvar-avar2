@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="te" format="2">
 	<unicode hex="0442"/>
-	<advance width="1046"/>
+	<advance width="1176"/>
 	<outline>
 		<contour>
-			<point x="756" y="80" type="line"/>
-			<point x="756" y="0" type="line"/>
-			<point x="290" y="0" type="line"/>
-			<point x="290" y="80" type="line"/>
-			<point x="438" y="115" type="line"/>
-			<point x="440" y="500" type="line"/>
-			<point x="438" y="895" type="line"/>
-			<point x="206" y="895" type="line"/>
-			<point x="160" y="662" type="line"/>
-			<point x="60" y="662" type="line"/>
-			<point x="60" y="1000" type="line"/>
-			<point x="986" y="1000" type="line"/>
-			<point x="986" y="662" type="line"/>
-			<point x="886" y="662" type="line"/>
-			<point x="840" y="895" type="line"/>
-			<point x="608" y="895" type="line"/>
-			<point x="606" y="500" type="line"/>
-			<point x="608" y="115" type="line"/>
+			<point x="834.2576370417" y="80.01171875" type="line"/>
+			<point x="834.2576370417" y="0" type="line"/>
+			<point x="339.2988968074" y="0" type="line"/>
+			<point x="339.2988968074" y="80.01171875" type="line"/>
+			<point x="501.2988968074" y="115.01171875" type="line"/>
+			<point x="504.2988968074" y="544.3819362217" type="line"/>
+			<point x="501.2988968074" y="878.0801136972" type="line"/>
+			<point x="187.3938557943" y="878.0801136972" type="line"/>
+			<point x="95.0623942057" y="535.4229278248" type="line"/>
+			<point x="15.6312418621" y="535.4229278248" type="line"/>
+			<point x="25.6312418621" y="999.396354951" type="line"/>
+			<point x="1148.9252919871" y="999.396354951" type="line"/>
+			<point x="1158.9252919871" y="535.4229278248" type="line"/>
+			<point x="1079.4941396434" y="535.4229278248" type="line"/>
+			<point x="987.1626780548" y="878.0801136972" type="line"/>
+			<point x="672.2576370417" y="878.0801136972" type="line"/>
+			<point x="670.2576370417" y="544.3819362217" type="line"/>
+			<point x="672.2576370417" y="115.01171875" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="cy_descender" x="756" y="80"/>
+	<anchor name="cy_descender_corner" x="756" y="80"/>
+	<anchor name="cy_descender" x="523" y="0"/>
 </glyph>

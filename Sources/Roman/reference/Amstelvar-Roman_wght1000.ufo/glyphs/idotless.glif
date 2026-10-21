@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotless" format="2">
 	<unicode hex="0131"/>
-	<advance width="851"/>
+	<advance width="935"/>
 	<outline>
 		<contour>
-			<point x="43" y="0" type="line"/>
-			<point x="43" y="120" type="line"/>
-			<point x="191" y="155" type="line"/>
-			<point x="193" y="552" type="line"/>
-			<point x="191" y="857" type="line"/>
-			<point x="43" y="887" type="line"/>
-			<point x="43" y="1020" type="line"/>
-			<point x="563" y="1052" type="line"/>
-			<point x="641" y="1052" type="line"/>
-			<point x="684" y="1003" type="line"/>
-			<point x="677" y="552" type="line"/>
-			<point x="679" y="155" type="line"/>
-			<point x="827" y="120" type="line"/>
-			<point x="827" y="0" type="line"/>
+			<point x="111.1075724935" y="0" type="line"/>
+			<point x="111.1075724935" y="119.9975585938" type="line"/>
+			<point x="190.9994643854" y="154.9975585938" type="line"/>
+			<point x="192.9994643854" y="551.9999632319" type="line"/>
+			<point x="190.9994155573" y="857.0018237011" type="line"/>
+			<point x="111.1075724935" y="887.0018237011" type="line"/>
+			<point x="111.1075724935" y="1028.1074904029" type="line"/>
+			<point x="646.9936050104" y="1051.9989325621" type="line"/>
+			<point x="724.9936050104" y="1051.9989325621" type="line"/>
+			<point x="767.9936050104" y="1002.9989325621" type="line"/>
+			<point x="760.9936050104" y="551.9999632319" type="line"/>
+			<point x="762.9936050104" y="154.9975585938" type="line"/>
+			<point x="842.8854969022" y="119.9975585938" type="line"/>
+			<point x="842.8854969022" y="0" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="425.5" y="0"/>
-	<anchor name="top" x="425.5" y="1050"/>
-	<anchor name="ogonek" x="667" y="0"/>
-	<anchor name="liga" x="851" y="0"/>
+	<anchor name="bottom" x="479.3452708006" y="0"/>
+	<anchor name="top" x="479.3452708006" y="1050.6024096386"/>
+	<anchor name="ogonek" x="758.4510400314" y="0"/>
+	<anchor name="liga" x="988.7346938776" y="0"/>
 </glyph>

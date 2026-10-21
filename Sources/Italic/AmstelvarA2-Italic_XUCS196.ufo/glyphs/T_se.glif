@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tse" format="2">
 	<unicode hex="0426"/>
-	<advance width="1705"/>
+	<advance width="1836"/>
 	<outline>
-		<contour>
-			<point x="1348" y="0" type="line"/>
-			<point x="73" y="0" type="line"/>
-			<point x="92" y="100" type="line"/>
-			<point x="279" y="120" type="line"/>
-			<point x="403" y="729" type="line"/>
-			<point x="517" y="1362" type="line"/>
-			<point x="323" y="1385" type="line"/>
-			<point x="335" y="1500" type="line"/>
-			<point x="892" y="1500" type="line"/>
-			<point x="870" y="1385" type="line"/>
-			<point x="686" y="1362" type="line"/>
-			<point x="559" y="712" type="line"/>
-			<point x="450" y="128" type="line"/>
-			<point x="494" y="108" type="line"/>
-			<point x="1121" y="108" type="line"/>
-			<point x="1156" y="128" type="line"/>
-			<point x="1274" y="710" type="line"/>
-			<point x="1396" y="1362" type="line"/>
-			<point x="1206" y="1385" type="line"/>
-			<point x="1218" y="1500" type="line"/>
-			<point x="1767" y="1500" type="line"/>
-			<point x="1745" y="1385" type="line"/>
-			<point x="1562" y="1362" type="line"/>
-			<point x="1433" y="710" type="line"/>
-			<point x="1322" y="108" type="line"/>
-			<point x="1530" y="108" type="line"/>
-			<point x="1454" y="-338" type="line"/>
-			<point x="1352" y="-338" type="line"/>
-		</contour>
+		<component base="TseDzhe-base.case"/>
+		<component base="Cy-descendercomb.case" xOffset="867"/>
 	</outline>
 </glyph>

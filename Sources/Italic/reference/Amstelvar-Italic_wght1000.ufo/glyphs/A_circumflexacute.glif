@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexacute" format="2">
 	<unicode hex="1EA4"/>
-	<advance width="1583"/>
+	<advance width="1586"/>
 	<outline>
 		<component base="A"/>
-		<component base="circumflexcombstack.case" xOffset="368" yOffset="-13"/>
-		<component base="acutecombstack.case" xOffset="812" yOffset="358"/>
+		<component base="circumflexcomb-stack.case" xOffset="908.0693055718"/>
+		<component base="acutecomb-stack.case" xOffset="1246.0693055719" yOffset="412"/>
 	</outline>
 </glyph>

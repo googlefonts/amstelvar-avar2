@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="foursuperior" format="2">
 	<unicode hex="2074"/>
-	<advance width="413"/>
+	<advance width="505"/>
 	<outline>
 		<contour>
-			<point x="97" y="1089" type="line"/>
-			<point x="93" y="1096" type="line"/>
-			<point x="436" y="1530" type="line"/>
-			<point x="445" y="1527" type="line"/>
-			<point x="445" y="1510" type="line"/>
-			<point x="368" y="1086" type="line"/>
-			<point x="348" y="966" type="line"/>
-			<point x="354" y="923" type="line"/>
-			<point x="282" y="906" type="line"/>
-			<point x="277" y="918" type="line"/>
-			<point x="319" y="1105" type="line"/>
-			<point x="391" y="1449" type="line"/>
-			<point x="125" y="1112" type="line"/>
-			<point x="122" y="1107" type="line"/>
-			<point x="342" y="1105" type="line"/>
-			<point x="431" y="1105" type="line"/>
-			<point x="427" y="1088" type="line"/>
-			<point x="336" y="1091" type="line"/>
+			<point x="127" y="921" type="line"/>
+			<point x="123" y="928" type="line"/>
+			<point x="558" y="1530" type="line"/>
+			<point x="567" y="1527" type="line"/>
+			<point x="567" y="1510" type="line"/>
+			<point x="455" y="918" type="line"/>
+			<point x="426" y="746" type="line"/>
+			<point x="432" y="703" type="line"/>
+			<point x="364" y="686" type="line"/>
+			<point x="359" y="698" type="line"/>
+			<point x="410" y="937" type="line"/>
+			<point x="514" y="1433" type="line"/>
+			<point x="155" y="944" type="line"/>
+			<point x="152" y="939" type="line"/>
+			<point x="429" y="937" type="line"/>
+			<point x="518" y="937" type="line"/>
+			<point x="514" y="920" type="line"/>
+			<point x="423" y="923" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="_frac_left" x="488" y="1501"/>
+	<anchor name="_frac_right" x="332" y="702"/>
 </glyph>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhe" format="2">
+	<unicode hex="0436"/>
 	<advance width="2434"/>
 	<outline>
 		<contour>
@@ -89,4 +90,7 @@
 			<point x="775" y="435" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="833" y="0"/>
+	<anchor name="top" x="1324" y="1100"/>
+	<anchor name="cy_descender" x="2358" y="273"/>
 </glyph>

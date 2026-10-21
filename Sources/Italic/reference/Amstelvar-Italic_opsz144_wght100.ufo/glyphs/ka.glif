@@ -26,7 +26,6 @@
 			<point x="607" y="-1"/>
 			<point x="555" y="60" type="qcurve" smooth="yes"/>
 			<point x="205" y="464" type="line"/>
-			<point x="206" y="470" type="line"/>
 			<point x="252" y="497" type="line"/>
 		</contour>
 		<contour>
@@ -37,8 +36,7 @@
 			<point x="654" y="908"/>
 			<point x="590" y="849"/>
 			<point x="485" y="736" type="qcurve" smooth="yes"/>
-			<point x="238" y="470" type="line"/>
-			<point x="205" y="464" type="line"/>
+			<point x="174" y="400" type="line"/>
 			<point x="206" y="470" type="line"/>
 			<point x="466" y="755" type="line" smooth="yes"/>
 			<point x="575" y="875"/>
@@ -52,4 +50,6 @@
 			<point x="727" y="693" type="qcurve"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="447" y="920"/>
+	<anchor name="cy_descender_corner" x="776" y="91"/>
 </glyph>

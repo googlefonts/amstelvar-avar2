@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb-stack.case" format="2">
-	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="-305.5571428571" y="1564.3892857143" type="qcurve"/>
+			<point x="-413.0535714286" y="1637.5071428571" type="line"/>
+			<point x="-334.4321428571" y="1803.0321428571"/>
+			<point x="-123.8428571429" y="1949.7821428571"/>
+			<point x="0.0678571429" y="1949.7821428571" type="qcurve" smooth="yes"/>
+			<point x="150.1071428571" y="1949.7821428571"/>
+			<point x="350.2178571429" y="1779.6392857143"/>
+			<point x="422.625" y="1634.0857142857" type="qcurve"/>
+			<point x="326.0214285714" y="1559.7285714286" type="line"/>
+			<point x="235.1714285714" y="1639.2821428572"/>
+			<point x="102.8142857143" y="1681.3535714286"/>
+			<point x="-0.9071428571" y="1681.3535714286" type="qcurve" smooth="yes"/>
+			<point x="-93.4357142857" y="1681.3535714286"/>
+			<point x="-236.1357142857" y="1636.975"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="1949"/>
 </glyph>

@@ -11,7 +11,7 @@
     </contour>
     <contour>
       <point x="162" y="700" type="qcurve"/>
-      <point x="162" y="700"/>
+      <point x="162" y="701"/>
       <point x="631" y="1037"/>
       <point x="698" y="1086" type="qcurve" smooth="yes"/>
       <point x="764" y="1134"/>
@@ -27,13 +27,7 @@
       <point x="764" y="250"/>
       <point x="697" y="298" type="qcurve" smooth="yes"/>
       <point x="631" y="346"/>
-      <point x="162" y="700"/>
+      <point x="162" y="699"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.65,1,0.35</string>
-    </dict>
-  </lib>
 </glyph>

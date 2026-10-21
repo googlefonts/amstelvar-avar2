@@ -373,6 +373,9 @@
 					<string>U-stroke</string>
 					<string>Ha-stroke</string>
 					<string>Cy-descendercomb.case</string>
+					<string>Cy-descendercombdiagonal.case</string>
+					<string>Dzhe-descendercomb.case</string>
+					<string>TseDzhe-base.case</string>
 					<string>horizontalbar</string>
 					<string>horizontalbarH</string>
 					<string>hornU</string>
@@ -1792,6 +1795,7 @@
 					<string>yu.bgr-stroke</string>
 					<string>engn</string>
 					<string>cy-descendercomb</string>
+					<string>zhe-descendercomb</string>
 					<string>ha-stroke</string>
 					<string>obarcyr-stroke</string>
 					<string>engtail</string>
@@ -3962,7 +3966,6 @@
 					<string>three.tab</string>
 					<string>two.tab</string>
 					<string>zero.tab</string>
-					<string>figuredash</string>
 				</array>
 				<key>smartSetName</key>
 				<string>tabular</string>
@@ -4599,6 +4602,29 @@
 		</array>
 		<key>smartSetName</key>
 		<string>Latin 1</string>
+	</dict>
+	<dict>
+		<key>glyphNames</key>
+		<array>
+			<string>dollar</string>
+			<string>cent</string>
+			<string>Q</string>
+			<string>naira</string>
+			<string>won</string>
+			<string>kip</string>
+			<string>peso</string>
+			<string>cedi</string>
+			<string>colonsign</string>
+			<string>guarani</string>
+			<string>diagonalbarO</string>
+			<string>diagonalbaro</string>
+			<string>Oslash</string>
+			<string>oslash</string>
+			<string>Oslashacute</string>
+			<string>oslashacute</string>
+		</array>
+		<key>smartSetName</key>
+		<string>BARS</string>
 	</dict>
 </array>
 </plist>

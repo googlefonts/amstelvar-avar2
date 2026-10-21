@@ -3,48 +3,7 @@
 	<unicode hex="0457"/>
 	<advance width="616"/>
 	<outline>
-		<contour>
-			<point x="95" y="-21" type="line"/>
-			<point x="38" y="46" type="line"/>
-			<point x="164" y="527" type="line"/>
-			<point x="230" y="876" type="line"/>
-			<point x="49" y="866" type="line"/>
-			<point x="75" y="1011" type="line"/>
-			<point x="322" y="1050" type="line"/>
-			<point x="435" y="1050" type="line"/>
-			<point x="465" y="914" type="line"/>
-			<point x="409" y="732" type="line"/>
-			<point x="274" y="166" type="line"/>
-			<point x="463" y="168" type="line"/>
-			<point x="463" y="52" type="line"/>
-		</contour>
-		<contour>
-			<point x="141" y="1374" type="qcurve" smooth="yes"/>
-			<point x="146" y="1434"/>
-			<point x="232" y="1508"/>
-			<point x="283" y="1508" type="qcurve" smooth="yes"/>
-			<point x="340" y="1508"/>
-			<point x="410" y="1430"/>
-			<point x="404" y="1374" type="qcurve" smooth="yes"/>
-			<point x="397" y="1314"/>
-			<point x="310" y="1237"/>
-			<point x="259" y="1237" type="qcurve" smooth="yes"/>
-			<point x="212" y="1237"/>
-			<point x="135" y="1309"/>
-		</contour>
-		<contour>
-			<point x="447" y="1374" type="qcurve" smooth="yes"/>
-			<point x="452" y="1434"/>
-			<point x="538" y="1508"/>
-			<point x="589" y="1508" type="qcurve" smooth="yes"/>
-			<point x="646" y="1508"/>
-			<point x="716" y="1430"/>
-			<point x="710" y="1374" type="qcurve" smooth="yes"/>
-			<point x="703" y="1314"/>
-			<point x="616" y="1237"/>
-			<point x="565" y="1237" type="qcurve" smooth="yes"/>
-			<point x="518" y="1237"/>
-			<point x="441" y="1309"/>
-		</contour>
+		<component base="idotless"/>
+		<component base="yi-dieresiscomb" xOffset="353" yOffset="50"/>
 	</outline>
 </glyph>

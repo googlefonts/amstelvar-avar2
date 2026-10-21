@@ -3,13 +3,14 @@
 	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="372" y="108" type="line"/>
-			<point x="630" y="101" type="line"/>
-			<point x="640" y="-338" type="line"/>
-			<point x="518" y="-338" type="line"/>
-			<point x="449" y="0" type="line"/>
+			<point x="372" y="152.7203979492" type="line"/>
+			<point x="670.3988037109" y="100.0009765625" type="line"/>
+			<point x="679.5008544922" y="-337.5908203125" type="line"/>
+			<point x="557.9898681641" y="-337.5908203125" type="line"/>
+			<point x="488.9683837891" y="0" type="line"/>
 			<point x="372" y="0" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="_cy_descender" x="630" y="101"/>
+	<anchor name="_cy_descender" x="372" y="0"/>
+	<anchor name="_cy_descender_corner" x="670" y="100"/>
 </glyph>
