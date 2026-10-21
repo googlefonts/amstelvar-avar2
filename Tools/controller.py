@@ -471,7 +471,7 @@ if __name__ == '__main__':
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
     # p.copyGroupsFromDefault(parametric=True, tuning=True, reference=True)
-    # p.copyKerningFromDefault(parametric=True, tuning=True, reference=False)
+    # p.copyKerningFromDefault(parametric=False, tuning=False, reference=True)
 
     # --- building glyphs ---
     # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
@@ -480,11 +480,11 @@ if __name__ == '__main__':
     # p.extractMeasurements()
  
     # --- build designspace ---
-    p.parametricAxesHidden = True
-    p.tuningAxesHidden = True
-    p.tuning = True # also used to direct BlendsPreview proof to its folder
-    p.useLongAxisNames = True # keep it disabled during development!
-    p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
+    # p.parametricAxesHidden = True
+    # p.tuningAxesHidden = True
+    # p.tuning = True # also used to direct BlendsPreview proof to its folder
+    # p.useLongAxisNames = True # keep it disabled during development!
+    # p.buildDesignspace(instances=True, parentParametric=True, substitutionRules=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources(parametric=False, tuning=False, reference=True)
 
@@ -501,7 +501,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
