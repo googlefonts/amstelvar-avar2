@@ -442,14 +442,14 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic'][1]
+    subFamily = ['Roman', 'Italic'][0]
 
     start = time.time()
 
     p = AmstelvarA2Controller(folder, 'AmstelvarA2', subFamily)
 
     # --- glyph names ---
-    # glyphNames = ['five.lc']
+    # glyphNames = ['kgreenlandic']
     # glyphNames = list(p.defaultFont.glyphOrder)
     # glyphNames = 'Acircumflexgrave Ecircumflexgrave Ocircumflexgrave acircumflexgrave ecircumflexgrave ocircumflexgrave'.split()
     # glyphNames = parseGString(p.defaultFont, '/ae/OE')
@@ -467,11 +467,11 @@ if __name__ == '__main__':
 
     # --- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP0', preflight=False, parametric=True, tuning=False)
-    # p.copyGlyphsFromDefault(list('ij'), parametric=False, tuning=True, reference=False)
+    # p.copyGlyphsFromDefault(glyphNames, parametric=True, tuning=True, reference=True)
     # p.copyUnicodesFromDefault(preflight=False, parametric=True, tuning=True, reference=True)
     # p.copyGlyphOrderFromDefault(parametric=True, tuning=True, reference=True, preflight=False, trim=True)
     # p.copyGroupsFromDefault(parametric=True, tuning=True, reference=True)
-    # p.copyKerningFromDefault(parametric=True, tuning=True, reference=False)
+    # p.copyKerningFromDefault(parametric=False, tuning=False, reference=True)
 
     # --- building glyphs ---
     # p.buildCompositeGlyphs(glyphNames, parametric=True, tuning=False, reference=True, preflight=False)
@@ -492,7 +492,7 @@ if __name__ == '__main__':
     # p.tuningLevels = [1, 2, 3]
     # p.createTuningSources(sparse=False)
     # p.resetTuningSources()
-    # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True, locations=['wght1000', 'wght1000_wdth125'])
+    # p.calculateTuningSources(glyphNames, levels=[1,2,3], tuneBaseGlyphs=True) # locations=['wght1000', 'wght1000_wdth125']
 
     # --- tweaking ---
     # tweaks = { "wght1000" : { "XTSP" : -20 } }
@@ -501,7 +501,7 @@ if __name__ == '__main__':
     # --- normalization ---
     # p.roundSources(parametric=True, tuning=True, reference=True)
     # p.cleanupSources(parametric=True, tuning=True, reference=True)
-    # p.normalizeSources(parametric=True, tuning=True, reference=True)
+    p.normalizeSources(parametric=False, tuning=False, reference=True)
 
     # --- project info ---
     # p.printSettings()
@@ -515,7 +515,7 @@ if __name__ == '__main__':
     # p.proofSourcesGlyphSet(showCompatible=False, validateComposites=True)
 
     # --- build fonts ---
-    p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
+    # p.buildVariableFont(debug=False, featureWriter=False, noGDEF=False, subset=None)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
 
     end = time.time()
