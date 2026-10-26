@@ -43,24 +43,16 @@
 			<point x="92.87" y="109.99"/>
 		</contour>
 		<contour>
+			<point x="503" y="-142" type="line"/>
+			<point x="503" y="35" type="line"/>
+			<point x="561" y="35" type="line"/>
+			<point x="561" y="-152" type="line"/>
+		</contour>
+		<contour>
 			<point x="503" y="1648" type="line"/>
 			<point x="561" y="1646" type="line"/>
 			<point x="561" y="1478" type="line"/>
-			<point x="561" y="1478" type="line"/>
-			<point x="561" y="1470" type="line"/>
-			<point x="503" y="1470" type="line"/>
 			<point x="503" y="1478" type="line"/>
-			<point x="503" y="1478" type="line"/>
-		</contour>
-		<contour>
-			<point x="503" y="-142" type="line"/>
-			<point x="503" y="35" type="line"/>
-			<point x="503" y="35" type="line"/>
-			<point x="503" y="45" type="line"/>
-			<point x="561" y="45" type="line"/>
-			<point x="561" y="35" type="line"/>
-			<point x="561" y="35" type="line"/>
-			<point x="561" y="-152" type="line"/>
 		</contour>
 	</outline>
 </glyph>

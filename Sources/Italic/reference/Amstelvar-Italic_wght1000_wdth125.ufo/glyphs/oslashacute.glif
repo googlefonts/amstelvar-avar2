@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslashacute" format="2">
 	<unicode hex="01FF"/>
-	<advance width="1992"/>
+	<advance width="2034"/>
 	<outline>
-		<component base="oslash"/>
-		<component base="acutecomb" xOffset="419" yOffset="-8"/>
+		<component base="o"/>
+		<component base="diagonalbaro" xOffset="678.2825103177" yOffset="35.4997151692"/>
+		<component base="acutecomb" xOffset="1021.545170753" yOffset="-0.0004882812"/>
 	</outline>
 </glyph>

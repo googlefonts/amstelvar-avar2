@@ -4,7 +4,7 @@
 	<advance width="2438"/>
 	<outline>
 		<contour>
-			<point x="604" y="-26" type="qcurve"/>
+			<point x="604" y="-26" type="qcurve" smooth="yes"/>
 			<point x="335" y="-26"/>
 			<point x="9" y="235"/>
 			<point x="9" y="436" type="qcurve" smooth="yes"/>
@@ -14,38 +14,39 @@
 			<point x="734" y="907" type="line"/>
 			<point x="622" y="813"/>
 			<point x="510" y="555"/>
-			<point x="510" y="394" type="qcurve"/>
+			<point x="510" y="394" type="qcurve" smooth="yes"/>
 			<point x="510" y="265"/>
 			<point x="628" y="112"/>
-			<point x="747" y="112" type="qcurve"/>
-			<point x="860" y="112"/>
-			<point x="1039" y="285"/>
-			<point x="1085" y="465" type="qcurve"/>
-			<point x="1181" y="465" type="line"/>
-			<point x="1166" y="289"/>
-			<point x="1371" y="112"/>
+			<point x="747" y="112" type="qcurve" smooth="yes"/>
+			<point x="841.9194830511" y="112"/>
+			<point x="984.1761676647" y="223.8140007911"/>
+			<point x="1025.8406982422" y="303.9325561523" type="qcurve"/>
+			<point x="970" y="710" type="line"/>
+			<point x="1446" y="718" type="line"/>
+			<point x="1451" y="650" type="line"/>
+			<point x="1223.8836669922" y="251.2967987061" type="line"/>
+			<point x="1265.1071898545" y="188.340571979"/>
+			<point x="1415.0137532018" y="112"/>
 			<point x="1489" y="112" type="qcurve" smooth="yes"/>
 			<point x="1645" y="112"/>
 			<point x="1838" y="366"/>
-			<point x="1838" y="623" type="qcurve"/>
+			<point x="1838" y="623" type="qcurve" smooth="yes"/>
 			<point x="1838" y="717"/>
 			<point x="1790" y="853"/>
 			<point x="1749" y="908" type="qcurve"/>
 			<point x="2081" y="1000" type="line"/>
 			<point x="2197" y="948"/>
 			<point x="2340" y="732"/>
-			<point x="2340" y="589" type="qcurve"/>
+			<point x="2340" y="589" type="qcurve" smooth="yes"/>
 			<point x="2340" y="314"/>
 			<point x="1900" y="-26"/>
 			<point x="1580" y="-26" type="qcurve" smooth="yes"/>
-			<point x="1317" y="-26"/>
-			<point x="941" y="340"/>
-			<point x="970" y="710" type="qcurve"/>
-			<point x="1153" y="754" type="line"/>
-			<point x="1446" y="718" type="line"/>
-			<point x="1451" y="650" type="line"/>
-			<point x="1321" y="288"/>
-			<point x="848" y="-26"/>
+			<point x="1449.944042942" y="-26"/>
+			<point x="1218.2228790136" y="67.7771209864"/>
+			<point x="1126" y="160" type="qcurve"/>
+			<point x="1123" y="160" type="line"/>
+			<point x="1020" y="76"/>
+			<point x="736.126036104" y="-26"/>
 		</contour>
 	</outline>
 	<anchor name="GRKtop" x="1220" y="970"/>

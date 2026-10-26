@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu.bgr" format="2">
-	<advance width="834"/>
+	<advance width="882"/>
 	<outline>
-		<contour>
-			<point x="353" y="513" type="qcurve" smooth="yes"/>
-			<point x="403" y="718"/>
-			<point x="595" y="955"/>
-			<point x="694" y="939" type="qcurve" smooth="yes"/>
-			<point x="793" y="923"/>
-			<point x="831" y="636"/>
-			<point x="797" y="461" type="qcurve" smooth="yes"/>
-			<point x="753" y="231"/>
-			<point x="556" y="-24"/>
-			<point x="451" y="-6" type="qcurve" smooth="yes"/>
-			<point x="358" y="10"/>
-			<point x="303" y="307"/>
-		</contour>
-		<contour>
-			<point x="414" y="515" type="qcurve" smooth="yes"/>
-			<point x="362" y="304"/>
-			<point x="385" y="25"/>
-			<point x="459" y="10" type="qcurve" smooth="yes"/>
-			<point x="558" y="-10"/>
-			<point x="701" y="265"/>
-			<point x="739" y="463" type="qcurve" smooth="yes"/>
-			<point x="777" y="661"/>
-			<point x="755" y="912"/>
-			<point x="689" y="922" type="qcurve" smooth="yes"/>
-			<point x="614" y="933"/>
-			<point x="469" y="736"/>
-		</contour>
-		<contour>
-			<point x="60" y="-3" type="line"/>
-			<point x="39" y="48" type="line"/>
-			<point x="161" y="604" type="line"/>
-			<point x="338" y="1486" type="line"/>
-			<point x="149" y="1486" type="line"/>
-			<point x="151" y="1505" type="line"/>
-			<point x="375" y="1546" type="line"/>
-			<point x="400" y="1546" type="line"/>
-			<point x="205" y="588" type="line"/>
-			<point x="99" y="77" type="line"/>
-			<point x="120" y="17" type="line"/>
-		</contour>
-		<contour>
-			<point x="171" y="470" type="line"/>
-			<point x="378" y="483" type="line"/>
-			<point x="369" y="461" type="line"/>
-			<point x="162" y="444" type="line"/>
-		</contour>
+		<component base="yu-l.bgr"/>
+		<component base="yu.bgr-stroke" xOffset="-37" yOffset="-69"/>
+		<component base="o" xOffset="328" yOffset="-31"/>
 	</outline>
 </glyph>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yumacron" format="2">
 	<unicode hex="F52C"/>
-	<advance width="2209"/>
+	<advance width="2415"/>
 	<outline>
-		<component base="Yu"/>
-		<component base="macroncomb.case" xOffset="410"/>
+		<component base="I"/>
+		<component base="Yu-dash.case" xOffset="31" yOffset="-40"/>
+		<component base="O" xOffset="664"/>
+		<component base="macroncomb.case" xOffset="1294.43326998"/>
 	</outline>
 </glyph>

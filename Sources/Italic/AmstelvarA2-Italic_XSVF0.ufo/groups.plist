@@ -509,6 +509,12 @@
 		<array>
 			<string>zeta</string>
 		</array>
+		<key>public.kern1.H</key>
+		<array>
+			<string>H</string>
+			<string>M</string>
+			<string>Hcircumflex</string>
+		</array>
 		<key>public.kern1.I</key>
 		<array>
 			<string>I</string>
@@ -615,12 +621,6 @@
 			<string>Scircumflex</string>
 			<string>Scommaaccent</string>
 		</array>
-		<key>public.kern1.Straight_right</key>
-		<array>
-			<string>H</string>
-			<string>M</string>
-			<string>Hcircumflex</string>
-		</array>
 		<key>public.kern1.T</key>
 		<array>
 			<string>T</string>
@@ -711,7 +711,7 @@
 			<string>ainvertedbreve</string>
 			<string>aringacute</string>
 		</array>
-		<key>public.kern1.b_p</key>
+		<key>public.kern1.b</key>
 		<array>
 			<string>b</string>
 			<string>p</string>
@@ -815,19 +815,6 @@
 			<string>guilsinglright</string>
 			<string>guillemetright</string>
 		</array>
-		<key>public.kern1.h_n_m</key>
-		<array>
-			<string>h</string>
-			<string>hcircumflex</string>
-			<string>m</string>
-			<string>n</string>
-			<string>nacute</string>
-			<string>ncaron</string>
-			<string>ncommaaccent</string>
-			<string>ntilde</string>
-			<string>hbar</string>
-			<string>napostrophe</string>
-		</array>
 		<key>public.kern1.i</key>
 		<array>
 			<string>i</string>
@@ -892,6 +879,19 @@
 		<array>
 			<string>minute</string>
 			<string>second</string>
+		</array>
+		<key>public.kern1.n</key>
+		<array>
+			<string>h</string>
+			<string>hcircumflex</string>
+			<string>m</string>
+			<string>n</string>
+			<string>nacute</string>
+			<string>ncaron</string>
+			<string>ncommaaccent</string>
+			<string>ntilde</string>
+			<string>hbar</string>
+			<string>napostrophe</string>
 		</array>
 		<key>public.kern1.o</key>
 		<array>
@@ -1550,40 +1550,7 @@
 		<array>
 			<string>zeta</string>
 		</array>
-		<key>public.kern2.I</key>
-		<array>
-			<string>I</string>
-			<string>Iacute</string>
-			<string>Ibreve</string>
-			<string>Icircumflex</string>
-			<string>Idieresis</string>
-			<string>Idotaccent</string>
-			<string>Igrave</string>
-			<string>Imacron</string>
-			<string>Iogonek</string>
-			<string>Itilde</string>
-			<string>IJacute</string>
-			<string>Idblgrave</string>
-			<string>Idotbelow</string>
-			<string>Ihookabove</string>
-			<string>Iinvertedbreve</string>
-			<string>IJ</string>
-		</array>
-		<key>public.kern2.J</key>
-		<array>
-			<string>J</string>
-			<string>Jcircumflex</string>
-		</array>
-		<key>public.kern2.S</key>
-		<array>
-			<string>S</string>
-			<string>Sacute</string>
-			<string>Scaron</string>
-			<string>Scedilla</string>
-			<string>Scircumflex</string>
-			<string>Scommaaccent</string>
-		</array>
-		<key>public.kern2.Straight_left</key>
+		<key>public.kern2.H</key>
 		<array>
 			<string>B</string>
 			<string>D</string>
@@ -1639,6 +1606,39 @@
 			<string>Dzcaron</string>
 			<string>Lj</string>
 			<string>Nj</string>
+		</array>
+		<key>public.kern2.I</key>
+		<array>
+			<string>I</string>
+			<string>Iacute</string>
+			<string>Ibreve</string>
+			<string>Icircumflex</string>
+			<string>Idieresis</string>
+			<string>Idotaccent</string>
+			<string>Igrave</string>
+			<string>Imacron</string>
+			<string>Iogonek</string>
+			<string>Itilde</string>
+			<string>IJacute</string>
+			<string>Idblgrave</string>
+			<string>Idotbelow</string>
+			<string>Ihookabove</string>
+			<string>Iinvertedbreve</string>
+			<string>IJ</string>
+		</array>
+		<key>public.kern2.J</key>
+		<array>
+			<string>J</string>
+			<string>Jcircumflex</string>
+		</array>
+		<key>public.kern2.S</key>
+		<array>
+			<string>S</string>
+			<string>Sacute</string>
+			<string>Scaron</string>
+			<string>Scedilla</string>
+			<string>Scircumflex</string>
+			<string>Scommaaccent</string>
 		</array>
 		<key>public.kern2.T</key>
 		<array>
@@ -1744,7 +1744,143 @@
 			<string>bullet</string>
 			<string>periodcentered</string>
 		</array>
-		<key>public.kern2.c_e_o</key>
+		<key>public.kern2.circles</key>
+		<array>
+			<string>copyright</string>
+			<string>registered</string>
+		</array>
+		<key>public.kern2.colons</key>
+		<array>
+			<string>semicolon</string>
+			<string>colon</string>
+		</array>
+		<key>public.kern2.d</key>
+		<array>
+			<string>d</string>
+			<string>q</string>
+			<string>dcaron</string>
+			<string>dcroat</string>
+			<string>dzcaron</string>
+		</array>
+		<key>public.kern2.dashes</key>
+		<array>
+			<string>emdash</string>
+			<string>endash</string>
+			<string>hyphen</string>
+			<string>hyphentwo</string>
+		</array>
+		<key>public.kern2.dots</key>
+		<array>
+			<string>comma</string>
+			<string>ellipsis</string>
+			<string>period</string>
+		</array>
+		<key>public.kern2.f</key>
+		<array>
+			<string>f</string>
+			<string>f_f</string>
+			<string>f_f_i</string>
+			<string>f_f_l</string>
+			<string>fi</string>
+			<string>fl</string>
+		</array>
+		<key>public.kern2.g</key>
+		<array>
+			<string>g</string>
+			<string>gbreve</string>
+			<string>gcaron</string>
+			<string>gcircumflex</string>
+			<string>gcommaaccent</string>
+			<string>gdotaccent</string>
+		</array>
+		<key>public.kern2.guilleft</key>
+		<array>
+			<string>guilsinglleft</string>
+			<string>guillemetleft</string>
+		</array>
+		<key>public.kern2.guilright</key>
+		<array>
+			<string>guilsinglright</string>
+			<string>guillemetright</string>
+		</array>
+		<key>public.kern2.h</key>
+		<array>
+			<string>h</string>
+			<string>k</string>
+			<string>kcommaaccent</string>
+			<string>l</string>
+			<string>lacute</string>
+			<string>lcaron</string>
+			<string>lcommaaccent</string>
+			<string>hcircumflex</string>
+			<string>ldot</string>
+			<string>lj</string>
+		</array>
+		<key>public.kern2.i</key>
+		<array>
+			<string>i</string>
+			<string>iacute</string>
+			<string>ibreve</string>
+			<string>icircumflex</string>
+			<string>igrave</string>
+			<string>imacron</string>
+			<string>iogonek</string>
+			<string>itilde</string>
+			<string>idblgrave</string>
+			<string>idotbelow</string>
+			<string>ihookabove</string>
+			<string>iinvertedbreve</string>
+			<string>ij</string>
+			<string>ijacute</string>
+			<string>idotaccent</string>
+		</array>
+		<key>public.kern2.j</key>
+		<array>
+			<string>j</string>
+			<string>jcircumflex</string>
+			<string>jdotless</string>
+		</array>
+		<key>public.kern2.math</key>
+		<array>
+			<string>approxequal</string>
+			<string>divide</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>greaterequal</string>
+			<string>less</string>
+			<string>lessequal</string>
+			<string>logicalnot</string>
+			<string>minus</string>
+			<string>multiply</string>
+			<string>notequal</string>
+			<string>plus</string>
+			<string>plusminus</string>
+		</array>
+		<key>public.kern2.minute</key>
+		<array>
+			<string>minute</string>
+			<string>second</string>
+		</array>
+		<key>public.kern2.n</key>
+		<array>
+			<string>m</string>
+			<string>n</string>
+			<string>nacute</string>
+			<string>ncaron</string>
+			<string>ncommaaccent</string>
+			<string>ntilde</string>
+			<string>r</string>
+			<string>racute</string>
+			<string>rcaron</string>
+			<string>rcommaaccent</string>
+			<string>rdblgrave</string>
+			<string>rinvertedbreve</string>
+			<string>idotless</string>
+			<string>kgreenlandic</string>
+			<string>eng</string>
+			<string>nj</string>
+		</array>
+		<key>public.kern2.o</key>
 		<array>
 			<string>c</string>
 			<string>cacute</string>
@@ -1804,110 +1940,6 @@
 			<string>ohorntilde</string>
 			<string>oslashacute</string>
 		</array>
-		<key>public.kern2.circles</key>
-		<array>
-			<string>copyright</string>
-			<string>registered</string>
-		</array>
-		<key>public.kern2.colons</key>
-		<array>
-			<string>semicolon</string>
-			<string>colon</string>
-		</array>
-		<key>public.kern2.d_q</key>
-		<array>
-			<string>d</string>
-			<string>q</string>
-			<string>dcaron</string>
-			<string>dcroat</string>
-			<string>dzcaron</string>
-		</array>
-		<key>public.kern2.dashes</key>
-		<array>
-			<string>emdash</string>
-			<string>endash</string>
-			<string>hyphen</string>
-			<string>hyphentwo</string>
-		</array>
-		<key>public.kern2.dots</key>
-		<array>
-			<string>comma</string>
-			<string>ellipsis</string>
-			<string>period</string>
-		</array>
-		<key>public.kern2.f</key>
-		<array>
-			<string>f</string>
-			<string>f_f</string>
-			<string>f_f_i</string>
-			<string>f_f_l</string>
-			<string>fi</string>
-			<string>fl</string>
-		</array>
-		<key>public.kern2.g</key>
-		<array>
-			<string>g</string>
-			<string>gbreve</string>
-			<string>gcaron</string>
-			<string>gcircumflex</string>
-			<string>gcommaaccent</string>
-			<string>gdotaccent</string>
-		</array>
-		<key>public.kern2.guilleft</key>
-		<array>
-			<string>guilsinglleft</string>
-			<string>guillemetleft</string>
-		</array>
-		<key>public.kern2.guilright</key>
-		<array>
-			<string>guilsinglright</string>
-			<string>guillemetright</string>
-		</array>
-		<key>public.kern2.i</key>
-		<array>
-			<string>i</string>
-			<string>iacute</string>
-			<string>ibreve</string>
-			<string>icircumflex</string>
-			<string>igrave</string>
-			<string>imacron</string>
-			<string>iogonek</string>
-			<string>itilde</string>
-			<string>idblgrave</string>
-			<string>idotbelow</string>
-			<string>ihookabove</string>
-			<string>iinvertedbreve</string>
-			<string>ij</string>
-			<string>ijacute</string>
-			<string>idotaccent</string>
-		</array>
-		<key>public.kern2.j</key>
-		<array>
-			<string>j</string>
-			<string>jcircumflex</string>
-			<string>jdotless</string>
-		</array>
-		<key>public.kern2.math</key>
-		<array>
-			<string>approxequal</string>
-			<string>divide</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>greaterequal</string>
-			<string>less</string>
-			<string>lessequal</string>
-			<string>logicalnot</string>
-			<string>minus</string>
-			<string>multiply</string>
-			<string>notequal</string>
-			<string>plus</string>
-			<string>plusminus</string>
-		</array>
-		<key>public.kern2.minute</key>
-		<array>
-			<string>minute</string>
-			<string>second</string>
-		</array>
 		<key>public.kern2.percent</key>
 		<array>
 			<string>percent</string>
@@ -1947,38 +1979,6 @@
 			<string>scedilla</string>
 			<string>scircumflex</string>
 			<string>scommaaccent</string>
-		</array>
-		<key>public.kern2.straight_left_asc</key>
-		<array>
-			<string>h</string>
-			<string>k</string>
-			<string>kcommaaccent</string>
-			<string>l</string>
-			<string>lacute</string>
-			<string>lcaron</string>
-			<string>lcommaaccent</string>
-			<string>hcircumflex</string>
-			<string>ldot</string>
-			<string>lj</string>
-		</array>
-		<key>public.kern2.straight_left_x</key>
-		<array>
-			<string>m</string>
-			<string>n</string>
-			<string>nacute</string>
-			<string>ncaron</string>
-			<string>ncommaaccent</string>
-			<string>ntilde</string>
-			<string>r</string>
-			<string>racute</string>
-			<string>rcaron</string>
-			<string>rcommaaccent</string>
-			<string>rdblgrave</string>
-			<string>rinvertedbreve</string>
-			<string>idotless</string>
-			<string>kgreenlandic</string>
-			<string>eng</string>
-			<string>nj</string>
 		</array>
 		<key>public.kern2.t</key>
 		<array>

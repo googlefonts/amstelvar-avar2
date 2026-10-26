@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iukran" format="2">
 	<unicode hex="0456"/>
-	<advance width="509"/>
+	<advance width="468"/>
 	<outline>
-		<component base="i"/>
+		<component base="idotless"/>
+		<component base="idot" xOffset="92"/>
 	</outline>
 </glyph>

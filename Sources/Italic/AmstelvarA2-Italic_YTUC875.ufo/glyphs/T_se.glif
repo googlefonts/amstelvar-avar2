@@ -3,35 +3,7 @@
 	<unicode hex="0426"/>
 	<advance width="1566"/>
 	<outline>
-		<contour>
-			<point x="1209" y="0" type="line"/>
-			<point x="-66" y="0" type="line"/>
-			<point x="-47" y="100" type="line"/>
-			<point x="140" y="120" type="line"/>
-			<point x="300" y="925" type="line"/>
-			<point x="424" y="1612" type="line"/>
-			<point x="230" y="1635" type="line"/>
-			<point x="242" y="1750" type="line"/>
-			<point x="799" y="1750" type="line"/>
-			<point x="777" y="1635" type="line"/>
-			<point x="593" y="1612" type="line"/>
-			<point x="458" y="909" type="line"/>
-			<point x="311" y="128" type="line"/>
-			<point x="355" y="108" type="line"/>
-			<point x="982" y="108" type="line"/>
-			<point x="1017" y="128" type="line"/>
-			<point x="1169" y="907" type="line"/>
-			<point x="1303" y="1612" type="line"/>
-			<point x="1113" y="1635" type="line"/>
-			<point x="1125" y="1750" type="line"/>
-			<point x="1674" y="1750" type="line"/>
-			<point x="1652" y="1635" type="line"/>
-			<point x="1469" y="1612" type="line"/>
-			<point x="1332" y="907" type="line"/>
-			<point x="1183" y="108" type="line"/>
-			<point x="1391" y="108" type="line"/>
-			<point x="1315" y="-338" type="line"/>
-			<point x="1213" y="-338" type="line"/>
-		</contour>
+		<component base="TseDzhe-base.case"/>
+		<component base="Cy-descendercomb.case" xOffset="721"/>
 	</outline>
 </glyph>

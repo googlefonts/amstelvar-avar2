@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecyr" format="2">
 	<unicode hex="044D"/>
-	<advance width="1081"/>
+	<advance width="1100"/>
 	<outline>
 		<contour>
-			<point x="248" y="43" type="qcurve"/>
-			<point x="225" y="-7" type="line"/>
-			<point x="130" y="-7" type="line"/>
-			<point x="130" y="335" type="line"/>
-			<point x="227" y="335" type="line"/>
-			<point x="244" y="274" type="line" smooth="yes"/>
-			<point x="268" y="188"/>
-			<point x="377" y="88"/>
-			<point x="493" y="88" type="qcurve" smooth="yes"/>
-			<point x="665" y="88"/>
-			<point x="831" y="317"/>
-			<point x="831" y="506" type="qcurve" smooth="yes"/>
-			<point x="831" y="685"/>
-			<point x="658" y="911"/>
-			<point x="518" y="911" type="qcurve" smooth="yes"/>
-			<point x="403" y="911"/>
-			<point x="283" y="811"/>
-			<point x="258" y="725" type="qcurve" smooth="yes"/>
-			<point x="241" y="664" type="line"/>
-			<point x="144" y="664" type="line"/>
-			<point x="144" y="1006" type="line"/>
-			<point x="239" y="1006" type="line"/>
-			<point x="262" y="956" type="line"/>
-			<point x="293" y="982"/>
-			<point x="426" y="1022"/>
-			<point x="523" y="1022" type="qcurve" smooth="yes"/>
-			<point x="756" y="1022"/>
-			<point x="1017" y="736"/>
-			<point x="1017" y="506" type="qcurve" smooth="yes"/>
-			<point x="1017" y="290"/>
-			<point x="741" y="-23"/>
-			<point x="497" y="-23" type="qcurve" smooth="yes"/>
-			<point x="407" y="-23"/>
-			<point x="279" y="17"/>
+			<point x="228.3890380859" y="77.2963867188" type="qcurve"/>
+			<point x="196.6495361328" y="10.1761474609" type="line"/>
+			<point x="115.0573730469" y="10.1761474609" type="line"/>
+			<point x="105.0573730469" y="368.2567138672" type="line"/>
+			<point x="200.0198974609" y="368.2567138672" type="line"/>
+			<point x="241.8347167969" y="269.9033203125" type="line" smooth="yes"/>
+			<point x="275.4612426758" y="193.0349121094"/>
+			<point x="465.2649536133" y="99.6843261719"/>
+			<point x="613.2650756836" y="99.6843261719" type="qcurve" smooth="yes"/>
+			<point x="762.4458618164" y="99.6843261719"/>
+			<point x="851.9329223633" y="303.6123046875"/>
+			<point x="851.9329223633" y="506.7176513672" type="qcurve" smooth="yes"/>
+			<point x="851.9329223633" y="720.9266357422"/>
+			<point x="722.7400512695" y="905.4768066406"/>
+			<point x="590.8109741211" y="905.4768066406" type="qcurve" smooth="yes"/>
+			<point x="465.9378662109" y="905.4768066406"/>
+			<point x="298.1712646484" y="811.0894775391"/>
+			<point x="264.0808105469" y="734.4987792969" type="qcurve" smooth="yes"/>
+			<point x="222.2659912109" y="636.1453857422" type="line"/>
+			<point x="127.3034667969" y="636.1453857422" type="line"/>
+			<point x="137.3034667969" y="994.2259521484" type="line"/>
+			<point x="218.8956298828" y="994.2259521484" type="line"/>
+			<point x="250.6351318359" y="927.1057128906" type="line"/>
+			<point x="291.5928955078" y="972.0454101562"/>
+			<point x="371.9158325195" y="1032.7707519531"/>
+			<point x="516.3768310547" y="1032.7707519531" type="qcurve" smooth="yes"/>
+			<point x="750.2108764648" y="1032.7707519531"/>
+			<point x="1035.6232299805" y="758.4542236328"/>
+			<point x="1035.6232299805" y="507.5694580078" type="qcurve" smooth="yes"/>
+			<point x="1035.6232299805" y="249.5162353516"/>
+			<point x="765.0090942383" y="-27.6096191406"/>
+			<point x="505.3422241211" y="-27.6096191406" type="qcurve" smooth="yes"/>
+			<point x="342.8061523438" y="-27.6096191406"/>
+			<point x="271.4564208984" y="31.3566894531"/>
 		</contour>
 		<contour>
-			<point x="924" y="550" type="line"/>
-			<point x="924" y="450" type="line"/>
-			<point x="387" y="448" type="line"/>
-			<point x="387" y="553" type="line"/>
+			<point x="935.6203613281" y="569.8112792969" type="line"/>
+			<point x="935.6203613281" y="466.4799804688" type="line"/>
+			<point x="389.0736083984" y="463.6281738281" type="line"/>
+			<point x="389.0736083984" y="574.0889892578" type="line"/>
 		</contour>
 	</outline>
-	<anchor name="bottom" x="496" y="0"/>
-	<anchor name="top" x="522" y="1000"/>
+	<anchor name="bottom" x="499" y="0"/>
+	<anchor name="top" x="525" y="1000"/>
 </glyph>

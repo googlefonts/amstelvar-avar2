@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorntilde" format="2">
 	<unicode hex="1EEE"/>
-	<advance width="2223"/>
+	<advance width="2265"/>
 	<outline>
-		<component base="Uhorn"/>
-		<component base="tildecomb.case" xOffset="717" yOffset="34"/>
+		<component base="hornU"/>
+		<component base="horncomb.case" xOffset="2138.661921054"/>
+		<component base="tildecomb.case" xOffset="1401.7695817618"/>
 	</outline>
 </glyph>

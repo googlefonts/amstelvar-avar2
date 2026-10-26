@@ -3,8 +3,6 @@
 	<advance width="1430"/>
 	<outline>
 		<contour>
-			<point x="428" y="-21"/>
-			<point x="96" y="227"/>
 			<point x="96" y="464" type="qcurve" smooth="yes"/>
 			<point x="96" y="723"/>
 			<point x="645" y="1187"/>
@@ -35,6 +33,8 @@
 			<point x="1369" y="220"/>
 			<point x="1034" y="-21"/>
 			<point x="746" y="-21" type="qcurve" smooth="yes"/>
+			<point x="428" y="-21"/>
+			<point x="96" y="227"/>
 		</contour>
 	</outline>
 </glyph>

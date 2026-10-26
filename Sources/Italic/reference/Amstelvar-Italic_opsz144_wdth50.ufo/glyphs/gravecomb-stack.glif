@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb-stack" format="2">
+	<outline>
+		<contour>
+			<point x="-26" y="1282" type="line" smooth="yes"/>
+			<point x="-40" y="1295"/>
+			<point x="-56" y="1328"/>
+			<point x="-56" y="1342" type="qcurve" smooth="yes"/>
+			<point x="-56" y="1365"/>
+			<point x="-21" y="1395"/>
+			<point x="-6" y="1395" type="qcurve" smooth="yes"/>
+			<point x="16" y="1395"/>
+			<point x="54" y="1368"/>
+			<point x="62" y="1352" type="qcurve" smooth="yes"/>
+			<point x="187" y="1132" type="line"/>
+			<point x="167" y="1115" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="159" y="1561"/>
+	<anchor name="_top" x="60" y="1052"/>
+	<anchor name="_topright" x="60" y="1052"/>
+	<anchor name="_topleft" x="60" y="1052"/>
+</glyph>

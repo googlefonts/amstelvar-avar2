@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecyr" format="2">
+	<unicode hex="042D"/>
 	<advance width="748"/>
 	<outline>
 		<contour>
@@ -49,4 +50,6 @@
 			<point x="336" y="769" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="286" y="0"/>
+	<anchor name="top" x="500" y="1500"/>
 </glyph>

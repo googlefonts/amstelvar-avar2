@@ -1,59 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ef" format="2">
 	<unicode hex="0424"/>
-	<advance width="1289"/>
+	<advance width="1440"/>
 	<outline>
-		<contour>
-			<point x="293" y="-25" type="line"/>
-			<point x="312" y="77" type="line"/>
-			<point x="512" y="102" type="line"/>
-			<point x="545" y="265" type="line"/>
-			<point x="550" y="291" type="line"/>
-			<point x="643" y="754" type="line"/>
-			<point x="733" y="1215" type="line"/>
-			<point x="738" y="1242" type="line"/>
-			<point x="766" y="1388" type="line"/>
-			<point x="559" y="1411" type="line"/>
-			<point x="572" y="1525" type="line"/>
-			<point x="997" y="1525" type="line"/>
-			<point x="974" y="1411" type="line"/>
-			<point x="775" y="1388" type="line"/>
-			<point x="745" y="1239" type="line"/>
-			<point x="739" y="1210" type="line"/>
-			<point x="648" y="754" type="line"/>
-			<point x="556" y="284" type="line"/>
-			<point x="550" y="255" type="line"/>
-			<point x="521" y="103" type="line"/>
-			<point x="727" y="77" type="line"/>
-			<point x="708" y="-25" type="line"/>
-		</contour>
-		<contour>
-			<point x="537" y="210" type="qcurve" smooth="yes"/>
-			<point x="289" y="210"/>
-			<point x="70" y="455"/>
-			<point x="70" y="658" type="qcurve" smooth="yes"/>
-			<point x="70" y="926"/>
-			<point x="395" y="1286"/>
-			<point x="750" y="1285" type="qcurve" smooth="yes"/>
-			<point x="999" y="1285"/>
-			<point x="1219" y="1043"/>
-			<point x="1219" y="840" type="qcurve" smooth="yes"/>
-			<point x="1219" y="572"/>
-			<point x="894" y="209"/>
-		</contour>
-		<contour>
-			<point x="561" y="327" type="qcurve" smooth="yes"/>
-			<point x="886" y="323"/>
-			<point x="1207" y="587"/>
-			<point x="1207" y="826" type="qcurve" smooth="yes"/>
-			<point x="1207" y="984"/>
-			<point x="1009" y="1167"/>
-			<point x="727" y="1171" type="qcurve" smooth="yes"/>
-			<point x="403" y="1175"/>
-			<point x="82" y="911"/>
-			<point x="82" y="672" type="qcurve" smooth="yes"/>
-			<point x="82" y="514"/>
-			<point x="280" y="331"/>
-		</contour>
+		<component base="Phi"/>
 	</outline>
 </glyph>

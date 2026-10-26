@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb-stack.case" format="2">
-	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="-614" y="1953.2928571429" type="qcurve" smooth="yes"/>
+			<point x="-614" y="2020.8642857143"/>
+			<point x="-508.4285714286" y="2129.8642857143"/>
+			<point x="-417.8571428571" y="2129.8642857143" type="qcurve" smooth="yes"/>
+			<point x="-332.8571428571" y="2129.8642857143"/>
+			<point x="-161.4285714286" y="1919.15"/>
+			<point x="-104.9035714286" y="1837.6" type="qcurve" smooth="yes"/>
+			<point x="-54.3535714286" y="1762.3678571429" type="line"/>
+			<point x="-133.8285714286" y="1680.2928571429" type="line"/>
+			<point x="-386.8035714286" y="1747.6321428572" type="line" smooth="yes"/>
+			<point x="-479.2857142857" y="1777.5035714286"/>
+			<point x="-614" y="1862.2464285714"/>
+		</contour>
+		<contour>
+			<point x="-234.2107142857" y="1953.2928571429" type="qcurve" smooth="yes"/>
+			<point x="-234.2107142857" y="2020.8642857143"/>
+			<point x="-128.6392857143" y="2129.8642857143"/>
+			<point x="-37.2107142857" y="2129.8642857143" type="qcurve" smooth="yes"/>
+			<point x="46.9321428571" y="2129.8642857143"/>
+			<point x="218.4285714286" y="1919.15"/>
+			<point x="274.9535714286" y="1837.6" type="qcurve" smooth="yes"/>
+			<point x="326.2928571429" y="1762.3678571429" type="line"/>
+			<point x="246.8178571429" y="1680.2928571429" type="line"/>
+			<point x="-7.0142857143" y="1747.6321428572" type="line" smooth="yes"/>
+			<point x="-99.4964285714" y="1777.5035714286"/>
+			<point x="-234.2107142857" y="1862.2464285714"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1500"/>
+	<anchor name="top" x="0" y="1994"/>
 </glyph>

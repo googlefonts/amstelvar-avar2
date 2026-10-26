@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb" format="2">
 	<unicode hex="0306"/>
+	<advance width="584"/>
 	<outline>
 		<contour>
-			<point x="356" y="1585" type="qcurve"/>
-			<point x="446" y="1541" type="line"/>
-			<point x="417" y="1420"/>
-			<point x="197" y="1201"/>
-			<point x="1" y="1201" type="qcurve" smooth="yes"/>
-			<point x="-195" y="1201"/>
-			<point x="-414" y="1396"/>
-			<point x="-446" y="1538" type="qcurve"/>
-			<point x="-350" y="1586" type="line"/>
-			<point x="-296" y="1498"/>
-			<point x="-131" y="1389"/>
-			<point x="2" y="1391" type="qcurve" smooth="yes"/>
-			<point x="142" y="1389"/>
-			<point x="309" y="1500"/>
+			<point x="356.0225316196" y="1585.0004441282" type="qcurve"/>
+			<point x="446.0243574798" y="1540.9992351126" type="line"/>
+			<point x="417.024332806" y="1419.9995065243"/>
+			<point x="197.0236666137" y="1201"/>
+			<point x="1.0232718331" y="1201" type="qcurve" smooth="yes"/>
+			<point x="-194.9771229475" y="1201"/>
+			<point x="-413.9777644659" y="1395.9995558718"/>
+			<point x="-445.9778138135" y="1537.9992597864" type="qcurve"/>
+			<point x="-349.9759632795" y="1586.0005428233" type="line"/>
+			<point x="-295.9760373008" y="1520.0003947806"/>
+			<point x="-130.9760866484" y="1451.5625"/>
+			<point x="2.0232718331" y="1454.25" type="qcurve" smooth="yes"/>
+			<point x="142.0227043361" y="1451.5625986951"/>
+			<point x="309.0226056409" y="1521.3127960854"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="0" y="1050"/>
-	<anchor name="top" x="0" y="1556"/>
+	<anchor name="_top" x="291.5714285714" y="1000"/>
+	<anchor name="top" x="291.5714285714" y="1464"/>
 </glyph>

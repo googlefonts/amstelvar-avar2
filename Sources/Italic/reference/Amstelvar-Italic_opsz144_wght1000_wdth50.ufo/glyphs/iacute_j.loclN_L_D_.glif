@@ -2,7 +2,9 @@
 <glyph name="iacute_j.loclNLD" format="2">
 	<advance width="1252"/>
 	<outline>
-		<component base="iacute"/>
-		<component base="jacute.loclNLD" xOffset="656"/>
+		<component base="idotless"/>
+		<component base="acutecomb" xOffset="387"/>
+		<component base="jdotless" xOffset="656"/>
+		<component base="acutecomb" xOffset="1032"/>
 	</outline>
 </glyph>
